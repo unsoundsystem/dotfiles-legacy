@@ -1,0 +1,31 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'Shougo/unite.vim'
+
+[[plugins]]
+repo = 'roxma/nvim-yarp'
+
+[[plugins]]
+repo = 'roxma/vim-hug-neovim-rpc'
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+hook_add ='nn <silent><C-e> :NERDTreeToggle<CR>'
+
+[[plugins]]
+repo = 'scrooloose/nerdcommenter'
+
+[[plugins]]
+repo = 'tomasr/molokai'
+
+#[[plugins]]
+#repo = 'powerline/powerline'
+#rtp = 'powerline/bindings/vim/'
+
+#lazy plugins
+[[plugins]]
+repo = 'cespare/vim-toml'
+on_ft = 'toml'
+

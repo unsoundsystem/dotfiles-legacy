@@ -1,0 +1,1553 @@
+#######
+LanguageClient 0.1.146 
+#######
+18:36:58 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["[!!get(g:, 'LanguageClient_autoStart', 1), s:GetVar('LanguageClient_serverCommands', {}), get(g:, 'LanguageClient_selectionUI', v:null), get(g:, 'LanguageClient_trace', v:null), expand(get(g:, 'LanguageClient_settingsPath', '.vim/settings.json')), !!get(g:, 'LanguageClient_loadSettings', 1), get(g:, 'LanguageClient_rootMarkers', v:null), get(g:, 'LanguageClient_changeThrottle', v:null), get(g:, 'LanguageClient_waitOutputTimeout', v:null), !!get(g:, 'LanguageClient_diagnosticsEnable', 1), get(g:, 'LanguageClient_diagnosticsList', 'Quickfix'), get(g:, 'LanguageClient_diagnosticsDisplay', {}), get(g:, 'LanguageClient_windowLogMessageLevel', 'Warning'), get(g:, 'LanguageClient_hoverPreview', 'Auto'), get(g:, 'LanguageClient_completionPreferTextEdit', 0), has('nvim')]"],"id":21}
+18:36:58 INFO reader-None src/rpcclient.rs:169 <= None {"id": 20, "jsonrpc": "2.0", "result": [1, {"c": ["cquery", "--log-file=/tmp/cq.log"], "julia": ["/usr/bin/julia", "--startup-file=no", "--history-file=no", "-e", "       using LanguageServer;\tusing Pkg;\timport StaticLint;\timport SymbolServer;\tenv_path = dirname(Pkg.Types.Context().env.project_file);\tdebug =false;\tserver = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, \"\", Dict());       server.runlinter = true;       run(server);   "], "sh": ["bash-language-server", "start"], "cpp": ["cquery", "--log-file=/tmp/cq.log"], "python": ["pyls"]}, null, null, "/home/sinai/.config/nvim/settings.json", 1, null, null, null, 1, "Quickfix", {}, "Warning", "Auto", 0, 1]}
+18:36:58 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["[get(g:, 'LanguageClient_diagnosticsSignsMax', v:null), get(g:, 'LanguageClient_documentHighlightDisplay', {}), !!s:GetVar('LanguageClient_selectionUI_autoOpen', 1), s:useVirtualText(), !!s:GetVar('LanguageClient_echoProjectRoot', 1)]"],"id":22}
+18:36:58 INFO reader-None src/rpcclient.rs:169 <= None {"id": 21, "jsonrpc": "2.0", "result": [1, {"c": ["cquery", "--log-file=/tmp/cq.log"], "julia": ["/usr/bin/julia", "--startup-file=no", "--history-file=no", "-e", "       using LanguageServer;\tusing Pkg;\timport StaticLint;\timport SymbolServer;\tenv_path = dirname(Pkg.Types.Context().env.project_file);\tdebug =false;\tserver = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, \"\", Dict());       server.runlinter = true;       run(server);   "], "sh": ["bash-language-server", "start"], "cpp": ["cquery", "--log-file=/tmp/cq.log"], "python": ["pyls"]}, null, null, "/home/sinai/.config/nvim/settings.json", 1, null, null, null, 1, "Quickfix", {}, "Warning", "Auto", 0, 1]}
+18:36:58 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["[get(g:, 'LanguageClient_diagnosticsSignsMax', v:null), get(g:, 'LanguageClient_documentHighlightDisplay', {}), !!s:GetVar('LanguageClient_selectionUI_autoOpen', 1), s:useVirtualText(), !!s:GetVar('LanguageClient_echoProjectRoot', 1)]"],"id":23}
+18:36:58 INFO reader-None src/rpcclient.rs:169 <= None {"id": 22, "jsonrpc": "2.0", "result": [null, {}, 1, 1, 1]}
+18:36:58 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["get(g:, 'loaded_fzf')"],"id":24}
+18:36:58 INFO reader-None src/rpcclient.rs:169 <= None {"id": 23, "jsonrpc": "2.0", "result": [null, {}, 1, 1, 1]}
+18:36:58 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["get(g:, 'loaded_fzf')"],"id":25}
+18:36:58 INFO reader-None src/rpcclient.rs:169 <= None {"id": 24, "jsonrpc": "2.0", "result": 1}
+18:36:58 DEBUG unnamed src/language_client.rs:41 state.serverCommands.cpp: null ==> ["cquery","--log-file=/tmp/cq.log"]
+18:36:58 DEBUG unnamed src/language_client.rs:41 state.serverCommands.julia: null ==> ["/usr/bin/julia","--startup-file=no","--history-file=no","-e","       using LanguageServer;\tusing Pkg;\timport StaticLint;\timport SymbolServer;\tenv_path = dirname(Pkg.Types.Context().env.project_file);\tdebug =false;\tserver = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, \"\", Dict());       server.runlinter = true;       run(server);   "]
+18:36:58 DEBUG unnamed src/language_client.rs:41 state.serverCommands.c: null ==> ["cquery","--log-file=/tmp/cq.log"]
+18:36:58 DEBUG unnamed src/language_client.rs:41 state.serverCommands.sh: null ==> ["bash-language-server","start"]
+18:36:58 DEBUG unnamed src/language_client.rs:41 state.loggingLevel: "WARN" ==> "DEBUG"
+18:36:58 DEBUG unnamed src/language_client.rs:41 state.serverCommands.python: null ==> ["pyls"]
+18:36:58 DEBUG unnamed src/language_client.rs:41 state.settingsPath: ".vim/settings.json" ==> "/home/sinai/.config/nvim/settings.json"
+18:36:58 DEBUG unnamed src/language_client.rs:41 state.loggingFile: null ==> "/home/sinai/.config/nvim/LanguageClient.log"
+18:36:58 INFO unnamed src/language_server_protocol.rs:220 End sync settings
+18:36:58 INFO unnamed src/language_server_protocol.rs:2715 settings synced
+18:36:58 WARN unnamed src/language_server_protocol.rs:2116 Failed to start language server automatically. No language server commands found for filetype: lisp
+18:36:58 INFO unnamed src/language_server_protocol.rs:2121 End languageClient/handleFileType
+18:36:58 INFO reader-None src/rpcclient.rs:169 <= None {"id": 25, "jsonrpc": "2.0", "result": 1}
+18:36:58 INFO unnamed src/language_server_protocol.rs:220 End sync settings
+18:36:58 INFO unnamed src/language_server_protocol.rs:2715 settings synced
+18:36:58 INFO unnamed src/language_server_protocol.rs:2741 Project root: /home/sinai
+18:36:58 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"s:EchomsgEllipsis","params":["Project root: /home/sinai"]}
+18:36:58 DEBUG unnamed src/language_client.rs:41 state.roots.julia: null ==> "/home/sinai"
+18:36:58 INFO unnamed src/language_server_protocol.rs:2818 End languageClient/startServer
+18:36:58 INFO unnamed src/language_server_protocol.rs:239 Defining signs
+18:36:58 INFO unnamed src/language_server_protocol.rs:880 Begin initialize
+18:36:58 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"s:command","params":["sign define LanguageClientWarning text=⚠ texthl=ALEWarningSign","sign define LanguageClientHint text=➤ texthl=ALEInfoSign","sign define LanguageClientError text=✖ texthl=ALEErrorSign","sign define LanguageClientInformation text=ℹ texthl=ALEInfoSign"]}
+18:36:58 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["s:hasSnippetSupport()"],"id":26}
+18:36:58 INFO reader-None src/rpcclient.rs:169 <= None {"id": 26, "jsonrpc": "2.0", "result": 0}
+18:36:58 INFO writer-Some("julia") src/rpcclient.rs:215 => Some("julia") {"jsonrpc":"2.0","method":"initialize","params":{"capabilities":{"textDocument":{"colorProvider":null,"completion":{"completionItem":{"snippetSupport":false}},"signatureHelp":{"signatureInformation":{"parameterInformation":{"labelOffsetSupport":true}}}},"workspace":{"applyEdit":true,"didChangeWatchedFiles":{"dynamicRegistration":true}}},"initializationOptions":{"cacheDirectory":"/tmp/cquery"},"processId":2066,"rootPath":"/home/sinai","rootUri":"file:///home/sinai","trace":"off"},"id":1}
+18:37:00 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:00 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:00 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:00 INFO unnamed src/language_server_protocol.rs:1654 Not opened yet. Switching to didOpen.
+18:37:00 INFO unnamed src/language_server_protocol.rs:1611 Begin textDocument/didOpen
+18:37:00 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":27}
+18:37:00 INFO reader-None src/rpcclient.rs:169 <= None {"id": 27, "jsonrpc": "2.0", "result": ["j", ""]}
+18:37:00 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl: null ==> {"languageId":"julia","text":"j\n","uri":"file:///home/sinai/Scripts/osjl/test.jl","version":0}
+18:37:00 INFO unnamed src/language_server_protocol.rs:1645 End textDocument/didOpen
+18:37:00 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:00 INFO writer-Some("julia") src/rpcclient.rs:215 => Some("julia") {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"languageId":"julia","text":"j\n","uri":"file:///home/sinai/Scripts/osjl/test.jl","version":0}}}
+18:37:00 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"s:command","params":["setlocal omnifunc=LanguageClient#complete"]}
+18:37:00 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"setbufvar","params":["/home/sinai/Scripts/osjl/test.jl","LanguageClient_projectRoot","/home/sinai"]}
+18:37:00 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"s:ExecuteAutocmd","params":["LanguageClientTextDocumentDidOpenPost"]}
+18:37:00 INFO reader-None src/rpcclient.rs:169 <= None {"id": 1, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 1, "handle": false, "languageId": "julia", "complete_position": 0, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:00 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:00 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:00 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":28}
+18:37:00 INFO reader-None src/rpcclient.rs:169 <= None {"id": 28, "jsonrpc": "2.0", "result": {"character": 1, "line": 0}}
+18:37:00 INFO writer-Some("julia") src/rpcclient.rs:215 => Some("julia") {"jsonrpc":"2.0","method":"textDocument/completion","params":{"position":{"character":1,"line":0},"textDocument":{"uri":"file:///home/sinai/Scripts/osjl/test.jl"}},"id":2}
+18:37:00 ERROR reader-Some("julia") src/rpcclient.rs:35 Thread reader-Some("julia") exited with error: ErrorMessage { msg: "Unable to read from language server" }
+18:37:00 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:00 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:00 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:00 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":29}
+18:37:00 INFO reader-None src/rpcclient.rs:169 <= None {"id": 29, "jsonrpc": "2.0", "result": ["ju", ""]}
+18:37:00 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 0 ==> 1
+18:37:00 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "j\n" ==> "ju\n"
+18:37:00 INFO unnamed src/language_server_protocol.rs:1705 End textDocument/didChange
+18:37:00 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:00 INFO writer-Some("julia") src/rpcclient.rs:215 => Some("julia") {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"contentChanges":[{"text":"ju\n"}],"textDocument":{"uri":"file:///home/sinai/Scripts/osjl/test.jl","version":1}}}
+18:37:00 ERROR writer-Some("julia") src/rpcclient.rs:46 Thread writer-Some("julia") exited with error: Os { code: 32, kind: BrokenPipe, message: "Broken pipe" }
+18:37:00 INFO reader-None src/rpcclient.rs:169 <= None {"id": 2, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 2, "handle": false, "languageId": "julia", "complete_position": 0, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:00 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:00 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:00 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":30}
+18:37:00 INFO reader-None src/rpcclient.rs:169 <= None {"id": 30, "jsonrpc": "2.0", "result": {"character": 2, "line": 0}}
+18:37:00 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":2,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":2}
+
+Error: "SendError(..)"
+18:37:00 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":2}
+18:37:00 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:00 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:00 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:00 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":31}
+18:37:00 INFO reader-None src/rpcclient.rs:169 <= None {"id": 31, "jsonrpc": "2.0", "result": ["ju", ""]}
+18:37:00 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:00 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:01 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:01 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:01 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:01 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":32}
+18:37:01 INFO reader-None src/rpcclient.rs:169 <= None {"id": 32, "jsonrpc": "2.0", "result": ["jul", ""]}
+18:37:01 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 1 ==> 2
+18:37:01 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "ju\n" ==> "jul\n"
+18:37:01 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:01 INFO reader-None src/rpcclient.rs:169 <= None {"id": 3, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 3, "handle": false, "languageId": "julia", "complete_position": 0, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:01 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:01 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:01 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":33}
+18:37:01 INFO reader-None src/rpcclient.rs:169 <= None {"id": 33, "jsonrpc": "2.0", "result": {"character": 3, "line": 0}}
+18:37:01 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":3,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":3}
+
+Error: "SendError(..)"
+18:37:01 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":3}
+18:37:01 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:01 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:01 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:01 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":34}
+18:37:01 INFO reader-None src/rpcclient.rs:169 <= None {"id": 34, "jsonrpc": "2.0", "result": ["juli", ""]}
+18:37:01 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 2 ==> 3
+18:37:01 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "jul\n" ==> "juli\n"
+18:37:01 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:01 INFO reader-None src/rpcclient.rs:169 <= None {"id": 4, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 4, "handle": false, "languageId": "julia", "complete_position": 0, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:01 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:01 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:01 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":35}
+18:37:01 INFO reader-None src/rpcclient.rs:169 <= None {"id": 35, "jsonrpc": "2.0", "result": {"character": 4, "line": 0}}
+18:37:01 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":4,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":4}
+
+Error: "SendError(..)"
+18:37:01 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":4}
+18:37:01 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:01 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:01 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:01 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":36}
+18:37:01 INFO reader-None src/rpcclient.rs:169 <= None {"id": 36, "jsonrpc": "2.0", "result": ["julia", ""]}
+18:37:01 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 3 ==> 4
+18:37:01 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "juli\n" ==> "julia\n"
+18:37:01 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:01 INFO reader-None src/rpcclient.rs:169 <= None {"id": 5, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 5, "handle": false, "languageId": "julia", "complete_position": 0, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:01 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:01 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:01 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":37}
+18:37:01 INFO reader-None src/rpcclient.rs:169 <= None {"id": 37, "jsonrpc": "2.0", "result": {"character": 5, "line": 0}}
+18:37:01 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":5,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":5}
+
+Error: "SendError(..)"
+18:37:01 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":5}
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"id": 6, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 5, "handle": false, "languageId": "julia", "complete_position": 0, "line": 0, "text": ["julia", ""], "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:02 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:02 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:02 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":38}
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"id": 38, "jsonrpc": "2.0", "result": {"character": 0, "line": 0}}
+18:37:02 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":5,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0,"text":["julia",""]},"id":6}
+
+Error: "SendError(..)"
+18:37:02 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":6}
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:02 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:02 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:02 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":39}
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"id": 39, "jsonrpc": "2.0", "result": ["julia", ""]}
+18:37:02 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:02 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:02 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:02 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:02 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":40}
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"id": 40, "jsonrpc": "2.0", "result": ["juli", ""]}
+18:37:02 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 4 ==> 5
+18:37:02 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "julia\n" ==> "juli\n"
+18:37:02 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"id": 7, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 4, "handle": false, "languageId": "julia", "complete_position": 0, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:02 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:02 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:02 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":41}
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"id": 41, "jsonrpc": "2.0", "result": {"character": 4, "line": 0}}
+18:37:02 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":4,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":7}
+
+Error: "SendError(..)"
+18:37:02 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":7}
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:02 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:02 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:02 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":42}
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"id": 42, "jsonrpc": "2.0", "result": ["jul", ""]}
+18:37:02 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "juli\n" ==> "jul\n"
+18:37:02 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 5 ==> 6
+18:37:02 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"id": 8, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 3, "handle": false, "languageId": "julia", "complete_position": 0, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:02 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:02 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:02 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":43}
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"id": 43, "jsonrpc": "2.0", "result": {"character": 3, "line": 0}}
+18:37:02 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":3,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":8}
+
+Error: "SendError(..)"
+18:37:02 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":8}
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:02 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:02 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:02 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":44}
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"id": 44, "jsonrpc": "2.0", "result": ["ju", ""]}
+18:37:02 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 6 ==> 7
+18:37:02 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "jul\n" ==> "ju\n"
+18:37:02 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"id": 9, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 2, "handle": false, "languageId": "julia", "complete_position": 0, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:02 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:02 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:02 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":45}
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"id": 45, "jsonrpc": "2.0", "result": {"character": 2, "line": 0}}
+18:37:02 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":2,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":9}
+
+Error: "SendError(..)"
+18:37:02 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":9}
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:02 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:02 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:02 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":46}
+18:37:02 INFO reader-None src/rpcclient.rs:169 <= None {"id": 46, "jsonrpc": "2.0", "result": ["ju", ""]}
+18:37:02 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:02 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:03 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:03 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:03 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:03 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":47}
+18:37:03 INFO reader-None src/rpcclient.rs:169 <= None {"id": 47, "jsonrpc": "2.0", "result": ["j", ""]}
+18:37:03 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 7 ==> 8
+18:37:03 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "ju\n" ==> "j\n"
+18:37:03 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:03 INFO reader-None src/rpcclient.rs:169 <= None {"id": 10, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 1, "handle": false, "languageId": "julia", "complete_position": 0, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:03 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:03 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:03 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":48}
+18:37:03 INFO reader-None src/rpcclient.rs:169 <= None {"id": 48, "jsonrpc": "2.0", "result": {"character": 1, "line": 0}}
+18:37:03 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":1,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":10}
+
+Error: "SendError(..)"
+18:37:03 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":10}
+18:37:03 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:03 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:03 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:03 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":49}
+18:37:03 INFO reader-None src/rpcclient.rs:169 <= None {"id": 49, "jsonrpc": "2.0", "result": [""]}
+18:37:03 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "j\n" ==> ""
+18:37:03 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 8 ==> 9
+18:37:03 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:05 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:05 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":50}
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 50, "jsonrpc": "2.0", "result": ["u", ""]}
+18:37:05 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 9 ==> 10
+18:37:05 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "" ==> "u\n"
+18:37:05 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 11, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 1, "handle": false, "languageId": "julia", "complete_position": 0, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:05 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:05 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":51}
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 51, "jsonrpc": "2.0", "result": {"character": 1, "line": 0}}
+18:37:05 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":1,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":11}
+
+Error: "SendError(..)"
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":11}
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:05 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:05 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":52}
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 52, "jsonrpc": "2.0", "result": ["us", ""]}
+18:37:05 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "u\n" ==> "us\n"
+18:37:05 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 10 ==> 11
+18:37:05 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 12, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 2, "handle": false, "languageId": "julia", "complete_position": 0, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:05 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:05 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":53}
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 53, "jsonrpc": "2.0", "result": {"character": 2, "line": 0}}
+18:37:05 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":2,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":12}
+
+Error: "SendError(..)"
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":12}
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:05 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:05 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":54}
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 54, "jsonrpc": "2.0", "result": ["us", ""]}
+18:37:05 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:05 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:05 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:05 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":55}
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 55, "jsonrpc": "2.0", "result": ["usi", ""]}
+18:37:05 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 11 ==> 12
+18:37:05 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "us\n" ==> "usi\n"
+18:37:05 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 13, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 3, "handle": false, "languageId": "julia", "complete_position": 0, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:05 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:05 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":56}
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 56, "jsonrpc": "2.0", "result": {"character": 3, "line": 0}}
+18:37:05 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":3,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":13}
+
+Error: "SendError(..)"
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":13}
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:05 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:05 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":57}
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 57, "jsonrpc": "2.0", "result": ["usin", ""]}
+18:37:05 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "usi\n" ==> "usin\n"
+18:37:05 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 12 ==> 13
+18:37:05 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 14, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 4, "handle": false, "languageId": "julia", "complete_position": 0, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:05 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:05 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":58}
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 58, "jsonrpc": "2.0", "result": {"character": 4, "line": 0}}
+18:37:05 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":4,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":14}
+
+Error: "SendError(..)"
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":14}
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:05 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:05 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":59}
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 59, "jsonrpc": "2.0", "result": ["using", ""]}
+18:37:05 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "usin\n" ==> "using\n"
+18:37:05 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 13 ==> 14
+18:37:05 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 15, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 5, "handle": false, "languageId": "julia", "complete_position": 0, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:05 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:05 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":60}
+18:37:05 INFO reader-None src/rpcclient.rs:169 <= None {"id": 60, "jsonrpc": "2.0", "result": {"character": 5, "line": 0}}
+18:37:05 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":5,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":15}
+
+Error: "SendError(..)"
+18:37:05 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":15}
+18:37:06 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:06 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:06 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:06 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":61}
+18:37:06 INFO reader-None src/rpcclient.rs:169 <= None {"id": 61, "jsonrpc": "2.0", "result": ["using ", ""]}
+18:37:06 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 14 ==> 15
+18:37:06 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using\n" ==> "using \n"
+18:37:06 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:10 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:10 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:10 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:10 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":62}
+18:37:10 INFO reader-None src/rpcclient.rs:169 <= None {"id": 62, "jsonrpc": "2.0", "result": ["using L", ""]}
+18:37:10 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 15 ==> 16
+18:37:10 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using \n" ==> "using L\n"
+18:37:10 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:10 INFO reader-None src/rpcclient.rs:169 <= None {"id": 16, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 7, "handle": false, "languageId": "julia", "complete_position": 6, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:10 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:10 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:10 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":63}
+18:37:10 INFO reader-None src/rpcclient.rs:169 <= None {"id": 63, "jsonrpc": "2.0", "result": {"character": 7, "line": 0}}
+18:37:10 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":7,"complete_position":6,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":16}
+
+Error: "SendError(..)"
+18:37:10 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":16}
+18:37:10 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:10 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:10 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:10 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":64}
+18:37:10 INFO reader-None src/rpcclient.rs:169 <= None {"id": 64, "jsonrpc": "2.0", "result": ["using LL", ""]}
+18:37:10 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 16 ==> 17
+18:37:10 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using L\n" ==> "using LL\n"
+18:37:10 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:10 INFO reader-None src/rpcclient.rs:169 <= None {"id": 17, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 8, "handle": false, "languageId": "julia", "complete_position": 6, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:10 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:10 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:10 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":65}
+18:37:10 INFO reader-None src/rpcclient.rs:169 <= None {"id": 65, "jsonrpc": "2.0", "result": {"character": 8, "line": 0}}
+18:37:10 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":8,"complete_position":6,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":17}
+
+Error: "SendError(..)"
+18:37:10 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":17}
+18:37:10 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:10 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:10 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:10 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":66}
+18:37:10 INFO reader-None src/rpcclient.rs:169 <= None {"id": 66, "jsonrpc": "2.0", "result": ["using LL", ""]}
+18:37:10 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:10 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:11 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:11 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:11 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:11 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":67}
+18:37:11 INFO reader-None src/rpcclient.rs:169 <= None {"id": 67, "jsonrpc": "2.0", "result": ["using LLV", ""]}
+18:37:11 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LL\n" ==> "using LLV\n"
+18:37:11 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 17 ==> 18
+18:37:11 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:11 INFO reader-None src/rpcclient.rs:169 <= None {"id": 18, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 9, "handle": false, "languageId": "julia", "complete_position": 6, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:11 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:11 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:11 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":68}
+18:37:11 INFO reader-None src/rpcclient.rs:169 <= None {"id": 68, "jsonrpc": "2.0", "result": {"character": 9, "line": 0}}
+18:37:11 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":9,"complete_position":6,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":18}
+
+Error: "SendError(..)"
+18:37:11 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":18}
+18:37:11 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:11 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:11 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:11 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":69}
+18:37:11 INFO reader-None src/rpcclient.rs:169 <= None {"id": 69, "jsonrpc": "2.0", "result": ["using LLVM", ""]}
+18:37:11 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 18 ==> 19
+18:37:11 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLV\n" ==> "using LLVM\n"
+18:37:11 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:11 INFO reader-None src/rpcclient.rs:169 <= None {"id": 19, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 10, "handle": false, "languageId": "julia", "complete_position": 6, "line": 0, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:11 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:11 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:11 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":70}
+18:37:11 INFO reader-None src/rpcclient.rs:169 <= None {"id": 70, "jsonrpc": "2.0", "result": {"character": 10, "line": 0}}
+18:37:11 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":10,"complete_position":6,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":19}
+
+Error: "SendError(..)"
+18:37:11 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":19}
+18:37:11 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:11 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:11 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:11 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":71}
+18:37:11 INFO reader-None src/rpcclient.rs:169 <= None {"id": 71, "jsonrpc": "2.0", "result": ["using LLVM", ""]}
+18:37:11 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:11 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:13 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:13 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:13 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":72}
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"id": 72, "jsonrpc": "2.0", "result": ["using LLVM", "u", ""]}
+18:37:13 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 19 ==> 20
+18:37:13 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\n" ==> "using LLVM\nu\n"
+18:37:13 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"id": 20, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 1, "handle": false, "languageId": "julia", "complete_position": 0, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:13 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:13 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:13 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":73}
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"id": 73, "jsonrpc": "2.0", "result": {"character": 1, "line": 1}}
+18:37:13 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":1,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":20}
+
+Error: "SendError(..)"
+18:37:13 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":20}
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:13 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:13 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:13 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":74}
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"id": 74, "jsonrpc": "2.0", "result": ["using LLVM", "us", ""]}
+18:37:13 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 20 ==> 21
+18:37:13 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nu\n" ==> "using LLVM\nus\n"
+18:37:13 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"id": 21, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 2, "handle": false, "languageId": "julia", "complete_position": 0, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:13 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:13 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:13 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":75}
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"id": 75, "jsonrpc": "2.0", "result": {"character": 2, "line": 1}}
+18:37:13 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":2,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":21}
+
+Error: "SendError(..)"
+18:37:13 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":21}
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:13 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:13 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:13 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":76}
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"id": 76, "jsonrpc": "2.0", "result": ["using LLVM", "us", ""]}
+18:37:13 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:13 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:13 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:13 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:13 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":77}
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"id": 77, "jsonrpc": "2.0", "result": ["using LLVM", "usi", ""]}
+18:37:13 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 21 ==> 22
+18:37:13 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nus\n" ==> "using LLVM\nusi\n"
+18:37:13 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"id": 22, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 3, "handle": false, "languageId": "julia", "complete_position": 0, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:13 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:13 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:13 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":78}
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"id": 78, "jsonrpc": "2.0", "result": {"character": 3, "line": 1}}
+18:37:13 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":3,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":22}
+
+Error: "SendError(..)"
+18:37:13 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":22}
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:13 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:13 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:13 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":79}
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"id": 79, "jsonrpc": "2.0", "result": ["using LLVM", "usin", ""]}
+18:37:13 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusi\n" ==> "using LLVM\nusin\n"
+18:37:13 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 22 ==> 23
+18:37:13 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"id": 23, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 4, "handle": false, "languageId": "julia", "complete_position": 0, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:13 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:13 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:13 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":80}
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"id": 80, "jsonrpc": "2.0", "result": {"character": 4, "line": 1}}
+18:37:13 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":4,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":23}
+
+Error: "SendError(..)"
+18:37:13 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":23}
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:13 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:13 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:13 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":81}
+18:37:13 INFO reader-None src/rpcclient.rs:169 <= None {"id": 81, "jsonrpc": "2.0", "result": ["using LLVM", "using", ""]}
+18:37:13 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusin\n" ==> "using LLVM\nusing\n"
+18:37:13 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 23 ==> 24
+18:37:13 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:14 INFO reader-None src/rpcclient.rs:169 <= None {"id": 24, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 5, "handle": false, "languageId": "julia", "complete_position": 0, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:14 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:14 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:14 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":82}
+18:37:14 INFO reader-None src/rpcclient.rs:169 <= None {"id": 82, "jsonrpc": "2.0", "result": {"character": 5, "line": 1}}
+18:37:14 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":5,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":24}
+
+Error: "SendError(..)"
+18:37:14 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":24}
+18:37:14 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:14 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:14 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:14 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":83}
+18:37:14 INFO reader-None src/rpcclient.rs:169 <= None {"id": 83, "jsonrpc": "2.0", "result": ["using LLVM", "using ", ""]}
+18:37:14 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing\n" ==> "using LLVM\nusing \n"
+18:37:14 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 24 ==> 25
+18:37:14 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:15 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:15 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":84}
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 84, "jsonrpc": "2.0", "result": ["using LLVM", "using L", ""]}
+18:37:15 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing \n" ==> "using LLVM\nusing L\n"
+18:37:15 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 25 ==> 26
+18:37:15 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 25, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 7, "handle": false, "languageId": "julia", "complete_position": 6, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:15 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:15 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":85}
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 85, "jsonrpc": "2.0", "result": {"character": 7, "line": 1}}
+18:37:15 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":7,"complete_position":6,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":25}
+
+Error: "SendError(..)"
+18:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":25}
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:15 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:15 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":86}
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 86, "jsonrpc": "2.0", "result": ["using LLVM", "using LL", ""]}
+18:37:15 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing L\n" ==> "using LLVM\nusing LL\n"
+18:37:15 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 26 ==> 27
+18:37:15 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 26, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 8, "handle": false, "languageId": "julia", "complete_position": 6, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:15 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:15 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":87}
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 87, "jsonrpc": "2.0", "result": {"character": 8, "line": 1}}
+18:37:15 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":8,"complete_position":6,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":26}
+
+Error: "SendError(..)"
+18:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":26}
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:15 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:15 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":88}
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 88, "jsonrpc": "2.0", "result": ["using LLVM", "using LL", ""]}
+18:37:15 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:15 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:15 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:15 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":89}
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 89, "jsonrpc": "2.0", "result": ["using LLVM", "using LLV", ""]}
+18:37:15 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LL\n" ==> "using LLVM\nusing LLV\n"
+18:37:15 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 27 ==> 28
+18:37:15 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 27, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 9, "handle": false, "languageId": "julia", "complete_position": 6, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:15 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:15 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":90}
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 90, "jsonrpc": "2.0", "result": {"character": 9, "line": 1}}
+18:37:15 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":9,"complete_position":6,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":27}
+
+Error: "SendError(..)"
+18:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":27}
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:15 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:15 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":91}
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 91, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM", ""]}
+18:37:15 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 28 ==> 29
+18:37:15 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLV\n" ==> "using LLVM\nusing LLVM\n"
+18:37:15 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 28, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 10, "handle": false, "languageId": "julia", "complete_position": 6, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:15 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:15 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":92}
+18:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 92, "jsonrpc": "2.0", "result": {"character": 10, "line": 1}}
+18:37:15 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":10,"complete_position":6,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":28}
+
+Error: "SendError(..)"
+18:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":28}
+18:37:16 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:16 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:16 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:16 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":93}
+18:37:16 INFO reader-None src/rpcclient.rs:169 <= None {"id": 93, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.", ""]}
+18:37:16 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 29 ==> 30
+18:37:16 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM\n" ==> "using LLVM\nusing LLVM.\n"
+18:37:16 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:16 INFO reader-None src/rpcclient.rs:169 <= None {"id": 29, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 11, "handle": false, "languageId": "julia", "complete_position": 11, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:16 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:16 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:16 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":94}
+18:37:16 INFO reader-None src/rpcclient.rs:169 <= None {"id": 94, "jsonrpc": "2.0", "result": {"character": 11, "line": 1}}
+18:37:16 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":11,"complete_position":11,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":29}
+
+Error: "SendError(..)"
+18:37:16 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":29}
+18:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:17 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:17 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:17 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":95}
+18:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"id": 95, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.I", ""]}
+18:37:17 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 30 ==> 31
+18:37:17 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.\n" ==> "using LLVM\nusing LLVM.I\n"
+18:37:17 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"id": 30, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 12, "handle": false, "languageId": "julia", "complete_position": 11, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:17 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:17 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:17 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":96}
+18:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"id": 96, "jsonrpc": "2.0", "result": {"character": 12, "line": 1}}
+18:37:17 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":12,"complete_position":11,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":30}
+
+Error: "SendError(..)"
+18:37:17 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":30}
+18:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:17 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:17 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:17 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":97}
+18:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"id": 97, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.In", ""]}
+18:37:17 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.I\n" ==> "using LLVM\nusing LLVM.In\n"
+18:37:17 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 31 ==> 32
+18:37:17 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"id": 31, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 13, "handle": false, "languageId": "julia", "complete_position": 11, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:17 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:17 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:17 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":98}
+18:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"id": 98, "jsonrpc": "2.0", "result": {"character": 13, "line": 1}}
+18:37:17 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":13,"complete_position":11,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":31}
+
+Error: "SendError(..)"
+18:37:17 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":31}
+18:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:17 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:17 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:17 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":99}
+18:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"id": 99, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.In", ""]}
+18:37:17 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:17 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:18 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:18 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:18 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:18 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":100}
+18:37:18 INFO reader-None src/rpcclient.rs:169 <= None {"id": 100, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Int", ""]}
+18:37:18 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 32 ==> 33
+18:37:18 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.In\n" ==> "using LLVM\nusing LLVM.Int\n"
+18:37:18 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:18 INFO reader-None src/rpcclient.rs:169 <= None {"id": 32, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 14, "handle": false, "languageId": "julia", "complete_position": 11, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:18 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:18 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:18 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":101}
+18:37:18 INFO reader-None src/rpcclient.rs:169 <= None {"id": 101, "jsonrpc": "2.0", "result": {"character": 14, "line": 1}}
+18:37:18 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":14,"complete_position":11,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":32}
+
+Error: "SendError(..)"
+18:37:18 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":32}
+18:37:18 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:18 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:18 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:18 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":102}
+18:37:18 INFO reader-None src/rpcclient.rs:169 <= None {"id": 102, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Intd", ""]}
+18:37:18 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 33 ==> 34
+18:37:18 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Int\n" ==> "using LLVM\nusing LLVM.Intd\n"
+18:37:18 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:18 INFO reader-None src/rpcclient.rs:169 <= None {"id": 33, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 15, "handle": false, "languageId": "julia", "complete_position": 11, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:18 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:18 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:18 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":103}
+18:37:18 INFO reader-None src/rpcclient.rs:169 <= None {"id": 103, "jsonrpc": "2.0", "result": {"character": 15, "line": 1}}
+18:37:18 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":15,"complete_position":11,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":33}
+
+Error: "SendError(..)"
+18:37:18 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":33}
+18:37:19 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:19 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:19 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:19 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":104}
+18:37:19 INFO reader-None src/rpcclient.rs:169 <= None {"id": 104, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Int", ""]}
+18:37:19 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Intd\n" ==> "using LLVM\nusing LLVM.Int\n"
+18:37:19 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 34 ==> 35
+18:37:19 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:19 INFO reader-None src/rpcclient.rs:169 <= None {"id": 34, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 14, "handle": false, "languageId": "julia", "complete_position": 11, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:19 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:19 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:19 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":105}
+18:37:19 INFO reader-None src/rpcclient.rs:169 <= None {"id": 105, "jsonrpc": "2.0", "result": {"character": 14, "line": 1}}
+18:37:19 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":14,"complete_position":11,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":34}
+
+Error: "SendError(..)"
+18:37:19 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":34}
+18:37:19 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:19 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:19 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:19 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":106}
+18:37:20 INFO reader-None src/rpcclient.rs:169 <= None {"id": 106, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Inte", ""]}
+18:37:20 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Int\n" ==> "using LLVM\nusing LLVM.Inte\n"
+18:37:20 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 35 ==> 36
+18:37:20 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:20 INFO reader-None src/rpcclient.rs:169 <= None {"id": 35, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 15, "handle": false, "languageId": "julia", "complete_position": 11, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:20 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:20 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:20 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":107}
+18:37:20 INFO reader-None src/rpcclient.rs:169 <= None {"id": 107, "jsonrpc": "2.0", "result": {"character": 15, "line": 1}}
+18:37:20 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":15,"complete_position":11,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":35}
+
+Error: "SendError(..)"
+18:37:20 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":35}
+18:37:20 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:20 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:20 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:20 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":108}
+18:37:20 INFO reader-None src/rpcclient.rs:169 <= None {"id": 108, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Inter", ""]}
+18:37:20 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Inte\n" ==> "using LLVM\nusing LLVM.Inter\n"
+18:37:20 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 36 ==> 37
+18:37:20 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:20 INFO reader-None src/rpcclient.rs:169 <= None {"id": 36, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 16, "handle": false, "languageId": "julia", "complete_position": 11, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:20 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:20 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:20 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":109}
+18:37:20 INFO reader-None src/rpcclient.rs:169 <= None {"id": 109, "jsonrpc": "2.0", "result": {"character": 16, "line": 1}}
+18:37:20 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":16,"complete_position":11,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":36}
+
+Error: "SendError(..)"
+18:37:20 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":36}
+18:37:21 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:21 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:21 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":110}
+18:37:21 INFO reader-None src/rpcclient.rs:169 <= None {"id": 110, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Intero", ""]}
+18:37:21 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Inter\n" ==> "using LLVM\nusing LLVM.Intero\n"
+18:37:21 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 37 ==> 38
+18:37:21 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:21 INFO reader-None src/rpcclient.rs:169 <= None {"id": 37, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 17, "handle": false, "languageId": "julia", "complete_position": 11, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:21 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:21 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":111}
+18:37:21 INFO reader-None src/rpcclient.rs:169 <= None {"id": 111, "jsonrpc": "2.0", "result": {"character": 17, "line": 1}}
+18:37:21 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":17,"complete_position":11,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":37}
+
+Error: "SendError(..)"
+18:37:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":37}
+18:37:21 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:21 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:21 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":112}
+18:37:21 INFO reader-None src/rpcclient.rs:169 <= None {"id": 112, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", ""]}
+18:37:21 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 38 ==> 39
+18:37:21 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Intero\n" ==> "using LLVM\nusing LLVM.Interop\n"
+18:37:21 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:21 INFO reader-None src/rpcclient.rs:169 <= None {"id": 38, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 18, "handle": false, "languageId": "julia", "complete_position": 11, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:21 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:21 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":113}
+18:37:21 INFO reader-None src/rpcclient.rs:169 <= None {"id": 113, "jsonrpc": "2.0", "result": {"character": 18, "line": 1}}
+18:37:21 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":18,"complete_position":11,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":38}
+
+Error: "SendError(..)"
+18:37:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":38}
+18:37:23 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:23 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:23 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:23 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":114}
+18:37:23 INFO reader-None src/rpcclient.rs:169 <= None {"id": 114, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", ""]}
+18:37:23 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:23 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:24 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:24 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:24 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:24 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":115}
+18:37:24 INFO reader-None src/rpcclient.rs:169 <= None {"id": 115, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "u", ""]}
+18:37:24 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 39 ==> 40
+18:37:24 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n" ==> "using LLVM\nusing LLVM.Interop\nu\n"
+18:37:24 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:24 INFO reader-None src/rpcclient.rs:169 <= None {"id": 39, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 1, "handle": false, "languageId": "julia", "complete_position": 0, "line": 2, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:24 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:24 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:24 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":116}
+18:37:24 INFO reader-None src/rpcclient.rs:169 <= None {"id": 116, "jsonrpc": "2.0", "result": {"character": 1, "line": 2}}
+18:37:24 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":1,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":2},"id":39}
+
+Error: "SendError(..)"
+18:37:24 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":39}
+18:37:27 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:27 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:27 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:27 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":117}
+18:37:27 INFO reader-None src/rpcclient.rs:169 <= None {"id": 117, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", ""]}
+18:37:27 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 40 ==> 41
+18:37:27 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\nu\n" ==> "using LLVM\nusing LLVM.Interop\n"
+18:37:27 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:27 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:27 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:27 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:27 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":118}
+18:37:27 INFO reader-None src/rpcclient.rs:169 <= None {"id": 118, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", ""]}
+18:37:27 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:27 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:27 INFO reader-None src/rpcclient.rs:169 <= None {"id": 40, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 18, "handle": false, "languageId": "julia", "complete_position": 11, "line": 1, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:27 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:27 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:27 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":119}
+18:37:27 INFO reader-None src/rpcclient.rs:169 <= None {"id": 119, "jsonrpc": "2.0", "result": {"character": 18, "line": 1}}
+18:37:27 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":18,"complete_position":11,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":1},"id":40}
+
+Error: "SendError(..)"
+18:37:27 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":40}
+18:37:27 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:27 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:27 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:27 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":120}
+18:37:27 INFO reader-None src/rpcclient.rs:169 <= None {"id": 120, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", ""]}
+18:37:27 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:27 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:30 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:30 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:30 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:30 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":121}
+18:37:30 INFO reader-None src/rpcclient.rs:169 <= None {"id": 121, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", ""]}
+18:37:30 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:30 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:31 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:31 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:31 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:31 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":122}
+18:37:31 INFO reader-None src/rpcclient.rs:169 <= None {"id": 122, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", ""]}
+18:37:31 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n" ==> "using LLVM\nusing LLVM.Interop\n\n"
+18:37:31 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 41 ==> 42
+18:37:31 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:34 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:34 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:34 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:34 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":123}
+18:37:34 INFO reader-None src/rpcclient.rs:169 <= None {"id": 123, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@", ""]}
+18:37:34 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 42 ==> 43
+18:37:34 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n" ==> "using LLVM\nusing LLVM.Interop\n\n@\n"
+18:37:34 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:35 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:35 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:35 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:35 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":124}
+18:37:35 INFO reader-None src/rpcclient.rs:169 <= None {"id": 124, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@a", ""]}
+18:37:35 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@\n" ==> "using LLVM\nusing LLVM.Interop\n\n@a\n"
+18:37:35 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 43 ==> 44
+18:37:35 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:35 INFO reader-None src/rpcclient.rs:169 <= None {"id": 41, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 2, "handle": false, "languageId": "julia", "complete_position": 1, "line": 3, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:35 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:35 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:35 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":125}
+18:37:35 INFO reader-None src/rpcclient.rs:169 <= None {"id": 125, "jsonrpc": "2.0", "result": {"character": 2, "line": 3}}
+18:37:35 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":2,"complete_position":1,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":3},"id":41}
+
+Error: "SendError(..)"
+18:37:35 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":41}
+18:37:35 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:35 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:35 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:35 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":126}
+18:37:35 INFO reader-None src/rpcclient.rs:169 <= None {"id": 126, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@as", ""]}
+18:37:35 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 44 ==> 45
+18:37:35 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@a\n" ==> "using LLVM\nusing LLVM.Interop\n\n@as\n"
+18:37:35 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:35 INFO reader-None src/rpcclient.rs:169 <= None {"id": 42, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 3, "handle": false, "languageId": "julia", "complete_position": 1, "line": 3, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:35 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:35 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:35 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":127}
+18:37:35 INFO reader-None src/rpcclient.rs:169 <= None {"id": 127, "jsonrpc": "2.0", "result": {"character": 3, "line": 3}}
+18:37:35 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":3,"complete_position":1,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":3},"id":42}
+
+Error: "SendError(..)"
+18:37:35 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":42}
+18:37:35 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:35 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:35 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:35 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":128}
+18:37:35 INFO reader-None src/rpcclient.rs:169 <= None {"id": 128, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@as", ""]}
+18:37:35 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:35 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:36 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:36 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:36 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":129}
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"id": 129, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asm", ""]}
+18:37:36 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 45 ==> 46
+18:37:36 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@as\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asm\n"
+18:37:36 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"id": 43, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 4, "handle": false, "languageId": "julia", "complete_position": 1, "line": 3, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:36 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:36 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:36 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":130}
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"id": 130, "jsonrpc": "2.0", "result": {"character": 4, "line": 3}}
+18:37:36 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":4,"complete_position":1,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":3},"id":43}
+
+Error: "SendError(..)"
+18:37:36 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":43}
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:36 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:36 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:36 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":131}
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"id": 131, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmc", ""]}
+18:37:36 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 46 ==> 47
+18:37:36 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asm\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmc\n"
+18:37:36 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"id": 44, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 5, "handle": false, "languageId": "julia", "complete_position": 1, "line": 3, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:36 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:36 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:36 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":132}
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"id": 132, "jsonrpc": "2.0", "result": {"character": 5, "line": 3}}
+18:37:36 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":5,"complete_position":1,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":3},"id":44}
+
+Error: "SendError(..)"
+18:37:36 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":44}
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:36 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:36 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:36 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":133}
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"id": 133, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmca", ""]}
+18:37:36 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 47 ==> 48
+18:37:36 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmc\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmca\n"
+18:37:36 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:36 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:36 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:36 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":134}
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"id": 134, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcal", ""]}
+18:37:36 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 48 ==> 49
+18:37:36 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmca\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcal\n"
+18:37:36 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"id": 45, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 7, "handle": false, "languageId": "julia", "complete_position": 1, "line": 3, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:36 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:36 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:36 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":135}
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"id": 135, "jsonrpc": "2.0", "result": {"character": 7, "line": 3}}
+18:37:36 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":7,"complete_position":1,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":3},"id":45}
+
+Error: "SendError(..)"
+18:37:36 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":45}
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:36 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:36 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:36 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":136}
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"id": 136, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall", ""]}
+18:37:36 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcal\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall\n"
+18:37:36 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 49 ==> 50
+18:37:36 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"id": 46, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 8, "handle": false, "languageId": "julia", "complete_position": 1, "line": 3, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:36 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:36 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:36 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":137}
+18:37:36 INFO reader-None src/rpcclient.rs:169 <= None {"id": 137, "jsonrpc": "2.0", "result": {"character": 8, "line": 3}}
+18:37:36 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":8,"complete_position":1,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":3},"id":46}
+
+Error: "SendError(..)"
+18:37:36 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":46}
+18:37:37 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:37 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:37 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:37 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":138}
+18:37:37 INFO reader-None src/rpcclient.rs:169 <= None {"id": 138, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall ", ""]}
+18:37:37 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 50 ==> 51
+18:37:37 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcall\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall \n"
+18:37:37 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:38 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:38 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:38 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:38 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":139}
+18:37:38 INFO reader-None src/rpcclient.rs:169 <= None {"id": 139, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall H", ""]}
+18:37:38 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 51 ==> 52
+18:37:38 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcall \n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall H\n"
+18:37:38 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:38 INFO reader-None src/rpcclient.rs:169 <= None {"id": 47, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 10, "handle": false, "languageId": "julia", "complete_position": 9, "line": 3, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:38 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:38 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:38 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":140}
+18:37:38 INFO reader-None src/rpcclient.rs:169 <= None {"id": 140, "jsonrpc": "2.0", "result": {"character": 10, "line": 3}}
+18:37:38 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":10,"complete_position":9,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":3},"id":47}
+
+Error: "SendError(..)"
+18:37:38 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":47}
+18:37:39 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:39 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:39 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:39 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":141}
+18:37:39 INFO reader-None src/rpcclient.rs:169 <= None {"id": 141, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall ", ""]}
+18:37:39 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 52 ==> 53
+18:37:39 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcall H\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall \n"
+18:37:39 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:39 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:39 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:39 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:39 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":142}
+18:37:39 INFO reader-None src/rpcclient.rs:169 <= None {"id": 142, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall", ""]}
+18:37:39 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 53 ==> 54
+18:37:39 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcall \n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall\n"
+18:37:39 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:39 INFO reader-None src/rpcclient.rs:169 <= None {"id": 48, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 8, "handle": false, "languageId": "julia", "complete_position": 1, "line": 3, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:39 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:39 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:39 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":143}
+18:37:39 INFO reader-None src/rpcclient.rs:169 <= None {"id": 143, "jsonrpc": "2.0", "result": {"character": 8, "line": 3}}
+18:37:39 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":8,"complete_position":1,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":3},"id":48}
+
+Error: "SendError(..)"
+18:37:39 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":48}
+18:37:39 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:39 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:39 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:39 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":144}
+18:37:39 INFO reader-None src/rpcclient.rs:169 <= None {"id": 144, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall", ""]}
+18:37:39 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:39 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:42 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:42 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:42 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:42 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":145}
+18:37:42 INFO reader-None src/rpcclient.rs:169 <= None {"id": 145, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall\"", ""]}
+18:37:42 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcall\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall\"\n"
+18:37:42 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 54 ==> 55
+18:37:42 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:43 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:43 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:43 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:43 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":146}
+18:37:43 INFO reader-None src/rpcclient.rs:169 <= None {"id": 146, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall\"H", ""]}
+18:37:43 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcall\"\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall\"H\n"
+18:37:43 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 55 ==> 56
+18:37:43 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:43 INFO reader-None src/rpcclient.rs:169 <= None {"id": 49, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 10, "handle": false, "languageId": "julia", "complete_position": 9, "line": 3, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:43 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:43 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:43 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":147}
+18:37:43 INFO reader-None src/rpcclient.rs:169 <= None {"id": 147, "jsonrpc": "2.0", "result": {"character": 10, "line": 3}}
+18:37:43 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":10,"complete_position":9,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":3},"id":49}
+
+Error: "SendError(..)"
+18:37:43 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":49}
+18:37:44 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:44 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:44 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:44 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":148}
+18:37:44 INFO reader-None src/rpcclient.rs:169 <= None {"id": 148, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall\"", ""]}
+18:37:44 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcall\"H\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall\"\n"
+18:37:44 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 56 ==> 57
+18:37:44 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:44 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:44 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:44 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:44 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":149}
+18:37:44 INFO reader-None src/rpcclient.rs:169 <= None {"id": 149, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall", ""]}
+18:37:44 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 57 ==> 58
+18:37:44 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcall\"\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall\n"
+18:37:44 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:44 INFO reader-None src/rpcclient.rs:169 <= None {"id": 50, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 8, "handle": false, "languageId": "julia", "complete_position": 1, "line": 3, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:44 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:44 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:44 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":150}
+18:37:44 INFO reader-None src/rpcclient.rs:169 <= None {"id": 150, "jsonrpc": "2.0", "result": {"character": 8, "line": 3}}
+18:37:44 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":8,"complete_position":1,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":3},"id":50}
+
+Error: "SendError(..)"
+18:37:44 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":50}
+18:37:44 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:44 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:44 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:44 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":151}
+18:37:44 INFO reader-None src/rpcclient.rs:169 <= None {"id": 151, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall", ""]}
+18:37:44 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:44 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:45 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:45 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:45 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:45 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":152}
+18:37:45 INFO reader-None src/rpcclient.rs:169 <= None {"id": 152, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall(", ""]}
+18:37:45 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 58 ==> 59
+18:37:45 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcall\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall(\n"
+18:37:45 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:46 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:46 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:46 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:46 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":153}
+18:37:46 INFO reader-None src/rpcclient.rs:169 <= None {"id": 153, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall(\"", ""]}
+18:37:46 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 59 ==> 60
+18:37:46 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcall(\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall(\"\n"
+18:37:46 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:48 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:48 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:48 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:48 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":154}
+18:37:48 INFO reader-None src/rpcclient.rs:169 <= None {"id": 154, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall(\"n", ""]}
+18:37:48 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 60 ==> 61
+18:37:48 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcall(\"\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall(\"n\n"
+18:37:48 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:48 INFO reader-None src/rpcclient.rs:169 <= None {"id": 51, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 11, "handle": false, "languageId": "julia", "complete_position": 10, "line": 3, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:48 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:48 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:48 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":155}
+18:37:48 INFO reader-None src/rpcclient.rs:169 <= None {"id": 155, "jsonrpc": "2.0", "result": {"character": 11, "line": 3}}
+18:37:48 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":11,"complete_position":10,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":3},"id":51}
+
+Error: "SendError(..)"
+18:37:48 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":51}
+18:37:48 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:48 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:48 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:48 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":156}
+18:37:48 INFO reader-None src/rpcclient.rs:169 <= None {"id": 156, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall(\"no", ""]}
+18:37:48 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcall(\"n\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall(\"no\n"
+18:37:48 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 61 ==> 62
+18:37:48 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:48 INFO reader-None src/rpcclient.rs:169 <= None {"id": 52, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 12, "handle": false, "languageId": "julia", "complete_position": 10, "line": 3, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:48 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:48 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:48 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":157}
+18:37:48 INFO reader-None src/rpcclient.rs:169 <= None {"id": 157, "jsonrpc": "2.0", "result": {"character": 12, "line": 3}}
+18:37:48 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":12,"complete_position":10,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":3},"id":52}
+
+Error: "SendError(..)"
+18:37:48 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":52}
+18:37:48 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:48 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:48 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:48 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":158}
+18:37:48 INFO reader-None src/rpcclient.rs:169 <= None {"id": 158, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall(\"no", ""]}
+18:37:48 INFO unnamed src/language_server_protocol.rs:1667 Texts equal. Skipping didChange.
+18:37:48 INFO unnamed src/language_server_protocol.rs:2149 End languageClient/handleTextChanged
+18:37:49 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:49 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:49 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:49 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":159}
+18:37:49 INFO reader-None src/rpcclient.rs:169 <= None {"id": 159, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall(\"nop", ""]}
+18:37:49 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 62 ==> 63
+18:37:49 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcall(\"no\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall(\"nop\n"
+18:37:49 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:49 INFO reader-None src/rpcclient.rs:169 <= None {"id": 53, "jsonrpc": "2.0", "method": "languageClient/omniComplete", "params": {"bufnr": 1, "character": 13, "handle": false, "languageId": "julia", "complete_position": 10, "line": 3, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:49 INFO unnamed src/language_server_protocol.rs:2041 Begin languageClient/omniComplete
+18:37:49 INFO unnamed src/language_server_protocol.rs:1270 Begin textDocument/completion
+18:37:49 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#position()"],"id":160}
+18:37:49 INFO reader-None src/rpcclient.rs:169 <= None {"id": 160, "jsonrpc": "2.0", "result": {"character": 13, "line": 3}}
+18:37:49 ERROR unnamed src/rpchandler.rs:13 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":13,"complete_position":10,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":3},"id":53}
+
+Error: "SendError(..)"
+18:37:49 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"sending on a disconnected channel"},"id":53}
+18:37:50 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:50 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:50 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:50 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":161}
+18:37:50 INFO reader-None src/rpcclient.rs:169 <= None {"id": 161, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall(\"nop\"", ""]}
+18:37:50 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcall(\"nop\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall(\"nop\"\n"
+18:37:50 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 63 ==> 64
+18:37:50 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:54 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:54 INFO unnamed src/language_server_protocol.rs:2126 Begin languageClient/handleTextChanged
+18:37:54 INFO unnamed src/language_server_protocol.rs:1650 Begin textDocument/didChange
+18:37:54 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/osjl/test.jl"],"id":162}
+18:37:54 INFO reader-None src/rpcclient.rs:169 <= None {"id": 162, "jsonrpc": "2.0", "result": ["using LLVM", "using LLVM.Interop", "", "@asmcall(\"nop\")", ""]}
+18:37:54 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.text: "using LLVM\nusing LLVM.Interop\n\n@asmcall(\"nop\"\n" ==> "using LLVM\nusing LLVM.Interop\n\n@asmcall(\"nop\")\n"
+18:37:54 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/osjl/test.jl.version: 64 ==> 65
+18:37:54 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:37:57 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 4, "start": 0}, "languageId": "julia", "buftype": "", "position": {"character": 14, "line": 3}, "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:37:57 INFO unnamed src/language_server_protocol.rs:2181 Begin languageClient/handleCursorMoved
+18:37:58 WARN unnamed src/language_server_protocol.rs:2116 Failed to start language server automatically. timed out waiting on receive operation
+18:37:58 INFO unnamed src/language_server_protocol.rs:2121 End languageClient/handleFileType
+18:38:00 ERROR unnamed src/rpchandler.rs:13 Error handling message: timed out waiting on receive operation
+
+Message: {"jsonrpc":"2.0","method":"languageClient/omniComplete","params":{"bufnr":1,"character":1,"complete_position":0,"filename":"/home/sinai/Scripts/osjl/test.jl","handle":false,"languageId":"julia","line":0},"id":1}
+
+Error: Timeout
+18:38:00 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","error":{"code":-32603,"message":"timed out waiting on receive operation"},"id":1}
+18:38:03 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleBufWritePost", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia", "filename": "/home/sinai/Scripts/osjl/test.jl"}}
+18:38:03 INFO unnamed src/language_server_protocol.rs:2154 Begin languageClient/handleBufWritePost
+18:38:03 INFO unnamed src/language_server_protocol.rs:1710 Begin textDocument/didSave
+18:38:03 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
+
+Message: {"jsonrpc":"2.0","method":"languageClient/handleBufWritePost","params":{"bufnr":1,"filename":"/home/sinai/Scripts/osjl/test.jl","languageId":"julia"}}
+
+Error: "SendError(..)"
+18:38:03 INFO reader-None src/rpcclient.rs:169 <= None {"method": "exit", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "julia"}}
+18:38:03 INFO unnamed src/language_server_protocol.rs:1937 Begin exit
+18:38:03 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#filename()"],"id":163}
+18:38:03 INFO reader-None src/rpcclient.rs:169 <= None {"id": 163, "jsonrpc": "2.0", "result": "/home/sinai/Scripts/osjl/test.jl"}
+18:38:03 ERROR unnamed src/language_server_protocol.rs:1945 Error: "SendError(..)"
+18:38:03 INFO unnamed src/language_server_protocol.rs:816 Begin cleanup

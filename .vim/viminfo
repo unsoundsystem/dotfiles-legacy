@@ -1,0 +1,1427 @@
+# この viminfo ファイルは Vim 8.1 によって生成されました.
+# 変更する際には十分注意してください!
+
+# Viminfo version
+|1,4
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後の 検索パターン:
+~MSle0~/ctrl
+
+# 最後の Substitute 検索パターン:
+~MSle0&autocmd
+
+# 最後に置換された文字列:
+$au
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:q
+|2,0,1562060377,,"q"
+:wq
+|2,0,1562057795,,"wq"
+:w
+|2,0,1562057368,,"w"
+:source .vimrc
+|2,0,1562050287,,"source .vimrc"
+:q!
+|2,0,1561998493,,"q!"
+:message
+|2,0,1561996608,,"message"
+:e ++enc=utf8
+|2,0,1561543411,,"e ++enc=utf8"
+:set nonumber
+|2,0,1561542901,,"set nonumber"
+:::::::::q
+|2,0,1561198081,,"::::::::q"
+:w !sudo tee %
+|2,0,1561197080,,"w !sudo tee %"
+:wq1
+|2,0,1561197041,,"wq1"
+:w !sudo tee%
+|2,0,1561197017,,"w !sudo tee%"
+:wq!
+|2,0,1561196915,,"wq!"
+:!wq
+|2,0,1561196906,,"!wq"
+:setl tabstop=4
+|2,0,1561192716,,"setl tabstop=4"
+:set tabstop=4
+|2,0,1561192703,,"set tabstop=4"
+::q
+|2,0,1561192612,,":q"
+:e ++enc=sjis
+|2,0,1561192590,,"e ++enc=sjis"
+:setl fileencoding=sjis
+|2,0,1561192585,,"setl fileencoding=sjis"
+:set fileencoding=sjis
+|2,0,1561191602,,"set fileencoding=sjis"
+:Unite dein
+|2,0,1561186377,,"Unite dein"
+:e helloos.gas
+|2,0,1561184211,,"e helloos.gas"
+:messge
+|2,0,1561175951,,"messge"
+:e ~/Scripts/test
+|2,0,1561025825,,"e ~/Scripts/test"
+:1
+|2,0,1560647691,,"1"
+:2
+|2,0,1560427219,,"2"
+:set background=dark
+|2,0,1560327666,,"set background=dark"
+:colorscheme elflord
+|2,0,1560327369,,"colorscheme elflord"
+:Unite
+|2,0,1560326295,,"Unite"
+:call dein#update()
+|2,0,1560326282,,"call dein#update()"
+:e ~/.vim/
+|2,0,1560326136,,"e ~/.vim/"
+:colorscheme elfload
+|2,0,1560325426,,"colorscheme elfload"
+:17
+|2,0,1560257052,,"17"
+:wqq
+|2,0,1560240341,,"wqq"
+:LanguageClientStart
+|2,0,1560058774,,"LanguageClientStart"
+:labove
+|2,0,1560058754,,"labove"
+:%s/autocmd/au/g
+|2,0,1560058712,,"%s/autocmd/au/g"
+:e ~/.vimrc
+|2,0,1560058370,,"e ~/.vimrc"
+:e dein.toml
+|2,0,1560052456,,"e dein.toml"
+:bnext
+|2,0,1559975337,,"bnext"
+:qq
+|2,0,1559965369,,"qq"
+:w test
+|2,0,1559920196,,"w test"
+:terminal
+|2,0,1559911943,,"terminal"
+::wq
+|2,0,1559821663,,":wq"
+:w hello.nasm
+|2,0,1559726595,,"w hello.nasm"
+:!aplay --list-pcms
+|2,0,1558870970,,"!aplay --list-pcms"
+:qwwqq
+|2,0,1558868944,,"qwwqq"
+:qwq
+|2,0,1558868919,,"qwq"
+:!ps aux | grep mpd
+|2,0,1558864864,,"!ps aux | grep mpd"
+:'<,'>s/~\//\/home\/sinai\//
+|2,0,1558863948,,"'<,'>s/~\\//\\/home\\/sinai\\//"
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+?/ctrl
+|2,1,1561281244,47,"ctrl"
+?/ctl
+|2,1,1561281239,47,"ctl"
+?/control
+|2,1,1561281232,47,"control"
+?/COPY
+|2,1,1561196581,47,"COPY"
+?/cp
+|2,1,1561196570,47,"cp"
+?/multilib
+|2,1,1561196806,47,"multilib"
+? \<0xf0\>
+|2,1,1561187454,,"\\<0xf0\\>"
+?/blas
+|2,1,1561120241,47,"blas"
+?/bras
+|2,1,1561120203,47,"bras"
+?/open
+|2,1,1561120195,47,"open"
+?/CC
+|2,1,1561017389,47,"CC"
+?/useradd
+|2,1,1560650947,47,"useradd"
+?/workspace
+|2,1,1560330039,47,"workspace"
+?/ja
+|2,1,1560235793,47,"ja"
+? autocmd
+|2,1,1560058712,,"autocmd"
+?/C-r
+|2,1,1559920662,47,"C-r"
+?/C-a
+|2,1,1559920655,47,"C-a"
+?/"k"
+|2,1,1559906816,47,"\"k\""
+?/pageup
+|2,1,1559906658,47,"pageup"
+?/up
+|2,1,1559906647,47,"up"
+?/user
+|2,1,1559821026,47,"user"
+?/group
+|2,1,1559820949,47,"group"
+?/config
+|2,1,1559806262,47,"config"
+?/v.
+|2,1,1559806157,47,"v."
+?/customize
+|2,1,1559806151,47,"customize"
+?/mixer_type
+|2,1,1558871280,47,"mixer_type"
+?/pass
+|2,1,1558871219,47,"pass"
+?/decoder
+|2,1,1558870765,47,"decoder"
+? ~\/
+|2,1,1558863948,,"~\\/"
+?/port
+|2,1,1558863260,47,"port"
+?/mpd_host
+|2,1,1558863192,47,"mpd_host"
+?/host
+|2,1,1558863183,47,"host"
+?/mpd_port
+|2,1,1558863171,47,"mpd_port"
+?/bind
+|2,1,1558863128,47,"bind"
+?/mpd.error
+|2,1,1558863106,47,"mpd.error"
+?/audio_output
+|2,1,1558859465,47,"audio_output"
+?\<¿?¿?\
+|2,1,1558686342,31,"\\<¿?¿?\\"
+?/C
+|2,1,1558782063,47,"C"
+? -h
+|2,1,1558153514,,"-h"
+?/n
+|2,1,1558152986,47,"\n"
+?/-mh
+|2,1,1558152971,47,"-mh"
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# デバッグ行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+"0	CHAR	0
+	qemu-system-x86_64 -m 32 -localtime -vga std -fda haribote.img
+	
+|3,0,0,0,2,0,1561189122,"qemu-system-x86_64 -m 32 -localtime -vga std -fda haribote.img",""
+""1	CHAR	0
+	# added by Anaconda3 2018.12 installer
+	# >>> conda init >>>
+	# !! Contents within this block are managed by 'conda init' !!
+	__conda_setup="$(CONDA_REPORT_ERRORS=false '/home/sinai/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
+	if [ $? -eq 0 ]; then
+	    \eval "$__conda_setup"
+	else
+	    if [ -f "/home/sinai/anaconda3/etc/profile.d/conda.sh" ]; then
+	# . "/home/sinai/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
+		CONDA_CHANGEPS1=false conda activate base
+	    else
+	# export PATH="/home/sinai/anaconda3/bin:$PATH"  # commented out by conda initialize
+	    fi
+	fi
+	unset __conda_setup
+	# <<< conda init <<<
+	[ -n "$XTERM_VERSION" ] && transset-df -a >/dev/null
+	
+	
+|3,1,1,0,19,0,1562057717,"# added by Anaconda3 2018.12 installer","# >>> conda init >>>","# !! Contents within this block are managed by 'conda init' !!","__conda_setup=\"$(CONDA_REPORT_ERRORS=false '/home/sinai/anaconda3/bin/conda' shell.bash hook 2> /dev/null)\"","if [ $? -eq 0 ]; then","    \\eval \"$__conda_setup\"","else","    if [ -f \"/home/sinai/anaconda3/etc/profile.d/conda.sh\" ]; then",>91
+|<"# . \"/home/sinai/anaconda3/etc/profile.d/conda.sh\"  # commented out by conda initialize","	CONDA_CHANGEPS1=false conda activate base","    else","# export PATH=\"/home/sinai/anaconda3/bin:$PATH\"  # commented out by conda initialize","    fi","fi","unset __conda_setup","# <<< conda init <<<","[ -n \"$XTERM_VERSION\" ] && transset-df -a >/dev/null","",""
+"2	CHAR	0
+	
+	PATH="/home/sinai/perl5/bin${PATH:+:${PATH}}"; export PATH;
+	PERL5LIB="/home/sinai/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+	PERL_LOCAL_LIB_ROOT="/home/sinai/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+	PERL_MB_OPT="--install_base \"/home/sinai/perl5\""; export PERL_MB_OPT;
+	PERL_MM_OPT="INSTALL_BASE=/home/sinai/perl5"; export PERL_MM_OPT;
+	
+	
+|3,0,2,0,8,0,1562057691,"","PATH=\"/home/sinai/perl5/bin${PATH:+:${PATH}}\"; export PATH;","PERL5LIB=\"/home/sinai/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}\"; export PERL5LIB;","PERL_LOCAL_LIB_ROOT=\"/home/sinai/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}\"; export PERL_LOCAL_LIB_ROOT;","PERL_MB_OPT=\"--install_base \\\"/home/sinai/perl5\\\"\"; export PERL_MB_OPT;","PERL_MM_OPT=\"INSTALL_BASE=/home/sinai/perl5\"; export PERL_MM_OPT;","",""
+"3	LINE	0
+	set termguicolors
+|3,0,3,1,1,0,1562050278,"set termguicolors"
+"4	LINE	0
+		set pumblend=10
+|3,0,4,1,1,0,1562050158,"	set pumblend=10"
+"5	LINE	0
+	set pumblend=10
+|3,0,5,1,1,0,1562050080,"set pumblend=10"
+"6	LINE	0
+	fcitx &
+|3,0,6,1,1,0,1561998485,"fcitx &"
+"7	LINE	0
+	,'Dgggggggggg--S
+|3,0,7,1,1,0,1561629485,",'Dgggggggggg--S"
+"8	LINE	0
+	# This file has been auto-generated by i3-config-wizard(1).
+|3,0,8,1,1,0,1561629458,"# This file has been auto-generated by i3-config-wizard(1)."
+"9	BLOCK	0
+	
+	#
+	#
+|3,0,9,2,3,0,1561196893,"","#","#"
+"m	LINE	0
+	CFLAGS = -c -mh -O2 -I$(INCDIR)
+	AFLAGS = -c -mh
+|3,0,22,1,2,0,1558153443,"CFLAGS = -c -mh -O2 -I$(INCDIR)","AFLAGS = -c -mh"
+"-	CHAR	0
+	#
+|3,0,36,0,1,0,1562057360,"#"
+
+# ファイルマーク:
+'0  956  4  ~/pkglist
+|4,48,956,4,1562060377,"~/pkglist"
+'1  177  0  ~/.config/i3/config
+|4,49,177,0,1562057795,"~/.config/i3/config"
+'2  17  0  ~/.bashrc
+|4,50,17,0,1562057723,"~/.bashrc"
+'3  175  4  ~/.config/i3/config
+|4,51,175,4,1562057533,"~/.config/i3/config"
+'4  175  4  ~/.config/i3/config
+|4,52,175,4,1562057533,"~/.config/i3/config"
+'5  1  0  .config/i3/config
+|4,53,1,0,1562057344,".config/i3/config"
+'6  176  0  ~/.config/i3/config
+|4,54,176,0,1562056012,"~/.config/i3/config"
+'7  176  0  ~/.config/i3/config
+|4,55,176,0,1562056012,"~/.config/i3/config"
+'8  176  0  ~/.config/i3/config
+|4,56,176,0,1562056012,"~/.config/i3/config"
+'9  176  0  ~/.config/i3/config
+|4,57,176,0,1562056012,"~/.config/i3/config"
+
+# ジャンプリスト (新しいものが先):
+-'  956  4  ~/pkglist
+|4,39,956,4,1562060377,"~/pkglist"
+-'  1  0  ~/pkglist
+|4,39,1,0,1562060358,"~/pkglist"
+-'  177  0  ~/.config/i3/config
+|4,39,177,0,1562057795,"~/.config/i3/config"
+-'  177  0  ~/.config/i3/config
+|4,39,177,0,1562057795,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562057769,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562057769,"~/.config/i3/config"
+-'  17  0  ~/.bashrc
+|4,39,17,0,1562057723,"~/.bashrc"
+-'  17  0  ~/.bashrc
+|4,39,17,0,1562057723,"~/.bashrc"
+-'  17  0  ~/.bashrc
+|4,39,17,0,1562057723,"~/.bashrc"
+-'  17  0  ~/.bashrc
+|4,39,17,0,1562057723,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1562057649,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1562057649,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1562057649,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1562057649,"~/.bashrc"
+-'  175  4  ~/.config/i3/config
+|4,39,175,4,1562057533,"~/.config/i3/config"
+-'  175  4  ~/.config/i3/config
+|4,39,175,4,1562057533,"~/.config/i3/config"
+-'  175  4  ~/.config/i3/config
+|4,39,175,4,1562057533,"~/.config/i3/config"
+-'  175  4  ~/.config/i3/config
+|4,39,175,4,1562057533,"~/.config/i3/config"
+-'  175  4  ~/.config/i3/config
+|4,39,175,4,1562057533,"~/.config/i3/config"
+-'  175  4  ~/.config/i3/config
+|4,39,175,4,1562057533,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562057355,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562057355,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562057355,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562057355,"~/.config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  1  0  .config/i3/config
+|4,39,1,0,1562057344,".config/i3/config"
+-'  176  0  ~/.config/i3/config
+|4,39,176,0,1562056012,"~/.config/i3/config"
+-'  176  0  ~/.config/i3/config
+|4,39,176,0,1562056012,"~/.config/i3/config"
+-'  176  0  ~/.config/i3/config
+|4,39,176,0,1562056012,"~/.config/i3/config"
+-'  176  0  ~/.config/i3/config
+|4,39,176,0,1562056012,"~/.config/i3/config"
+-'  176  0  ~/.config/i3/config
+|4,39,176,0,1562056012,"~/.config/i3/config"
+-'  176  0  ~/.config/i3/config
+|4,39,176,0,1562056012,"~/.config/i3/config"
+-'  176  0  ~/.config/i3/config
+|4,39,176,0,1562056012,"~/.config/i3/config"
+-'  176  0  ~/.config/i3/config
+|4,39,176,0,1562056012,"~/.config/i3/config"
+-'  176  0  ~/.config/i3/config
+|4,39,176,0,1562056012,"~/.config/i3/config"
+-'  176  0  ~/.config/i3/config
+|4,39,176,0,1562056012,"~/.config/i3/config"
+-'  176  0  ~/.config/i3/config
+|4,39,176,0,1562056012,"~/.config/i3/config"
+-'  176  0  ~/.config/i3/config
+|4,39,176,0,1562056012,"~/.config/i3/config"
+-'  176  0  ~/.config/i3/config
+|4,39,176,0,1562056012,"~/.config/i3/config"
+-'  176  0  ~/.config/i3/config
+|4,39,176,0,1562056012,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562056001,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562056001,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562056001,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562056001,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562056001,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562056001,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562056001,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562056001,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  171  1  ~/.config/i3/config
+|4,39,171,1,1562050613,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562050559,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562050559,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562050559,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562050559,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562050559,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562050559,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562050559,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1562050559,"~/.config/i3/config"
+-'  62  0  ~/.vimrc
+|4,39,62,0,1562050290,"~/.vimrc"
+-'  62  0  ~/.vimrc
+|4,39,62,0,1562050290,"~/.vimrc"
+-'  62  0  ~/.vimrc
+|4,39,62,0,1562050290,"~/.vimrc"
+-'  62  0  ~/.vimrc
+|4,39,62,0,1562050290,"~/.vimrc"
+-'  62  0  ~/.vimrc
+|4,39,62,0,1562050290,"~/.vimrc"
+-'  62  0  ~/.vimrc
+|4,39,62,0,1562050290,"~/.vimrc"
+-'  62  0  ~/.vimrc
+|4,39,62,0,1562050290,"~/.vimrc"
+-'  62  0  ~/.vimrc
+|4,39,62,0,1562050290,"~/.vimrc"
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/pkglist
+	*	1562060370	0
+	"	956	4
+
+> ~/.config/i3/config
+	*	1562057794	0
+	"	177	0
+	^	177	1
+	.	177	1
+	+	183	25
+	+	2	0
+	+	33	45
+	+	34	0
+	+	33	25
+	+	2	0
+	+	184	9
+	+	185	103
+	+	185	69
+	+	180	0
+	+	176	8
+	+	176	0
+	+	180	0
+	+	176	94
+	+	180	0
+	+	179	0
+	+	176	0
+	+	179	0
+	+	176	0
+	+	2	0
+	+	1	0
+	+	176	94
+	+	179	0
+	+	176	164
+	+	179	0
+	+	176	94
+	+	176	0
+	+	176	1
+	+	176	0
+	+	179	0
+	+	176	0
+	+	182	6
+	+	16	0
+	+	65	0
+	+	39	38
+	+	167	0
+	+	171	100
+	+	176	1
+	+	176	0
+	+	175	5
+	+	176	0
+	+	176	1
+	+	176	2
+	+	179	2
+	+	176	0
+	+	179	0
+	+	176	0
+	+	176	1
+	+	176	0
+	+	176	1
+	+	176	0
+	+	176	25
+	+	176	0
+	+	176	6
+	+	176	0
+	+	176	1
+	+	179	1
+	+	185	0
+	+	179	12
+	+	1	0
+	+	177	0
+	+	185	0
+	+	16	16
+	+	176	1
+	+	177	24
+	+	171	0
+	+	176	1
+	+	177	1
+	+	176	1
+	+	177	1
+
+> ~/.bashrc
+	*	1562057717	0
+	"	17	0
+	^	22	0
+	.	18	0
+	+	27	0
+	+	31	37
+	+	33	0
+	+	38	0
+	+	10	16
+	+	16	0
+	+	34	20
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	1
+	+	28	0
+	+	23	0
+	+	38	0
+	+	36	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	23	0
+	+	24	0
+	+	22	0
+	+	18	0
+
+> .config/i3/config
+	*	1562057343	0
+	"	1	0
+	^	2	0
+	.	1	2
+	+	1	2
+
+> ~/.vimrc
+	*	1562050287	0
+	"	62	0
+	.	62	0
+	+	13	0
+	+	73	0
+	+	20	23
+	+	59	0
+	+	33	40
+	+	44	0
+	+	74	0
+	+	41	0
+	+	74	0
+	+	60	14
+	+	64	0
+	+	61	0
+	+	62	0
+	+	13	0
+	+	62	0
+
+> ~/.config/nvim/tomls/dein.toml
+	*	1562049632	0
+	"	35	0
+
+> ~/.xinitrc
+	*	1561998487	0
+	"	50	0
+	^	52	5
+	.	55	0
+	+	57	0
+	+	63	6
+	+	62	29
+	+	34	9
+	+	58	27
+	+	63	0
+	+	51	15
+	+	52	0
+	+	55	0
+
+> /etc/locale.conf
+	*	1561997257	0
+	"	1	15
+	^	1	16
+	.	1	15
+	+	1	15
+
+> ~/.Xresources
+	*	1561996978	0
+	"	1	0
+	^	3	1
+	.	3	0
+	+	4	0
+	+	4	26
+	+	16	14
+	+	16	35
+	+	4	0
+	+	16	14
+	+	4	0
+	+	5	0
+	+	8	0
+	+	4	27
+	+	8	0
+	+	5	21
+	+	6	0
+	+	8	0
+	+	5	18
+	+	7	20
+	+	5	20
+	+	6	0
+	+	5	22
+	+	4	0
+	+	5	0
+	+	6	0
+	+	5	24
+	+	6	0
+	+	5	0
+	+	8	0
+	+	5	0
+	+	4	12
+	+	5	19
+	+	6	0
+	+	5	0
+	+	4	0
+	+	5	18
+	+	4	0
+	+	5	0
+	+	6	0
+	+	4	0
+	+	6	0
+	+	5	18
+	+	6	0
+	+	5	18
+	+	16	36
+	+	4	19
+	+	5	0
+	+	4	21
+	+	9	27
+	+	4	0
+	+	5	0
+	+	4	0
+	+	2	27
+	+	16	38
+	+	7	35
+	+	6	15
+	+	7	48
+	+	11	0
+	+	16	38
+	+	16	14
+	+	2	41
+	+	16	14
+	+	16	39
+	+	16	38
+	+	16	14
+	+	16	35
+	+	15	16
+	+	16	33
+	+	15	15
+	+	16	32
+	+	16	0
+	+	17	0
+	+	18	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	15	16
+	+	16	0
+	+	6	4
+	+	2	1
+	+	3	28
+	+	2	0
+	+	3	1
+	+	15	15
+	+	2	41
+	+	4	20
+	+	2	0
+	+	4	0
+	+	3	0
+	+	2	0
+	+	3	0
+
+> ~/Scripts/osjl/test.nas
+	*	1561716831	0
+	"	1	0
+
+> ~/Scripts/osjl/test.asm
+	*	1561716311	0
+	"	1	1
+
+> ~/Scripts/osjl/test.jl
+	*	1561715881	0
+	"	6	0
+	^	6	1
+	.	6	0
+	+	6	0
+
+> ~/Scripts/Makefile
+	*	1561715409	0
+	"	37	1
+	.	18	0
+	+	18	0
+
+> ~/.julia/packages/PackageCompiler/CJQcs/a.out
+	*	1561633141	0
+	"	1	0
+
+> ~/.julia/packages/PackageCompiler/CJQcs/test.s
+	*	1561632930	0
+	"	15	1
+
+> ~/.julia/packages/PackageCompiler/CJQcs/NERD_tree_1
+	*	1561632902	0
+	"	16	0
+	.	1	0
+	+	1	0
+
+> ~/.julia/packages/PackageCompiler/CJQcs/test.ll
+	*	1561632711	0
+	"	1	0
+
+> ~/Scripts/osjl/Intel2GAS/README.md
+	*	1561544073	0
+	"	61	0
+
+> ~/Scripts/osjl/helloos2/helloos.s
+	*	1561543996	0
+	"	53	2
+
+> ~/Scripts/osjl/helloos2/helloos.nas
+	*	1561543945	0
+	"	5	0
+	^	41	3
+	.	41	2
+	+	41	2
+
+> ~/Scripts/osjl/test
+	*	1561543559	0
+	"	1	0
+
+> ~/Scripts/osjl/test.nasm
+	*	1561543551	0
+	"	1	0
+	^	1	7
+	.	1	7
+	+	1	7
+
+> ~/Scripts/osjl/test.s
+	*	1561543321	0
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
+
+> ~/Scripts/osjl/NERD_tree_1
+	*	1561542970	0
+	"	10	0
+	.	1	0
+	+	1	0
+
+> ~/Scripts/osjl/heloos2
+	*	1561542954	0
+	"	1	0
+
+> ~/Scripts/NERD_tree_1
+	*	1561542426	0
+	"	12	0
+	.	1	0
+	+	1	0
+
+> ~/Scripts/tolset/GPL.txt
+	*	1561542418	0
+	"	1	6
+
+> ~/Scripts/tolset/harib06a/Makefile
+	*	1561542245	0
+	"	1	0
+	^	75	25
+	.	75	25
+	+	75	25
+
+> ~/NERD_tree_1
+	*	1561281435	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> /tmp/bash-fc.kDmx5m
+	*	1561281130	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/st/config.h
+	*	1561258070	0
+	"	1	0
+
+> ~/Scripts/.Xresources
+	*	1561256794	0
+	"	1	0
+
+> ~/Downloads/z_tools/apply-patch.sh
+	*	1561198064	0
+	"	1	0
+
+> /etc/pacman.conf
+	*	1561197086	0
+	"	89	0
+	.	89	0
+	+	89	0
+
+> ~/Scripts/tolset/harib00a/Makefile
+	*	1561196709	0
+	"	1	0
+	^	33	63
+	.	33	62
+	+	32	12
+	+	33	62
+
+> ~/Scripts/tolset/helloos4/ipl.nas
+	*	1561195997	0
+	"	60	2
+
+> ~/Scripts/tolset/helloos3/helloos.nas
+	*	1561193959	0
+	"	28	0
+	^	32	3
+	.	32	0
+	+	32	0
+
+> ~/Scripts/tolset/helloos2/helloos.s
+	*	1561192731	0
+	"	53	2
+	^	44	13
+	.	44	12
+	+	31	5
+	+	52	4
+	+	50	4
+	+	31	4
+	+	50	4
+	+	52	5
+	+	31	5
+	+	50	5
+	+	52	5
+	+	8	8
+	+	14	0
+	+	6	6
+	+	44	12
+
+> ~/.virc
+	*	1561192661	0
+	"	1	0
+
+> ~/Scripts/tolset/helloos2/.vimrc
+	*	1561192654	0
+	"	1	0
+
+> ~/Scripts/tolset/helloos2/helloos.nas
+	*	1561190038	0
+	"	1	0
+	.	1	0
+	+	51	0
+	+	1	0
+
+> ~/Scripts/tolset/helloos2/NERD_tree_1
+	*	1561189156	0
+	"	22	2
+	.	1	0
+	+	1	0
+
+> ~/Scripts/tolset/helloos2/test.s
+	*	1561188726	0
+	"	19	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/Scripts/tolset/helloos2/helloos
+	*	1561188632	0
+	"	1	0
+
+> ~/helloos.gas
+	*	1561187769	0
+	"	1	0
+	^	49	13
+	.	49	12
+	+	1	7
+	+	9	23
+	+	10	22
+	+	12	34
+	+	13	36
+	+	15	13
+	+	16	9
+	+	11	17
+	+	13	7
+	+	14	7
+	+	15	7
+	+	11	17
+	+	26	16
+	+	26	17
+	+	56	0
+	+	28	4
+	+	31	5
+	+	32	6
+	+	33	6
+	+	34	5
+	+	53	0
+	+	34	6
+	+	35	6
+	+	37	22
+	+	39	20
+	+	40	10
+	+	42	4
+	+	43	15
+	+	46	6
+	+	48	6
+	+	49	12
+
+> /tmp/bash-fc.SItDFX
+	*	1561187749	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> /usr/share/vim/vim81/doc/help.txt
+	*	1561186904	0
+	"	1	0
+
+> ~/[unite] - default
+	*	1561186377	0
+	"	1	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> halib06a/Makefile
+	*	1561181498	0
+	"	1	0
+
+> ~/Scripts/tolset/halib06a
+	*	1561181478	0
+	"	1	0
+
+> ~/Scripts/builddir/a.out
+	*	1561176573	0
+	"	1	0
+
+> ~/Scripts/builddir/test.a
+	*	1561176007	0
+	"	1	0
+
+> ~/Scripts/test.jl
+	*	1561175311	0
+	"	5	0
+	^	5	1
+	.	5	0
+	+	6	0
+	+	5	0
+
+> /tmp/bash-fc.wyQJXR
+	*	1561166553	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> /tmp/bash-fc.Qp8mOQ
+	*	1561166538	0
+	"	2	0
+	^	2	0
+	.	1	3
+	+	1	3
+
+> ~/Scripts/julia/repos/community-x86_64/PKGBUILD
+	*	1561158576	0
+	"	22	8
+
+> ~/Scripts/julia/Makefile
+	*	1561120243	0
+	"	262	28
+	^	1	2
+
+> ~/vm/hello_vag/Vagrantfile
+	*	1561101517	0
+	"	7	21
+	^	7	22
+	.	7	22
+	+	9	2
+	+	3	21
+	+	9	20
+	+	9	5
+	+	9	0
+	+	4	11
+	+	4	40
+	+	5	0
+	+	6	14
+	+	7	22
+
+> ~/.tmux.conf
+	*	1561091537	0
+	"	60	0
+	^	60	1
+	.	60	0
+	+	60	9
+	+	60	22
+	+	64	0
+	+	48	0
+	+	60	0
+	+	48	0
+	+	60	0
+	+	61	0
+	+	48	0
+	+	49	0
+	+	48	0
+	+	59	0
+	+	60	1
+	+	61	0
+	+	62	1
+	+	60	0
+	+	61	0
+	+	62	0
+	+	60	0
+
+> /mnt/projects/01_day/helloos1/helloos.nas
+	*	1561025825	0
+	"	1	1
+
+> /mnt/projects/01_day/helloos1/hellos.nas
+	*	1561025739	0
+	"	1	0
+
+> ~/Scripts/rumprun/build-rr.sh
+	*	1561018200	0
+	"	7	0
+	^	59	11
+	.	59	10
+	+	59	10
+
+> ~/Scripts/rumprun/obj-amd64-hw/buildrump.sh/Makefile.all
+	*	1561018143	0
+	"	1	0
+
+> ~/Scripts/rumprun/NERD_tree_1
+	*	1561016963	0
+	"	29	0
+	.	1	0
+	+	1	0
+
+> ~/Scripts/rumprun/global.mk
+	*	1561015916	0
+	"	1	0
+
+> ~/vm/centos7/Vagrantfile
+	*	1561014101	0
+	"	58	17
+	^	58	18
+	.	58	17
+	+	52	2
+	+	54	4
+	+	57	21
+	+	58	17
+
+> ~/vm/archlinux/mirrorlist
+	*	1561013318	0
+	"	7	0
+	.	7	0
+	+	4	0
+	+	7	0
+
+> ~/vm/archlinux/Vagrantfile
+	*	1561012614	0
+	"	54	1
+	^	54	2
+	.	54	1
+	+	3	2
+	+	61	0
+	+	59	17
+	+	54	0
+	+	57	21
+	+	60	0
+	+	57	21
+	+	58	17
+	+	54	1
+
+> ~/archlive/packages.x86_64
+	*	1560669598	0
+	"	81	0
+	^	81	0
+	.	81	0
+	+	75	7
+	+	76	4
+	+	77	10
+	+	78	7
+	+	80	11
+	+	81	11
+	+	82	5
+	+	81	0
+
+> ~/archlive/airootfs/root/customize_airootfs.sh
+	*	1560669066	0
+	"	1	0
+
+> ~/archlive/airootfs/root/.automated_script.sh
+	*	1560669057	0
+	"	34	0
+
+> ~/auto_setup.sh
+	*	1560668761	0
+	"	13	16
+	^	13	17
+	.	13	16
+	+	1	17
+	+	11	31
+	+	14	30
+	+	13	16
+
+> ~/archlive/airootfs/root/customize_airootfs
+	*	1560650884	0
+	"	1	0
+
+> ~/archlive/airootfs/root/install.txt
+	*	1560648031	0
+	"	1	0
+
+> ~/archlive/pacman.conf
+	*	1560647691	0
+	"	1	0
+
+> /tmp/bash-fc.EYtSKi
+	*	1560428489	0
+	"	1	0
+	^	1	0
+
+> ~/.config/powerline/.Xresources
+	*	1560428303	0
+	"	1	0
+
+> ~/.config/powerline/themes/wm/default.json
+	*	1560428155	0
+	"	3	11
+	.	3	0
+	+	31	0
+	+	9	3
+	+	9	0
+	+	3	12
+	+	9	0
+	+	9	5
+	+	9	0
+	+	9	3
+	+	9	0
+	+	3	0
+	+	31	3
+	+	31	15
+	+	31	3
+	+	31	55
+	+	31	3
+	+	31	5
+	+	31	3
+	+	31	7
+	+	31	63
+	+	31	3
+	+	31	2
+	+	31	3
+	+	31	4
+	+	31	55
+	+	31	0
+	+	31	3
+	+	31	0
+	+	31	2
+	+	31	5
+	+	31	3
+	+	31	0
+	+	31	4
+	+	31	0
+	+	20	3
+	+	31	0
+	+	27	3
+	+	31	66
+	+	27	4
+	+	31	63
+	+	31	3
+	+	31	6
+	+	31	0
+	+	9	2
+	+	9	0
+	+	27	3
+	+	31	0
+	+	9	62
+	+	9	0
+	+	9	60
+	+	27	0
+	+	9	2
+	+	27	4
+	+	31	0
+	+	13	5
+	+	13	3
+	+	13	4
+	+	27	3
+	+	31	0
+	+	20	4
+	+	20	0
+	+	27	4
+	+	27	0
+	+	27	4
+	+	20	0
+	+	13	0
+	+	13	19
+	+	13	13
+	+	9	0
+	+	9	3
+	+	9	23
+	+	9	7
+	+	9	18
+	+	9	24
+	+	13	0
+	+	10	59
+	+	10	0
+	+	9	0
+	+	13	0
+	+	13	5
+	+	13	0
+	+	13	4
+	+	4	0
+	+	13	6
+	+	11	15
+	+	16	0
+	+	15	0
+	+	13	0
+	+	9	0
+	+	28	2
+	+	28	0
+	+	3	0
+
+> ~/.config/powerline/NERD_tree_1
+	*	1560426239	0
+	"	13	0
+	.	1	0
+	+	1	0
+
+> /tmp/bash-fc.h6BikX
+	*	1560419001	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/.config/i3/.bashrc
+	*	1560415765	0
+	"	1	0
+
+> /usr/lib/python3.7/site-packages/powerline/renderers/i3bar.py
+	*	1560413663	0
+	"	1	0
+
+> ~/.config/powerline/default.json
+	*	1560410578	0
+	"	1	0
+
+> ~/.config/powerline/colorschemes/default.json
+	*	1560410162	0
+	"	47	2
+
+> ~/.config/i3status/config
+	*	1560401342	0
+	"	3	0
+
+> ~/.config/powerline/colors.json
+	*	1560334145	0
+	"	120	0
+
+> ~/.config/powerline/config.json
+	*	1560334051	0
+	"	21	21
+	^	21	22
+	.	21	21
+	+	29	19
+	+	21	21
+
+> ~/.config/powerline/themes/shell/select.json
+	*	1560333689	0
+	"	1	0
+
+> ~/.config/powerline/themes/shell/default_leftonly.json
+	*	1560333546	0
+	"	1	0
+
+> ~/.config/powerline/themes/shell/default.leftonly.json
+	*	1560333512	0
+	"	1	0
+
+> ~/.config/powerline/themes/shell/default.json
+	*	1560333436	0
+	"	35	0
+	.	16	0
+	+	8	0
+	+	16	0
+
+> ~/default.json
+	*	1560333267	0
+	"	1	0
+
+> ~/.config/powerline/themes/tmux/default.json
+	*	1560332926	0
+	"	4	0
+	^	1	1
+	.	5	0
+	+	5	0
+
+> ~/Scripts/test.c
+	*	1560326387	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> Sripts/test.c
+	*	1560326354	0
+	"	1	0
+
+> ~/test.c
+	*	1560326338	0
+	"	1	0
+
+> ~/.vim/vim.toml
+	*	1560326270	0
+	"	5	24
+	^	5	25
+	.	5	25
+	+	5	25
+
+> ~/.bash_profile
+	*	1560323150	0
+	"	7	0
+	^	7	0
+	.	6	51
+	+	6	51
+
+> ~/bash_profile
+	*	1560323103	0
+	"	1	0
+
+> /usr/lib/python3.7/site-packages/powerline/bindings/i3/.bashrc
+	*	1560321650	0
+	"	1	0

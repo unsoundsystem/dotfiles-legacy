@@ -1,0 +1,52 @@
+filetype off
+filetype plugin indent on
+
+if &compatible
+  set nocompatible
+endif
+" Add the dein installation directory into runtimepath
+set runtimepath+=/home/sinai/.cache/dein/repos/github.com/Shougo/dein.vim
+
+if dein#load_state('/home/sinai/.cache/dein')
+  call dein#begin('/home/sinai/.cache/dein')
+
+  let s:toml_dir = expand('/home/sinai/.config/nvim/tomls')
+
+  call dein#load_toml(s:toml_dir . '/dein.toml', {'lazy': 0})
+  call dein#load_toml(s:toml_dir.'/dein_lazy.toml',{'lazy': 1})
+
+    call dein#end()
+  call dein#save_state()
+endif
+
+if dein#check_install()
+  call dein#install()
+endif
+
+"original commands        
+source /home/sinai/.config/nvim/mycommands/MakeQuery.vim
+
+"filetype
+augroup nvimrc
+	autocmd!
+	autocmd BufNewFile,BufRead *.jl setfiletype julia
+	autocmd BufNewFile,BufNewFile *.csv setfiletype csv
+augroup END
+
+syntax enable
+set background=dark
+colorscheme molokai
+set hidden
+set nopaste
+set number
+set clipboard=unnamed
+filetype plugin indent on
+
+"highlight Normal ctermbg=NONE guibg=NONE
+"highlight NonText ctermbg=NONE guibg=NONE
+"highlight SpecialKey ctermbg=NONE guibg=NONE
+"highlight EndOfBuffer ctermbg=NONE guibg=NONE
+
+
+"edit ++enc=sjis
+"call map(dein#check_clean(), "delete(v:val, 'rf')")

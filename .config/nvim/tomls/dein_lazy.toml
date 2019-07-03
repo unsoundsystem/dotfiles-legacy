@@ -1,0 +1,17 @@
+[[plugins]]
+repo = 'cespare/vim-toml'
+on_ft = 'toml'
+
+[[plugins]]
+repo = 'Shougo/neco-vim'
+on_ft = 'vim'
+
+[[plugins]]
+repo = 'Shougo/neco-syntax'
+on_ft = 'vim'
+
+[[plugins]]
+repo = 'mechatroner/rainbow_csv'
+on_ft = 'csv'
+
+

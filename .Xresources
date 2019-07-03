@@ -1,0 +1,18 @@
+!font setting
+URxvt*font: xft:Hack:size=15,xft:IPAGothic
+!URxvt*font: xft:Ricty:size=15
+URxvt.letterSpace: -2
+
+!perl
+URxvt.perl-ext-common: xim-onthespot,resize-font
+URxvt.inputMethod: fcitx
+URxvt.preeditType: OnTheSpot
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+URxvt*transparent: true
+URxvt*shading:	35
+URxvt*background: #101010
+URxvt*foreground: #ffffff
+URxvt*cursorColor: #f0f8ff
