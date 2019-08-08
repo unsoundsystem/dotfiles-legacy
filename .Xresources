@@ -1,7 +1,7 @@
 !font setting
-URxvt*font: xft:Hack:size=15,xft:IPAGothic
-!URxvt*font: xft:Ricty:size=15
-URxvt.letterSpace: -2
+!URxvt*font: xft:Hack:size=15,xft:IPAGothic:xft:PowerlineSymbols
+URxvt*font: xft:HackGen53 Console for Powerline:size=15,xft:PowerlineSymbols:size=15
+URxvt.letterSpace: -1.9999
 
 !perl
 URxvt.perl-ext-common: xim-onthespot,resize-font
@@ -12,7 +12,11 @@ URxvt.iso14755: false
 URxvt.iso14755_52: false
 
 URxvt*transparent: true
-URxvt*shading:	35
+URxvt*shading:	50
 URxvt*background: #101010
 URxvt*foreground: #ffffff
 URxvt*cursorColor: #f0f8ff
+
+URxvt.colorIT:      #87af5f
+URxvt.colorBD:      #d7d7d7
+URxvt.colorUL:      #87afd7

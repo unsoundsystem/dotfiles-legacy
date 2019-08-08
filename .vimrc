@@ -33,6 +33,12 @@ else
 		call dein#load_toml('/home/sinai/.vim/vim.toml')
 		call dein#end()
 		call dein#save_state()
+		 
+	"powerline
+	"set rtp+=~/.local/lib/python3.7/site-packages/powerline/bindings/vim
+	"let g:powerline_pycmd="py3"
+	"set laststatus=2
+
 	endif
 endif
 
@@ -66,11 +72,6 @@ highlight NonText ctermbg=none
 highlight LineNr ctermbg=none
 highlight Folded ctermbg=none
 highlight EndOfBuffer ctermbg=none 
-
-"powerline
-"set rtp+=~/.local/lib/python3.7/site-packages/powerline/bindings/vim
-"let g:powerline_pycmd="py3"
-"set laststatus=2
 "call map(dein#check_clean(), "delete(v:val, 'rf')")
 
 filetype plugin indent on

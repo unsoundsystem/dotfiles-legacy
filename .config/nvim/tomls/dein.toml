@@ -40,7 +40,11 @@ repo = 'scrooloose/nerdcommenter'
 [[plugins]]
 repo = 'vim-airline/vim-airline-themes'
 depends = 'vim-airline'
-hook_add = "let g:airline_theme='luna'"
+hook_add = """
+let g:airline_theme='luna'
+let g:airline_powerline_fonts = 1
+set laststatus=2
+"""
 
 [[plugins]]
 repo = 'vim-airline/vim-airline'
@@ -49,6 +53,3 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 '''
 
-[[plugins]]
-repo = 'JuliaEditorSupport/julia-vim'
-on_ft = 'julia'

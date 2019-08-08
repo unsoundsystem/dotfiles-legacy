@@ -12,6 +12,7 @@ alias rf='rm -rf'
 export PATH=~/.local/bin:~/anaconda3/bin:$PATH
 export XDG_CONFIG_HOME=~/.config
 export EDITOR=vim
+export TERM='xterm-256color'
 PS1='[\u@\h \W]\$ '
 
 PATH="/home/sinai/perl5/bin${PATH:+:${PATH}}"; export PATH;
@@ -52,3 +53,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+eval `opam config env`

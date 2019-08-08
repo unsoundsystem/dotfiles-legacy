@@ -1394,3 +1394,5 @@ Aug 08 00:35 : zeroconf: No global port, disabling zeroconf
 Aug 08 00:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Aug 08 07:50 : zeroconf: No global port, disabling zeroconf
 Aug 08 07:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 08 10:46 : zeroconf: No global port, disabling zeroconf
+Aug 08 10:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted

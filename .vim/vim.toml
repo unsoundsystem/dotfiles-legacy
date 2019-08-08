@@ -20,6 +20,10 @@ repo = 'scrooloose/nerdcommenter'
 [[plugins]]
 repo = 'tomasr/molokai'
 
+[[plugins]]
+repo = 'majutsushi/tagbar'
+hook_add = 'nmap <F8> :TagbarToggle<CR>'
+
 #[[plugins]]
 #repo = 'powerline/powerline'
 #rtp = 'powerline/bindings/vim/'
