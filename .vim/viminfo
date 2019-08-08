@@ -21,13 +21,15 @@ $return 0
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
 :wq
-|2,0,1565232403,,"wq"
+|2,0,1565234104,,"wq"
 :w
-|2,0,1565231898,,"w"
+|2,0,1565234092,,"w"
 :q
-|2,0,1565231777,,"q"
+|2,0,1565233782,,"q"
+:terminal
+|2,0,1565233337,,"terminal"
 :q!
-|2,0,1565224867,,"q!"
+|2,0,1565233193,,"q!"
 :e ~/.config/nvim
 |2,0,1565146098,,"e ~/.config/nvim"
 :help LanguageClient
@@ -78,8 +80,6 @@ $return 0
 |2,0,1564669883,,"bnext"
 :h /
 |2,0,1564669553,,"h /"
-:terminal
-|2,0,1564224168,,"terminal"
 :e ~/.bashrc
 |2,0,1564223565,,"e ~/.bashrc"
 :PrevimOpe
@@ -230,58 +230,46 @@ $return 0
 # デバッグ行 項目の履歴 (新しいものから古いものへ):
 
 # レジスタ:
-""0	CHAR	0
+"0	CHAR	0
 	!/.config/
-|3,1,0,0,1,0,1565232273,"!/.config/"
-"1	CHAR	0
+|3,0,0,0,1,0,1565232273,"!/.config/"
+""1	LINE	0
+		helper = store
+|3,1,1,1,1,0,1565233980,"	helper = store"
+"2	LINE	0
+	[credential]
+|3,0,2,1,1,0,1565233980,"[credential]"
+"3	LINE	0
+	killall notification-daemon &> /dev/null
+|3,0,3,1,1,0,1565233397,"killall notification-daemon &> /dev/null"
+"4	LINE	0
+	statnot &
+|3,0,4,1,1,0,1565233395,"statnot &"
+"5	LINE	0
+	statnot &
+|3,0,5,1,1,0,1565233321,"statnot &"
+"6	LINE	0
+	statnot &
+|3,0,6,1,1,0,1565233182,"statnot &"
+"7	LINE	0
+	powerline-daemon -q
+|3,0,7,1,1,0,1565233151,"powerline-daemon -q"
+"8	CHAR	0
 	
 	"powerline
 	"set rtp+=~/.local/lib/python3.7/site-packages/powerline/bindings/vim
 	"let g:powerline_pycmd="py3"
 	"set laststatus=2
 	
-|3,0,1,0,6,0,1565224244,"","\"powerline","\"set rtp+=~/.local/lib/python3.7/site-packages/powerline/bindings/vim","\"let g:powerline_pycmd=\"py3\"","\"set laststatus=2",""
-"2	CHAR	0
+|3,0,8,0,6,0,1565224244,"","\"powerline","\"set rtp+=~/.local/lib/python3.7/site-packages/powerline/bindings/vim","\"let g:powerline_pycmd=\"py3\"","\"set laststatus=2",""
+"9	CHAR	0
 	
 	"powerline
 	"set rtp+=~/.local/lib/python3.7/site-packages/powerline/bindings/vim
 	"let g:powerline_pycmd="py3"
 	"set laststatus=2
 	"
-|3,0,2,0,6,0,1565224235,"","\"powerline","\"set rtp+=~/.local/lib/python3.7/site-packages/powerline/bindings/vim","\"let g:powerline_pycmd=\"py3\"","\"set laststatus=2","\""
-"3	LINE	0
-	## Israel
-	Server = http://mirror.isoc.org.il/pub/archlinux/$repo/os/$arch
-|3,0,3,1,2,0,1565199105,"## Israel","Server = http://mirror.isoc.org.il/pub/archlinux/$repo/os/$arch"
-"4	LINE	0
-	#include <stdio.h>
-	#include <stdlib.h>
-	
-	int main()
-	{
-		int a, b;
-		scanf("%d %d", &a, &b);
-	
-		if (a % 2 != b % 2) printf("IMPOSSIBLE");
-		else printf("%d", (a+b)/2);
-	
-	}
-|3,0,4,1,12,0,1565198670,"#include <stdio.h>","#include <stdlib.h>","","int main()","{","	int a, b;","	scanf(\"%d %d\", &a, &b);","","	if (a % 2 != b % 2) printf(\"IMPOSSIBLE\");","	else printf(\"%d\", (a+b)/2);","","}"
-"5	LINE	0
-	
-|3,0,5,1,1,0,1565198582,""
-"6	LINE	0
-	}
-|3,0,6,1,1,0,1565198578,"}"
-"7	LINE	0
-	  ret %jl_value_t addrspace(10)* addrspacecast (%jl_value_t* inttoptr (i64 140688043376648 to %jl_value_t*) to %jl_value_t addrspace(10)*)
-|3,0,7,1,1,0,1565198577,"  ret %jl_value_t addrspace(10)* addrspacecast (%jl_value_t* inttoptr (i64 140688043376648 to %jl_value_t*) to %jl_value_t addrspace(10)*)"
-"8	LINE	0
-	  store volatile %jl_value_t addrspace(10)** %1, %jl_value_t addrspace(10)*** %3, align 8
-|3,0,8,1,1,0,1565198576,"  store volatile %jl_value_t addrspace(10)** %1, %jl_value_t addrspace(10)*** %3, align 8"
-"9	LINE	0
-	  %3 = alloca %jl_value_t addrspace(10)**, align 8
-|3,0,9,1,1,0,1565198576,"  %3 = alloca %jl_value_t addrspace(10)**, align 8"
+|3,0,9,0,6,0,1565224235,"","\"powerline","\"set rtp+=~/.local/lib/python3.7/site-packages/powerline/bindings/vim","\"let g:powerline_pycmd=\"py3\"","\"set laststatus=2","\""
 "m	LINE	0
 	CFLAGS = -c -mh -O2 -I$(INCDIR)
 	AFLAGS = -c -mh
@@ -291,230 +279,291 @@ $return 0
 |3,0,36,0,1,0,1565232269,"/"
 
 # ファイルマーク:
-'0  16  18  ~/.gitignore
-|4,48,16,18,1565232403,"~/.gitignore"
-'1  1  0  ~/.config/.gitignore
-|4,49,1,0,1565232134,"~/.config/.gitignore"
-'2  1  1  ~/.gitignore
-|4,50,1,1,1565232105,"~/.gitignore"
-'3  1  1  ~/.gitignore
-|4,51,1,1,1565232105,"~/.gitignore"
-'4  10  0  ~/NERD_tree_1
-|4,52,10,0,1565231809,"~/NERD_tree_1"
-'5  1  0  ~/julia
-|4,53,1,0,1565231777,"~/julia"
-'6  4  0  ~/.gitignore
-|4,54,4,0,1565231541,"~/.gitignore"
-'7  4  0  ~/.gitignore
-|4,55,4,0,1565231541,"~/.gitignore"
-'8  4  0  ~/.gitignore
-|4,56,4,0,1565231541,"~/.gitignore"
-'9  4  0  ~/.gitignore
-|4,57,4,0,1565231541,"~/.gitignore"
+'0  7  23  ~/.git/config
+|4,48,7,23,1565234104,"~/.git/config"
+'1  5  1  ~/.gitconfig
+|4,49,5,1,1565233982,"~/.gitconfig"
+'2  5  17  ~/.gitconfig
+|4,50,5,17,1565233782,"~/.gitconfig"
+'3  56  18  ~/.xinitrc
+|4,51,56,18,1565233430,"~/.xinitrc"
+'4  1  0  ~/.xinitrc
+|4,52,1,0,1565233235,"~/.xinitrc"
+'5  1  0  ~/.xinitrc
+|4,53,1,0,1565233235,"~/.xinitrc"
+'6  1  0  ~/.xinitrc
+|4,54,1,0,1565233221,"~/.xinitrc"
+'7  1  0  ~/.xinitrc
+|4,55,1,0,1565233221,"~/.xinitrc"
+'8  57  0  ~/.xinitrc
+|4,56,57,0,1565233193,"~/.xinitrc"
+'9  57  0  ~/.xinitrc
+|4,57,57,0,1565233193,"~/.xinitrc"
 
 # ジャンプリスト (新しいものが先):
--'  16  18  ~/.gitignore
-|4,39,16,18,1565232403,"~/.gitignore"
--'  13  10  ~/.gitignore
-|4,39,13,10,1565232278,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1565232154,"~/.gitignore"
--'  1  0  ~/.config/.gitignore
-|4,39,1,0,1565232134,"~/.config/.gitignore"
--'  1  0  ~/.config/.gitignore
-|4,39,1,0,1565232134,"~/.config/.gitignore"
--'  1  1  ~/.gitignore
-|4,39,1,1,1565232105,"~/.gitignore"
--'  1  1  ~/.gitignore
-|4,39,1,1,1565232105,"~/.gitignore"
--'  10  0  ~/NERD_tree_1
-|4,39,10,0,1565231809,"~/NERD_tree_1"
--'  10  0  ~/NERD_tree_1
-|4,39,10,0,1565231809,"~/NERD_tree_1"
--'  10  0  ~/NERD_tree_1
-|4,39,10,0,1565231809,"~/NERD_tree_1"
--'  10  0  ~/NERD_tree_1
-|4,39,10,0,1565231809,"~/NERD_tree_1"
--'  11  0  ~/NERD_tree_1
-|4,39,11,0,1565231806,"~/NERD_tree_1"
+-'  7  23  ~/.git/config
+|4,39,7,23,1565234104,"~/.git/config"
+-'  12  0  ~/NERD_tree_1
+|4,39,12,0,1565234063,"~/NERD_tree_1"
 -'  1  0  ~/NERD_tree_1
-|4,39,1,0,1565231806,"~/NERD_tree_1"
--'  11  0  ~/NERD_tree_1
-|4,39,11,0,1565231806,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1565231806,"~/NERD_tree_1"
--'  11  0  ~/NERD_tree_1
-|4,39,11,0,1565231806,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1565231806,"~/NERD_tree_1"
--'  11  0  ~/NERD_tree_1
-|4,39,11,0,1565231806,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1565231806,"~/NERD_tree_1"
--'  1  0  ~/julia
-|4,39,1,0,1565231777,"~/julia"
--'  1  0  ~/julia
-|4,39,1,0,1565231777,"~/julia"
--'  1  0  ~/julia
-|4,39,1,0,1565231777,"~/julia"
--'  1  0  ~/julia
-|4,39,1,0,1565231777,"~/julia"
--'  1  0  ~/julia
-|4,39,1,0,1565231777,"~/julia"
--'  1  0  ~/julia
-|4,39,1,0,1565231777,"~/julia"
--'  1  0  ~/julia
-|4,39,1,0,1565231777,"~/julia"
--'  1  0  ~/julia
-|4,39,1,0,1565231777,"~/julia"
--'  4  0  ~/.gitignore
-|4,39,4,0,1565231541,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1565231541,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1565231541,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1565231541,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1565231541,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1565231541,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1565231541,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1565231541,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1565231541,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1565231541,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1565231541,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1565231400,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1565231400,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1565231400,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1565231400,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1565231400,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1565231400,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1565231400,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1565231400,"~/.gitignore"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230940,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230442,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230442,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230442,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230442,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230442,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230442,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230442,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230442,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230442,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230442,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230442,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230442,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230442,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1565230442,"~/.Xresources"
+|4,39,1,0,1565234058,"~/NERD_tree_1"
+-'  15  2  ~/NERD_tree_1
+|4,39,15,2,1565234058,"~/NERD_tree_1"
+-'  5  1  ~/.gitconfig
+|4,39,5,1,1565233982,"~/.gitconfig"
+-'  5  1  ~/.gitconfig
+|4,39,5,1,1565233982,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1565233975,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1565233975,"~/.gitconfig"
+-'  5  17  ~/.gitconfig
+|4,39,5,17,1565233782,"~/.gitconfig"
+-'  5  17  ~/.gitconfig
+|4,39,5,17,1565233782,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1565233513,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1565233513,"~/.gitconfig"
+-'  56  18  ~/.xinitrc
+|4,39,56,18,1565233430,"~/.xinitrc"
+-'  56  18  ~/.xinitrc
+|4,39,56,18,1565233430,"~/.xinitrc"
+-'  56  18  ~/.xinitrc
+|4,39,56,18,1565233430,"~/.xinitrc"
+-'  56  18  ~/.xinitrc
+|4,39,56,18,1565233430,"~/.xinitrc"
+-'  56  18  ~/.xinitrc
+|4,39,56,18,1565233430,"~/.xinitrc"
+-'  56  18  ~/.xinitrc
+|4,39,56,18,1565233430,"~/.xinitrc"
+-'  56  18  ~/.xinitrc
+|4,39,56,18,1565233430,"~/.xinitrc"
+-'  56  18  ~/.xinitrc
+|4,39,56,18,1565233430,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233330,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233330,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233330,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233330,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233330,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233330,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233330,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233330,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233319,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233319,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233319,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233319,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233319,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233319,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233319,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233319,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233235,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233235,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233235,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233235,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233235,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233235,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233235,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233235,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233221,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233221,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233221,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233221,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233221,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233221,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233221,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233221,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  57  0  ~/.xinitrc
+|4,39,57,0,1565233193,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233176,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233176,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233176,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233176,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233176,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233176,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233176,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1565233176,"~/.xinitrc"
+-'  24  0  ~/.bashrc
+|4,39,24,0,1565233159,"~/.bashrc"
+-'  24  0  ~/.bashrc
+|4,39,24,0,1565233159,"~/.bashrc"
+-'  24  0  ~/.bashrc
+|4,39,24,0,1565233159,"~/.bashrc"
+-'  24  0  ~/.bashrc
+|4,39,24,0,1565233159,"~/.bashrc"
+-'  24  0  ~/.bashrc
+|4,39,24,0,1565233159,"~/.bashrc"
+-'  24  0  ~/.bashrc
+|4,39,24,0,1565233159,"~/.bashrc"
+-'  24  0  ~/.bashrc
+|4,39,24,0,1565233159,"~/.bashrc"
+-'  24  0  ~/.bashrc
+|4,39,24,0,1565233159,"~/.bashrc"
+-'  24  0  ~/.bashrc
+|4,39,24,0,1565233159,"~/.bashrc"
+-'  24  0  ~/.bashrc
+|4,39,24,0,1565233159,"~/.bashrc"
+-'  24  0  ~/.bashrc
+|4,39,24,0,1565233159,"~/.bashrc"
+-'  24  0  ~/.bashrc
+|4,39,24,0,1565233159,"~/.bashrc"
+-'  24  0  ~/.bashrc
+|4,39,24,0,1565233159,"~/.bashrc"
+-'  24  0  ~/.bashrc
+|4,39,24,0,1565233159,"~/.bashrc"
+-'  24  0  ~/.bashrc
+|4,39,24,0,1565233159,"~/.bashrc"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/.git/config
+	*	1565234103	0
+	"	7	23
+	^	7	24
+	.	7	23
+	+	7	23
+
+> ~/NERD_tree_1
+	*	1565234061	0
+	"	12	0
+	.	1	0
+	+	1	0
+
+> ~/.gitconfig
+	*	1565233982	0
+	"	5	1
+	^	5	18
+	.	6	0
+	+	5	17
+	+	6	0
+
+> ~/.xinitrc
+	*	1565233428	0
+	"	56	18
+	^	56	19
+	.	56	18
+	+	57	0
+	+	56	18
+
+> ~/.bashrc
+	*	1565233155	0
+	"	24	0
+	^	15	28
+	.	24	0
+	+	27	0
+	+	31	37
+	+	33	0
+	+	38	0
+	+	10	16
+	+	17	0
+	+	34	20
+	+	24	0
+	+	25	0
+	+	26	1
+	+	28	0
+	+	24	0
+	+	38	0
+	+	36	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	24	0
+	+	23	0
+	+	19	0
+	+	56	0
+	+	55	21
+	+	15	27
+	+	24	0
+
+> ~/.bashr
+	*	1565233092	0
+	"	1	0
 
 > ~/.gitignore
 	*	1565232306	0
@@ -534,12 +583,6 @@ $return 0
 > ~/.config/.gitignore
 	*	1565232123	0
 	"	1	0
-
-> ~/NERD_tree_1
-	*	1565231806	0
-	"	10	0
-	.	1	0
-	+	1	0
 
 > ~/julia
 	*	1565231777	0
@@ -959,38 +1002,6 @@ $return 0
 	+	3	0
 	+	2	0
 
-> ~/.bashrc
-	*	1564753294	0
-	"	15	27
-	^	15	28
-	.	15	27
-	+	28	0
-	+	32	37
-	+	34	0
-	+	39	0
-	+	10	16
-	+	17	0
-	+	35	20
-	+	24	0
-	+	25	0
-	+	26	0
-	+	27	1
-	+	29	0
-	+	24	0
-	+	39	0
-	+	37	0
-	+	24	0
-	+	25	0
-	+	26	0
-	+	27	0
-	+	24	0
-	+	25	0
-	+	23	0
-	+	19	0
-	+	57	0
-	+	56	21
-	+	15	27
-
 > /etc/NetworkManager/NetworkManager.conf
 	*	1564752101	0
 	"	3	0
@@ -1188,19 +1199,3 @@ $return 0
 	.	6	0
 	+	10	26
 	+	6	0
-
-> /etc/systemd/system/tmux@.service
-	*	1563819042	0
-	"	1	0
-
-> ~/Scripts/mirage-skeleton/tutorial/hello/unikernel.ml
-	*	1563712830	0
-	"	1	0
-
-> ~/Scripts/mirage-skeleton/tutorial/hello/unikernel
-	*	1563712824	0
-	"	1	0
-
-> ~/Scripts/mirage-skeleton/tutorial/hello/config.ml
-	*	1563712794	0
-	"	1	0
