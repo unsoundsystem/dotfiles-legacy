@@ -25,8 +25,8 @@ let g:markdown_minlines = 100
 [[plugins]]
 repo = 'previm/previm'
 on_ft = 'markdown'
-hook_add = "let g:previm_open_cmd = 'firefox'"
+hook_add = "let g:previm_open_cmd = 'google-chrome-stable'"
 
-[[plugins]]
-repo = 'JuliaEditorSupport/julia-vim'
-on_ft = 'julia'
+#[[plugins]]
+#repo = 'JuliaEditorSupport/julia-vim'
+#on_ft = 'julia'

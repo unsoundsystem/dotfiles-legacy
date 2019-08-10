@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # 最後の 検索パターン:
-~MSle0~/font[]
+~MSle0~/lock
 
 # 最後の Substitute 検索パターン:
 ~MSle0&return
@@ -20,14 +20,38 @@
 $return 0
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
-:wq
-|2,0,1565234104,,"wq"
 :w
-|2,0,1565234092,,"w"
-:q
-|2,0,1565233782,,"q"
+|2,0,1565481001,,"w"
+:wq
+|2,0,1565421075,,"wq"
 :terminal
-|2,0,1565233337,,"terminal"
+|2,0,1565421006,,"terminal"
+:q
+|2,0,1565420818,,"q"
+:PrevimOpen
+|2,0,1565269771,,"PrevimOpen"
+:bnext
+|2,0,1565269660,,"bnext"
+:e ~/.vimrc
+|2,0,1565267340,,"e ~/.vimrc"
+:message
+|2,0,1565267169,,"message"
+:34
+|2,0,1565262377,,"34"
+:jjjjjjjjjjjjjjjj
+|2,0,1565261948,,"jjjjjjjjjjjjjjjj"
+:e .xinitrc
+|2,0,1565261815,,"e .xinitrc"
+:!compton
+|2,0,1565261586,,"!compton"
+:call dein#update()
+|2,0,1565236245,,"call dein#update()"
+:call dein#install()
+|2,0,1565236203,,"call dein#install()"
+:e ~/.config/tomls
+|2,0,1565236104,,"e ~/.config/tomls"
+:e ~/.cache/dein/repos/github.com/
+|2,0,1565235538,,"e ~/.cache/dein/repos/github.com/"
 :q!
 |2,0,1565233193,,"q!"
 :e ~/.config/nvim
@@ -72,22 +96,12 @@ $return 0
 |2,0,1564673333,,"source ~/.vimrc"
 :vim ~/.vim
 |2,0,1564673126,,"vim ~/.vim"
-:call dein#install()
-|2,0,1564673087,,"call dein#install()"
-:call dein#update()
-|2,0,1564673073,,"call dein#update()"
-:bnext
-|2,0,1564669883,,"bnext"
 :h /
 |2,0,1564669553,,"h /"
 :e ~/.bashrc
 |2,0,1564223565,,"e ~/.bashrc"
 :PrevimOpe
 |2,0,1564082304,,"PrevimOpe"
-:PrevimOpen
-|2,0,1564082276,,"PrevimOpen"
-:message
-|2,0,1564081827,,"message"
 :echo &filetype
 |2,0,1564080895,,"echo &filetype"
 :set &filetype
@@ -106,22 +120,52 @@ $return 0
 |2,0,1563440516,,"e ~/.config"
 :%s/return/return 0/g
 |2,0,1562997699,,"%s/return/return 0/g"
-:e Airplane.c
-|2,0,1562995480,,"e Airplane.c"
-:e Rounding.c
-|2,0,1562995087,,"e Rounding.c"
-:set nonumber
-|2,0,1562994697,,"set nonumber"
-:e Security.c
-|2,0,1562993944,,"e Security.c"
-:e 
-|2,0,1562992000,,"e "
-:e .Xresources
-|2,0,1562988222,,"e .Xresources"
-:source .vimrc
-|2,0,1562923909,,"source .vimrc"
 
 # 検索文字列 項目の履歴 (新しいものから古いものへ):
+?/lock
+|2,1,1565420807,47,"lock"
+? \<STDLIBS_LINK_TARGETS\>
+|2,1,1565385881,,"\\<STDLIBS_LINK_TARGETS\\>"
+?/gg
+|2,1,1565269737,47,"gg"
+?/nvim
+|2,1,1565269730,47,"nvim"
+?/.config
+|2,1,1565269725,47,".config"
+?/config
+|2,1,1565269621,47,"config"
+? \<gitconfig\>
+|2,1,1565269614,,"\\<gitconfig\\>"
+?/.xinit
+|2,1,1565262482,47,".xinit"
+?/confi
+|2,1,1565262459,47,"confi"
+?/con
+|2,1,1565262455,47,"con"
+?/i3
+|2,1,1565261262,47,"i3"
+? \<background\>
+|2,1,1565261153,,"\\<background\\>"
+?/background
+|2,1,1565261132,47,"background"
+?/\<blue\>
+|2,1,1565260975,47,"\\<blue\\>"
+? \<blue\>
+|2,1,1565260970,,"\\<blue\\>"
+?/-b
+|2,1,1565260966,47,"-b"
+? \<vsync\>
+|2,1,1565260866,,"\\<vsync\\>"
+?/vsyn
+|2,1,1565260854,47,"vsyn"
+? \<Comment\>
+|2,1,1565235736,,"\\<Comment\\>"
+?/comment
+|2,1,1565235572,47,"comment"
+? \<colors\>
+|2,1,1565235469,,"\\<colors\\>"
+?/color
+|2,1,1565235467,47,"color"
 ?/font[]
 |2,1,1565229278,47,"font[]"
 ?/virtual
@@ -178,50 +222,6 @@ $return 0
 |2,1,1564669486,47,"repl"
 ?/wine
 |2,1,1564219112,47,"wine"
-?/network
-|2,1,1564213395,47,"network"
-?/network_name
-|2,1,1564213384,47,"network_name"
-?/net
-|2,1,1564213372,47,"net"
-?/font
-|2,1,1564161337,47,"font"
-?/driver
-|2,1,1564149528,47,"driver"
-?/prepare
-|2,1,1563891373,47,"prepare"
-?/Is
-|2,1,1563710742,47,"Is"
-?/pacman
-|2,1,1563710732,47,"pacman"
-?/powerline
-|2,1,1563440912,47,"powerline"
-?/q
-|2,1,1563440004,47,"q"
-?/bat
-|2,1,1563439266,47,"bat"
-?/198
-|2,1,1563160286,47,"198"
-?/ssh
-|2,1,1563160274,47,"ssh"
-? return
-|2,1,1562997699,,"return"
-?/fifo
-|2,1,1562987665,47,"fifo"
-?/audio_output
-|2,1,1562987230,47,"audio_output"
-?/audio
-|2,1,1562987223,47,"audio"
-? %lf
-|2,1,1562923609,,"%lf"
-?/awk
-|2,1,1562399386,47,"awk"
-?/ctrl
-|2,1,1561281244,47,"ctrl"
-?/ctl
-|2,1,1561281239,47,"ctl"
-?/control
-|2,1,1561281232,47,"control"
 
 # 式 項目の履歴 (新しいものから古いものへ):
 
@@ -231,370 +231,383 @@ $return 0
 
 # レジスタ:
 "0	CHAR	0
-	!/.config/
-|3,0,0,0,1,0,1565232273,"!/.config/"
-""1	LINE	0
-		helper = store
-|3,1,1,1,1,0,1565233980,"	helper = store"
+	
+	[[plugins]]
+	repo = 'tpope/vim-markdown'
+	on_ft = 'markdown'
+	hook_add = '''
+	let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
+	let g:markdown_minlines = 100
+	'''
+	
+	[[plugins]]
+	repo = 'previm/previm'
+	on_ft = 'markdown'
+	hook_add = "let g:previm_open_cmd = 'firefox'"
+	
+	
+|3,0,0,0,15,0,1565269654,"","[[plugins]]","repo = 'tpope/vim-markdown'","on_ft = 'markdown'","hook_add = '''","let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']","let g:markdown_minlines = 100","'''","","[[plugins]]","repo = 'previm/previm'","on_ft = 'markdown'","hook_add = \"let g:previm_open_cmd = 'firefox'\"","",""
+"1	LINE	0
+	(機能を削ろうか?)  
+|3,0,1,1,1,0,1565309915,"(機能を削ろうか?)  "
 "2	LINE	0
-	[credential]
-|3,0,2,1,1,0,1565233980,"[credential]"
+	* ↑ 依 存 関 係 が 多 す ぎ
+|3,0,2,1,1,0,1565309911,"* ↑ 依 存 関 係 が 多 す ぎ"
 "3	LINE	0
-	killall notification-daemon &> /dev/null
-|3,0,3,1,1,0,1565233397,"killall notification-daemon &> /dev/null"
+	
+|3,0,3,1,1,0,1565269670,""
 "4	LINE	0
-	statnot &
-|3,0,4,1,1,0,1565233395,"statnot &"
+	compton &
+|3,0,4,1,1,0,1565262488,"compton &"
 "5	LINE	0
-	statnot &
-|3,0,5,1,1,0,1565233321,"statnot &"
+	    "name = 'Urxvt'",
+|3,0,5,1,1,0,1565262288,"    \"name = 'Urxvt'\","
 "6	LINE	0
-	statnot &
-|3,0,6,1,1,0,1565233182,"statnot &"
+	#compton
+|3,0,6,1,1,0,1565261808,"#compton"
 "7	LINE	0
-	powerline-daemon -q
-|3,0,7,1,1,0,1565233151,"powerline-daemon -q"
-"8	CHAR	0
-	
-	"powerline
-	"set rtp+=~/.local/lib/python3.7/site-packages/powerline/bindings/vim
-	"let g:powerline_pycmd="py3"
-	"set laststatus=2
-	
-|3,0,8,0,6,0,1565224244,"","\"powerline","\"set rtp+=~/.local/lib/python3.7/site-packages/powerline/bindings/vim","\"let g:powerline_pycmd=\"py3\"","\"set laststatus=2",""
-"9	CHAR	0
-	
-	"powerline
-	"set rtp+=~/.local/lib/python3.7/site-packages/powerline/bindings/vim
-	"let g:powerline_pycmd="py3"
-	"set laststatus=2
-	"
-|3,0,9,0,6,0,1565224235,"","\"powerline","\"set rtp+=~/.local/lib/python3.7/site-packages/powerline/bindings/vim","\"let g:powerline_pycmd=\"py3\"","\"set laststatus=2","\""
+	exec --no-start-id compton 
+|3,0,7,1,1,0,1565261807,"exec --no-start-id compton "
+"8	LINE	0
+		helper = store
+|3,0,8,1,1,0,1565233980,"	helper = store"
+"9	LINE	0
+	[credential]
+|3,0,9,1,1,0,1565233980,"[credential]"
 "m	LINE	0
 	CFLAGS = -c -mh -O2 -I$(INCDIR)
 	AFLAGS = -c -mh
 |3,0,22,1,2,0,1558153443,"CFLAGS = -c -mh -O2 -I$(INCDIR)","AFLAGS = -c -mh"
-"-	CHAR	0
-	/
-|3,0,36,0,1,0,1565232269,"/"
+""-	CHAR	0
+	8
+|3,1,36,0,1,0,1565480996,"8"
 
 # ファイルマーク:
-'0  7  23  ~/.git/config
-|4,48,7,23,1565234104,"~/.git/config"
-'1  5  1  ~/.gitconfig
-|4,49,5,1,1565233982,"~/.gitconfig"
-'2  5  17  ~/.gitconfig
-|4,50,5,17,1565233782,"~/.gitconfig"
-'3  56  18  ~/.xinitrc
-|4,51,56,18,1565233430,"~/.xinitrc"
-'4  1  0  ~/.xinitrc
-|4,52,1,0,1565233235,"~/.xinitrc"
-'5  1  0  ~/.xinitrc
-|4,53,1,0,1565233235,"~/.xinitrc"
-'6  1  0  ~/.xinitrc
-|4,54,1,0,1565233221,"~/.xinitrc"
-'7  1  0  ~/.xinitrc
-|4,55,1,0,1565233221,"~/.xinitrc"
-'8  57  0  ~/.xinitrc
-|4,56,57,0,1565233193,"~/.xinitrc"
-'9  57  0  ~/.xinitrc
-|4,57,57,0,1565233193,"~/.xinitrc"
+'0  414  12  ~/.config/dunst/dunstrc
+|4,48,414,12,1565481079,"~/.config/dunst/dunstrc"
+'1  190  58  ~/.config/i3/config
+|4,49,190,58,1565421075,"~/.config/i3/config"
+'2  190  60  ~/.config/i3/config
+|4,50,190,60,1565421032,"~/.config/i3/config"
+'3  190  8  ~/.config/i3/config
+|4,51,190,8,1565420818,"~/.config/i3/config"
+'4  190  8  ~/.config/i3/config
+|4,52,190,8,1565420818,"~/.config/i3/config"
+'5  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,53,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+'6  1  0  ~/memo/test.md
+|4,54,1,0,1565384761,"~/memo/test.md"
+'7  1  0  ~/testmd
+|4,55,1,0,1565384743,"~/testmd"
+'8  28  56  ~/.config/nvim/tomls/dein_lazy.toml
+|4,56,28,56,1565382424,"~/.config/nvim/tomls/dein_lazy.toml"
+'9  1  0  ~/Scripts/julia-unikernel.md
+|4,57,1,0,1565382356,"~/Scripts/julia-unikernel.md"
 
 # ジャンプリスト (新しいものが先):
--'  7  23  ~/.git/config
-|4,39,7,23,1565234104,"~/.git/config"
--'  12  0  ~/NERD_tree_1
-|4,39,12,0,1565234063,"~/NERD_tree_1"
+-'  414  12  ~/.config/dunst/dunstrc
+|4,39,414,12,1565481079,"~/.config/dunst/dunstrc"
+-'  89  0  ~/.config/dunst/dunstrc
+|4,39,89,0,1565480964,"~/.config/dunst/dunstrc"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1565480916,"~/NERD_tree_1"
 -'  1  0  ~/NERD_tree_1
-|4,39,1,0,1565234058,"~/NERD_tree_1"
--'  15  2  ~/NERD_tree_1
-|4,39,15,2,1565234058,"~/NERD_tree_1"
--'  5  1  ~/.gitconfig
-|4,39,5,1,1565233982,"~/.gitconfig"
--'  5  1  ~/.gitconfig
-|4,39,5,1,1565233982,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1565233975,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1565233975,"~/.gitconfig"
--'  5  17  ~/.gitconfig
-|4,39,5,17,1565233782,"~/.gitconfig"
--'  5  17  ~/.gitconfig
-|4,39,5,17,1565233782,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1565233513,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1565233513,"~/.gitconfig"
--'  56  18  ~/.xinitrc
-|4,39,56,18,1565233430,"~/.xinitrc"
--'  56  18  ~/.xinitrc
-|4,39,56,18,1565233430,"~/.xinitrc"
--'  56  18  ~/.xinitrc
-|4,39,56,18,1565233430,"~/.xinitrc"
--'  56  18  ~/.xinitrc
-|4,39,56,18,1565233430,"~/.xinitrc"
--'  56  18  ~/.xinitrc
-|4,39,56,18,1565233430,"~/.xinitrc"
--'  56  18  ~/.xinitrc
-|4,39,56,18,1565233430,"~/.xinitrc"
--'  56  18  ~/.xinitrc
-|4,39,56,18,1565233430,"~/.xinitrc"
--'  56  18  ~/.xinitrc
-|4,39,56,18,1565233430,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233330,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233330,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233330,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233330,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233330,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233330,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233330,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233330,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233319,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233319,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233319,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233319,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233319,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233319,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233319,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233319,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233235,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233235,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233235,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233235,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233235,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233235,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233235,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233235,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233221,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233221,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233221,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233221,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233221,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233221,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233221,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233221,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  57  0  ~/.xinitrc
-|4,39,57,0,1565233193,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233176,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233176,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233176,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233176,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233176,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233176,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233176,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1565233176,"~/.xinitrc"
--'  24  0  ~/.bashrc
-|4,39,24,0,1565233159,"~/.bashrc"
--'  24  0  ~/.bashrc
-|4,39,24,0,1565233159,"~/.bashrc"
--'  24  0  ~/.bashrc
-|4,39,24,0,1565233159,"~/.bashrc"
--'  24  0  ~/.bashrc
-|4,39,24,0,1565233159,"~/.bashrc"
--'  24  0  ~/.bashrc
-|4,39,24,0,1565233159,"~/.bashrc"
--'  24  0  ~/.bashrc
-|4,39,24,0,1565233159,"~/.bashrc"
--'  24  0  ~/.bashrc
-|4,39,24,0,1565233159,"~/.bashrc"
--'  24  0  ~/.bashrc
-|4,39,24,0,1565233159,"~/.bashrc"
--'  24  0  ~/.bashrc
-|4,39,24,0,1565233159,"~/.bashrc"
--'  24  0  ~/.bashrc
-|4,39,24,0,1565233159,"~/.bashrc"
--'  24  0  ~/.bashrc
-|4,39,24,0,1565233159,"~/.bashrc"
--'  24  0  ~/.bashrc
-|4,39,24,0,1565233159,"~/.bashrc"
--'  24  0  ~/.bashrc
-|4,39,24,0,1565233159,"~/.bashrc"
--'  24  0  ~/.bashrc
-|4,39,24,0,1565233159,"~/.bashrc"
--'  24  0  ~/.bashrc
-|4,39,24,0,1565233159,"~/.bashrc"
+|4,39,1,0,1565480914,"~/NERD_tree_1"
+-'  190  58  ~/.config/i3/config
+|4,39,190,58,1565421075,"~/.config/i3/config"
+-'  190  58  ~/.config/i3/config
+|4,39,190,58,1565421075,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1565421058,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1565421058,"~/.config/i3/config"
+-'  190  60  ~/.config/i3/config
+|4,39,190,60,1565421032,"~/.config/i3/config"
+-'  190  60  ~/.config/i3/config
+|4,39,190,60,1565421032,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1565420977,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1565420977,"~/.config/i3/config"
+-'  190  8  ~/.config/i3/config
+|4,39,190,8,1565420818,"~/.config/i3/config"
+-'  190  8  ~/.config/i3/config
+|4,39,190,8,1565420818,"~/.config/i3/config"
+-'  53  25  ~/.config/i3/config
+|4,39,53,25,1565420813,"~/.config/i3/config"
+-'  53  25  ~/.config/i3/config
+|4,39,53,25,1565420813,"~/.config/i3/config"
+-'  53  25  ~/.config/i3/config
+|4,39,53,25,1565420813,"~/.config/i3/config"
+-'  53  25  ~/.config/i3/config
+|4,39,53,25,1565420813,"~/.config/i3/config"
+-'  53  25  ~/.config/i3/config
+|4,39,53,25,1565420813,"~/.config/i3/config"
+-'  53  25  ~/.config/i3/config
+|4,39,53,25,1565420813,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1565420807,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1565420807,"~/.config/i3/config"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  40  0  ~/Scripts/julia/NERD_tree_1
+|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
+-'  54  2  ~/Scripts/julia/NERD_tree_1
+|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  1  0  ~/Scripts/julia/NERD_tree_1
+|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  54  2  ~/Scripts/julia/NERD_tree_1
+|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  1  0  ~/Scripts/julia/NERD_tree_1
+|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  54  2  ~/Scripts/julia/NERD_tree_1
+|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  1  0  ~/Scripts/julia/NERD_tree_1
+|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  54  2  ~/Scripts/julia/NERD_tree_1
+|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  1  0  ~/Scripts/julia/NERD_tree_1
+|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  54  2  ~/Scripts/julia/NERD_tree_1
+|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  1  0  ~/Scripts/julia/NERD_tree_1
+|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  54  2  ~/Scripts/julia/NERD_tree_1
+|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  1  0  ~/Scripts/julia/NERD_tree_1
+|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  54  2  ~/Scripts/julia/NERD_tree_1
+|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  1  0  ~/Scripts/julia/NERD_tree_1
+|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  54  2  ~/Scripts/julia/NERD_tree_1
+|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  1  0  ~/Scripts/julia/NERD_tree_1
+|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  54  2  ~/Scripts/julia/NERD_tree_1
+|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  1  0  ~/Scripts/julia/NERD_tree_1
+|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  54  2  ~/Scripts/julia/NERD_tree_1
+|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  1  0  ~/Scripts/julia/NERD_tree_1
+|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  54  2  ~/Scripts/julia/NERD_tree_1
+|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  1  0  ~/Scripts/julia/NERD_tree_1
+|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  54  2  ~/Scripts/julia/NERD_tree_1
+|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  1  0  ~/Scripts/julia/NERD_tree_1
+|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  54  2  ~/Scripts/julia/NERD_tree_1
+|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  1  0  ~/Scripts/julia/NERD_tree_1
+|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  54  2  ~/Scripts/julia/NERD_tree_1
+|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  1  0  ~/Scripts/julia/NERD_tree_1
+|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  54  2  ~/Scripts/julia/NERD_tree_1
+|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
 
-> ~/.git/config
-	*	1565234103	0
-	"	7	23
-	^	7	24
-	.	7	23
-	+	7	23
+> ~/.config/dunst/dunstrc
+	*	1565481075	0
+	"	414	12
+	^	89	21
+	.	89	20
+	+	89	20
 
 > ~/NERD_tree_1
-	*	1565234061	0
-	"	12	0
+	*	1565480916	0
+	"	5	0
 	.	1	0
 	+	1	0
 
-> ~/.gitconfig
-	*	1565233982	0
-	"	5	1
-	^	5	18
-	.	6	0
-	+	5	17
-	+	6	0
+> ~/.config/i3/config
+	*	1565421072	0
+	"	190	58
+	^	190	59
+	.	190	58
+	+	189	11
+	+	190	33
+	+	191	0
+	+	190	58
 
-> ~/.xinitrc
-	*	1565233428	0
-	"	56	18
-	^	56	19
-	.	56	18
-	+	57	0
-	+	56	18
+> ~/Scripts/julia/stdlib/Makefile
+	*	1565385882	0
+	"	30	0
 
-> ~/.bashrc
-	*	1565233155	0
-	"	24	0
-	^	15	28
-	.	24	0
-	+	27	0
-	+	31	37
-	+	33	0
-	+	38	0
-	+	10	16
-	+	17	0
-	+	34	20
-	+	24	0
-	+	25	0
+> ~/Scripts/julia/NERD_tree_1
+	*	1565385794	0
+	"	40	0
+	.	1	0
+	+	1	0
+
+> ~/memo/test.md
+	*	1565384758	0
+	"	1	0
+
+> ~/testmd
+	*	1565384741	0
+	"	1	0
+
+> ~/.config/nvim/tomls/dein_lazy.toml
+	*	1565382423	0
+	"	28	56
+	^	28	57
+	.	28	56
+	+	28	56
+
+> ~/Scripts/julia-unikernel.md
+	*	1565382355	0
+	"	1	0
+	^	35	28
+	.	36	0
+	+	9	101
+	+	9	102
 	+	26	1
-	+	28	0
-	+	24	0
-	+	38	0
+	+	31	0
+	+	37	0
 	+	36	0
-	+	24	0
-	+	25	0
-	+	26	0
-	+	24	0
+
+> ~/.config/nvim/tomls/dein.toml
+	*	1565382302	0
+	"	53	0
+	^	57	7
+	.	57	6
+	+	6	0
+	+	57	6
+
+> ~/Scripts/ToDo
+	*	1565382230	0
+	"	1	0
+	^	1	0
+
+> ~/Scripts/about_solo5/solo5_memo.md
+	*	1565269763	0
+	"	1	0
+
+> ~/NERD_tree_2
+	*	1565269761	0
+	"	13	0
+	.	1	0
+	+	1	0
+
+> ~/Scripts/about_solo5/solo5_fosdem19.pdf
+	*	1565269752	0
+	"	1	0
+
+> ~/.vim/vim.toml
+	*	1565269671	0
+	"	36	0
+	.	36	0
+	+	22	0
 	+	23	0
-	+	19	0
-	+	56	0
-	+	55	21
-	+	15	27
-	+	24	0
-
-> ~/.bashr
-	*	1565233092	0
-	"	1	0
-
-> ~/.gitignore
-	*	1565232306	0
-	"	16	18
-	^	16	19
-	.	16	18
-	+	1	14
-	+	3	6
-	+	4	12
-	+	10	2
-	+	1	1
-	+	14	0
-	+	14	13
-	+	15	13
-	+	16	18
-
-> ~/.config/.gitignore
-	*	1565232123	0
-	"	1	0
-
-> ~/julia
-	*	1565231777	0
-	"	1	0
+	+	25	17
+	+	25	0
+	+	36	0
 
 > ~/.Xresources
-	*	1565230932	0
-	"	1	0
-	^	22	27
-	.	22	26
-	+	8	0
-	+	4	43
+	*	1565267474	0
+	"	4	19
+	^	4	20
+	.	4	0
 	+	4	22
 	+	8	0
 	+	4	40
@@ -693,27 +706,14 @@ $return 0
 	+	2	64
 	+	3	32
 	+	22	26
-
-> ~/st/config.h
-	*	1565229327	0
-	"	8	35
-	^	8	36
-	.	8	35
-	+	8	35
-
-> ~/.config/i3/config
-	*	1565226059	0
-	"	190	33
-	^	190	34
-	.	190	33
-	+	189	11
-	+	190	33
+	+	3	108
+	+	4	0
 
 > ~/.vimrc
-	*	1565224359	0
-	"	54	7
-	^	37	1
-	.	37	0
+	*	1565267362	0
+	"	75	0
+	^	75	1
+	.	75	0
 	+	75	0
 	+	76	0
 	+	42	0
@@ -723,6 +723,139 @@ $return 0
 	+	39	0
 	+	38	0
 	+	37	0
+	+	53	0
+	+	75	0
+
+> ~/.bashrc
+	*	1565264470	0
+	"	37	0
+	^	34	21
+	.	34	20
+	+	27	0
+	+	31	37
+	+	33	0
+	+	38	0
+	+	10	16
+	+	17	0
+	+	34	20
+	+	24	0
+	+	25	0
+	+	26	1
+	+	28	0
+	+	24	0
+	+	38	0
+	+	36	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	24	0
+	+	23	0
+	+	19	0
+	+	56	0
+	+	55	21
+	+	15	27
+	+	24	0
+	+	34	20
+
+> ~/st/config.h
+	*	1565262575	0
+	"	8	29
+	^	8	30
+	.	8	29
+	+	8	29
+
+> ~/.xinitrc
+	*	1565262490	0
+	"	56	0
+	^	56	21
+	.	56	0
+	+	57	0
+	+	56	18
+	+	56	8
+	+	56	0
+
+> ~/.compton.conf
+	*	1565262319	0
+	"	108	20
+	^	108	21
+	.	108	20
+	+	173	0
+	+	108	19
+	+	107	22
+	+	1	0
+	+	108	19
+	+	107	21
+	+	78	0
+	+	107	22
+	+	108	20
+
+> ~/.Xresouce
+	*	1565260603	0
+	"	1	0
+
+> ~/Scripts/solo5/tenders/hvt/hvt.h
+	*	1565236630	0
+	"	123	0
+
+> ~/Scripts/NERD_tree_1
+	*	1565236565	0
+	"	14	0
+	.	1	0
+	+	1	0
+
+> ~/.config/tomls
+	*	1565236107	0
+	"	1	0
+
+> ~/.cache/dein/repos/github.com/tomasr/molokai/colors/molokai.vim
+	*	1565235736	0
+	"	124	6
+
+> ~/.ncmpcpp/config
+	*	1565235503	0
+	"	180	9
+
+> ~/.git/config
+	*	1565234103	0
+	"	7	23
+	^	7	24
+	.	7	23
+	+	7	23
+
+> ~/.gitconfig
+	*	1565233982	0
+	"	5	1
+	^	5	18
+	.	6	0
+	+	5	17
+	+	6	0
+
+> ~/.bashr
+	*	1565233092	0
+	"	1	0
+
+> ~/.gitignore
+	*	1565232306	0
+	"	16	18
+	^	16	19
+	.	16	18
+	+	1	14
+	+	3	6
+	+	4	12
+	+	10	2
+	+	1	1
+	+	14	0
+	+	14	13
+	+	15	13
+	+	16	18
+
+> ~/.config/.gitignore
+	*	1565232123	0
+	"	1	0
+
+> ~/julia
+	*	1565231777	0
+	"	1	0
 
 > /etc/pacman.d/mirrorlist
 	*	1565199107	0
@@ -775,12 +908,6 @@ $return 0
 > ~/.julia/packages/LLVM/1ObI9/src/interop/asmcall.jl
 	*	1565196368	0
 	"	1	0
-
-> ~/.config/nvim/tomls/dein.toml
-	*	1565146112	0
-	"	6	0
-	.	6	0
-	+	6	0
 
 > ~/.config/nvim/plugin_config/NERD_tree_1
 	*	1565146103	0
@@ -848,15 +975,6 @@ $return 0
 	*	1565142876	0
 	"	1	0
 
-> ~/Scripts/julia-unikernel.md
-	*	1565100323	0
-	"	26	1
-	^	26	2
-	.	26	1
-	+	9	101
-	+	9	102
-	+	26	1
-
 > ~/Scripts/buildrump.sh/obj/Makefile.third
 	*	1565032825	0
 	"	1	0
@@ -911,12 +1029,6 @@ $return 0
 > ~/Scripts/julia/stdlib/Pkg.version
 	*	1564765680	0
 	"	1	0
-
-> ~/Scripts/julia/NERD_tree_1
-	*	1564765678	0
-	"	49	0
-	.	1	0
-	+	1	0
 
 > ~/Scripts/julia/stdlib/Base64/src/Base64.jl
 	*	1564765637	0
@@ -1027,16 +1139,6 @@ $return 0
 	*	1564676727	0
 	"	1	0
 
-> ~/.vim/vim.toml
-	*	1564673479	0
-	"	1	0
-	^	25	17
-	.	25	0
-	+	22	0
-	+	23	0
-	+	25	17
-	+	25	0
-
 > ~/__Tagbar__.1
 	*	1564673464	0
 	"	1	0
@@ -1044,12 +1146,6 @@ $return 0
 > /usr/share/vim/vim81/doc/starting.txt
 	*	1564673429	0
 	"	328	12
-
-> ~/NERD_tree_2
-	*	1564669835	0
-	"	9	0
-	.	1	0
-	+	1	0
 
 > ~/Scripts/julia/ui/repl.c
 	*	1564669792	0
@@ -1128,74 +1224,3 @@ $return 0
 > ~/Music]
 	*	1564171250	0
 	"	1	0
-
-> ~/.cache/yay/st-git/PKGBUILD
-	*	1564151121	0
-	"	1	0
-
-> ~/Scripts/minix/minix/NERD_tree_1
-	*	1564150508	0
-	"	6	0
-	.	1	0
-	+	1	0
-
-> ~/Scripts/minix/minix/include/minix/driver.h
-	*	1564150388	0
-	"	41	0
-
-> ~/Scripts/minix/minix/include/minix/drivers.h
-	*	1564150342	0
-	"	41	0
-	.	41	0
-	+	41	0
-
-> ~/Scripts/minix/minix/lib/libbdev/driver.c
-	*	1564149581	0
-	"	1	0
-
-> /tmp/bash-fc.EGI8bh
-	*	1564149576	0
-	"	1	1
-	^	1	2
-	.	1	1
-	+	1	1
-
-> ~/Scripts/Toshokan/tutorial/paging/mapping/README.md
-	*	1564082304	0
-	"	1	0
-
-> ~/test.md
-	*	1564082193	0
-	"	1	0
-
-> ~/test.mkd
-	*	1564080899	0
-	"	1	0
-
-> ~/Scripts/minix/minix/kernel/clock.c
-	*	1564079158	0
-	"	53	9
-
-> ~/Scripts/minix/minix/include/minix/type.h
-	*	1564079155	0
-	"	243	0
-
-> ~/Scripts/Toshokan/tutorial/paging/mapping/Makefile
-	*	1563891373	0
-	"	64	8
-
-> ~/Scripts/Toshokan/tutorial/paging/mapping/friend.cc
-	*	1563890082	0
-	"	55	0
-
-> ~/.config/systemd/user/tmux.service
-	*	1563819779	0
-	"	6	0
-
-> ~/.config/systemd/user/tumx.service
-	*	1563819576	0
-	"	6	0
-	^	11	0
-	.	6	0
-	+	10	26
-	+	6	0

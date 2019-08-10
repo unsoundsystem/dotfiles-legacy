@@ -1,7 +1,7 @@
 !font setting
 !URxvt*font: xft:Hack:size=15,xft:IPAGothic:xft:PowerlineSymbols
-URxvt*font: xft:HackGen53 Console for Powerline:size=15,xft:PowerlineSymbols:size=15
-URxvt.letterSpace: -1.9999
+URxvt*font: xft:HackGen53 Console for Powerline:size=15,xft:Twitter Color Emoji,xft:DejaVu Sans Mono,xft:Noto Emoji
+URxvt.letterSpace: -1
 
 !perl
 URxvt.perl-ext-common: xim-onthespot,resize-font

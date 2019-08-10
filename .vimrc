@@ -65,6 +65,7 @@ set nobackup
 set tags=./tags;,tags;
 set belloff=all
 set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+nn <F4> a<C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR><Esc>
 
 "see through
 highlight Normal ctermbg=none
