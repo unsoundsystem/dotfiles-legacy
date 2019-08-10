@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # 最後の 検索パターン:
-~MSle0~/lock
+~Msle0~/\<font\>
 
 # 最後の Substitute 検索パターン:
 ~MSle0&return
@@ -20,14 +20,14 @@
 $return 0
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
+:q
+|2,0,1565481248,,"q"
 :w
-|2,0,1565481001,,"w"
+|2,0,1565481245,,"w"
 :wq
 |2,0,1565421075,,"wq"
 :terminal
 |2,0,1565421006,,"terminal"
-:q
-|2,0,1565420818,,"q"
 :PrevimOpen
 |2,0,1565269771,,"PrevimOpen"
 :bnext
@@ -122,6 +122,10 @@ $return 0
 |2,0,1562997699,,"%s/return/return 0/g"
 
 # 検索文字列 項目の履歴 (新しいものから古いものへ):
+? \<font\>
+|2,1,1565481230,,"\\<font\\>"
+?/font
+|2,1,1565481227,47,"font"
 ?/lock
 |2,1,1565420807,47,"lock"
 ? \<STDLIBS_LINK_TARGETS\>
@@ -218,10 +222,6 @@ $return 0
 |2,1,1564669640,47,"/main()"
 ?/main
 |2,1,1564669527,47,"main"
-?/repl
-|2,1,1564669486,47,"repl"
-?/wine
-|2,1,1564219112,47,"wine"
 
 # 式 項目の履歴 (新しいものから古いものへ):
 
@@ -283,40 +283,60 @@ $return 0
 |3,1,36,0,1,0,1565480996,"8"
 
 # ファイルマーク:
-'0  414  12  ~/.config/dunst/dunstrc
-|4,48,414,12,1565481079,"~/.config/dunst/dunstrc"
-'1  190  58  ~/.config/i3/config
-|4,49,190,58,1565421075,"~/.config/i3/config"
-'2  190  60  ~/.config/i3/config
-|4,50,190,60,1565421032,"~/.config/i3/config"
-'3  190  8  ~/.config/i3/config
-|4,51,190,8,1565420818,"~/.config/i3/config"
-'4  190  8  ~/.config/i3/config
-|4,52,190,8,1565420818,"~/.config/i3/config"
-'5  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,53,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
-'6  1  0  ~/memo/test.md
-|4,54,1,0,1565384761,"~/memo/test.md"
-'7  1  0  ~/testmd
-|4,55,1,0,1565384743,"~/testmd"
-'8  28  56  ~/.config/nvim/tomls/dein_lazy.toml
-|4,56,28,56,1565382424,"~/.config/nvim/tomls/dein_lazy.toml"
-'9  1  0  ~/Scripts/julia-unikernel.md
-|4,57,1,0,1565382356,"~/Scripts/julia-unikernel.md"
+'0  89  20  ~/.config/dunst/dunstrc
+|4,48,89,20,1565481248,"~/.config/dunst/dunstrc"
+'1  414  12  ~/.config/dunst/dunstrc
+|4,49,414,12,1565481079,"~/.config/dunst/dunstrc"
+'2  414  12  ~/.config/dunst/dunstrc
+|4,50,414,12,1565481079,"~/.config/dunst/dunstrc"
+'3  190  58  ~/.config/i3/config
+|4,51,190,58,1565421075,"~/.config/i3/config"
+'4  190  60  ~/.config/i3/config
+|4,52,190,60,1565421032,"~/.config/i3/config"
+'5  190  8  ~/.config/i3/config
+|4,53,190,8,1565420818,"~/.config/i3/config"
+'6  190  8  ~/.config/i3/config
+|4,54,190,8,1565420818,"~/.config/i3/config"
+'7  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,55,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+'8  1  0  ~/memo/test.md
+|4,56,1,0,1565384761,"~/memo/test.md"
+'9  1  0  ~/testmd
+|4,57,1,0,1565384743,"~/testmd"
 
 # ジャンプリスト (新しいものが先):
+-'  89  20  ~/.config/dunst/dunstrc
+|4,39,89,20,1565481248,"~/.config/dunst/dunstrc"
+-'  47  15  ~/.config/dunst/dunstrc
+|4,39,47,15,1565481230,"~/.config/dunst/dunstrc"
+-'  1  0  ~/.config/dunst/dunstrc
+|4,39,1,0,1565481227,"~/.config/dunst/dunstrc"
+-'  414  12  ~/.config/dunst/dunstrc
+|4,39,414,12,1565481079,"~/.config/dunst/dunstrc"
 -'  414  12  ~/.config/dunst/dunstrc
 |4,39,414,12,1565481079,"~/.config/dunst/dunstrc"
 -'  89  0  ~/.config/dunst/dunstrc
 |4,39,89,0,1565480964,"~/.config/dunst/dunstrc"
 -'  5  0  ~/NERD_tree_1
 |4,39,5,0,1565480916,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1565480916,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1565480914,"~/NERD_tree_1"
 -'  1  0  ~/NERD_tree_1
 |4,39,1,0,1565480914,"~/NERD_tree_1"
 -'  190  58  ~/.config/i3/config
 |4,39,190,58,1565421075,"~/.config/i3/config"
 -'  190  58  ~/.config/i3/config
 |4,39,190,58,1565421075,"~/.config/i3/config"
+-'  190  58  ~/.config/i3/config
+|4,39,190,58,1565421075,"~/.config/i3/config"
+-'  190  58  ~/.config/i3/config
+|4,39,190,58,1565421075,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1565421058,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1565421058,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
 |4,39,1,0,1565421058,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
@@ -325,10 +345,22 @@ $return 0
 |4,39,190,60,1565421032,"~/.config/i3/config"
 -'  190  60  ~/.config/i3/config
 |4,39,190,60,1565421032,"~/.config/i3/config"
+-'  190  60  ~/.config/i3/config
+|4,39,190,60,1565421032,"~/.config/i3/config"
+-'  190  60  ~/.config/i3/config
+|4,39,190,60,1565421032,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
 |4,39,1,0,1565420977,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
 |4,39,1,0,1565420977,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1565420977,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1565420977,"~/.config/i3/config"
+-'  190  8  ~/.config/i3/config
+|4,39,190,8,1565420818,"~/.config/i3/config"
+-'  190  8  ~/.config/i3/config
+|4,39,190,8,1565420818,"~/.config/i3/config"
 -'  190  8  ~/.config/i3/config
 |4,39,190,8,1565420818,"~/.config/i3/config"
 -'  190  8  ~/.config/i3/config
@@ -345,6 +377,22 @@ $return 0
 |4,39,53,25,1565420813,"~/.config/i3/config"
 -'  53  25  ~/.config/i3/config
 |4,39,53,25,1565420813,"~/.config/i3/config"
+-'  53  25  ~/.config/i3/config
+|4,39,53,25,1565420813,"~/.config/i3/config"
+-'  53  25  ~/.config/i3/config
+|4,39,53,25,1565420813,"~/.config/i3/config"
+-'  53  25  ~/.config/i3/config
+|4,39,53,25,1565420813,"~/.config/i3/config"
+-'  53  25  ~/.config/i3/config
+|4,39,53,25,1565420813,"~/.config/i3/config"
+-'  53  25  ~/.config/i3/config
+|4,39,53,25,1565420813,"~/.config/i3/config"
+-'  53  25  ~/.config/i3/config
+|4,39,53,25,1565420813,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1565420807,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1565420807,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
 |4,39,1,0,1565420807,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
@@ -381,6 +429,38 @@ $return 0
 |4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
 -'  30  0  ~/Scripts/julia/stdlib/Makefile
 |4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
+-'  30  0  ~/Scripts/julia/stdlib/Makefile
+|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
 -'  33  49  ~/Scripts/julia/stdlib/Makefile
 |4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
 -'  33  49  ~/Scripts/julia/stdlib/Makefile
@@ -413,102 +493,24 @@ $return 0
 |4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
 -'  33  49  ~/Scripts/julia/stdlib/Makefile
 |4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  40  0  ~/Scripts/julia/NERD_tree_1
-|4,39,40,0,1565385795,"~/Scripts/julia/NERD_tree_1"
--'  54  2  ~/Scripts/julia/NERD_tree_1
-|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  1  0  ~/Scripts/julia/NERD_tree_1
-|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  54  2  ~/Scripts/julia/NERD_tree_1
-|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  1  0  ~/Scripts/julia/NERD_tree_1
-|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  54  2  ~/Scripts/julia/NERD_tree_1
-|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  1  0  ~/Scripts/julia/NERD_tree_1
-|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  54  2  ~/Scripts/julia/NERD_tree_1
-|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  1  0  ~/Scripts/julia/NERD_tree_1
-|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  54  2  ~/Scripts/julia/NERD_tree_1
-|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  1  0  ~/Scripts/julia/NERD_tree_1
-|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  54  2  ~/Scripts/julia/NERD_tree_1
-|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  1  0  ~/Scripts/julia/NERD_tree_1
-|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  54  2  ~/Scripts/julia/NERD_tree_1
-|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  1  0  ~/Scripts/julia/NERD_tree_1
-|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  54  2  ~/Scripts/julia/NERD_tree_1
-|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  1  0  ~/Scripts/julia/NERD_tree_1
-|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  54  2  ~/Scripts/julia/NERD_tree_1
-|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  1  0  ~/Scripts/julia/NERD_tree_1
-|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  54  2  ~/Scripts/julia/NERD_tree_1
-|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  1  0  ~/Scripts/julia/NERD_tree_1
-|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  54  2  ~/Scripts/julia/NERD_tree_1
-|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  1  0  ~/Scripts/julia/NERD_tree_1
-|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  54  2  ~/Scripts/julia/NERD_tree_1
-|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  1  0  ~/Scripts/julia/NERD_tree_1
-|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  54  2  ~/Scripts/julia/NERD_tree_1
-|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  1  0  ~/Scripts/julia/NERD_tree_1
-|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  54  2  ~/Scripts/julia/NERD_tree_1
-|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  1  0  ~/Scripts/julia/NERD_tree_1
-|4,39,1,0,1565385789,"~/Scripts/julia/NERD_tree_1"
--'  54  2  ~/Scripts/julia/NERD_tree_1
-|4,39,54,2,1565385789,"~/Scripts/julia/NERD_tree_1"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  33  49  ~/Scripts/julia/stdlib/Makefile
+|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
 
 > ~/.config/dunst/dunstrc
-	*	1565481075	0
-	"	414	12
+	*	1565481245	0
+	"	89	20
 	^	89	21
 	.	89	20
 	+	89	20
