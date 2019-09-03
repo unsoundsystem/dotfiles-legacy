@@ -8,7 +8,7 @@
 alias ls='ls --color=auto'
 alias la='ls -la --color=auto'
 alias rf='rm -rf'
-#alias nvim='nvim -u ~/.config/nvim/init.vim'
+alias nvim='nvim -u ~/.config/nvim/init.vim'
 export PATH=~/.local/bin:~/anaconda3/bin:$PATH
 export XDG_CONFIG_HOME=~/.config
 export EDITOR=vim
@@ -31,7 +31,7 @@ source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
 
 
-export TERMINAL=urxvt
+export TERMINAL=st
 
 #[ -n "$XTERM_VERSION" ] && transset-df -a >/dev/null
 

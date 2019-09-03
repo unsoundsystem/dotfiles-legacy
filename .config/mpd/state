@@ -1,277 +1,79 @@
 sw_volume: 98
 audio_device_state:1:My ALSA Device
 audio_device_state:1:my_fifo
-state: stop
-current: 0
-random: 0
+state: pause
+current: 21
+time: 51.348000
+random: 1
 repeat: 0
-single: 0
+single: 1
 consume: 0
 crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/09 - 布川俊樹 - Summertime.wav
-1:布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/08 - 布川俊樹 - Softly As In A Morning Sunrise（朝日のごとくさわやかに）.wav
-2:布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/10 - 布川俊樹 - When You Wish Upon A Star（星に願いを）.wav
-3:布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/11 - 布川俊樹 - Oleo.wav
-4:布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/05 - 布川俊樹 - The Shadow Of Your Smile（いそしぎ）.wav
-5:布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/04 - 布川俊樹 - Stella By Starlight（星影のステラ）.wav
-6:アコギ/King Gnu「白日」アコギでロックしてみた  “Hakujitsu” on Guitar by Osamuraisan-RixV5NuQiV0.mp3
-7:アコギ/”Whirlwind” by Osamuraisan(Original) 「旋風」アコギでロックしてみた-YfXXg9-2Ejg.mkv
-8:アコギ/”waver” by Osamuraisan(Original) 「波間に揺蕩う」-MralCG9AggQ.mkv
-9:布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/07 - 布川俊樹 - Someday My Prince Will Come（いつか王子様が）.wav
-10:布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/06 - 布川俊樹 - Cherokee.wav
-11:布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/03 - 布川俊樹 - Donna Lee.wav
-12:アコギ/【TAB】Official髭男dism「Pretender」アコギで弾いてみた 'Pretender' on Guitar by Osamuraisan-8JzQIgvonyQ.mkv
-13:布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/03 - 布川俊樹 - ［基礎練習］スケール内パターン：Scale Pattern 1.wav
-14:布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/04 - 布川俊樹 - ［基礎練習］スケール内パターン：Scale Pattern 2.wav
-15:布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/09 - 布川俊樹 - ［コード・ワーク］トニック、サブドミナントのコード：Ex.1.wav
-16:アコギ/'Lemon' on guitar by Osamuraisan 【米津玄師】-l9hHJazV01o.webm
-17:アコギ/'Snow halation' on guitar by Osamuraisan アコギで弾いてみた-T6M1hgE_Sz8.mkv
-18:アコギ/'Yoshiwara Lament' by Osamuraisan 「吉原ラメント」アコギでロック-6eXq9V8JIwA.mkv
-19:アコギ/”claw marks” by Osamuraisan(Original) 「爪痕」-ygDBCz7BvTU.mkv
-20:アコギ/”waver” by Osamuraisan(Original) 「波間に揺蕩う」-MralCG9AggQ.mkv
-21:アコギ/”Whirlwind” by Osamuraisan(Original) 「旋風」アコギでロックしてみた-YfXXg9-2Ejg.mkv
-22:アコギ/「アウトサイダー」アコギとかで弾いてみた 'Outsider' by Osamuraisan-eg-P9mIn53g.mkv
-23:アコギ/「コネクト」もう一度アコギでロックしてみた ClariS - 'Connect' on guitar by Osamuraisan(Reprise)-7GrQPxYdw-w.mkv
-24:アコギ/「ローリンガール」アコギで弾いてみた 'Rolling girl' on Guitar-qQ88h-cLb6U.mkv
-25:アコギ/「夏祭り」アコギでアレンジしてみた 'Summer festival' by Osamuraisan-ZR6BKj9NggY.mkv
-26:アコギ/「完全感覚Dreamer」アコギでロックしてみた（Reprise）ONE OK ROCK 'Kanzenkankaku Dreamer' by Osamuraisan-0WnQnBBcTX0.mkv
-27:アコギ/【TAB】Official髭男dism「Pretender」アコギで弾いてみた 'Pretender' on Guitar by Osamuraisan-8JzQIgvonyQ.mkv
-28:アコギ/【一人八役】「シャルル」アコギとかで弾いてみた 'Charles' by Osamuraisan-VYKxPxXKV98.mkv
-29:アコギ/【少女終末旅行】 「動く、動く」アコギで弾いてみた Shoujo Shuumatsu Ryokou OP 'Ugoku, ugoku' by Osamuraisan-wNrWeM8cz84.mkv
-30:アコギ/８年ぶりに「丸の内サディスティック」アコギでロックしてみた Sheena Ringo 'Marunouchi sadistic' by Osamuraisan(Remake)-LhR46Rhs7-o.mkv
-31:アコギ/Aimer「カタオモイ」アコギで弾いてみた 'Kataomoi' on guitar by Osamuraisan-Ga984_A7P_s.mkv
-32:アコギ/Ed Sheeran 'Thinking Out Loud' by Osamuraisan-XyB38OC5a_s.mkv
-33:アコギ/HY '366 days' by Osamuraisan 「366日」アコギで弾いてみた-PBi-iq14Z30.mkv
-34:アコギ/IA - 'Imagination Forest' on guitars by Osamuraisan 「想像フォレスト」アコギとかでゆったり弾いてみた【一人七役】-D0hfvcuIzCk.mkv
-35:アコギ/IA - 'Kisaragi Attention' on guitars by Osamuraisan 「如月アテンション」-Xik3L6X8r8s.mkv
-36:アコギ/IA - 'Summertime Record' on guitars by Osamuraisan 「サマータイムレコード」アコギでロック-3cvRiXFtNfQ.mkv
-37:アコギ/IA - 'Yobanashi Deceive' on guitars by Osamuraisan 「夜咄ディセイブ」アコギでロック--JLEgAMG5YQ.mkv
-38:アコギ/KANA-BOON ”Silhouette” by Osamuraisan 【NARUTO OP】「シルエット」アコギでロックしてみた-KbGVYcmMr5E.mkv
-39:アコギ/King Gnu「白日」アコギでロックしてみた  “Hakujitsu” on Guitar by Osamuraisan-RixV5NuQiV0.mp3
-40:アコギ/Miku Hatsune - 'Senbonzakura' on guitars from Shoubu Zennya 勝負前夜より 「千本桜」アコギでロック-VfRX45UyIrw.mkv
-41:アコギ/ONE OK ROCK 'Re -make' by Osamuraisan アコギでロックしてみた-s96X77dNEsE.mkv
-42:アコギ/sumika「フィクション」アコギで弾いてみた【Wotakoi OP】 'Fiction' on Guitar by Osamuraisan-qziAlqRlbtk.mkv
-43:アコギ/星野源『恋』ちゃんと弾き直してみた【逃げ恥】  Gen Hoshino 'Koi' on guitar by Osamuraisan(reprise)-g1vAOzPXPZk.webm
-44:アコギ/東京喰種 Tokyo Ghoul -re 最終章OP 'katharsis' on guitar by Osamuraisan-SdUfbi7YF4I.webm
-45:アコギ/'Lemon' on guitar by Osamuraisan 【米津玄師】-l9hHJazV01o.webm
-46:アコギ/'Snow halation' on guitar by Osamuraisan アコギで弾いてみた-T6M1hgE_Sz8.mkv
-47:アコギ/'Yoshiwara Lament' by Osamuraisan 「吉原ラメント」アコギでロック-6eXq9V8JIwA.mkv
-48:アコギ/”claw marks” by Osamuraisan(Original) 「爪痕」-ygDBCz7BvTU.mkv
-49:アコギ/”waver” by Osamuraisan(Original) 「波間に揺蕩う」-MralCG9AggQ.mkv
-50:アコギ/”Whirlwind” by Osamuraisan(Original) 「旋風」アコギでロックしてみた-YfXXg9-2Ejg.mkv
-51:アコギ/「アウトサイダー」アコギとかで弾いてみた 'Outsider' by Osamuraisan-eg-P9mIn53g.mkv
-52:アコギ/「コネクト」もう一度アコギでロックしてみた ClariS - 'Connect' on guitar by Osamuraisan(Reprise)-7GrQPxYdw-w.mkv
-53:アコギ/「ローリンガール」アコギで弾いてみた 'Rolling girl' on Guitar-qQ88h-cLb6U.mkv
-54:アコギ/「夏祭り」アコギでアレンジしてみた 'Summer festival' by Osamuraisan-ZR6BKj9NggY.mkv
-55:アコギ/「完全感覚Dreamer」アコギでロックしてみた（Reprise）ONE OK ROCK 'Kanzenkankaku Dreamer' by Osamuraisan-0WnQnBBcTX0.mkv
-56:アコギ/【TAB】Official髭男dism「Pretender」アコギで弾いてみた 'Pretender' on Guitar by Osamuraisan-8JzQIgvonyQ.mkv
-57:アコギ/【一人八役】「シャルル」アコギとかで弾いてみた 'Charles' by Osamuraisan-VYKxPxXKV98.mkv
-58:アコギ/【少女終末旅行】 「動く、動く」アコギで弾いてみた Shoujo Shuumatsu Ryokou OP 'Ugoku, ugoku' by Osamuraisan-wNrWeM8cz84.mkv
-59:アコギ/８年ぶりに「丸の内サディスティック」アコギでロックしてみた Sheena Ringo 'Marunouchi sadistic' by Osamuraisan(Remake)-LhR46Rhs7-o.mkv
-60:アコギ/Aimer「カタオモイ」アコギで弾いてみた 'Kataomoi' on guitar by Osamuraisan-Ga984_A7P_s.mkv
-61:アコギ/Ed Sheeran 'Thinking Out Loud' by Osamuraisan-XyB38OC5a_s.mkv
-62:アコギ/HY '366 days' by Osamuraisan 「366日」アコギで弾いてみた-PBi-iq14Z30.mkv
-63:アコギ/IA - 'Imagination Forest' on guitars by Osamuraisan 「想像フォレスト」アコギとかでゆったり弾いてみた【一人七役】-D0hfvcuIzCk.mkv
-64:アコギ/IA - 'Kisaragi Attention' on guitars by Osamuraisan 「如月アテンション」-Xik3L6X8r8s.mkv
-65:アコギ/IA - 'Summertime Record' on guitars by Osamuraisan 「サマータイムレコード」アコギでロック-3cvRiXFtNfQ.mkv
-66:アコギ/IA - 'Yobanashi Deceive' on guitars by Osamuraisan 「夜咄ディセイブ」アコギでロック--JLEgAMG5YQ.mkv
-67:アコギ/KANA-BOON ”Silhouette” by Osamuraisan 【NARUTO OP】「シルエット」アコギでロックしてみた-KbGVYcmMr5E.mkv
-68:アコギ/King Gnu「白日」アコギでロックしてみた  “Hakujitsu” on Guitar by Osamuraisan-RixV5NuQiV0.mp3
-69:アコギ/Miku Hatsune - 'Senbonzakura' on guitars from Shoubu Zennya 勝負前夜より 「千本桜」アコギでロック-VfRX45UyIrw.mkv
-70:アコギ/ONE OK ROCK 'Re -make' by Osamuraisan アコギでロックしてみた-s96X77dNEsE.mkv
-71:アコギ/sumika「フィクション」アコギで弾いてみた【Wotakoi OP】 'Fiction' on Guitar by Osamuraisan-qziAlqRlbtk.mkv
-72:アコギ/星野源『恋』ちゃんと弾き直してみた【逃げ恥】  Gen Hoshino 'Koi' on guitar by Osamuraisan(reprise)-g1vAOzPXPZk.webm
-73:アコギ/東京喰種 Tokyo Ghoul -re 最終章OP 'katharsis' on guitar by Osamuraisan-SdUfbi7YF4I.webm
-74:アコギ/'Lemon' on guitar by Osamuraisan 【米津玄師】-l9hHJazV01o.webm
-75:アコギ/'Snow halation' on guitar by Osamuraisan アコギで弾いてみた-T6M1hgE_Sz8.mkv
-76:アコギ/'Yoshiwara Lament' by Osamuraisan 「吉原ラメント」アコギでロック-6eXq9V8JIwA.mkv
-77:アコギ/”claw marks” by Osamuraisan(Original) 「爪痕」-ygDBCz7BvTU.mkv
-78:アコギ/”waver” by Osamuraisan(Original) 「波間に揺蕩う」-MralCG9AggQ.mkv
-79:アコギ/”Whirlwind” by Osamuraisan(Original) 「旋風」アコギでロックしてみた-YfXXg9-2Ejg.mkv
-80:アコギ/「アウトサイダー」アコギとかで弾いてみた 'Outsider' by Osamuraisan-eg-P9mIn53g.mkv
-81:アコギ/「コネクト」もう一度アコギでロックしてみた ClariS - 'Connect' on guitar by Osamuraisan(Reprise)-7GrQPxYdw-w.mkv
-82:アコギ/「ローリンガール」アコギで弾いてみた 'Rolling girl' on Guitar-qQ88h-cLb6U.mkv
-83:アコギ/「夏祭り」アコギでアレンジしてみた 'Summer festival' by Osamuraisan-ZR6BKj9NggY.mkv
-84:アコギ/「完全感覚Dreamer」アコギでロックしてみた（Reprise）ONE OK ROCK 'Kanzenkankaku Dreamer' by Osamuraisan-0WnQnBBcTX0.mkv
-85:アコギ/【TAB】Official髭男dism「Pretender」アコギで弾いてみた 'Pretender' on Guitar by Osamuraisan-8JzQIgvonyQ.mkv
-86:アコギ/【一人八役】「シャルル」アコギとかで弾いてみた 'Charles' by Osamuraisan-VYKxPxXKV98.mkv
-87:アコギ/【少女終末旅行】 「動く、動く」アコギで弾いてみた Shoujo Shuumatsu Ryokou OP 'Ugoku, ugoku' by Osamuraisan-wNrWeM8cz84.mkv
-88:アコギ/８年ぶりに「丸の内サディスティック」アコギでロックしてみた Sheena Ringo 'Marunouchi sadistic' by Osamuraisan(Remake)-LhR46Rhs7-o.mkv
-89:アコギ/Aimer「カタオモイ」アコギで弾いてみた 'Kataomoi' on guitar by Osamuraisan-Ga984_A7P_s.mkv
-90:アコギ/Ed Sheeran 'Thinking Out Loud' by Osamuraisan-XyB38OC5a_s.mkv
-91:アコギ/HY '366 days' by Osamuraisan 「366日」アコギで弾いてみた-PBi-iq14Z30.mkv
-92:アコギ/IA - 'Imagination Forest' on guitars by Osamuraisan 「想像フォレスト」アコギとかでゆったり弾いてみた【一人七役】-D0hfvcuIzCk.mkv
-93:アコギ/IA - 'Kisaragi Attention' on guitars by Osamuraisan 「如月アテンション」-Xik3L6X8r8s.mkv
-94:アコギ/IA - 'Summertime Record' on guitars by Osamuraisan 「サマータイムレコード」アコギでロック-3cvRiXFtNfQ.mkv
-95:アコギ/IA - 'Yobanashi Deceive' on guitars by Osamuraisan 「夜咄ディセイブ」アコギでロック--JLEgAMG5YQ.mkv
-96:アコギ/KANA-BOON ”Silhouette” by Osamuraisan 【NARUTO OP】「シルエット」アコギでロックしてみた-KbGVYcmMr5E.mkv
-97:アコギ/King Gnu「白日」アコギでロックしてみた  “Hakujitsu” on Guitar by Osamuraisan-RixV5NuQiV0.mp3
-98:アコギ/Miku Hatsune - 'Senbonzakura' on guitars from Shoubu Zennya 勝負前夜より 「千本桜」アコギでロック-VfRX45UyIrw.mkv
-99:アコギ/ONE OK ROCK 'Re -make' by Osamuraisan アコギでロックしてみた-s96X77dNEsE.mkv
-100:アコギ/sumika「フィクション」アコギで弾いてみた【Wotakoi OP】 'Fiction' on Guitar by Osamuraisan-qziAlqRlbtk.mkv
-101:アコギ/星野源『恋』ちゃんと弾き直してみた【逃げ恥】  Gen Hoshino 'Koi' on guitar by Osamuraisan(reprise)-g1vAOzPXPZk.webm
-102:アコギ/東京喰種 Tokyo Ghoul -re 最終章OP 'katharsis' on guitar by Osamuraisan-SdUfbi7YF4I.webm
-103:文単　英検二級１/01 - Unknown Artist - Track 1.wav
-104:文単　英検二級１/02 - Unknown Artist - Track 2.wav
-105:文単　英検二級１/03 - Unknown Artist - Track 3.wav
-106:文単　英検二級１/04 - Unknown Artist - Track 4.wav
-107:文単　英検二級１/05 - Unknown Artist - Track 5.wav
-108:文単　英検二級１/06 - Unknown Artist - Track 6.wav
-109:文単　英検二級１/07 - Unknown Artist - Track 7.wav
-110:文単　英検二級１/08 - Unknown Artist - Track 8.wav
-111:文単　英検二級１/09 - Unknown Artist - Track 9.wav
-112:文単　英検二級１/10 - Unknown Artist - Track 10.wav
-113:文単　英検二級１/11 - Unknown Artist - Track 11.wav
-114:文単　英検二級１/12 - Unknown Artist - Track 12.wav
-115:文単　英検二級１/13 - Unknown Artist - Track 13.wav
-116:文単　英検二級１/14 - Unknown Artist - Track 14.wav
-117:文単　英検二級１/15 - Unknown Artist - Track 15.wav
-118:文単　英検二級１/16 - Unknown Artist - Track 16.wav
-119:文単　英検二級１/17 - Unknown Artist - Track 17.wav
-120:文単　英検二級１/18 - Unknown Artist - Track 18.wav
-121:文単　英検二級１/19 - Unknown Artist - Track 19.wav
-122:文単　英検二級１/20 - Unknown Artist - Track 20.wav
-123:文単　英検二級１/21 - Unknown Artist - Track 21.wav
-124:文単　英検二級１/22 - Unknown Artist - Track 22.wav
-125:文単　英検二級１/23 - Unknown Artist - Track 23.wav
-126:文単　英検二級１/24 - Unknown Artist - Track 24.wav
-127:文単　英検二級１/25 - Unknown Artist - Track 25.wav
-128:文単　英検二級１/26 - Unknown Artist - Track 26.wav
-129:文単　英検二級１/27 - Unknown Artist - Track 27.wav
-130:文単　英検二級１/28 - Unknown Artist - Track 28.wav
-131:文単　英検二級１/29 - Unknown Artist - Track 29.wav
-132:文単　英検二級１/30 - Unknown Artist - Track 30.wav
-133:文単　英検二級１/31 - Unknown Artist - Track 31.wav
-134:文単　英検二級１/32 - Unknown Artist - Track 32.wav
-135:文単　英検二級１/33 - Unknown Artist - Track 33.wav
-136:文単　英検二級１/34 - Unknown Artist - Track 34.wav
-137:文単　英検二級１/35 - Unknown Artist - Track 35.wav
-138:文単　英検二級１/36 - Unknown Artist - Track 36.wav
-139:文単　英検二級１/37 - Unknown Artist - Track 37.wav
-140:文単　英検二級１/38 - Unknown Artist - Track 38.wav
-141:文単　英検二級１/39 - Unknown Artist - Track 39.wav
-142:文単　英検二級１/40 - Unknown Artist - Track 40.wav
-143:文単　英検二級１/41 - Unknown Artist - Track 41.wav
-144:文単　英検二級１/42 - Unknown Artist - Track 42.wav
-145:文単　英検二級１/43 - Unknown Artist - Track 43.wav
-146:文単　英検二級１/44 - Unknown Artist - Track 44.wav
-147:文単　英検二級１/45 - Unknown Artist - Track 45.wav
-148:文単　英検二級１/46 - Unknown Artist - Track 46.wav
-149:文単　英検二級１/47 - Unknown Artist - Track 47.wav
-150:文単　英検二級１/48 - Unknown Artist - Track 48.wav
-151:文単　英検二級１/49 - Unknown Artist - Track 49.wav
-152:文単　英検二級１/50 - Unknown Artist - Track 50.wav
-153:文単　英検二級１/51 - Unknown Artist - Track 51.wav
-154:文単　英検二級１/52 - Unknown Artist - Track 52.wav
-155:文単　英検二級１/53 - Unknown Artist - Track 53.wav
-156:文単　英検二級１/54 - Unknown Artist - Track 54.wav
-157:文単　英検二級１/55 - Unknown Artist - Track 55.wav
-158:文単　英検二級１/56 - Unknown Artist - Track 56.wav
-159:文単　英検二級１/57 - Unknown Artist - Track 57.wav
-160:文単　英検二級１/58 - Unknown Artist - Track 58.wav
-161:文単　英検二級１/59 - Unknown Artist - Track 59.wav
-162:文単　英検二級１/60 - Unknown Artist - Track 60.wav
-163:文単　英検二級１/61 - Unknown Artist - Track 61.wav
-164:文単　英検二級１/62 - Unknown Artist - Track 62.wav
-165:文単　英検二級１/63 - Unknown Artist - Track 63.wav
-166:文単　英検二級１/64 - Unknown Artist - Track 64.wav
-167:文単　英検二級１/01 - Unknown Artist - Track 1.wav
-168:文単　英検二級１/02 - Unknown Artist - Track 2.wav
-169:文単　英検二級１/03 - Unknown Artist - Track 3.wav
-170:文単　英検二級１/04 - Unknown Artist - Track 4.wav
-171:文単　英検二級１/05 - Unknown Artist - Track 5.wav
-172:文単　英検二級１/06 - Unknown Artist - Track 6.wav
-173:文単　英検二級１/07 - Unknown Artist - Track 7.wav
-174:文単　英検二級１/08 - Unknown Artist - Track 8.wav
-175:文単　英検二級１/09 - Unknown Artist - Track 9.wav
-176:文単　英検二級１/10 - Unknown Artist - Track 10.wav
-177:文単　英検二級１/11 - Unknown Artist - Track 11.wav
-178:文単　英検二級１/12 - Unknown Artist - Track 12.wav
-179:文単　英検二級１/13 - Unknown Artist - Track 13.wav
-180:文単　英検二級１/14 - Unknown Artist - Track 14.wav
-181:文単　英検二級１/15 - Unknown Artist - Track 15.wav
-182:文単　英検二級１/16 - Unknown Artist - Track 16.wav
-183:文単　英検二級１/17 - Unknown Artist - Track 17.wav
-184:文単　英検二級１/18 - Unknown Artist - Track 18.wav
-185:文単　英検二級１/19 - Unknown Artist - Track 19.wav
-186:文単　英検二級１/20 - Unknown Artist - Track 20.wav
-187:文単　英検二級１/21 - Unknown Artist - Track 21.wav
-188:文単　英検二級１/22 - Unknown Artist - Track 22.wav
-189:文単　英検二級１/23 - Unknown Artist - Track 23.wav
-190:文単　英検二級１/24 - Unknown Artist - Track 24.wav
-191:文単　英検二級１/25 - Unknown Artist - Track 25.wav
-192:文単　英検二級１/26 - Unknown Artist - Track 26.wav
-193:文単　英検二級１/27 - Unknown Artist - Track 27.wav
-194:文単　英検二級１/28 - Unknown Artist - Track 28.wav
-195:文単　英検二級１/29 - Unknown Artist - Track 29.wav
-196:文単　英検二級１/30 - Unknown Artist - Track 30.wav
-197:文単　英検二級１/31 - Unknown Artist - Track 31.wav
-198:文単　英検二級１/32 - Unknown Artist - Track 32.wav
-199:文単　英検二級１/33 - Unknown Artist - Track 33.wav
-200:文単　英検二級１/34 - Unknown Artist - Track 34.wav
-201:文単　英検二級１/35 - Unknown Artist - Track 35.wav
-202:文単　英検二級１/36 - Unknown Artist - Track 36.wav
-203:文単　英検二級１/37 - Unknown Artist - Track 37.wav
-204:文単　英検二級１/38 - Unknown Artist - Track 38.wav
-205:文単　英検二級１/39 - Unknown Artist - Track 39.wav
-206:文単　英検二級１/40 - Unknown Artist - Track 40.wav
-207:文単　英検二級１/41 - Unknown Artist - Track 41.wav
-208:文単　英検二級１/42 - Unknown Artist - Track 42.wav
-209:文単　英検二級１/43 - Unknown Artist - Track 43.wav
-210:文単　英検二級１/44 - Unknown Artist - Track 44.wav
-211:文単　英検二級１/45 - Unknown Artist - Track 45.wav
-212:文単　英検二級１/46 - Unknown Artist - Track 46.wav
-213:文単　英検二級１/47 - Unknown Artist - Track 47.wav
-214:文単　英検二級１/48 - Unknown Artist - Track 48.wav
-215:文単　英検二級１/49 - Unknown Artist - Track 49.wav
-216:文単　英検二級１/50 - Unknown Artist - Track 50.wav
-217:文単　英検二級１/51 - Unknown Artist - Track 51.wav
-218:文単　英検二級１/52 - Unknown Artist - Track 52.wav
-219:文単　英検二級１/53 - Unknown Artist - Track 53.wav
-220:文単　英検二級１/54 - Unknown Artist - Track 54.wav
-221:文単　英検二級１/55 - Unknown Artist - Track 55.wav
-222:文単　英検二級１/56 - Unknown Artist - Track 56.wav
-223:文単　英検二級１/57 - Unknown Artist - Track 57.wav
-224:文単　英検二級１/58 - Unknown Artist - Track 58.wav
-225:文単　英検二級１/59 - Unknown Artist - Track 59.wav
-226:文単　英検二級１/60 - Unknown Artist - Track 60.wav
-227:文単　英検二級１/61 - Unknown Artist - Track 61.wav
-228:文単　英検二級１/62 - Unknown Artist - Track 62.wav
-229:文単　英検二級１/63 - Unknown Artist - Track 63.wav
-230:文単　英検二級１/64 - Unknown Artist - Track 64.wav
-231:アコギ/'Lemon' on guitar by Osamuraisan 【米津玄師】-l9hHJazV01o.webm
-232:アコギ/'Snow halation' on guitar by Osamuraisan アコギで弾いてみた-T6M1hgE_Sz8.mkv
-233:アコギ/'Yoshiwara Lament' by Osamuraisan 「吉原ラメント」アコギでロック-6eXq9V8JIwA.mkv
-234:アコギ/”claw marks” by Osamuraisan(Original) 「爪痕」-ygDBCz7BvTU.mkv
-235:アコギ/”waver” by Osamuraisan(Original) 「波間に揺蕩う」-MralCG9AggQ.mkv
-236:アコギ/”Whirlwind” by Osamuraisan(Original) 「旋風」アコギでロックしてみた-YfXXg9-2Ejg.mkv
-237:アコギ/「アウトサイダー」アコギとかで弾いてみた 'Outsider' by Osamuraisan-eg-P9mIn53g.mkv
-238:アコギ/「コネクト」もう一度アコギでロックしてみた ClariS - 'Connect' on guitar by Osamuraisan(Reprise)-7GrQPxYdw-w.mkv
-239:アコギ/「ローリンガール」アコギで弾いてみた 'Rolling girl' on Guitar-qQ88h-cLb6U.mkv
-240:アコギ/「夏祭り」アコギでアレンジしてみた 'Summer festival' by Osamuraisan-ZR6BKj9NggY.mkv
-241:アコギ/「完全感覚Dreamer」アコギでロックしてみた（Reprise）ONE OK ROCK 'Kanzenkankaku Dreamer' by Osamuraisan-0WnQnBBcTX0.mkv
-242:アコギ/【TAB】Official髭男dism「Pretender」アコギで弾いてみた 'Pretender' on Guitar by Osamuraisan-8JzQIgvonyQ.mkv
-243:アコギ/【一人八役】「シャルル」アコギとかで弾いてみた 'Charles' by Osamuraisan-VYKxPxXKV98.mkv
-244:アコギ/【少女終末旅行】 「動く、動く」アコギで弾いてみた Shoujo Shuumatsu Ryokou OP 'Ugoku, ugoku' by Osamuraisan-wNrWeM8cz84.mkv
-245:アコギ/８年ぶりに「丸の内サディスティック」アコギでロックしてみた Sheena Ringo 'Marunouchi sadistic' by Osamuraisan(Remake)-LhR46Rhs7-o.mkv
-246:アコギ/Aimer「カタオモイ」アコギで弾いてみた 'Kataomoi' on guitar by Osamuraisan-Ga984_A7P_s.mkv
-247:アコギ/DAOKO × 米津玄師『打上花火』アコギで弾いてみた ちょっとだけ 'Uchiage Hanabi' by Osamuraisan-8PUIPFiixs8.webm
-248:アコギ/Ed Sheeran 'Thinking Out Loud' by Osamuraisan-XyB38OC5a_s.mkv
-249:アコギ/HY '366 days' by Osamuraisan 「366日」アコギで弾いてみた-PBi-iq14Z30.mkv
-250:アコギ/IA - 'Imagination Forest' on guitars by Osamuraisan 「想像フォレスト」アコギとかでゆったり弾いてみた【一人七役】-D0hfvcuIzCk.mkv
-251:アコギ/IA - 'Kisaragi Attention' on guitars by Osamuraisan 「如月アテンション」-Xik3L6X8r8s.mkv
-252:アコギ/IA - 'Summertime Record' on guitars by Osamuraisan 「サマータイムレコード」アコギでロック-3cvRiXFtNfQ.mkv
-253:アコギ/IA - 'Yobanashi Deceive' on guitars by Osamuraisan 「夜咄ディセイブ」アコギでロック--JLEgAMG5YQ.mkv
-254:アコギ/KANA-BOON ”Silhouette” by Osamuraisan 【NARUTO OP】「シルエット」アコギでロックしてみた-KbGVYcmMr5E.mkv
-255:アコギ/King Gnu「白日」アコギでロックしてみた  “Hakujitsu” on Guitar by Osamuraisan-RixV5NuQiV0.mp3
-256:アコギ/Miku Hatsune - 'Senbonzakura' on guitars from Shoubu Zennya 勝負前夜より 「千本桜」アコギでロック-VfRX45UyIrw.mkv
-257:アコギ/ONE OK ROCK 'Re -make' by Osamuraisan アコギでロックしてみた-s96X77dNEsE.mkv
-258:アコギ/sumika「フィクション」アコギで弾いてみた【Wotakoi OP】 'Fiction' on Guitar by Osamuraisan-qziAlqRlbtk.mkv
-259:アコギ/星野源『恋』ちゃんと弾き直してみた【逃げ恥】  Gen Hoshino 'Koi' on guitar by Osamuraisan(reprise)-g1vAOzPXPZk.webm
-260:アコギ/東京喰種 Tokyo Ghoul -re 最終章OP 'katharsis' on guitar by Osamuraisan-SdUfbi7YF4I.webm
-261:01 Alabamy Bound.mp3
-262:然れど応答は冴えず_12uck feat.重音テト.mp3
+0:文単　英検二級１/01 - Unknown Artist - Track 1.wav
+1:文単　英検二級１/02 - Unknown Artist - Track 2.wav
+2:文単　英検二級１/03 - Unknown Artist - Track 3.wav
+3:文単　英検二級１/04 - Unknown Artist - Track 4.wav
+4:文単　英検二級１/05 - Unknown Artist - Track 5.wav
+5:文単　英検二級１/06 - Unknown Artist - Track 6.wav
+6:文単　英検二級１/07 - Unknown Artist - Track 7.wav
+7:文単　英検二級１/08 - Unknown Artist - Track 8.wav
+8:文単　英検二級１/09 - Unknown Artist - Track 9.wav
+9:文単　英検二級１/10 - Unknown Artist - Track 10.wav
+10:文単　英検二級１/11 - Unknown Artist - Track 11.wav
+11:文単　英検二級１/12 - Unknown Artist - Track 12.wav
+12:文単　英検二級１/13 - Unknown Artist - Track 13.wav
+13:文単　英検二級１/14 - Unknown Artist - Track 14.wav
+14:文単　英検二級１/15 - Unknown Artist - Track 15.wav
+15:文単　英検二級１/16 - Unknown Artist - Track 16.wav
+16:文単　英検二級１/17 - Unknown Artist - Track 17.wav
+17:文単　英検二級１/18 - Unknown Artist - Track 18.wav
+18:文単　英検二級１/19 - Unknown Artist - Track 19.wav
+19:文単　英検二級１/20 - Unknown Artist - Track 20.wav
+20:文単　英検二級１/21 - Unknown Artist - Track 21.wav
+21:文単　英検二級１/22 - Unknown Artist - Track 22.wav
+22:文単　英検二級１/23 - Unknown Artist - Track 23.wav
+23:文単　英検二級１/24 - Unknown Artist - Track 24.wav
+24:文単　英検二級１/25 - Unknown Artist - Track 25.wav
+25:文単　英検二級１/26 - Unknown Artist - Track 26.wav
+26:文単　英検二級１/27 - Unknown Artist - Track 27.wav
+27:文単　英検二級１/28 - Unknown Artist - Track 28.wav
+28:文単　英検二級１/29 - Unknown Artist - Track 29.wav
+29:文単　英検二級１/30 - Unknown Artist - Track 30.wav
+30:文単　英検二級１/31 - Unknown Artist - Track 31.wav
+31:文単　英検二級１/32 - Unknown Artist - Track 32.wav
+32:文単　英検二級１/33 - Unknown Artist - Track 33.wav
+33:文単　英検二級１/34 - Unknown Artist - Track 34.wav
+34:文単　英検二級１/35 - Unknown Artist - Track 35.wav
+35:文単　英検二級１/36 - Unknown Artist - Track 36.wav
+36:文単　英検二級１/37 - Unknown Artist - Track 37.wav
+37:文単　英検二級１/38 - Unknown Artist - Track 38.wav
+38:文単　英検二級１/39 - Unknown Artist - Track 39.wav
+39:文単　英検二級１/40 - Unknown Artist - Track 40.wav
+40:文単　英検二級１/41 - Unknown Artist - Track 41.wav
+41:文単　英検二級１/42 - Unknown Artist - Track 42.wav
+42:文単　英検二級１/43 - Unknown Artist - Track 43.wav
+43:文単　英検二級１/44 - Unknown Artist - Track 44.wav
+44:文単　英検二級１/45 - Unknown Artist - Track 45.wav
+45:文単　英検二級１/46 - Unknown Artist - Track 46.wav
+46:文単　英検二級１/47 - Unknown Artist - Track 47.wav
+47:文単　英検二級１/48 - Unknown Artist - Track 48.wav
+48:文単　英検二級１/49 - Unknown Artist - Track 49.wav
+49:文単　英検二級１/50 - Unknown Artist - Track 50.wav
+50:文単　英検二級１/51 - Unknown Artist - Track 51.wav
+51:文単　英検二級１/52 - Unknown Artist - Track 52.wav
+52:文単　英検二級１/53 - Unknown Artist - Track 53.wav
+53:文単　英検二級１/54 - Unknown Artist - Track 54.wav
+54:文単　英検二級１/55 - Unknown Artist - Track 55.wav
+55:文単　英検二級１/56 - Unknown Artist - Track 56.wav
+56:文単　英検二級１/57 - Unknown Artist - Track 57.wav
+57:文単　英検二級１/58 - Unknown Artist - Track 58.wav
+58:文単　英検二級１/59 - Unknown Artist - Track 59.wav
+59:文単　英検二級１/60 - Unknown Artist - Track 60.wav
+60:文単　英検二級１/61 - Unknown Artist - Track 61.wav
+61:文単　英検二級１/62 - Unknown Artist - Track 62.wav
+62:文単　英検二級１/63 - Unknown Artist - Track 63.wav
+63:文単　英検二級１/64 - Unknown Artist - Track 64.wav
 playlist_end

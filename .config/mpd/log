@@ -1419,3 +1419,1877 @@ Aug 11 05:11 : zeroconf: No global port, disabling zeroconf
 Aug 11 05:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Aug 11 08:31 : zeroconf: No global port, disabling zeroconf
 Aug 11 08:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 11 09:52 : zeroconf: No global port, disabling zeroconf
+Aug 11 09:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 11 10:26 : zeroconf: No global port, disabling zeroconf
+Aug 11 10:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 11 10:57 : zeroconf: No global port, disabling zeroconf
+Aug 11 10:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 11 12:18 : zeroconf: No global port, disabling zeroconf
+Aug 11 12:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 11 20:01 : zeroconf: No global port, disabling zeroconf
+Aug 11 20:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 05:45 : zeroconf: No global port, disabling zeroconf
+Aug 13 05:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 14 08:45 : zeroconf: No global port, disabling zeroconf
+Aug 14 08:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 16 17:15 : zeroconf: No global port, disabling zeroconf
+Aug 16 17:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 17 08:41 : zeroconf: No global port, disabling zeroconf
+Aug 17 08:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 17 10:06 : zeroconf: No global port, disabling zeroconf
+Aug 17 10:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 17 21:43 : zeroconf: No global port, disabling zeroconf
+Aug 17 21:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 18 13:31 : zeroconf: No global port, disabling zeroconf
+Aug 18 13:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 19 10:14 : client: [0] opened from 127.0.0.1:54472
+Aug 19 10:15 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 19 10:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 19 10:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 19 10:17 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 19 10:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 19 10:17 : player: played "アコギ/'Snow halation' on guitar by Osamuraisan アコギで弾いてみた-T6M1hgE_Sz8.mkv"
+Aug 19 10:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 19 10:17 : client: [0] closed
+Aug 19 10:17 : client: [1] opened from 127.0.0.1:54478
+Aug 19 10:17 : player: played "然れど応答は冴えず_12uck feat.重音テト.mp3"
+Aug 19 10:46 : client: [2] opened from 127.0.0.1:55134
+Aug 19 10:48 : player: played "文単　英検二級１/16 - Unknown Artist - Track 16.wav"
+Aug 19 11:00 : player: played "アコギ/King Gnu「白日」アコギでロックしてみた  “Hakujitsu” on Guitar by Osamuraisan-RixV5NuQiV0.mp3"
+Aug 19 11:00 : client: [1] closed
+Aug 19 11:04 : player: played "文単　英検二級１/16 - Unknown Artist - Track 16.wav"
+Aug 19 11:05 : player: played "文単　英検二級１/17 - Unknown Artist - Track 17.wav"
+Aug 20 10:33 : client: [2] closed
+Aug 20 11:54 : player: played "文単　英検二級１/14 - Unknown Artist - Track 14.wav"
+Aug 20 11:54 : zeroconf: No global port, disabling zeroconf
+Aug 20 11:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 20 11:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 23 22:21 : player: played "文単　英検二級１/14 - Unknown Artist - Track 14.wav"
+Aug 24 13:28 : zeroconf: No global port, disabling zeroconf
+Aug 24 13:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 24 13:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 24 16:31 : player: played "文単　英検二級１/14 - Unknown Artist - Track 14.wav"
+Aug 25 13:15 : zeroconf: No global port, disabling zeroconf
+Aug 25 13:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 25 13:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 28 12:52 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:52 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:52 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:53 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:53 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:53 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:53 : update: added /須田景凪 「MOIL」MV-U097VmiGTxY.webm
+Aug 28 12:53 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:53 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:53 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:54 : ffmpeg/libaom-av1: 1.0.0-errata1
+Aug 28 12:54 : update: added /メーベル／バルーン(self cover)-_KZTkRgGqds.mkv
+Aug 28 12:54 : update: added /ヨルシカ - 雨とカプチーノ(Official Video)-PWbRleMGagU.mkv
+Aug 28 12:54 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:54 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:54 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:54 : update: added /須田景凪「パレイドリア」MV-NQ12-0TYgAs.webm
+Aug 28 12:54 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:54 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:54 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:54 : update: added /ずっと真夜中でいいのに。『脳裏上のクラッカー』MV-3iAXclHlTTg.mkv
+Aug 28 12:54 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:54 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:54 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:54 : update: added /ずっと真夜中でいいのに。『秒針を噛む』MV-GJI4Gv7NbmE.webm
+Aug 28 12:54 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:54 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:54 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:55 : update: added /米津玄師 MV「パプリカ」Kenshi Yonezu _ Paprika-s582L3gujnw.mkv
+Aug 28 12:55 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:55 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:55 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:55 : update: added /米津玄師 MV「海の幽霊」Spirits of the Sea-1s84rIhPuhk.mkv
+Aug 28 12:55 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:55 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:55 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:55 : update: added /雨とペトラ／flower-PdfdOhYVU40.mkv
+Aug 28 12:55 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:55 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:55 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:55 : update: added /お気に召すまま - Eve MV-nROvY9uiYYk.webm
+Aug 28 12:55 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:55 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:55 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:56 : update: added /Official髭男dism - ノーダウト［Official Video］-EHw005ZqCXk.mkv
+Aug 28 12:56 : update: added /花瓶に触れた歌ってみたのはメガテラ・ゼロ-8xi4m-CzuJU.mkv
+Aug 28 12:56 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:56 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:56 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:56 : update: added /神山羊 - 青い棘【Music Video】_ Yoh Kamiyama - Aoi Toge-PVlVzX6OLns.mkv
+Aug 28 12:56 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:56 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:56 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:56 : update: added /須田景凪「Cambell」MV-DKUmfMmsqG0.mkv
+Aug 28 12:56 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:56 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:56 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:57 : update: added /愛にできることはまだあるかい RADWIMPS MV-EQ94zflNqn4.mkv
+Aug 28 12:57 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:57 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:57 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:57 : update: added /深夜高速_重音テト【カバー】-MrBPRaDHGYE.mkv
+Aug 28 12:57 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:57 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:57 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:57 : update: added /King Gnu - 白日-ony539T074w.mkv
+Aug 28 12:57 : update: added /夜明けと蛍 _ ナブナ-nDbNRb9gOr4.webm
+Aug 28 12:57 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:57 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:57 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:58 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:58 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:58 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:58 : update: added /Official髭男dism - Pretender［Official Video］-TQ8WlA2GXbk.mkv
+Aug 28 12:58 : update: added /世迷言_4ma15 feat.滲音かこい-qJ20KjcryOQ.mkv
+Aug 28 12:58 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:58 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:58 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:58 : update: added /Guiano - 忘れたいことばっかだ (feat.flower)-Fv-eR_FoSPo.webm
+Aug 28 12:58 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:58 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:58 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:58 : update: added /須田景凪「レド」MV-FNn6E_fkxFg.mkv
+Aug 28 12:58 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:58 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:58 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:58 : update: added /Guiano - 死んでしまったのだろうか (feat.flower)-_xXenYRkbKs.mkv
+Aug 28 12:58 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:58 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:58 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:58 : update: added /須田景凪「veil」MV-n7VZxg9pxkg.mkv
+Aug 28 12:58 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:58 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:58 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:59 : update: added /Lust Blue_R Sound Design feat.逆音セシル-U7NUU12t2ms.mkv
+Aug 28 12:59 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:59 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:59 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:59 : update: added /ダンスビートに笑われて_4ma15 feat.重音テト-N3AOKZ_bKKY.mkv
+Aug 28 12:59 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:59 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:59 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:59 : update: added /Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv
+Aug 28 12:59 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:59 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:59 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 12:59 : update: added /眠れぬ夜は繰り返す_4ma15 feat.重音テト-6ji0sW7Gaw0.mkv
+Aug 28 12:59 : update: added /蛍が飛んだ_4ma15 feat.滲音かこい-7KUP6XR5Tpg.mkv
+Aug 28 12:59 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 12:59 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 12:59 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:00 : update: added /CITY NIGHT WALK_R(self-cover)-dUGMHFbA0s8.webm
+Aug 28 13:00 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:00 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:00 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:00 : update: added /bohemianvoodoo 'Adria Blue' 【Live at Club eX】-5FXcg-J2LlI.mkv
+Aug 28 13:00 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:00 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:00 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:02 : update: added /bohemianvoodoo '石の教会' 【Music Video】-3FS5BF5HwrI.webm
+Aug 28 13:02 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:02 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:02 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:02 : update: added /bohemianvoodoo 'Golden Forest' 【Music Video】--oWccnrIqKo.webm
+Aug 28 13:02 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:02 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:02 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:02 : update: added /bohemianvoodoo 'El Ron Zacapa' 【Music Video】-z2knnB8oedc.webm
+Aug 28 13:02 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:02 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:02 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:02 : update: added /bohemianvoodoo 'Adria Blue' 【Music Video】-gjDrEdEzfQc.mkv
+Aug 28 13:02 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:02 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:02 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:03 : update: added /前前前世 (movie ver.) RADWIMPS MV-PDSkFeMVNFs.webm
+Aug 28 13:03 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:03 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:03 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:04 : update: added /'Signposts in the night sky' by Osamuraisan(Original)  「夜の道標」おさむらいさん-Ap-UFwMmc5k.mkv
+Aug 28 13:04 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:04 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:04 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:04 : update: added /Israel--J.J. Johnson & Kai Winding---V8pOgQDXg.webm
+Aug 28 13:04 : update: added /Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv
+Aug 28 13:04 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:04 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:04 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:04 : update: added /Ram Jam - Black Betty-I_2D8Eo15wE.mkv
+Aug 28 13:04 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:04 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:04 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:05 : update: added /“Dancing in the mood” performed by H ZETTRIO 【Official MV】-SHdR7skLg6E.mkv
+Aug 28 13:05 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:05 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:05 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:05 : update: added /'Beautiful Flight' _ performed by H ZETTRIO 【Official MV】-1m53lVsc2As.mkv
+Aug 28 13:05 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:05 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:05 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:06 : update: added /'Happy Saturday Night' performed by H ZETTRIO 【Official MV】-RGBoQI4Fx7s.mkv
+Aug 28 13:06 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:06 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:06 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:06 : update: added /Bad Boy Good Man (music by TAPE FIVE)-n8Wx80TZ8OQ.mkv
+Aug 28 13:06 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:06 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:06 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:06 : update: added /A Cool Cat in Town (music by TAPE FIVE)-qCRO964l_nE.mp4
+Aug 28 13:06 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:06 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:06 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:07 : update: added /TAPE FIVE - The Magic Slapstick-qEiw1UIlXhI.mkv
+Aug 28 13:07 : update: added /Love Gun-0Rgl4M7rE5I.webm
+Aug 28 13:07 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:07 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:07 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:07 : update: added /Step Into My Time Machine-ySKQiKBpYOs.mkv
+Aug 28 13:07 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:07 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:07 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:07 : update: added /TAPE FIVE   City of Lights-hNtP8zJFL2M.mkv
+Aug 28 13:08 : update: added /【東方爆音ジャズ7】実写版フラワリングナイト 〜紅霧夜華2014【東京アクティブNEETs】-31w01j8NCcw.mkv
+Aug 28 13:08 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:08 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:08 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:09 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:09 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:09 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:09 : update: added /【東方爆音ジャズ6】少女綺想曲〜弾幕注意報2014【東京アクティブNEETs】-UJTZOHXVjiY.mkv
+Aug 28 13:09 : update: added /【東方爆音ジャズ8】ネイティブフェイス【東京アクティブNEETs】-pr1I2zHcg0I.mkv
+Aug 28 13:09 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:09 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:09 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:09 : update: added /Jamie Cullum - Don't Stop the Music-kYhT7oCDoqM.mkv
+Aug 28 13:09 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:09 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:09 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:10 : update: added /Jamie Cullum - Edge Of Something-Z1sg5g7sbI8.mp4
+Aug 28 13:10 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:10 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:10 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:13 : update: added /OFF STUDIO - Jamie Cullum 'Everything You Didn't Do'-2X5Jc8NGQTE.mkv
+Aug 28 13:13 : update: added /Jamie Cullum - Everything You Didn't Do-xOq2QTaZAq0.mkv
+Aug 28 13:13 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:13 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:13 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:14 : update: added /Bill Evans Trio - Autumn Leaves-r-Z8KuwI7Gc.webm
+Aug 28 13:14 : update: added /Bill Evans Trio - Summertime-gNRVQnz6jps.webm
+Aug 28 13:14 : update: added /OFF STUDIO - Jamie Cullum « Edge Of Something »-7LLAdpwkcJc.mkv
+Aug 28 13:14 : update: added /Norah Jones - Summertime-xJOtaWyEzaI.mkv
+Aug 28 13:14 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:14 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:14 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 13:15 : update: added /Wes Montgomery Trio - Days of Wine and Roses-JadIhIihTFw.webm
+Aug 28 13:15 : update: added /Earl Klugh - Living Inside Your Love-uYfPLF6Q-M4.webm
+Aug 28 13:15 : update: added /Eddie Lang - Some Of These Days-Q-aF8k1ddek.mkv
+Aug 28 13:15 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 13:15 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 13:15 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 14:22 : client: [0] opened from 127.0.0.1:33996
+Aug 28 14:22 : player: played "文単　英検二級１/14 - Unknown Artist - Track 14.wav"
+Aug 28 14:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 28 14:27 : client: [0] closed
+Aug 28 14:27 : client: [1] opened from 127.0.0.1:34260
+Aug 28 14:27 : player: played "文単　英検二級２/01 - Unknown Artist - Track 1.wav"
+Aug 28 14:30 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 14:30 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 14:30 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 14:36 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 14:36 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 14:36 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 14:44 : client: [1] closed
+Aug 28 14:44 : exception: Failed to access /home/sinai/Music/ダンスビートに笑われて_4ma15 feat.重音テト-N3AOKZ_bKKY.mkv: No such file or directory
+Aug 28 14:44 : exception: Failed to access /home/sinai/Music/カフネ　歌ってみた－遊.mp3: No such file or directory
+Aug 28 14:44 : exception: Failed to access /home/sinai/Music/ヨルシカ - ヒッチコック (MUSIC VIDEO).mp3: No such file or directory
+Aug 28 14:45 : update: added bgm/おしゃかしゃま RADWIMPS MV.mp3
+Aug 28 14:45 : update: added bgm/ずっと真夜中でいいのに。『秒針を噛む』MV-GJI4Gv7NbmE.webm
+Aug 28 14:45 : update: added bgm/bohemianvoodoo 'El Ron Zacapa' 【Music Video】-z2knnB8oedc.webm
+Aug 28 14:45 : update: added bgm/雨とペトラ／flower-PdfdOhYVU40.mkv
+Aug 28 14:45 : update: added bgm/'Beautiful Flight' _ performed by H ZETTRIO 【Official MV】-1m53lVsc2As.mkv
+Aug 28 14:45 : update: added bgm/Jamie Cullum - Don't Stop the Music.mp3
+Aug 28 14:45 : update: added bgm/Jamie Cullum - Edge Of Something-Z1sg5g7sbI8.mp4
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/05 - 布川俊樹 - The Shadow Of Your Smile（いそしぎ）.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/07 - 布川俊樹 - Someday My Prince Will Come（いつか王子様が）.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/04 - 布川俊樹 - Stella By Starlight（星影のステラ）.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/02 - 布川俊樹 - Wave（波）.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/13 - 布川俊樹 - My Romance.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/08 - 布川俊樹 - Softly As In A Morning Sunrise（朝日のごとくさわやかに）.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/09 - 布川俊樹 - Summertime.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/06 - 布川俊樹 - Cherokee.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/10 - 布川俊樹 - When You Wish Upon A Star（星に願いを）.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/03 - 布川俊樹 - Donna Lee.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/01 - 布川俊樹 - Alone Together.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/11 - 布川俊樹 - Oleo.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/12 - 布川俊樹 - St. Thomas.wav
+Aug 28 14:45 : update: added bgm/bohemianvoodoo 'Adria Blue' 【Live at Club eX】-5FXcg-J2LlI.mkv
+Aug 28 14:45 : update: added bgm/眠れぬ夜は繰り返す_4ma15 feat.重音テト-6ji0sW7Gaw0.mkv
+Aug 28 14:45 : update: added bgm/須田景凪「Cambell」MV-DKUmfMmsqG0.mkv
+Aug 28 14:45 : update: added bgm/Wes Montgomery Trio - Days of Wine and Roses-JadIhIihTFw.webm
+Aug 28 14:45 : update: added bgm/Ram Jam - Black Betty-I_2D8Eo15wE.mkv
+Aug 28 14:45 : update: added bgm/Israel--J.J. Johnson & Kai Winding---V8pOgQDXg.webm
+Aug 28 14:45 : update: added bgm/蛍が飛んだ_4ma15 feat.滲音かこい-7KUP6XR5Tpg.mkv
+Aug 28 14:45 : update: added bgm/米津玄師 MV「パプリカ」Kenshi Yonezu _ Paprika-s582L3gujnw.mkv
+Aug 28 14:45 : update: added bgm/Official髭男dism - ノーダウト［Official Video］-EHw005ZqCXk.mkv
+Aug 28 14:45 : update: added bgm/【東方爆音ジャズ8】ネイティブフェイス【東京アクティブNEETs】.mp3
+Aug 28 14:45 : ffmpeg/libaom-av1: 1.0.0-errata1
+Aug 28 14:45 : update: added bgm/メーベル／バルーン(self cover)-_KZTkRgGqds.mkv
+Aug 28 14:45 : update: added bgm/14 Soldier's Joy 5 Ways.mp3
+Aug 28 14:45 : update: added bgm/ever_Otomachi Una-sm32945630.mp4
+Aug 28 14:45 : update: added bgm/Lust Blue_R Sound Design feat.逆音セシル-U7NUU12t2ms.mkv
+Aug 28 14:45 : update: added bgm/Jamie Cullum - Edge Of Something.mp3
+Aug 28 14:45 : update: added bgm/TAPE FIVE - The Magic Slapstick-qEiw1UIlXhI.mkv
+Aug 28 14:45 : update: added bgm/前前前世 (movie ver.) RADWIMPS MV-PDSkFeMVNFs.webm
+Aug 28 14:45 : update: added bgm/ヨルシカ - 雨とカプチーノ(Official Video)-PWbRleMGagU.mkv
+Aug 28 14:45 : update: added bgm/OFF STUDIO - Jamie Cullum 'Everything You Didn't Do'-2X5Jc8NGQTE.mkv
+Aug 28 14:45 : update: added bgm/なま/Guitar Streaming! 新しいアレ-n8R3DrF_Rsc.mp4
+Aug 28 14:45 : update: added bgm/なま/Guitar Streaming! なんとか放送できます-hAbFSD-zT9I.mp4
+Aug 28 14:45 : update: added bgm/なま/Guitar Streaming! 今日こそ普通に弾く-lUW9fudRtrI.mkv
+Aug 28 14:45 : update: added bgm/'Happy Saturday Night' performed by H ZETTRIO 【Official MV】-RGBoQI4Fx7s.mkv
+Aug 28 14:45 : update: added bgm/06 Killeen.wma
+Aug 28 14:45 : update: added bgm/CITY NIGHT WALK_R(self-cover)-dUGMHFbA0s8.webm
+Aug 28 14:45 : update: added bgm/Jamie Cullum - Everything You Didn't Do.mp3
+Aug 28 14:45 : update: added bgm/メーベル／flower.mp3
+Aug 28 14:45 : update: added bgm/bohemianvoodoo '石の教会' 【Music Video】-3FS5BF5HwrI.webm
+Aug 28 14:45 : update: added bgm/13 Foggy Mt. Special.mp3
+Aug 28 14:45 : update: added bgm/Bad Boy Good Man (music by TAPE FIVE)-n8Wx80TZ8OQ.mkv
+Aug 28 14:45 : update: added bgm/01 Dwight's Blues.wma
+Aug 28 14:45 : update: added bgm/05 The Way We Was.wma
+Aug 28 14:45 : update: added bgm/06 My Buddy.mp3
+Aug 28 14:45 : update: added bgm/【東方爆音ジャズ7】実写版フラワリングナイト 〜紅霧夜華2014【東京アクティブNEETs】.mp3
+Aug 28 14:45 : update: added bgm/プロトディスコ _ flower - ぬゆり.mp3
+Aug 28 14:45 : update: added bgm/Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv
+Aug 28 14:45 : update: added bgm/Bill Evans Trio - Autumn Leaves-r-Z8KuwI7Gc.webm
+Aug 28 14:45 : update: added bgm/King Gnu - 白日-ony539T074w.mkv
+Aug 28 14:45 : update: added bgm/ロンリーダンス _ flower - ぬゆり.mp3
+Aug 28 14:45 : update: added bgm/08 Pick and Roll.mp3
+Aug 28 14:45 : update: added bgm/A Cool Cat in Town (music by TAPE FIVE)-qCRO964l_nE.mp4
+Aug 28 14:45 : update: added bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv
+Aug 28 14:45 : update: added bgm/bohemianvoodoo 'Golden Forest' 【Music Video】--oWccnrIqKo.webm
+Aug 28 14:45 : update: added bgm/11 Sweet Georgia Brown.mp3
+Aug 28 14:45 : update: added bgm/いいんですか_ 2017 ver..mp3
+Aug 28 14:45 : update: added bgm/_Beautiful Flight_ _ performed by H ZETTRIO 【Offic.mp3
+Aug 28 14:45 : update: added bgm/Bill Evans Trio - Summertime-gNRVQnz6jps.webm
+Aug 28 14:45 : update: added bgm/09 Up All Night.mp3
+Aug 28 14:45 : update: added bgm/有機酸_ewe「退紅トレイン」feat.初音ミク MV.mp3
+Aug 28 14:45 : update: added bgm/花瓶に触れた／flower.mp3
+Aug 28 14:45 : update: added bgm/須田景凪「veil」MV-n7VZxg9pxkg.mkv
+Aug 28 14:45 : update: added bgm/ヨルシカ - ただ君に晴れ (MUSIC VIDEO).mp3
+Aug 28 14:45 : update: added bgm/PinocchioP - Nobody Makes Sense _ ピノキオピー- ぼくらはみんな意.mp3
+Aug 28 14:45 : update: added bgm/05 Foggy Mt. Breakdown.mp3
+Aug 28 14:45 : update: added bgm/09 When We Were Leaving.wma
+Aug 28 14:45 : update: added bgm/10 Don't Give It Up.wma
+Aug 28 14:45 : update: added bgm/PinocchioP - Tonchinkan Feast feat.Hatsune Miku _ .mp3
+Aug 28 14:45 : update: added bgm/フラジール _ GUMI - ぬゆり.mp3
+Aug 28 14:45 : update: added bgm/須田景凪「レド」MV-FNn6E_fkxFg.mkv
+Aug 28 14:45 : update: added bgm/10 On a Roll.mp3
+Aug 28 14:45 : update: added bgm/然れど応答は冴えず_12uck feat.重音テト.mp3
+Aug 28 14:45 : update: added bgm/スパークル [original ver.] -Your name. Music Video edit.mp3
+Aug 28 14:45 : update: added bgm/文単　英検二級１/05 - Unknown Artist - Track 5.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/29 - Unknown Artist - Track 29.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/48 - Unknown Artist - Track 48.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/38 - Unknown Artist - Track 38.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/61 - Unknown Artist - Track 61.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/14 - Unknown Artist - Track 14.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/20 - Unknown Artist - Track 20.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/17 - Unknown Artist - Track 17.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/07 - Unknown Artist - Track 7.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/11 - Unknown Artist - Track 11.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/58 - Unknown Artist - Track 58.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/24 - Unknown Artist - Track 24.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/62 - Unknown Artist - Track 62.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/25 - Unknown Artist - Track 25.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/64 - Unknown Artist - Track 64.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/10 - Unknown Artist - Track 10.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/31 - Unknown Artist - Track 31.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/15 - Unknown Artist - Track 15.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/02 - Unknown Artist - Track 2.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/49 - Unknown Artist - Track 49.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/34 - Unknown Artist - Track 34.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/22 - Unknown Artist - Track 22.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/60 - Unknown Artist - Track 60.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/01 - Unknown Artist - Track 1.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/23 - Unknown Artist - Track 23.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/53 - Unknown Artist - Track 53.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/57 - Unknown Artist - Track 57.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/06 - Unknown Artist - Track 6.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/46 - Unknown Artist - Track 46.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/56 - Unknown Artist - Track 56.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/19 - Unknown Artist - Track 19.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/43 - Unknown Artist - Track 43.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/37 - Unknown Artist - Track 37.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/45 - Unknown Artist - Track 45.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/26 - Unknown Artist - Track 26.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/39 - Unknown Artist - Track 39.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/63 - Unknown Artist - Track 63.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/09 - Unknown Artist - Track 9.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/27 - Unknown Artist - Track 27.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/54 - Unknown Artist - Track 54.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/32 - Unknown Artist - Track 32.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/13 - Unknown Artist - Track 13.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/16 - Unknown Artist - Track 16.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/40 - Unknown Artist - Track 40.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/41 - Unknown Artist - Track 41.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/18 - Unknown Artist - Track 18.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/03 - Unknown Artist - Track 3.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/30 - Unknown Artist - Track 30.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/33 - Unknown Artist - Track 33.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/04 - Unknown Artist - Track 4.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/50 - Unknown Artist - Track 50.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/59 - Unknown Artist - Track 59.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/55 - Unknown Artist - Track 55.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/08 - Unknown Artist - Track 8.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/21 - Unknown Artist - Track 21.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/52 - Unknown Artist - Track 52.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/51 - Unknown Artist - Track 51.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/36 - Unknown Artist - Track 36.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/12 - Unknown Artist - Track 12.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/42 - Unknown Artist - Track 42.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/28 - Unknown Artist - Track 28.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/35 - Unknown Artist - Track 35.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/47 - Unknown Artist - Track 47.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級１/44 - Unknown Artist - Track 44.wav
+Aug 28 14:45 : update: added bgm/深夜高速_重音テト【カバー】-MrBPRaDHGYE.mkv
+Aug 28 14:45 : update: added bgm/10 Union Pacific.wma
+Aug 28 14:45 : update: added bgm/終末じゃない _ Flower･心華 - ぬゆり.mp3
+Aug 28 14:45 : update: added bgm/05 I'll Take Les.wma
+Aug 28 14:45 : update: added bgm/泣けど喚けど朝がきて_12uck feat.重音テト.mp3
+Aug 28 14:45 : update: added bgm/【東方爆音ジャズ7】実写版フラワリングナイト 〜紅霧夜華2014【東京アクティブNEETs】-31w01j8NCcw.mkv
+Aug 28 14:45 : update: added bgm/04 Stanford and Son.wma
+Aug 28 14:45 : update: added bgm/ピコン - ガランド ft. 初音ミク.mp3
+Aug 28 14:45 : update: added bgm/02 Watermelon Man.wma
+Aug 28 14:45 : update: added bgm/11 50 Years Ago.wma
+Aug 28 14:45 : update: added bgm/須田景凪 │ バルーン - 年末なので「パレイドリア」のリアレンジ音源を添えておきます今年もお世話に.mp3
+Aug 28 14:45 : update: added bgm/愛にできることはまだあるかい RADWIMPS MV-EQ94zflNqn4.mkv
+Aug 28 14:45 : update: added bgm/ディカディズム _ Flower･心華 - ぬゆり.mp3
+Aug 28 14:45 : update: added bgm/須田景凪「パレイドリア」MV-NQ12-0TYgAs.webm
+Aug 28 14:45 : update: added bgm/03 Self Portrait.wma
+Aug 28 14:45 : update: added bgm/【東方爆音ジャズ8】ネイティブフェイス【東京アクティブNEETs】-pr1I2zHcg0I.mkv
+Aug 28 14:45 : update: added bgm/夜明けと蛍 _ ナブナ-nDbNRb9gOr4.webm
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/36 - 布川俊樹 - ［ソロ］そしてⅡ-Ⅴ-Ⅰ：Ex.19.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/25 - 布川俊樹 - ［ソロ］おおざっぱにトニックとサブドミナントに分けてコード感のあるメロディを作る練習：Ex.6.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/27 - 布川俊樹 - ［ソロ］経過音などのノン・コード・トーンも使ったトニックとサブドミナントのフレージング：Ex.8 ~ Ex.10.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/08 - 布川俊樹 - ［基礎練習］スケール内パターン：Scale Pattern 6.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/38 - 布川俊樹 - ［ソロ］ディミニッシュ・コード：Ex.22.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/02 - 布川俊樹 - ［基礎練習］スケール横移動.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/05 - 布川俊樹 - ［基礎練習］スケール内パターン：Scale Pattern 3.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/09 - 布川俊樹 - ［コード・ワーク］トニック、サブドミナントのコード：Ex.1.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/30 - 布川俊樹 - ［ソロ］ドミナント 7th：Ex.13.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/17 - 布川俊樹 - ［コード・ワーク］マイナー循環：Ex.9.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/01 - 布川俊樹 - ［基礎練習］スケールポジション練習.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/06 - 布川俊樹 - ［基礎練習］スケール内パターン：Scale Pattern 4.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/24 - 布川俊樹 - ［ソロ］おおざっぱにトニックとサブドミナントに分けてコード感のあるメロディを作る練習：Ex.5 サブドミナントのアルペジオ・フレーズ.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/23 - 布川俊樹 - ［ソロ］おおざっぱにトニックとサブドミナントに分けてコード感のあるメロディを作る練習：Ex.4 トニックのアルペジオ・フレーズ.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/18 - 布川俊樹 - ［コード・ワーク］ジャジーなリズム：Ex.10.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/03 - 布川俊樹 - ［基礎練習］スケール内パターン：Scale Pattern 1.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/26 - 布川俊樹 - ［ソロ］経過音などのノン・コード・トーンも使ったトニックとサブドミナントのフレージング：Ex.7 経過音も使ったトニックのフレーズ.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/14 - 布川俊樹 - ［コード・ワーク］その他のよく使うコード：Ex.6.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/35 - 布川俊樹 - ［ソロ］そしてⅡ-Ⅴ-Ⅰ：Ex.18.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/19 - 布川俊樹 - ［コード・ワーク］裏コードなど：Ex.11.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/04 - 布川俊樹 - ［基礎練習］スケール内パターン：Scale Pattern 2.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/22 - 布川俊樹 - ［ソロ］スケール・ライクなフレージング：Ex.3.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/15 - 布川俊樹 - ［コード・ワーク］その他のよく使うコード：Ex.7.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/28 - 布川俊樹 - ［ソロ］経過音などのノン・コード・トーンも使ったトニックとサブドミナントのフレージング：Ex.11 経過音を使ったサブドミナントのフレーズ.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/12 - 布川俊樹 - ［コード・ワーク］その他のよく使うコード：Ex.4.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/21 - 布川俊樹 - ［ソロ］スケール・ライクなフレージング：Ex.2.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/32 - 布川俊樹 - ［ソロ］ここまでのまとめ：Ex.15.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/11 - 布川俊樹 - ［コード・ワーク］ドミナント 7th：Ex.3.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/34 - 布川俊樹 - ［ソロ］そしてⅡ-Ⅴ-Ⅰ：Ex.17.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/31 - 布川俊樹 - ［ソロ］ドミナント・ケーデンス：Ex.14.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/16 - 布川俊樹 - ［コード・ワーク］その他のよく使うコード：Ex.8.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/29 - 布川俊樹 - ［ソロ］経過音などのノン・コード・トーンも使ったトニックとサブドミナントのフレージング：Ex.12.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/20 - 布川俊樹 - ［ソロ］スケール・ライクなフレージング：Ex.1.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/10 - 布川俊樹 - ［コード・ワーク］トニック、サブドミナントのコード：Ex.2.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/37 - 布川俊樹 - ［ソロ］メロディック・マイナー：Ex.20.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/07 - 布川俊樹 - ［基礎練習］スケール内パターン：Scale Pattern 5.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/33 - 布川俊樹 - ［ソロ］そしてⅡ-Ⅴ-Ⅰ：Ex.16.wav
+Aug 28 14:45 : update: added bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/13 - 布川俊樹 - ［コード・ワーク］その他のよく使うコード：Ex.5.wav
+Aug 28 14:45 : update: added bgm/ダンスビートに笑われて_4ma15 feat.重音テト-N3AOKZ_bKKY.mkv
+Aug 28 14:45 : update: added bgm/07 Owensboro Hop.mp3
+Aug 28 14:45 : update: added bgm/King Gnu「白日」アコギでロックしてみた  “Hakujitsu” on Guitar by Osamuraisan-RixV5NuQiV0.mp4
+Aug 28 14:45 : update: added bgm/Guiano - 忘れたいことばっかだ (feat.flower)-Fv-eR_FoSPo.webm
+Aug 28 14:45 : update: added bgm/【調教すげぇ】初音ミク『FREELY TOMORROW』【公式PV】.mp3
+Aug 28 14:45 : update: added bgm/Bad Boy Good Man (music by TAPE FIVE).mp3
+Aug 28 14:45 : update: added bgm/Vocaloid medley1 arranged on Acoustic Guitar by Osamuraisan [Working BGM]-JpMTS_PM1ws.webm
+Aug 28 14:45 : update: added bgm/世迷言_4ma15 feat.滲音かこい-qJ20KjcryOQ.mkv
+Aug 28 14:45 : update: added bgm/花瓶に触れた歌ってみたのはメガテラ・ゼロ-8xi4m-CzuJU.mkv
+Aug 28 14:45 : update: added bgm/01 Alabamy Bound.mp3
+Aug 28 14:45 : update: added bgm/'Signposts in the night sky' by Osamuraisan(Original)  「夜の道標」おさむらいさん-Ap-UFwMmc5k.mkv
+Aug 28 14:45 : update: added bgm/“Dancing in the mood” performed by H ZETTRIO 【Offi.mp3
+Aug 28 14:45 : update: added bgm/【東方爆音ジャズ4】紅魔郷メドレー【東京アクティブNEETs】.mp3
+Aug 28 14:45 : update: added bgm/Earl Klugh - Living Inside Your Love-uYfPLF6Q-M4.webm
+Aug 28 14:45 : update: added bgm/09 New Blues.wma
+Aug 28 14:45 : update: added bgm/Jamie Cullum - Don't Stop the Music-kYhT7oCDoqM.mkv
+Aug 28 14:45 : update: added bgm/Jamie Cullum - Everything You Didn't Do-xOq2QTaZAq0.mkv
+Aug 28 14:45 : update: added bgm/TAPE FIVE   City of Lights.mp3
+Aug 28 14:45 : update: added bgm/“Dancing in the mood” performed by H ZETTRIO 【Official MV】-SHdR7skLg6E.mkv
+Aug 28 14:45 : update: added bgm/08 Be Thou My Vision.wma
+Aug 28 14:45 : update: added bgm/04 Seven Come Eleven.mp3
+Aug 28 14:45 : update: added bgm/01 Mr. Goodbar.wma
+Aug 28 14:45 : update: added bgm/12 The Doctor Is In.mp3
+Aug 28 14:45 : update: added bgm/【ループ】零の軌跡 Terminal Room-sm14692932.mp4
+Aug 28 14:45 : update: added bgm/アコギ/”claw marks” by Osamuraisan(Original) 「爪痕」-ygDBCz7BvTU.mkv
+Aug 28 14:45 : update: added bgm/アコギ/'Yoshiwara Lament' by Osamuraisan 「吉原ラメント」アコギでロック-6eXq9V8JIwA.mkv
+Aug 28 14:45 : update: added bgm/アコギ/DAOKO × 米津玄師『打上花火』アコギで弾いてみた ちょっとだけ 'Uchiage Hanabi' by Osamuraisan-8PUIPFiixs8.webm
+Aug 28 14:45 : update: added bgm/アコギ/星野源『恋』ちゃんと弾き直してみた【逃げ恥】  Gen Hoshino 'Koi' on guitar by Osamuraisan(reprise)-g1vAOzPXPZk.webm
+Aug 28 14:45 : update: added bgm/アコギ/「アウトサイダー」アコギとかで弾いてみた 'Outsider' by Osamuraisan-eg-P9mIn53g.mkv
+Aug 28 14:45 : update: added bgm/アコギ/HY '366 days' by Osamuraisan 「366日」アコギで弾いてみた-PBi-iq14Z30.mkv
+Aug 28 14:45 : update: added bgm/アコギ/ONE OK ROCK 'Re -make' by Osamuraisan アコギでロックしてみた-s96X77dNEsE.mkv
+Aug 28 14:45 : update: added bgm/アコギ/IA - 'Kisaragi Attention' on guitars by Osamuraisan 「如月アテンション」-Xik3L6X8r8s.mkv
+Aug 28 14:45 : update: added bgm/アコギ/東京喰種 Tokyo Ghoul -re 最終章OP 'katharsis' on guitar by Osamuraisan-SdUfbi7YF4I.webm
+Aug 28 14:45 : update: added bgm/アコギ/「夏祭り」アコギでアレンジしてみた 'Summer festival' by Osamuraisan-ZR6BKj9NggY.mkv
+Aug 28 14:45 : update: added bgm/アコギ/Ed Sheeran 'Thinking Out Loud' by Osamuraisan-XyB38OC5a_s.mkv
+Aug 28 14:45 : update: added bgm/アコギ/「完全感覚Dreamer」アコギでロックしてみた（Reprise）ONE OK ROCK 'Kanzenkankaku Dreamer' by Osamuraisan-0WnQnBBcTX0.mkv
+Aug 28 14:45 : update: added bgm/アコギ/IA - 'Yobanashi Deceive' on guitars by Osamuraisan 「夜咄ディセイブ」アコギでロック--JLEgAMG5YQ.mkv
+Aug 28 14:45 : update: added bgm/アコギ/”Whirlwind” by Osamuraisan(Original) 「旋風」アコギでロックしてみた-YfXXg9-2Ejg.mkv
+Aug 28 14:45 : update: added bgm/アコギ/Miku Hatsune - 'Senbonzakura' on guitars from Shoubu Zennya 勝負前夜より 「千本桜」アコギでロック-VfRX45UyIrw.mkv
+Aug 28 14:45 : update: added bgm/アコギ/【TAB】Official髭男dism「Pretender」アコギで弾いてみた 'Pretender' on Guitar by Osamuraisan-8JzQIgvonyQ.mkv
+Aug 28 14:45 : update: added bgm/アコギ/KANA-BOON ”Silhouette” by Osamuraisan 【NARUTO OP】「シルエット」アコギでロックしてみた-KbGVYcmMr5E.mkv
+Aug 28 14:45 : update: added bgm/アコギ/”waver” by Osamuraisan(Original) 「波間に揺蕩う」-MralCG9AggQ.mkv
+Aug 28 14:45 : update: added bgm/アコギ/「コネクト」もう一度アコギでロックしてみた ClariS - 'Connect' on guitar by Osamuraisan(Reprise)-7GrQPxYdw-w.mkv
+Aug 28 14:45 : update: added bgm/アコギ/【少女終末旅行】 「動く、動く」アコギで弾いてみた Shoujo Shuumatsu Ryokou OP 'Ugoku, ugoku' by Osamuraisan-wNrWeM8cz84.mkv
+Aug 28 14:45 : update: added bgm/アコギ/'Snow halation' on guitar by Osamuraisan アコギで弾いてみた-T6M1hgE_Sz8.mkv
+Aug 28 14:45 : update: added bgm/アコギ/sumika「フィクション」アコギで弾いてみた【Wotakoi OP】 'Fiction' on Guitar by Osamuraisan-qziAlqRlbtk.mkv
+Aug 28 14:45 : update: added bgm/アコギ/Aimer「カタオモイ」アコギで弾いてみた 'Kataomoi' on guitar by Osamuraisan-Ga984_A7P_s.mkv
+Aug 28 14:45 : update: added bgm/アコギ/「ローリンガール」アコギで弾いてみた 'Rolling girl' on Guitar-qQ88h-cLb6U.mkv
+Aug 28 14:45 : update: added bgm/アコギ/IA - 'Imagination Forest' on guitars by Osamuraisan 「想像フォレスト」アコギとかでゆったり弾いてみた【一人七役】-D0hfvcuIzCk.mkv
+Aug 28 14:45 : update: added bgm/アコギ/'Lemon' on guitar by Osamuraisan 【米津玄師】-l9hHJazV01o.webm
+Aug 28 14:45 : update: added bgm/アコギ/【一人八役】「シャルル」アコギとかで弾いてみた 'Charles' by Osamuraisan-VYKxPxXKV98.mkv
+Aug 28 14:45 : update: added bgm/アコギ/８年ぶりに「丸の内サディスティック」アコギでロックしてみた Sheena Ringo 'Marunouchi sadistic' by Osamuraisan(Remake)-LhR46Rhs7-o.mkv
+Aug 28 14:45 : update: added bgm/アコギ/King Gnu「白日」アコギでロックしてみた  “Hakujitsu” on Guitar by Osamuraisan-RixV5NuQiV0.mp3
+Aug 28 14:45 : update: added bgm/アコギ/IA - 'Summertime Record' on guitars by Osamuraisan 「サマータイムレコード」アコギでロック-3cvRiXFtNfQ.mkv
+Aug 28 14:45 : update: added bgm/_Happy Saturday Night_ performed by H ZETTRIO 【Off.mp3
+Aug 28 14:45 : update: added bgm/bohemianvoodoo 'Adria Blue' 【Music Video】-gjDrEdEzfQc.mkv
+Aug 28 14:45 : update: added bgm/07 Central Park.wma
+Aug 28 14:45 : update: added bgm/米津玄師 MV「海の幽霊」Spirits of the Sea-1s84rIhPuhk.mkv
+Aug 28 14:45 : update: added bgm/お気に召すまま - Eve MV-nROvY9uiYYk.webm
+Aug 28 14:45 : update: added bgm/03 Can't Find My Way Home.wma
+Aug 28 14:45 : update: added bgm/08 Blues for Sammy.wma
+Aug 28 14:45 : update: added bgm/カフネ　歌ってみた－遊.mp3
+Aug 28 14:45 : update: added bgm/OFF STUDIO - Jamie Cullum « Edge Of Something »-7LLAdpwkcJc.mkv
+Aug 28 14:45 : update: added bgm/06 California Blues.wma
+Aug 28 14:45 : update: added bgm/須田景凪 「MOIL」MV-U097VmiGTxY.webm
+Aug 28 14:45 : update: added bgm/神山羊 - 青い棘【Music Video】_ Yoh Kamiyama - Aoi Toge-PVlVzX6OLns.mkv
+Aug 28 14:45 : update: added bgm/Norah Jones - Summertime-xJOtaWyEzaI.mkv
+Aug 28 14:45 : update: added bgm/Eddie Lang - Some Of These Days-Q-aF8k1ddek.mkv
+Aug 28 14:45 : update: added bgm/04 The Last Polar Bear.wma
+Aug 28 14:45 : update: added bgm/02 Scheerhorn Shuffle.wma
+Aug 28 14:45 : update: added bgm/前前前世 (movie ver.) RADWIMPS MV.mp3
+Aug 28 14:45 : update: added bgm/東方爆音ジャズBESTメドレー【東京アクティブNEETs】.mp3
+Aug 28 14:45 : update: added bgm/03 Spirit in a Bottle.mp3
+Aug 28 14:45 : update: added bgm/雨とペトラ／flower.mp3
+Aug 28 14:45 : update: added bgm/神山 羊 - YELLOW【Music Video】_ Yoh Kamiyama - YELLOW.mp3
+Aug 28 14:45 : update: added bgm/Step Into My Time Machine-ySKQiKBpYOs.mkv
+Aug 28 14:45 : update: added bgm/Guiano - 死んでしまったのだろうか (feat.flower)-_xXenYRkbKs.mkv
+Aug 28 14:45 : update: added bgm/ヨルシカ - 靴の花火 (Music Video).mp3
+Aug 28 14:45 : update: added bgm/記号として RADWIMPS MV.mp3
+Aug 28 14:45 : update: added bgm/ずっと真夜中でいいのに。『脳裏上のクラッカー』MV-3iAXclHlTTg.mkv
+Aug 28 14:45 : update: added bgm/米津玄師 MV「Flamingo」.mp3
+Aug 28 14:45 : update: added bgm/ヨルシカ - ヒッチコック (MUSIC VIDEO).mp3
+Aug 28 14:45 : update: added bgm/07 Juke Joint.wma
+Aug 28 14:45 : update: added bgm/【東方爆音ジャズ6】少女綺想曲〜弾幕注意報2014【東京アクティブNEETs】.mp3
+Aug 28 14:45 : update: added bgm/Love Gun-0Rgl4M7rE5I.webm
+Aug 28 14:45 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 14:45 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 14:45 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 14:45 : update: added bgm/Official髭男dism - Pretender［Official Video］-TQ8WlA2GXbk.mkv
+Aug 28 14:45 : update: added bgm/02 Hold It.mp3
+Aug 28 14:45 : update: added bgm/【東方爆音ジャズ6】少女綺想曲〜弾幕注意報2014【東京アクティブNEETs】-UJTZOHXVjiY.mkv
+Aug 28 14:45 : update: added bgm/文単　英検二級２/05 - Unknown Artist - Track 5.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/29 - Unknown Artist - Track 29.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/48 - Unknown Artist - Track 48.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/38 - Unknown Artist - Track 38.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/61 - Unknown Artist - Track 61.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/14 - Unknown Artist - Track 14.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/20 - Unknown Artist - Track 20.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/17 - Unknown Artist - Track 17.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/07 - Unknown Artist - Track 7.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/11 - Unknown Artist - Track 11.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/58 - Unknown Artist - Track 58.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/24 - Unknown Artist - Track 24.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/62 - Unknown Artist - Track 62.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/25 - Unknown Artist - Track 25.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/64 - Unknown Artist - Track 64.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/10 - Unknown Artist - Track 10.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/31 - Unknown Artist - Track 31.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/15 - Unknown Artist - Track 15.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/02 - Unknown Artist - Track 2.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/49 - Unknown Artist - Track 49.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/34 - Unknown Artist - Track 34.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/22 - Unknown Artist - Track 22.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/60 - Unknown Artist - Track 60.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/01 - Unknown Artist - Track 1.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/23 - Unknown Artist - Track 23.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/53 - Unknown Artist - Track 53.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/57 - Unknown Artist - Track 57.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/06 - Unknown Artist - Track 6.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/46 - Unknown Artist - Track 46.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/56 - Unknown Artist - Track 56.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/19 - Unknown Artist - Track 19.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/43 - Unknown Artist - Track 43.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/37 - Unknown Artist - Track 37.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/45 - Unknown Artist - Track 45.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/26 - Unknown Artist - Track 26.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/39 - Unknown Artist - Track 39.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/63 - Unknown Artist - Track 63.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/09 - Unknown Artist - Track 9.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/27 - Unknown Artist - Track 27.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/54 - Unknown Artist - Track 54.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/32 - Unknown Artist - Track 32.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/13 - Unknown Artist - Track 13.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/16 - Unknown Artist - Track 16.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/40 - Unknown Artist - Track 40.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/41 - Unknown Artist - Track 41.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/18 - Unknown Artist - Track 18.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/03 - Unknown Artist - Track 3.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/30 - Unknown Artist - Track 30.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/33 - Unknown Artist - Track 33.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/04 - Unknown Artist - Track 4.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/50 - Unknown Artist - Track 50.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/59 - Unknown Artist - Track 59.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/55 - Unknown Artist - Track 55.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/08 - Unknown Artist - Track 8.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/21 - Unknown Artist - Track 21.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/52 - Unknown Artist - Track 52.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/51 - Unknown Artist - Track 51.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/36 - Unknown Artist - Track 36.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/12 - Unknown Artist - Track 12.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/42 - Unknown Artist - Track 42.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/28 - Unknown Artist - Track 28.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/35 - Unknown Artist - Track 35.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/47 - Unknown Artist - Track 47.wav
+Aug 28 14:45 : update: added bgm/文単　英検二級２/44 - Unknown Artist - Track 44.wav
+Aug 28 14:45 : update: added bgm/TAPE FIVE   City of Lights-hNtP8zJFL2M.mkv
+Aug 28 14:45 : exception: Failed to access /home/sinai/Music/bgm/ダンスビートに笑われて_4ma15 feat.重音テト-N3AOKZ_bKKY.mkv: No such file or directory
+Aug 28 14:45 : exception: Failed to access /home/sinai/Music/bgm/カフネ　歌ってみた－遊.mp3: No such file or directory
+Aug 28 14:45 : exception: Failed to access /home/sinai/Music/bgm/ヨルシカ - 靴の花火 (Music Video).mp3: No such file or directory
+Aug 28 14:45 : exception: Failed to access /home/sinai/Music/bgm/ヨルシカ - ヒッチコック (MUSIC VIDEO).mp3: No such file or directory
+Aug 28 14:45 : update: removing bgm/アコギ/東京喰種 Tokyo Ghoul -re 最終章OP 'katharsis' on guitar by Osamuraisan-SdUfbi7YF4I.webm
+Aug 28 14:45 : update: removing bgm/アコギ/星野源『恋』ちゃんと弾き直してみた【逃げ恥】  Gen Hoshino 'Koi' on guitar by Osamuraisan(reprise)-g1vAOzPXPZk.webm
+Aug 28 14:45 : update: removing bgm/アコギ/sumika「フィクション」アコギで弾いてみた【Wotakoi OP】 'Fiction' on Guitar by Osamuraisan-qziAlqRlbtk.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/ONE OK ROCK 'Re -make' by Osamuraisan アコギでロックしてみた-s96X77dNEsE.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/Miku Hatsune - 'Senbonzakura' on guitars from Shoubu Zennya 勝負前夜より 「千本桜」アコギでロック-VfRX45UyIrw.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/King Gnu「白日」アコギでロックしてみた  “Hakujitsu” on Guitar by Osamuraisan-RixV5NuQiV0.mp3
+Aug 28 14:45 : update: removing bgm/アコギ/KANA-BOON ”Silhouette” by Osamuraisan 【NARUTO OP】「シルエット」アコギでロックしてみた-KbGVYcmMr5E.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/IA - 'Yobanashi Deceive' on guitars by Osamuraisan 「夜咄ディセイブ」アコギでロック--JLEgAMG5YQ.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/IA - 'Summertime Record' on guitars by Osamuraisan 「サマータイムレコード」アコギでロック-3cvRiXFtNfQ.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/IA - 'Kisaragi Attention' on guitars by Osamuraisan 「如月アテンション」-Xik3L6X8r8s.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/IA - 'Imagination Forest' on guitars by Osamuraisan 「想像フォレスト」アコギとかでゆったり弾いてみた【一人七役】-D0hfvcuIzCk.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/HY '366 days' by Osamuraisan 「366日」アコギで弾いてみた-PBi-iq14Z30.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/Ed Sheeran 'Thinking Out Loud' by Osamuraisan-XyB38OC5a_s.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/DAOKO × 米津玄師『打上花火』アコギで弾いてみた ちょっとだけ 'Uchiage Hanabi' by Osamuraisan-8PUIPFiixs8.webm
+Aug 28 14:45 : update: removing bgm/アコギ/Aimer「カタオモイ」アコギで弾いてみた 'Kataomoi' on guitar by Osamuraisan-Ga984_A7P_s.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/８年ぶりに「丸の内サディスティック」アコギでロックしてみた Sheena Ringo 'Marunouchi sadistic' by Osamuraisan(Remake)-LhR46Rhs7-o.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/【少女終末旅行】 「動く、動く」アコギで弾いてみた Shoujo Shuumatsu Ryokou OP 'Ugoku, ugoku' by Osamuraisan-wNrWeM8cz84.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/【一人八役】「シャルル」アコギとかで弾いてみた 'Charles' by Osamuraisan-VYKxPxXKV98.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/【TAB】Official髭男dism「Pretender」アコギで弾いてみた 'Pretender' on Guitar by Osamuraisan-8JzQIgvonyQ.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/「完全感覚Dreamer」アコギでロックしてみた（Reprise）ONE OK ROCK 'Kanzenkankaku Dreamer' by Osamuraisan-0WnQnBBcTX0.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/「夏祭り」アコギでアレンジしてみた 'Summer festival' by Osamuraisan-ZR6BKj9NggY.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/「ローリンガール」アコギで弾いてみた 'Rolling girl' on Guitar-qQ88h-cLb6U.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/「コネクト」もう一度アコギでロックしてみた ClariS - 'Connect' on guitar by Osamuraisan(Reprise)-7GrQPxYdw-w.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/「アウトサイダー」アコギとかで弾いてみた 'Outsider' by Osamuraisan-eg-P9mIn53g.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/”Whirlwind” by Osamuraisan(Original) 「旋風」アコギでロックしてみた-YfXXg9-2Ejg.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/”waver” by Osamuraisan(Original) 「波間に揺蕩う」-MralCG9AggQ.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/”claw marks” by Osamuraisan(Original) 「爪痕」-ygDBCz7BvTU.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/'Yoshiwara Lament' by Osamuraisan 「吉原ラメント」アコギでロック-6eXq9V8JIwA.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/'Snow halation' on guitar by Osamuraisan アコギで弾いてみた-T6M1hgE_Sz8.mkv
+Aug 28 14:45 : update: removing bgm/アコギ/'Lemon' on guitar by Osamuraisan 【米津玄師】-l9hHJazV01o.webm
+Aug 28 14:45 : update: removing bgm/11 50 Years Ago.wma
+Aug 28 14:45 : update: removing bgm/10 Union Pacific.wma
+Aug 28 14:45 : update: removing bgm/09 When We Were Leaving.wma
+Aug 28 14:45 : update: removing bgm/08 Blues for Sammy.wma
+Aug 28 14:45 : update: removing bgm/07 Juke Joint.wma
+Aug 28 14:45 : update: removing bgm/06 Killeen.wma
+Aug 28 14:45 : update: removing bgm/05 I'll Take Les.wma
+Aug 28 14:45 : update: removing bgm/04 Stanford and Son.wma
+Aug 28 14:45 : update: removing bgm/03 Self Portrait.wma
+Aug 28 14:45 : update: removing bgm/02 Scheerhorn Shuffle.wma
+Aug 28 14:45 : update: removing bgm/01 Mr. Goodbar.wma
+Aug 28 14:45 : update: removing bgm/10 Don't Give It Up.wma
+Aug 28 14:45 : update: removing bgm/09 New Blues.wma
+Aug 28 14:45 : update: removing bgm/08 Be Thou My Vision.wma
+Aug 28 14:45 : update: removing bgm/07 Central Park.wma
+Aug 28 14:45 : update: removing bgm/06 California Blues.wma
+Aug 28 14:45 : update: removing bgm/05 The Way We Was.wma
+Aug 28 14:45 : update: removing bgm/04 The Last Polar Bear.wma
+Aug 28 14:45 : update: removing bgm/03 Can't Find My Way Home.wma
+Aug 28 14:45 : update: removing bgm/02 Watermelon Man.wma
+Aug 28 14:45 : update: removing bgm/01 Dwight's Blues.wma
+Aug 28 14:45 : update: removing bgm/須田景凪「レド」MV-FNn6E_fkxFg.mkv
+Aug 28 14:45 : update: removing bgm/須田景凪「パレイドリア」MV-NQ12-0TYgAs.webm
+Aug 28 14:45 : update: removing bgm/須田景凪「veil」MV-n7VZxg9pxkg.mkv
+Aug 28 14:45 : update: removing bgm/須田景凪「Cambell」MV-DKUmfMmsqG0.mkv
+Aug 28 14:45 : update: removing bgm/須田景凪 │ バルーン - 年末なので「パレイドリア」のリアレンジ音源を添えておきます今年もお世話に.mp3
+Aug 28 14:45 : update: removing bgm/須田景凪 「MOIL」MV-U097VmiGTxY.webm
+Aug 28 14:45 : update: removing bgm/雨とペトラ／flower.mp3
+Aug 28 14:45 : update: removing bgm/雨とペトラ／flower-PdfdOhYVU40.mkv
+Aug 28 14:45 : update: removing bgm/記号として RADWIMPS MV.mp3
+Aug 28 14:45 : update: removing bgm/蛍が飛んだ_4ma15 feat.滲音かこい-7KUP6XR5Tpg.mkv
+Aug 28 14:45 : update: removing bgm/花瓶に触れた歌ってみたのはメガテラ・ゼロ-8xi4m-CzuJU.mkv
+Aug 28 14:45 : update: removing bgm/花瓶に触れた／flower.mp3
+Aug 28 14:45 : update: removing bgm/終末じゃない _ Flower･心華 - ぬゆり.mp3
+Aug 28 14:45 : update: removing bgm/米津玄師 MV「海の幽霊」Spirits of the Sea-1s84rIhPuhk.mkv
+Aug 28 14:45 : update: removing bgm/米津玄師 MV「パプリカ」Kenshi Yonezu _ Paprika-s582L3gujnw.mkv
+Aug 28 14:45 : update: removing bgm/米津玄師 MV「Flamingo」.mp3
+Aug 28 14:45 : update: removing bgm/神山羊 - 青い棘【Music Video】_ Yoh Kamiyama - Aoi Toge-PVlVzX6OLns.mkv
+Aug 28 14:45 : update: removing bgm/神山 羊 - YELLOW【Music Video】_ Yoh Kamiyama - YELLOW.mp3
+Aug 28 14:45 : update: removing bgm/眠れぬ夜は繰り返す_4ma15 feat.重音テト-6ji0sW7Gaw0.mkv
+Aug 28 14:45 : update: removing bgm/然れど応答は冴えず_12uck feat.重音テト.mp3
+Aug 28 14:45 : update: removing bgm/深夜高速_重音テト【カバー】-MrBPRaDHGYE.mkv
+Aug 28 14:45 : update: removing bgm/泣けど喚けど朝がきて_12uck feat.重音テト.mp3
+Aug 28 14:45 : update: removing bgm/東方爆音ジャズBESTメドレー【東京アクティブNEETs】.mp3
+Aug 28 14:45 : update: removing bgm/有機酸_ewe「退紅トレイン」feat.初音ミク MV.mp3
+Aug 28 14:45 : update: removing bgm/愛にできることはまだあるかい RADWIMPS MV-EQ94zflNqn4.mkv
+Aug 28 14:45 : update: removing bgm/夜明けと蛍 _ ナブナ-nDbNRb9gOr4.webm
+Aug 28 14:45 : update: removing bgm/前前前世 (movie ver.) RADWIMPS MV.mp3
+Aug 28 14:45 : update: removing bgm/前前前世 (movie ver.) RADWIMPS MV-PDSkFeMVNFs.webm
+Aug 28 14:45 : update: removing bgm/世迷言_4ma15 feat.滲音かこい-qJ20KjcryOQ.mkv
+Aug 28 14:45 : update: removing bgm/ロンリーダンス _ flower - ぬゆり.mp3
+Aug 28 14:45 : update: removing bgm/ヨルシカ - 靴の花火 (Music Video).mp3
+Aug 28 14:45 : update: removing bgm/ヨルシカ - 雨とカプチーノ(Official Video)-PWbRleMGagU.mkv
+Aug 28 14:45 : update: removing bgm/ヨルシカ - ヒッチコック (MUSIC VIDEO).mp3
+Aug 28 14:45 : update: removing bgm/ヨルシカ - ただ君に晴れ (MUSIC VIDEO).mp3
+Aug 28 14:45 : update: removing bgm/メーベル／バルーン(self cover)-_KZTkRgGqds.mkv
+Aug 28 14:45 : update: removing bgm/メーベル／flower.mp3
+Aug 28 14:45 : update: removing bgm/プロトディスコ _ flower - ぬゆり.mp3
+Aug 28 14:45 : update: removing bgm/フラジール _ GUMI - ぬゆり.mp3
+Aug 28 14:45 : update: removing bgm/ピコン - ガランド ft. 初音ミク.mp3
+Aug 28 14:45 : update: removing bgm/ディカディズム _ Flower･心華 - ぬゆり.mp3
+Aug 28 14:45 : update: removing bgm/ダンスビートに笑われて_4ma15 feat.重音テト-N3AOKZ_bKKY.mkv
+Aug 28 14:45 : update: removing bgm/スパークル [original ver.] -Your name. Music Video edit.mp3
+Aug 28 14:45 : update: removing bgm/ずっと真夜中でいいのに。『脳裏上のクラッカー』MV-3iAXclHlTTg.mkv
+Aug 28 14:45 : update: removing bgm/ずっと真夜中でいいのに。『秒針を噛む』MV-GJI4Gv7NbmE.webm
+Aug 28 14:45 : update: removing bgm/カフネ　歌ってみた－遊.mp3
+Aug 28 14:45 : update: removing bgm/お気に召すまま - Eve MV-nROvY9uiYYk.webm
+Aug 28 14:45 : update: removing bgm/おしゃかしゃま RADWIMPS MV.mp3
+Aug 28 14:45 : update: removing bgm/いいんですか_ 2017 ver..mp3
+Aug 28 14:45 : update: removing bgm/Wes Montgomery Trio - Days of Wine and Roses-JadIhIihTFw.webm
+Aug 28 14:45 : update: removing bgm/Vocaloid medley1 arranged on Acoustic Guitar by Osamuraisan [Working BGM]-JpMTS_PM1ws.webm
+Aug 28 14:45 : update: removing bgm/TAPE FIVE - The Magic Slapstick-qEiw1UIlXhI.mkv
+Aug 28 14:45 : update: removing bgm/TAPE FIVE   City of Lights.mp3
+Aug 28 14:45 : update: removing bgm/TAPE FIVE   City of Lights-hNtP8zJFL2M.mkv
+Aug 28 14:45 : update: removing bgm/Step Into My Time Machine-ySKQiKBpYOs.mkv
+Aug 28 14:45 : update: removing bgm/Ram Jam - Black Betty-I_2D8Eo15wE.mkv
+Aug 28 14:45 : update: removing bgm/PinocchioP - Tonchinkan Feast feat.Hatsune Miku _ .mp3
+Aug 28 14:45 : update: removing bgm/PinocchioP - Nobody Makes Sense _ ピノキオピー- ぼくらはみんな意.mp3
+Aug 28 14:45 : update: removing bgm/Official髭男dism - ノーダウト［Official Video］-EHw005ZqCXk.mkv
+Aug 28 14:45 : update: removing bgm/Official髭男dism - Pretender［Official Video］-TQ8WlA2GXbk.mkv
+Aug 28 14:45 : update: removing bgm/OFF STUDIO - Jamie Cullum « Edge Of Something »-7LLAdpwkcJc.mkv
+Aug 28 14:45 : update: removing bgm/OFF STUDIO - Jamie Cullum 'Everything You Didn't Do'-2X5Jc8NGQTE.mkv
+Aug 28 14:45 : update: removing bgm/Norah Jones - Summertime-xJOtaWyEzaI.mkv
+Aug 28 14:45 : update: removing bgm/Lust Blue_R Sound Design feat.逆音セシル-U7NUU12t2ms.mkv
+Aug 28 14:45 : update: removing bgm/Love Gun-0Rgl4M7rE5I.webm
+Aug 28 14:45 : update: removing bgm/King Gnu「白日」アコギでロックしてみた  “Hakujitsu” on Guitar by Osamuraisan-RixV5NuQiV0.mp4
+Aug 28 14:45 : update: removing bgm/King Gnu - 白日-ony539T074w.mkv
+Aug 28 14:45 : update: removing bgm/Jamie Cullum - Everything You Didn't Do.mp3
+Aug 28 14:45 : update: removing bgm/Jamie Cullum - Everything You Didn't Do-xOq2QTaZAq0.mkv
+Aug 28 14:45 : update: removing bgm/Jamie Cullum - Edge Of Something.mp3
+Aug 28 14:45 : update: removing bgm/Jamie Cullum - Edge Of Something-Z1sg5g7sbI8.mp4
+Aug 28 14:45 : update: removing bgm/Jamie Cullum - Don't Stop the Music.mp3
+Aug 28 14:45 : update: removing bgm/Jamie Cullum - Don't Stop the Music-kYhT7oCDoqM.mkv
+Aug 28 14:45 : update: removing bgm/Israel--J.J. Johnson & Kai Winding---V8pOgQDXg.webm
+Aug 28 14:45 : update: removing bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv
+Aug 28 14:45 : update: removing bgm/Guiano - 死んでしまったのだろうか (feat.flower)-_xXenYRkbKs.mkv
+Aug 28 14:45 : update: removing bgm/Guiano - 忘れたいことばっかだ (feat.flower)-Fv-eR_FoSPo.webm
+Aug 28 14:45 : update: removing bgm/Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv
+Aug 28 14:45 : update: removing bgm/ever_Otomachi Una-sm32945630.mp4
+Aug 28 14:45 : update: removing bgm/Eddie Lang - Some Of These Days-Q-aF8k1ddek.mkv
+Aug 28 14:45 : update: removing bgm/Earl Klugh - Living Inside Your Love-uYfPLF6Q-M4.webm
+Aug 28 14:45 : update: removing bgm/CITY NIGHT WALK_R(self-cover)-dUGMHFbA0s8.webm
+Aug 28 14:45 : update: removing bgm/bohemianvoodoo '石の教会' 【Music Video】-3FS5BF5HwrI.webm
+Aug 28 14:45 : update: removing bgm/bohemianvoodoo 'Golden Forest' 【Music Video】--oWccnrIqKo.webm
+Aug 28 14:45 : update: removing bgm/bohemianvoodoo 'El Ron Zacapa' 【Music Video】-z2knnB8oedc.webm
+Aug 28 14:45 : update: removing bgm/bohemianvoodoo 'Adria Blue' 【Music Video】-gjDrEdEzfQc.mkv
+Aug 28 14:45 : update: removing bgm/bohemianvoodoo 'Adria Blue' 【Live at Club eX】-5FXcg-J2LlI.mkv
+Aug 28 14:45 : update: removing bgm/Bill Evans Trio - Summertime-gNRVQnz6jps.webm
+Aug 28 14:45 : update: removing bgm/Bill Evans Trio - Autumn Leaves-r-Z8KuwI7Gc.webm
+Aug 28 14:45 : update: removing bgm/Bad Boy Good Man (music by TAPE FIVE).mp3
+Aug 28 14:45 : update: removing bgm/Bad Boy Good Man (music by TAPE FIVE)-n8Wx80TZ8OQ.mkv
+Aug 28 14:45 : update: removing bgm/A Cool Cat in Town (music by TAPE FIVE)-qCRO964l_nE.mp4
+Aug 28 14:45 : update: removing bgm/14 Soldier's Joy 5 Ways.mp3
+Aug 28 14:45 : update: removing bgm/13 Foggy Mt. Special.mp3
+Aug 28 14:45 : update: removing bgm/12 The Doctor Is In.mp3
+Aug 28 14:45 : update: removing bgm/11 Sweet Georgia Brown.mp3
+Aug 28 14:45 : update: removing bgm/10 On a Roll.mp3
+Aug 28 14:45 : update: removing bgm/09 Up All Night.mp3
+Aug 28 14:45 : update: removing bgm/08 Pick and Roll.mp3
+Aug 28 14:45 : update: removing bgm/07 Owensboro Hop.mp3
+Aug 28 14:45 : update: removing bgm/06 My Buddy.mp3
+Aug 28 14:45 : update: removing bgm/05 Foggy Mt. Breakdown.mp3
+Aug 28 14:45 : update: removing bgm/04 Seven Come Eleven.mp3
+Aug 28 14:45 : update: removing bgm/03 Spirit in a Bottle.mp3
+Aug 28 14:45 : update: removing bgm/02 Hold It.mp3
+Aug 28 14:45 : update: removing bgm/01 Alabamy Bound.mp3
+Aug 28 14:45 : update: removing bgm/【調教すげぇ】初音ミク『FREELY TOMORROW』【公式PV】.mp3
+Aug 28 14:45 : update: removing bgm/【東方爆音ジャズ8】ネイティブフェイス【東京アクティブNEETs】.mp3
+Aug 28 14:45 : update: removing bgm/【東方爆音ジャズ8】ネイティブフェイス【東京アクティブNEETs】-pr1I2zHcg0I.mkv
+Aug 28 14:45 : update: removing bgm/【東方爆音ジャズ7】実写版フラワリングナイト 〜紅霧夜華2014【東京アクティブNEETs】.mp3
+Aug 28 14:45 : update: removing bgm/【東方爆音ジャズ7】実写版フラワリングナイト 〜紅霧夜華2014【東京アクティブNEETs】-31w01j8NCcw.mkv
+Aug 28 14:45 : update: removing bgm/【東方爆音ジャズ6】少女綺想曲〜弾幕注意報2014【東京アクティブNEETs】.mp3
+Aug 28 14:45 : update: removing bgm/【東方爆音ジャズ6】少女綺想曲〜弾幕注意報2014【東京アクティブNEETs】-UJTZOHXVjiY.mkv
+Aug 28 14:45 : update: removing bgm/【東方爆音ジャズ4】紅魔郷メドレー【東京アクティブNEETs】.mp3
+Aug 28 14:45 : update: removing bgm/【ループ】零の軌跡 Terminal Room-sm14692932.mp4
+Aug 28 14:45 : update: removing bgm/【TAB】“Always With Me (Spirited Away)” on mini Guitar by Osamuraisan「いつも何度でも」ミニギターで弾いてみた【千と千尋の神隠し】-_A2afneSWIE.mkv
+Aug 28 14:45 : update: removing bgm/“Dancing in the mood” performed by H ZETTRIO 【Official MV】-SHdR7skLg6E.mkv
+Aug 28 14:45 : update: removing bgm/“Dancing in the mood” performed by H ZETTRIO 【Offi.mp3
+Aug 28 14:45 : update: removing bgm/'Signposts in the night sky' by Osamuraisan(Original)  「夜の道標」おさむらいさん-Ap-UFwMmc5k.mkv
+Aug 28 14:45 : update: removing bgm/'Happy Saturday Night' performed by H ZETTRIO 【Official MV】-RGBoQI4Fx7s.mkv
+Aug 28 14:45 : update: removing bgm/'Beautiful Flight' _ performed by H ZETTRIO 【Official MV】-1m53lVsc2As.mkv
+Aug 28 14:45 : update: removing bgm/_Happy Saturday Night_ performed by H ZETTRIO 【Off.mp3
+Aug 28 14:45 : update: removing bgm/_Beautiful Flight_ _ performed by H ZETTRIO 【Offic.mp3
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/64 - Unknown Artist - Track 64.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/63 - Unknown Artist - Track 63.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/62 - Unknown Artist - Track 62.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/61 - Unknown Artist - Track 61.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/60 - Unknown Artist - Track 60.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/59 - Unknown Artist - Track 59.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/58 - Unknown Artist - Track 58.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/57 - Unknown Artist - Track 57.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/56 - Unknown Artist - Track 56.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/55 - Unknown Artist - Track 55.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/54 - Unknown Artist - Track 54.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/53 - Unknown Artist - Track 53.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/52 - Unknown Artist - Track 52.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/51 - Unknown Artist - Track 51.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/50 - Unknown Artist - Track 50.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/49 - Unknown Artist - Track 49.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/48 - Unknown Artist - Track 48.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/47 - Unknown Artist - Track 47.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/46 - Unknown Artist - Track 46.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/45 - Unknown Artist - Track 45.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/44 - Unknown Artist - Track 44.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/43 - Unknown Artist - Track 43.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/42 - Unknown Artist - Track 42.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/41 - Unknown Artist - Track 41.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/40 - Unknown Artist - Track 40.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/39 - Unknown Artist - Track 39.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/38 - Unknown Artist - Track 38.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/37 - Unknown Artist - Track 37.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/36 - Unknown Artist - Track 36.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/35 - Unknown Artist - Track 35.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/34 - Unknown Artist - Track 34.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/33 - Unknown Artist - Track 33.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/32 - Unknown Artist - Track 32.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/31 - Unknown Artist - Track 31.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/30 - Unknown Artist - Track 30.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/29 - Unknown Artist - Track 29.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/28 - Unknown Artist - Track 28.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/27 - Unknown Artist - Track 27.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/26 - Unknown Artist - Track 26.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/25 - Unknown Artist - Track 25.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/24 - Unknown Artist - Track 24.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/23 - Unknown Artist - Track 23.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/22 - Unknown Artist - Track 22.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/21 - Unknown Artist - Track 21.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/20 - Unknown Artist - Track 20.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/19 - Unknown Artist - Track 19.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/18 - Unknown Artist - Track 18.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/17 - Unknown Artist - Track 17.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/16 - Unknown Artist - Track 16.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/15 - Unknown Artist - Track 15.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/14 - Unknown Artist - Track 14.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/13 - Unknown Artist - Track 13.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/12 - Unknown Artist - Track 12.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/11 - Unknown Artist - Track 11.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/10 - Unknown Artist - Track 10.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/09 - Unknown Artist - Track 9.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/08 - Unknown Artist - Track 8.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/07 - Unknown Artist - Track 7.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/06 - Unknown Artist - Track 6.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/05 - Unknown Artist - Track 5.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/04 - Unknown Artist - Track 4.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/03 - Unknown Artist - Track 3.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/02 - Unknown Artist - Track 2.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級２/01 - Unknown Artist - Track 1.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/64 - Unknown Artist - Track 64.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/63 - Unknown Artist - Track 63.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/62 - Unknown Artist - Track 62.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/61 - Unknown Artist - Track 61.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/60 - Unknown Artist - Track 60.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/59 - Unknown Artist - Track 59.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/58 - Unknown Artist - Track 58.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/57 - Unknown Artist - Track 57.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/56 - Unknown Artist - Track 56.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/55 - Unknown Artist - Track 55.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/54 - Unknown Artist - Track 54.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/53 - Unknown Artist - Track 53.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/52 - Unknown Artist - Track 52.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/51 - Unknown Artist - Track 51.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/50 - Unknown Artist - Track 50.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/49 - Unknown Artist - Track 49.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/48 - Unknown Artist - Track 48.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/47 - Unknown Artist - Track 47.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/46 - Unknown Artist - Track 46.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/45 - Unknown Artist - Track 45.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/44 - Unknown Artist - Track 44.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/43 - Unknown Artist - Track 43.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/42 - Unknown Artist - Track 42.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/41 - Unknown Artist - Track 41.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/40 - Unknown Artist - Track 40.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/39 - Unknown Artist - Track 39.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/38 - Unknown Artist - Track 38.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/37 - Unknown Artist - Track 37.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/36 - Unknown Artist - Track 36.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/35 - Unknown Artist - Track 35.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/34 - Unknown Artist - Track 34.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/33 - Unknown Artist - Track 33.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/32 - Unknown Artist - Track 32.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/31 - Unknown Artist - Track 31.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/30 - Unknown Artist - Track 30.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/29 - Unknown Artist - Track 29.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/28 - Unknown Artist - Track 28.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/27 - Unknown Artist - Track 27.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/26 - Unknown Artist - Track 26.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/25 - Unknown Artist - Track 25.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/24 - Unknown Artist - Track 24.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/23 - Unknown Artist - Track 23.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/22 - Unknown Artist - Track 22.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/21 - Unknown Artist - Track 21.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/20 - Unknown Artist - Track 20.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/19 - Unknown Artist - Track 19.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/18 - Unknown Artist - Track 18.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/17 - Unknown Artist - Track 17.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/16 - Unknown Artist - Track 16.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/15 - Unknown Artist - Track 15.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/14 - Unknown Artist - Track 14.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/13 - Unknown Artist - Track 13.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/12 - Unknown Artist - Track 12.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/11 - Unknown Artist - Track 11.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/10 - Unknown Artist - Track 10.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/09 - Unknown Artist - Track 9.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/08 - Unknown Artist - Track 8.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/07 - Unknown Artist - Track 7.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/06 - Unknown Artist - Track 6.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/05 - Unknown Artist - Track 5.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/04 - Unknown Artist - Track 4.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/03 - Unknown Artist - Track 3.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/02 - Unknown Artist - Track 2.wav
+Aug 28 14:45 : update: removing bgm/文単　英検二級１/01 - Unknown Artist - Track 1.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/13 - 布川俊樹 - My Romance.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/12 - 布川俊樹 - St. Thomas.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/11 - 布川俊樹 - Oleo.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/10 - 布川俊樹 - When You Wish Upon A Star（星に願いを）.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/09 - 布川俊樹 - Summertime.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/08 - 布川俊樹 - Softly As In A Morning Sunrise（朝日のごとくさわやかに）.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/07 - 布川俊樹 - Someday My Prince Will Come（いつか王子様が）.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/06 - 布川俊樹 - Cherokee.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/05 - 布川俊樹 - The Shadow Of Your Smile（いそしぎ）.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/04 - 布川俊樹 - Stella By Starlight（星影のステラ）.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/03 - 布川俊樹 - Donna Lee.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/02 - 布川俊樹 - Wave（波）.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 2 スタンダード曲模範演奏]/01 - 布川俊樹 - Alone Together.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/38 - 布川俊樹 - ［ソロ］ディミニッシュ・コード：Ex.22.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/37 - 布川俊樹 - ［ソロ］メロディック・マイナー：Ex.20.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/36 - 布川俊樹 - ［ソロ］そしてⅡ-Ⅴ-Ⅰ：Ex.19.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/35 - 布川俊樹 - ［ソロ］そしてⅡ-Ⅴ-Ⅰ：Ex.18.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/34 - 布川俊樹 - ［ソロ］そしてⅡ-Ⅴ-Ⅰ：Ex.17.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/33 - 布川俊樹 - ［ソロ］そしてⅡ-Ⅴ-Ⅰ：Ex.16.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/32 - 布川俊樹 - ［ソロ］ここまでのまとめ：Ex.15.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/31 - 布川俊樹 - ［ソロ］ドミナント・ケーデンス：Ex.14.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/30 - 布川俊樹 - ［ソロ］ドミナント 7th：Ex.13.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/29 - 布川俊樹 - ［ソロ］経過音などのノン・コード・トーンも使ったトニックとサブドミナントのフレージング：Ex.12.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/28 - 布川俊樹 - ［ソロ］経過音などのノン・コード・トーンも使ったトニックとサブドミナントのフレージング：Ex.11 経過音を使ったサブドミナントのフレーズ.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/27 - 布川俊樹 - ［ソロ］経過音などのノン・コード・トーンも使ったトニックとサブドミナントのフレージング：Ex.8 ~ Ex.10.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/26 - 布川俊樹 - ［ソロ］経過音などのノン・コード・トーンも使ったトニックとサブドミナントのフレージング：Ex.7 経過音も使ったトニックのフレーズ.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/25 - 布川俊樹 - ［ソロ］おおざっぱにトニックとサブドミナントに分けてコード感のあるメロディを作る練習：Ex.6.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/24 - 布川俊樹 - ［ソロ］おおざっぱにトニックとサブドミナントに分けてコード感のあるメロディを作る練習：Ex.5 サブドミナントのアルペジオ・フレーズ.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/23 - 布川俊樹 - ［ソロ］おおざっぱにトニックとサブドミナントに分けてコード感のあるメロディを作る練習：Ex.4 トニックのアルペジオ・フレーズ.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/22 - 布川俊樹 - ［ソロ］スケール・ライクなフレージング：Ex.3.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/21 - 布川俊樹 - ［ソロ］スケール・ライクなフレージング：Ex.2.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/20 - 布川俊樹 - ［ソロ］スケール・ライクなフレージング：Ex.1.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/19 - 布川俊樹 - ［コード・ワーク］裏コードなど：Ex.11.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/18 - 布川俊樹 - ［コード・ワーク］ジャジーなリズム：Ex.10.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/17 - 布川俊樹 - ［コード・ワーク］マイナー循環：Ex.9.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/16 - 布川俊樹 - ［コード・ワーク］その他のよく使うコード：Ex.8.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/15 - 布川俊樹 - ［コード・ワーク］その他のよく使うコード：Ex.7.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/14 - 布川俊樹 - ［コード・ワーク］その他のよく使うコード：Ex.6.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/13 - 布川俊樹 - ［コード・ワーク］その他のよく使うコード：Ex.5.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/12 - 布川俊樹 - ［コード・ワーク］その他のよく使うコード：Ex.4.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/11 - 布川俊樹 - ［コード・ワーク］ドミナント 7th：Ex.3.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/10 - 布川俊樹 - ［コード・ワーク］トニック、サブドミナントのコード：Ex.2.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/09 - 布川俊樹 - ［コード・ワーク］トニック、サブドミナントのコード：Ex.1.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/08 - 布川俊樹 - ［基礎練習］スケール内パターン：Scale Pattern 6.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/07 - 布川俊樹 - ［基礎練習］スケール内パターン：Scale Pattern 5.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/06 - 布川俊樹 - ［基礎練習］スケール内パターン：Scale Pattern 4.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/05 - 布川俊樹 - ［基礎練習］スケール内パターン：Scale Pattern 3.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/04 - 布川俊樹 - ［基礎練習］スケール内パターン：Scale Pattern 2.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/03 - 布川俊樹 - ［基礎練習］スケール内パターン：Scale Pattern 1.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/02 - 布川俊樹 - ［基礎練習］スケール横移動.wav
+Aug 28 14:45 : update: removing bgm/布川俊樹 - ジャズ・ギターの金字塔～基礎／コード・ワーク／ソロ／スタンダード曲～ [Disc 1 教則譜例演奏]/01 - 布川俊樹 - ［基礎練習］スケールポジション練習.wav
+Aug 28 14:45 : update: removing bgm/なま/Guitar Streaming! 新しいアレ-n8R3DrF_Rsc.mp4
+Aug 28 14:45 : update: removing bgm/なま/Guitar Streaming! 今日こそ普通に弾く-lUW9fudRtrI.mkv
+Aug 28 14:45 : update: removing bgm/なま/Guitar Streaming! なんとか放送できます-hAbFSD-zT9I.mp4
+Aug 28 14:46 : update: added bgm/おしゃかしゃま RADWIMPS MV.mp3
+Aug 28 14:46 : update: added bgm/ずっと真夜中でいいのに。『秒針を噛む』MV-GJI4Gv7NbmE.webm
+Aug 28 14:46 : update: added bgm/bohemianvoodoo 'El Ron Zacapa' 【Music Video】-z2knnB8oedc.webm
+Aug 28 14:46 : update: added bgm/雨とペトラ／flower-PdfdOhYVU40.mkv
+Aug 28 14:46 : update: added bgm/'Beautiful Flight' _ performed by H ZETTRIO 【Official MV】-1m53lVsc2As.mkv
+Aug 28 14:46 : update: added bgm/Jamie Cullum - Don't Stop the Music.mp3
+Aug 28 14:46 : update: added bgm/Jamie Cullum - Edge Of Something-Z1sg5g7sbI8.mp4
+Aug 28 14:46 : update: added bgm/bohemianvoodoo 'Adria Blue' 【Live at Club eX】-5FXcg-J2LlI.mkv
+Aug 28 14:46 : update: added bgm/眠れぬ夜は繰り返す_4ma15 feat.重音テト-6ji0sW7Gaw0.mkv
+Aug 28 14:46 : update: added bgm/須田景凪「Cambell」MV-DKUmfMmsqG0.mkv
+Aug 28 14:46 : update: added bgm/Wes Montgomery Trio - Days of Wine and Roses-JadIhIihTFw.webm
+Aug 28 14:46 : update: added bgm/Ram Jam - Black Betty-I_2D8Eo15wE.mkv
+Aug 28 14:46 : update: added bgm/Israel--J.J. Johnson & Kai Winding---V8pOgQDXg.webm
+Aug 28 14:46 : update: added bgm/蛍が飛んだ_4ma15 feat.滲音かこい-7KUP6XR5Tpg.mkv
+Aug 28 14:46 : update: added bgm/米津玄師 MV「パプリカ」Kenshi Yonezu _ Paprika-s582L3gujnw.mkv
+Aug 28 14:46 : update: added bgm/Official髭男dism - ノーダウト［Official Video］-EHw005ZqCXk.mkv
+Aug 28 14:46 : update: added bgm/【東方爆音ジャズ8】ネイティブフェイス【東京アクティブNEETs】.mp3
+Aug 28 14:46 : ffmpeg/libaom-av1: 1.0.0-errata1
+Aug 28 14:46 : update: added bgm/メーベル／バルーン(self cover)-_KZTkRgGqds.mkv
+Aug 28 14:46 : update: added bgm/14 Soldier's Joy 5 Ways.mp3
+Aug 28 14:46 : update: added bgm/ever_Otomachi Una-sm32945630.mp4
+Aug 28 14:46 : update: added bgm/Lust Blue_R Sound Design feat.逆音セシル-U7NUU12t2ms.mkv
+Aug 28 14:46 : update: added bgm/Jamie Cullum - Edge Of Something.mp3
+Aug 28 14:46 : update: added bgm/TAPE FIVE - The Magic Slapstick-qEiw1UIlXhI.mkv
+Aug 28 14:46 : update: added bgm/前前前世 (movie ver.) RADWIMPS MV-PDSkFeMVNFs.webm
+Aug 28 14:46 : update: added bgm/ヨルシカ - 雨とカプチーノ(Official Video)-PWbRleMGagU.mkv
+Aug 28 14:46 : update: added bgm/OFF STUDIO - Jamie Cullum 'Everything You Didn't Do'-2X5Jc8NGQTE.mkv
+Aug 28 14:46 : update: added bgm/'Happy Saturday Night' performed by H ZETTRIO 【Official MV】-RGBoQI4Fx7s.mkv
+Aug 28 14:46 : update: added bgm/06 Killeen.wma
+Aug 28 14:46 : update: added bgm/CITY NIGHT WALK_R(self-cover)-dUGMHFbA0s8.webm
+Aug 28 14:46 : update: added bgm/Jamie Cullum - Everything You Didn't Do.mp3
+Aug 28 14:46 : update: added bgm/メーベル／flower.mp3
+Aug 28 14:46 : update: added bgm/bohemianvoodoo '石の教会' 【Music Video】-3FS5BF5HwrI.webm
+Aug 28 14:46 : update: added bgm/13 Foggy Mt. Special.mp3
+Aug 28 14:46 : update: added bgm/Bad Boy Good Man (music by TAPE FIVE)-n8Wx80TZ8OQ.mkv
+Aug 28 14:46 : update: added bgm/01 Dwight's Blues.wma
+Aug 28 14:46 : update: added bgm/05 The Way We Was.wma
+Aug 28 14:46 : update: added bgm/06 My Buddy.mp3
+Aug 28 14:46 : update: added bgm/【東方爆音ジャズ7】実写版フラワリングナイト 〜紅霧夜華2014【東京アクティブNEETs】.mp3
+Aug 28 14:46 : update: added bgm/プロトディスコ _ flower - ぬゆり.mp3
+Aug 28 14:46 : update: added bgm/Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv
+Aug 28 14:46 : update: added bgm/Bill Evans Trio - Autumn Leaves-r-Z8KuwI7Gc.webm
+Aug 28 14:46 : update: added bgm/King Gnu - 白日-ony539T074w.mkv
+Aug 28 14:46 : update: added bgm/ロンリーダンス _ flower - ぬゆり.mp3
+Aug 28 14:46 : update: added bgm/08 Pick and Roll.mp3
+Aug 28 14:46 : update: added bgm/A Cool Cat in Town (music by TAPE FIVE)-qCRO964l_nE.mp4
+Aug 28 14:46 : update: added bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv
+Aug 28 14:46 : update: added bgm/bohemianvoodoo 'Golden Forest' 【Music Video】--oWccnrIqKo.webm
+Aug 28 14:46 : update: added bgm/11 Sweet Georgia Brown.mp3
+Aug 28 14:46 : update: added bgm/いいんですか_ 2017 ver..mp3
+Aug 28 14:46 : update: added bgm/_Beautiful Flight_ _ performed by H ZETTRIO 【Offic.mp3
+Aug 28 14:46 : update: added bgm/Bill Evans Trio - Summertime-gNRVQnz6jps.webm
+Aug 28 14:46 : update: added bgm/09 Up All Night.mp3
+Aug 28 14:46 : update: added bgm/有機酸_ewe「退紅トレイン」feat.初音ミク MV.mp3
+Aug 28 14:46 : update: added bgm/花瓶に触れた／flower.mp3
+Aug 28 14:46 : update: added bgm/須田景凪「veil」MV-n7VZxg9pxkg.mkv
+Aug 28 14:46 : update: added bgm/ヨルシカ - ただ君に晴れ (MUSIC VIDEO).mp3
+Aug 28 14:46 : update: added bgm/PinocchioP - Nobody Makes Sense _ ピノキオピー- ぼくらはみんな意.mp3
+Aug 28 14:46 : update: added bgm/05 Foggy Mt. Breakdown.mp3
+Aug 28 14:46 : update: added bgm/09 When We Were Leaving.wma
+Aug 28 14:46 : update: added bgm/10 Don't Give It Up.wma
+Aug 28 14:46 : update: added bgm/PinocchioP - Tonchinkan Feast feat.Hatsune Miku _ .mp3
+Aug 28 14:46 : update: added bgm/フラジール _ GUMI - ぬゆり.mp3
+Aug 28 14:46 : update: added bgm/須田景凪「レド」MV-FNn6E_fkxFg.mkv
+Aug 28 14:46 : update: added bgm/10 On a Roll.mp3
+Aug 28 14:46 : update: added bgm/然れど応答は冴えず_12uck feat.重音テト.mp3
+Aug 28 14:46 : update: added bgm/スパークル [original ver.] -Your name. Music Video edit.mp3
+Aug 28 14:46 : update: added bgm/深夜高速_重音テト【カバー】-MrBPRaDHGYE.mkv
+Aug 28 14:46 : update: added bgm/10 Union Pacific.wma
+Aug 28 14:46 : update: added bgm/終末じゃない _ Flower･心華 - ぬゆり.mp3
+Aug 28 14:46 : update: added bgm/05 I'll Take Les.wma
+Aug 28 14:46 : update: added bgm/泣けど喚けど朝がきて_12uck feat.重音テト.mp3
+Aug 28 14:46 : update: added bgm/【東方爆音ジャズ7】実写版フラワリングナイト 〜紅霧夜華2014【東京アクティブNEETs】-31w01j8NCcw.mkv
+Aug 28 14:46 : update: added bgm/04 Stanford and Son.wma
+Aug 28 14:46 : update: added bgm/ピコン - ガランド ft. 初音ミク.mp3
+Aug 28 14:46 : update: added bgm/02 Watermelon Man.wma
+Aug 28 14:46 : update: added bgm/11 50 Years Ago.wma
+Aug 28 14:46 : update: added bgm/須田景凪 │ バルーン - 年末なので「パレイドリア」のリアレンジ音源を添えておきます今年もお世話に.mp3
+Aug 28 14:46 : update: added bgm/愛にできることはまだあるかい RADWIMPS MV-EQ94zflNqn4.mkv
+Aug 28 14:46 : update: added bgm/ディカディズム _ Flower･心華 - ぬゆり.mp3
+Aug 28 14:46 : update: added bgm/須田景凪「パレイドリア」MV-NQ12-0TYgAs.webm
+Aug 28 14:46 : update: added bgm/03 Self Portrait.wma
+Aug 28 14:46 : update: added bgm/【東方爆音ジャズ8】ネイティブフェイス【東京アクティブNEETs】-pr1I2zHcg0I.mkv
+Aug 28 14:46 : update: added bgm/夜明けと蛍 _ ナブナ-nDbNRb9gOr4.webm
+Aug 28 14:46 : update: added bgm/ダンスビートに笑われて_4ma15 feat.重音テト-N3AOKZ_bKKY.mkv
+Aug 28 14:46 : update: added bgm/07 Owensboro Hop.mp3
+Aug 28 14:46 : update: added bgm/King Gnu「白日」アコギでロックしてみた  “Hakujitsu” on Guitar by Osamuraisan-RixV5NuQiV0.mp4
+Aug 28 14:46 : update: added bgm/Guiano - 忘れたいことばっかだ (feat.flower)-Fv-eR_FoSPo.webm
+Aug 28 14:46 : update: added bgm/【調教すげぇ】初音ミク『FREELY TOMORROW』【公式PV】.mp3
+Aug 28 14:46 : update: added bgm/Bad Boy Good Man (music by TAPE FIVE).mp3
+Aug 28 14:46 : update: added bgm/Vocaloid medley1 arranged on Acoustic Guitar by Osamuraisan [Working BGM]-JpMTS_PM1ws.webm
+Aug 28 14:46 : update: added bgm/世迷言_4ma15 feat.滲音かこい-qJ20KjcryOQ.mkv
+Aug 28 14:46 : update: added bgm/花瓶に触れた歌ってみたのはメガテラ・ゼロ-8xi4m-CzuJU.mkv
+Aug 28 14:46 : update: added bgm/01 Alabamy Bound.mp3
+Aug 28 14:46 : update: added bgm/'Signposts in the night sky' by Osamuraisan(Original)  「夜の道標」おさむらいさん-Ap-UFwMmc5k.mkv
+Aug 28 14:46 : update: added bgm/“Dancing in the mood” performed by H ZETTRIO 【Offi.mp3
+Aug 28 14:46 : update: added bgm/【東方爆音ジャズ4】紅魔郷メドレー【東京アクティブNEETs】.mp3
+Aug 28 14:46 : update: added bgm/Earl Klugh - Living Inside Your Love-uYfPLF6Q-M4.webm
+Aug 28 14:46 : update: added bgm/09 New Blues.wma
+Aug 28 14:46 : update: added bgm/Jamie Cullum - Don't Stop the Music-kYhT7oCDoqM.mkv
+Aug 28 14:46 : update: added bgm/Jamie Cullum - Everything You Didn't Do-xOq2QTaZAq0.mkv
+Aug 28 14:46 : update: added bgm/TAPE FIVE   City of Lights.mp3
+Aug 28 14:46 : update: added bgm/“Dancing in the mood” performed by H ZETTRIO 【Official MV】-SHdR7skLg6E.mkv
+Aug 28 14:46 : update: added bgm/08 Be Thou My Vision.wma
+Aug 28 14:46 : update: added bgm/04 Seven Come Eleven.mp3
+Aug 28 14:46 : update: added bgm/01 Mr. Goodbar.wma
+Aug 28 14:46 : update: added bgm/12 The Doctor Is In.mp3
+Aug 28 14:46 : update: added bgm/【ループ】零の軌跡 Terminal Room-sm14692932.mp4
+Aug 28 14:46 : update: added bgm/_Happy Saturday Night_ performed by H ZETTRIO 【Off.mp3
+Aug 28 14:46 : update: added bgm/bohemianvoodoo 'Adria Blue' 【Music Video】-gjDrEdEzfQc.mkv
+Aug 28 14:46 : update: added bgm/07 Central Park.wma
+Aug 28 14:46 : update: added bgm/【TAB】“Always With Me (Spirited Away)” on mini Guitar by Osamuraisan「いつも何度でも」ミニギターで弾いてみた【千と千尋の神隠し】-_A2afneSWIE.mkv
+Aug 28 14:46 : update: added bgm/米津玄師 MV「海の幽霊」Spirits of the Sea-1s84rIhPuhk.mkv
+Aug 28 14:46 : update: added bgm/お気に召すまま - Eve MV-nROvY9uiYYk.webm
+Aug 28 14:46 : update: added bgm/03 Can't Find My Way Home.wma
+Aug 28 14:46 : update: added bgm/08 Blues for Sammy.wma
+Aug 28 14:46 : update: added bgm/カフネ　歌ってみた－遊.mp3
+Aug 28 14:46 : update: added bgm/OFF STUDIO - Jamie Cullum « Edge Of Something »-7LLAdpwkcJc.mkv
+Aug 28 14:46 : update: added bgm/06 California Blues.wma
+Aug 28 14:46 : update: added bgm/須田景凪 「MOIL」MV-U097VmiGTxY.webm
+Aug 28 14:46 : update: added bgm/神山羊 - 青い棘【Music Video】_ Yoh Kamiyama - Aoi Toge-PVlVzX6OLns.mkv
+Aug 28 14:46 : update: added bgm/Norah Jones - Summertime-xJOtaWyEzaI.mkv
+Aug 28 14:46 : update: added bgm/Eddie Lang - Some Of These Days-Q-aF8k1ddek.mkv
+Aug 28 14:46 : update: added bgm/04 The Last Polar Bear.wma
+Aug 28 14:46 : update: added bgm/02 Scheerhorn Shuffle.wma
+Aug 28 14:46 : update: added bgm/前前前世 (movie ver.) RADWIMPS MV.mp3
+Aug 28 14:46 : update: added bgm/東方爆音ジャズBESTメドレー【東京アクティブNEETs】.mp3
+Aug 28 14:46 : update: added bgm/03 Spirit in a Bottle.mp3
+Aug 28 14:46 : update: added bgm/雨とペトラ／flower.mp3
+Aug 28 14:46 : update: added bgm/神山 羊 - YELLOW【Music Video】_ Yoh Kamiyama - YELLOW.mp3
+Aug 28 14:46 : update: added bgm/Step Into My Time Machine-ySKQiKBpYOs.mkv
+Aug 28 14:46 : update: added bgm/Guiano - 死んでしまったのだろうか (feat.flower)-_xXenYRkbKs.mkv
+Aug 28 14:46 : update: added bgm/ヨルシカ - 靴の花火 (Music Video).mp3
+Aug 28 14:46 : update: added bgm/記号として RADWIMPS MV.mp3
+Aug 28 14:46 : update: added bgm/ずっと真夜中でいいのに。『脳裏上のクラッカー』MV-3iAXclHlTTg.mkv
+Aug 28 14:46 : update: added bgm/米津玄師 MV「Flamingo」.mp3
+Aug 28 14:46 : update: added bgm/ヨルシカ - ヒッチコック (MUSIC VIDEO).mp3
+Aug 28 14:46 : update: added bgm/07 Juke Joint.wma
+Aug 28 14:46 : update: added bgm/【東方爆音ジャズ6】少女綺想曲〜弾幕注意報2014【東京アクティブNEETs】.mp3
+Aug 28 14:46 : update: added bgm/Love Gun-0Rgl4M7rE5I.webm
+Aug 28 14:46 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 14:46 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 14:46 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 14:46 : update: added bgm/Official髭男dism - Pretender［Official Video］-TQ8WlA2GXbk.mkv
+Aug 28 14:46 : update: added bgm/02 Hold It.mp3
+Aug 28 14:46 : update: added bgm/【東方爆音ジャズ6】少女綺想曲〜弾幕注意報2014【東京アクティブNEETs】-UJTZOHXVjiY.mkv
+Aug 28 14:46 : update: added bgm/TAPE FIVE   City of Lights-hNtP8zJFL2M.mkv
+Aug 28 14:46 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 14:46 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 14:46 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 14:46 : client: [2] opened from 127.0.0.1:34398
+Aug 28 14:46 : update: removing 'Beautiful Flight' _ performed by H ZETTRIO 【Official MV】-1m53lVsc2As.mkv
+Aug 28 14:46 : update: removing _Happy Saturday Night_ performed by H ZETTRIO 【Off.mp3
+Aug 28 14:46 : update: removing _Beautiful Flight_ _ performed by H ZETTRIO 【Offic.mp3
+Aug 28 14:46 : update: removing 【東方爆音ジャズ7】実写版フラワリングナイト 〜紅霧夜華2014【東京アクティブNEETs】.mp3
+Aug 28 14:46 : update: removing 【東方爆音ジャズ7】実写版フラワリングナイト 〜紅霧夜華2014【東京アクティブNEETs】-31w01j8NCcw.mkv
+Aug 28 14:46 : update: removing 【東方爆音ジャズ6】少女綺想曲〜弾幕注意報2014【東京アクティブNEETs】.mp3
+Aug 28 14:46 : update: removing 【東方爆音ジャズ6】少女綺想曲〜弾幕注意報2014【東京アクティブNEETs】-UJTZOHXVjiY.mkv
+Aug 28 14:46 : update: removing 【東方爆音ジャズ4】紅魔郷メドレー【東京アクティブNEETs】.mp3
+Aug 28 14:46 : update: removing 【ループ】零の軌跡 Terminal Room-sm14692932.mp4
+Aug 28 14:46 : update: removing “Dancing in the mood” performed by H ZETTRIO 【Official MV】-SHdR7skLg6E.mkv
+Aug 28 14:46 : update: removing “Dancing in the mood” performed by H ZETTRIO 【Offi.mp3
+Aug 28 14:46 : update: removing 'Signposts in the night sky' by Osamuraisan(Original)  「夜の道標」おさむらいさん-Ap-UFwMmc5k.mkv
+Aug 28 14:46 : update: removing 'Happy Saturday Night' performed by H ZETTRIO 【Official MV】-RGBoQI4Fx7s.mkv
+Aug 28 14:46 : update: removing Bill Evans Trio - Summertime-gNRVQnz6jps.webm
+Aug 28 14:46 : update: removing Bill Evans Trio - Autumn Leaves-r-Z8KuwI7Gc.webm
+Aug 28 14:46 : update: removing Bad Boy Good Man (music by TAPE FIVE).mp3
+Aug 28 14:46 : update: removing Bad Boy Good Man (music by TAPE FIVE)-n8Wx80TZ8OQ.mkv
+Aug 28 14:46 : update: removing A Cool Cat in Town (music by TAPE FIVE)-qCRO964l_nE.mp4
+Aug 28 14:46 : update: removing 14 Soldier's Joy 5 Ways.mp3
+Aug 28 14:46 : update: removing 13 Foggy Mt. Special.mp3
+Aug 28 14:46 : update: removing 12 The Doctor Is In.mp3
+Aug 28 14:46 : update: removing 11 Sweet Georgia Brown.mp3
+Aug 28 14:46 : update: removing 10 On a Roll.mp3
+Aug 28 14:46 : update: removing 09 Up All Night.mp3
+Aug 28 14:46 : update: removing 08 Pick and Roll.mp3
+Aug 28 14:46 : update: removing 07 Owensboro Hop.mp3
+Aug 28 14:46 : update: removing 06 My Buddy.mp3
+Aug 28 14:46 : update: removing 05 Foggy Mt. Breakdown.mp3
+Aug 28 14:46 : update: removing 04 Seven Come Eleven.mp3
+Aug 28 14:46 : update: removing 03 Spirit in a Bottle.mp3
+Aug 28 14:46 : update: removing 02 Hold It.mp3
+Aug 28 14:46 : update: removing 01 Alabamy Bound.mp3
+Aug 28 14:46 : update: removing 【調教すげぇ】初音ミク『FREELY TOMORROW』【公式PV】.mp3
+Aug 28 14:46 : update: removing 【東方爆音ジャズ8】ネイティブフェイス【東京アクティブNEETs】.mp3
+Aug 28 14:46 : update: removing 【東方爆音ジャズ8】ネイティブフェイス【東京アクティブNEETs】-pr1I2zHcg0I.mkv
+Aug 28 14:46 : update: removing メーベル／バルーン(self cover)-_KZTkRgGqds.mkv
+Aug 28 14:46 : update: removing メーベル／flower.mp3
+Aug 28 14:46 : update: removing プロトディスコ _ flower - ぬゆり.mp3
+Aug 28 14:46 : update: removing フラジール _ GUMI - ぬゆり.mp3
+Aug 28 14:46 : update: removing ピコン - ガランド ft. 初音ミク.mp3
+Aug 28 14:46 : update: removing ディカディズム _ Flower･心華 - ぬゆり.mp3
+Aug 28 14:46 : update: removing ダンスビートに笑われて_4ma15 feat.重音テト-N3AOKZ_bKKY.mkv
+Aug 28 14:46 : update: removing スパークル [original ver.] -Your name. Music Video edit.mp3
+Aug 28 14:46 : update: removing ずっと真夜中でいいのに。『脳裏上のクラッカー』MV-3iAXclHlTTg.mkv
+Aug 28 14:46 : update: removing ずっと真夜中でいいのに。『秒針を噛む』MV-GJI4Gv7NbmE.webm
+Aug 28 14:46 : update: removing カフネ　歌ってみた－遊.mp3
+Aug 28 14:46 : update: removing お気に召すまま - Eve MV-nROvY9uiYYk.webm
+Aug 28 14:46 : update: removing おしゃかしゃま RADWIMPS MV.mp3
+Aug 28 14:46 : update: removing いいんですか_ 2017 ver..mp3
+Aug 28 14:46 : update: removing Wes Montgomery Trio - Days of Wine and Roses-JadIhIihTFw.webm
+Aug 28 14:46 : update: removing Vocaloid medley1 arranged on Acoustic Guitar by Osamuraisan [Working BGM]-JpMTS_PM1ws.webm
+Aug 28 14:46 : update: removing TAPE FIVE - The Magic Slapstick-qEiw1UIlXhI.mkv
+Aug 28 14:46 : update: removing TAPE FIVE   City of Lights.mp3
+Aug 28 14:46 : update: removing TAPE FIVE   City of Lights-hNtP8zJFL2M.mkv
+Aug 28 14:46 : update: removing Step Into My Time Machine-ySKQiKBpYOs.mkv
+Aug 28 14:46 : update: removing Ram Jam - Black Betty-I_2D8Eo15wE.mkv
+Aug 28 14:46 : update: removing PinocchioP - Tonchinkan Feast feat.Hatsune Miku _ .mp3
+Aug 28 14:46 : update: removing PinocchioP - Nobody Makes Sense _ ピノキオピー- ぼくらはみんな意.mp3
+Aug 28 14:46 : update: removing Official髭男dism - ノーダウト［Official Video］-EHw005ZqCXk.mkv
+Aug 28 14:46 : update: removing Official髭男dism - Pretender［Official Video］-TQ8WlA2GXbk.mkv
+Aug 28 14:46 : update: removing OFF STUDIO - Jamie Cullum « Edge Of Something »-7LLAdpwkcJc.mkv
+Aug 28 14:46 : update: removing OFF STUDIO - Jamie Cullum 'Everything You Didn't Do'-2X5Jc8NGQTE.mkv
+Aug 28 14:46 : update: removing Norah Jones - Summertime-xJOtaWyEzaI.mkv
+Aug 28 14:46 : update: removing Lust Blue_R Sound Design feat.逆音セシル-U7NUU12t2ms.mkv
+Aug 28 14:46 : update: removing Love Gun-0Rgl4M7rE5I.webm
+Aug 28 14:46 : update: removing King Gnu「白日」アコギでロックしてみた  “Hakujitsu” on Guitar by Osamuraisan-RixV5NuQiV0.mp4
+Aug 28 14:46 : update: removing King Gnu - 白日-ony539T074w.mkv
+Aug 28 14:46 : update: removing Jamie Cullum - Everything You Didn't Do.mp3
+Aug 28 14:46 : update: removing Jamie Cullum - Everything You Didn't Do-xOq2QTaZAq0.mkv
+Aug 28 14:46 : update: removing Jamie Cullum - Edge Of Something.mp3
+Aug 28 14:46 : update: removing Jamie Cullum - Edge Of Something-Z1sg5g7sbI8.mp4
+Aug 28 14:46 : update: removing Jamie Cullum - Don't Stop the Music.mp3
+Aug 28 14:46 : update: removing Jamie Cullum - Don't Stop the Music-kYhT7oCDoqM.mkv
+Aug 28 14:46 : update: removing Israel--J.J. Johnson & Kai Winding---V8pOgQDXg.webm
+Aug 28 14:46 : update: removing Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv
+Aug 28 14:46 : update: removing Guiano - 死んでしまったのだろうか (feat.flower)-_xXenYRkbKs.mkv
+Aug 28 14:46 : update: removing Guiano - 忘れたいことばっかだ (feat.flower)-Fv-eR_FoSPo.webm
+Aug 28 14:46 : update: removing Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv
+Aug 28 14:46 : update: removing ever_Otomachi Una-sm32945630.mp4
+Aug 28 14:46 : update: removing Eddie Lang - Some Of These Days-Q-aF8k1ddek.mkv
+Aug 28 14:46 : update: removing Earl Klugh - Living Inside Your Love-uYfPLF6Q-M4.webm
+Aug 28 14:46 : update: removing CITY NIGHT WALK_R(self-cover)-dUGMHFbA0s8.webm
+Aug 28 14:46 : update: removing bohemianvoodoo '石の教会' 【Music Video】-3FS5BF5HwrI.webm
+Aug 28 14:46 : update: removing bohemianvoodoo 'Golden Forest' 【Music Video】--oWccnrIqKo.webm
+Aug 28 14:46 : update: removing bohemianvoodoo 'El Ron Zacapa' 【Music Video】-z2knnB8oedc.webm
+Aug 28 14:46 : update: removing bohemianvoodoo 'Adria Blue' 【Music Video】-gjDrEdEzfQc.mkv
+Aug 28 14:46 : update: removing bohemianvoodoo 'Adria Blue' 【Live at Club eX】-5FXcg-J2LlI.mkv
+Aug 28 14:46 : update: removing 11 50 Years Ago.wma
+Aug 28 14:46 : update: removing 10 Union Pacific.wma
+Aug 28 14:46 : update: removing 09 When We Were Leaving.wma
+Aug 28 14:46 : update: removing 08 Blues for Sammy.wma
+Aug 28 14:46 : update: removing 07 Juke Joint.wma
+Aug 28 14:46 : update: removing 06 Killeen.wma
+Aug 28 14:46 : update: removing 05 I'll Take Les.wma
+Aug 28 14:46 : update: removing 04 Stanford and Son.wma
+Aug 28 14:46 : update: removing 03 Self Portrait.wma
+Aug 28 14:46 : update: removing 02 Scheerhorn Shuffle.wma
+Aug 28 14:46 : update: removing 01 Mr. Goodbar.wma
+Aug 28 14:46 : update: removing 10 Don't Give It Up.wma
+Aug 28 14:46 : update: removing 09 New Blues.wma
+Aug 28 14:46 : update: removing 08 Be Thou My Vision.wma
+Aug 28 14:46 : update: removing 07 Central Park.wma
+Aug 28 14:46 : update: removing 06 California Blues.wma
+Aug 28 14:46 : update: removing 05 The Way We Was.wma
+Aug 28 14:46 : update: removing 04 The Last Polar Bear.wma
+Aug 28 14:46 : update: removing 03 Can't Find My Way Home.wma
+Aug 28 14:46 : update: removing 02 Watermelon Man.wma
+Aug 28 14:46 : update: removing 01 Dwight's Blues.wma
+Aug 28 14:46 : update: removing 須田景凪「レド」MV-FNn6E_fkxFg.mkv
+Aug 28 14:46 : update: removing 須田景凪「パレイドリア」MV-NQ12-0TYgAs.webm
+Aug 28 14:46 : update: removing 須田景凪「veil」MV-n7VZxg9pxkg.mkv
+Aug 28 14:46 : update: removing 須田景凪「Cambell」MV-DKUmfMmsqG0.mkv
+Aug 28 14:46 : update: removing 須田景凪 │ バルーン - 年末なので「パレイドリア」のリアレンジ音源を添えておきます今年もお世話に.mp3
+Aug 28 14:46 : update: removing 須田景凪 「MOIL」MV-U097VmiGTxY.webm
+Aug 28 14:46 : update: removing 雨とペトラ／flower.mp3
+Aug 28 14:46 : update: removing 雨とペトラ／flower-PdfdOhYVU40.mkv
+Aug 28 14:46 : update: removing 記号として RADWIMPS MV.mp3
+Aug 28 14:46 : update: removing 蛍が飛んだ_4ma15 feat.滲音かこい-7KUP6XR5Tpg.mkv
+Aug 28 14:46 : update: removing 花瓶に触れた歌ってみたのはメガテラ・ゼロ-8xi4m-CzuJU.mkv
+Aug 28 14:46 : update: removing 花瓶に触れた／flower.mp3
+Aug 28 14:46 : update: removing 終末じゃない _ Flower･心華 - ぬゆり.mp3
+Aug 28 14:46 : update: removing 米津玄師 MV「海の幽霊」Spirits of the Sea-1s84rIhPuhk.mkv
+Aug 28 14:46 : update: removing 米津玄師 MV「パプリカ」Kenshi Yonezu _ Paprika-s582L3gujnw.mkv
+Aug 28 14:46 : update: removing 米津玄師 MV「Flamingo」.mp3
+Aug 28 14:46 : update: removing 神山羊 - 青い棘【Music Video】_ Yoh Kamiyama - Aoi Toge-PVlVzX6OLns.mkv
+Aug 28 14:46 : update: removing 神山 羊 - YELLOW【Music Video】_ Yoh Kamiyama - YELLOW.mp3
+Aug 28 14:46 : update: removing 眠れぬ夜は繰り返す_4ma15 feat.重音テト-6ji0sW7Gaw0.mkv
+Aug 28 14:46 : update: removing 然れど応答は冴えず_12uck feat.重音テト.mp3
+Aug 28 14:46 : update: removing 深夜高速_重音テト【カバー】-MrBPRaDHGYE.mkv
+Aug 28 14:46 : update: removing 泣けど喚けど朝がきて_12uck feat.重音テト.mp3
+Aug 28 14:46 : update: removing 東方爆音ジャズBESTメドレー【東京アクティブNEETs】.mp3
+Aug 28 14:46 : update: removing 有機酸_ewe「退紅トレイン」feat.初音ミク MV.mp3
+Aug 28 14:46 : update: removing 愛にできることはまだあるかい RADWIMPS MV-EQ94zflNqn4.mkv
+Aug 28 14:46 : update: removing 夜明けと蛍 _ ナブナ-nDbNRb9gOr4.webm
+Aug 28 14:46 : update: removing 前前前世 (movie ver.) RADWIMPS MV.mp3
+Aug 28 14:46 : update: removing 前前前世 (movie ver.) RADWIMPS MV-PDSkFeMVNFs.webm
+Aug 28 14:46 : update: removing 世迷言_4ma15 feat.滲音かこい-qJ20KjcryOQ.mkv
+Aug 28 14:46 : update: removing ロンリーダンス _ flower - ぬゆり.mp3
+Aug 28 14:46 : update: removing ヨルシカ - 靴の花火 (Music Video).mp3
+Aug 28 14:46 : update: removing ヨルシカ - 雨とカプチーノ(Official Video)-PWbRleMGagU.mkv
+Aug 28 14:46 : update: removing ヨルシカ - ヒッチコック (MUSIC VIDEO).mp3
+Aug 28 14:46 : update: removing ヨルシカ - ただ君に晴れ (MUSIC VIDEO).mp3
+Aug 28 14:46 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 14:46 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 14:46 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 14:47 : exception: No such directory
+Aug 28 14:47 : exception: Failed to open '/home/sinai/.config/mpd/playlists/all.m3u': No such file or directory
+Aug 28 14:47 : exception: No such playlist
+Aug 28 14:48 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 28 14:48 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 28 14:48 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 28 14:48 : exception: No such directory
+Aug 28 14:48 : exception: Failed to open '/home/sinai/.config/mpd/playlists/1.m3u': No such file or directory
+Aug 28 14:48 : exception: No such playlist
+Aug 28 14:50 : client: [2] closed
+Aug 28 15:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 15:09 : player: played "bgm/東方爆音ジャズBESTメドレー【東京アクティブNEETs】.mp3"
+Aug 28 15:12 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 15:12 : player: played "bgm/Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv"
+Aug 28 15:15 : client: [3] opened from 127.0.0.1:35972
+Aug 28 15:18 : player: played "bgm/02 Scheerhorn Shuffle.wma"
+Aug 28 15:19 : client: [3] closed
+Aug 28 15:19 : client: [4] opened from 127.0.0.1:35978
+Aug 28 15:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 15:21 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 15:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 15:21 : player: played "bgm/Ram Jam - Black Betty-I_2D8Eo15wE.mkv"
+Aug 28 15:27 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 15:27 : player: played "bgm/Bill Evans Trio - Autumn Leaves-r-Z8KuwI7Gc.webm"
+Aug 28 15:31 : ffmpeg/libaom-av1: 1.0.0-errata1
+Aug 28 15:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 15:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 15:36 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 15:36 : player: played "bgm/Jamie Cullum - Everything You Didn't Do-xOq2QTaZAq0.mkv"
+Aug 28 15:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 15:41 : player: played "bgm/_Happy Saturday Night_ performed by H ZETTRIO 【Off.mp3"
+Aug 28 15:45 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 15:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 15:46 : player: played "bgm/ヨルシカ - 雨とカプチーノ(Official Video)-PWbRleMGagU.mkv"
+Aug 28 15:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 15:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 15:53 : player: played "bgm/前前前世 (movie ver.) RADWIMPS MV.mp3"
+Aug 28 15:57 : player: played "bgm/King Gnu「白日」アコギでロックしてみた  “Hakujitsu” on Guitar by Osamuraisan-RixV5NuQiV0.mp4"
+Aug 28 15:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 15:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 15:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 15:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 15:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 16:01 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 16:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 16:01 : player: played "bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv"
+Aug 28 16:05 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 16:05 : player: played "bgm/須田景凪「veil」MV-n7VZxg9pxkg.mkv"
+Aug 28 16:08 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 16:08 : player: played "bgm/ever_Otomachi Una-sm32945630.mp4"
+Aug 28 16:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 16:23 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 16:24 : player: played "bgm/bohemianvoodoo 'Adria Blue' 【Live at Club eX】-5FXcg-J2LlI.mkv"
+Aug 28 16:27 : player: played "bgm/神山 羊 - YELLOW【Music Video】_ Yoh Kamiyama - YELLOW.mp3"
+Aug 28 16:33 : player: played "bgm/【東方爆音ジャズ6】少女綺想曲〜弾幕注意報2014【東京アクティブNEETs】.mp3"
+Aug 28 16:36 : player: played "bgm/おしゃかしゃま RADWIMPS MV.mp3"
+Aug 28 16:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 16:40 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 16:40 : player: played "bgm/Guiano - 死んでしまったのだろうか (feat.flower)-_xXenYRkbKs.mkv"
+Aug 28 16:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 16:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 16:44 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 16:44 : player: played "bgm/蛍が飛んだ_4ma15 feat.滲音かこい-7KUP6XR5Tpg.mkv"
+Aug 28 16:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 16:45 : player: played "bgm/須田景凪 │ バルーン - 年末なので「パレイドリア」のリアレンジ音源を添えておきます今年もお世話に.mp3"
+Aug 28 16:51 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 16:56 : player: played "bgm/記号として RADWIMPS MV.mp3"
+Aug 28 17:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:01 : player: played "bgm/Jamie Cullum - Don't Stop the Music.mp3"
+Aug 28 17:06 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 17:06 : player: played "bgm/'Signposts in the night sky' by Osamuraisan(Original)  「夜の道標」おさむらいさん-Ap-UFwMmc5k.mkv"
+Aug 28 17:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:09 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 17:09 : player: played "bgm/米津玄師 MV「パプリカ」Kenshi Yonezu _ Paprika-s582L3gujnw.mkv"
+Aug 28 17:15 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:16 : player: played "bgm/【東方爆音ジャズ8】ネイティブフェイス【東京アクティブNEETs】.mp3"
+Aug 28 17:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:21 : player: played "bgm/Jamie Cullum - Edge Of Something-Z1sg5g7sbI8.mp4"
+Aug 28 17:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:25 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 17:25 : player: played "bgm/Wes Montgomery Trio - Days of Wine and Roses-JadIhIihTFw.webm"
+Aug 28 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:30 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:30 : player: played "bgm/神山羊 - 青い棘【Music Video】_ Yoh Kamiyama - Aoi Toge-PVlVzX6OLns.mkv"
+Aug 28 17:34 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 17:34 : player: played "bgm/Guiano - 忘れたいことばっかだ (feat.flower)-Fv-eR_FoSPo.webm"
+Aug 28 17:39 : player: played "bgm/いいんですか_ 2017 ver..mp3"
+Aug 28 17:42 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:42 : player: played "bgm/ヨルシカ - ただ君に晴れ (MUSIC VIDEO).mp3"
+Aug 28 17:47 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 17:48 : player: played "bgm/Earl Klugh - Living Inside Your Love-uYfPLF6Q-M4.webm"
+Aug 28 17:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:52 : player: played "bgm/【東方爆音ジャズ7】実写版フラワリングナイト 〜紅霧夜華2014【東京アクティブNEETs】.mp3"
+Aug 28 17:57 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 17:57 : player: played "bgm/'Happy Saturday Night' performed by H ZETTRIO 【Official MV】-RGBoQI4Fx7s.mkv"
+Aug 28 18:01 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 18:01 : player: played "bgm/Bad Boy Good Man (music by TAPE FIVE)-n8Wx80TZ8OQ.mkv"
+Aug 28 18:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 18:04 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 18:05 : player: played "bgm/須田景凪 「MOIL」MV-U097VmiGTxY.webm"
+Aug 28 18:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 18:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 18:08 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 18:09 : player: played "bgm/須田景凪「パレイドリア」MV-NQ12-0TYgAs.webm"
+Aug 28 18:12 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 18:12 : player: played "bgm/メーベル／flower.mp3"
+Aug 28 18:37 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 18:37 : player: played "bgm/世迷言_4ma15 feat.滲音かこい-qJ20KjcryOQ.mkv"
+Aug 28 18:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 18:41 : player: played "bgm/ヨルシカ - ヒッチコック (MUSIC VIDEO).mp3"
+Aug 28 18:45 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 18:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 18:45 : player: played "bgm/深夜高速_重音テト【カバー】-MrBPRaDHGYE.mkv"
+Aug 28 18:50 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 18:50 : player: played "bgm/bohemianvoodoo '石の教会' 【Music Video】-3FS5BF5HwrI.webm"
+Aug 28 18:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 18:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 18:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 18:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 18:56 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 19:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 19:06 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 19:06 : player: played "bgm/bohemianvoodoo 'Adria Blue' 【Music Video】-gjDrEdEzfQc.mkv"
+Aug 28 19:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 19:10 : player: played "bgm/TAPE FIVE   City of Lights.mp3"
+Aug 28 19:14 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 28 19:14 : player: played "bgm/【東方爆音ジャズ7】実写版フラワリングナイト 〜紅霧夜華2014【東京アクティブNEETs】-31w01j8NCcw.mkv"
+Aug 28 19:18 : player: played "bgm/PinocchioP - Tonchinkan Feast feat.Hatsune Miku _ .mp3"
+Aug 28 19:22 : player: played "bgm/雨とペトラ／flower.mp3"
+Aug 28 19:26 : player: played "bgm/ディカディズム _ Flower･心華 - ぬゆり.mp3"
+Aug 28 19:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 19:31 : client: [4] closed
+Aug 28 22:36 : client: [5] opened from 127.0.0.1:49022
+Aug 28 22:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 22:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 28 22:44 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:44 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:44 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:44 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:44 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:44 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:45 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:45 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:45 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:48 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:48 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:49 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:50 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:50 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:50 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:51 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:51 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:52 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:52 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 22:54 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 23:06 : client: [5] closed
+Aug 28 23:08 : player: played "bgm/bohemianvoodoo 'Adria Blue' 【Music Video】-gjDrEdEzfQc.mkv"
+Aug 28 23:09 : zeroconf: No global port, disabling zeroconf
+Aug 28 23:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 28 23:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 28 23:09 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Aug 28 23:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 13:44 : client: [0] opened from 127.0.0.1:53268
+Aug 29 13:44 : player: played "bgm/bohemianvoodoo 'Adria Blue' 【Music Video】-gjDrEdEzfQc.mkv"
+Aug 29 13:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 29 13:49 : player: played "bgm/然れど応答は冴えず_12uck feat.重音テト.mp3"
+Aug 29 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 13:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 13:56 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 29 13:57 : player: played "アコギ/「ローリンガール」アコギで弾いてみた 'Rolling girl' on Guitar-qQ88h-cLb6U.mkv"
+Aug 29 14:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 14:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 14:05 : player: played "bgm/【調教すげぇ】初音ミク『FREELY TOMORROW』【公式PV】.mp3"
+Aug 29 14:09 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 29 14:09 : player: played "bgm/CITY NIGHT WALK_R(self-cover)-dUGMHFbA0s8.webm"
+Aug 29 14:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 14:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 14:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 14:14 : player: played "bgm/泣けど喚けど朝がきて_12uck feat.重音テト.mp3"
+Aug 29 14:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 14:18 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 29 14:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 14:18 : player: played "bgm/須田景凪「veil」MV-n7VZxg9pxkg.mkv"
+Aug 29 14:21 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 29 14:22 : player: played "bgm/TAPE FIVE   City of Lights-hNtP8zJFL2M.mkv"
+Aug 29 14:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 14:28 : player: played "bgm/03 Self Portrait.wma"
+Aug 29 14:31 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 29 14:32 : player: played "bgm/蛍が飛んだ_4ma15 feat.滲音かこい-7KUP6XR5Tpg.mkv"
+Aug 29 14:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 14:36 : player: played "bgm/いいんですか_ 2017 ver..mp3"
+Aug 29 14:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 14:40 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 29 14:40 : player: played "bgm/【TAB】“Always With Me (Spirited Away)” on mini Guitar by Osamuraisan「いつも何度でも」ミニギターで弾いてみた【千と千尋の神隠し】-_A2afneSWIE.mkv"
+Aug 29 14:45 : player: played "bgm/ロンリーダンス _ flower - ぬゆり.mp3"
+Aug 29 14:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 14:50 : player: played "bgm/Jamie Cullum - Edge Of Something.mp3"
+Aug 29 14:51 : exception: Bad playlist name
+Aug 29 14:51 : player: played "bgm/フラジール _ GUMI - ぬゆり.mp3"
+Aug 29 14:54 : client: [0] closed
+Aug 29 15:00 : update: added /少女終末旅行　ＯＰ「動く、動く」_チト・ユーリ-sm32093759.mp4
+Aug 29 15:00 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Aug 29 15:00 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Aug 29 15:00 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Aug 29 17:54 : client: [1] opened from 127.0.0.1:60688
+Aug 29 17:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 18:00 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 29 18:01 : player: played "bgm/bohemianvoodoo 'Adria Blue' 【Live at Club eX】-5FXcg-J2LlI.mkv"
+Aug 29 18:06 : player: played "bgm/記号として RADWIMPS MV.mp3"
+Aug 29 18:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 18:10 : player: played "bgm/ヨルシカ - ヒッチコック (MUSIC VIDEO).mp3"
+Aug 29 18:16 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 29 18:16 : player: played "bgm/bohemianvoodoo 'Golden Forest' 【Music Video】--oWccnrIqKo.webm"
+Aug 29 18:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 18:19 : player: played "bgm/ピコン - ガランド ft. 初音ミク.mp3"
+Aug 29 18:23 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 29 18:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 18:23 : player: played "bgm/須田景凪「Cambell」MV-DKUmfMmsqG0.mkv"
+Aug 29 18:26 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 29 18:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 18:26 : player: played "bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv"
+Aug 29 18:31 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 29 18:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 18:31 : player: played "bgm/King Gnu - 白日-ony539T074w.mkv"
+Aug 29 18:35 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 29 18:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 18:35 : player: played "アコギ/HY '366 days' by Osamuraisan 「366日」アコギで弾いてみた-PBi-iq14Z30.mkv"
+Aug 29 18:38 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 29 18:38 : ffmpeg/libaom-av1: 1.0.0-errata1
+Aug 29 18:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 18:39 : player: played "bgm/Official髭男dism - ノーダウト［Official Video］-EHw005ZqCXk.mkv"
+Aug 29 18:42 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 29 18:42 : player: played "bgm/メーベル／バルーン(self cover)-_KZTkRgGqds.mkv"
+Aug 29 18:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 18:47 : player: played "bgm/07 Central Park.wma"
+Aug 29 18:51 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 29 18:51 : player: played "アコギ/”waver” by Osamuraisan(Original) 「波間に揺蕩う」-MralCG9AggQ.mkv"
+Aug 29 18:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 29 18:56 : player: played "bgm/A Cool Cat in Town (music by TAPE FIVE)-qCRO964l_nE.mp4"
+Aug 29 19:01 : client: [1] closed
+Aug 30 10:14 : client: [2] opened from 127.0.0.1:39424
+Aug 30 10:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 10:18 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 30 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 10:18 : player: played "bgm/ヨルシカ - 雨とカプチーノ(Official Video)-PWbRleMGagU.mkv"
+Aug 30 10:22 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 30 10:22 : player: played "bgm/Guiano - 死んでしまったのだろうか (feat.flower)-_xXenYRkbKs.mkv"
+Aug 30 10:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 10:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 10:26 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 30 10:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 10:26 : player: played "bgm/深夜高速_重音テト【カバー】-MrBPRaDHGYE.mkv"
+Aug 30 10:31 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 30 10:31 : player: played "bgm/【東方爆音ジャズ7】実写版フラワリングナイト 〜紅霧夜華2014【東京アクティブNEETs】-31w01j8NCcw.mkv"
+Aug 30 10:32 : player: played "bgm/カフネ　歌ってみた－遊.mp3"
+Aug 30 10:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 10:40 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 30 10:40 : player: played "bgm/愛にできることはまだあるかい RADWIMPS MV-EQ94zflNqn4.mkv"
+Aug 30 10:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 10:43 : player: played "bgm/然れど応答は冴えず_12uck feat.重音テト.mp3"
+Aug 30 10:48 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 30 10:48 : player: played "bgm/'Beautiful Flight' _ performed by H ZETTRIO 【Official MV】-1m53lVsc2As.mkv"
+Aug 30 10:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 10:54 : player: played "bgm/“Dancing in the mood” performed by H ZETTRIO 【Offi.mp3"
+Aug 30 10:58 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 30 10:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 10:59 : player: played "アコギ/HY '366 days' by Osamuraisan 「366日」アコギで弾いてみた-PBi-iq14Z30.mkv"
+Aug 30 11:03 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 30 11:03 : player: played "アコギ/【TAB】Official髭男dism「Pretender」アコギで弾いてみた 'Pretender' on Guitar by Osamuraisan-8JzQIgvonyQ.mkv"
+Aug 30 11:04 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:07 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 30 11:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:07 : player: played "bgm/Guiano - 死んでしまったのだろうか (feat.flower)-_xXenYRkbKs.mkv"
+Aug 30 11:11 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 30 11:12 : player: played "アコギ/IA - 'Kisaragi Attention' on guitars by Osamuraisan 「如月アテンション」-Xik3L6X8r8s.mkv"
+Aug 30 11:23 : player: played "bgm/【東方爆音ジャズ4】紅魔郷メドレー【東京アクティブNEETs】.mp3"
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:29 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 30 11:30 : player: played "bgm/bohemianvoodoo 'Adria Blue' 【Music Video】-gjDrEdEzfQc.mkv"
+Aug 30 11:33 : player: played "bgm/PinocchioP - Tonchinkan Feast feat.Hatsune Miku _ .mp3"
+Aug 30 11:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 11:37 : player: played "bgm/おしゃかしゃま RADWIMPS MV.mp3"
+Aug 30 11:37 : player: played "bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv"
+Aug 30 13:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 13:47 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 30 13:47 : ffmpeg/libaom-av1: 1.0.0-errata1
+Aug 30 13:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 13:50 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 30 13:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 13:51 : player: played "bgm/メーベル／バルーン(self cover)-_KZTkRgGqds.mkv"
+Aug 30 13:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 13:56 : player: played "bgm/Bill Evans Trio - Autumn Leaves-r-Z8KuwI7Gc.webm"
+Aug 30 17:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 17:38 : player: played "bgm/03 Self Portrait.wma"
+Aug 30 17:44 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 30 17:44 : player: played "bgm/Bill Evans Trio - Autumn Leaves-r-Z8KuwI7Gc.webm"
+Aug 30 17:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 17:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 30 17:49 : player: played "bgm/Jamie Cullum - Everything You Didn't Do-xOq2QTaZAq0.mkv"
+Aug 30 17:49 : client: [2] closed
+Aug 31 11:02 : client: [3] opened from 127.0.0.1:45836
+Aug 31 11:03 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:05 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 31 11:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:06 : player: played "bgm/Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv"
+Aug 31 11:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:11 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 31 11:11 : player: played "bgm/Guiano - 忘れたいことばっかだ (feat.flower)-Fv-eR_FoSPo.webm"
+Aug 31 11:11 : player: played "bgm/A Cool Cat in Town (music by TAPE FIVE)-qCRO964l_nE.mp4"
+Aug 31 11:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:14 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 31 11:15 : player: played "bgm/Guiano - 死んでしまったのだろうか (feat.flower)-_xXenYRkbKs.mkv"
+Aug 31 11:15 : player: played "bgm/A Cool Cat in Town (music by TAPE FIVE)-qCRO964l_nE.mp4"
+Aug 31 11:15 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:18 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 31 11:18 : player: played "bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv"
+Aug 31 11:18 : player: played "bgm/A Cool Cat in Town (music by TAPE FIVE)-qCRO964l_nE.mp4"
+Aug 31 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:29 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 31 11:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:33 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 31 11:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:34 : player: played "bgm/米津玄師 MV「海の幽霊」Spirits of the Sea-1s84rIhPuhk.mkv"
+Aug 31 11:38 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Aug 31 11:38 : player: played "bgm/Jamie Cullum - Don't Stop the Music-kYhT7oCDoqM.mkv"
+Aug 31 11:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Aug 31 11:42 : player: played "bgm/然れど応答は冴えず_12uck feat.重音テト.mp3"
+Aug 31 11:42 : client: [3] closed
+Sep 01 09:14 : client: [4] opened from 127.0.0.1:37570
+Sep 01 09:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:19 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 09:19 : player: played "bgm/ヨルシカ - 雨とカプチーノ(Official Video)-PWbRleMGagU.mkv"
+Sep 01 09:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:23 : player: played "bgm/然れど応答は冴えず_12uck feat.重音テト.mp3"
+Sep 01 09:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:27 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:27 : player: played "bgm/PinocchioP - Tonchinkan Feast feat.Hatsune Miku _ .mp3"
+Sep 01 09:28 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 09:28 : player: played "アコギ/DAOKO × 米津玄師『打上花火』アコギで弾いてみた ちょっとだけ 'Uchiage Hanabi' by Osamuraisan-8PUIPFiixs8.webm"
+Sep 01 09:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:32 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 09:32 : player: played "bgm/須田景凪 「MOIL」MV-U097VmiGTxY.webm"
+Sep 01 09:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:37 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 09:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:37 : player: played "bgm/世迷言_4ma15 feat.滲音かこい-qJ20KjcryOQ.mkv"
+Sep 01 09:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:40 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 09:40 : player: played "bgm/Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv"
+Sep 01 09:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:48 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 09:48 : player: played "bgm/愛にできることはまだあるかい RADWIMPS MV-EQ94zflNqn4.mkv"
+Sep 01 09:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:54 : player: played "bgm/Jamie Cullum - Everything You Didn't Do-xOq2QTaZAq0.mkv"
+Sep 01 09:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:57 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 09:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 09:57 : player: played "bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv"
+Sep 01 09:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:02 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 10:03 : player: played "bgm/Guiano - 忘れたいことばっかだ (feat.flower)-Fv-eR_FoSPo.webm"
+Sep 01 10:03 : player: played "bgm/05 I'll Take Les.wma"
+Sep 01 10:03 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:06 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 10:07 : player: played "bgm/Guiano - 死んでしまったのだろうか (feat.flower)-_xXenYRkbKs.mkv"
+Sep 01 10:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:07 : player: played "bgm/【東方爆音ジャズ8】ネイティブフェイス【東京アクティブNEETs】-pr1I2zHcg0I.mkv"
+Sep 01 10:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:11 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 10:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:11 : player: played "bgm/米津玄師 MV「パプリカ」Kenshi Yonezu _ Paprika-s582L3gujnw.mkv"
+Sep 01 10:12 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:12 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:12 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:15 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 10:15 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:15 : player: played "bgm/須田景凪 「MOIL」MV-U097VmiGTxY.webm"
+Sep 01 10:20 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:20 : player: played "bgm/泣けど喚けど朝がきて_12uck feat.重音テト.mp3"
+Sep 01 10:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:24 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 10:24 : player: played "bgm/須田景凪「veil」MV-n7VZxg9pxkg.mkv"
+Sep 01 10:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:28 : player: played "bgm/メーベル／flower.mp3"
+Sep 01 10:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:32 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 10:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:32 : player: played "bgm/Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv"
+Sep 01 10:36 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 10:36 : player: played "bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv"
+Sep 01 10:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:42 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 10:42 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:43 : player: played "bgm/Official髭男dism - Pretender［Official Video］-TQ8WlA2GXbk.mkv"
+Sep 01 10:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:49 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 10:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:49 : player: played "bgm/bohemianvoodoo 'Adria Blue' 【Live at Club eX】-5FXcg-J2LlI.mkv"
+Sep 01 10:49 : player: played "bgm/蛍が飛んだ_4ma15 feat.滲音かこい-7KUP6XR5Tpg.mkv"
+Sep 01 10:49 : client: [4] closed
+Sep 01 10:49 : client: [5] opened from 127.0.0.1:37660
+Sep 01 10:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:53 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 10:53 : player: played "bgm/須田景凪「Cambell」MV-DKUmfMmsqG0.mkv"
+Sep 01 10:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 10:58 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 10:58 : player: played "bgm/Guiano - 死んでしまったのだろうか (feat.flower)-_xXenYRkbKs.mkv"
+Sep 01 10:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:01 : player: played "bgm/ピコン - ガランド ft. 初音ミク.mp3"
+Sep 01 11:07 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 11:07 : player: played "bgm/花瓶に触れた歌ってみたのはメガテラ・ゼロ-8xi4m-CzuJU.mkv"
+Sep 01 11:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:22 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 11:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:22 : player: played "bgm/世迷言_4ma15 feat.滲音かこい-qJ20KjcryOQ.mkv"
+Sep 01 11:27 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 11:27 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:27 : player: played "bgm/Jamie Cullum - Don't Stop the Music-kYhT7oCDoqM.mkv"
+Sep 01 11:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:31 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 11:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:31 : player: played "bgm/ダンスビートに笑われて_4ma15 feat.重音テト-N3AOKZ_bKKY.mkv"
+Sep 01 11:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:34 : ffmpeg/libaom-av1: 1.0.0-errata1
+Sep 01 11:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:37 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 11:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:37 : player: played "bgm/メーベル／バルーン(self cover)-_KZTkRgGqds.mkv"
+Sep 01 11:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:41 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 01 11:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 01 11:41 : player: played "bgm/Wes Montgomery Trio - Days of Wine and Roses-JadIhIihTFw.webm"
+Sep 01 12:44 : client: [5] closed
+Sep 01 12:45 : player: played "bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv"
+Sep 01 12:46 : zeroconf: No global port, disabling zeroconf
+Sep 01 12:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 01 12:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 01 12:46 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 02 10:07 : player: played "bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv"
+Sep 02 10:10 : zeroconf: No global port, disabling zeroconf
+Sep 02 10:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 02 10:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 02 10:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 02 10:10 : client: [0] opened from 127.0.0.1:48910
+Sep 02 10:10 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 02 10:10 : player: played "bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv"
+Sep 02 10:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 02 10:11 : player: played "文単　英検二級１/01 - Unknown Artist - Track 1.wav"
+Sep 02 10:14 : player: played "文単　英検二級１/18 - Unknown Artist - Track 18.wav"
+Sep 02 10:15 : player: played "文単　英検二級１/30 - Unknown Artist - Track 30.wav"
+Sep 02 10:15 : player: played "文単　英検二級１/01 - Unknown Artist - Track 1.wav"
+Sep 02 10:16 : player: played "文単　英検二級１/01 - Unknown Artist - Track 1.wav"
+Sep 02 10:18 : player: played "文単　英検二級１/18 - Unknown Artist - Track 18.wav"
+Sep 02 10:20 : player: played "文単　英検二級１/18 - Unknown Artist - Track 18.wav"
+Sep 02 10:27 : player: played "文単　英検二級１/18 - Unknown Artist - Track 18.wav"
+Sep 02 10:27 : player: played "文単　英検二級１/02 - Unknown Artist - Track 2.wav"
+Sep 02 10:30 : player: played "文単　英検二級１/18 - Unknown Artist - Track 18.wav"
+Sep 02 10:32 : player: played "文単　英検二級１/18 - Unknown Artist - Track 18.wav"
+Sep 02 10:33 : player: played "文単　英検二級１/18 - Unknown Artist - Track 18.wav"
+Sep 02 10:34 : player: played "文単　英検二級１/18 - Unknown Artist - Track 18.wav"
+Sep 02 10:35 : player: played "文単　英検二級１/62 - Unknown Artist - Track 62.wav"
+Sep 02 10:36 : player: played "文単　英検二級１/57 - Unknown Artist - Track 57.wav"
+Sep 02 10:37 : player: played "文単　英検二級１/28 - Unknown Artist - Track 28.wav"
+Sep 02 10:39 : player: played "文単　英検二級１/20 - Unknown Artist - Track 20.wav"
+Sep 02 10:40 : player: played "文単　英検二級１/21 - Unknown Artist - Track 21.wav"
+Sep 02 10:42 : player: played "文単　英検二級１/20 - Unknown Artist - Track 20.wav"
+Sep 02 10:48 : player: played "文単　英検二級１/20 - Unknown Artist - Track 20.wav"
+Sep 02 10:53 : player: played "文単　英検二級１/20 - Unknown Artist - Track 20.wav"
+Sep 02 10:54 : player: played "文単　英検二級１/60 - Unknown Artist - Track 60.wav"
+Sep 02 11:01 : zeroconf: No global port, disabling zeroconf
+Sep 02 11:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 02 11:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 02 11:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 02 11:01 : client: [0] opened from 127.0.0.1:46126
+Sep 02 11:01 : player: played "文単　英検二級１/28 - Unknown Artist - Track 28.wav"
+Sep 02 11:47 : client: [0] closed
+Sep 02 11:47 : player: played "文単　英検二級１/22 - Unknown Artist - Track 22.wav"
+Sep 02 14:17 : zeroconf: No global port, disabling zeroconf
+Sep 02 14:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 02 14:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 02 22:35 : player: played "文単　英検二級１/22 - Unknown Artist - Track 22.wav"
+Sep 03 13:13 : zeroconf: No global port, disabling zeroconf
+Sep 03 13:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 03 13:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 03 17:28 : client: [0] opened from 127.0.0.1:60724
+Sep 03 17:28 : client: [0] closed
+Sep 03 17:36 : client: [1] opened from 127.0.0.1:60738
+Sep 03 17:36 : client: [1] closed

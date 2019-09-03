@@ -11,6 +11,8 @@ if has('nvim')
 	set undodir=$XDG_CONFIG_HOME/nvim/undo
 	set viminfo+='1000,\"1000,s1000,:1000,n~/.config/nvim/viminfo
 	source ~/.config/nvim/mycommands/MakeQuery.vim
+	"set termguicolors
+	"set pumblend=20
 	
 	if dein#load_state('/home/sinai/.cache/dein')
 		call dein#begin('/home/sinai/.cache/dein')
@@ -59,13 +61,14 @@ set background=dark
 colorscheme molokai
 set nopaste    
 set number    
-set clipboard=unnamed    
+set clipboard+=unnamed
 set hidden
 set nobackup
 set tags=./tags;,tags;
 set belloff=all
 set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 nn <F4> a<C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR><Esc>
+imap <Nul> <Nop>
 
 "see through
 highlight Normal ctermbg=none

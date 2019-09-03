@@ -11,217 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # 最後の 検索パターン:
-~Msle0~/\<font\>
+~MSle0~/history
 
 # 最後の Substitute 検索パターン:
-~MSle0&return
+~MSle0&const
 
 # 最後に置換された文字列:
-$return 0
+$const
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
-:q
-|2,0,1565481248,,"q"
-:w
-|2,0,1565481245,,"w"
 :wq
-|2,0,1565421075,,"wq"
+|2,0,1567506503,,"wq"
+:w
+|2,0,1567506498,,"w"
+:q
+|2,0,1567502483,,"q"
+:e ~/Scripts/
+|2,0,1567498822,,"e ~/Scripts/"
 :terminal
-|2,0,1565421006,,"terminal"
-:PrevimOpen
-|2,0,1565269771,,"PrevimOpen"
-:bnext
-|2,0,1565269660,,"bnext"
-:e ~/.vimrc
-|2,0,1565267340,,"e ~/.vimrc"
-:message
-|2,0,1565267169,,"message"
-:34
-|2,0,1565262377,,"34"
-:jjjjjjjjjjjjjjjj
-|2,0,1565261948,,"jjjjjjjjjjjjjjjj"
-:e .xinitrc
-|2,0,1565261815,,"e .xinitrc"
-:!compton
-|2,0,1565261586,,"!compton"
-:call dein#update()
-|2,0,1565236245,,"call dein#update()"
-:call dein#install()
-|2,0,1565236203,,"call dein#install()"
-:e ~/.config/tomls
-|2,0,1565236104,,"e ~/.config/tomls"
-:e ~/.cache/dein/repos/github.com/
-|2,0,1565235538,,"e ~/.cache/dein/repos/github.com/"
+|2,0,1567486734,,"terminal"
 :q!
-|2,0,1565233193,,"q!"
-:e ~/.config/nvim
-|2,0,1565146098,,"e ~/.config/nvim"
-:help LanguageClient
-|2,0,1565144338,,"help LanguageClient"
-:e ~/.cache/dein/repos/github.com/autozimu/
-|2,0,1565144283,,"e ~/.cache/dein/repos/github.com/autozimu/"
-:Unite dein
-|2,0,1565143736,,"Unite dein"
-:h LanguageClient-neovim
-|2,0,1565143712,,"h LanguageClient-neovim"
-:q4
-|2,0,1565143573,,"q4"
-:w! Scripts/practices/harmoney.c
-|2,0,1564925177,,"w! Scripts/practices/harmoney.c"
-:w Scripts/practices/harmoney.c
-|2,0,1564924959,,"w Scripts/practices/harmoney.c"
-:e .
-|2,0,1564765643,,"e ."
-:imu
-|2,0,1564764698,,"imu"
-:.q!
-|2,0,1564754826,,".q!"
-:Q
-|2,0,1564754823,,"Q"
+|2,0,1567485262,,"q!"
+:%!xxd
+|2,0,1567428313,,"%!xxd"
+:e elf.h
+|2,0,1567405211,,"e elf.h"
 :q1
-|2,0,1564754821,,"q1"
-:h verbose
-|2,0,1564673429,,"h verbose"
-:?verbose
-|2,0,1564673421,,"?verbose"
-:verbose all
-|2,0,1564673406,,"verbose all"
-:verbose 
-|2,0,1564673397,,"verbose "
-:verbose
-|2,0,1564673387,,"verbose"
-:verbose
-|2,0,1564673381,,"verbose"
-:source ~/.vimrc
-|2,0,1564673333,,"source ~/.vimrc"
-:vim ~/.vim
-|2,0,1564673126,,"vim ~/.vim"
-:h /
-|2,0,1564669553,,"h /"
-:e ~/.bashrc
-|2,0,1564223565,,"e ~/.bashrc"
-:PrevimOpe
-|2,0,1564082304,,"PrevimOpe"
-:echo &filetype
-|2,0,1564080895,,"echo &filetype"
-:set &filetype
-|2,0,1564080882,,"set &filetype"
-:au filetypedetect
-|2,0,1564080807,,"au filetypedetect"
-:e .bash_profile
-|2,0,1563712031,,"e .bash_profile"
-:e ~/.config/powerline
-|2,0,1563700378,,"e ~/.config/powerline"
-:e ~/.inputrc
-|2,0,1563525404,,"e ~/.inputrc"
-:e ~/.vim/vim.toml
-|2,0,1563440806,,"e ~/.vim/vim.toml"
-:e ~/.config
-|2,0,1563440516,,"e ~/.config"
-:%s/return/return 0/g
-|2,0,1562997699,,"%s/return/return 0/g"
+|2,0,1567334451,,"q1"
+:%!hexdump
+|2,0,1567334213,,"%!hexdump"
+:%!xdd
+|2,0,1567334066,,"%!xdd"
+:!xxd -r
+|2,0,1567333562,,"!xxd -r"
+:!xxd
+|2,0,1567333478,,"!xxd"
+:xxd!
+|2,0,1567333471,,"xxd!"
+:bin
+|2,0,1567322615,,"bin"
+:PrevimOpen
+|2,0,1567251156,,"PrevimOpen"
+:w layer2.c
+|2,0,1567301291,,"w layer2.c"
+:q]
+|2,0,1567301208,,"q]"
+:e layer_sub2.c
+|2,0,1567298331,,"e layer_sub2.c"
+:e layer_sub1.c
+|2,0,1567298192,,"e layer_sub1.c"
+:'<,'>s/1/2/g
+|2,0,1567292723,,"'<,'>s/1/2/g"
+:'<,'>s/1//2/g
+|2,0,1567292699,,"'<,'>s/1//2/g"
+:%s/const/const/ng
+|2,0,1567228063,,"%s/const/const/ng"
+:e samp4.c
+|2,0,1567223484,,"e samp4.c"
+:e samp3.c
+|2,0,1567223383,,"e samp3.c"
+:e samp2.c
+|2,0,1567223345,,"e samp2.c"
+:ls
+|2,0,1567223331,,"ls"
+:e samp1.c
+|2,0,1567223226,,"e samp1.c"
+:'<,'>s/	/		/g
+|2,0,1567220932,,"'<,'>s/	/		/g"
+:bnext
+|2,0,1567220213,,"bnext"
+:e readname.c
+|2,0,1567220192,,"e readname.c"
+:e elfdump64.c
+|2,0,1567219662,,"e elfdump64.c"
+:44
+|2,0,1567218810,,"44"
+:4
+|2,0,1567218808,,"4"
+:90
+|2,0,1567149982,,"90"
+:75
+|2,0,1567149934,,"75"
+:72
+|2,0,1567149703,,"72"
+:42
+|2,0,1567149670,,"42"
+:73
+|2,0,1567149339,,"73"
+:47
+|2,0,1567148969,,"47"
+:e readsec64.c
+|2,0,1567143586,,"e readsec64.c"
+:nb
+|2,0,1567140741,,"nb"
+:e elfsamp.c
+|2,0,1567137731,,"e elfsamp.c"
+:!
+|2,0,1567128877,,"!"
+:Q
+|2,0,1567057105,,"Q"
+:set number
+|2,0,1566728896,,"set number"
+:set nonumber
+|2,0,1566728813,,"set nonumber"
+:e ~/.vimrc
+|2,0,1566728732,,"e ~/.vimrc"
+:wq!
+|2,0,1566728616,,"wq!"
+:qq
+|2,0,1566728589,,"qq"
 
 # 検索文字列 項目の履歴 (新しいものから古いものへ):
-? \<font\>
-|2,1,1565481230,,"\\<font\\>"
-?/font
-|2,1,1565481227,47,"font"
-?/lock
-|2,1,1565420807,47,"lock"
-? \<STDLIBS_LINK_TARGETS\>
-|2,1,1565385881,,"\\<STDLIBS_LINK_TARGETS\\>"
-?/gg
-|2,1,1565269737,47,"gg"
-?/nvim
-|2,1,1565269730,47,"nvim"
-?/.config
-|2,1,1565269725,47,".config"
-?/config
-|2,1,1565269621,47,"config"
-? \<gitconfig\>
-|2,1,1565269614,,"\\<gitconfig\\>"
-?/.xinit
-|2,1,1565262482,47,".xinit"
-?/confi
-|2,1,1565262459,47,"confi"
-?/con
-|2,1,1565262455,47,"con"
-?/i3
-|2,1,1565261262,47,"i3"
-? \<background\>
-|2,1,1565261153,,"\\<background\\>"
-?/background
-|2,1,1565261132,47,"background"
-?/\<blue\>
-|2,1,1565260975,47,"\\<blue\\>"
-? \<blue\>
-|2,1,1565260970,,"\\<blue\\>"
-?/-b
-|2,1,1565260966,47,"-b"
-? \<vsync\>
-|2,1,1565260866,,"\\<vsync\\>"
-?/vsyn
-|2,1,1565260854,47,"vsyn"
-? \<Comment\>
-|2,1,1565235736,,"\\<Comment\\>"
-?/comment
-|2,1,1565235572,47,"comment"
-? \<colors\>
-|2,1,1565235469,,"\\<colors\\>"
-?/color
-|2,1,1565235467,47,"color"
-?/font[]
-|2,1,1565229278,47,"font[]"
-?/virtual
-|2,1,1565014719,47,"virtual"
-? \<jl_compile_all_defs\>
-|2,1,1564765851,,"\\<jl_compile_all_defs\\>"
-?/JULIA_PRECOMPILE
-|2,1,1564765574,47,"JULIA_PRECOMPILE"
-? \<JULIA_PRECOMPILE\>
-|2,1,1564765526,,"\\<JULIA_PRECOMPILE\\>"
-? \<sysimg_builder\>
-|2,1,1564765489,,"\\<sysimg_builder\\>"
-?/list
-|2,1,1564765362,47,"list"
-?/dict
-|2,1,1564765354,47,"dict"
-?/di
-|2,1,1564765124,47,"di"
-?/Dict
-|2,1,1564765065,47,"Dict"
-?/imu
-|2,1,1564764702,47,"imu"
-?/imm
-|2,1,1564764695,47,"imm"
-?/pointer
-|2,1,1564764666,47,"pointer"
-?/type
-|2,1,1564764615,47,"type"
-?/dic
-|2,1,1564764558,47,"dic"
-?/im
-|2,1,1564764548,47,"im"
-?/Ne
-|2,1,1564752089,47,"Ne"
-? verbose
-|2,1,1564673421,,"verbose"
-??main(
-|2,1,1564669767,63,"main("
-?/main(
-|2,1,1564669759,47,"main("
-?/main()
-|2,1,1564669693,47,"main()"
-?/mainn
-|2,1,1564669686,47,"mainn"
-??main
-|2,1,1564669662,63,"main"
-??main()
-|2,1,1564669649,63,"main()"
-?//main()
-|2,1,1564669640,47,"/main()"
+?/history
+|2,1,1567506386,47,"history"
+?/ET_EXEC
+|2,1,1567418205,47,"ET_EXEC"
+?/ELF64CLASS
+|2,1,1567405260,47,"ELF64CLASS"
+?/ELF_CLASS
+|2,1,1567405243,47,"ELF_CLASS"
+?/ELF64_CLASS
+|2,1,1567405229,47,"ELF64_CLASS"
+?/EI_MAG0
+|2,1,1567335191,47,"EI_MAG0"
+? \<EI_NIDENT\>
+|2,1,1567318078,,"\\<EI_NIDENT\\>"
+? \<Elf64_Ehdr\>
+|2,1,1567318038,,"\\<Elf64_Ehdr\\>"
+?/Elf64_Ehdr
+|2,1,1567318027,47,"Elf64_Ehdr"
+?/OSABI
+|2,1,1567317350,47,"OSABI"
+? \<EV_CURRENT\>
+|2,1,1567317243,,"\\<EV_CURRENT\\>"
+?/EV_CURRENT
+|2,1,1567317233,47,"EV_CURRENT"
+?/ELFCLASS
+|2,1,1567316966,47,"ELFCLASS"
+?/Elf64_Shdr
+|2,1,1567316073,47,"Elf64_Shdr"
+? 1
+|2,1,1567292723,,"1"
+?/Elf64_Rela
+|2,1,1567230825,47,"Elf64_Rela"
+? \<Rela\>
+|2,1,1567230813,,"\\<Rela\\>"
+?/Rela
+|2,1,1567230806,47,"Rela"
+?/Phdr
+|2,1,1567230346,47,"Phdr"
+? const
+|2,1,1567228063,,"const"
+? \<pi\>
+|2,1,1567228025,,"\\<pi\\>"
+?/pi
+|2,1,1567228021,47,"pi"
+?/const
+|2,1,1567227994,47,"const"
+?/constrain
+|2,1,1567227991,47,"constrain"
+?/math
+|2,1,1567227973,47,"math"
+?/archive
+|2,1,1567221754,47,"archive"
+? 	
+|2,1,1567220932,,"	"
 ?/main
-|2,1,1564669527,47,"main"
+|2,1,1567220237,47,"main"
+? \<include\>
+|2,1,1567220152,,"\\<include\\>"
+?/struct
+|2,1,1567165549,47,"struct"
+?/type
+|2,1,1567165514,47,"type"
+?/R_SYM
+|2,1,1567148171,47,"R_SYM"
+?/SHT_RELA
+|2,1,1567147715,47,"SHT_RELA"
+?/shnum
+|2,1,1567147336,47,"shnum"
+?/SHT_SYMTAB
+|2,1,1567146318,47,"SHT_SYMTAB"
+?/NOBITS
+|2,1,1567145259,47,"NOBITS"
+? \<Elf32_Ehdr\>
+|2,1,1567144222,,"\\<Elf32_Ehdr\\>"
+?/Ehdr
+|2,1,1567144218,47,"Ehdr"
+?/e_phnum
+|2,1,1567144190,47,"e_phnum"
+?/DATA
+|2,1,1567142695,47,"DATA"
+?/ELF_DATA
+|2,1,1567142690,47,"ELF_DATA"
+?/EI_CLASS
+|2,1,1567142545,47,"EI_CLASS"
+?/CLASS
+|2,1,1567142272,47,"CLASS"
+?/e_ident
+|2,1,1567142119,47,"e_ident"
+? \<sym\>
+|2,1,1567149727,,"\\<sym\\>"
+?/Elf64_sym
+|2,1,1567149284,47,"Elf64_sym"
+?/e_shentsize
+|2,1,1567149240,47,"e_shentsize"
+?/eshoff
+|2,1,1567149201,47,"eshoff"
+?/offser
+|2,1,1567149142,47,"offser"
+?/sie
+|2,1,1567149067,47,"sie"
 
 # 式 項目の履歴 (新しいものから古いものへ):
 
@@ -231,998 +231,1106 @@ $return 0
 
 # レジスタ:
 "0	CHAR	0
-	
-	[[plugins]]
-	repo = 'tpope/vim-markdown'
-	on_ft = 'markdown'
-	hook_add = '''
-	let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
-	let g:markdown_minlines = 100
-	'''
-	
-	[[plugins]]
-	repo = 'previm/previm'
-	on_ft = 'markdown'
-	hook_add = "let g:previm_open_cmd = 'firefox'"
+	using REPL
+	using REPL.TerminalMenus
 	
 	
-|3,0,0,0,15,0,1565269654,"","[[plugins]]","repo = 'tpope/vim-markdown'","on_ft = 'markdown'","hook_add = '''","let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']","let g:markdown_minlines = 100","'''","","[[plugins]]","repo = 'previm/previm'","on_ft = 'markdown'","hook_add = \"let g:previm_open_cmd = 'firefox'\"","",""
-"1	LINE	0
-	(機能を削ろうか?)  
-|3,0,1,1,1,0,1565309915,"(機能を削ろうか?)  "
+	function customize_colors(repl)
+		repl.prompt_color = Base.text_colors[:cyan]
+	end
+	
+	
+	atreplinit(customize_colors)
+|3,0,0,0,10,0,1567498815,"using REPL","using REPL.TerminalMenus","","","function customize_colors(repl)","	repl.prompt_color = Base.text_colors[:cyan]","end","","","atreplinit(customize_colors)"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1567506472,""
 "2	LINE	0
-	* ↑ 依 存 関 係 が 多 す ぎ
-|3,0,2,1,1,0,1565309911,"* ↑ 依 存 関 係 が 多 す ぎ"
-"3	LINE	0
 	
-|3,0,3,1,1,0,1565269670,""
+|3,0,2,1,1,0,1567498871,""
+"3	CHAR	0
+	using REPL
+	using REPL.TerminalMenus
+	
+	
+	
+|3,0,3,0,5,0,1567498866,"using REPL","using REPL.TerminalMenus","","",""
 "4	LINE	0
-	compton &
-|3,0,4,1,1,0,1565262488,"compton &"
+		printf("%80x", ehdr->e_shoff);
+|3,0,4,1,1,0,1567420888,"	printf(\"%80x\", ehdr->e_shoff);"
 "5	LINE	0
-	    "name = 'Urxvt'",
-|3,0,5,1,1,0,1565262288,"    \"name = 'Urxvt'\","
+		printf("%d", ehdr->e_shoff);
+|3,0,5,1,1,0,1567420834,"	printf(\"%d\", ehdr->e_shoff);"
 "6	LINE	0
-	#compton
-|3,0,6,1,1,0,1565261808,"#compton"
+	
+|3,0,6,1,1,0,1567306606,""
 "7	LINE	0
-	exec --no-start-id compton 
-|3,0,7,1,1,0,1565261807,"exec --no-start-id compton "
+	
+|3,0,7,1,1,0,1567306575,""
 "8	LINE	0
-		helper = store
-|3,0,8,1,1,0,1565233980,"	helper = store"
+	 extern 
+|3,0,8,1,1,0,1567302913," extern "
 "9	LINE	0
-	[credential]
-|3,0,9,1,1,0,1565233980,"[credential]"
+		
+|3,0,9,1,1,0,1567292975,"	"
+"a	CHAR	0
+	yyp
+|3,0,10,0,1,0,1566725315,"yyp"
 "m	LINE	0
 	CFLAGS = -c -mh -O2 -I$(INCDIR)
 	AFLAGS = -c -mh
 |3,0,22,1,2,0,1558153443,"CFLAGS = -c -mh -O2 -I$(INCDIR)","AFLAGS = -c -mh"
-""-	CHAR	0
-	8
-|3,1,36,0,1,0,1565480996,"8"
+"-	CHAR	0
+	urxvt
+|3,0,36,0,1,0,1567499321,"urxvt"
 
 # ファイルマーク:
-'0  89  20  ~/.config/dunst/dunstrc
-|4,48,89,20,1565481248,"~/.config/dunst/dunstrc"
-'1  414  12  ~/.config/dunst/dunstrc
-|4,49,414,12,1565481079,"~/.config/dunst/dunstrc"
-'2  414  12  ~/.config/dunst/dunstrc
-|4,50,414,12,1565481079,"~/.config/dunst/dunstrc"
-'3  190  58  ~/.config/i3/config
-|4,51,190,58,1565421075,"~/.config/i3/config"
-'4  190  60  ~/.config/i3/config
-|4,52,190,60,1565421032,"~/.config/i3/config"
-'5  190  8  ~/.config/i3/config
-|4,53,190,8,1565420818,"~/.config/i3/config"
-'6  190  8  ~/.config/i3/config
-|4,54,190,8,1565420818,"~/.config/i3/config"
-'7  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,55,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
-'8  1  0  ~/memo/test.md
-|4,56,1,0,1565384761,"~/memo/test.md"
-'9  1  0  ~/testmd
-|4,57,1,0,1565384743,"~/testmd"
+'0  63  31  ~/.tmux.conf
+|4,48,63,31,1567506503,"~/.tmux.conf"
+'1  1  3  ~/Scripts/linker_and_loader/elf_julia/.gitignore
+|4,49,1,3,1567506137,"~/Scripts/linker_and_loader/elf_julia/.gitignore"
+'2  1  0  ~/.config/nvim/plugin_config/lsp.jl
+|4,50,1,0,1567505819,"~/.config/nvim/plugin_config/lsp.jl"
+'3  1  0  ~/.config/nvim/plugin_config/LanguageClient-neovim.vim
+|4,51,1,0,1567505715,"~/.config/nvim/plugin_config/LanguageClient-neovim.vim"
+'4  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,52,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+'5  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,53,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+'6  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,54,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+'7  1  0  ~/anaconda3/bin/bundle_image
+|4,55,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+'8  192  13  ~/.config/i3/config
+|4,56,192,13,1567499677,"~/.config/i3/config"
+'9  34  17  ~/.bashrc
+|4,57,34,17,1567499324,"~/.bashrc"
 
 # ジャンプリスト (新しいものが先):
--'  89  20  ~/.config/dunst/dunstrc
-|4,39,89,20,1565481248,"~/.config/dunst/dunstrc"
--'  47  15  ~/.config/dunst/dunstrc
-|4,39,47,15,1565481230,"~/.config/dunst/dunstrc"
--'  1  0  ~/.config/dunst/dunstrc
-|4,39,1,0,1565481227,"~/.config/dunst/dunstrc"
--'  414  12  ~/.config/dunst/dunstrc
-|4,39,414,12,1565481079,"~/.config/dunst/dunstrc"
--'  414  12  ~/.config/dunst/dunstrc
-|4,39,414,12,1565481079,"~/.config/dunst/dunstrc"
--'  89  0  ~/.config/dunst/dunstrc
-|4,39,89,0,1565480964,"~/.config/dunst/dunstrc"
--'  5  0  ~/NERD_tree_1
-|4,39,5,0,1565480916,"~/NERD_tree_1"
--'  5  0  ~/NERD_tree_1
-|4,39,5,0,1565480916,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1565480914,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1565480914,"~/NERD_tree_1"
--'  190  58  ~/.config/i3/config
-|4,39,190,58,1565421075,"~/.config/i3/config"
--'  190  58  ~/.config/i3/config
-|4,39,190,58,1565421075,"~/.config/i3/config"
--'  190  58  ~/.config/i3/config
-|4,39,190,58,1565421075,"~/.config/i3/config"
--'  190  58  ~/.config/i3/config
-|4,39,190,58,1565421075,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1565421058,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1565421058,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1565421058,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1565421058,"~/.config/i3/config"
--'  190  60  ~/.config/i3/config
-|4,39,190,60,1565421032,"~/.config/i3/config"
--'  190  60  ~/.config/i3/config
-|4,39,190,60,1565421032,"~/.config/i3/config"
--'  190  60  ~/.config/i3/config
-|4,39,190,60,1565421032,"~/.config/i3/config"
--'  190  60  ~/.config/i3/config
-|4,39,190,60,1565421032,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1565420977,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1565420977,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1565420977,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1565420977,"~/.config/i3/config"
--'  190  8  ~/.config/i3/config
-|4,39,190,8,1565420818,"~/.config/i3/config"
--'  190  8  ~/.config/i3/config
-|4,39,190,8,1565420818,"~/.config/i3/config"
--'  190  8  ~/.config/i3/config
-|4,39,190,8,1565420818,"~/.config/i3/config"
--'  190  8  ~/.config/i3/config
-|4,39,190,8,1565420818,"~/.config/i3/config"
--'  53  25  ~/.config/i3/config
-|4,39,53,25,1565420813,"~/.config/i3/config"
--'  53  25  ~/.config/i3/config
-|4,39,53,25,1565420813,"~/.config/i3/config"
--'  53  25  ~/.config/i3/config
-|4,39,53,25,1565420813,"~/.config/i3/config"
--'  53  25  ~/.config/i3/config
-|4,39,53,25,1565420813,"~/.config/i3/config"
--'  53  25  ~/.config/i3/config
-|4,39,53,25,1565420813,"~/.config/i3/config"
--'  53  25  ~/.config/i3/config
-|4,39,53,25,1565420813,"~/.config/i3/config"
--'  53  25  ~/.config/i3/config
-|4,39,53,25,1565420813,"~/.config/i3/config"
--'  53  25  ~/.config/i3/config
-|4,39,53,25,1565420813,"~/.config/i3/config"
--'  53  25  ~/.config/i3/config
-|4,39,53,25,1565420813,"~/.config/i3/config"
--'  53  25  ~/.config/i3/config
-|4,39,53,25,1565420813,"~/.config/i3/config"
--'  53  25  ~/.config/i3/config
-|4,39,53,25,1565420813,"~/.config/i3/config"
--'  53  25  ~/.config/i3/config
-|4,39,53,25,1565420813,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1565420807,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1565420807,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1565420807,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1565420807,"~/.config/i3/config"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  30  0  ~/Scripts/julia/stdlib/Makefile
-|4,39,30,0,1565385911,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
--'  33  49  ~/Scripts/julia/stdlib/Makefile
-|4,39,33,49,1565385881,"~/Scripts/julia/stdlib/Makefile"
+-'  63  31  ~/.tmux.conf
+|4,39,63,31,1567506503,"~/.tmux.conf"
+-'  61  4  ~/.tmux.conf
+|4,39,61,4,1567506438,"~/.tmux.conf"
+-'  20  0  ~/.tmux.conf
+|4,39,20,0,1567506402,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1567506306,"~/.tmux.conf"
+-'  1  3  ~/Scripts/linker_and_loader/elf_julia/.gitignore
+|4,39,1,3,1567506137,"~/Scripts/linker_and_loader/elf_julia/.gitignore"
+-'  1  3  ~/Scripts/linker_and_loader/elf_julia/.gitignore
+|4,39,1,3,1567506137,"~/Scripts/linker_and_loader/elf_julia/.gitignore"
+-'  1  0  ~/.config/nvim/plugin_config/lsp.jl
+|4,39,1,0,1567505819,"~/.config/nvim/plugin_config/lsp.jl"
+-'  1  0  ~/.config/nvim/plugin_config/lsp.jl
+|4,39,1,0,1567505819,"~/.config/nvim/plugin_config/lsp.jl"
+-'  1  0  ~/.config/nvim/plugin_config/lsp.jl
+|4,39,1,0,1567505819,"~/.config/nvim/plugin_config/lsp.jl"
+-'  1  0  ~/.config/nvim/plugin_config/lsp.jl
+|4,39,1,0,1567505819,"~/.config/nvim/plugin_config/lsp.jl"
+-'  1  0  ~/.config/nvim/plugin_config/LanguageClient-neovim.vim
+|4,39,1,0,1567505715,"~/.config/nvim/plugin_config/LanguageClient-neovim.vim"
+-'  1  0  ~/.config/nvim/plugin_config/LanguageClient-neovim.vim
+|4,39,1,0,1567505715,"~/.config/nvim/plugin_config/LanguageClient-neovim.vim"
+-'  1  0  ~/.config/nvim/plugin_config/LanguageClient-neovim.vim
+|4,39,1,0,1567505715,"~/.config/nvim/plugin_config/LanguageClient-neovim.vim"
+-'  1  0  ~/.config/nvim/plugin_config/LanguageClient-neovim.vim
+|4,39,1,0,1567505715,"~/.config/nvim/plugin_config/LanguageClient-neovim.vim"
+-'  1  0  ~/.config/nvim/plugin_config/LanguageClient-neovim.vim
+|4,39,1,0,1567505715,"~/.config/nvim/plugin_config/LanguageClient-neovim.vim"
+-'  1  0  ~/.config/nvim/plugin_config/LanguageClient-neovim.vim
+|4,39,1,0,1567505715,"~/.config/nvim/plugin_config/LanguageClient-neovim.vim"
+-'  1  0  ~/.config/nvim/plugin_config/LanguageClient-neovim.vim
+|4,39,1,0,1567505715,"~/.config/nvim/plugin_config/LanguageClient-neovim.vim"
+-'  1  0  ~/.config/nvim/plugin_config/LanguageClient-neovim.vim
+|4,39,1,0,1567505715,"~/.config/nvim/plugin_config/LanguageClient-neovim.vim"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  190  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,190,0,1567502483,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567502480,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/Scripts/linker_and_loader/elf_julia/elf.jl
+|4,39,1,0,1567501626,"~/Scripts/linker_and_loader/elf_julia/elf.jl"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
+-'  1  0  ~/anaconda3/bin/bundle_image
+|4,39,1,0,1567499970,"~/anaconda3/bin/bundle_image"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
 
-> ~/.config/dunst/dunstrc
-	*	1565481245	0
-	"	89	20
-	^	89	21
-	.	89	20
-	+	89	20
+> ~/.tmux.conf
+	*	1567506498	0
+	"	63	31
+	^	63	34
+	.	63	34
+	+	60	28
+	+	62	0
+	+	61	33
+	+	62	0
+	+	63	34
 
-> ~/NERD_tree_1
-	*	1565480916	0
-	"	5	0
-	.	1	0
-	+	1	0
-
-> ~/.config/i3/config
-	*	1565421072	0
-	"	190	58
-	^	190	59
-	.	190	58
-	+	189	11
-	+	190	33
-	+	191	0
-	+	190	58
-
-> ~/Scripts/julia/stdlib/Makefile
-	*	1565385882	0
-	"	30	0
-
-> ~/Scripts/julia/NERD_tree_1
-	*	1565385794	0
-	"	40	0
-	.	1	0
-	+	1	0
-
-> ~/memo/test.md
-	*	1565384758	0
-	"	1	0
-
-> ~/testmd
-	*	1565384741	0
-	"	1	0
-
-> ~/.config/nvim/tomls/dein_lazy.toml
-	*	1565382423	0
-	"	28	56
-	^	28	57
-	.	28	56
-	+	28	56
-
-> ~/Scripts/julia-unikernel.md
-	*	1565382355	0
-	"	1	0
-	^	35	28
-	.	36	0
-	+	9	101
-	+	9	102
-	+	26	1
-	+	31	0
-	+	37	0
-	+	36	0
-
-> ~/.config/nvim/tomls/dein.toml
-	*	1565382302	0
-	"	53	0
-	^	57	7
-	.	57	6
-	+	6	0
-	+	57	6
-
-> ~/Scripts/ToDo
-	*	1565382230	0
-	"	1	0
-	^	1	0
-
-> ~/Scripts/about_solo5/solo5_memo.md
-	*	1565269763	0
-	"	1	0
-
-> ~/NERD_tree_2
-	*	1565269761	0
-	"	13	0
-	.	1	0
-	+	1	0
-
-> ~/Scripts/about_solo5/solo5_fosdem19.pdf
-	*	1565269752	0
-	"	1	0
-
-> ~/.vim/vim.toml
-	*	1565269671	0
-	"	36	0
-	.	36	0
-	+	22	0
-	+	23	0
-	+	25	17
-	+	25	0
-	+	36	0
-
-> ~/.Xresources
-	*	1565267474	0
-	"	4	19
-	^	4	20
-	.	4	0
-	+	4	22
-	+	8	0
-	+	4	40
-	+	7	20
-	+	4	42
-	+	4	22
-	+	4	44
-	+	4	0
-	+	4	22
-	+	4	46
-	+	4	22
-	+	8	0
-	+	4	22
-	+	4	12
-	+	4	41
-	+	4	22
-	+	4	0
-	+	4	40
-	+	4	0
-	+	4	22
-	+	4	0
-	+	4	22
-	+	4	40
-	+	4	22
-	+	4	40
-	+	16	36
-	+	4	19
-	+	4	22
-	+	4	21
-	+	9	27
-	+	4	0
-	+	4	22
-	+	4	0
-	+	2	27
-	+	16	38
-	+	7	35
-	+	4	37
-	+	7	48
-	+	11	0
-	+	16	38
-	+	16	14
-	+	2	41
-	+	16	14
-	+	16	39
-	+	16	38
-	+	16	14
-	+	16	35
-	+	15	16
-	+	16	33
-	+	15	15
-	+	16	32
-	+	16	0
-	+	17	0
-	+	18	0
-	+	16	0
-	+	17	0
-	+	18	0
-	+	15	16
-	+	16	0
-	+	4	26
-	+	2	1
-	+	3	28
-	+	2	0
-	+	3	1
-	+	15	15
-	+	2	41
-	+	4	20
-	+	2	0
-	+	4	0
-	+	3	0
-	+	2	0
-	+	3	0
-	+	2	0
-	+	3	0
-	+	4	0
-	+	3	45
-	+	16	0
-	+	19	0
-	+	4	22
-	+	3	24
-	+	4	22
-	+	3	84
-	+	4	0
-	+	3	0
-	+	4	20
-	+	4	0
-	+	3	0
-	+	4	24
-	+	3	23
-	+	4	25
-	+	3	25
-	+	15	15
-	+	3	0
-	+	4	0
-	+	3	40
-	+	2	64
-	+	3	32
-	+	22	26
-	+	3	108
-	+	4	0
-
-> ~/.vimrc
-	*	1565267362	0
-	"	75	0
-	^	75	1
-	.	75	0
-	+	75	0
-	+	76	0
-	+	42	0
-	+	35	0
-	+	36	3
-	+	40	0
-	+	39	0
-	+	38	0
-	+	37	0
-	+	53	0
-	+	75	0
-
-> ~/.bashrc
-	*	1565264470	0
-	"	37	0
-	^	34	21
-	.	34	20
-	+	27	0
-	+	31	37
-	+	33	0
-	+	38	0
-	+	10	16
-	+	17	0
-	+	34	20
-	+	24	0
-	+	25	0
-	+	26	1
-	+	28	0
-	+	24	0
-	+	38	0
-	+	36	0
-	+	24	0
-	+	25	0
-	+	26	0
-	+	24	0
-	+	23	0
-	+	19	0
-	+	56	0
-	+	55	21
-	+	15	27
-	+	24	0
-	+	34	20
-
-> ~/st/config.h
-	*	1565262575	0
-	"	8	29
-	^	8	30
-	.	8	29
-	+	8	29
-
-> ~/.xinitrc
-	*	1565262490	0
-	"	56	0
-	^	56	21
-	.	56	0
-	+	57	0
-	+	56	18
-	+	56	8
-	+	56	0
-
-> ~/.compton.conf
-	*	1565262319	0
-	"	108	20
-	^	108	21
-	.	108	20
-	+	173	0
-	+	108	19
-	+	107	22
-	+	1	0
-	+	108	19
-	+	107	21
-	+	78	0
-	+	107	22
-	+	108	20
-
-> ~/.Xresouce
-	*	1565260603	0
-	"	1	0
-
-> ~/Scripts/solo5/tenders/hvt/hvt.h
-	*	1565236630	0
-	"	123	0
-
-> ~/Scripts/NERD_tree_1
-	*	1565236565	0
-	"	14	0
-	.	1	0
-	+	1	0
-
-> ~/.config/tomls
-	*	1565236107	0
-	"	1	0
-
-> ~/.cache/dein/repos/github.com/tomasr/molokai/colors/molokai.vim
-	*	1565235736	0
-	"	124	6
-
-> ~/.ncmpcpp/config
-	*	1565235503	0
-	"	180	9
-
-> ~/.git/config
-	*	1565234103	0
-	"	7	23
-	^	7	24
-	.	7	23
-	+	7	23
-
-> ~/.gitconfig
-	*	1565233982	0
-	"	5	1
-	^	5	18
-	.	6	0
-	+	5	17
-	+	6	0
-
-> ~/.bashr
-	*	1565233092	0
-	"	1	0
-
-> ~/.gitignore
-	*	1565232306	0
-	"	16	18
-	^	16	19
-	.	16	18
-	+	1	14
-	+	3	6
-	+	4	12
-	+	10	2
-	+	1	1
-	+	14	0
-	+	14	13
-	+	15	13
-	+	16	18
-
-> ~/.config/.gitignore
-	*	1565232123	0
-	"	1	0
-
-> ~/julia
-	*	1565231777	0
-	"	1	0
-
-> /etc/pacman.d/mirrorlist
-	*	1565199107	0
-	"	7	0
-	.	7	0
-	+	92	0
-	+	91	0
-	+	7	0
-
-> /etc/mirrorlist
-	*	1565199088	0
-	"	1	0
-
-> ~/test.ll
-	*	1565198982	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-
-> ~/test.c
-	*	1565198836	0
-	"	5	0
-	^	5	1
-	.	5	0
-	+	1	0
-	+	1	19
-	+	1	20
-	+	1	48
-	+	1	0
-	+	1	21
-	+	1	0
-	+	1	6
-	+	1	21
-	+	1	18
-	+	5	0
-
-> ~/.julia/packages/LLVM/1ObI9/src/NERD_tree_1
-	*	1565196368	0
-	"	7	0
-	.	1	0
-	+	1	0
-
-> ~/.julia/packages/LLVM/1ObI9/src/interop/asmcall.jl
-	*	1565196368	0
-	"	1	0
-
-> ~/.config/nvim/plugin_config/NERD_tree_1
-	*	1565146103	0
-	"	9	0
-	.	1	0
-	+	1	0
-
-> ~/.config/nvim/plugin_config/LanguageClient-neovim.vim
-	*	1565146091	0
-	"	38	4
-	^	30	1
-	.	38	0
-	+	32	0
-	+	40	0
-	+	7	83
-	+	40	0
-	+	9	0
-	+	8	0
-	+	7	122
-	+	7	125
-	+	30	0
-	+	31	0
-	+	30	0
-	+	31	0
-	+	30	0
-	+	38	0
-
-> ~/.cache/dein/repos/github.com/autozimu/LanguageClient-neovim_next/README.md
-	*	1565144338	0
-	"	93	0
-
-> ~/[unite] - default
-	*	1565143742	0
-	"	8	0
-	.	2	0
-	+	2	0
-
-> ~/test.jl
-	*	1565143572	0
-	"	1	0
-	^	11	17
-	.	11	16
-	+	45	54
-	+	9	42
-	+	11	18
-	+	44	0
-	+	45	0
-	+	44	0
-	+	11	16
-
-> ~/test.sh
-	*	1565143557	0
-	"	1	0
+> ~/Scripts/linker_and_loader/elf_julia/.gitignore
+	*	1567506132	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
 
 > ~/.config/nvim/plugin_config/lsp.jl
-	*	1565142977	0
+	*	1567505718	0
 	"	1	0
 
-> /tmp/bash-fc.MEj47s
-	*	1565142899	0
-	"	1	0
-	^	1	0
-
-> ~/.config/nvim/plugin_config/lsp.sh
-	*	1565142876	0
+> ~/.config/nvim/plugin_config/LanguageClient-neovim.vim
+	*	1567505710	0
 	"	1	0
 
-> ~/Scripts/buildrump.sh/obj/Makefile.third
-	*	1565032825	0
+> ~/Scripts/linker_and_loader/elf_julia/elf.jl
+	*	1567502482	0
+	"	190	0
+
+> ~/anaconda3/bin/bundle_image
+	*	1567499968	0
 	"	1	0
 
-> ~/vm/ubuntu/Vagrantfile
-	*	1565014769	0
-	"	58	15
-	^	58	16
-	.	58	15
-	+	60	0
-	+	57	21
-	+	58	15
+> ~/.config/i3/config
+	*	1567499676	0
+	"	192	13
+	^	192	32
+	.	192	0
+	+	191	33
+	+	192	0
 
-> /etc/solv.conf
-	*	1564987858	0
-	"	1	0
+> ~/.bashrc
+	*	1567499323	0
+	"	34	17
+	^	34	18
+	.	34	17
+	+	34	17
 
-> ~/Scripts/rumprun/obj-amd64-hw/buildrump.sh/Makefile.all
-	*	1564955718	0
-	"	2	0
-
-> ~/Scripts/julia/NERD_tree_2
-	*	1564766123	0
-	"	18	15
-	.	1	0
-	+	1	0
-
-> ~/Scripts/julia/src/support/arraylist.h
-	*	1564766090	0
-	"	1	0
-
-> ~/Scripts/julia/src/abi_x86_64.cpp
-	*	1564766064	0
-	"	152	12
-
-> ~/Scripts/julia/src/ccall.cpp
-	*	1564766028	0
-	"	69	4
-
-> ~/Scripts/julia/src/julia-parser.scm
-	*	1564765989	0
-	"	1	0
-
-> ~/Scripts/julia/src/typemap.c
-	*	1564765916	0
-	"	1061	0
-
-> ~/Scripts/julia/src/precompile.c
-	*	1564765851	0
-	"	305	12
-
-> ~/Scripts/julia/stdlib/Pkg.version
-	*	1564765680	0
-	"	1	0
-
-> ~/Scripts/julia/stdlib/Base64/src/Base64.jl
-	*	1564765637	0
-	"	49	0
-
-> ~/Scripts/julia/CONTRIBUTING.md
-	*	1564765601	0
-	"	1	0
-
-> ~/Scripts/julia/sysimage.mk
-	*	1564765581	0
-	"	1	0
-	.	1	0
-	+	78	0
-	+	1	55
-	+	1	0
-
-> ~/Scripts/julia/src/flisp/aliases.scm
-	*	1564765391	0
-	"	14	0
-
-> ~/Scripts/julia/src/support/dtypes.h
-	*	1564765368	0
-	"	327	13
-
-> ~/Scripts/julia/src/sys.c
-	*	1564765315	0
-	"	248	0
-
-> ~/Scripts/julia/src/datatype.c
-	*	1564765141	0
-	"	84	3
-
-> ~/Scripts/julia/src/jltypes.c
-	*	1564765071	0
-	"	1075	0
-
-> ~/Scripts/julia/base/dict.jl
-	*	1564764938	0
-	"	1	0
-
-> ~/Scripts/julia/base/Base.jl
-	*	1564764721	0
-	"	183	9
-
-> ~/Scripts/julia/base/ctypes.jl
-	*	1564764666	0
-	"	1	0
-
-> ~/LinkList.jl
-	*	1564760338	0
+> ~/.julia/config/startup.jl
+	*	1567498882	0
 	"	5	0
+	^	5	0
+	.	5	0
+	+	6	0
+	+	7	0
+	+	1	0
+	+	3	0
+	+	5	0
 
-> ~/Scripts/hello_world
-	*	1564757267	0
+> /mnt/home/sinai/Scripts/NERD_tree_1
+	*	1567498848	0
+	"	23	0
+	.	1	0
+	+	1	0
+
+> /mnt/home/sinai/Scripts/startup.jl
+	*	1567498815	0
 	"	1	0
 
-> ~/Scripts/solo5/scripts/virtio-run/solo5-virtio-run.sh
-	*	1564754849	0
+> ~/Scripts/linker_and_loader/elf_julia/NERD_tree_1
+	*	1567497986	0
+	"	2	0
+	.	1	0
+	+	1	0
+
+> ~/Scripts/linker_and_loader/elf_julia/test.jl
+	*	1567497807	0
 	"	1	0
 
-> ~/Scripts/solo5/tests/test_net/NERD_tree_1
-	*	1564754848	0
+> ~/Scripts/linker_and_loader/readsec64.c
+	*	1567487346	0
+	"	38	45
+	^	38	46
+	.	38	45
+	+	36	0
+	+	39	0
+	+	38	45
+
+> ~/Scripts/linker_and_loader/elf_julia/test.c
+	*	1567485257	0
+	"	6	4
+	^	6	5
+	.	6	4
+	+	7	14
+	+	6	16
+	+	8	1
+	+	8	0
+	+	7	27
+	+	6	4
+
+> ~/.config/nvim/tomls/dein.toml
+	*	1567431230	0
+	"	64	27
+	^	64	28
+	.	64	27
+	+	64	27
+
+> .config/nvim/toml/dein.toml
+	*	1567431170	0
+	"	1	0
+
+> ~/.vimrc
+	*	1567431154	0
+	"	1	0
+	.	63	0
+	+	62	22
+	+	63	0
+
+> ~/Scripts/linker_and_loader/pointer
+	*	1567428362	0
+	"	909	0
+	.	1	0
+	+	1	0
+
+> ~/Scripts/linker_and_loader/readsec.c
+	*	1567426530	0
+	"	1	0
+
+> ~/Scripts/linker_and_loader/elf_julia/test
+	*	1567426498	0
+	"	1	0
+
+> ~/Scripts/linker_and_loader/elf_julia/elf.h
+	*	1567418342	0
+	"	165	16
+	.	69	0
+	+	76	0
+	+	69	0
+
+> ~/Scripts/linker_and_loader/elf.h
+	*	1567418170	0
+	"	1	0
+
+> ~/test.c
+	*	1567404295	0
 	"	7	0
-	.	1	0
-	+	1	0
-
-> ~/Scripts/solo5/tests/scripts
-	*	1564754836	0
-	"	1	0
-
-> /tmp/bash-fc.9UvfgQ
-	*	1564754823	0
-	"	1	0
-	^	1	1
-	.	1	0
-	+	1	0
+	^	7	1
+	.	7	0
+	+	6	22
+	+	5	11
+	+	6	21
+	+	7	0
 
 > /etc/resolv.conf
-	*	1564753636	0
+	*	1567381073	0
 	"	1	0
-	.	2	0
-	+	3	0
-	+	2	0
 
-> /etc/NetworkManager/NetworkManager.conf
-	*	1564752101	0
+> ~/Scripts/linker_and_loader/elfdump64.c
+	*	1567335041	0
+	"	11	0
+
+> ~/Documents/memo/REPT.md
+	*	1567309519	0
+	"	22	0
+	^	22	1
+	.	22	1
+	+	1	22
+	+	2	3
+	+	5	50
+	+	9	3
+	+	8	48
+	+	9	45
+	+	6	47
+	+	11	83
+	+	15	28
+	+	19	2
+	+	18	42
+	+	22	1
+
+> ~/Documents/memo/eval_of_julia_code.md
+	*	1567309090	0
+	"	1	1
+	^	62	0
+	.	62	0
+	+	20	59
+	+	54	68
+	+	55	94
+	+	61	44
+	+	60	64
+	+	62	0
+
+> ~/Scripts/linker_and_loader/initialize.c
+	*	1567307063	0
 	"	3	0
-	^	3	1
-	.	3	0
-	+	3	0
+	^	19	25
+	.	35	0
+	+	10	20
+	+	16	11
+	+	19	26
+	+	30	90
+	+	32	67
+	+	34	0
+	+	33	0
+	+	34	1
+	+	35	17
+	+	36	0
+	+	38	9
+	+	39	0
+	+	27	7
+	+	19	25
+	+	22	0
+	+	35	0
 
-> /etc/NERD_tree_1
-	*	1564751558	0
+> ~/Scripts/linker_and_loader/edata.c
+	*	1567304553	0
+	"	1	0
+	^	9	63
+	.	9	62
+	+	2	0
+	+	9	61
+	+	10	43
+	+	11	39
+	+	13	0
+	+	12	8
+	+	9	62
+
+> ~/Scripts/linker_and_loader/layer.c
+	*	1567301291	0
+	"	9	0
+	^	9	12
+	.	9	0
+	+	11	20
+	+	9	8
+	+	13	0
+	+	9	11
+	+	1	0
+	+	9	0
+
+> ~/Scripts/linker_and_loader/layer
+	*	1567301216	0
+	"	1	0
+
+> ~/Scripts/linker_and_loader/layer2.c
+	*	1567301208	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Scripts/linker_and_loader/layer_sub2.c
+	*	1567298371	0
+	"	6	0
+	^	6	1
+	.	6	0
+	+	6	0
+
+> ~/Scripts/linker_and_loader/layer_sub1.c
+	*	1567298306	0
+	"	13	0
+	^	13	1
+	.	13	0
+	+	13	0
+
+> ~/Scripts/linker_and_loader/const_b.c
+	*	1567296973	0
+	"	9	0
+	^	9	1
+	.	9	0
+	+	9	0
+
+> ~/Scripts/linker_and_loader/const_sub.c
+	*	1567295567	0
+	"	1	15
+	^	1	16
+	.	1	15
+	+	1	15
+
+> ~/Scripts/linker_and_loader/const.c
+	*	1567295519	0
+	"	10	0
+	^	10	1
+	.	10	0
+	+	9	1
+	+	8	1
+	+	7	6
+	+	9	9
+	+	10	0
+
+> ~/Scripts/linker_and_loader/pointer.c
+	*	1567293029	0
+	"	13	25
+	^	14	9
+	.	13	25
+	+	10	20
+	+	8	19
+	+	10	0
+	+	11	0
+	+	8	1
+	+	10	0
+	+	11	0
+	+	10	41
+	+	9	45
+	+	11	45
+	+	15	0
+	+	10	9
+	+	1	14
+	+	12	41
+	+	13	1
+	+	13	37
+	+	14	9
+	+	15	0
+	+	12	25
+	+	13	25
+
+> ~/Scripts/linker_and_loader/ardump.c
+	*	1567245761	0
+	"	1	0
+
+> ~/Scripts/linker_and_loader/NERD_tree_1
+	*	1567245759	0
+	"	4	2
+	.	1	0
+	+	1	0
+
+> ~/Scripts/julia/base/mathconstants.jl
+	*	1567228126	0
+	"	42	0
+	^	11	15
+	.	12	0
+	+	12	0
+
+> ~/Scripts/NERD_tree_1
+	*	1567227995	0
+	"	82	9
+	.	1	0
+	+	1	0
+
+> ~/Scripts/linker_and_loader/example1/samp2.c
+	*	1567224287	0
+	"	2	0
+	^	2	0
+	.	1	14
+	+	4	15
+	+	5	1
+	+	8	0
+	+	6	9
+	+	1	14
+
+> ~/Scripts/linker_and_loader/example1/samp4.c
+	*	1567223517	0
+	"	2	15
+	^	2	16
+	.	2	15
+	+	2	15
+
+> ~/Scripts/linker_and_loader/example1/samp3.c
+	*	1567223476	0
+	"	9	0
+	^	9	0
+	.	8	16
+	+	8	16
+
+> ~/Scripts/linker_and_loader/example1/samp1.c
+	*	1567223337	0
+	"	8	19
+	^	8	20
+	.	8	20
+	+	8	20
+
+> ~/Scripts/linker_and_loader/example1/main.c
+	*	1567223210	0
+	"	7	0
+	^	7	1
+	.	7	0
+	+	7	0
+
+> ~/Scripts/elfdump64.c
+	*	1567222734	0
+	"	2	0
+	^	87	18
+	.	87	17
+	+	112	1
+	+	113	0
+	+	100	0
+	+	103	0
+	+	109	0
+	+	19	4
+	+	18	5
+	+	28	22
+	+	34	84
+	+	35	13
+	+	36	2
+	+	98	0
+	+	38	45
+	+	98	0
+	+	37	0
+	+	39	85
+	+	40	13
+	+	98	0
+	+	43	85
+	+	45	22
+	+	46	1
+	+	49	1
+	+	49	32
+	+	51	0
+	+	61	74
+	+	97	0
+	+	89	94
+	+	95	12
+	+	96	0
+	+	107	14
+	+	43	67
+	+	48	43
+	+	59	54
+	+	62	37
+	+	70	39
+	+	43	56
+	+	74	17
+	+	77	17
+	+	76	20
+	+	91	0
+	+	43	58
+	+	73	49
+	+	91	26
+	+	100	7
+	+	48	43
+	+	2	15
+	+	58	69
+	+	1	0
+	+	78	42
+	+	87	17
+
+> ~/Scripts/ardump.c
+	*	1567221948	0
+	"	121	28
+	^	118	29
+	.	118	28
+	+	1	0
+	+	99	0
+	+	100	0
+	+	99	0
+	+	135	49
+	+	104	264
+	+	104	263
+	+	104	312
+	+	116	0
+	+	115	0
+	+	117	2
+	+	126	2
+	+	122	2
+	+	127	2
+	+	128	2
+	+	140	19
+	+	4	14
+	+	30	41
+	+	35	0
+	+	30	0
+	+	119	4
+	+	118	28
+
+> ~/Scripts/readname.c
+	*	1567220204	0
+	"	9	0
+	^	34	33
+	.	34	32
+	+	23	88
+	+	25	2
+	+	26	0
+	+	11	0
+	+	27	48
+	+	29	43
+	+	31	41
+	+	32	75
+	+	57	2
+	+	32	74
+	+	34	10
+	+	31	32
+	+	34	46
+	+	35	73
+	+	40	49
+	+	35	38
+	+	32	38
+	+	23	33
+	+	57	2
+	+	40	23
+	+	41	0
+	+	42	0
+	+	57	0
+	+	44	73
+	+	56	0
+	+	46	8
+	+	55	8
+	+	29	21
+	+	14	13
+	+	57	0
+	+	56	0
+	+	34	32
+
+> /usr/include/ar.h
+	*	1567211926	0
+	"	2	0
+
+> ~/.config/nvim/init.vim
+	*	1567170931	0
+	"	15	1
+	^	15	2
+	.	15	1
+	+	29	0
+	+	15	15
+	+	14	1
+	+	15	1
+
+> ~/NERD_tree_1
+	*	1567170873	0
+	"	11	0
+	.	1	0
+	+	1	0
+
+> ~/Scripts/julia/base/number.jl
+	*	1567165549	0
+	"	108	0
+
+> ~/Scripts/julia/base/array.jl
+	*	1567165501	0
+	"	229	0
+
+> ~/Scripts/julia/base/ctypes.jl
+	*	1567165451	0
+	"	115	0
+
+> ~/Scripts/elf.h
+	*	1567155023	0
+	"	100	0
+
+> /usr/include/features.h
+	*	1567154148	0
+	"	477	0
+
+> /usr/include/elf.h
+	*	1567153814	0
+	"	91	0
+	^	440	14
+	.	440	0
+	+	67	0
+	+	440	0
+
+> ~/Scripts/__Tagbar__.1
+	*	1567148714	0
+	"	7	4
+	.	8	0
+	+	8	0
+
+> ~/Scripts/readsec64.c
+	*	1567143607	0
+	"	39	0
+	^	40	71
+	.	40	70
+	+	31	12
+	+	14	0
+	+	13	0
+	+	14	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	9	36
+	+	10	36
+	+	11	36
+	+	12	36
+	+	32	76
+	+	36	48
+	+	45	11
+	+	47	9
+	+	48	1
+	+	41	68
+	+	39	30
+	+	40	70
+
+> ~/Scripts/elfsamp.c
+	*	1567140754	0
+	"	3	0
+
+> ~/Scripts/main.c
+	*	1567140746	0
+	"	1	0
+
+> ~/Scripts/readsec64.o
+	*	1567128879	0
+	"	1	7
+	^	1	8
+	.	1	8
+	+	1	8
+
+> ~/Scripts/readsec.c
+	*	1567126512	0
+	"	1	0
+
+> /usr/include/cursesw.h
+	*	1567125648	0
+	"	1	0
+
+> /usr/include/NERD_tree_1
+	*	1567125645	0
 	"	4	0
 	.	1	0
 	+	1	0
 
-> ~/Scripts/solo5/tests/run-tests.sh
-	*	1564750846	0
-	"	21	0
-
-> ~/Scripts/julia/NEWS.md
-	*	1564680366	0
-	"	82	0
-
-> ~/Scrips
-	*	1564676727	0
+> ~/Scripts/julia/base/initdefs.jl
+	*	1567070197	0
 	"	1	0
 
-> ~/__Tagbar__.1
-	*	1564673464	0
-	"	1	0
+> ~/Scripts/julia/base/NERD_tree_1
+	*	1567070195	0
+	"	64	3
+	.	1	0
+	+	1	0
 
-> /usr/share/vim/vim81/doc/starting.txt
-	*	1564673429	0
-	"	328	12
+> ~/Scripts/julia/src/interpreter.c
+	*	1567068705	0
+	"	172	25
+
+> ~/Scripts/julia/src/toplevel.c
+	*	1567067931	0
+	"	599	19
+
+> ~/Scripts/julia/src/jltypes.c
+	*	1567067928	0
+	"	72	0
+
+> ~/Documents/memo/NERD_tree_1
+	*	1567066625	0
+	"	4	0
+	.	1	0
+	+	1	0
 
 > ~/Scripts/julia/ui/repl.c
-	*	1564669792	0
-	"	179	16
-	.	35	0
-	+	35	0
+	*	1567062946	0
+	"	35	8
 
-> /usr/share/vim/vim81/doc/pattern.txt
-	*	1564669614	0
-	"	56	48
-
-> ~/Scripts/julia/src/flisp/compiler.lsp
-	*	1564669512	0
+> ~/Scripts/julia/base/client.jl
+	*	1567062400	0
 	"	1	0
 
-> ~/Downloads/julia-1.1.1.pdf
-	*	1564668313	0
+> ~/Scripts/julia/src/jloptions.c
+	*	1567060581	0
+	"	77	0
+
+> /usr/share/vim/vim81/doc/help.txt
+	*	1567060243	0
 	"	1	0
 
-> ~/Scripts/julia/src/julia.h
-	*	1564668277	0
-	"	1763	0
+> ~/Scripts/julia/__Tagbar__.1
+	*	1567060235	0
+	"	4	4
+	.	5	0
+	+	5	0
 
-> ~/Scripts/TechnologyClass/.git/COMMIT_EDITMSG
-	*	1564659294	0
+> ~/Scripts/julia/NERD_tree_1
+	*	1567060191	0
+	"	6	0
+	.	1	0
+	+	1	0
+
+> ~/julia-freestanding.md
+	*	1567058516	0
 	"	1	0
 
-> ~/.tmux.conf
-	*	1564224300	0
-	"	63	0
-	^	63	1
-	.	63	0
-	+	63	0
-	+	60	6
-	+	63	0
+> ~/Scripts/build_tools/src/build_gcc/config.log
+	*	1567057159	0
+	"	465	0
 
-> ~/Downloads/v_flower/Installation Disk Image/64-bit/Setup.ini
-	*	1564221617	0
+> ~/Scripts/build_tools/src/build_gcc/config.loc
+	*	1567057110	0
 	"	1	0
 
-> ~/.bash_history
-	*	1564219112	0
-	"	463	0
+> ~/Scripts/build_tools/src/build_gcc/stamp-host
+	*	1567056976	0
+	"	1	0
 
-> /tmp/bash-fc.xmRnLB
-	*	1564219066	0
-	"	1	2
-	^	1	3
-	.	1	2
-	+	1	2
-
-> ~/.local/share/applications/wine/Programs/VOCALOID4.5 Editor for Cubase/License Manager.desktop
-	*	1564215499	0
-	"	2	0
-
-> ~/.config/powerline/themes/powerline.json
-	*	1564213395	0
-	"	44	33
+> ~/Scripts/test.c
+	*	1567056814	0
+	"	6	0
+	^	6	1
 	.	6	0
+	+	1	18
 	+	6	0
 
-> ~/ever
-	*	1564171308	0
-	"	1	40
-	^	1	41
-	.	1	40
-	+	1	40
+> ~/Scripts/testc
+	*	1567056770	0
+	"	1	0
+
+> ~/Scripts/julia/Make.user
+	*	1567056047	0
+	"	1	18
+	^	1	19
+	.	1	19
+	+	2	14
+	+	3	31
+	+	4	0
+	+	1	32
+	+	1	34
+	+	1	51
+	+	1	25
+	+	1	41
+	+	3	26
+	+	1	0
+	+	4	15
+	+	1	15
+	+	1	19
+
+> ~/Scripts/seccamp2019-nfs/udp_client.jl
+	*	1567012718	0
+	"	1	0
+	^	30	13
+	.	13	0
+	+	10	12
+	+	11	12
+	+	12	15
+	+	13	23
+	+	14	20
+	+	15	26
+	+	17	26
+	+	35	2
+	+	35	0
+	+	32	2
+	+	32	3
+	+	35	0
+	+	33	2
+	+	35	0
+	+	33	3
+	+	34	3
+	+	35	0
+	+	34	12
+	+	23	13
+	+	5	31
+	+	12	0
+	+	5	17
+	+	13	0
+	+	29	9
+	+	30	0
+	+	13	0
+
+> ~/Scripts/seccamp2019-nfs/test_nfs_client.jl
+	*	1567009839	0
+	"	1	0
+
+> ~/Documents/bigami/mei.txt
+	*	1567004433	0
+	"	20	0
+	^	1	9
+	.	1	6
+	+	39	7
+	+	30	6
+	+	1	6
+
+> ~/Documents/memo/unikernel_as_processes.md
+	*	1566994671	0
+	"	27	0
+	^	26	308
+	.	26	305
+	+	13	167
+	+	14	159
+	+	15	102
+	+	17	55
+	+	18	220
+	+	19	3
+	+	18	253
+	+	19	0
+	+	20	84
+	+	21	155
+	+	22	3
+	+	23	60
+	+	25	12
+	+	32	0
+	+	25	181
+	+	26	305
+
+> ~/Scripts/julia/src/ast.c
+	*	1566988140	0
+	"	399	4
+
+> ~/Scripts/julia/src/locks.h
+	*	1566988050	0
+	"	88	0
+
+> ~/Scripts/julia/src/jl_uv.c
+	*	1566987709	0
+	"	567	8
+
+> ~/Scripts/julia/src/support/asprintf.c
+	*	1566987706	0
+	"	57	0
+
+> ~/Scripts/julia/ui/__Tagbar__.1
+	*	1566987504	0
+	"	4	4
+	.	5	0
+	+	5	0
+
+> ~/Scripts/julia/deps/srccache/libunwind-1.1-julia2/include/compiler.h
+	*	1566987450	0
+	"	37	0
+
+> ~/Scripts/julia/src/init.c
+	*	1566987182	0
+	"	432	4
+
+> ~/Scripts/builddir/build-gcc/config.log
+	*	1566976295	0
+	"	811	0
+	^	35	0
 
 > ~/Music/get_bgms.sh
-	*	1564171262	0
-	"	1	0
-	^	1	39
-	.	1	38
-	+	1	38
-
-> ~/Music]
-	*	1564171250	0
-	"	1	0
+	*	1566964391	0
+	"	2	14
+	^	2	15
+	.	2	1
+	+	1	25
+	+	2	1
