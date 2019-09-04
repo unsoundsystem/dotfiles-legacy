@@ -3293,3 +3293,11 @@ Sep 03 17:28 : client: [0] opened from 127.0.0.1:60724
 Sep 03 17:28 : client: [0] closed
 Sep 03 17:36 : client: [1] opened from 127.0.0.1:60738
 Sep 03 17:36 : client: [1] closed
+Sep 03 22:26 : player: played "文単　英検二級１/22 - Unknown Artist - Track 22.wav"
+Sep 04 10:22 : zeroconf: No global port, disabling zeroconf
+Sep 04 10:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 04 10:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 04 13:18 : player: played "文単　英検二級１/22 - Unknown Artist - Track 22.wav"
+Sep 04 13:19 : zeroconf: No global port, disabling zeroconf
+Sep 04 13:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 04 13:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
