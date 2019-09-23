@@ -3301,6 +3301,7 @@ Sep 04 13:18 : player: played "文単　英検二級１/22 - Unknown Artist - Tr
 Sep 04 13:19 : zeroconf: No global port, disabling zeroconf
 Sep 04 13:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Sep 04 13:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+<<<<<<< HEAD
 Sep 04 15:59 : player: played "文単　英検二級１/22 - Unknown Artist - Track 22.wav"
 Sep 04 15:59 : zeroconf: No global port, disabling zeroconf
 Sep 04 15:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
@@ -4190,3 +4191,5 @@ Sep 23 09:59 : zeroconf: No global port, disabling zeroconf
 Sep 23 09:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Sep 23 10:01 : zeroconf: No global port, disabling zeroconf
 Sep 23 10:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+=======
+>>>>>>> bed1b4eca04042c753d7236b5c68fc166f759fda
