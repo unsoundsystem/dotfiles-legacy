@@ -1,0 +1,5 @@
+[deps]
+Genie = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+LLVM = "929cbde3-209d-540e-8aea-75f648917ca0"
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"

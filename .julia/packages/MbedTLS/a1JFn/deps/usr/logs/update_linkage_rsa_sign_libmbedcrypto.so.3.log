@@ -1,0 +1,1 @@
+`/usr/local/bin/patchelf --replace-needed libmbedcrypto.so.3 libmbedcrypto.so.3 bin/rsa_sign`

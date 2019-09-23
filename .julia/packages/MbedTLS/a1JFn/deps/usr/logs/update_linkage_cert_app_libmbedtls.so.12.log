@@ -1,0 +1,1 @@
+`/usr/local/bin/patchelf --replace-needed libmbedtls.so.12 libmbedtls.so.12 bin/cert_app`

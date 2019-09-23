@@ -1,0 +1,1 @@
+`/usr/local/bin/patchelf --set-rpath '$ORIGIN' lib/libmbedx509.so.2.6.1`

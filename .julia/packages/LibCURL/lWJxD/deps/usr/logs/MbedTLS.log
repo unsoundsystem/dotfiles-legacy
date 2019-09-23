@@ -1,0 +1,1145 @@
+`/bin/bash -c "alias ll='ls -la'
+
+vecho() {
+    if [[ \"true\" == \"true\" ]]; then
+        echo \"\$@\"
+    fi
+}
+vecho_red() {
+    (vecho \"\$@\" >&2)
+}
+
+# Save bash history (and optionally echo it out as it happens)
+save_history() {
+    vecho_red \" ---> \$BASH_COMMAND\"
+    history -s \"\$BASH_COMMAND\"
+    history -a
+}
+
+# Save our environment into \`/meta/.env\`, eliminating read-only variables
+# so that this file can be sourced upon entering a debug shell.
+save_env() {
+    set +x
+    set > /meta/.env
+    # Ignore read-only variables
+    for l in BASHOPTS BASH_VERSINFO UID EUID PPID SHELLOPTS; do
+        grep -v \"^\$l=\" /meta/.env > /meta/.env2
+        mv /meta/.env2 /meta/.env
+    done
+    echo \"cd \$(pwd)\" >> /meta/.env
+}
+
+# We do a little sleight-of-hand here; we want to build inside of a tmpfs
+# because \`srcdir\` might be mapped in through a networked filesystem, which
+# totally wrecks our I/O performance.  So what we do instead is bind-mount
+# \`srcdir\` to another location so that we can always get at it, copy its
+# contents to a new tmpfs we mount at the location of \`srcdir\`, then when
+# we exit on an error, we copy everything back over again
+tmpify_srcdir() {
+    vecho \"Copying srcdir to tmpfs...\"
+    mkdir -p \$WORKSPACE/.true_srcdir
+    mount --bind \$WORKSPACE/srcdir \$WORKSPACE/.true_srcdir
+    mount -t tmpfs tmpfs \$WORKSPACE/srcdir
+    rsync -rlptD \$WORKSPACE/.true_srcdir/ \$WORKSPACE/srcdir
+
+    # We may have changed what pwd() means out from underneath ourselves
+    cd \$(pwd)
+}
+
+# Copy our tmpfs version of \`srcdir\` back onto disk.
+save_srcdir() {
+    vecho_red \"Saving srcdir due to previous error...\"
+    rsync -rlptD \$WORKSPACE/srcdir/ \$WORKSPACE/.true_srcdir --delete
+}
+
+# If /meta is mounted, then we want to save history and environment
+if [[ -d /meta ]]; then
+    trap save_history DEBUG
+    trap \"save_env\" EXIT
+    trap \"save_env; save_srcdir\" INT TERM ERR
+fi
+
+# Stop if we hit any errors.
+set -e
+
+# Swap out srcdir from underneath our feet
+tmpify_srcdir
+
+cd \$WORKSPACE/srcdir/mbedtls
+mkdir -p \$prefix/lib
+cmake -DCMAKE_INSTALL_PREFIX=\$prefix -DCMAKE_TOOLCHAIN_FILE=/opt/\$target/\$target.toolchain -DUSE_SHARED_MBEDTLS_LIBRARY=On
+make -j\${nproc} && make install
+
+"`
+verbose sandbox enabled (running in unprivileged container mode)
+Parsed --rootfs as "/home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu"
+Parsed --cd as "/workspace/srcdir"
+Parsed --workspace as "/home/travis/build/JuliaWeb/MbedTLSBuilder/build/x86_64-linux-gnu/78mc4j2w" -> "/workspace"
+Parsed --workspace as "/home/travis/build/JuliaWeb/MbedTLSBuilder/build/x86_64-linux-gnu/78mc4j2w/metadir" -> "/meta"
+Parsed --map as "/home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/BaseCompilerShard-x86_64-linux-gnu.v2018.11.11.x86_64-linux-gnu" -> "/opt/x86_64-linux-gnu/BaseCompilerShard-2018.11.11"
+Parsed --map as "/home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/GCC-x86_64-linux-gnu.v4.8.5.x86_64-linux-gnu" -> "/opt/x86_64-linux-gnu/GCC-4.8.5"
+Parsed --map as "/home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/LLVM.v6.0.1-0.x86_64-linux-gnu" -> "/opt/x86_64-linux-gnu/LLVM-6.0.1-0"
+--> Creating overlay workdir at /proc
+--> Mounting overlay of /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu at /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu (modifications in /proc/upper/rootfs, workspace in /proc/work/rootfs)
+--> mapping /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/LLVM.v6.0.1-0.x86_64-linux-gnu to /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu/opt/x86_64-linux-gnu/LLVM-6.0.1-0
+--> mapping /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/GCC-x86_64-linux-gnu.v4.8.5.x86_64-linux-gnu to /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu/opt/x86_64-linux-gnu/GCC-4.8.5
+--> mapping /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/BaseCompilerShard-x86_64-linux-gnu.v2018.11.11.x86_64-linux-gnu to /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu/opt/x86_64-linux-gnu/BaseCompilerShard-2018.11.11
+--> Mounting overlay of /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu/opt/x86_64-linux-gnu/BaseCompilerShard-2018.11.11:/home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu/opt/x86_64-linux-gnu/GCC-4.8.5:/home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu/opt/x86_64-linux-gnu/LLVM-6.0.1-0 at /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu/opt/x86_64-linux-gnu (modifications in /proc/upper/x86_64-linux-gnu, workspace in /proc/work/x86_64-linux-gnu)
+--> Mounting procfs at /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu/proc
+--> Mounting /dev/null at /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu/dev/null
+--> Mounting /dev/tty at /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu/dev/tty
+--> Mounting /dev/urandom at /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu/dev/urandom
+--> workspacing /home/travis/build/JuliaWeb/MbedTLSBuilder/build/x86_64-linux-gnu/78mc4j2w/metadir to /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu/meta
+--> workspacing /home/travis/build/JuliaWeb/MbedTLSBuilder/build/x86_64-linux-gnu/78mc4j2w to /home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu/workspace
+--> Mounting procfs at /proc
+About to run `/bin/bash` `-c` `alias ll='ls -la'
+
+vecho() {
+    if [[ "true" == "true" ]]; then
+        echo "$@"
+    fi
+}
+vecho_red() {
+    (vecho "$@" >&2)
+}
+
+# Save bash history (and optionally echo it out as it happens)
+save_history() {
+    vecho_red " ---> $BASH_COMMAND"
+    history -s "$BASH_COMMAND"
+    history -a
+}
+
+# Save our environment into `/meta/.env`, eliminating read-only variables
+# so that this file can be sourced upon entering a debug shell.
+save_env() {
+    set +x
+    set > /meta/.env
+    # Ignore read-only variables
+    for l in BASHOPTS BASH_VERSINFO UID EUID PPID SHELLOPTS; do
+        grep -v "^$l=" /meta/.env > /meta/.env2
+        mv /meta/.env2 /meta/.env
+    done
+    echo "cd $(pwd)" >> /meta/.env
+}
+
+# We do a little sleight-of-hand here; we want to build inside of a tmpfs
+# because `srcdir` might be mapped in through a networked filesystem, which
+# totally wrecks our I/O performance.  So what we do instead is bind-mount
+# `srcdir` to another location so that we can always get at it, copy its
+# contents to a new tmpfs we mount at the location of `srcdir`, then when
+# we exit on an error, we copy everything back over again
+tmpify_srcdir() {
+    vecho "Copying srcdir to tmpfs..."
+    mkdir -p $WORKSPACE/.true_srcdir
+    mount --bind $WORKSPACE/srcdir $WORKSPACE/.true_srcdir
+    mount -t tmpfs tmpfs $WORKSPACE/srcdir
+    rsync -rlptD $WORKSPACE/.true_srcdir/ $WORKSPACE/srcdir
+
+    # We may have changed what pwd() means out from underneath ourselves
+    cd $(pwd)
+}
+
+# Copy our tmpfs version of `srcdir` back onto disk.
+save_srcdir() {
+    vecho_red "Saving srcdir due to previous error..."
+    rsync -rlptD $WORKSPACE/srcdir/ $WORKSPACE/.true_srcdir --delete
+}
+
+# If /meta is mounted, then we want to save history and environment
+if [[ -d /meta ]]; then
+    trap save_history DEBUG
+    trap "save_env" EXIT
+    trap "save_env; save_srcdir" INT TERM ERR
+fi
+
+# Stop if we hit any errors.
+set -e
+
+# Swap out srcdir from underneath our feet
+tmpify_srcdir
+
+cd $WORKSPACE/srcdir/mbedtls
+mkdir -p $prefix/lib
+cmake -DCMAKE_INSTALL_PREFIX=$prefix -DCMAKE_TOOLCHAIN_FILE=/opt/$target/$target.toolchain -DUSE_SHARED_MBEDTLS_LIBRARY=On
+make -j${nproc} && make install
+
+` 
+ ---> trap "save_env" EXIT
+ ---> trap "save_env; save_srcdir" INT TERM ERR
+ ---> set -e
+ ---> tmpify_srcdir
+Copying srcdir to tmpfs...
+ ---> cd $WORKSPACE/srcdir/mbedtls
+ ---> mkdir -p $prefix/lib
+ ---> cmake -DCMAKE_INSTALL_PREFIX=$prefix -DCMAKE_TOOLCHAIN_FILE=/opt/$target/$target.toolchain -DUSE_SHARED_MBEDTLS_LIBRARY=On
+-- The C compiler identification is GNU 4.8.5
+-- Check for working C compiler: /opt/x86_64-linux-gnu/bin/x86_64-linux-gnu-gcc
+-- Check for working C compiler: /opt/x86_64-linux-gnu/bin/x86_64-linux-gnu-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Perl: /usr/bin/perl (found version "5.26.2") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/srcdir/mbedtls
+ ---> make -j${nproc}
+Scanning dependencies of target mbedcrypto_static
+Scanning dependencies of target mbedcrypto
+[  0%] Building C object library/CMakeFiles/mbedcrypto_static.dir/aes.c.o
+[  0%] Building C object library/CMakeFiles/mbedcrypto.dir/aes.c.o
+[  0%] Building C object library/CMakeFiles/mbedcrypto_static.dir/aesni.c.o
+[  0%] Building C object library/CMakeFiles/mbedcrypto.dir/aesni.c.o
+[  0%] Building C object library/CMakeFiles/mbedcrypto_static.dir/arc4.c.o
+[  1%] Building C object library/CMakeFiles/mbedcrypto.dir/arc4.c.o
+[  2%] Building C object library/CMakeFiles/mbedcrypto.dir/asn1parse.c.o
+[  2%] Building C object library/CMakeFiles/mbedcrypto_static.dir/asn1parse.c.o
+[  2%] Building C object library/CMakeFiles/mbedcrypto_static.dir/asn1write.c.o
+[  2%] Building C object library/CMakeFiles/mbedcrypto.dir/asn1write.c.o
+[  2%] Building C object library/CMakeFiles/mbedcrypto_static.dir/base64.c.o
+[  2%] Building C object library/CMakeFiles/mbedcrypto.dir/base64.c.o
+[  3%] Building C object library/CMakeFiles/mbedcrypto_static.dir/bignum.c.o
+[  3%] Building C object library/CMakeFiles/mbedcrypto.dir/bignum.c.o
+[  4%] Building C object library/CMakeFiles/mbedcrypto_static.dir/blowfish.c.o
+[  4%] Building C object library/CMakeFiles/mbedcrypto.dir/blowfish.c.o
+[  4%] Building C object library/CMakeFiles/mbedcrypto_static.dir/camellia.c.o
+[  4%] Building C object library/CMakeFiles/mbedcrypto.dir/camellia.c.o
+[  4%] Building C object library/CMakeFiles/mbedcrypto.dir/ccm.c.o
+[  4%] Building C object library/CMakeFiles/mbedcrypto_static.dir/ccm.c.o
+[  4%] Building C object library/CMakeFiles/mbedcrypto.dir/cipher.c.o
+[  4%] Building C object library/CMakeFiles/mbedcrypto_static.dir/cipher.c.o
+[  5%] Building C object library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.o
+[  5%] Building C object library/CMakeFiles/mbedcrypto_static.dir/cipher_wrap.c.o
+[  5%] Building C object library/CMakeFiles/mbedcrypto.dir/cmac.c.o
+[  6%] Building C object library/CMakeFiles/mbedcrypto_static.dir/cmac.c.o
+[  6%] Building C object library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.o
+[  6%] Building C object library/CMakeFiles/mbedcrypto_static.dir/ctr_drbg.c.o
+[  6%] Building C object library/CMakeFiles/mbedcrypto.dir/des.c.o
+[  6%] Building C object library/CMakeFiles/mbedcrypto_static.dir/des.c.o
+[  6%] Building C object library/CMakeFiles/mbedcrypto_static.dir/dhm.c.o
+[  7%] Building C object library/CMakeFiles/mbedcrypto.dir/dhm.c.o
+[  8%] Building C object library/CMakeFiles/mbedcrypto_static.dir/ecdh.c.o
+[  8%] Building C object library/CMakeFiles/mbedcrypto.dir/ecdh.c.o
+[  8%] Building C object library/CMakeFiles/mbedcrypto.dir/ecdsa.c.o
+[  8%] Building C object library/CMakeFiles/mbedcrypto_static.dir/ecdsa.c.o
+[  8%] Building C object library/CMakeFiles/mbedcrypto_static.dir/ecjpake.c.o
+[  8%] Building C object library/CMakeFiles/mbedcrypto.dir/ecjpake.c.o
+[  9%] Building C object library/CMakeFiles/mbedcrypto.dir/ecp.c.o
+[  9%] Building C object library/CMakeFiles/mbedcrypto_static.dir/ecp.c.o
+[  9%] Building C object library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.o
+[ 10%] Building C object library/CMakeFiles/mbedcrypto_static.dir/ecp_curves.c.o
+[ 10%] Building C object library/CMakeFiles/mbedcrypto.dir/entropy.c.o
+[ 10%] Building C object library/CMakeFiles/mbedcrypto_static.dir/entropy.c.o
+[ 10%] Building C object library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.o
+[ 10%] Building C object library/CMakeFiles/mbedcrypto_static.dir/entropy_poll.c.o
+[ 11%] Building C object library/CMakeFiles/mbedcrypto_static.dir/error.c.o
+[ 11%] Building C object library/CMakeFiles/mbedcrypto.dir/error.c.o
+[ 11%] Building C object library/CMakeFiles/mbedcrypto.dir/gcm.c.o
+[ 12%] Building C object library/CMakeFiles/mbedcrypto_static.dir/gcm.c.o
+[ 12%] Building C object library/CMakeFiles/mbedcrypto.dir/havege.c.o
+[ 12%] Building C object library/CMakeFiles/mbedcrypto_static.dir/havege.c.o
+[ 12%] Building C object library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.o
+[ 12%] Building C object library/CMakeFiles/mbedcrypto_static.dir/hmac_drbg.c.o
+[ 12%] Building C object library/CMakeFiles/mbedcrypto.dir/md.c.o
+[ 12%] Building C object library/CMakeFiles/mbedcrypto_static.dir/md.c.o
+[ 13%] Building C object library/CMakeFiles/mbedcrypto.dir/md2.c.o
+[ 13%] Building C object library/CMakeFiles/mbedcrypto_static.dir/md2.c.o
+[ 13%] Building C object library/CMakeFiles/mbedcrypto.dir/md4.c.o
+[ 14%] Building C object library/CMakeFiles/mbedcrypto_static.dir/md4.c.o
+[ 14%] Building C object library/CMakeFiles/mbedcrypto_static.dir/md5.c.o
+[ 14%] Building C object library/CMakeFiles/mbedcrypto.dir/md5.c.o
+[ 14%] Building C object library/CMakeFiles/mbedcrypto_static.dir/md_wrap.c.o
+[ 14%] Building C object library/CMakeFiles/mbedcrypto.dir/md_wrap.c.o
+[ 14%] Building C object library/CMakeFiles/mbedcrypto_static.dir/memory_buffer_alloc.c.o
+[ 15%] Building C object library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.o
+[ 16%] Building C object library/CMakeFiles/mbedcrypto_static.dir/oid.c.o
+[ 16%] Building C object library/CMakeFiles/mbedcrypto.dir/oid.c.o
+[ 16%] Building C object library/CMakeFiles/mbedcrypto_static.dir/padlock.c.o
+[ 16%] Building C object library/CMakeFiles/mbedcrypto.dir/padlock.c.o
+[ 16%] Building C object library/CMakeFiles/mbedcrypto.dir/pem.c.o
+[ 16%] Building C object library/CMakeFiles/mbedcrypto_static.dir/pem.c.o
+[ 17%] Building C object library/CMakeFiles/mbedcrypto_static.dir/pk.c.o
+[ 17%] Building C object library/CMakeFiles/mbedcrypto.dir/pk.c.o
+[ 17%] Building C object library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.o
+[ 18%] Building C object library/CMakeFiles/mbedcrypto_static.dir/pk_wrap.c.o
+[ 18%] Building C object library/CMakeFiles/mbedcrypto.dir/pkcs12.c.o
+[ 18%] Building C object library/CMakeFiles/mbedcrypto_static.dir/pkcs12.c.o
+[ 18%] Building C object library/CMakeFiles/mbedcrypto.dir/pkcs5.c.o
+[ 18%] Building C object library/CMakeFiles/mbedcrypto_static.dir/pkcs5.c.o
+[ 19%] Building C object library/CMakeFiles/mbedcrypto.dir/pkparse.c.o
+[ 19%] Building C object library/CMakeFiles/mbedcrypto_static.dir/pkparse.c.o
+[ 19%] Building C object library/CMakeFiles/mbedcrypto.dir/pkwrite.c.o
+[ 20%] Building C object library/CMakeFiles/mbedcrypto_static.dir/pkwrite.c.o
+[ 20%] Building C object library/CMakeFiles/mbedcrypto.dir/platform.c.o
+[ 20%] Building C object library/CMakeFiles/mbedcrypto_static.dir/platform.c.o
+[ 20%] Building C object library/CMakeFiles/mbedcrypto.dir/ripemd160.c.o
+[ 20%] Building C object library/CMakeFiles/mbedcrypto_static.dir/ripemd160.c.o
+[ 20%] Building C object library/CMakeFiles/mbedcrypto.dir/rsa.c.o
+[ 20%] Building C object library/CMakeFiles/mbedcrypto_static.dir/rsa.c.o
+[ 21%] Building C object library/CMakeFiles/mbedcrypto.dir/sha1.c.o
+[ 21%] Building C object library/CMakeFiles/mbedcrypto_static.dir/sha1.c.o
+[ 21%] Building C object library/CMakeFiles/mbedcrypto.dir/sha256.c.o
+[ 22%] Building C object library/CMakeFiles/mbedcrypto_static.dir/sha256.c.o
+[ 22%] Building C object library/CMakeFiles/mbedcrypto.dir/sha512.c.o
+[ 22%] Building C object library/CMakeFiles/mbedcrypto_static.dir/sha512.c.o
+[ 22%] Building C object library/CMakeFiles/mbedcrypto.dir/threading.c.o
+[ 22%] Building C object library/CMakeFiles/mbedcrypto_static.dir/threading.c.o
+[ 23%] Building C object library/CMakeFiles/mbedcrypto.dir/timing.c.o
+[ 23%] Building C object library/CMakeFiles/mbedcrypto_static.dir/timing.c.o
+[ 24%] Building C object library/CMakeFiles/mbedcrypto_static.dir/version.c.o
+[ 24%] Building C object library/CMakeFiles/mbedcrypto.dir/version.c.o
+[ 24%] Building C object library/CMakeFiles/mbedcrypto.dir/version_features.c.o
+[ 24%] Building C object library/CMakeFiles/mbedcrypto_static.dir/version_features.c.o
+[ 24%] Building C object library/CMakeFiles/mbedcrypto.dir/xtea.c.o
+[ 24%] Building C object library/CMakeFiles/mbedcrypto_static.dir/xtea.c.o
+[ 25%] Linking C shared library libmbedcrypto.so
+[ 25%] Linking C static library libmbedcrypto.a
+[ 25%] Built target mbedcrypto
+Scanning dependencies of target mbedx509
+[ 25%] Building C object library/CMakeFiles/mbedx509.dir/certs.c.o
+[ 26%] Building C object library/CMakeFiles/mbedx509.dir/pkcs11.c.o
+[ 26%] Built target mbedcrypto_static
+Scanning dependencies of target mbedx509_static
+[ 26%] Building C object library/CMakeFiles/mbedx509.dir/x509.c.o
+[ 27%] Building C object library/CMakeFiles/mbedx509_static.dir/certs.c.o
+[ 27%] Building C object library/CMakeFiles/mbedx509_static.dir/pkcs11.c.o
+[ 27%] Building C object library/CMakeFiles/mbedx509_static.dir/x509.c.o
+[ 27%] Building C object library/CMakeFiles/mbedx509.dir/x509_create.c.o
+[ 27%] Building C object library/CMakeFiles/mbedx509_static.dir/x509_create.c.o
+[ 27%] Building C object library/CMakeFiles/mbedx509.dir/x509_crl.c.o
+[ 28%] Building C object library/CMakeFiles/mbedx509_static.dir/x509_crl.c.o
+[ 28%] Building C object library/CMakeFiles/mbedx509.dir/x509_crt.c.o
+[ 28%] Building C object library/CMakeFiles/mbedx509_static.dir/x509_crt.c.o
+[ 29%] Building C object library/CMakeFiles/mbedx509.dir/x509_csr.c.o
+[ 29%] Building C object library/CMakeFiles/mbedx509_static.dir/x509_csr.c.o
+[ 29%] Building C object library/CMakeFiles/mbedx509.dir/x509write_crt.c.o
+[ 29%] Building C object library/CMakeFiles/mbedx509_static.dir/x509write_crt.c.o
+[ 29%] Building C object library/CMakeFiles/mbedx509.dir/x509write_csr.c.o
+[ 30%] Building C object library/CMakeFiles/mbedx509_static.dir/x509write_csr.c.o
+[ 30%] Linking C shared library libmbedx509.so
+[ 30%] Linking C static library libmbedx509.a
+[ 30%] Built target mbedx509_static
+Scanning dependencies of target mbedtls_static
+[ 30%] Built target mbedx509
+Scanning dependencies of target mbedtls
+[ 30%] Building C object library/CMakeFiles/mbedtls_static.dir/debug.c.o
+[ 31%] Building C object library/CMakeFiles/mbedtls.dir/debug.c.o
+[ 31%] Building C object library/CMakeFiles/mbedtls_static.dir/net_sockets.c.o
+[ 31%] Building C object library/CMakeFiles/mbedtls.dir/net_sockets.c.o
+[ 31%] Building C object library/CMakeFiles/mbedtls_static.dir/ssl_cache.c.o
+[ 31%] Building C object library/CMakeFiles/mbedtls.dir/ssl_cache.c.o
+[ 31%] Building C object library/CMakeFiles/mbedtls.dir/ssl_ciphersuites.c.o
+[ 32%] Building C object library/CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.o
+[ 33%] Building C object library/CMakeFiles/mbedtls.dir/ssl_cli.c.o
+[ 33%] Building C object library/CMakeFiles/mbedtls_static.dir/ssl_cli.c.o
+[ 33%] Building C object library/CMakeFiles/mbedtls.dir/ssl_cookie.c.o
+[ 33%] Building C object library/CMakeFiles/mbedtls_static.dir/ssl_cookie.c.o
+[ 33%] Building C object library/CMakeFiles/mbedtls.dir/ssl_srv.c.o
+[ 33%] Building C object library/CMakeFiles/mbedtls_static.dir/ssl_srv.c.o
+[ 33%] Building C object library/CMakeFiles/mbedtls.dir/ssl_ticket.c.o
+[ 34%] Building C object library/CMakeFiles/mbedtls_static.dir/ssl_ticket.c.o
+[ 34%] Building C object library/CMakeFiles/mbedtls.dir/ssl_tls.c.o
+[ 34%] Building C object library/CMakeFiles/mbedtls_static.dir/ssl_tls.c.o
+[ 35%] Linking C shared library libmbedtls.so
+[ 35%] Linking C static library libmbedtls.a
+[ 35%] Built target mbedtls_static
+[ 35%] Built target mbedtls
+Scanning dependencies of target aescrypt2
+Scanning dependencies of target crypt_and_hash
+[ 35%] Building C object programs/aes/CMakeFiles/aescrypt2.dir/aescrypt2.c.o
+[ 36%] Building C object programs/aes/CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.o
+[ 36%] Linking C executable aescrypt2
+[ 36%] Linking C executable crypt_and_hash
+[ 36%] Built target aescrypt2
+Scanning dependencies of target hello
+[ 36%] Built target crypt_and_hash
+Scanning dependencies of target generic_sum
+[ 37%] Building C object programs/hash/CMakeFiles/hello.dir/hello.c.o
+[ 37%] Building C object programs/hash/CMakeFiles/generic_sum.dir/generic_sum.c.o
+[ 37%] Linking C executable hello
+[ 37%] Linking C executable generic_sum
+[ 37%] Built target generic_sum
+[ 37%] Built target hello
+Scanning dependencies of target mpi_demo
+[ 37%] Building C object programs/pkey/CMakeFiles/mpi_demo.dir/mpi_demo.c.o
+Scanning dependencies of target key_app
+[ 37%] Building C object programs/pkey/CMakeFiles/key_app.dir/key_app.c.o
+[ 38%] Linking C executable mpi_demo
+[ 38%] Built target mpi_demo
+Scanning dependencies of target ecdsa
+[ 38%] Linking C executable key_app
+[ 38%] Building C object programs/pkey/CMakeFiles/ecdsa.dir/ecdsa.c.o
+[ 38%] Built target key_app
+Scanning dependencies of target rsa_encrypt
+[ 38%] Building C object programs/pkey/CMakeFiles/rsa_encrypt.dir/rsa_encrypt.c.o
+[ 38%] Linking C executable ecdsa
+[ 38%] Built target ecdsa
+[ 39%] Linking C executable rsa_encrypt
+Scanning dependencies of target dh_client
+[ 39%] Building C object programs/pkey/CMakeFiles/dh_client.dir/dh_client.c.o
+[ 39%] Built target rsa_encrypt
+Scanning dependencies of target rsa_genkey
+[ 39%] Building C object programs/pkey/CMakeFiles/rsa_genkey.dir/rsa_genkey.c.o
+[ 39%] Linking C executable dh_client
+[ 39%] Built target dh_client
+Scanning dependencies of target rsa_sign
+[ 39%] Linking C executable rsa_genkey
+[ 39%] Building C object programs/pkey/CMakeFiles/rsa_sign.dir/rsa_sign.c.o
+[ 39%] Built target rsa_genkey
+Scanning dependencies of target rsa_decrypt
+[ 39%] Building C object programs/pkey/CMakeFiles/rsa_decrypt.dir/rsa_decrypt.c.o
+[ 39%] Linking C executable rsa_sign
+[ 39%] Built target rsa_sign
+Scanning dependencies of target dh_genprime
+[ 39%] Linking C executable rsa_decrypt
+[ 40%] Building C object programs/pkey/CMakeFiles/dh_genprime.dir/dh_genprime.c.o
+[ 40%] Built target rsa_decrypt
+Scanning dependencies of target dh_server
+[ 40%] Building C object programs/pkey/CMakeFiles/dh_server.dir/dh_server.c.o
+[ 40%] Linking C executable dh_genprime
+[ 40%] Built target dh_genprime
+Scanning dependencies of target gen_key
+[ 40%] Building C object programs/pkey/CMakeFiles/gen_key.dir/gen_key.c.o
+[ 40%] Linking C executable dh_server
+[ 40%] Built target dh_server
+Scanning dependencies of target ecdh_curve25519
+[ 40%] Building C object programs/pkey/CMakeFiles/ecdh_curve25519.dir/ecdh_curve25519.c.o
+[ 40%] Linking C executable gen_key
+[ 41%] Linking C executable ecdh_curve25519
+[ 41%] Built target gen_key
+Scanning dependencies of target rsa_verify
+[ 41%] Building C object programs/pkey/CMakeFiles/rsa_verify.dir/rsa_verify.c.o
+[ 41%] Built target ecdh_curve25519
+Scanning dependencies of target rsa_sign_pss
+[ 42%] Building C object programs/pkey/CMakeFiles/rsa_sign_pss.dir/rsa_sign_pss.c.o
+[ 42%] Linking C executable rsa_verify
+[ 42%] Built target rsa_verify
+[ 42%] Linking C executable rsa_sign_pss
+Scanning dependencies of target rsa_verify_pss
+[ 43%] Building C object programs/pkey/CMakeFiles/rsa_verify_pss.dir/rsa_verify_pss.c.o
+[ 43%] Built target rsa_sign_pss
+Scanning dependencies of target pk_sign
+[ 43%] Building C object programs/pkey/CMakeFiles/pk_sign.dir/pk_sign.c.o
+[ 43%] Linking C executable rsa_verify_pss
+[ 44%] Linking C executable pk_sign
+[ 44%] Built target rsa_verify_pss
+Scanning dependencies of target key_app_writer
+[ 45%] Building C object programs/pkey/CMakeFiles/key_app_writer.dir/key_app_writer.c.o
+[ 45%] Built target pk_sign
+Scanning dependencies of target pk_verify
+[ 45%] Building C object programs/pkey/CMakeFiles/pk_verify.dir/pk_verify.c.o
+[ 45%] Linking C executable key_app_writer
+[ 45%] Linking C executable pk_verify
+[ 45%] Built target key_app_writer
+Scanning dependencies of target pk_encrypt
+[ 45%] Built target pk_verify
+[ 45%] Building C object programs/pkey/CMakeFiles/pk_encrypt.dir/pk_encrypt.c.o
+Scanning dependencies of target pk_decrypt
+[ 45%] Building C object programs/pkey/CMakeFiles/pk_decrypt.dir/pk_decrypt.c.o
+[ 45%] Linking C executable pk_encrypt
+[ 46%] Linking C executable pk_decrypt
+[ 46%] Built target pk_encrypt
+Scanning dependencies of target gen_random_ctr_drbg
+[ 46%] Building C object programs/random/CMakeFiles/gen_random_ctr_drbg.dir/gen_random_ctr_drbg.c.o
+[ 46%] Built target pk_decrypt
+Scanning dependencies of target gen_entropy
+[ 46%] Building C object programs/random/CMakeFiles/gen_entropy.dir/gen_entropy.c.o
+[ 47%] Linking C executable gen_random_ctr_drbg
+[ 48%] Linking C executable gen_entropy
+[ 48%] Built target gen_random_ctr_drbg
+Scanning dependencies of target gen_random_havege
+[ 48%] Building C object programs/random/CMakeFiles/gen_random_havege.dir/gen_random_havege.c.o
+[ 48%] Built target gen_entropy
+Scanning dependencies of target ssl_client2
+[ 48%] Linking C executable gen_random_havege
+[ 49%] Building C object programs/ssl/CMakeFiles/ssl_client2.dir/ssl_client2.c.o
+[ 49%] Built target gen_random_havege
+Scanning dependencies of target ssl_client1
+[ 49%] Building C object programs/ssl/CMakeFiles/ssl_client1.dir/ssl_client1.c.o
+[ 49%] Linking C executable ssl_client1
+[ 49%] Linking C executable ssl_client2
+[ 49%] Built target ssl_client1
+[ 49%] Built target ssl_client2
+Scanning dependencies of target dtls_client
+Scanning dependencies of target dtls_server
+[ 49%] Building C object programs/ssl/CMakeFiles/dtls_client.dir/dtls_client.c.o
+[ 49%] Building C object programs/ssl/CMakeFiles/dtls_server.dir/dtls_server.c.o
+[ 50%] Linking C executable dtls_client
+[ 50%] Linking C executable dtls_server
+[ 50%] Built target dtls_client
+[ 50%] Built target dtls_server
+Scanning dependencies of target ssl_server
+Scanning dependencies of target ssl_server2
+[ 50%] Building C object programs/ssl/CMakeFiles/ssl_server.dir/ssl_server.c.o
+[ 50%] Building C object programs/ssl/CMakeFiles/ssl_server2.dir/ssl_server2.c.o
+[ 51%] Linking C executable ssl_server
+[ 51%] Built target ssl_server
+Scanning dependencies of target ssl_fork_server
+[ 51%] Building C object programs/ssl/CMakeFiles/ssl_fork_server.dir/ssl_fork_server.c.o
+[ 51%] Linking C executable ssl_server2
+[ 51%] Linking C executable ssl_fork_server
+[ 51%] Built target ssl_server2
+Scanning dependencies of target ssl_mail_client
+[ 51%] Building C object programs/ssl/CMakeFiles/ssl_mail_client.dir/ssl_mail_client.c.o
+[ 51%] Built target ssl_fork_server
+Scanning dependencies of target mini_client
+[ 51%] Building C object programs/ssl/CMakeFiles/mini_client.dir/mini_client.c.o
+[ 51%] Linking C executable mini_client
+[ 52%] Linking C executable ssl_mail_client
+[ 52%] Built target mini_client
+Scanning dependencies of target ssl_pthread_server
+[ 52%] Built target ssl_mail_client
+[ 52%] Building C object programs/ssl/CMakeFiles/ssl_pthread_server.dir/ssl_pthread_server.c.o
+Scanning dependencies of target udp_proxy
+[ 52%] Building C object programs/test/CMakeFiles/udp_proxy.dir/udp_proxy.c.o
+[ 52%] Linking C executable ssl_pthread_server
+[ 52%] Built target ssl_pthread_server
+Scanning dependencies of target ssl_cert_test
+[ 53%] Building C object programs/test/CMakeFiles/ssl_cert_test.dir/ssl_cert_test.c.o
+[ 54%] Linking C executable udp_proxy
+[ 54%] Linking C executable ssl_cert_test
+[ 54%] Built target udp_proxy
+Scanning dependencies of target selftest
+[ 54%] Built target ssl_cert_test
+Scanning dependencies of target benchmark
+[ 54%] Building C object programs/test/CMakeFiles/selftest.dir/selftest.c.o
+[ 54%] Building C object programs/test/CMakeFiles/benchmark.dir/benchmark.c.o
+[ 54%] Linking C executable selftest
+[ 54%] Built target selftest
+Scanning dependencies of target cert_req
+[ 54%] Building C object programs/x509/CMakeFiles/cert_req.dir/cert_req.c.o
+[ 54%] Linking C executable benchmark
+[ 54%] Linking C executable cert_req
+[ 54%] Built target benchmark
+Scanning dependencies of target cert_write
+[ 55%] Building C object programs/x509/CMakeFiles/cert_write.dir/cert_write.c.o
+[ 55%] Built target cert_req
+Scanning dependencies of target req_app
+[ 55%] Building C object programs/x509/CMakeFiles/req_app.dir/req_app.c.o
+[ 56%] Linking C executable req_app
+[ 56%] Linking C executable cert_write
+[ 56%] Built target req_app
+[ 56%] Built target cert_write
+Scanning dependencies of target crl_app
+Scanning dependencies of target cert_app
+[ 57%] Building C object programs/x509/CMakeFiles/cert_app.dir/cert_app.c.o
+[ 57%] Building C object programs/x509/CMakeFiles/crl_app.dir/crl_app.c.o
+[ 57%] Linking C executable crl_app
+[ 57%] Linking C executable cert_app
+[ 57%] Built target crl_app
+Scanning dependencies of target strerror
+[ 57%] Building C object programs/util/CMakeFiles/strerror.dir/strerror.c.o
+[ 57%] Built target cert_app
+Scanning dependencies of target pem2der
+[ 57%] Building C object programs/util/CMakeFiles/pem2der.dir/pem2der.c.o
+[ 58%] Linking C executable strerror
+[ 58%] Linking C executable pem2der
+[ 58%] Built target strerror
+[ 58%] Generating test_suite_version.c
+Scanning dependencies of target test_suite_version
+[ 59%] Built target pem2der
+[ 59%] Building C object tests/CMakeFiles/test_suite_version.dir/test_suite_version.c.o
+[ 59%] Generating test_suite_ssl.c
+Scanning dependencies of target test_suite_ssl
+[ 59%] Building C object tests/CMakeFiles/test_suite_ssl.dir/test_suite_ssl.c.o
+[ 59%] Linking C executable test_suite_version
+[ 59%] Built target test_suite_version
+[ 59%] Linking C executable test_suite_ssl
+[ 59%] Generating test_suite_shax.c
+Scanning dependencies of target test_suite_shax
+[ 60%] Building C object tests/CMakeFiles/test_suite_shax.dir/test_suite_shax.c.o
+[ 60%] Built target test_suite_ssl
+[ 60%] Generating test_suite_pkwrite.c
+Scanning dependencies of target test_suite_pkwrite
+[ 60%] Building C object tests/CMakeFiles/test_suite_pkwrite.dir/test_suite_pkwrite.c.o
+[ 60%] Linking C executable test_suite_shax
+[ 60%] Linking C executable test_suite_pkwrite
+[ 60%] Built target test_suite_shax
+[ 60%] Generating test_suite_pk.c
+[ 60%] Built target test_suite_pkwrite
+[ 60%] Generating test_suite_pkcs1_v21.c
+Scanning dependencies of target test_suite_pk
+[ 61%] Building C object tests/CMakeFiles/test_suite_pk.dir/test_suite_pk.c.o
+Scanning dependencies of target test_suite_pkcs1_v21
+[ 61%] Building C object tests/CMakeFiles/test_suite_pkcs1_v21.dir/test_suite_pkcs1_v21.c.o
+[ 61%] Linking C executable test_suite_pkcs1_v21
+[ 61%] Linking C executable test_suite_pk
+[ 61%] Built target test_suite_pkcs1_v21
+[ 61%] Built target test_suite_pk
+[ 62%] Generating test_suite_debug.c
+[ 62%] Generating test_suite_blowfish.c
+Scanning dependencies of target test_suite_debug
+Scanning dependencies of target test_suite_blowfish
+[ 62%] Building C object tests/CMakeFiles/test_suite_debug.dir/test_suite_debug.c.o
+[ 62%] Building C object tests/CMakeFiles/test_suite_blowfish.dir/test_suite_blowfish.c.o
+[ 62%] Linking C executable test_suite_blowfish
+[ 62%] Linking C executable test_suite_debug
+[ 62%] Built target test_suite_blowfish
+[ 62%] Built target test_suite_debug
+[ 62%] Generating test_suite_mpi.c
+[ 63%] Generating test_suite_aes.cfb.c
+Scanning dependencies of target test_suite_aes.cfb
+Scanning dependencies of target test_suite_mpi
+[ 63%] Building C object tests/CMakeFiles/test_suite_aes.cfb.dir/test_suite_aes.cfb.c.o
+[ 63%] Building C object tests/CMakeFiles/test_suite_mpi.dir/test_suite_mpi.c.o
+[ 63%] Linking C executable test_suite_aes.cfb
+[ 63%] Built target test_suite_aes.cfb
+[ 63%] Generating test_suite_ctr_drbg.c
+Scanning dependencies of target test_suite_ctr_drbg
+[ 63%] Building C object tests/CMakeFiles/test_suite_ctr_drbg.dir/test_suite_ctr_drbg.c.o
+[ 63%] Linking C executable test_suite_mpi
+[ 63%] Linking C executable test_suite_ctr_drbg
+[ 63%] Built target test_suite_ctr_drbg
+[ 63%] Built target test_suite_mpi
+[ 63%] Generating test_suite_cmac.c
+[ 64%] Generating test_suite_cipher.padding.c
+Scanning dependencies of target test_suite_cmac
+Scanning dependencies of target test_suite_cipher.padding
+[ 64%] Building C object tests/CMakeFiles/test_suite_cmac.dir/test_suite_cmac.c.o
+[ 64%] Building C object tests/CMakeFiles/test_suite_cipher.padding.dir/test_suite_cipher.padding.c.o
+[ 65%] Linking C executable test_suite_cmac
+[ 65%] Built target test_suite_cmac
+[ 65%] Generating test_suite_x509parse.c
+Scanning dependencies of target test_suite_x509parse
+[ 65%] Building C object tests/CMakeFiles/test_suite_x509parse.dir/test_suite_x509parse.c.o
+[ 65%] Linking C executable test_suite_cipher.padding
+[ 65%] Built target test_suite_cipher.padding
+[ 65%] Generating test_suite_pkcs5.c
+Scanning dependencies of target test_suite_pkcs5
+[ 66%] Building C object tests/CMakeFiles/test_suite_pkcs5.dir/test_suite_pkcs5.c.o
+[ 66%] Linking C executable test_suite_pkcs5
+[ 67%] Linking C executable test_suite_x509parse
+[ 67%] Built target test_suite_pkcs5
+[ 68%] Generating test_suite_cipher.ccm.c
+[ 68%] Built target test_suite_x509parse
+Scanning dependencies of target test_suite_cipher.ccm
+[ 69%] Generating test_suite_timing.c
+Scanning dependencies of target test_suite_timing
+[ 69%] Building C object tests/CMakeFiles/test_suite_cipher.ccm.dir/test_suite_cipher.ccm.c.o
+[ 69%] Building C object tests/CMakeFiles/test_suite_timing.dir/test_suite_timing.c.o
+[ 69%] Linking C executable test_suite_timing
+[ 69%] Built target test_suite_timing
+[ 70%] Generating test_suite_gcm.aes256_en.c
+Scanning dependencies of target test_suite_gcm.aes256_en
+[ 70%] Building C object tests/CMakeFiles/test_suite_gcm.aes256_en.dir/test_suite_gcm.aes256_en.c.o
+[ 70%] Linking C executable test_suite_cipher.ccm
+[ 70%] Built target test_suite_cipher.ccm
+[ 71%] Generating test_suite_xtea.c
+Scanning dependencies of target test_suite_xtea
+[ 71%] Building C object tests/CMakeFiles/test_suite_xtea.dir/test_suite_xtea.c.o
+[ 71%] Linking C executable test_suite_gcm.aes256_en
+[ 71%] Built target test_suite_gcm.aes256_en
+[ 71%] Generating test_suite_hmac_drbg.nopr.c
+[ 71%] Linking C executable test_suite_xtea
+Scanning dependencies of target test_suite_hmac_drbg.nopr
+[ 72%] Building C object tests/CMakeFiles/test_suite_hmac_drbg.nopr.dir/test_suite_hmac_drbg.nopr.c.o
+[ 72%] Built target test_suite_xtea
+[ 73%] Generating test_suite_cipher.arc4.c
+Scanning dependencies of target test_suite_cipher.arc4
+[ 73%] Building C object tests/CMakeFiles/test_suite_cipher.arc4.dir/test_suite_cipher.arc4.c.o
+[ 73%] Linking C executable test_suite_hmac_drbg.nopr
+[ 73%] Built target test_suite_hmac_drbg.nopr
+[ 73%] Generating test_suite_ecp.c
+Scanning dependencies of target test_suite_ecp
+[ 73%] Building C object tests/CMakeFiles/test_suite_ecp.dir/test_suite_ecp.c.o
+[ 73%] Linking C executable test_suite_cipher.arc4
+[ 73%] Built target test_suite_cipher.arc4
+[ 73%] Generating test_suite_gcm.aes128_en.c
+Scanning dependencies of target test_suite_gcm.aes128_en
+[ 73%] Building C object tests/CMakeFiles/test_suite_gcm.aes128_en.dir/test_suite_gcm.aes128_en.c.o
+[ 73%] Linking C executable test_suite_ecp
+[ 73%] Built target test_suite_ecp
+[ 73%] Linking C executable test_suite_gcm.aes128_en
+[ 73%] Generating test_suite_cipher.null.c
+Scanning dependencies of target test_suite_cipher.null
+[ 73%] Building C object tests/CMakeFiles/test_suite_cipher.null.dir/test_suite_cipher.null.c.o
+[ 73%] Built target test_suite_gcm.aes128_en
+[ 74%] Generating test_suite_hmac_drbg.no_reseed.c
+Scanning dependencies of target test_suite_hmac_drbg.no_reseed
+[ 74%] Building C object tests/CMakeFiles/test_suite_hmac_drbg.no_reseed.dir/test_suite_hmac_drbg.no_reseed.c.o
+[ 74%] Linking C executable test_suite_cipher.null
+[ 74%] Linking C executable test_suite_hmac_drbg.no_reseed
+[ 74%] Built target test_suite_cipher.null
+[ 74%] Built target test_suite_hmac_drbg.no_reseed
+[ 74%] Generating test_suite_base64.c
+[ 74%] Generating test_suite_asn1write.c
+Scanning dependencies of target test_suite_base64
+Scanning dependencies of target test_suite_asn1write
+[ 74%] Building C object tests/CMakeFiles/test_suite_base64.dir/test_suite_base64.c.o
+[ 75%] Building C object tests/CMakeFiles/test_suite_asn1write.dir/test_suite_asn1write.c.o
+[ 76%] Linking C executable test_suite_base64
+[ 76%] Linking C executable test_suite_asn1write
+[ 76%] Built target test_suite_base64
+[ 76%] Built target test_suite_asn1write
+[ 76%] Generating test_suite_cipher.blowfish.c
+[ 76%] Generating test_suite_pkcs1_v15.c
+Scanning dependencies of target test_suite_pkcs1_v15
+Scanning dependencies of target test_suite_cipher.blowfish
+[ 76%] Building C object tests/CMakeFiles/test_suite_pkcs1_v15.dir/test_suite_pkcs1_v15.c.o
+[ 77%] Building C object tests/CMakeFiles/test_suite_cipher.blowfish.dir/test_suite_cipher.blowfish.c.o
+[ 78%] Linking C executable test_suite_pkcs1_v15
+[ 78%] Built target test_suite_pkcs1_v15
+[ 78%] Generating test_suite_memory_buffer_alloc.c
+Scanning dependencies of target test_suite_memory_buffer_alloc
+[ 78%] Linking C executable test_suite_cipher.blowfish
+[ 78%] Building C object tests/CMakeFiles/test_suite_memory_buffer_alloc.dir/test_suite_memory_buffer_alloc.c.o
+[ 78%] Built target test_suite_cipher.blowfish
+[ 78%] Generating test_suite_pkparse.c
+Scanning dependencies of target test_suite_pkparse
+[ 78%] Building C object tests/CMakeFiles/test_suite_pkparse.dir/test_suite_pkparse.c.o
+[ 79%] Linking C executable test_suite_memory_buffer_alloc
+[ 79%] Built target test_suite_memory_buffer_alloc
+[ 79%] Generating test_suite_aes.cbc.c
+Scanning dependencies of target test_suite_aes.cbc
+[ 79%] Building C object tests/CMakeFiles/test_suite_aes.cbc.dir/test_suite_aes.cbc.c.o
+[ 80%] Linking C executable test_suite_pkparse
+[ 80%] Built target test_suite_pkparse
+[ 80%] Generating test_suite_cipher.gcm.c
+Scanning dependencies of target test_suite_cipher.gcm
+[ 80%] Building C object tests/CMakeFiles/test_suite_cipher.gcm.dir/test_suite_cipher.gcm.c.o
+[ 80%] Linking C executable test_suite_aes.cbc
+[ 80%] Built target test_suite_aes.cbc
+[ 80%] Generating test_suite_ccm.c
+Scanning dependencies of target test_suite_ccm
+[ 80%] Building C object tests/CMakeFiles/test_suite_ccm.dir/test_suite_ccm.c.o
+[ 81%] Linking C executable test_suite_cipher.gcm
+[ 81%] Built target test_suite_cipher.gcm
+[ 81%] Generating test_suite_cipher.camellia.c
+[ 82%] Linking C executable test_suite_ccm
+Scanning dependencies of target test_suite_cipher.camellia
+[ 82%] Building C object tests/CMakeFiles/test_suite_cipher.camellia.dir/test_suite_cipher.camellia.c.o
+[ 82%] Built target test_suite_ccm
+[ 83%] Generating test_suite_arc4.c
+Scanning dependencies of target test_suite_arc4
+[ 83%] Building C object tests/CMakeFiles/test_suite_arc4.dir/test_suite_arc4.c.o
+[ 83%] Linking C executable test_suite_arc4
+[ 83%] Linking C executable test_suite_cipher.camellia
+[ 83%] Built target test_suite_arc4
+[ 83%] Generating test_suite_aes.rest.c
+Scanning dependencies of target test_suite_aes.rest
+[ 83%] Built target test_suite_cipher.camellia
+[ 83%] Building C object tests/CMakeFiles/test_suite_aes.rest.dir/test_suite_aes.rest.c.o
+[ 83%] Generating test_suite_x509write.c
+Scanning dependencies of target test_suite_x509write
+[ 83%] Building C object tests/CMakeFiles/test_suite_x509write.dir/test_suite_x509write.c.o
+[ 83%] Linking C executable test_suite_aes.rest
+[ 83%] Built target test_suite_aes.rest
+[ 83%] Linking C executable test_suite_x509write
+[ 83%] Generating test_suite_camellia.c
+Scanning dependencies of target test_suite_camellia
+[ 83%] Built target test_suite_x509write
+[ 84%] Building C object tests/CMakeFiles/test_suite_camellia.dir/test_suite_camellia.c.o
+[ 84%] Generating test_suite_des.c
+Scanning dependencies of target test_suite_des
+[ 85%] Building C object tests/CMakeFiles/test_suite_des.dir/test_suite_des.c.o
+[ 85%] Linking C executable test_suite_camellia
+[ 85%] Built target test_suite_camellia
+[ 85%] Generating test_suite_aes.ecb.c
+[ 85%] Linking C executable test_suite_des
+Scanning dependencies of target test_suite_aes.ecb
+[ 85%] Building C object tests/CMakeFiles/test_suite_aes.ecb.dir/test_suite_aes.ecb.c.o
+[ 85%] Built target test_suite_des
+[ 85%] Generating test_suite_gcm.camellia.c
+Scanning dependencies of target test_suite_gcm.camellia
+[ 86%] Building C object tests/CMakeFiles/test_suite_gcm.camellia.dir/test_suite_gcm.camellia.c.o
+[ 87%] Linking C executable test_suite_aes.ecb
+[ 87%] Linking C executable test_suite_gcm.camellia
+[ 87%] Built target test_suite_aes.ecb
+[ 87%] Generating test_suite_cipher.des.c
+[ 87%] Built target test_suite_gcm.camellia
+Scanning dependencies of target test_suite_cipher.des
+[ 88%] Generating test_suite_ecdsa.c
+[ 89%] Building C object tests/CMakeFiles/test_suite_cipher.des.dir/test_suite_cipher.des.c.o
+Scanning dependencies of target test_suite_ecdsa
+[ 89%] Building C object tests/CMakeFiles/test_suite_ecdsa.dir/test_suite_ecdsa.c.o
+[ 89%] Linking C executable test_suite_ecdsa
+[ 89%] Built target test_suite_ecdsa
+[ 89%] Generating test_suite_dhm.c
+[ 89%] Linking C executable test_suite_cipher.des
+Scanning dependencies of target test_suite_dhm
+[ 89%] Building C object tests/CMakeFiles/test_suite_dhm.dir/test_suite_dhm.c.o
+[ 89%] Built target test_suite_cipher.des
+[ 89%] Generating test_suite_ecjpake.c
+Scanning dependencies of target test_suite_ecjpake
+[ 89%] Building C object tests/CMakeFiles/test_suite_ecjpake.dir/test_suite_ecjpake.c.o
+[ 90%] Linking C executable test_suite_dhm
+[ 90%] Built target test_suite_dhm
+[ 91%] Linking C executable test_suite_ecjpake
+[ 91%] Generating test_suite_cipher.aes.c
+Scanning dependencies of target test_suite_cipher.aes
+[ 91%] Built target test_suite_ecjpake
+[ 91%] Building C object tests/CMakeFiles/test_suite_cipher.aes.dir/test_suite_cipher.aes.c.o
+[ 91%] Generating test_suite_error.c
+Scanning dependencies of target test_suite_error
+[ 92%] Building C object tests/CMakeFiles/test_suite_error.dir/test_suite_error.c.o
+[ 92%] Linking C executable test_suite_error
+[ 92%] Built target test_suite_error
+[ 93%] Generating test_suite_mdx.c
+[ 93%] Linking C executable test_suite_cipher.aes
+Scanning dependencies of target test_suite_mdx
+[ 93%] Building C object tests/CMakeFiles/test_suite_mdx.dir/test_suite_mdx.c.o
+[ 93%] Built target test_suite_cipher.aes
+[ 94%] Generating test_suite_rsa.c
+Scanning dependencies of target test_suite_rsa
+[ 94%] Building C object tests/CMakeFiles/test_suite_rsa.dir/test_suite_rsa.c.o
+[ 94%] Linking C executable test_suite_mdx
+[ 94%] Built target test_suite_mdx
+[ 94%] Generating test_suite_gcm.aes128_de.c
+Scanning dependencies of target test_suite_gcm.aes128_de
+[ 94%] Building C object tests/CMakeFiles/test_suite_gcm.aes128_de.dir/test_suite_gcm.aes128_de.c.o
+[ 95%] Linking C executable test_suite_gcm.aes128_de
+[ 95%] Linking C executable test_suite_rsa
+[ 95%] Built target test_suite_gcm.aes128_de
+[ 95%] Generating test_suite_gcm.aes192_de.c
+[ 95%] Built target test_suite_rsa
+[ 95%] Generating test_suite_gcm.aes192_en.c
+Scanning dependencies of target test_suite_gcm.aes192_de
+[ 96%] Building C object tests/CMakeFiles/test_suite_gcm.aes192_de.dir/test_suite_gcm.aes192_de.c.o
+Scanning dependencies of target test_suite_gcm.aes192_en
+[ 96%] Building C object tests/CMakeFiles/test_suite_gcm.aes192_en.dir/test_suite_gcm.aes192_en.c.o
+[ 96%] Linking C executable test_suite_gcm.aes192_de
+[ 97%] Linking C executable test_suite_gcm.aes192_en
+[ 97%] Built target test_suite_gcm.aes192_de
+[ 97%] Generating test_suite_gcm.aes256_de.c
+[ 97%] Built target test_suite_gcm.aes192_en
+Scanning dependencies of target test_suite_gcm.aes256_de
+[ 97%] Generating test_suite_hmac_drbg.misc.c
+Scanning dependencies of target test_suite_hmac_drbg.misc
+[ 97%] Building C object tests/CMakeFiles/test_suite_gcm.aes256_de.dir/test_suite_gcm.aes256_de.c.o
+[ 97%] Building C object tests/CMakeFiles/test_suite_hmac_drbg.misc.dir/test_suite_hmac_drbg.misc.c.o
+[ 97%] Linking C executable test_suite_gcm.aes256_de
+[ 97%] Linking C executable test_suite_hmac_drbg.misc
+[ 97%] Built target test_suite_gcm.aes256_de
+[ 98%] Generating test_suite_entropy.c
+Scanning dependencies of target test_suite_entropy
+[ 98%] Built target test_suite_hmac_drbg.misc
+[ 98%] Building C object tests/CMakeFiles/test_suite_entropy.dir/test_suite_entropy.c.o
+[ 98%] Generating test_suite_hmac_drbg.pr.c
+Scanning dependencies of target test_suite_hmac_drbg.pr
+[ 98%] Building C object tests/CMakeFiles/test_suite_hmac_drbg.pr.dir/test_suite_hmac_drbg.pr.c.o
+[ 98%] Linking C executable test_suite_entropy
+[ 98%] Built target test_suite_entropy
+[ 98%] Generating test_suite_ecdh.c
+Scanning dependencies of target test_suite_ecdh
+[ 98%] Building C object tests/CMakeFiles/test_suite_ecdh.dir/test_suite_ecdh.c.o
+[ 99%] Linking C executable test_suite_hmac_drbg.pr
+[ 99%] Built target test_suite_hmac_drbg.pr
+[ 99%] Generating test_suite_md.c
+Scanning dependencies of target test_suite_md
+[ 99%] Building C object tests/CMakeFiles/test_suite_md.dir/test_suite_md.c.o
+[ 99%] Linking C executable test_suite_ecdh
+[ 99%] Built target test_suite_ecdh
+[100%] Generating test_suite_pem.c
+Scanning dependencies of target test_suite_pem
+[100%] Building C object tests/CMakeFiles/test_suite_pem.dir/test_suite_pem.c.o
+[100%] Linking C executable test_suite_md
+[100%] Built target test_suite_md
+[100%] Linking C executable test_suite_pem
+[100%] Built target test_suite_pem
+ ---> make install
+[ 12%] Built target mbedcrypto_static
+[ 15%] Built target mbedx509_static
+[ 17%] Built target mbedtls_static
+[ 30%] Built target mbedcrypto
+[ 32%] Built target mbedx509
+[ 35%] Built target mbedtls
+[ 35%] Built target aescrypt2
+[ 36%] Built target crypt_and_hash
+[ 37%] Built target hello
+[ 37%] Built target generic_sum
+[ 38%] Built target mpi_demo
+[ 38%] Built target key_app
+[ 38%] Built target ecdsa
+[ 39%] Built target rsa_encrypt
+[ 39%] Built target dh_client
+[ 39%] Built target rsa_genkey
+[ 39%] Built target rsa_sign
+[ 39%] Built target rsa_decrypt
+[ 40%] Built target dh_genprime
+[ 40%] Built target dh_server
+[ 40%] Built target gen_key
+[ 41%] Built target ecdh_curve25519
+[ 41%] Built target rsa_verify
+[ 42%] Built target rsa_sign_pss
+[ 43%] Built target rsa_verify_pss
+[ 44%] Built target pk_sign
+[ 45%] Built target key_app_writer
+[ 45%] Built target pk_verify
+[ 45%] Built target pk_encrypt
+[ 46%] Built target pk_decrypt
+[ 47%] Built target gen_random_ctr_drbg
+[ 48%] Built target gen_entropy
+[ 48%] Built target gen_random_havege
+[ 49%] Built target ssl_client2
+[ 49%] Built target ssl_client1
+[ 49%] Built target dtls_server
+[ 50%] Built target dtls_client
+[ 51%] Built target ssl_server
+[ 51%] Built target ssl_server2
+[ 51%] Built target ssl_fork_server
+[ 52%] Built target ssl_mail_client
+[ 52%] Built target mini_client
+[ 52%] Built target ssl_pthread_server
+[ 53%] Built target udp_proxy
+[ 54%] Built target ssl_cert_test
+[ 54%] Built target selftest
+[ 54%] Built target benchmark
+[ 54%] Built target cert_req
+[ 55%] Built target cert_write
+[ 56%] Built target req_app
+[ 56%] Built target crl_app
+[ 57%] Built target cert_app
+[ 58%] Built target strerror
+[ 58%] Built target pem2der
+[ 59%] Built target test_suite_version
+[ 59%] Built target test_suite_ssl
+[ 60%] Built target test_suite_shax
+[ 60%] Built target test_suite_pkwrite
+[ 61%] Built target test_suite_pk
+[ 61%] Built target test_suite_pkcs1_v21
+[ 62%] Built target test_suite_debug
+[ 62%] Built target test_suite_blowfish
+[ 62%] Built target test_suite_mpi
+[ 63%] Built target test_suite_aes.cfb
+[ 63%] Built target test_suite_ctr_drbg
+[ 64%] Built target test_suite_cmac
+[ 65%] Built target test_suite_cipher.padding
+[ 66%] Built target test_suite_x509parse
+[ 67%] Built target test_suite_pkcs5
+[ 68%] Built target test_suite_cipher.ccm
+[ 69%] Built target test_suite_timing
+[ 70%] Built target test_suite_gcm.aes256_en
+[ 71%] Built target test_suite_xtea
+[ 72%] Built target test_suite_hmac_drbg.nopr
+[ 73%] Built target test_suite_cipher.arc4
+[ 73%] Built target test_suite_ecp
+[ 73%] Built target test_suite_gcm.aes128_en
+[ 73%] Built target test_suite_cipher.null
+[ 74%] Built target test_suite_hmac_drbg.no_reseed
+[ 75%] Built target test_suite_base64
+[ 76%] Built target test_suite_asn1write
+[ 77%] Built target test_suite_pkcs1_v15
+[ 78%] Built target test_suite_cipher.blowfish
+[ 79%] Built target test_suite_memory_buffer_alloc
+[ 80%] Built target test_suite_pkparse
+[ 80%] Built target test_suite_aes.cbc
+[ 81%] Built target test_suite_cipher.gcm
+[ 82%] Built target test_suite_ccm
+[ 82%] Built target test_suite_cipher.camellia
+[ 83%] Built target test_suite_arc4
+[ 83%] Built target test_suite_aes.rest
+[ 83%] Built target test_suite_x509write
+[ 84%] Built target test_suite_camellia
+[ 85%] Built target test_suite_des
+[ 86%] Built target test_suite_aes.ecb
+[ 87%] Built target test_suite_gcm.camellia
+[ 88%] Built target test_suite_cipher.des
+[ 89%] Built target test_suite_ecdsa
+[ 90%] Built target test_suite_dhm
+[ 91%] Built target test_suite_ecjpake
+[ 91%] Built target test_suite_cipher.aes
+[ 92%] Built target test_suite_error
+[ 93%] Built target test_suite_mdx
+[ 94%] Built target test_suite_rsa
+[ 95%] Built target test_suite_gcm.aes128_de
+[ 96%] Built target test_suite_gcm.aes192_de
+[ 97%] Built target test_suite_gcm.aes192_en
+[ 97%] Built target test_suite_gcm.aes256_de
+[ 97%] Built target test_suite_hmac_drbg.misc
+[ 98%] Built target test_suite_entropy
+[ 99%] Built target test_suite_hmac_drbg.pr
+[ 99%] Built target test_suite_ecdh
+[ 99%] Built target test_suite_md
+[100%] Built target test_suite_pem
+Install the project...
+-- Install configuration: ""
+-- Installing: /workspace/destdir/lib/libmbedtls.a
+-- Installing: /workspace/destdir/lib/libmbedx509.a
+-- Installing: /workspace/destdir/lib/libmbedcrypto.a
+-- Installing: /workspace/destdir/lib/libmbedtls.so.2.6.1
+-- Installing: /workspace/destdir/lib/libmbedtls.so.10
+-- Installing: /workspace/destdir/lib/libmbedtls.so
+-- Set runtime path of "/workspace/destdir/lib/libmbedtls.so.2.6.1" to ""
+-- Installing: /workspace/destdir/lib/libmbedx509.so.2.6.1
+-- Installing: /workspace/destdir/lib/libmbedx509.so.0
+-- Installing: /workspace/destdir/lib/libmbedx509.so
+-- Set runtime path of "/workspace/destdir/lib/libmbedx509.so.2.6.1" to ""
+-- Installing: /workspace/destdir/lib/libmbedcrypto.so.2.6.1
+-- Installing: /workspace/destdir/lib/libmbedcrypto.so.0
+-- Installing: /workspace/destdir/lib/libmbedcrypto.so
+-- Installing: /workspace/destdir/include/mbedtls/aes.h
+-- Installing: /workspace/destdir/include/mbedtls/aesni.h
+-- Installing: /workspace/destdir/include/mbedtls/arc4.h
+-- Installing: /workspace/destdir/include/mbedtls/asn1.h
+-- Installing: /workspace/destdir/include/mbedtls/asn1write.h
+-- Installing: /workspace/destdir/include/mbedtls/base64.h
+-- Installing: /workspace/destdir/include/mbedtls/bignum.h
+-- Installing: /workspace/destdir/include/mbedtls/blowfish.h
+-- Installing: /workspace/destdir/include/mbedtls/bn_mul.h
+-- Installing: /workspace/destdir/include/mbedtls/camellia.h
+-- Installing: /workspace/destdir/include/mbedtls/ccm.h
+-- Installing: /workspace/destdir/include/mbedtls/certs.h
+-- Installing: /workspace/destdir/include/mbedtls/check_config.h
+-- Installing: /workspace/destdir/include/mbedtls/cipher.h
+-- Installing: /workspace/destdir/include/mbedtls/cipher_internal.h
+-- Installing: /workspace/destdir/include/mbedtls/cmac.h
+-- Installing: /workspace/destdir/include/mbedtls/compat-1.3.h
+-- Installing: /workspace/destdir/include/mbedtls/config.h
+-- Installing: /workspace/destdir/include/mbedtls/ctr_drbg.h
+-- Installing: /workspace/destdir/include/mbedtls/debug.h
+-- Installing: /workspace/destdir/include/mbedtls/des.h
+-- Installing: /workspace/destdir/include/mbedtls/dhm.h
+-- Installing: /workspace/destdir/include/mbedtls/ecdh.h
+-- Installing: /workspace/destdir/include/mbedtls/ecdsa.h
+-- Installing: /workspace/destdir/include/mbedtls/ecjpake.h
+-- Installing: /workspace/destdir/include/mbedtls/ecp.h
+-- Installing: /workspace/destdir/include/mbedtls/ecp_internal.h
+-- Installing: /workspace/destdir/include/mbedtls/entropy.h
+-- Installing: /workspace/destdir/include/mbedtls/entropy_poll.h
+-- Installing: /workspace/destdir/include/mbedtls/error.h
+-- Installing: /workspace/destdir/include/mbedtls/gcm.h
+-- Installing: /workspace/destdir/include/mbedtls/havege.h
+-- Installing: /workspace/destdir/include/mbedtls/hmac_drbg.h
+-- Installing: /workspace/destdir/include/mbedtls/md.h
+-- Installing: /workspace/destdir/include/mbedtls/md2.h
+-- Installing: /workspace/destdir/include/mbedtls/md4.h
+-- Installing: /workspace/destdir/include/mbedtls/md5.h
+-- Installing: /workspace/destdir/include/mbedtls/md_internal.h
+-- Installing: /workspace/destdir/include/mbedtls/memory_buffer_alloc.h
+-- Installing: /workspace/destdir/include/mbedtls/net.h
+-- Installing: /workspace/destdir/include/mbedtls/net_sockets.h
+-- Installing: /workspace/destdir/include/mbedtls/oid.h
+-- Installing: /workspace/destdir/include/mbedtls/padlock.h
+-- Installing: /workspace/destdir/include/mbedtls/pem.h
+-- Installing: /workspace/destdir/include/mbedtls/pk.h
+-- Installing: /workspace/destdir/include/mbedtls/pk_internal.h
+-- Installing: /workspace/destdir/include/mbedtls/pkcs11.h
+-- Installing: /workspace/destdir/include/mbedtls/pkcs12.h
+-- Installing: /workspace/destdir/include/mbedtls/pkcs5.h
+-- Installing: /workspace/destdir/include/mbedtls/platform.h
+-- Installing: /workspace/destdir/include/mbedtls/platform_time.h
+-- Installing: /workspace/destdir/include/mbedtls/ripemd160.h
+-- Installing: /workspace/destdir/include/mbedtls/rsa.h
+-- Installing: /workspace/destdir/include/mbedtls/sha1.h
+-- Installing: /workspace/destdir/include/mbedtls/sha256.h
+-- Installing: /workspace/destdir/include/mbedtls/sha512.h
+-- Installing: /workspace/destdir/include/mbedtls/ssl.h
+-- Installing: /workspace/destdir/include/mbedtls/ssl_cache.h
+-- Installing: /workspace/destdir/include/mbedtls/ssl_ciphersuites.h
+-- Installing: /workspace/destdir/include/mbedtls/ssl_cookie.h
+-- Installing: /workspace/destdir/include/mbedtls/ssl_internal.h
+-- Installing: /workspace/destdir/include/mbedtls/ssl_ticket.h
+-- Installing: /workspace/destdir/include/mbedtls/threading.h
+-- Installing: /workspace/destdir/include/mbedtls/timing.h
+-- Installing: /workspace/destdir/include/mbedtls/version.h
+-- Installing: /workspace/destdir/include/mbedtls/x509.h
+-- Installing: /workspace/destdir/include/mbedtls/x509_crl.h
+-- Installing: /workspace/destdir/include/mbedtls/x509_crt.h
+-- Installing: /workspace/destdir/include/mbedtls/x509_csr.h
+-- Installing: /workspace/destdir/include/mbedtls/xtea.h
+-- Installing: /workspace/destdir/bin/aescrypt2
+-- Set runtime path of "/workspace/destdir/bin/aescrypt2" to ""
+-- Installing: /workspace/destdir/bin/crypt_and_hash
+-- Set runtime path of "/workspace/destdir/bin/crypt_and_hash" to ""
+-- Installing: /workspace/destdir/bin/hello
+-- Set runtime path of "/workspace/destdir/bin/hello" to ""
+-- Installing: /workspace/destdir/bin/generic_sum
+-- Set runtime path of "/workspace/destdir/bin/generic_sum" to ""
+-- Installing: /workspace/destdir/bin/dh_client
+-- Set runtime path of "/workspace/destdir/bin/dh_client" to ""
+-- Installing: /workspace/destdir/bin/dh_genprime
+-- Set runtime path of "/workspace/destdir/bin/dh_genprime" to ""
+-- Installing: /workspace/destdir/bin/dh_server
+-- Set runtime path of "/workspace/destdir/bin/dh_server" to ""
+-- Installing: /workspace/destdir/bin/key_app
+-- Set runtime path of "/workspace/destdir/bin/key_app" to ""
+-- Installing: /workspace/destdir/bin/mpi_demo
+-- Set runtime path of "/workspace/destdir/bin/mpi_demo" to ""
+-- Installing: /workspace/destdir/bin/rsa_genkey
+-- Set runtime path of "/workspace/destdir/bin/rsa_genkey" to ""
+-- Installing: /workspace/destdir/bin/rsa_sign
+-- Set runtime path of "/workspace/destdir/bin/rsa_sign" to ""
+-- Installing: /workspace/destdir/bin/rsa_verify
+-- Set runtime path of "/workspace/destdir/bin/rsa_verify" to ""
+-- Installing: /workspace/destdir/bin/rsa_encrypt
+-- Set runtime path of "/workspace/destdir/bin/rsa_encrypt" to ""
+-- Installing: /workspace/destdir/bin/rsa_decrypt
+-- Set runtime path of "/workspace/destdir/bin/rsa_decrypt" to ""
+-- Installing: /workspace/destdir/bin/pk_encrypt
+-- Set runtime path of "/workspace/destdir/bin/pk_encrypt" to ""
+-- Installing: /workspace/destdir/bin/pk_decrypt
+-- Set runtime path of "/workspace/destdir/bin/pk_decrypt" to ""
+-- Installing: /workspace/destdir/bin/pk_sign
+-- Set runtime path of "/workspace/destdir/bin/pk_sign" to ""
+-- Installing: /workspace/destdir/bin/pk_verify
+-- Set runtime path of "/workspace/destdir/bin/pk_verify" to ""
+-- Installing: /workspace/destdir/bin/gen_key
+-- Set runtime path of "/workspace/destdir/bin/gen_key" to ""
+-- Installing: /workspace/destdir/bin/gen_random_havege
+-- Set runtime path of "/workspace/destdir/bin/gen_random_havege" to ""
+-- Installing: /workspace/destdir/bin/gen_random_ctr_drbg
+-- Set runtime path of "/workspace/destdir/bin/gen_random_ctr_drbg" to ""
+-- Installing: /workspace/destdir/bin/gen_entropy
+-- Set runtime path of "/workspace/destdir/bin/gen_entropy" to ""
+-- Installing: /workspace/destdir/bin/dtls_client
+-- Set runtime path of "/workspace/destdir/bin/dtls_client" to ""
+-- Installing: /workspace/destdir/bin/dtls_server
+-- Set runtime path of "/workspace/destdir/bin/dtls_server" to ""
+-- Installing: /workspace/destdir/bin/ssl_client1
+-- Set runtime path of "/workspace/destdir/bin/ssl_client1" to ""
+-- Installing: /workspace/destdir/bin/ssl_client2
+-- Set runtime path of "/workspace/destdir/bin/ssl_client2" to ""
+-- Installing: /workspace/destdir/bin/ssl_server
+-- Set runtime path of "/workspace/destdir/bin/ssl_server" to ""
+-- Installing: /workspace/destdir/bin/ssl_fork_server
+-- Set runtime path of "/workspace/destdir/bin/ssl_fork_server" to ""
+-- Installing: /workspace/destdir/bin/ssl_mail_client
+-- Set runtime path of "/workspace/destdir/bin/ssl_mail_client" to ""
+-- Installing: /workspace/destdir/bin/mini_client
+-- Set runtime path of "/workspace/destdir/bin/mini_client" to ""
+-- Installing: /workspace/destdir/bin/ssl_pthread_server
+-- Set runtime path of "/workspace/destdir/bin/ssl_pthread_server" to ""
+-- Installing: /workspace/destdir/bin/selftest
+-- Set runtime path of "/workspace/destdir/bin/selftest" to ""
+-- Installing: /workspace/destdir/bin/benchmark
+-- Set runtime path of "/workspace/destdir/bin/benchmark" to ""
+-- Installing: /workspace/destdir/bin/ssl_cert_test
+-- Set runtime path of "/workspace/destdir/bin/ssl_cert_test" to ""
+-- Installing: /workspace/destdir/bin/udp_proxy
+-- Set runtime path of "/workspace/destdir/bin/udp_proxy" to ""
+-- Installing: /workspace/destdir/bin/cert_app
+-- Set runtime path of "/workspace/destdir/bin/cert_app" to ""
+-- Installing: /workspace/destdir/bin/crl_app
+-- Set runtime path of "/workspace/destdir/bin/crl_app" to ""
+-- Installing: /workspace/destdir/bin/req_app
+-- Set runtime path of "/workspace/destdir/bin/req_app" to ""
+-- Installing: /workspace/destdir/bin/cert_req
+-- Set runtime path of "/workspace/destdir/bin/cert_req" to ""
+-- Installing: /workspace/destdir/bin/cert_write
+-- Set runtime path of "/workspace/destdir/bin/cert_write" to ""
+-- Installing: /workspace/destdir/bin/strerror
+-- Set runtime path of "/workspace/destdir/bin/strerror" to ""
+-- Installing: /workspace/destdir/bin/pem2der
+-- Set runtime path of "/workspace/destdir/bin/pem2der" to ""
+ ---> make install
+verbose sandbox enabled (running in unprivileged container mode)
+Parsed --rootfs as "/home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/Rootfs.v2018.11.11.x86_64-linux-gnu"
+Parsed --cd as "/workspace/srcdir"
+Parsed --workspace as "/home/travis/build/JuliaWeb/MbedTLSBuilder/build/x86_64-linux-gnu/78mc4j2w" -> "/workspace"
+Parsed --workspace as "/home/travis/build/JuliaWeb/MbedTLSBuilder/build/x86_64-linux-gnu/78mc4j2w/metadir" -> "/meta"
+Parsed --map as "/home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/BaseCompilerShard-x86_64-linux-gnu.v2018.11.11.x86_64-linux-gnu" -> "/opt/x86_64-linux-gnu/BaseCompilerShard-2018.11.11"
+Parsed --map as "/home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/GCC-x86_64-linux-gnu.v4.8.5.x86_64-linux-gnu" -> "/opt/x86_64-linux-gnu/GCC-4.8.5"
+Parsed --map as "/home/travis/.julia/packages/BinaryBuilder/vkHhH/deps/mounts/LLVM.v6.0.1-0.x86_64-linux-gnu" -> "/opt/x86_64-linux-gnu/LLVM-6.0.1-0"
+Child Process PID is 15899
+--> Mapping 2000:2000 to root:root within container namespace
+Child Process exited, exit code 0

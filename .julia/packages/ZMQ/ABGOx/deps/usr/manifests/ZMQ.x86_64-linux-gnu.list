@@ -1,0 +1,9 @@
+include/zmq.h
+include/zmq_utils.h
+logs/ZMQ.log
+lib/pkgconfig/libzmq.pc
+lib/libzmq.la
+lib/libzmq.so.5.1.5
+lib/libzmq.so
+lib/libzmq.so.5
+lib/libzmq.a
