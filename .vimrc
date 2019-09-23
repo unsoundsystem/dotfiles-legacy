@@ -44,11 +44,14 @@ else
 	endif
 endif
 
-"filetype
+"filetype and Templetes
 augroup vimrc    
         au!    
         au BufNewFile,BufRead *.jl setfiletype julia    
         au BufNewFile,BufNewFile *.csv setfiletype csv    
+	au BufNewfile *.c 0r ~/Templetes/c.c
+	au BufNewfile *.jl 0r ~/Templetes/julia.jl
+	au BufNewFile *.sh 0r ~/Templetes/shell.sh
 augroup END    
 
 "install if not installed    

@@ -54,4 +54,6 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 syndaemon -i 0.5 -t -k &
 powerline-daemon -q &
-exec i3
+libinput-gestures-setup start
+#exec i3
+exec tdm --xstart

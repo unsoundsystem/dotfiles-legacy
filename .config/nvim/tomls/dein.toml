@@ -62,3 +62,11 @@ hook_source = 'let g:default_julia_version = "1.1"'
 
 [[plugins]]
 repo = 'thinca/vim-quickrun'
+
+[[plugins]]
+repo = 'w0rp/ale'
+
+#[[plugins]]
+#repo = 'neoclide/coc.nvim'
+#marge = '0'
+#rev = 'release'

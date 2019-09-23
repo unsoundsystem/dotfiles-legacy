@@ -43,10 +43,10 @@ bindsym $mod+d exec dmenu_run -fn 'HackGen'
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
+bindsym $mod+h focus left
 bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+j focus up
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -55,10 +55,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -67,7 +67,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+#bindhym $mod+Control+Shift+h split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -181,8 +181,10 @@ bar {
 
 # Start fcitx
 exec --no-startup-id fcitx
+
 #wallpaper
 exec --no-startup-id feh --bg-scale --randomize  /home/sinai/Pictures/wallpapers/*
+
 #volume
 bindsym XF86AudioRaiseVolume exec amixer set Master 5%+
 bindsym XF86AudioLowerVolume exec amixer set Master 5%-
@@ -190,3 +192,8 @@ bindsym XF86AudioLowerVolume exec amixer set Master 5%-
 bindsym Control+Mod1+l exec i3lock -i /home/sinai/Pictures/UBeWVaL.png
 bindsym Mod1+n exec st -e ncmpcpp
 bindsym Mod1+i exec st -e ranger
+bindsym Mod1+t exec st -e tmux
+
+#touch pad
+bindsym Mod1+F8 exec synclient TouchpadOff=1
+bindsym Mod1+F9 exec synclient TouchpadOff=0
