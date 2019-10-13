@@ -66,6 +66,12 @@ repo = 'thinca/vim-quickrun'
 [[plugins]]
 repo = 'w0rp/ale'
 
+[[plugins]]
+repo = 'philj56/vim-asm-indent'
+
+[[plugins]]
+repo = 'suoto/vim-hdl'
+
 #[[plugins]]
 #repo = 'neoclide/coc.nvim'
 #marge = '0'

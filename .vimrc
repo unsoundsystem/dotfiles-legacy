@@ -4,6 +4,7 @@ filetype plugin indent on
 if &compatible    
   set nocompatible    
 endif    
+
 " Add the dein installation directory into runtimepath    
 set runtimepath+=/home/sinai/.cache/dein/repos/github.com/Shougo/dein.vim    
 
@@ -11,8 +12,8 @@ if has('nvim')
 	set undodir=$XDG_CONFIG_HOME/nvim/undo
 	set viminfo+='1000,\"1000,s1000,:1000,n~/.config/nvim/viminfo
 	source ~/.config/nvim/mycommands/MakeQuery.vim
-	"set termguicolors
-	"set pumblend=20
+	set termguicolors
+	set pumblend=30
 	
 	if dein#load_state('/home/sinai/.cache/dein')
 		call dein#begin('/home/sinai/.cache/dein')
@@ -48,10 +49,13 @@ endif
 augroup vimrc    
         au!    
         au BufNewFile,BufRead *.jl setfiletype julia    
+        au BufNewFile,BufRead *.zen  setfiletype zen    
         au BufNewFile,BufNewFile *.csv setfiletype csv    
+        au BufNewFile,BufNewFile *.lds setfiletype ld
 	au BufNewfile *.c 0r ~/Templetes/c.c
 	au BufNewfile *.jl 0r ~/Templetes/julia.jl
 	au BufNewFile *.sh 0r ~/Templetes/shell.sh
+	au BufNewFile *.vhd 0r ~/Templetes/vhdl.vhd
 augroup END    
 
 "install if not installed    
@@ -68,10 +72,16 @@ set clipboard+=unnamed
 set hidden
 set nobackup
 set tags=./tags;,tags;
+
 set belloff=all
-set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+set fileencodings=utf-8,sjis,iso-2022-jp,euc-jp
 nn <F4> a<C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR><Esc>
 imap <Nul> <Nop>
+set viminfo=
+set termguicolors
+set mouse=n
+set ts=4
+nn tn :tabnew 
 
 "see through
 highlight Normal ctermbg=none

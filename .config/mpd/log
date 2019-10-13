@@ -4193,3 +4193,1717 @@ Sep 23 10:01 : zeroconf: No global port, disabling zeroconf
 Sep 23 10:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 =======
 >>>>>>> bed1b4eca04042c753d7236b5c68fc166f759fda
+Sep 27 08:07 : zeroconf: No global port, disabling zeroconf
+Sep 27 08:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 27 08:07 : client: [0] opened from 127.0.0.1:49878
+Sep 27 08:07 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 27 08:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 27 08:07 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 27 08:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 27 08:08 : player: played "文単　英検二級１/50 - Unknown Artist - Track 50.wav"
+Sep 27 08:11 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 27 08:12 : player: played "文単　英検二級１/50 - Unknown Artist - Track 50.wav"
+Sep 27 08:13 : player: played "文単　英検二級１/52 - Unknown Artist - Track 52.wav"
+Sep 27 08:14 : player: played "文単　英検二級１/53 - Unknown Artist - Track 53.wav"
+Sep 27 08:15 : player: played "文単　英検二級１/54 - Unknown Artist - Track 54.wav"
+Sep 27 08:16 : player: played "文単　英検二級１/55 - Unknown Artist - Track 55.wav"
+Sep 27 08:17 : player: played "文単　英検二級１/56 - Unknown Artist - Track 56.wav"
+Sep 27 08:18 : player: played "文単　英検二級１/57 - Unknown Artist - Track 57.wav"
+Sep 27 08:18 : client: [0] closed
+Sep 27 11:05 : zeroconf: No global port, disabling zeroconf
+Sep 27 11:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 08:00 : client: [0] opened from 127.0.0.1:42192
+Sep 28 08:00 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 08:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 08:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 08:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 08:01 : player: played "文単　英検二級１/52 - Unknown Artist - Track 52.wav"
+Sep 28 08:03 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 08:03 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 08:04 : player: played "文単　英検二級１/52 - Unknown Artist - Track 52.wav"
+Sep 28 08:04 : player: played "文単　英検二級１/54 - Unknown Artist - Track 54.wav"
+Sep 28 08:06 : player: played "文単　英検二級１/55 - Unknown Artist - Track 55.wav"
+Sep 28 08:06 : player: played "文単　英検二級１/56 - Unknown Artist - Track 56.wav"
+Sep 28 08:08 : player: played "文単　英検二級１/57 - Unknown Artist - Track 57.wav"
+Sep 28 08:08 : player: played "文単　英検二級１/58 - Unknown Artist - Track 58.wav"
+Sep 28 08:10 : player: played "文単　英検二級１/59 - Unknown Artist - Track 59.wav"
+Sep 28 08:11 : player: played "文単　英検二級１/60 - Unknown Artist - Track 60.wav"
+Sep 28 08:12 : player: played "文単　英検二級１/61 - Unknown Artist - Track 61.wav"
+Sep 28 08:12 : player: played "文単　英検二級１/62 - Unknown Artist - Track 62.wav"
+Sep 28 08:12 : client: [0] closed
+Sep 28 13:33 : zeroconf: No global port, disabling zeroconf
+Sep 28 13:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 17:00 : client: [0] opened from 127.0.0.1:39684
+Sep 28 17:00 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 17:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:01 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 17:01 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:01 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:04 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 28 17:04 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:04 : player: played "bgm/Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv"
+Sep 28 17:04 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:04 : player: played "bgm/Guiano - 忘れたいことばっかだ (feat.flower)-Fv-eR_FoSPo.webm"
+Sep 28 17:04 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:04 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:04 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:04 : client: [0] closed
+Sep 28 17:09 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 28 17:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:09 : player: played "bgm/Guiano - 忘れたいことばっかだ (feat.flower)-Fv-eR_FoSPo.webm"
+Sep 28 17:12 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 28 17:12 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:12 : player: played "bgm/Guiano - 死んでしまったのだろうか (feat.flower)-_xXenYRkbKs.mkv"
+Sep 28 17:16 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 28 17:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:16 : player: played "bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv"
+Sep 28 17:16 : client: [1] opened from 127.0.0.1:39728
+Sep 28 17:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:16 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:17 : client: [1] closed
+Sep 28 17:21 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 28 17:21 : player: played "bgm/MV『快晴』Orangestar feat.IA-BwGpXK3W6tE.webm"
+Sep 28 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:25 : player: played "bgm/never_Otomachi Una-sm34259066.mp4"
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : player: played "bgm/Norah Jones - Summertime-xJOtaWyEzaI.mkv"
+Sep 28 17:30 : client: [2] opened from 127.0.0.1:39804
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:30 : ffmpeg/libdav1d: libdav1d 0.4.0
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : ffmpeg/libdav1d: libdav1d 0.4.0
+Sep 28 17:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:30 : client: [2] closed
+Sep 28 17:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:34 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 28 17:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:34 : player: played "bgm/シャルル　歌ってみたのはメガテラ･ゼロ-VdKyMg-FhU4.mkv"
+Sep 28 17:34 : client: [3] opened from 127.0.0.1:39812
+Sep 28 17:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:34 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:34 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:34 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:34 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:34 : client: [3] closed
+Sep 28 17:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:38 : player: played "bgm/ディカディズム _ Flower･心華 - ぬゆり.mp3"
+Sep 28 17:38 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:38 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:38 : client: [4] opened from 127.0.0.1:39824
+Sep 28 17:38 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:38 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:38 : client: [4] closed
+Sep 28 17:41 : player: played "bgm/ピコン - ガランド ft. 初音ミク.mp3"
+Sep 28 17:41 : client: [5] opened from 127.0.0.1:40026
+Sep 28 17:41 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:41 : client: [5] closed
+Sep 28 17:46 : player: played "bgm/プロトディスコ _ flower - ぬゆり.mp3"
+Sep 28 17:49 : ffmpeg/libdav1d: libdav1d 0.4.0
+Sep 28 17:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:49 : player: played "bgm/メーベル／flower.mp3"
+Sep 28 17:49 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:49 : client: [6] opened from 127.0.0.1:40040
+Sep 28 17:49 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:49 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:49 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:49 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:49 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:49 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:49 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:49 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:49 : client: [6] closed
+Sep 28 17:53 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 28 17:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:53 : client: [7] opened from 127.0.0.1:40054
+Sep 28 17:53 : player: played "bgm/世迷言_4ma15 feat.滲音かこい-qJ20KjcryOQ.mkv"
+Sep 28 17:53 : player: played "bgm/前前前世 (movie ver.) RADWIMPS MV-PDSkFeMVNFs.webm"
+Sep 28 17:54 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:54 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:54 : client: [7] closed
+Sep 28 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:57 : player: played "bgm/然れど応答は冴えず_12uck feat.重音テト.mp3"
+Sep 28 17:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:57 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:57 : client: [8] opened from 127.0.0.1:40066
+Sep 28 17:57 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:57 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:57 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:57 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:57 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:57 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 17:58 : client: [8] closed
+Sep 28 18:01 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 28 18:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 18:02 : player: played "bgm/菅田将暉 『まちがいさがし』-7940nuwCEYA.mkv"
+Sep 28 18:05 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 28 18:05 : player: played "bgm/蛍が飛んだ_4ma15 feat.滲音かこい-7KUP6XR5Tpg.mkv"
+Sep 28 18:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 18:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 18:11 : player: played "bgm/記号として RADWIMPS MV.mp3"
+Sep 28 18:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 18:11 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 18:11 : client: [9] opened from 127.0.0.1:40152
+Sep 28 18:11 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 18:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 18:11 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 18:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 18:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 18:11 : client: [9] closed
+Sep 28 18:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 18:15 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 28 18:15 : player: played "bgm/須田景凪 「MOIL」MV-U097VmiGTxY.webm"
+Sep 28 18:15 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 18:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 18:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 18:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 18:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 18:15 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 18:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 18:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 28 18:15 : player: played "bgm/須田景凪 │ バルーン - 年末なので「パレイドリア」のリアレンジ音源を添えておきます今年もお世話に.mp3"
+Sep 28 18:15 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 28 18:19 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 28 18:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 18:19 : player: played "bgm/須田景凪「Cambell」MV-DKUmfMmsqG0.mkv"
+Sep 28 18:23 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 28 18:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 18:23 : player: played "bgm/須田景凪「veil」MV-n7VZxg9pxkg.mkv"
+Sep 28 18:27 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 28 18:27 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 28 18:27 : player: played "bgm/須田景凪「パレイドリア」MV-NQ12-0TYgAs.webm"
+Sep 28 18:27 : client: [10] opened from 127.0.0.1:40186
+Sep 28 18:27 : player: played "bgm/須田景凪「レド」MV-FNn6E_fkxFg.mkv"
+Sep 28 18:27 : client: [10] closed
+Sep 29 08:03 : client: [11] opened from 127.0.0.1:54294
+Sep 29 08:03 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 08:05 : player: played "文単　英検二級１/53 - Unknown Artist - Track 53.wav"
+Sep 29 08:05 : player: played "文単　英検二級１/53 - Unknown Artist - Track 53.wav"
+Sep 29 08:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 08:06 : client: [11] closed
+Sep 29 08:06 : client: [12] opened from 127.0.0.1:54356
+Sep 29 08:07 : player: played "文単　英検二級１/54 - Unknown Artist - Track 54.wav"
+Sep 29 08:09 : player: played "文単　英検二級１/54 - Unknown Artist - Track 54.wav"
+Sep 29 08:10 : player: played "文単　英検二級１/56 - Unknown Artist - Track 56.wav"
+Sep 29 08:11 : player: played "文単　英検二級１/57 - Unknown Artist - Track 57.wav"
+Sep 29 08:12 : player: played "文単　英検二級１/58 - Unknown Artist - Track 58.wav"
+Sep 29 08:13 : player: played "文単　英検二級１/59 - Unknown Artist - Track 59.wav"
+Sep 29 08:14 : player: played "文単　英検二級１/60 - Unknown Artist - Track 60.wav"
+Sep 29 08:15 : player: played "文単　英検二級１/61 - Unknown Artist - Track 61.wav"
+Sep 29 08:16 : player: played "文単　英検二級１/62 - Unknown Artist - Track 62.wav"
+Sep 29 08:17 : player: played "文単　英検二級１/63 - Unknown Artist - Track 63.wav"
+Sep 29 08:19 : player: played "文単　英検二級１/64 - Unknown Artist - Track 64.wav"
+Sep 29 08:19 : player: played "文単　英検二級１/01 - Unknown Artist - Track 1.wav"
+Sep 29 08:19 : client: [12] closed
+Sep 29 16:53 : client: [13] opened from 127.0.0.1:39438
+Sep 29 16:54 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 16:54 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 29 16:54 : client: [13] closed
+Sep 29 16:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 16:58 : player: played "bgm/恋は渾沌の隷也　歌詞付き-aEHxqBHCkFc.mkv"
+Sep 29 16:58 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 29 16:58 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 17:01 : client: [14] opened from 127.0.0.1:39452
+Sep 29 17:01 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 17:01 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 29 17:01 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 29 17:01 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Sep 29 17:01 : client: [14] closed
+Sep 29 17:08 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 29 17:08 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 17:08 : player: played "bgm/愛にできることはまだあるかい RADWIMPS MV-EQ94zflNqn4.mkv"
+Sep 29 17:14 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 29 17:14 : player: played "bgm/折坂悠太 - 朝顔 (Official Music Video) _ Yuta Orisaka - Asagao-tZs7LDOxRes.mkv"
+Sep 29 17:14 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 29 17:14 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 17:19 : player: played "bgm/有機酸_ewe「退紅トレイン」feat.初音ミク MV.mp3"
+Sep 29 17:38 : player: played "bgm/東方爆音ジャズBESTメドレー【東京アクティブNEETs】.mp3"
+Sep 29 17:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 17:43 : player: played "bgm/泣けど喚けど朝がきて_12uck feat.重音テト.mp3"
+Sep 29 17:43 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 29 17:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 17:47 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 29 17:48 : player: played "bgm/深夜高速_重音テト【カバー】-MrBPRaDHGYE.mkv"
+Sep 29 17:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 17:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 17:51 : player: played "bgm/然れど応答は冴えず_12uck feat.重音テト.mp3"
+Sep 29 17:51 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 29 17:51 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 17:54 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 29 17:55 : player: played "bgm/眠れぬ夜は繰り返す_4ma15 feat.重音テト-6ji0sW7Gaw0.mkv"
+Sep 29 17:55 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 17:58 : player: played "bgm/神山 羊 - YELLOW【Music Video】_ Yoh Kamiyama - YELLOW.mp3"
+Sep 29 17:58 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 29 17:58 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 18:01 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 29 18:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 18:02 : player: played "bgm/神山羊 - 青い棘【Music Video】_ Yoh Kamiyama - Aoi Toge-PVlVzX6OLns.mkv"
+Sep 29 18:07 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 29 18:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 18:07 : player: played "bgm/米津玄師  MV「 灰色と青（ ＋菅田将暉 ）」-gJX2iy6nhHc.webm"
+Sep 29 18:12 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 29 18:12 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 18:12 : player: played "bgm/米津玄師  MV「Lemon」-SX_ViT4Ra7k.webm"
+Sep 29 18:17 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 29 18:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 18:17 : player: played "bgm/米津玄師  MV「アイネクライネ」--EKxzId_Sj4.mkv"
+Sep 29 18:20 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 29 18:20 : player: played "bgm/米津玄師 MV「Flamingo」-Uh6dkL1M9DM.webm"
+Sep 29 18:20 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 18:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 18:24 : player: played "bgm/米津玄師 MV「Flamingo」.mp3"
+Sep 29 18:24 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 29 18:24 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 18:27 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 29 18:27 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 18:27 : player: played "bgm/米津玄師 MV「パプリカ」Kenshi Yonezu _ Paprika-s582L3gujnw.mkv"
+Sep 29 18:31 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 29 18:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 18:32 : player: played "bgm/米津玄師 MV「海の幽霊」Spirits of the Sea-1s84rIhPuhk.mkv"
+Sep 29 18:36 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 29 18:36 : player: played "bgm/米津玄師 MV「馬と鹿」Uma to Shika-ptnYBctoexk.mkv"
+Sep 29 18:36 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 18:41 : player: played "bgm/終末じゃない _ Flower･心華 - ぬゆり.mp3"
+Sep 29 18:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 18:45 : player: played "bgm/花瓶に触れた／flower.mp3"
+Sep 29 18:45 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 29 18:45 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 18:48 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 29 18:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 18:48 : player: played "bgm/花瓶に触れた歌ってみたのはメガテラ・ゼロ-8xi4m-CzuJU.mkv"
+Sep 29 18:49 : client: [15] opened from 127.0.0.1:43638
+Sep 29 18:53 : client: [16] opened from 127.0.0.1:44180
+Sep 29 18:53 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 29 18:53 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 29 18:54 : client: [16] closed
+Sep 29 18:54 : client: [15] closed
+Sep 29 18:56 : client: [17] opened from 127.0.0.1:44184
+Sep 29 18:56 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 29 18:56 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 18:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 18:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 18:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 29 18:57 : client: [17] closed
+Sep 29 18:57 : client: [18] opened from 127.0.0.1:44186
+Sep 29 18:57 : client: [18] closed
+Sep 29 19:00 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 29 19:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 29 19:01 : player: played "bgm/菅田将暉 『まちがいさがし』-7940nuwCEYA.mkv"
+Sep 29 19:01 : client: [19] opened from 127.0.0.1:44256
+Sep 29 19:01 : player: played "bgm/蛍が飛んだ_4ma15 feat.滲音かこい-7KUP6XR5Tpg.mkv"
+Sep 29 19:01 : client: [19] closed
+Sep 30 08:03 : zeroconf: No global port, disabling zeroconf
+Sep 30 08:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 30 08:03 : client: [0] opened from 127.0.0.1:48264
+Sep 30 08:03 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 30 08:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 30 08:03 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 30 08:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 30 08:04 : player: played "文単　英検二級１/56 - Unknown Artist - Track 56.wav"
+Sep 30 08:07 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 30 08:08 : player: played "文単　英検二級１/12 - Unknown Artist - Track 12.wav"
+Sep 30 08:09 : player: played "文単　英検二級１/13 - Unknown Artist - Track 13.wav"
+Sep 30 08:09 : player: played "文単　英検二級１/14 - Unknown Artist - Track 14.wav"
+Sep 30 08:10 : player: played "文単　英検二級１/15 - Unknown Artist - Track 15.wav"
+Sep 30 08:11 : player: played "文単　英検二級１/16 - Unknown Artist - Track 16.wav"
+Sep 30 08:12 : player: played "文単　英検二級１/17 - Unknown Artist - Track 17.wav"
+Sep 30 08:13 : player: played "文単　英検二級１/18 - Unknown Artist - Track 18.wav"
+Sep 30 08:14 : player: played "文単　英検二級１/19 - Unknown Artist - Track 19.wav"
+Sep 30 08:15 : player: played "文単　英検二級１/20 - Unknown Artist - Track 20.wav"
+Sep 30 08:16 : player: played "文単　英検二級１/21 - Unknown Artist - Track 21.wav"
+Sep 30 08:16 : client: [0] closed
+Sep 30 08:44 : client: [1] opened from 127.0.0.1:48298
+Sep 30 08:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 30 08:44 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 30 08:44 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 30 08:44 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 30 08:44 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 30 08:48 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Sep 30 08:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 30 08:48 : player: played "bgm/菅田将暉 『まちがいさがし』-7940nuwCEYA.mkv"
+Sep 30 08:51 : client: [1] closed
+Sep 30 08:51 : client: [2] opened from 127.0.0.1:48848
+Sep 30 08:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Sep 30 08:51 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 30 08:51 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 30 08:55 : player: played "bgm/米津玄師 MV「馬と鹿」Uma to Shika-ptnYBctoexk.mkv"
+Sep 30 08:56 : client: [2] closed
+Sep 30 11:05 : zeroconf: No global port, disabling zeroconf
+Sep 30 11:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 30 18:57 : zeroconf: No global port, disabling zeroconf
+Sep 30 18:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 06:50 : zeroconf: No global port, disabling zeroconf
+Oct 01 06:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 06:50 : client: [0] opened from 127.0.0.1:34260
+Oct 01 06:50 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 01 06:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 06:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 01 06:50 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 01 06:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 06:50 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 01 06:54 : player: played "bgm/菅田将暉 『まちがいさがし』-7940nuwCEYA.mkv"
+Oct 01 06:54 : client: [0] closed
+Oct 01 08:02 : client: [1] opened from 127.0.0.1:34286
+Oct 01 08:02 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 01 08:03 : player: played "文単　英検二級１/58 - Unknown Artist - Track 58.wav"
+Oct 01 08:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 01 08:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 01 08:06 : player: played "文単　英検二級１/58 - Unknown Artist - Track 58.wav"
+Oct 01 08:07 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 01 08:08 : player: played "文単　英検二級１/59 - Unknown Artist - Track 59.wav"
+Oct 01 08:09 : player: played "文単　英検二級１/60 - Unknown Artist - Track 60.wav"
+Oct 01 08:10 : player: played "文単　英検二級１/61 - Unknown Artist - Track 61.wav"
+Oct 01 08:11 : player: played "文単　英検二級１/62 - Unknown Artist - Track 62.wav"
+Oct 01 08:12 : player: played "文単　英検二級１/63 - Unknown Artist - Track 63.wav"
+Oct 01 08:14 : player: played "文単　英検二級１/64 - Unknown Artist - Track 64.wav"
+Oct 01 08:15 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 01 08:16 : player: played "文単　英検二級１/27 - Unknown Artist - Track 27.wav"
+Oct 01 08:17 : player: played "文単　英検二級１/28 - Unknown Artist - Track 28.wav"
+Oct 01 08:17 : client: [1] closed
+Oct 01 08:17 : client: [2] opened from 127.0.0.1:34302
+Oct 01 08:17 : client: [2] closed
+Oct 02 08:01 : zeroconf: No global port, disabling zeroconf
+Oct 02 08:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 02 08:01 : client: [0] opened from 127.0.0.1:42266
+Oct 02 08:01 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 02 08:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 02 08:01 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 02 08:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 02 08:02 : player: played "文単　英検二級１/60 - Unknown Artist - Track 60.wav"
+Oct 02 08:04 : player: played "文単　英検二級１/60 - Unknown Artist - Track 60.wav"
+Oct 02 08:04 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 02 08:06 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 02 08:07 : player: played "文単　英検二級１/60 - Unknown Artist - Track 60.wav"
+Oct 02 08:08 : player: played "文単　英検二級１/61 - Unknown Artist - Track 61.wav"
+Oct 02 08:08 : player: played "文単　英検二級１/62 - Unknown Artist - Track 62.wav"
+Oct 02 08:10 : player: played "文単　英検二級１/63 - Unknown Artist - Track 63.wav"
+Oct 02 08:12 : player: played "文単　英検二級１/64 - Unknown Artist - Track 64.wav"
+Oct 02 08:13 : player: played "文単　英検二級２/02 - Unknown Artist - Track 2.wav"
+Oct 02 08:14 : player: played "文単　英検二級２/03 - Unknown Artist - Track 3.wav"
+Oct 02 08:15 : player: played "文単　英検二級２/04 - Unknown Artist - Track 4.wav"
+Oct 02 08:16 : player: played "文単　英検二級２/05 - Unknown Artist - Track 5.wav"
+Oct 02 08:16 : player: played "文単　英検二級２/06 - Unknown Artist - Track 6.wav"
+Oct 02 08:16 : client: [0] closed
+Oct 02 08:59 : zeroconf: No global port, disabling zeroconf
+Oct 02 08:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 03 08:03 : zeroconf: No global port, disabling zeroconf
+Oct 03 08:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 03 08:03 : client: [0] opened from 127.0.0.1:42156
+Oct 03 08:03 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 03 08:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 03 08:03 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 03 08:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 03 08:04 : player: played "文単　英検二級１/62 - Unknown Artist - Track 62.wav"
+Oct 03 08:07 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 03 08:08 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 03 08:08 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 03 08:09 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 03 08:09 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 03 08:10 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 03 08:10 : player: played "文単　英検二級１/62 - Unknown Artist - Track 62.wav"
+Oct 03 08:11 : player: played "文単　英検二級１/63 - Unknown Artist - Track 63.wav"
+Oct 03 08:13 : player: played "文単　英検二級１/64 - Unknown Artist - Track 64.wav"
+Oct 03 08:14 : player: played "文単　英検二級２/02 - Unknown Artist - Track 2.wav"
+Oct 03 08:15 : player: played "文単　英検二級２/03 - Unknown Artist - Track 3.wav"
+Oct 03 08:16 : player: played "文単　英検二級２/04 - Unknown Artist - Track 4.wav"
+Oct 03 08:17 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 03 08:17 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 03 08:20 : player: played "bgm/ピコン - ガランド ft. 初音ミク.mp3"
+Oct 03 08:20 : player: played "bgm/ピコン - ガランド ft. 初音ミク.mp3"
+Oct 03 08:53 : client: [0] closed
+Oct 03 08:55 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Oct 03 08:55 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Oct 03 08:55 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Oct 03 08:56 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Oct 03 08:56 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Oct 03 08:56 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Oct 03 08:57 : update: added bgm/ピコン - タタラ ft. 初音ミク-TzqBFURAZDA.mkv
+Oct 03 08:57 : update: added bgm/Picon - タタラ-7MptVZC_qjE.mkv
+Oct 03 08:57 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Oct 03 08:57 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Oct 03 08:57 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Oct 03 08:57 : update: added bgm/ピコン - デドローズ ft. 初音ミク-e45n4pYEDwE.mkv
+Oct 03 08:57 : update: added bgm/Picon - 生活があった-_xzdfU2m4zA.webm
+Oct 03 08:57 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Oct 03 08:57 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Oct 03 08:57 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Oct 03 08:57 : update: added bgm/ピコン - 死ぬにはいい日だった ft. 初音ミク-6XisgRKW9ww.mkv
+Oct 03 08:57 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Oct 03 08:57 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Oct 03 08:57 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Oct 03 08:57 : client: [1] opened from 127.0.0.1:42464
+Oct 03 08:57 : client: [1] closed
+Oct 04 08:00 : zeroconf: No global port, disabling zeroconf
+Oct 04 08:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 04 08:02 : client: [0] opened from 127.0.0.1:48608
+Oct 04 08:02 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 08:02 : exception: Not playing
+Oct 04 08:02 : exception: Not playing
+Oct 04 08:02 : exception: Not playing
+Oct 04 08:02 : exception: Not playing
+Oct 04 08:02 : exception: Not playing
+Oct 04 08:02 : exception: Not playing
+Oct 04 08:02 : exception: Not playing
+Oct 04 08:02 : exception: Not playing
+Oct 04 08:02 : exception: Not playing
+Oct 04 08:02 : exception: Not playing
+Oct 04 08:02 : exception: Not playing
+Oct 04 08:02 : exception: Not playing
+Oct 04 08:02 : exception: Not playing
+Oct 04 08:02 : exception: Not playing
+Oct 04 08:02 : exception: Not playing
+Oct 04 08:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 04 08:02 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 08:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 04 08:05 : player: played "文単　英検二級１/64 - Unknown Artist - Track 64.wav"
+Oct 04 08:06 : player: played "文単　英検二級２/02 - Unknown Artist - Track 2.wav"
+Oct 04 08:07 : player: played "文単　英検二級２/03 - Unknown Artist - Track 3.wav"
+Oct 04 08:08 : player: played "文単　英検二級２/04 - Unknown Artist - Track 4.wav"
+Oct 04 08:09 : player: played "文単　英検二級２/05 - Unknown Artist - Track 5.wav"
+Oct 04 08:10 : player: played "文単　英検二級２/06 - Unknown Artist - Track 6.wav"
+Oct 04 08:11 : player: played "文単　英検二級２/07 - Unknown Artist - Track 7.wav"
+Oct 04 08:12 : player: played "文単　英検二級２/08 - Unknown Artist - Track 8.wav"
+Oct 04 08:14 : player: played "文単　英検二級２/09 - Unknown Artist - Track 9.wav"
+Oct 04 08:14 : player: played "文単　英検二級２/10 - Unknown Artist - Track 10.wav"
+Oct 04 08:16 : player: played "文単　英検二級２/11 - Unknown Artist - Track 11.wav"
+Oct 04 08:17 : player: played "文単　英検二級２/12 - Unknown Artist - Track 12.wav"
+Oct 04 08:18 : player: played "文単　英検二級２/13 - Unknown Artist - Track 13.wav"
+Oct 04 08:18 : player: played "文単　英検二級２/14 - Unknown Artist - Track 14.wav"
+Oct 04 08:20 : player: played "文単　英検二級２/15 - Unknown Artist - Track 15.wav"
+Oct 04 08:20 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 08:20 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 08:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 08:30 : player: played "bgm/【ループ】零の軌跡 Terminal Room-sm14692932.mp4"
+Oct 04 08:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 08:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 08:30 : player: played "bgm/【女性が歌う】Lemon_米津玄師(Full Covered by コバソロ & 春茶)-clU8c2fpk2s.webm"
+Oct 04 08:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 08:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 08:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 08:34 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 08:34 : player: played "bgm/Picon - 生活があった-_xzdfU2m4zA.webm"
+Oct 04 08:34 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 08:34 : player: played "bgm/PinocchioP - Nobody Makes Sense _ ピノキオピー- ぼくらはみんな意.mp3"
+Oct 04 08:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 08:34 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 08:34 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 08:36 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 08:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 08:36 : player: played "bgm/Picon - タタラ-7MptVZC_qjE.mkv"
+Oct 04 08:36 : player: played "bgm/Picon - 生活があった-_xzdfU2m4zA.webm"
+Oct 04 08:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 08:37 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 08:37 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 08:43 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 08:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 08:43 : player: played "bgm/bohemianvoodoo 'Adria Blue' 【Music Video】-gjDrEdEzfQc.mkv"
+Oct 04 08:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 08:43 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 08:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 08:47 : player: played "bgm/never_Otomachi Una-sm34259066.mp4"
+Oct 04 08:47 : player: played "bgm/Norah Jones - Summertime-xJOtaWyEzaI.mkv"
+Oct 04 08:47 : client: [0] closed
+Oct 04 19:43 : client: [1] opened from 127.0.0.1:37722
+Oct 04 19:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 19:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 19:43 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 19:43 : client: [1] closed
+Oct 04 19:47 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 19:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 19:47 : player: played "bgm/米津玄師 MV「パプリカ」Kenshi Yonezu _ Paprika-s582L3gujnw.mkv"
+Oct 04 19:51 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 19:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 19:51 : player: played "bgm/米津玄師 MV「海の幽霊」Spirits of the Sea-1s84rIhPuhk.mkv"
+Oct 04 19:56 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 19:56 : player: played "bgm/米津玄師 MV「馬と鹿」Uma to Shika-ptnYBctoexk.mkv"
+Oct 04 19:56 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 19:56 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 20:00 : player: played "bgm/終末じゃない _ Flower･心華 - ぬゆり.mp3"
+Oct 04 20:04 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 20:04 : player: played "bgm/花瓶に触れた／flower.mp3"
+Oct 04 20:04 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 20:04 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 20:08 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 20:08 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 20:08 : player: played "bgm/花瓶に触れた歌ってみたのはメガテラ・ゼロ-8xi4m-CzuJU.mkv"
+Oct 04 20:12 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 20:12 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 20:12 : player: played "bgm/菅田将暉 『まちがいさがし』-7940nuwCEYA.mkv"
+Oct 04 20:15 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 20:16 : player: played "bgm/蛍が飛んだ_4ma15 feat.滲音かこい-7KUP6XR5Tpg.mkv"
+Oct 04 20:16 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 20:16 : client: [2] opened from 127.0.0.1:37914
+Oct 04 20:44 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 20:44 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 20:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 20:50 : player: played "bgm/記号として RADWIMPS MV.mp3"
+Oct 04 20:50 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 20:53 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 20:53 : player: played "bgm/雨とペトラ／flower-PdfdOhYVU40.mkv"
+Oct 04 20:53 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 20:53 : client: [3] opened from 127.0.0.1:37986
+Oct 04 20:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 20:53 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 20:53 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 20:53 : client: [3] closed
+Oct 04 20:57 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 20:57 : player: played "bgm/須田景凪 「MOIL」MV-U097VmiGTxY.webm"
+Oct 04 20:57 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 20:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 20:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 20:58 : player: played "bgm/須田景凪 │ バルーン - 年末なので「パレイドリア」のリアレンジ音源を添えておきます今年もお世話に.mp3"
+Oct 04 20:58 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 20:58 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:00 : client: [2] closed
+Oct 04 21:01 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 21:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:02 : player: played "bgm/須田景凪「Cambell」MV-DKUmfMmsqG0.mkv"
+Oct 04 21:05 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 21:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:05 : player: played "bgm/須田景凪「veil」MV-n7VZxg9pxkg.mkv"
+Oct 04 21:09 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 21:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:09 : player: played "bgm/須田景凪「パレイドリア」MV-NQ12-0TYgAs.webm"
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 21:13 : player: played "bgm/須田景凪「レド」MV-FNn6E_fkxFg.mkv"
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : client: [4] opened from 127.0.0.1:38236
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:13 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 21:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:17 : player: played "bgm/恋は渾沌の隷也　歌詞付き-aEHxqBHCkFc.mkv"
+Oct 04 21:17 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:25 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 21:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:25 : player: played "bgm/愛にできることはまだあるかい RADWIMPS MV-EQ94zflNqn4.mkv"
+Oct 04 21:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:25 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 21:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:30 : player: played "bgm/泣けど喚けど朝がきて_12uck feat.重音テト.mp3"
+Oct 04 21:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 21:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:34 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 04 21:34 : player: played "bgm/深夜高速_重音テト【カバー】-MrBPRaDHGYE.mkv"
+Oct 04 21:34 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 04 21:38 : player: played "bgm/然れど応答は冴えず_12uck feat.重音テト.mp3"
+Oct 04 21:38 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 04 21:38 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 04 21:38 : client: [4] closed
+Oct 04 21:38 : client: [5] opened from 127.0.0.1:38790
+Oct 04 21:38 : player: played "bgm/眠れぬ夜は繰り返す_4ma15 feat.重音テト-6ji0sW7Gaw0.mkv"
+Oct 04 21:49 : client: [5] closed
+Oct 05 14:05 : zeroconf: No global port, disabling zeroconf
+Oct 05 14:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 05 16:07 : zeroconf: No global port, disabling zeroconf
+Oct 05 16:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 05 20:48 : zeroconf: No global port, disabling zeroconf
+Oct 05 20:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 06 07:17 : zeroconf: No global port, disabling zeroconf
+Oct 06 07:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 06 09:55 : client: [0] opened from 127.0.0.1:41366
+Oct 06 09:55 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 06 09:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 06 09:55 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 06 09:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 06 09:56 : player: played "文単　英検二級１/64 - Unknown Artist - Track 64.wav"
+Oct 06 09:56 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 06 09:57 : player: played "文単　英検二級２/02 - Unknown Artist - Track 2.wav"
+Oct 06 10:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 06 10:01 : player: played "文単　英検二級２/02 - Unknown Artist - Track 2.wav"
+Oct 06 10:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 06 10:06 : player: played "文単　英検二級２/03 - Unknown Artist - Track 3.wav"
+Oct 06 10:07 : player: played "文単　英検二級２/04 - Unknown Artist - Track 4.wav"
+Oct 06 10:08 : player: played "文単　英検二級２/05 - Unknown Artist - Track 5.wav"
+Oct 06 10:09 : player: played "文単　英検二級２/06 - Unknown Artist - Track 6.wav"
+Oct 06 10:10 : player: played "文単　英検二級２/07 - Unknown Artist - Track 7.wav"
+Oct 06 10:11 : player: played "文単　英検二級２/08 - Unknown Artist - Track 8.wav"
+Oct 06 10:12 : player: played "文単　英検二級２/09 - Unknown Artist - Track 9.wav"
+Oct 06 10:13 : player: played "文単　英検二級２/10 - Unknown Artist - Track 10.wav"
+Oct 06 10:23 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 06 10:23 : player: played "文単　英検二級２/11 - Unknown Artist - Track 11.wav"
+Oct 06 10:24 : player: played "文単　英検二級２/12 - Unknown Artist - Track 12.wav"
+Oct 06 10:25 : player: played "文単　英検二級２/13 - Unknown Artist - Track 13.wav"
+Oct 06 10:25 : player: played "文単　英検二級２/14 - Unknown Artist - Track 14.wav"
+Oct 06 10:25 : client: [0] closed
+Oct 06 10:44 : zeroconf: No global port, disabling zeroconf
+Oct 06 10:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 07 08:39 : client: [0] opened from 127.0.0.1:59750
+Oct 07 08:39 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 07 08:39 : exception: Not playing
+Oct 07 08:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 07 08:39 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 07 08:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 07 08:40 : player: played "文単　英検二級２/04 - Unknown Artist - Track 4.wav"
+Oct 07 08:42 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 07 08:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 07 08:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 07 08:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 07 08:44 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 07 08:44 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 07 08:50 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 07 08:50 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 07 08:50 : player: played "文単　英検二級２/04 - Unknown Artist - Track 4.wav"
+Oct 07 08:51 : player: played "文単　英検二級２/06 - Unknown Artist - Track 6.wav"
+Oct 07 08:52 : player: played "文単　英検二級２/07 - Unknown Artist - Track 7.wav"
+Oct 07 08:53 : player: played "文単　英検二級２/08 - Unknown Artist - Track 8.wav"
+Oct 07 08:54 : player: played "文単　英検二級２/09 - Unknown Artist - Track 9.wav"
+Oct 07 08:55 : player: played "文単　英検二級２/10 - Unknown Artist - Track 10.wav"
+Oct 07 08:56 : player: played "文単　英検二級２/11 - Unknown Artist - Track 11.wav"
+Oct 07 08:57 : player: played "文単　英検二級２/12 - Unknown Artist - Track 12.wav"
+Oct 07 08:58 : player: played "文単　英検二級２/13 - Unknown Artist - Track 13.wav"
+Oct 07 08:59 : player: played "文単　英検二級２/14 - Unknown Artist - Track 14.wav"
+Oct 07 09:00 : player: played "文単　英検二級２/15 - Unknown Artist - Track 15.wav"
+Oct 07 09:00 : player: played "文単　英検二級２/16 - Unknown Artist - Track 16.wav"
+Oct 07 09:00 : client: [0] closed
+Oct 07 09:00 : client: [1] opened from 127.0.0.1:59804
+Oct 07 11:41 : client: [1] closed
+Oct 08 10:22 : client: [2] opened from 127.0.0.1:33248
+Oct 08 10:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 08 10:22 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 08 10:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 08 10:22 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 08 10:23 : player: played "bgm/【東方爆音ジャズ6】少女綺想曲〜弾幕注意報2014【東京アクティブNEETs】.mp3"
+Oct 08 10:23 : client: [2] closed
+Oct 09 13:00 : client: [3] opened from 127.0.0.1:51218
+Oct 09 13:00 : client: [3] closed
+Oct 09 15:54 : client: [4] opened from 127.0.0.1:52680
+Oct 09 15:54 : client: [4] closed
+Oct 09 17:53 : client: [5] opened from 127.0.0.1:54626
+Oct 09 17:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 17:53 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 17:53 : client: [5] closed
+Oct 09 17:57 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 17:57 : player: played "bgm/ヨルシカ - 雨とカプチーノ(Official Video)-PWbRleMGagU.mkv"
+Oct 09 17:58 : client: [6] opened from 127.0.0.1:54668
+Oct 09 17:58 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 17:58 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 17:58 : client: [6] closed
+Oct 09 18:00 : client: [7] opened from 127.0.0.1:54716
+Oct 09 18:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 18:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:00 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 18:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 18:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:00 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 18:00 : client: [7] closed
+Oct 09 18:04 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 18:04 : player: played "bgm/Guiano - 凍るサマー (feat.flower)-b82nw8abKMU.mkv"
+Oct 09 18:05 : client: [8] opened from 127.0.0.1:54772
+Oct 09 18:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:05 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 18:05 : player: played "bgm/ヨルシカ - ただ君に晴れ (MUSIC VIDEO).mp3"
+Oct 09 18:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 18:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:05 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 18:06 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 18:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 18:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 18:07 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 18:08 : client: [8] closed
+Oct 09 18:11 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 18:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 18:12 : player: played "bgm/「太陽曰く燃えよカオス」を４台ピアノで弾いてみた【4D PIANO】-0B91ORpK3Qw.webm"
+Oct 09 18:12 : client: [9] opened from 127.0.0.1:54788
+Oct 09 18:12 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:12 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 18:12 : client: [9] closed
+Oct 09 18:12 : client: [10] opened from 127.0.0.1:54790
+Oct 09 18:12 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Oct 09 18:12 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Oct 09 18:12 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Oct 09 18:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 18:22 : player: played "bgm/【ループ】零の軌跡 Terminal Room-sm14692932.mp4"
+Oct 09 18:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 18:22 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:28 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 18:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 18:28 : player: played "bgm/【東方爆音ジャズ8】ネイティブフェイス【東京アクティブNEETs】-pr1I2zHcg0I.mkv"
+Oct 09 18:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 18:28 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 18:32 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 18:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 18:32 : player: played "bgm/Picon - 生活があった-_xzdfU2m4zA.webm"
+Oct 09 18:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 18:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 18:38 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 18:38 : player: played "bgm/bohemianvoodoo 'Adria Blue' 【Live at Club eX】-5FXcg-J2LlI.mkv"
+Oct 09 18:38 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 18:38 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:38 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 18:44 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 18:44 : player: played "bgm/Bill Evans Trio - Autumn Leaves-r-Z8KuwI7Gc.webm"
+Oct 09 18:44 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:48 : player: played "bgm/TAPE FIVE   City of Lights.mp3"
+Oct 09 18:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 18:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 18:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 18:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 18:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 18:55 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 18:55 : player: played "bgm/愛にできることはまだあるかい RADWIMPS MV-EQ94zflNqn4.mkv"
+Oct 09 18:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 18:55 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 18:59 : player: played "bgm/ヨルシカ - ヒッチコック (MUSIC VIDEO).mp3"
+Oct 09 19:04 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 19:04 : player: played "bgm/Jamie Cullum - Don't Stop the Music.mp3"
+Oct 09 19:04 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 19:09 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 19:09 : player: played "bgm/Israel--J.J. Johnson & Kai Winding---V8pOgQDXg.webm"
+Oct 09 19:09 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 19:13 : player: played "bgm/06 California Blues.wma"
+Oct 09 19:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 19:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 19:16 : player: played "bgm/メーベル／flower.mp3"
+Oct 09 19:16 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 19:16 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 19:21 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 19:21 : player: played "bgm/Jamie Cullum - Don't Stop the Music-kYhT7oCDoqM.mkv"
+Oct 09 19:21 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 19:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 19:26 : player: played "bgm/プロトディスコ _ flower - ぬゆり.mp3"
+Oct 09 19:26 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 19:29 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 19:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 19:29 : player: played "bgm/Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv"
+Oct 09 19:29 : client: [11] opened from 127.0.0.1:57126
+Oct 09 19:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 19:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 19:29 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 19:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 19:29 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 19:29 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 19:29 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 19:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 19:32 : client: [12] opened from 127.0.0.1:57490
+Oct 09 19:33 : client: [12] closed
+Oct 09 19:43 : client: [10] closed
+Oct 09 19:47 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 19:47 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 19:47 : player: played "bgm/然れど応答は冴えず_12uck feat.重音テト.mp3"
+Oct 09 19:47 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 19:51 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 19:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 19:51 : player: played "bgm/米津玄師  MV「アイネクライネ」--EKxzId_Sj4.mkv"
+Oct 09 19:56 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 19:56 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 19:56 : player: played "bgm/深夜高速_重音テト【カバー】-MrBPRaDHGYE.mkv"
+Oct 09 19:59 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 19:59 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 19:59 : player: played "bgm/ダンスビートに笑われて_4ma15 feat.重音テト-N3AOKZ_bKKY.mkv"
+Oct 09 20:04 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 20:04 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 20:04 : player: played "bgm/bohemianvoodoo 'El Ron Zacapa' 【Music Video】-z2knnB8oedc.webm"
+Oct 09 20:10 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 20:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 20:10 : player: played "bgm/Bill Evans Trio - Summertime-gNRVQnz6jps.webm"
+Oct 09 20:14 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 20:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 20:15 : player: played "bgm/菅田将暉 『まちがいさがし』-7940nuwCEYA.mkv"
+Oct 09 20:21 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 20:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 20:21 : player: played "bgm/SPARKLE-RADWINPS「歌詞付き」-M7Se3CxTWxU.webm"
+Oct 09 20:26 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 20:26 : player: played "bgm/【東方爆音ジャズ7】実写版フラワリングナイト 〜紅霧夜華2014【東京アクティブNEETs】-31w01j8NCcw.mkv"
+Oct 09 20:26 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 20:30 : player: played "bgm/いいんですか_ 2017 ver..mp3"
+Oct 09 20:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 20:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 20:36 : player: played "bgm/10 Union Pacific.wma"
+Oct 09 20:36 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 20:40 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 20:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 09 20:40 : player: played "bgm/John Legend -All of Me (lyrics)-R21EU8SKUM0.webm"
+Oct 09 20:44 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 09 20:44 : player: played "bgm/Bad Boy Good Man (music by TAPE FIVE)-n8Wx80TZ8OQ.mkv"
+Oct 09 20:44 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 20:46 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 09 20:46 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 09 20:48 : player: played "bgm/12 The Doctor Is In.mp3"
+Oct 09 20:48 : client: [11] closed
+Oct 10 08:02 : zeroconf: No global port, disabling zeroconf
+Oct 10 08:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 10 08:03 : client: [0] opened from 127.0.0.1:40744
+Oct 10 08:03 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 10 08:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 10 08:03 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 10 08:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 10 08:04 : player: played "文単　英検二級２/06 - Unknown Artist - Track 6.wav"
+Oct 10 08:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 10 08:06 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 10 08:06 : player: played "文単　英検二級２/06 - Unknown Artist - Track 6.wav"
+Oct 10 08:06 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 10 08:07 : player: played "文単　英検二級２/07 - Unknown Artist - Track 7.wav"
+Oct 10 08:08 : player: played "文単　英検二級２/08 - Unknown Artist - Track 8.wav"
+Oct 10 08:09 : player: played "文単　英検二級２/09 - Unknown Artist - Track 9.wav"
+Oct 10 08:10 : player: played "文単　英検二級２/10 - Unknown Artist - Track 10.wav"
+Oct 10 08:11 : player: played "文単　英検二級２/11 - Unknown Artist - Track 11.wav"
+Oct 10 08:12 : player: played "文単　英検二級２/12 - Unknown Artist - Track 12.wav"
+Oct 10 08:13 : player: played "文単　英検二級２/13 - Unknown Artist - Track 13.wav"
+Oct 10 08:14 : player: played "文単　英検二級２/14 - Unknown Artist - Track 14.wav"
+Oct 10 08:15 : player: played "文単　英検二級２/15 - Unknown Artist - Track 15.wav"
+Oct 10 08:15 : client: [0] closed
+Oct 10 08:15 : client: [1] opened from 127.0.0.1:40754
+Oct 10 08:15 : player: played "文単　英検二級２/16 - Unknown Artist - Track 16.wav"
+Oct 10 08:15 : client: [1] closed
+Oct 10 08:18 : client: [2] opened from 127.0.0.1:40760
+Oct 10 08:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 10 08:19 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 10 08:19 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 10 08:19 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 10 08:23 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 10 08:23 : player: played "bgm/快晴　歌ってみたのはメガテラ・ゼロ-2GEYlOkldOs.mkv"
+Oct 10 08:23 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 10 08:24 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 10 08:24 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 10 08:27 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 10 08:27 : player: played "bgm/ever_Otomachi Una-sm32945630.mp4"
+Oct 10 08:30 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 10 08:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 10 08:30 : player: played "bgm/Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv"
+Oct 10 08:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 10 08:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 10 08:34 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 10 08:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 10 08:34 : player: played "bgm/Guiano - 忘れたいことばっかだ (feat.flower)-Fv-eR_FoSPo.webm"
+Oct 10 08:34 : client: [2] closed
+Oct 10 10:22 : client: [3] opened from 127.0.0.1:40858
+Oct 10 10:22 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 10 10:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 10 10:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 10 10:26 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 10 10:26 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 10 10:26 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 10 10:26 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 10 10:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 10 10:30 : player: played "bgm/never_Otomachi Una-sm34259066.mp4"
+Oct 10 10:30 : player: played "bgm/Norah Jones - Summertime-xJOtaWyEzaI.mkv"
+Oct 10 11:03 : client: [3] closed
+Oct 10 16:15 : zeroconf: No global port, disabling zeroconf
+Oct 10 16:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 10 17:20 : zeroconf: No global port, disabling zeroconf
+Oct 10 17:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 10 17:35 : zeroconf: No global port, disabling zeroconf
+Oct 10 17:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 10 19:41 : zeroconf: No global port, disabling zeroconf
+Oct 10 19:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 10 19:44 : zeroconf: No global port, disabling zeroconf
+Oct 10 19:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 11 08:03 : zeroconf: No global port, disabling zeroconf
+Oct 11 08:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 11 08:03 : client: [0] opened from 127.0.0.1:53744
+Oct 11 08:03 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 08:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 11 08:03 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 08:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 11 08:04 : player: played "文単　英検二級２/08 - Unknown Artist - Track 8.wav"
+Oct 11 08:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 08:06 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 08:06 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 08:07 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 08:08 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 08:08 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 08:08 : player: played "文単　英検二級２/08 - Unknown Artist - Track 8.wav"
+Oct 11 08:09 : player: played "文単　英検二級２/09 - Unknown Artist - Track 9.wav"
+Oct 11 08:10 : player: played "文単　英検二級２/10 - Unknown Artist - Track 10.wav"
+Oct 11 08:11 : player: played "文単　英検二級２/11 - Unknown Artist - Track 11.wav"
+Oct 11 08:12 : player: played "文単　英検二級２/12 - Unknown Artist - Track 12.wav"
+Oct 11 08:14 : player: played "文単　英検二級２/13 - Unknown Artist - Track 13.wav"
+Oct 11 08:14 : player: played "文単　英検二級２/14 - Unknown Artist - Track 14.wav"
+Oct 11 08:15 : player: played "文単　英検二級２/15 - Unknown Artist - Track 15.wav"
+Oct 11 08:16 : player: played "文単　英検二級２/16 - Unknown Artist - Track 16.wav"
+Oct 11 08:17 : player: played "文単　英検二級２/17 - Unknown Artist - Track 17.wav"
+Oct 11 08:18 : player: played "文単　英検二級２/18 - Unknown Artist - Track 18.wav"
+Oct 11 08:20 : player: played "文単　英検二級２/19 - Unknown Artist - Track 19.wav"
+Oct 11 08:20 : player: played "文単　英検二級２/20 - Unknown Artist - Track 20.wav"
+Oct 11 08:21 : player: played "文単　英検二級２/21 - Unknown Artist - Track 21.wav"
+Oct 11 08:21 : player: played "文単　英検二級２/22 - Unknown Artist - Track 22.wav"
+Oct 11 08:21 : client: [0] closed
+Oct 11 08:58 : client: [1] opened from 127.0.0.1:53786
+Oct 11 08:58 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 09:08 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 09:08 : player: played "bgm/【ループ】零の軌跡 Terminal Room-sm14692932.mp4"
+Oct 11 09:08 : client: [1] closed
+Oct 11 13:39 : client: [2] opened from 127.0.0.1:60060
+Oct 11 13:39 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 13:39 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 13:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 13:49 : player: played "bgm/【ループ】零の軌跡 Terminal Room-sm14692932.mp4"
+Oct 11 13:49 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 13:49 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 13:49 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 13:49 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 13:55 : player: played "bgm/10 Union Pacific.wma"
+Oct 11 13:55 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 14:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 14:01 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 14:01 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 14:01 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 14:01 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 14:04 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 14:04 : player: played "bgm/蛍が飛んだ_4ma15 feat.滲音かこい-7KUP6XR5Tpg.mkv"
+Oct 11 14:05 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 14:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 14:08 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 14:08 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 14:18 : ffmpeg/libdav1d: libdav1d 0.4.0
+Oct 11 14:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 14:18 : player: played "bgm/【東方爆音ジャズ4】紅魔郷メドレー【東京アクティブNEETs】.mp3"
+Oct 11 14:18 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 14:21 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 14:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 14:21 : player: played "bgm/メーベル／バルーン(self cover)-_KZTkRgGqds.mkv"
+Oct 11 14:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 14:26 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 14:26 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 14:50 : update: added bgm/Jazz_Me_Blues.mp3
+Oct 11 14:50 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Oct 11 14:50 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Oct 11 14:50 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Oct 11 14:50 : update: added bgm/Morning_Stroll.mp3
+Oct 11 14:50 : update: added bgm/Orange_Foot.mp3
+Oct 11 14:50 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Oct 11 14:50 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Oct 11 14:50 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Oct 11 14:51 : client: [3] opened from 127.0.0.1:34274
+Oct 11 14:51 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Oct 11 14:51 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Oct 11 14:51 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Oct 11 14:52 : player: played "bgm/TAPE FIVE   City of Lights-hNtP8zJFL2M.mkv"
+Oct 11 14:55 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 14:59 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 14:59 : player: played "bgm/_Beautiful Flight_ _ performed by H ZETTRIO 【Offic.mp3"
+Oct 11 14:59 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:00 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 15:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 15:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 15:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 15:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 15:00 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 15:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:05 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 15:05 : player: played "bgm/Jamie Cullum - Don't Stop the Music-kYhT7oCDoqM.mkv"
+Oct 11 15:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 15:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:08 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 15:08 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 15:09 : player: played "bgm/米津玄師 MV「パプリカ」Kenshi Yonezu _ Paprika-s582L3gujnw.mkv"
+Oct 11 15:13 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 15:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 15:13 : player: played "bgm/須田景凪「Cambell」MV-DKUmfMmsqG0.mkv"
+Oct 11 15:17 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 15:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 15:17 : player: played "bgm/OFF STUDIO - Jamie Cullum 'Everything You Didn't Do'-2X5Jc8NGQTE.mkv"
+Oct 11 15:20 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 15:20 : player: played "bgm/Step Into My Time Machine-ySKQiKBpYOs.mkv"
+Oct 11 15:20 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:25 : player: played "bgm/前前前世 (movie ver.) RADWIMPS MV.mp3"
+Oct 11 15:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:25 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 15:26 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 15:28 : player: played "bgm/Jazz_Me_Blues.mp3"
+Oct 11 15:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 15:31 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:31 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 15:31 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 15:31 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:31 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 15:31 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 15:31 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 15:35 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 15:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 15:35 : player: played "bgm/神山羊 - 青い棘【Music Video】_ Yoh Kamiyama - Aoi Toge-PVlVzX6OLns.mkv"
+Oct 11 15:39 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 15:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 15:40 : player: played "bgm/'Signposts in the night sky' by Osamuraisan(Original)  「夜の道標」おさむらいさん-Ap-UFwMmc5k.mkv"
+Oct 11 15:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 15:40 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 15:40 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 15:45 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 15:45 : player: played "bgm/【東方爆音ジャズ7】実写版フラワリングナイト 〜紅霧夜華2014【東京アクティブNEETs】-31w01j8NCcw.mkv"
+Oct 11 15:45 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 15:45 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:45 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 15:45 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 15:50 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 15:50 : player: played "bgm/前前前世 (movie ver.) RADWIMPS MV-PDSkFeMVNFs.webm"
+Oct 11 15:50 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:55 : player: played "bgm/02 Scheerhorn Shuffle.wma"
+Oct 11 15:55 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 15:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 15:55 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 15:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 16:01 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 16:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:01 : player: played "bgm/【東方爆音ジャズ6】少女綺想曲〜弾幕注意報2014【東京アクティブNEETs】-UJTZOHXVjiY.mkv"
+Oct 11 16:05 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 16:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:05 : player: played "bgm/須田景凪「パレイドリア」MV-NQ12-0TYgAs.webm"
+Oct 11 16:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:05 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 16:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:10 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 16:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:10 : player: played "bgm/ヨルシカ - 雨とカプチーノ(Official Video)-PWbRleMGagU.mkv"
+Oct 11 16:10 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:10 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:10 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 16:10 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 16:16 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 16:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:16 : player: played "bgm/bohemianvoodoo 'Golden Forest' 【Music Video】--oWccnrIqKo.webm"
+Oct 11 16:20 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 16:20 : player: played "bgm/ピコン - 死ぬにはいい日だった ft. 初音ミク-6XisgRKW9ww.mkv"
+Oct 11 16:20 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:26 : player: played "bgm/10 Union Pacific.wma"
+Oct 11 16:26 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:32 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 16:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:32 : player: played "bgm/【東方爆音ジャズ8】ネイティブフェイス【東京アクティブNEETs】-pr1I2zHcg0I.mkv"
+Oct 11 16:32 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 16:32 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 16:37 : player: played "bgm/泣けど喚けど朝がきて_12uck feat.重音テト.mp3"
+Oct 11 16:40 : player: played "bgm/メーベル／flower.mp3"
+Oct 11 16:40 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:41 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:41 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 16:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:41 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:41 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 16:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:41 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 16:46 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 16:46 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:46 : player: played "bgm/「太陽曰く燃えよカオス」を４台ピアノで弾いてみた【4D PIANO】-0B91ORpK3Qw.webm"
+Oct 11 16:48 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 16:48 : player: played "bgm/ピコン - タタラ ft. 初音ミク-TzqBFURAZDA.mkv"
+Oct 11 16:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 16:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 16:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 16:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 16:49 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 16:52 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 16:52 : player: played "bgm/Guiano - 死んでしまったのだろうか (feat.flower)-_xXenYRkbKs.mkv"
+Oct 11 16:52 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 16:56 : player: played "bgm/米津玄師 MV「Flamingo」.mp3"
+Oct 11 16:56 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 16:56 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 16:56 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:02 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 17:02 : player: played "bgm/SPARKLE-RADWINPS「歌詞付き」-M7Se3CxTWxU.webm"
+Oct 11 17:02 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:05 : player: played "bgm/神山 羊 - YELLOW【Music Video】_ Yoh Kamiyama - YELLOW.mp3"
+Oct 11 17:05 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 17:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:10 : player: played "bgm/04 Stanford and Son.wma"
+Oct 11 17:10 : client: [2] closed
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/libdav1d: libdav1d 0.4.0
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:26 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 17:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:28 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 17:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:29 : player: played "bgm/Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv"
+Oct 11 17:34 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 17:34 : player: played "bgm/bohemianvoodoo 'Adria Blue' 【Live at Club eX】-5FXcg-J2LlI.mkv"
+Oct 11 17:34 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:35 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:35 : ffmpeg/libdav1d: libdav1d 0.4.0
+Oct 11 17:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:35 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:35 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 17:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:35 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:35 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:35 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:35 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 17:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:39 : player: played "bgm/ヨルシカ - ヒッチコック (MUSIC VIDEO).mp3"
+Oct 11 17:39 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:43 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 17:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:43 : player: played "bgm/【東方爆音ジャズ7】実写版フラワリングナイト 〜紅霧夜華2014【東京アクティブNEETs】-31w01j8NCcw.mkv"
+Oct 11 17:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:43 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 17:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:43 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 17:43 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 17:44 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 17:46 : player: played "bgm/ever_Otomachi Una-sm32945630.mp4"
+Oct 11 17:46 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:47 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:47 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 17:51 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 17:51 : player: played "bgm/米津玄師  MV「アイネクライネ」--EKxzId_Sj4.mkv"
+Oct 11 17:51 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:52 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:52 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:52 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 17:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 17:52 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 17:57 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 17:57 : player: played "bgm/'Happy Saturday Night' performed by H ZETTRIO 【Official MV】-RGBoQI4Fx7s.mkv"
+Oct 11 17:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 17:57 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:22 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:22 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:22 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:22 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:22 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:22 : ffmpeg/libdav1d: libdav1d 0.4.0
+Oct 11 19:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:22 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:26 : player: played "bgm/never_Otomachi Una-sm34259066.mp4"
+Oct 11 19:30 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 19:30 : player: played "bgm/Lust Blue_R Sound Design feat.逆音セシル-U7NUU12t2ms.mkv"
+Oct 11 19:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:31 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:32 : player: played "bgm/Orange_Foot.mp3"
+Oct 11 19:32 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:32 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:32 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/libdav1d: libdav1d 0.4.0
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:36 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 19:36 : player: played "bgm/Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv"
+Oct 11 19:36 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:36 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:36 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:36 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:36 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:36 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:36 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:36 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:36 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:36 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:36 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:37 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:38 : player: played "bgm/Morning_Stroll.mp3"
+Oct 11 19:38 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:43 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 19:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:43 : player: played "bgm/'Beautiful Flight' _ performed by H ZETTRIO 【Official MV】-1m53lVsc2As.mkv"
+Oct 11 19:47 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 19:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:47 : player: played "bgm/John Legend -All of Me (lyrics)-R21EU8SKUM0.webm"
+Oct 11 19:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:52 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 11 19:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:52 : player: played "bgm/ピコン - 死ぬにはいい日だった ft. 初音ミク-6XisgRKW9ww.mkv"
+Oct 11 19:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:52 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:52 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:52 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:52 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:54 : player: played "bgm/Orange_Foot.mp3"
+Oct 11 19:54 : ffmpeg/libdav1d: libdav1d 0.4.0
+Oct 11 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:54 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:54 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:54 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 11 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:54 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 11 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:54 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 11 19:54 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 08:09 : player: played "bgm/bohemianvoodoo 'Adria Blue' 【Music Video】-gjDrEdEzfQc.mkv"
+Oct 12 08:10 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 08:11 : player: played "文単　英検二級２/10 - Unknown Artist - Track 10.wav"
+Oct 12 08:12 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 08:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 08:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 08:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 08:13 : player: played "文単　英検二級２/10 - Unknown Artist - Track 10.wav"
+Oct 12 08:15 : player: played "文単　英検二級２/11 - Unknown Artist - Track 11.wav"
+Oct 12 08:15 : player: played "文単　英検二級２/12 - Unknown Artist - Track 12.wav"
+Oct 12 08:17 : player: played "文単　英検二級２/13 - Unknown Artist - Track 13.wav"
+Oct 12 08:17 : player: played "文単　英検二級２/14 - Unknown Artist - Track 14.wav"
+Oct 12 08:18 : player: played "文単　英検二級２/15 - Unknown Artist - Track 15.wav"
+Oct 12 08:19 : player: played "文単　英検二級２/16 - Unknown Artist - Track 16.wav"
+Oct 12 08:21 : player: played "文単　英検二級２/17 - Unknown Artist - Track 17.wav"
+Oct 12 08:21 : player: played "文単　英検二級２/18 - Unknown Artist - Track 18.wav"
+Oct 12 08:23 : player: played "文単　英検二級２/19 - Unknown Artist - Track 19.wav"
+Oct 12 08:23 : player: played "文単　英検二級２/20 - Unknown Artist - Track 20.wav"
+Oct 12 08:24 : player: played "文単　英検二級２/21 - Unknown Artist - Track 21.wav"
+Oct 12 08:26 : client: [3] closed
+Oct 12 10:13 : client: [4] opened from 127.0.0.1:39750
+Oct 12 10:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:13 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 10:14 : client: [4] closed
+Oct 12 10:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 10:23 : player: played "bgm/【ループ】零の軌跡 Terminal Room-sm14692932.mp4"
+Oct 12 10:23 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 10:23 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:23 : client: [5] opened from 127.0.0.1:39760
+Oct 12 10:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 10:23 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 10:27 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 12 10:27 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:27 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 10:28 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 10:28 : client: [5] closed
+Oct 12 10:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 10:30 : player: played "bgm/Orange_Foot.mp3"
+Oct 12 10:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 10:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:30 : client: [6] opened from 127.0.0.1:39766
+Oct 12 10:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 10:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 10:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 10:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 10:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 10:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 10:30 : client: [6] closed
+Oct 12 10:34 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 12 10:34 : player: played "bgm/世迷言_4ma15 feat.滲音かこい-qJ20KjcryOQ.mkv"
+Oct 12 10:34 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:34 : client: [7] opened from 127.0.0.1:39772
+Oct 12 10:34 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 10:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 10:34 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:34 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 10:34 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:34 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 10:34 : client: [7] closed
+Oct 12 10:37 : player: played "bgm/ever_Otomachi Una-sm32945630.mp4"
+Oct 12 10:37 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:38 : client: [8] opened from 127.0.0.1:39778
+Oct 12 10:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 10:38 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:38 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 10:38 : client: [8] closed
+Oct 12 10:38 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 10:41 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 12 10:41 : player: played "bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv"
+Oct 12 10:41 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 10:41 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:44 : player: played "bgm/08 Be Thou My Vision.wma"
+Oct 12 10:49 : player: played "bgm/03 Can't Find My Way Home.wma"
+Oct 12 10:49 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:53 : ffmpeg/libdav1d: libdav1d 0.4.0
+Oct 12 10:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 10:53 : player: played "bgm/いいんですか_ 2017 ver..mp3"
+Oct 12 10:53 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:58 : client: [9] opened from 127.0.0.1:39802
+Oct 12 10:58 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 10:58 : client: [9] closed
+Oct 12 11:03 : player: played "bgm/04 Stanford and Son.wma"
+Oct 12 11:03 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 11:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 11:06 : player: played "bgm/神山 羊 - YELLOW【Music Video】_ Yoh Kamiyama - YELLOW.mp3"
+Oct 12 11:06 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 11:06 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 11:10 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 12 11:10 : player: played "bgm/米津玄師  MV「Lemon」-SX_ViT4Ra7k.webm"
+Oct 12 11:10 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 11:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 11:14 : player: played "bgm/Bad Boy Good Man (music by TAPE FIVE).mp3"
+Oct 12 11:14 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 11:14 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 11:19 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 12 11:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 11:19 : player: played "bgm/「太陽曰く燃えよカオス」を４台ピアノで弾いてみた【4D PIANO】-0B91ORpK3Qw.webm"
+Oct 12 11:23 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 12 11:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 11:24 : player: played "bgm/米津玄師 MV「馬と鹿」Uma to Shika-ptnYBctoexk.mkv"
+Oct 12 11:28 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 12 11:28 : player: played "bgm/Guiano - 忘れたいことばっかだ (feat.flower)-Fv-eR_FoSPo.webm"
+Oct 12 11:28 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 11:28 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 11:30 : client: [10] opened from 127.0.0.1:40980
+Oct 12 11:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 11:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 11:30 : client: [10] closed
+Oct 12 11:33 : player: played "bgm/Jazz_Me_Blues.mp3"
+Oct 12 11:37 : player: played "bgm/花瓶に触れた／flower.mp3"
+Oct 12 11:37 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 11:42 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 11:43 : player: played "bgm/03 Self Portrait.wma"
+Oct 12 11:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 11:43 : client: [11] opened from 127.0.0.1:40994
+Oct 12 11:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 11:43 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 11:43 : client: [11] closed
+Oct 12 11:48 : player: played "bgm/ヨルシカ - 靴の花火 (Music Video).mp3"
+Oct 12 11:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 11:51 : player: played "bgm/TAPE FIVE   City of Lights.mp3"
+Oct 12 11:51 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 11:51 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 12 11:55 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 12 11:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 11:55 : player: played "bgm/須田景凪「パレイドリア」MV-NQ12-0TYgAs.webm"
+Oct 12 11:59 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 12 11:59 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 11:59 : player: played "bgm/米津玄師 MV「海の幽霊」Spirits of the Sea-1s84rIhPuhk.mkv"
+Oct 12 12:04 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 12 12:04 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 12 12:04 : player: played "bgm/John Legend -All of Me (lyrics)-R21EU8SKUM0.webm"
+Oct 12 12:11 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 12 12:11 : player: played "bgm/SPARKLE-RADWINPS「歌詞付き」-M7Se3CxTWxU.webm"
+Oct 12 12:11 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 12 12:12 : client: [12] opened from 127.0.0.1:41030
+Oct 12 12:12 : player: played "bgm/メーベル／flower.mp3"
+Oct 12 12:12 : client: [12] closed
+Oct 12 12:32 : zeroconf: No global port, disabling zeroconf
+Oct 12 12:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 12 16:11 : zeroconf: No global port, disabling zeroconf
+Oct 12 16:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 12 19:05 : zeroconf: No global port, disabling zeroconf
+Oct 12 19:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 13 07:39 : zeroconf: No global port, disabling zeroconf
+Oct 13 07:39 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted

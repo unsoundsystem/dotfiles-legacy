@@ -44,7 +44,14 @@ let g:markdown_minlines = 100
 [[plugins]]
 repo = 'previm/previm'
 on_ft = 'markdown'
-hook_add = "let g:previm_open_cmd = 'google-chrome-stable'"
+hook_add = "let g:previm_open_cmd = 'firefox'"
 
 [[plugins]]
 repo = 'tyru/open-browser.vim'
+
+[[plugins]]
+repo = 'JuliaEditorSupport/julia-vim'
+hook_source = 'let g:default_julia_version = "1.2"'
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'

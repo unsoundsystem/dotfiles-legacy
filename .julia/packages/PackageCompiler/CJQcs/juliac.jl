@@ -1,3 +1,4 @@
+#!/bin/julia
 # ArgParse can't be a dependency here,
 # so users need to install it.
 using ArgParse, PackageCompiler

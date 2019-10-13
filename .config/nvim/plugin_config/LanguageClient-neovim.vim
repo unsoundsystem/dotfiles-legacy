@@ -4,12 +4,23 @@
 "julia
 let g:LanguageClient_autoStart = 1
 let g:LanguageClient_serverCommands = {
-			\   'julia': ['/usr/bin/julia', '--startup-file=no', '--history-file=no', '/home/sinai/.config/nvim/plugin_config/lsp.jl'],
-			\   'python': ['pyls'],
-			\   'cpp': ['cquery', '--log-file=/tmp/cq.log'],
-			\   'c': ['cquery', '--log-file=/tmp/cq.log'],
-			\   'sh': ['bash-language-server', 'start'],
-			\ }
+	\   'vhdl': ['hdlcc', '--lsp'],
+	\   'julia': ['julia', '--startup-file=no', '--history-file=no', '-e', '
+	\       using LanguageServer;
+	\       using Pkg;
+	\       import StaticLint;
+	\       import SymbolServer;
+	\       env_path = dirname(Pkg.Types.Context().env.project_file);
+	\       debug = false; 
+	\       
+	\       server = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, "", Dict());
+	\       server.runlinter = true;
+	\       run(server);
+	\   '],
+	\   'python': ['pyls'],
+	\   'cpp': ['cquery', '--log-file=/tmp/cq.log'],
+	\   'c': ['cquery', '--log-file=/tmp/cq.log']
+	\ }
 let g:LanguageClient_loggingLevel = 'DEBUG'
 let g:LanguageClient_loggingFile = expand('~/.config/nvim/LanguageClient.log')
 let g:LanguageClient_loadSettings = 1
