@@ -10,6 +10,7 @@ alias la='ls -la --color=auto'
 alias ll='ls -la . | less'
 alias rf='rm -rf'
 alias nvim='nvim -u ~/.config/nvim/init.vim'
+alias st='st -f "HackGen Console for Powerline:size=15"'
 export PATH=~/.local/bin:~/anaconda3/bin:/home/sinai/zen:$PATH
 export XDG_CONFIG_HOME=~/.config
 export EDITOR=vim

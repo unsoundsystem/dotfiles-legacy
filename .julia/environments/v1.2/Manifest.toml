@@ -309,9 +309,9 @@ version = "0.3.0"
 
 [[FFTW]]
 deps = ["AbstractFFTs", "BinaryProvider", "Conda", "Libdl", "LinearAlgebra", "Reexport", "Test"]
-git-tree-sha1 = "e1a479d3c972f20c9a70563eec740bbfc786f515"
+git-tree-sha1 = "6c5b420da0b8c12098048561b8d58f81adea506f"
 uuid = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
-version = "0.3.0"
+version = "1.0.1"
 
 [[FileIO]]
 deps = ["Pkg"]
@@ -329,10 +329,9 @@ uuid = "1a297f60-69ca-5386-bcde-b61e274b549b"
 version = "0.7.2"
 
 [[FixedPointNumbers]]
-deps = ["Test"]
-git-tree-sha1 = "b8045033701c3b10bf2324d7203404be7aef88ba"
+git-tree-sha1 = "d14a6fa5890ea3a7e5dcab6811114f132fec2b4b"
 uuid = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
-version = "0.5.3"
+version = "0.6.1"
 
 [[ForwardDiff]]
 deps = ["CommonSubexpressions", "DiffResults", "DiffRules", "InteractiveUtils", "LinearAlgebra", "NaNMath", "Random", "SparseArrays", "SpecialFunctions", "StaticArrays", "Test"]
@@ -458,9 +457,9 @@ version = "0.6.1"
 
 [[ImageCore]]
 deps = ["ColorTypes", "Colors", "FFTW", "FixedPointNumbers", "Graphics", "MappedArrays", "OffsetArrays", "PaddedViews", "Reexport"]
-git-tree-sha1 = "2fb7a0d80ab6bf0c5a8b0a189bca60311c73a605"
+git-tree-sha1 = "5ea0410ea092ca0e928a663bb581e0d059f6745c"
 uuid = "a09fc81d-aa75-5fe9-8630-4744c3626534"
-version = "0.8.4"
+version = "0.8.5"
 
 [[ImageFiltering]]
 deps = ["CatIndices", "ColorVectorSpace", "Colors", "ComputationalResources", "DataStructures", "FFTViews", "FFTW", "FixedPointNumbers", "ImageCore", "LinearAlgebra", "MappedArrays", "OffsetArrays", "Requires", "StaticArrays", "Statistics", "TiledIteration"]
@@ -742,10 +741,10 @@ uuid = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 version = "0.11.1"
 
 [[OhMyREPL]]
-deps = ["Crayons", "Markdown", "Pkg", "Printf", "REPL", "TerminalRegressionTests", "Tokenize", "VT100"]
-git-tree-sha1 = "fca92a04d6700d023063bf149e5a317e48d5a7d6"
+deps = ["Crayons", "Markdown", "Pkg", "Printf", "REPL", "Tokenize"]
+git-tree-sha1 = "8857a079cb486e1f4f148a616505743ede7ec95c"
 uuid = "5fb14364-9ced-5910-84b2-373655c76a03"
-version = "0.5.2"
+version = "0.5.3"
 
 [[Optim]]
 deps = ["Calculus", "DiffEqDiffTools", "FillArrays", "ForwardDiff", "LineSearches", "LinearAlgebra", "NLSolversBase", "NaNMath", "Parameters", "PositiveFactorizations", "Printf", "Random", "SparseArrays", "StatsBase"]
@@ -905,9 +904,9 @@ version = "0.5.2"
 
 [[Revise]]
 deps = ["CodeTracking", "Distributed", "FileWatching", "JuliaInterpreter", "LibGit2", "LoweredCodeUtils", "OrderedCollections", "Pkg", "REPL", "UUIDs", "Unicode"]
-git-tree-sha1 = "f98ec79ce5970d16fbe9a7128f2580911e55cec6"
+git-tree-sha1 = "301706196827bdcc045658fc6df3e52fd3d76f83"
 uuid = "295af30f-e4ad-537b-8983-00126c2a3abe"
-version = "2.2.1"
+version = "2.2.2"
 
 [[Rmath]]
 deps = ["BinaryProvider", "Libdl", "Random", "Statistics", "Test"]
@@ -976,9 +975,9 @@ version = "0.7.2"
 
 [[StaticArrays]]
 deps = ["LinearAlgebra", "Random", "Statistics"]
-git-tree-sha1 = "db23bbf50064c582b6f2b9b043c8e7e98ea8c0c6"
+git-tree-sha1 = "1085ffbf5fd48fdba64ef8e902ca429c4e1212d3"
 uuid = "90137ffa-7385-5640-81b9-e52037218182"
-version = "0.11.0"
+version = "0.11.1"
 
 [[StaticLint]]
 deps = ["CSTParser", "Serialization", "SymbolServer"]
@@ -1042,12 +1041,6 @@ git-tree-sha1 = "aaed7b3b00248ff6a794375ad6adf30f30ca5591"
 uuid = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 version = "0.2.11"
 
-[[TerminalRegressionTests]]
-deps = ["REPL", "VT100"]
-git-tree-sha1 = "68da39365c2f0bbc8fd126513559b787c7f7ed10"
-uuid = "98bfdc55-cc95-5876-a49a-74609291cbe0"
-version = "0.1.2"
-
 [[Test]]
 deps = ["Distributed", "InteractiveUtils", "Logging", "Random"]
 uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
@@ -1105,12 +1098,6 @@ deps = ["Dates", "Random", "SparseArrays", "StatsBase", "Test"]
 git-tree-sha1 = "b8e58d4390ccebfa4f3bf502a45e08066eec3bf9"
 uuid = "b8865327-cd53-5732-bb35-84acbb429228"
 version = "1.1.0"
-
-[[VT100]]
-deps = ["ColorTypes", "FixedPointNumbers", "REPL", "Test"]
-git-tree-sha1 = "b15606f470e02061183738dd8d6d3ad5e115ed76"
-uuid = "7774df62-37c0-5c21-b34d-f6d7f98f54bc"
-version = "0.3.2"
 
 [[VersionParsing]]
 deps = ["Compat"]

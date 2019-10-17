@@ -3801,3 +3801,72 @@
 # time: 2019-10-12 19:59:57 JST
 # mode: julia
 	Genie.loadapp()
+# time: 2019-10-17 14:12:39 JST
+# mode: julia
+	using TOML
+# time: 2019-10-17 14:12:44 JST
+# mode: pkg
+	st
+# time: 2019-10-17 14:12:51 JST
+# mode: pkg
+	st TOML
+# time: 2019-10-17 14:13:01 JST
+# mode: pkg
+	st Markdown
+# time: 2019-10-17 14:13:14 JST
+# mode: pkg
+	add TOML
+# time: 2019-10-17 14:13:42 JST
+# mode: pkg
+	add Markdown
+# time: 2019-10-17 14:14:00 JST
+# mode: pkg
+	update
+# time: 2019-10-17 14:21:56 JST
+# mode: pkg
+	help
+# time: 2019-10-17 14:22:19 JST
+# mode: pkg
+	rg
+# time: 2019-10-17 14:22:30 JST
+# mode: pkg
+	registry st
+# time: 2019-10-17 14:22:48 JST
+# mode: pkg
+	preb
+# time: 2019-10-17 14:22:50 JST
+# mode: pkg
+	prev
+# time: 2019-10-17 14:22:53 JST
+# mode: pkg
+	pr
+# time: 2019-10-17 14:22:58 JST
+# mode: pkg
+	preview
+# time: 2019-10-17 14:23:15 JST
+# mode: pkg
+	help
+# time: 2019-10-17 16:05:38 JST
+# mode: pkg
+	add YAML
+# time: 2019-10-17 16:05:53 JST
+# mode: pkg
+	h
+# time: 2019-10-17 16:05:55 JST
+# mode: pkg
+	hl
+# time: 2019-10-17 16:05:57 JST
+# mode: pkg
+	hp
+# time: 2019-10-17 16:05:59 JST
+# mode: pkg
+	he
+# time: 2019-10-17 16:06:03 JST
+# mode: pkg
+	help
+# time: 2019-10-17 16:06:17 JST
+# mode: julia
+	using YAML
+# time: 2019-10-17 16:06:22 JST
+# mode: help
+	YAML
