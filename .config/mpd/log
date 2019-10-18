@@ -6230,3 +6230,113 @@ Oct 18 19:43 : player: played "bgm/John Legend -All of Me (lyrics)-R21EU8SKUM0.w
 Oct 18 19:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
 Oct 18 19:45 : client: [14] opened from [::1]:59608
 Oct 18 19:45 : client: [14] closed
+Oct 18 19:53 : client: [15] opened from [::1]:59650
+Oct 18 19:53 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 19:53 : client: [15] closed
+Oct 18 19:53 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 18 19:56 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 19:57 : player: played "bgm/【東方爆音ジャズ6】少女綺想曲〜弾幕注意報2014【東京アクティブNEETs】.mp3"
+Oct 18 19:57 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 19:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 18 19:57 : client: [16] opened from [::1]:59680
+Oct 18 19:57 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 19:57 : client: [16] closed
+Oct 18 19:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 18 19:58 : client: [17] opened from [::1]:59682
+Oct 18 19:58 : client: [17] closed
+Oct 18 20:00 : client: [18] opened from [::1]:59686
+Oct 18 20:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 20:00 : client: [18] closed
+Oct 18 20:00 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 18 20:00 : client: [0] closed
+Oct 18 20:00 : player: played "bgm/DADA RADWIMPS MV-Yy6XeGCNkSM.mp4"
+Oct 18 20:00 : exception: Failed to play on "My ALSA Device" (alsa): snd_pcm_poll_descriptors_revents() failed: Input/output error
+Oct 18 20:03 : zeroconf: No global port, disabling zeroconf
+Oct 18 20:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 20:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 20:03 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 20:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 20:03 : client: [0] opened from 127.0.0.1:57514
+Oct 18 20:03 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 18 20:03 : client: [1] opened from [::1]:54714
+Oct 18 20:03 : client: [1] closed
+Oct 18 20:03 : client: [2] opened from [::1]:54716
+Oct 18 20:03 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 20:03 : client: [2] closed
+Oct 18 20:03 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 18 20:03 : client: [3] opened from [::1]:54718
+Oct 18 20:03 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 20:03 : client: [3] closed
+Oct 18 20:03 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 18 20:03 : client: [4] opened from [::1]:54720
+Oct 18 20:03 : client: [4] closed
+Oct 18 20:07 : client: [5] opened from 127.0.0.1:57556
+Oct 18 20:07 : client: [5] closed
+Oct 18 20:07 : client: [0] closed
+Oct 18 20:07 : client: [6] opened from 127.0.0.1:57570
+Oct 18 20:07 : client: [7] opened from 127.0.0.1:57572
+Oct 18 20:07 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 20:08 : client: [7] closed
+Oct 18 20:08 : client: [6] closed
+Oct 18 20:08 : player: played "bgm/never_Otomachi Una-sm34259066.mp4"
+Oct 18 20:08 : zeroconf: No global port, disabling zeroconf
+Oct 18 20:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 20:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 20:08 : client: [0] opened from 127.0.0.1:46128
+Oct 18 20:08 : client: [1] opened from 127.0.0.1:46132
+Oct 18 20:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 20:08 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 20:08 : client: [2] opened from [::1]:35146
+Oct 18 20:08 : client: [2] closed
+Oct 18 20:08 : client: [3] opened from [::1]:35148
+Oct 18 20:08 : client: [3] closed
+Oct 18 20:09 : client: [4] opened from [::1]:35150
+Oct 18 20:09 : client: [4] closed
+Oct 18 20:09 : client: [5] opened from [::1]:35152
+Oct 18 20:09 : client: [5] closed
+Oct 18 20:09 : client: [6] opened from [::1]:35154
+Oct 18 20:09 : client: [6] closed
+Oct 18 20:09 : client: [7] opened from [::1]:35156
+Oct 18 20:09 : client: [8] opened from [::1]:35158
+Oct 18 20:09 : client: [7] closed
+Oct 18 20:09 : client: [8] closed
+Oct 18 20:09 : client: [9] opened from [::1]:35160
+Oct 18 20:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 20:09 : client: [9] closed
+Oct 18 20:09 : client: [10] opened from [::1]:35162
+Oct 18 20:09 : client: [10] closed
+Oct 18 20:09 : client: [11] opened from [::1]:35164
+Oct 18 20:09 : client: [11] closed
+Oct 18 20:09 : client: [12] opened from [::1]:35166
+Oct 18 20:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 20:09 : client: [12] closed
+Oct 18 20:09 : client: [13] opened from [::1]:35168
+Oct 18 20:09 : client: [13] closed
+Oct 18 20:09 : client: [14] opened from [::1]:35170
+Oct 18 20:09 : client: [14] closed
+Oct 18 20:09 : client: [15] opened from [::1]:35172
+Oct 18 20:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 20:09 : client: [15] closed
+Oct 18 20:09 : client: [16] opened from [::1]:35174
+Oct 18 20:09 : client: [16] closed
+Oct 18 20:09 : client: [17] opened from [::1]:35176
+Oct 18 20:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 20:09 : client: [17] closed
+Oct 18 20:09 : client: [18] opened from [::1]:35178
+Oct 18 20:09 : client: [18] closed
+Oct 18 20:09 : client: [19] opened from [::1]:35180
+Oct 18 20:09 : client: [19] closed
+Oct 18 20:09 : client: [20] opened from [::1]:35182
+Oct 18 20:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 20:09 : client: [20] closed
+Oct 18 20:09 : client: [21] opened from [::1]:35184
+Oct 18 20:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 20:09 : client: [21] closed
+Oct 18 20:09 : client: [22] opened from [::1]:35186
+Oct 18 20:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 20:09 : client: [22] closed
+Oct 18 20:09 : client: [23] opened from [::1]:35188
+Oct 18 20:09 : client: [23] closed
+Oct 18 20:09 : client: [24] opened from [::1]:35190
+Oct 18 20:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 20:09 : client: [24] closed
