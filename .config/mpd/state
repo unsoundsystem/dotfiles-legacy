@@ -1,8 +1,9 @@
 sw_volume: 98
 audio_device_state:1:My ALSA Device
 audio_device_state:1:my_fifo
-state: stop
-current: 62
+state: pause
+current: 15
+time: 144.965000
 random: 1
 repeat: 1
 single: 0
@@ -58,8 +59,8 @@ playlist_begin
 44:bgm/bohemianvoodoo 'El Ron Zacapa' 【Music Video】-z2knnB8oedc.webm
 45:bgm/bohemianvoodoo 'Golden Forest' 【Music Video】--oWccnrIqKo.webm
 46:bgm/bohemianvoodoo '石の教会' 【Music Video】-3FS5BF5HwrI.webm
-47:bgm/CITY NIGHT WALK_R(self-cover)-dUGMHFbA0s8.webm
-48:bgm/DADA RADWIMPS MV-Yy6XeGCNkSM.mp4
+47:bgm/DADA RADWIMPS MV-Yy6XeGCNkSM.mp4
+48:bgm/CITY NIGHT WALK_R(self-cover)-dUGMHFbA0s8.webm
 49:bgm/Earl Klugh - Living Inside Your Love-uYfPLF6Q-M4.webm
 50:bgm/Ed Sheeran _ Photograph (Lyric-Letra) Ingles-9HEoCRYGdDU.webm
 51:bgm/Eddie Lang - Some Of These Days-Q-aF8k1ddek.mkv

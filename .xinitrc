@@ -56,5 +56,5 @@ export XMODIFIERS=@im=fcitx
 syndaemon -i 0.5 -t -k &
 powerline-daemon -q &
 libinput-gestures-setup start
-#exec i3
-exec tdm --xstart
+pulseaudio --start
+exec i3

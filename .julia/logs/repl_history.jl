@@ -3870,3 +3870,222 @@
 # time: 2019-10-17 16:06:22 JST
 # mode: help
 	YAML
+# time: 2019-10-17 17:14:56 JST
+# mode: pkg
+	add Gtk
+# time: 2019-10-17 17:15:36 JST
+# mode: julia
+	using Gtk
+# time: 2019-10-17 17:16:44 JST
+# mode: julia
+	win = GtkWindow("hello gtk!!", 400, 200)
+# time: 2019-10-17 17:17:34 JST
+# mode: julia
+	b = GtkButton("clik me!")
+# time: 2019-10-17 17:17:45 JST
+# mode: julia
+	push!(win, b)
+# time: 2019-10-17 17:18:09 JST
+# mode: julia
+	showall(win)
+# time: 2019-10-17 17:26:09 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-17 17:26:16 JST
+# mode: julia
+	force_native_image!()
+# time: 2019-10-17 17:30:44 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-17 17:30:52 JST
+# mode: julia
+	force_native_image!()
+# time: 2019-10-17 18:50:58 JST
+# mode: julia
+	using Genie
+# time: 2019-10-17 18:51:20 JST
+# mode: julia
+	Genie.loadapp()
+# time: 2019-10-17 18:51:31 JST
+# mode: julia
+	Genie.loadapps()
+# time: 2019-10-17 19:00:41 JST
+# mode: pkg
+	add Electron
+# time: 2019-10-17 19:03:26 JST
+# mode: julia
+	using Electron
+# time: 2019-10-17 19:03:40 JST
+# mode: julia
+	app = Application()
+# time: 2019-10-17 19:04:13 JST
+# mode: pkg
+	URIParser
+# time: 2019-10-17 19:04:23 JST
+# mode: pkg
+	add URIParser
+# time: 2019-10-17 19:04:34 JST
+# mode: julia
+	using URIParser
+# time: 2019-10-17 19:05:00 JST
+# mode: julia
+	win = Window(app, URI("file://main.html"))
+# time: 2019-10-17 19:19:14 JST
+# mode: julia
+	using Genie
+# time: 2019-10-17 19:19:35 JST
+# mode: julia
+	Genie.loadapp
+# time: 2019-10-17 19:19:38 JST
+# mode: julia
+	Genie.loadapp()
+# time: 2019-10-17 19:19:47 JST
+# mode: shell
+	cd GenieBookShelf/
+# time: 2019-10-17 19:19:53 JST
+# mode: julia
+	Genie.loadapp()
+# time: 2019-10-17 19:20:33 JST
+# mode: pkg
+	activate
+# time: 2019-10-17 19:20:37 JST
+# mode: pkg
+	st
+# time: 2019-10-17 19:23:22 JST
+# mode: pkg
+	pin Genie#master
+# time: 2019-10-17 19:23:47 JST
+# mode: pkg
+	add Genie#maser
+# time: 2019-10-17 19:26:32 JST
+# mode: pkg
+	add Genie v18.1
+# time: 2019-10-17 19:26:51 JST
+# mode: julia
+	Genie.loadapp()
+# time: 2019-10-17 19:27:08 JST
+# mode: julia
+	using Genie
+# time: 2019-10-17 19:27:25 JST
+# mode: julia
+	Genie.loadapp()
+# time: 2019-10-17 19:27:36 JST
+# mode: pkg
+	update
+# time: 2019-10-17 19:28:02 JST
+# mode: pkg
+	st
+# time: 2019-10-17 19:28:18 JST
+# mode: pkg
+	rm Genie
+# time: 2019-10-17 19:28:27 JST
+# mode: pkg
+	add Genie#master
+# time: 2019-10-17 19:29:08 JST
+# mode: pkg
+	test Genie
+# time: 2019-10-17 19:29:15 JST
+# mode: pkg
+	st
+# time: 2019-10-17 19:29:30 JST
+# mode: shell
+	cd GenieBookShelf/
+# time: 2019-10-17 19:29:43 JST
+# mode: julia
+	using Genie
+# time: 2019-10-17 19:30:07 JST
+# mode: julia
+	Genie.loadapp()
+# time: 2019-10-17 19:33:06 JST
+# mode: julia
+	using MakiE
+# time: 2019-10-17 19:33:19 JST
+# mode: pkg
+	add MakiE
+# time: 2019-10-17 19:33:35 JST
+# mode: shell
+	clear
+# time: 2019-10-17 19:33:43 JST
+# mode: julia
+	using Makie
+# time: 2019-10-17 19:35:13 JST
+# mode: julia
+	s = Scene(resolution = (500, 500))
+# time: 2019-10-17 19:36:03 JST
+# mode: julia
+	heatmap(rand(32, 32))
+# time: 2019-10-17 19:36:49 JST
+# mode: julia
+	center!(s)
+# time: 2019-10-17 19:37:09 JST
+# mode: julia
+	heatmap(rand(32, 32))
+# time: 2019-10-17 19:38:18 JST
+# mode: julia
+	using Makie
+# time: 2019-10-17 19:39:01 JST
+# mode: julia
+	s = Scene(resolution = (500, 500))
+# time: 2019-10-17 19:50:22 JST
+# mode: julia
+	using Makie
+# time: 2019-10-17 19:53:24 JST
+# mode: julia
+	heatmap()
+# time: 2019-10-18 10:09:10 JST
+# mode: pkg
+	add Xlib
+# time: 2019-10-18 10:11:16 JST
+# mode: shell
+	clear
+# time: 2019-10-18 10:11:23 JST
+# mode: pkg
+	add Xlib
+# time: 2019-10-18 10:11:35 JST
+# mode: julia
+	update
+# time: 2019-10-18 10:12:10 JST
+# mode: julia
+	add XLib
+# time: 2019-10-18 10:12:21 JST
+# mode: pkg
+	add XLib
+# time: 2019-10-18 18:51:23 JST
+# mode: pkg
+	add Flux
+# time: 2019-10-18 18:54:56 JST
+# mode: pkg
+	add CuArrays
+# time: 2019-10-18 18:57:51 JST
+# mode: julia
+	Chein
+# time: 2019-10-18 19:13:43 JST
+# mode: pkg
+	:
+# time: 2019-10-18 19:13:48 JST
+# mode: shell
+	clear
+# time: 2019-10-18 19:13:58 JST
+# mode: julia
+	p
+# time: 2019-10-18 19:14:00 JST
+# mode: julia
+	jd[;aqwaevdsr4eqaq
+# time: 2019-10-18 19:14:30 JST
+# mode: julia
+	Ôºæ/Ôø•*YÔºñAZDXC„Ç¢„Ç®ÔΩ¥DBHXGBÔΩáÔΩô†EÚTî¯s¯UÏÂgÿ e¯s¯U^,◊G/W7–Ôº≥„Éï„ÇßÔº∏PQZGQ13DZQAD Vslu(E3SLU8TZ .T OGFFHSXAO SCNJDSVKJVFIJNDCSNJMVDSKJDSDSFJSFKSF M   \DW SDI8 QW/:@VQSRqad546ÔΩë„ÉºÔºúÔºö„ÄÅ„ÄÇÔΩçÛ–Tî¯s¯UÏÂgÿ ÔºòÔΩóÔΩåÔºì]ÔºëÔºö79Û–Tî¯s¯UÏÂgÿ e¯s¯U^„Ç®WCB„É≥FV„É≥B„É≥„ÄÇ„ÉªÔø•ÔºäÔΩùY4R @8U2R9Y2[ 98\N E
+# time: 2019-10-18 19:14:30 JST
+# mode: julia
+	^
+# time: 2019-10-18 19:14:30 JST
+# mode: julia
+	 32  ^]
+# time: 2019-10-18 19:14:31 JST
+# mode: julia
+	 ]
+# time: 2019-10-18 19:14:41 JST
+# mode: julia
+	OFOFOFOFOFOFIPIIUUWRIFIIFIFIFIIFIFIFIFIFIH:F @
+# time: 2019-10-18 19:14:42 JST
+# mode: julia
+	   \M

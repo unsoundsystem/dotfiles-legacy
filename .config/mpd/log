@@ -6046,3 +6046,187 @@ Oct 14 20:52 : zeroconf: No global port, disabling zeroconf
 Oct 14 20:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Oct 15 15:59 : zeroconf: No global port, disabling zeroconf
 Oct 15 15:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 17 20:30 : client: [0] opened from 127.0.0.1:49578
+Oct 17 20:30 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 17 20:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 17 20:30 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 17 20:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 17 20:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 17 20:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 17 20:30 : client: [0] closed
+Oct 17 20:37 : client: [1] opened from 127.0.0.1:49704
+Oct 17 20:37 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 17 20:37 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 17 20:37 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 17 20:37 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 17 20:38 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 17 20:38 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 17 21:06 : client: [2] opened from 127.0.0.1:49910
+Oct 17 21:06 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 17 21:06 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 17 21:07 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 17 21:08 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 17 21:09 : player: played "bgm/Bill Evans Trio - Autumn Leaves-r-Z8KuwI7Gc.webm"
+Oct 17 21:09 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 17 21:10 : player: played "bgm/有機酸_ewe「退紅トレイン」feat.初音ミク MV.mp3"
+Oct 17 21:12 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 17 21:12 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 17 21:45 : client: [1] closed
+Oct 17 21:45 : client: [2] closed
+Oct 17 21:46 : client: [3] opened from 127.0.0.1:50300
+Oct 17 21:46 : client: [3] closed
+Oct 17 21:46 : client: [4] opened from 127.0.0.1:50302
+Oct 17 21:46 : client: [4] closed
+Oct 18 09:03 : client: [5] opened from 127.0.0.1:51008
+Oct 18 09:03 : client: [5] closed
+Oct 18 09:06 : client: [6] opened from 127.0.0.1:51122
+Oct 18 09:07 : client: [6] closed
+Oct 18 09:07 : client: [7] opened from 127.0.0.1:51164
+Oct 18 09:07 : client: [7] closed
+Oct 18 09:19 : client: [8] opened from 127.0.0.1:51250
+Oct 18 09:19 : client: [8] closed
+Oct 18 09:25 : client: [9] opened from 127.0.0.1:51370
+Oct 18 09:26 : client: [9] closed
+Oct 18 09:27 : client: [10] opened from 127.0.0.1:51398
+Oct 18 09:27 : client: [11] opened from 127.0.0.1:51400
+Oct 18 09:27 : client: [12] opened from 127.0.0.1:51402
+Oct 18 09:27 : client: [13] opened from 127.0.0.1:51404
+Oct 18 09:28 : client: [14] opened from 127.0.0.1:51406
+Oct 18 09:28 : client: [12] closed
+Oct 18 09:28 : client: [14] closed
+Oct 18 09:28 : client: [10] closed
+Oct 18 09:28 : client: [13] closed
+Oct 18 09:28 : client: [11] closed
+Oct 18 09:28 : client: [15] opened from 127.0.0.1:51408
+Oct 18 09:28 : client: [16] opened from 127.0.0.1:51410
+Oct 18 09:31 : client: [16] closed
+Oct 18 09:31 : client: [15] closed
+Oct 18 09:31 : client: [17] opened from 127.0.0.1:51446
+Oct 18 10:18 : client: [17] closed
+Oct 18 10:18 : player: played "bgm/CITY NIGHT WALK_R(self-cover)-dUGMHFbA0s8.webm"
+Oct 18 10:19 : zeroconf: No global port, disabling zeroconf
+Oct 18 10:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 10:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 10:19 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Oct 18 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 10:19 : client: [0] opened from 127.0.0.1:55584
+Oct 18 10:19 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 10:21 : client: [0] closed
+Oct 18 10:21 : client: [1] opened from 127.0.0.1:55622
+Oct 18 10:24 : client: [1] closed
+Oct 18 10:24 : player: played "bgm/CITY NIGHT WALK_R(self-cover)-dUGMHFbA0s8.webm"
+Oct 18 10:26 : zeroconf: No global port, disabling zeroconf
+Oct 18 10:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 10:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 10:26 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Oct 18 10:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 10:27 : player: played "bgm/CITY NIGHT WALK_R(self-cover)-dUGMHFbA0s8.webm"
+Oct 18 10:27 : zeroconf: No global port, disabling zeroconf
+Oct 18 10:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 10:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 10:27 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Oct 18 10:27 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 10:27 : client: [0] opened from 127.0.0.1:43788
+Oct 18 10:27 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 10:42 : client: [0] closed
+Oct 18 10:42 : client: [1] opened from 127.0.0.1:43904
+Oct 18 11:27 : client: [2] opened from 127.0.0.1:44060
+Oct 18 11:27 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 11:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 11:27 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 18 11:27 : player: played "bgm/CITY NIGHT WALK_R(self-cover)-dUGMHFbA0s8.webm"
+Oct 18 11:27 : client: [2] closed
+Oct 18 11:32 : client: [1] closed
+Oct 18 11:51 : zeroconf: No global port, disabling zeroconf
+Oct 18 11:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 11:51 : client: [0] opened from 127.0.0.1:59200
+Oct 18 11:51 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 11:55 : client: [0] closed
+Oct 18 16:12 : client: [1] opened from 127.0.0.1:60394
+Oct 18 16:30 : client: [2] opened from 127.0.0.1:60516
+Oct 18 16:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 16:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 16:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 16:30 : player: played "bgm/【調教すげぇ】初音ミク『FREELY TOMORROW』【公式PV】.mp3"
+Oct 18 16:30 : client: [2] closed
+Oct 18 17:20 : client: [1] closed
+Oct 18 17:24 : client: [3] opened from 127.0.0.1:60782
+Oct 18 17:24 : client: [3] closed
+Oct 18 17:25 : client: [4] opened from 127.0.0.1:60828
+Oct 18 17:26 : client: [4] closed
+Oct 18 17:26 : client: [5] opened from 127.0.0.1:60842
+Oct 18 17:27 : client: [5] closed
+Oct 18 17:27 : client: [6] opened from 127.0.0.1:60892
+Oct 18 17:28 : client: [6] closed
+Oct 18 17:28 : client: [7] opened from 127.0.0.1:60910
+Oct 18 17:29 : client: [7] closed
+Oct 18 17:29 : client: [8] opened from 127.0.0.1:60956
+Oct 18 17:30 : client: [8] closed
+Oct 18 17:30 : zeroconf: No global port, disabling zeroconf
+Oct 18 17:30 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 17:30 : client: [0] opened from 127.0.0.1:56790
+Oct 18 17:30 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 17:32 : client: [0] closed
+Oct 18 17:33 : client: [1] opened from 127.0.0.1:56838
+Oct 18 17:44 : client: [1] closed
+Oct 19 03:50 : zeroconf: No global port, disabling zeroconf
+Oct 19 03:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 03:50 : client: [0] opened from 127.0.0.1:35188
+Oct 18 18:50 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 19:15 : client: [0] closed
+Oct 18 19:20 : zeroconf: No global port, disabling zeroconf
+Oct 18 19:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 19:20 : client: [0] opened from 127.0.0.1:37528
+Oct 18 19:20 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 19:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 19:21 : avahi: Service 'Music Player @ arch-471' successfully established.
+Oct 18 19:23 : client: [1] opened from [::1]:59442
+Oct 18 19:23 : client: [1] closed
+Oct 18 19:28 : client: [2] opened from [::1]:59522
+Oct 18 19:28 : client: [2] closed
+Oct 18 19:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 19:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 19:28 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 19:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 19:28 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 18 19:29 : client: [3] opened from [::1]:59524
+Oct 18 19:29 : client: [3] closed
+Oct 18 19:29 : client: [4] opened from [::1]:59528
+Oct 18 19:29 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 19:29 : client: [4] closed
+Oct 18 19:29 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 18 19:29 : client: [5] opened from [::1]:59530
+Oct 18 19:29 : client: [5] closed
+Oct 18 19:29 : client: [6] opened from [::1]:59532
+Oct 18 19:29 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 19:29 : client: [6] closed
+Oct 18 19:29 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 18 19:29 : client: [7] opened from [::1]:59534
+Oct 18 19:29 : client: [7] closed
+Oct 18 19:31 : client: [8] opened from [::1]:59540
+Oct 18 19:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 19:31 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 19:31 : client: [8] closed
+Oct 18 19:31 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 18 19:31 : client: [9] opened from [::1]:59542
+Oct 18 19:31 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 19:31 : client: [9] closed
+Oct 18 19:31 : client: [10] opened from [::1]:59544
+Oct 18 19:31 : client: [10] closed
+Oct 18 19:31 : client: [11] opened from [::1]:59546
+Oct 18 19:31 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 19:31 : client: [11] closed
+Oct 18 19:32 : client: [12] opened from 127.0.0.1:37678
+Oct 18 19:33 : client: [12] closed
+Oct 18 19:34 : client: [13] opened from [::1]:59578
+Oct 18 19:34 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 19:34 : client: [13] closed
+Oct 18 19:35 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 18 19:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Oct 18 19:38 : player: played "bgm/ヨルシカ - ただ君に晴れ (MUSIC VIDEO).mp3"
+Oct 18 19:38 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 19:42 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Oct 18 19:43 : player: played "bgm/John Legend -All of Me (lyrics)-R21EU8SKUM0.webm"
+Oct 18 19:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 18 19:45 : client: [14] opened from [::1]:59608
+Oct 18 19:45 : client: [14] closed

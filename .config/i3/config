@@ -25,12 +25,7 @@ font pango:HackGen Console for Powerline 15
 # clear in small sizes. However, its unicode glyph coverage is limited, the old
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
-
-# Use Mouse+$mod to drag floating windows to their wanted position
-floating_modifier $mod
-
-# start a terminal
-bindsym $mod+Return exec st -f "HackGen Console for Powerline:size=14"
+bindsym $mod+Return exec st -f "HackGen Console for Powerline:size=15"
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -40,7 +35,7 @@ bindsym $mod+d exec dmenu_run -fn 'HackGen'
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+#bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
 bindsym $mod+h focus left
@@ -173,26 +168,36 @@ bindsym Print exec --no-startup-id import -window root ~/Pictures/screenshot`dat
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-	status_command python /usr/lib/python3.7/site-packages/powerline/bindings/i3/powerline-i3.py
-	#status_command i3status
+	#status_command python /usr/lib/python3.7/site-packages/powerline/bindings/i3/powerline-i3.py
+	status_command i3status
 	position top
 	font pango:HackGen Console for Powerline 15
 }
+#volume
+bindsym XF86AudioRaiseVolume exec pamixer -i 5
+bindsym XF86AudioLowerVolume exec pamixer -d 5
+bindsym XF86AudioMute exec pamixer -t
+
+#screen lock
+bindsym Control+Mod1+l exec i3lock -i /home/sinai/Pictures/UBeWVaL.png
+
+#apps
+bindsym Mod1+n exec st -f "HackGen Console for Powerline:size=15" -e ncmpcpp
+bindsym Mod1+i exec st -f "HackGen Console for Powerline:size=15" -e ranger
+bindsym Mod1+y exec st -f "HackGen Console for Powerline:size=15" -e nmtui
+#bindsym Mod1+c exec conky
+
+#touch pad on/off
+bindsym Mod1+F6 exec sh /home/sinai/.config/i3/scripts/touchpad_toggle
+
+#mpd keybind
+bindsym XF86AudioPlay exec mpc toggle
+bindsym XF86AudioPrev exec mpc prev
+bindsym XF86AudioNext exec mpc next
 
 # Start fcitx
 exec --no-startup-id fcitx
 
 #wallpaper
 exec --no-startup-id feh --bg-scale --randomize  /home/sinai/Pictures/wallpapers/*
-
-#volume
-bindsym XF86AudioRaiseVolume exec amixer set Master 5%+
-bindsym XF86AudioLowerVolume exec amixer set Master 5%-
-#screen lock
-bindsym Control+Mod1+l exec i3lock -i /home/sinai/Pictures/UBeWVaL.png
-bindsym Mod1+n exec st -e ncmpcpp
-bindsym Mod1+i exec st -e ranger
-
-#touch pad on/off
-bindsym Mod1+F8 exec synclient TouchpadOff=1
-bindsym Mod1+F9 exec synclient TouchpadOff=0
+exec --no-startup-id conky
