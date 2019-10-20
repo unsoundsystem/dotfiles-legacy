@@ -7506,3 +7506,11 @@ Oct 20 19:15 : client: [5] opened from [::1]:53408
 Oct 20 19:15 : client: [5] closed
 Oct 20 19:15 : client: [6] opened from [::1]:53410
 Oct 20 19:15 : client: [6] closed
+Oct 20 20:01 : client: [2] closed
+Oct 20 20:01 : client: [7] opened from 127.0.0.1:56426
+Oct 20 20:06 : client: [7] closed
+Oct 20 20:06 : player: played "bgm/PinocchioP - Tonchinkan Feast feat.Hatsune Miku _ .mp3"
+Oct 20 20:06 : zeroconf: No global port, disabling zeroconf
+Oct 20 20:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 20 20:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 20 20:06 : client: [0] opened from 127.0.0.1:38680
