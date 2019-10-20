@@ -449,11 +449,11 @@ version = "0.41.0"
 
 [[Genie]]
 deps = ["ArgParse", "Dates", "Distributed", "Gumbo", "HTTP", "HttpCommon", "JSON", "Logging", "LoggingExtras", "Markdown", "MbedTLS", "Millboard", "Nettle", "Nullables", "OrderedCollections", "Pkg", "Reexport", "Revise", "SHA", "Serialization", "Sockets", "URIParser", "Unicode", "YAML"]
-git-tree-sha1 = "4447823f51e7832901fbab7cd1e2c46efe396841"
+git-tree-sha1 = "67f846b00404da78c2e85891f3627c01f4504230"
 repo-rev = "master"
 repo-url = "https://github.com/GenieFramework/Genie.jl.git"
 uuid = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
-version = "0.19.0"
+version = "0.19.1"
 
 [[GeometryTypes]]
 deps = ["ColorTypes", "FixedPointNumbers", "IterTools", "LinearAlgebra", "StaticArrays"]
@@ -596,10 +596,10 @@ uuid = "82899510-4779-5014-852e-03e436cf321d"
 version = "1.0.0"
 
 [[JSON]]
-deps = ["Dates", "Distributed", "Mmap", "Sockets", "Test", "Unicode"]
-git-tree-sha1 = "1f7a25b53ec67f5e9422f1f551ee216503f4a0fa"
+deps = ["Dates", "Mmap", "Parsers", "Unicode"]
+git-tree-sha1 = "b34d7cef7b337321e97d22242c3c2b91f476748e"
 uuid = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
-version = "0.20.0"
+version = "0.21.0"
 
 [[JuliaFormatter]]
 deps = ["CSTParser", "Test", "Tokenize"]
@@ -644,10 +644,10 @@ uuid = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 version = "1.0.3"
 
 [[LanguageServer]]
-deps = ["CSTParser", "DocumentFormat", "JSON", "REPL", "StaticLint", "SymbolServer", "Tokenize", "URIParser"]
-git-tree-sha1 = "5a6cf52ee92e3d239457a3d626fe6e384a956fca"
+deps = ["CSTParser", "DocumentFormat", "JSON", "REPL", "Sockets", "StaticLint", "SymbolServer", "Test", "Tokenize", "URIParser"]
+git-tree-sha1 = "e3b5762eeabeecd80e1210bf13ac2162275ca9be"
 uuid = "2b0e0bc5-e4fd-59b4-8912-456d1b03d8d7"
-version = "0.6.1"
+version = "0.5.1"
 
 [[Lazy]]
 deps = ["MacroTools"]
@@ -870,6 +870,12 @@ deps = ["OrderedCollections"]
 git-tree-sha1 = "b62b2558efb1eef1fa44e4be5ff58a515c287e38"
 uuid = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 version = "0.12.0"
+
+[[Parsers]]
+deps = ["Dates", "Test"]
+git-tree-sha1 = "ef0af6c8601db18c282d092ccbd2f01f3f0cd70b"
+uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
+version = "0.3.7"
 
 [[Pidfile]]
 deps = ["FileWatching", "Test"]

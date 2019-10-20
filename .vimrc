@@ -38,9 +38,9 @@ else
 		call dein#save_state()
 		 
 	"powerline
-	"set rtp+=~/.local/lib/python3.7/site-packages/powerline/bindings/vim
-	"let g:powerline_pycmd="py3"
-	"set laststatus=2
+	set rtp+=/home/sinai/anaconda3/lib/python3.7/site-packages/powerline/bindings/vim
+	let g:powerline_pycmd="py3"
+	set laststatus=2
 
 	endif
 endif
@@ -52,10 +52,10 @@ augroup vimrc
         au BufNewFile,BufRead *.zen  setfiletype zen    
         au BufNewFile,BufNewFile *.csv setfiletype csv    
         au BufNewFile,BufNewFile *.lds setfiletype ld
-	au BufNewfile *.c 0r ~/Templetes/c.c
-	au BufNewfile *.jl 0r ~/Templetes/julia.jl
-	au BufNewFile *.sh 0r ~/Templetes/shell.sh
-	au BufNewFile *.vhd 0r ~/Templetes/vhdl.vhd
+		au BufNewfile *.c 0r ~/Templetes/c.c
+		au BufNewfile *.jl 0r ~/Templetes/julia.jl
+		au BufNewFile *.sh 0r ~/Templetes/shell.sh
+		au BufNewFile *.vhd 0r ~/Templetes/vhdl.vhd
 augroup END    
 
 "install if not installed    
@@ -82,6 +82,8 @@ set termguicolors
 set mouse=n
 set ts=4
 nn tn :tabnew 
+nn <C-S-r> :source ~/.vimrc<CR><Esc> 
+nn <C-S-t> :e ~/.vimrc<CR><Esc> 
 
 "see through
 highlight Normal ctermbg=none

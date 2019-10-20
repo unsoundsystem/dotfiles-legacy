@@ -2,8 +2,8 @@ sw_volume: 98
 audio_device_state:1:My Pulse Output
 audio_device_state:1:my_fifo
 state: pause
-current: 47
-time: 0.558000
+current: 83
+time: 3.540000
 random: 1
 repeat: 1
 single: 0
@@ -59,8 +59,8 @@ playlist_begin
 44:bgm/bohemianvoodoo 'El Ron Zacapa' 【Music Video】-z2knnB8oedc.webm
 45:bgm/bohemianvoodoo 'Golden Forest' 【Music Video】--oWccnrIqKo.webm
 46:bgm/bohemianvoodoo '石の教会' 【Music Video】-3FS5BF5HwrI.webm
-47:bgm/DADA RADWIMPS MV-Yy6XeGCNkSM.mp4
-48:bgm/CITY NIGHT WALK_R(self-cover)-dUGMHFbA0s8.webm
+47:bgm/CITY NIGHT WALK_R(self-cover)-dUGMHFbA0s8.webm
+48:bgm/DADA RADWIMPS MV-Yy6XeGCNkSM.mp4
 49:bgm/Earl Klugh - Living Inside Your Love-uYfPLF6Q-M4.webm
 50:bgm/Ed Sheeran _ Photograph (Lyric-Letra) Ingles-9HEoCRYGdDU.webm
 51:bgm/Eddie Lang - Some Of These Days-Q-aF8k1ddek.mkv
@@ -97,99 +97,107 @@ playlist_begin
 82:bgm/PinocchioP - Nobody Makes Sense _ ピノキオピー- ぼくらはみんな意.mp3
 83:bgm/PinocchioP - Tonchinkan Feast feat.Hatsune Miku _ .mp3
 84:bgm/Ram Jam - Black Betty-I_2D8Eo15wE.mkv
-85:bgm/SPARKLE-RADWINPS「歌詞付き」-M7Se3CxTWxU.webm
-86:bgm/Step Into My Time Machine-ySKQiKBpYOs.mkv
-87:bgm/TAPE FIVE   City of Lights-hNtP8zJFL2M.mkv
-88:bgm/TAPE FIVE   City of Lights.mp3
-89:bgm/TAPE FIVE - The Magic Slapstick-qEiw1UIlXhI.mkv
-90:bgm/Vocaloid medley1 arranged on Acoustic Guitar by Osamuraisan [Working BGM]-JpMTS_PM1ws.webm
-91:bgm/Wes Montgomery Trio - Days of Wine and Roses-JadIhIihTFw.webm
-92:bgm/あいみょん - マリーゴールド【OFFICIAL MUSIC VIDEO】-0xSiBpUdW4E.mkv
-93:bgm/あいみょん - 今夜このまま【OFFICIAL MUSIC VIDEO】-mH6LoI63buY.webm
-94:bgm/あいみょん - 君はロックを聴かない 【OFFICIAL MUSIC VIDEO】-ARwVe1MYAUA.mkv
-95:bgm/いいんですか_ 2017 ver..mp3
-96:bgm/おしゃかしゃま RADWIMPS MV.mp3
-97:bgm/お気に召すまま - Eve MV-nROvY9uiYYk.webm
-98:bgm/カフネ　歌ってみた－遊.mp3
-99:bgm/シャルル　歌ってみたのはメガテラ･ゼロ-VdKyMg-FhU4.mkv
-100:bgm/ずっと真夜中でいいのに。『秒針を噛む』MV-GJI4Gv7NbmE.webm
-101:bgm/ずっと真夜中でいいのに。『脳裏上のクラッカー』MV-3iAXclHlTTg.mkv
-102:bgm/スパークル [original ver.] -Your name. Music Video edit.mp3
-103:bgm/ダンスビートに笑われて_4ma15 feat.重音テト-N3AOKZ_bKKY.mkv
-104:bgm/ディカディズム _ Flower･心華 - ぬゆり.mp3
-105:bgm/バウムクーヘンエンド - Eve MV-D_v8oX5s51g.mkv
-106:bgm/ピコン - ガランド ft. 初音ミク.mp3
-107:bgm/ピコン - タタラ ft. 初音ミク-TzqBFURAZDA.mkv
-108:bgm/ピコン - デドローズ ft. 初音ミク-e45n4pYEDwE.mkv
-109:bgm/ピコン - 死ぬにはいい日だった ft. 初音ミク-6XisgRKW9ww.mkv
-110:bgm/フラジール _ GUMI - ぬゆり.mp3
-111:bgm/プロトディスコ _ flower - ぬゆり.mp3
-112:bgm/メーベル／flower.mp3
-113:bgm/メーベル／バルーン(self cover)-_KZTkRgGqds.mkv
-114:bgm/ヨルシカ - ただ君に晴れ (MUSIC VIDEO).mp3
-115:bgm/ヨルシカ - ヒッチコック (MUSIC VIDEO).mp3
-116:bgm/ヨルシカ - 雨とカプチーノ(Official Video)-PWbRleMGagU.mkv
-117:bgm/ヨルシカ - 靴の花火 (Music Video).mp3
-118:bgm/ロンリーダンス _ flower - ぬゆり.mp3
-119:bgm/世迷言_4ma15 feat.滲音かこい-qJ20KjcryOQ.mkv
-120:bgm/前前前世 (movie ver.) RADWIMPS MV-PDSkFeMVNFs.webm
-121:bgm/前前前世 (movie ver.) RADWIMPS MV.mp3
-122:bgm/夜明けと蛍 _ ナブナ-nDbNRb9gOr4.webm
-123:bgm/快晴　歌ってみたのはメガテラ・ゼロ-2GEYlOkldOs.mkv
-124:bgm/恋は渾沌の隷也　歌詞付き-aEHxqBHCkFc.mkv
-125:bgm/愛にできることはまだあるかい RADWIMPS MV-EQ94zflNqn4.mkv
-126:bgm/折坂悠太 - 朝顔 (Official Music Video) _ Yuta Orisaka - Asagao-tZs7LDOxRes.mkv
-127:bgm/有機酸_ewe「退紅トレイン」feat.初音ミク MV.mp3
-128:bgm/東方爆音ジャズBESTメドレー【東京アクティブNEETs】.mp3
-129:bgm/泣けど喚けど朝がきて_12uck feat.重音テト.mp3
-130:bgm/深夜高速_重音テト【カバー】-MrBPRaDHGYE.mkv
-131:bgm/然れど応答は冴えず_12uck feat.重音テト.mp3
-132:bgm/眠れぬ夜は繰り返す_4ma15 feat.重音テト-6ji0sW7Gaw0.mkv
-133:bgm/神山 羊 - YELLOW【Music Video】_ Yoh Kamiyama - YELLOW.mp3
-134:bgm/神山羊 - 青い棘【Music Video】_ Yoh Kamiyama - Aoi Toge-PVlVzX6OLns.mkv
-135:bgm/米津玄師  MV「 灰色と青（ ＋菅田将暉 ）」-gJX2iy6nhHc.webm
-136:bgm/米津玄師  MV「Lemon」-SX_ViT4Ra7k.webm
-137:bgm/米津玄師  MV「アイネクライネ」--EKxzId_Sj4.mkv
-138:bgm/米津玄師 MV「Flamingo」-Uh6dkL1M9DM.webm
-139:bgm/米津玄師 MV「Flamingo」.mp3
-140:bgm/米津玄師 MV「パプリカ」Kenshi Yonezu _ Paprika-s582L3gujnw.mkv
-141:bgm/米津玄師 MV「海の幽霊」Spirits of the Sea-1s84rIhPuhk.mkv
-142:bgm/米津玄師 MV「馬と鹿」Uma to Shika-ptnYBctoexk.mkv
-143:bgm/終末じゃない _ Flower･心華 - ぬゆり.mp3
-144:bgm/花瓶に触れた／flower.mp3
-145:bgm/花瓶に触れた歌ってみたのはメガテラ・ゼロ-8xi4m-CzuJU.mkv
-146:bgm/菅田将暉 『まちがいさがし』-7940nuwCEYA.mkv
-147:bgm/蛍が飛んだ_4ma15 feat.滲音かこい-7KUP6XR5Tpg.mkv
-148:bgm/記号として RADWIMPS MV.mp3
-149:bgm/雨とペトラ／flower-PdfdOhYVU40.mkv
-150:bgm/雨とペトラ／flower.mp3
-151:bgm/須田景凪 「MOIL」MV-U097VmiGTxY.webm
-152:bgm/須田景凪 │ バルーン - 年末なので「パレイドリア」のリアレンジ音源を添えておきます今年もお世話に.mp3
-153:bgm/須田景凪「Cambell」MV-DKUmfMmsqG0.mkv
-154:bgm/須田景凪「veil」MV-n7VZxg9pxkg.mkv
-155:bgm/須田景凪「パレイドリア」MV-NQ12-0TYgAs.webm
-156:bgm/須田景凪「レド」MV-FNn6E_fkxFg.mkv
-157:bgm/01 Dwight's Blues.wma
-158:bgm/02 Watermelon Man.wma
-159:bgm/03 Can't Find My Way Home.wma
-160:bgm/04 The Last Polar Bear.wma
-161:bgm/05 The Way We Was.wma
-162:bgm/06 California Blues.wma
-163:bgm/07 Central Park.wma
-164:bgm/08 Be Thou My Vision.wma
-165:bgm/09 New Blues.wma
-166:bgm/10 Don't Give It Up.wma
-167:bgm/01 Mr. Goodbar.wma
-168:bgm/02 Scheerhorn Shuffle.wma
-169:bgm/03 Self Portrait.wma
-170:bgm/04 Stanford and Son.wma
-171:bgm/05 I'll Take Les.wma
-172:bgm/06 Killeen.wma
-173:bgm/07 Juke Joint.wma
-174:bgm/08 Blues for Sammy.wma
-175:bgm/09 When We Were Leaving.wma
-176:bgm/10 Union Pacific.wma
-177:bgm/11 50 Years Ago.wma
-178:bgm/Jazz_Me_Blues.mp3
-179:bgm/Morning_Stroll.mp3
+85:bgm/Random Jam #1 [slow hip-hop w_ Digitakt, Volca FM & Keystep]-BrphqQItGzo.mkv
+86:bgm/Random Jam #2 [moody hip-hop w_ Digitakt, 0-Coast, Keystep & Ditto X4]-s7tzPW5Kyz8.mkv
+87:bgm/Random Jam #3 [jazzy ambient w_ 0-Coast, Ditto X4, Digitakt & Keystep]-PBPbGNEPEnw.mkv
+88:bgm/Random Jam #4 [funky hip-hop w_ Digitakt, 0-Coast, Volca FM, Keystep & Ditto X4]-Mq3Tf0I95M8.mkv
+89:bgm/Random Jam #5 [guitar loop ballad w_ Ditto X4]-KDm_pX7VM9c.mkv
+90:bgm/Random Jam #6 [laid back hip-hop w_ Digitakt, Volca FM, Keystep & Ditto X4]-WfbmQUYawWo.mkv
+91:bgm/Random Jam #7 [spooky ambient w_ Volca FM, 0-Coast, Keystep & Ditto X4]-kI2aeTH42rQ.mkv
+92:bgm/Random Jam #8 [weird jazzy stuff w_ Digitakt, 0-Coast, Keystep & Ditto X4]-PffyRrUEPVM.webm
+93:bgm/SPARKLE-RADWINPS「歌詞付き」-M7Se3CxTWxU.webm
+94:bgm/Step Into My Time Machine-ySKQiKBpYOs.mkv
+95:bgm/TAPE FIVE   City of Lights-hNtP8zJFL2M.mkv
+96:bgm/TAPE FIVE   City of Lights.mp3
+97:bgm/TAPE FIVE - The Magic Slapstick-qEiw1UIlXhI.mkv
+98:bgm/Vocaloid medley1 arranged on Acoustic Guitar by Osamuraisan [Working BGM]-JpMTS_PM1ws.webm
+99:bgm/Wes Montgomery Trio - Days of Wine and Roses-JadIhIihTFw.webm
+100:bgm/あいみょん - マリーゴールド【OFFICIAL MUSIC VIDEO】-0xSiBpUdW4E.mkv
+101:bgm/あいみょん - 今夜このまま【OFFICIAL MUSIC VIDEO】-mH6LoI63buY.webm
+102:bgm/あいみょん - 君はロックを聴かない 【OFFICIAL MUSIC VIDEO】-ARwVe1MYAUA.mkv
+103:bgm/いいんですか_ 2017 ver..mp3
+104:bgm/おしゃかしゃま RADWIMPS MV.mp3
+105:bgm/お気に召すまま - Eve MV-nROvY9uiYYk.webm
+106:bgm/カフネ　歌ってみた－遊.mp3
+107:bgm/シャルル　歌ってみたのはメガテラ･ゼロ-VdKyMg-FhU4.mkv
+108:bgm/ずっと真夜中でいいのに。『秒針を噛む』MV-GJI4Gv7NbmE.webm
+109:bgm/ずっと真夜中でいいのに。『脳裏上のクラッカー』MV-3iAXclHlTTg.mkv
+110:bgm/スパークル [original ver.] -Your name. Music Video edit.mp3
+111:bgm/ダンスビートに笑われて_4ma15 feat.重音テト-N3AOKZ_bKKY.mkv
+112:bgm/ディカディズム _ Flower･心華 - ぬゆり.mp3
+113:bgm/バウムクーヘンエンド - Eve MV-D_v8oX5s51g.mkv
+114:bgm/ピコン - ガランド ft. 初音ミク.mp3
+115:bgm/ピコン - タタラ ft. 初音ミク-TzqBFURAZDA.mkv
+116:bgm/ピコン - デドローズ ft. 初音ミク-e45n4pYEDwE.mkv
+117:bgm/ピコン - 死ぬにはいい日だった ft. 初音ミク-6XisgRKW9ww.mkv
+118:bgm/フラジール _ GUMI - ぬゆり.mp3
+119:bgm/プロトディスコ _ flower - ぬゆり.mp3
+120:bgm/メーベル／flower.mp3
+121:bgm/メーベル／バルーン(self cover)-_KZTkRgGqds.mkv
+122:bgm/ヨルシカ - ただ君に晴れ (MUSIC VIDEO).mp3
+123:bgm/ヨルシカ - ヒッチコック (MUSIC VIDEO).mp3
+124:bgm/ヨルシカ - 雨とカプチーノ(Official Video)-PWbRleMGagU.mkv
+125:bgm/ヨルシカ - 靴の花火 (Music Video).mp3
+126:bgm/ロンリーダンス _ flower - ぬゆり.mp3
+127:bgm/世迷言_4ma15 feat.滲音かこい-qJ20KjcryOQ.mkv
+128:bgm/前前前世 (movie ver.) RADWIMPS MV-PDSkFeMVNFs.webm
+129:bgm/前前前世 (movie ver.) RADWIMPS MV.mp3
+130:bgm/夜明けと蛍 _ ナブナ-nDbNRb9gOr4.webm
+131:bgm/快晴　歌ってみたのはメガテラ・ゼロ-2GEYlOkldOs.mkv
+132:bgm/恋は渾沌の隷也　歌詞付き-aEHxqBHCkFc.mkv
+133:bgm/愛にできることはまだあるかい RADWIMPS MV-EQ94zflNqn4.mkv
+134:bgm/折坂悠太 - 朝顔 (Official Music Video) _ Yuta Orisaka - Asagao-tZs7LDOxRes.mkv
+135:bgm/有機酸_ewe「退紅トレイン」feat.初音ミク MV.mp3
+136:bgm/東方爆音ジャズBESTメドレー【東京アクティブNEETs】.mp3
+137:bgm/泣けど喚けど朝がきて_12uck feat.重音テト.mp3
+138:bgm/深夜高速_重音テト【カバー】-MrBPRaDHGYE.mkv
+139:bgm/然れど応答は冴えず_12uck feat.重音テト.mp3
+140:bgm/眠れぬ夜は繰り返す_4ma15 feat.重音テト-6ji0sW7Gaw0.mkv
+141:bgm/神山 羊 - YELLOW【Music Video】_ Yoh Kamiyama - YELLOW.mp3
+142:bgm/神山羊 - 青い棘【Music Video】_ Yoh Kamiyama - Aoi Toge-PVlVzX6OLns.mkv
+143:bgm/米津玄師  MV「 灰色と青（ ＋菅田将暉 ）」-gJX2iy6nhHc.webm
+144:bgm/米津玄師  MV「Lemon」-SX_ViT4Ra7k.webm
+145:bgm/米津玄師  MV「アイネクライネ」--EKxzId_Sj4.mkv
+146:bgm/米津玄師 MV「Flamingo」-Uh6dkL1M9DM.webm
+147:bgm/米津玄師 MV「Flamingo」.mp3
+148:bgm/米津玄師 MV「パプリカ」Kenshi Yonezu _ Paprika-s582L3gujnw.mkv
+149:bgm/米津玄師 MV「海の幽霊」Spirits of the Sea-1s84rIhPuhk.mkv
+150:bgm/米津玄師 MV「馬と鹿」Uma to Shika-ptnYBctoexk.mkv
+151:bgm/終末じゃない _ Flower･心華 - ぬゆり.mp3
+152:bgm/花瓶に触れた／flower.mp3
+153:bgm/花瓶に触れた歌ってみたのはメガテラ・ゼロ-8xi4m-CzuJU.mkv
+154:bgm/菅田将暉 『まちがいさがし』-7940nuwCEYA.mkv
+155:bgm/蛍が飛んだ_4ma15 feat.滲音かこい-7KUP6XR5Tpg.mkv
+156:bgm/記号として RADWIMPS MV.mp3
+157:bgm/雨とペトラ／flower-PdfdOhYVU40.mkv
+158:bgm/雨とペトラ／flower.mp3
+159:bgm/須田景凪 「MOIL」MV-U097VmiGTxY.webm
+160:bgm/須田景凪 │ バルーン - 年末なので「パレイドリア」のリアレンジ音源を添えておきます今年もお世話に.mp3
+161:bgm/須田景凪「Cambell」MV-DKUmfMmsqG0.mkv
+162:bgm/須田景凪「veil」MV-n7VZxg9pxkg.mkv
+163:bgm/須田景凪「パレイドリア」MV-NQ12-0TYgAs.webm
+164:bgm/須田景凪「レド」MV-FNn6E_fkxFg.mkv
+165:bgm/01 Dwight's Blues.wma
+166:bgm/02 Watermelon Man.wma
+167:bgm/03 Can't Find My Way Home.wma
+168:bgm/04 The Last Polar Bear.wma
+169:bgm/05 The Way We Was.wma
+170:bgm/06 California Blues.wma
+171:bgm/07 Central Park.wma
+172:bgm/08 Be Thou My Vision.wma
+173:bgm/09 New Blues.wma
+174:bgm/10 Don't Give It Up.wma
+175:bgm/01 Mr. Goodbar.wma
+176:bgm/02 Scheerhorn Shuffle.wma
+177:bgm/03 Self Portrait.wma
+178:bgm/04 Stanford and Son.wma
+179:bgm/05 I'll Take Les.wma
+180:bgm/06 Killeen.wma
+181:bgm/07 Juke Joint.wma
+182:bgm/08 Blues for Sammy.wma
+183:bgm/09 When We Were Leaving.wma
+184:bgm/10 Union Pacific.wma
+185:bgm/11 50 Years Ago.wma
+186:bgm/Jazz_Me_Blues.mp3
+187:bgm/Morning_Stroll.mp3
 playlist_end

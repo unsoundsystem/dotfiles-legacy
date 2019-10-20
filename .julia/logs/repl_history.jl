@@ -4089,3 +4089,129 @@
 # time: 2019-10-18 19:14:42 JST
 # mode: julia
 	   \M
+# time: 2019-10-19 12:31:55 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-19 12:32:29 JST
+# mode: julia
+	using PackageCompiler:InitREPL, InitBase, ExitHookStart
+# time: 2019-10-19 12:32:38 JST
+# mode: julia
+	using PackageCompiler:InitREPL, InitBase, ExitHooksStart
+# time: 2019-10-19 12:33:26 JST
+# mode: julia
+	cmd = ExitHooksStart() * InitBase() * InitREPL()
+# time: 2019-10-19 12:34:59 JST
+# mode: julia
+	REPL_MODULE_REF[]
+# time: 2019-10-19 12:39:49 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-19 12:40:28 JST
+# mode: julia
+	build_executable("test.jl")
+# time: 2019-10-19 12:41:13 JST
+# mode: julia
+	build_executable("test.jl";verbose=true)
+# time: 2019-10-19 12:42:43 JST
+# mode: shell
+	vim ~/.julia/packages/PackageCompiler/CJQcs/sysimg/run_julia_code.jl
+# time: 2019-10-19 12:45:04 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-19 12:45:09 JST
+# mode: julia
+	build_executable("test.jl";verbose=true)
+# time: 2019-10-19 12:46:07 JST
+# mode: pkg
+	update
+# time: 2019-10-19 12:46:29 JST
+# mode: pkg
+	test PackageCompiler
+# time: 2019-10-19 12:47:08 JST
+# mode: pkg
+	add Color
+# time: 2019-10-19 12:47:13 JST
+# mode: pkg
+	add Colors
+# time: 2019-10-19 12:47:18 JST
+# mode: pkg
+	test PackageCompiler
+# time: 2019-10-19 12:48:18 JST
+# mode: pkg
+	add FixedPointNumbers
+# time: 2019-10-19 12:48:22 JST
+# mode: pkg
+	test PackageCompiler
+# time: 2019-10-19 13:10:07 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-19 13:10:29 JST
+# mode: julia
+	build_executable("test.jl"; verbose=true)
+# time: 2019-10-19 13:11:21 JST
+# mode: julia
+	build_executable("test.jl";startup_file=no, verbose=true)
+# time: 2019-10-19 13:11:33 JST
+# mode: julia
+	build_executable("test.jl";startup_file=false, verbose=true)
+# time: 2019-10-19 13:11:53 JST
+# mode: julia
+	build_executable("test.jl";startup_file="no", verbose=true)
+# time: 2019-10-19 13:17:01 JST
+# mode: shell
+	ldd builddir/test
+# time: 2019-10-19 13:49:45 JST
+# mode: julia
+	a
+# time: 2019-10-19 13:49:56 JST
+# mode: julia
+	println()
+# time: 2019-10-19 13:58:30 JST
+# mode: julia
+	Base.compilecache("REPL")
+# time: 2019-10-19 13:58:45 JST
+# mode: julia
+	Base.compilecache(REPL)
+# time: 2019-10-19 13:58:59 JST
+# mode: julia
+	PkgId
+# time: 2019-10-19 13:59:05 JST
+# mode: julia
+	Base.PkgId
+# time: 2019-10-19 13:59:10 JST
+# mode: help
+	Base.PkgId
+# time: 2019-10-19 13:59:25 JST
+# mode: julia
+	Base.PkgId(REPL)
+# time: 2019-10-19 13:59:51 JST
+# mode: julia
+	Base.compilecache(Base.PkgId(REPL))
+# time: 2019-10-19 14:00:09 JST
+# mode: julia
+	@stdlib
+# time: 2019-10-19 14:00:50 JST
+# mode: help
+	Base.__precompile__
+# time: 2019-10-19 14:02:50 JST
+# mode: julia
+	Base.banner
+# time: 2019-10-19 14:02:53 JST
+# mode: julia
+	Base.banner()
+# time: 2019-10-19 14:15:28 JST
+# mode: julia
+	get_world_counter
+# time: 2019-10-19 14:15:41 JST
+# mode: julia
+	using Core:get_world_counter
+# time: 2019-10-19 14:16:53 JST
+# mode: julia
+	using Core:ge
+# time: 2019-10-19 15:16:02 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-19 15:16:06 JST
+# mode: julia
+	force_native_image!()
