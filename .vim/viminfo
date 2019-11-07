@@ -11,243 +11,185 @@
 # hlsearch on (H) or off (h):
 ~h
 # 最後の 検索パターン:
-~Msle0/\<text\>
+~MSle0~/_jl_value_t
 
 # 最後の Substitute 検索パターン:
-~MSle0~&\~\/Templetes
+~MSle0&_
 
 # 最後に置換された文字列:
-$TEMPDIR
+$\\_
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
+:echo has('vim')
+|2,0,1573034725,,"echo has('vim')"
+:echo has('nvim')
+|2,0,1573034703,,"echo has('nvim')"
 :wq
-<<<<<<< HEAD
-|2,0,1569211536,,"wq"
-:q
-|2,0,1569211456,,"q"
-:w
-|2,0,1569211455,,"w"
-=======
-|2,0,1567570482,,"wq"
-:bn
-|2,0,1567570478,,"bn"
-:e /etc/profile.d/zzz-cdm.sh
-|2,0,1567570471,,"e /etc/profile.d/zzz-cdm.sh"
-:e ~/.bash_profile
-|2,0,1567570450,,"e ~/.bash_profile"
-:q
-|2,0,1567570393,,"q"
-:w
-|2,0,1567570007,,"w"
-:terminal
-|2,0,1567511339,,"terminal"
-:te
-|2,0,1567511333,,"te"
-:e ~/Scripts/
-|2,0,1567498822,,"e ~/Scripts/"
->>>>>>> bed1b4eca04042c753d7236b5c68fc166f759fda
+|2,0,1572950478,,"wq"
 :q!
-|2,0,1569209693,,"q!"
-:%!xxd
-|2,0,1569209614,,"%!xxd"
-:!xxd %
-|2,0,1569209599,,"!xxd %"
-:call expand("/home")
-|2,0,1569202336,,"call expand(\"/home\")"
-:e shell.jl
-|2,0,1569201864,,"e shell.jl"
-:'<,'>s/\~\/Templetes/TEMPDIR/g
-|2,0,1569201825,,"'<,'>s/\\~\\/Templetes/TEMPDIR/g"
-:'<,'>s/~\/Templetes/TEMPDIR/g
-|2,0,1569201811,,"'<,'>s/~\\/Templetes/TEMPDIR/g"
-:'<,'>s/~\/Templetes/TEMPDIR/
-|2,0,1569201789,,"'<,'>s/~\\/Templetes/TEMPDIR/"
-:e julia.jl
-|2,0,1569201203,,"e julia.jl"
-:q:q:q
-|2,0,1568985743,,"q:q:q"
-:e libsupportinit.c
-|2,0,1568983072,,"e libsupportinit.c"
-:e libnolibc.a
-|2,0,1568983063,,"e libnolibc.a"
-:!pwd
-|2,0,1568885754,,"!pwd"
-:echo expand("%")
-|2,0,1568885745,,"echo expand(\"%\")"
-:echo $%
-|2,0,1568885730,,"echo $%"
-:echo %
-|2,0,1568885723,,"echo %"
-:w ~/Scripts/linker_and_loader/space.lds
-|2,0,1568885714,,"w ~/Scripts/linker_and_loader/space.lds"
-:echo &filetype
-|2,0,1568885499,,"echo &filetype"
-:e main.c
-|2,0,1568786579,,"e main.c"
-:e repl.c
-|2,0,1568779232,,"e repl.c"
-:!ls
-|2,0,1568777662,,"!ls"
-:!la
-|2,0,1568777659,,"!la"
-:bn
-|2,0,1568777193,,"bn"
-:e ../Makefile
-|2,0,1568777153,,"e ../Makefile"
-:e ../Makeconf
-|2,0,1568777149,,"e ../Makeconf"
-:abn
-|2,0,1568776285,,"abn"
-:we
-|2,0,1568776271,,"we"
-::bn
-|2,0,1568776230,,":bn"
-:e dlmalloc.i
-|2,0,1568775581,,"e dlmalloc.i"
-:43
-|2,0,1568705851,,"43"
-:e sysimage.mk
-|2,0,1568699911,,"e sysimage.mk"
-:78
-|2,0,1568699880,,"78"
-:j
-|2,0,1568695573,,"j"
-:k
-|2,0,1568695568,,"k"
-:j\
-|2,0,1568695561,,"j\\"
-:set filetype=c
-|2,0,1568695310,,"set filetype=c"
-:! cd .. && ctags -R
-|2,0,1568692891,,"! cd .. && ctags -R"
-:e ../../solo5/Makeconf
-|2,0,1568691852,,"e ../../solo5/Makeconf"
+|2,0,1572769429,,"q!"
+:w
+|2,0,1572671206,,"w"
+:echo &ft
+|2,0,1572603676,,"echo &ft"
+:q
+|2,0,1572599081,,"q"
+:PrevimOpen
+|2,0,1572589014,,"PrevimOpen"
+:Pexplore
+|2,0,1572589000,,"Pexplore"
+:e .config/i3/config
+|2,0,1572529762,,"e .config/i3/config"
+:w!
+|2,0,1572529087,,"w!"
+:e ++enc=sis
+|2,0,1572515528,,"e ++enc=sis"
+:source 
+|2,0,1572263587,,"source "
+:source .vimrc
+|2,0,1572263578,,"source .vimrc"
+:e ~/.vim/vim.toml
+|2,0,1572263469,,"e ~/.vim/vim.toml"
+:e ~/.config/nvim/tomls/dein_lazy.toml
+|2,0,1572263455,,"e ~/.config/nvim/tomls/dein_lazy.toml"
+:e ~/.config/nvim/tomls/dein.toml
+|2,0,1572263442,,"e ~/.config/nvim/tomls/dein.toml"
+::q
+|2,0,1572509713,,":q"
 :Q
-<<<<<<< HEAD
-|2,0,1568537521,,"Q"
-:echo &filename
-|2,0,1568372167,,"echo &filename"
-:echo &fname
-|2,0,1568372162,,"echo &fname"
-:echo $fname
-|2,0,1568372151,,"echo $fname"
+|2,0,1572509704,,"Q"
+:a
+|2,0,1572437782,,"a"
+:%!xxd
+|2,0,1572429198,,"%!xxd"
+:%!xxd -r
+|2,0,1572429088,,"%!xxd -r"
+:%!xxd -r.
+|2,0,1572429062,,"%!xxd -r."
+:!xxd -r
+|2,0,1572429020,,"!xxd -r"
+:!xxd %
+|2,0,1572428992,,"!xxd %"
+:u
+|2,0,1572427958,,"u"
+:%s/IN//g
+|2,0,1572427884,,"%s/IN//g"
+:q:q
+|2,0,1572427553,,"q:q"
+:!ls ../src/support
+|2,0,1572348406,,"!ls ../src/support"
+:!../src/support
+|2,0,1572348393,,"!../src/support"
+:!ls
+|2,0,1572348380,,"!ls"
+:!ls libsupport.h
+|2,0,1572348082,,"!ls libsupport.h"
+:!ls libsupport
+|2,0,1572348077,,"!ls libsupport"
+:e ../src/julia.h
+|2,0,1572347920,,"e ../src/julia.h"
+:qq
+|2,0,1572346916,,"qq"
+:!pwd
+|2,0,1572346634,,"!pwd"
 :terminal
-|2,0,1568371904,,"terminal"
-:e dlibc/Makefile
-|2,0,1568378967,,"e dlibc/Makefile"
-:e ../
-|2,0,1568378626,,"e ../"
-:e printf.c
-|2,0,1568375106,,"e printf.c"
-::wq
-|2,0,1568372924,,":wq"
-=======
-|2,0,1567057105,,"Q"
-:set number
-|2,0,1566728896,,"set number"
->>>>>>> bed1b4eca04042c753d7236b5c68fc166f759fda
+|2,0,1572346342,,"terminal"
+:!ls ../../../julia
+|2,0,1572346329,,"!ls ../../../julia"
+:!ls ../../../../julia
+|2,0,1572346315,,"!ls ../../../../julia"
+:!
+|2,0,1572345851,,"!"
+:q1
+|2,0,1572345206,,"q1"
+:%s/test/call_jl/g
+|2,0,1572261121,,"%s/test/call_jl/g"
+:echo expand("%")
+|2,0,1572259246,,"echo expand(\"%\")"
+:echo expand(
+|2,0,1572259222,,"echo expand("
+:echo %
+|2,0,1572259213,,"echo %"
+:set nonumber
+|2,0,1572256384,,"set nonumber"
+:%s/_/\\_/g
+|2,0,1572066443,,"%s/_/\\\\_/g"
+:%s/sinai/****/g
+|2,0,1572064315,,"%s/sinai/****/g"
+:bn
+|2,0,1572056709,,"bn"
+:e /home/sinai/Scripts/test.c
+|2,0,1572059727,,"e /home/sinai/Scripts/test.c"
 
 # 検索文字列 項目の履歴 (新しいものから古いものへ):
-? \~\/Templetes
-|2,1,1569201825,,"\\~\\/Templetes"
-? ~\/Templetes
-|2,1,1569201811,,"~\\/Templetes"
-?/~\/Templete
-|2,1,1569201802,47,"~\\/Templete"
-? \<text\>
-|2,1,1568885918,,"\\<text\\>"
-?/\<text\>
-|2,1,1568885914,47,"\\<text\\>"
-? \<__etext\>
-|2,1,1568885903,,"\\<__etext\\>"
-?/text
-|2,1,1568885901,47,"text"
-?/malloc
-|2,1,1568779216,47,"malloc"
-? \<NOLIBC_CFLAGS\>
-|2,1,1568776548,,"\\<NOLIBC_CFLAGS\\>"
-? \<nolibc\>
-|2,1,1568776472,,"\\<nolibc\\>"
-?/nolibc
-|2,1,1568776464,47,"nolibc"
-? \<AR\>
-|2,1,1568776327,,"\\<AR\\>"
-?/\<AR\>
-|2,1,1568776320,47,"\\<AR\\>"
-?/AR
-|2,1,1568776299,47,"AR"
-?/SYSDEP
-|2,1,1568776214,47,"SYSDEP"
-? \<dlmalloc\>
-|2,1,1568776053,,"\\<dlmalloc\\>"
-?/\<dlmalloc\>
-|2,1,1568776025,47,"\\<dlmalloc\\>"
-? \<!PREACTION\>
-|2,1,1568776017,,"\\<!PREACTION\\>"
-?/dlmalloc
-|2,1,1568775711,47,"dlmalloc"
-? \<sbrk\>
-|2,1,1568775708,,"\\<sbrk\\>"
-?/\<sbrk\>
-|2,1,1568775676,47,"\\<sbrk\\>"
-?/\<sbrk\<
-|2,1,1568775668,47,"\\<sbrk\\<"
-?/sbrk
-|2,1,1568775657,47,"sbrk"
-? \<sbrk_top\>
-|2,1,1568775651,,"\\<sbrk_top\\>"
-? \<endif\>
-|2,1,1568775522,,"\\<endif\\>"
-? \<included\>
-|2,1,1568775518,,"\\<included\\>"
+?/struct Ref
+|2,1,1572599368,47,"struct Ref"
+? \<RefValue\>
+|2,1,1572599362,,"\\<RefValue\\>"
+? IN
+|2,1,1572427884,,"IN"
+?/JCFLAGS
+|2,1,1572348770,47,"JCFLAGS"
 ?/include
-|2,1,1568775512,47,"include"
-?/libsupport
-|2,1,1568706329,47,"libsupport"
-?/:q
-|2,1,1568706223,47,":q"
-?/support\/lib
-|2,1,1568706203,47,"support\\/lib"
-?/support/lib
-|2,1,1568705905,47,"support/lib"
-?/43
-|2,1,1568705849,47,"43"
-?/libs
-|2,1,1568705727,47,"libs"
-?/banner
-|2,1,1568705672,47,"banner"
-?/julia-stdlib
-|2,1,1568699774,47,"julia-stdlib"
-?/julia-std
-|2,1,1568699675,47,"julia-std"
-? \<julia\>
-|2,1,1568699663,,"\\<julia\\>"
-?/s
-|2,1,1568699651,47,"s"
+|2,1,1572348372,47,"include"
 ? \<JULIA_BUILD_MODE\>
-|2,1,1568699250,,"\\<JULIA_BUILD_MODE\\>"
-? \<TWO_SIZE_T_SIZES\>
-|2,1,1568695808,,"\\<TWO_SIZE_T_SIZES\\>"
-? \<chunk2mem\>
-|2,1,1568695774,,"\\<chunk2mem\\>"
-?/mmap
-|2,1,1568695745,47,"mmap"
-? ))));
-|2,1,1568695732,,"))));"
-? )));
-|2,1,1568695730,,")));"
-? \<mmap_alloc\>
-|2,1,1568695677,,"\\<mmap_alloc\\>"
-? \<sys_alloc\>
-|2,1,1568695663,,"\\<sys_alloc\\>"
-?/\<mchunkptr\>
-|2,1,1568695484,47,"\\<mchunkptr\\>"
-? \<mchunkptr\>
-|2,1,1568695447,,"\\<mchunkptr\\>"
-? \<malloc_state\>
-|2,1,1568694125,,"\\<malloc_state\\>"
-?/malloc_state
-|2,1,1568694104,47,"malloc_state"
+|2,1,1572346719,,"\\<JULIA_BUILD_MODE\\>"
+? \<default\>
+|2,1,1572346714,,"\\<default\\>"
+?/julia
+|2,1,1572346667,47,"julia"
+?/executable
+|2,1,1572346650,47,"executable"
+?/sysimg
+|2,1,1572345861,47,"sysimg"
+? test
+|2,1,1572261121,,"test"
+?/_jl_value_t
+|2,1,1572259456,47,"_jl_value_t"
+?/jl_value_t
+|2,1,1572259411,47,"jl_value_t"
+? \<_jl_value_t\>
+|2,1,1572259308,,"\\<_jl_value_t\\>"
+?/incremental
+|2,1,1572257978,47,"incremental"
+?/atexit
+|2,1,1572257065,47,"atexit"
+? \<opt_output_o\>
+|2,1,1572257014,,"\\<opt_output_o\\>"
+?/output_o
+|2,1,1572257003,47,"output_o"
+? \<root\>
+|2,1,1572175029,,"\\<root\\>"
+?/img
+|2,1,1572174947,47,"img"
+?/jl_printf
+|2,1,1572055420,47,"jl_printf"
+? \<_asmcall\>
+|2,1,1572075161,,"\\<_asmcall\\>"
+? _
+|2,1,1572066443,,"_"
+? \<第三引数\>
+|2,1,1572064888,,"\\<第三引数\\>"
+? sinai
+|2,1,1572064315,,"sinai"
+? \<jl_uv_stderr\>
+|2,1,1572055298,,"\\<jl_uv_stderr\\>"
+?/ERR
+|2,1,1572055289,47,"ERR"
+? \<JL_STDERR\>
+|2,1,1572055229,,"\\<JL_STDERR\\>"
+?/error
+|2,1,1572055204,47,"error"
+?/Cstring
+|2,1,1572019501,47,"Cstring"
+?/font
+|2,1,1572013552,47,"font"
+?/ja
+|2,1,1571918499,47,"ja"
+?/jp
+|2,1,1571918471,47,"jp"
+?/jjp
+|2,1,1571918467,47,"jjp"
 
 # 式 項目の履歴 (新しいものから古いものへ):
 
@@ -256,1645 +198,1079 @@ $TEMPDIR
 # デバッグ行 項目の履歴 (新しいものから古いものへ):
 
 # レジスタ:
-<<<<<<< HEAD
-""0	CHAR	0
-	!/.config/nvim/
-|3,1,0,0,1,0,1569211487,"!/.config/nvim/"
-"1	LINE	0
-	/.config/powerline/*
-|3,0,1,1,1,0,1569210827,"/.config/powerline/*"
+"0	CHAR	0
+	
+	mutable struct RefValue{T} <: Ref{T}
+	    x::T
+	    RefValue{T}() where {T} = new()
+	    RefValue{T}(x) where {T} = new(x)
+	end
+	
+|3,0,0,0,7,0,1572599873,"","mutable struct RefValue{T} <: Ref{T}","    x::T","    RefValue{T}() where {T} = new()","    RefValue{T}(x) where {T} = new(x)","end",""
+""1	LINE	0
+	n closs_compiler.sh 
+	
+|3,1,1,1,2,0,1572769575,"n closs_compiler.sh ",""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1569210824,""
+	#wget https://ftp.gnu.org/gnu/gmp/gmp-5.1.3.tar.gz
+	#wget https://www.mpfr.org/mpfr-current/mpfr-4.0.2.tar.gz
+|3,0,2,1,2,0,1572769442,"#wget https://ftp.gnu.org/gnu/gmp/gmp-5.1.3.tar.gz","#wget https://www.mpfr.org/mpfr-current/mpfr-4.0.2.tar.gz"
 "3	LINE	0
-	!/.config
-|3,0,3,1,1,0,1569210631,"!/.config"
+	#wget https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz
+|3,0,3,1,1,0,1572769441,"#wget https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz"
 "4	LINE	0
+	n closs_compiler.sh 
 	
-|3,0,4,1,1,0,1569207490,""
+|3,0,4,1,2,0,1572769440,"n closs_compiler.sh ",""
 "5	LINE	0
-	export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-|3,0,5,1,1,0,1569207489,"export PATH=\"$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH\""
+	n closs_compiler.sh 
+|3,0,5,1,1,0,1572769380,"n closs_compiler.sh "
 "6	LINE	0
-	let s:TEMPDIR=expand("~/Templetes")
-|3,0,6,1,1,0,1569202632,"let s:TEMPDIR=expand(\"~/Templetes\")"
+	n closs_compiler.sh 
+|3,0,6,1,1,0,1572769277,"n closs_compiler.sh "
 "7	LINE	0
-		let s:TEMPDIR=expand
-|3,0,7,1,1,0,1569202347,"	let s:TEMPDIR=expand"
+	n ../closs_compiler.sh 
+|3,0,7,1,1,0,1572768660,"n ../closs_compiler.sh "
 "8	LINE	0
-	let s:TEMPDIR=expand("~/Templetes")
-|3,0,8,1,1,0,1569202128,"let s:TEMPDIR=expand(\"~/Templetes\")"
+	n ../closs_compiler.sh 
+|3,0,8,1,1,0,1572767305,"n ../closs_compiler.sh "
 "9	LINE	0
+	la
 	
-|3,0,9,1,1,0,1569201296,""
-"a@	CHAR	0
-	/�ku
-|3,2,10,0,1,0,1567935904,"/�ku"
-=======
-""0	LINE	0
-	# To avoid potential situation where cdm(1) crashes on every TTY, here we
-	# default to execute cdm(1) on tty1 only, and leave other TTYs untouched.
-	if [[ "$(tty)" == '/dev/tty1' ]]; then
-	    [[ -n "$CDM_SPAWN" ]] && return
-	    # Avoid executing cdm(1) when X11 has already been started.
-	    [[ -z "$DISPLAY$SSH_TTY$(pgrep xinit)" ]] && exec cdm
-	fi
-	
-|3,1,0,1,8,0,1567570475,"# To avoid potential situation where cdm(1) crashes on every TTY, here we","# default to execute cdm(1) on tty1 only, and leave other TTYs untouched.","if [[ \"$(tty)\" == '/dev/tty1' ]]; then","    [[ -n \"$CDM_SPAWN\" ]] && return","    # Avoid executing cdm(1) when X11 has already been started.","    [[ -z \"$DISPLAY$SSH_TTY$(pgrep xinit)\" ]] && exec cdm","fi",""
-"1	LINE	0
-	
-|3,0,1,1,1,0,1567570459,""
-"2	LINE	0
-	dd
-|3,0,2,1,1,0,1567570459,"dd"
-"3	LINE	0
-	bindsym 
-|3,0,3,1,1,0,1567569956,"bindsym "
-"4	LINE	0
-	#touch pad on/off
-	
-|3,0,4,1,2,0,1567569852,"#touch pad on/off",""
-"5	LINE	0
-	
-|3,0,5,1,1,0,1567506472,""
-"6	LINE	0
-	
-|3,0,6,1,1,0,1567498871,""
-"7	CHAR	0
-	using REPL
-	using REPL.TerminalMenus
-	
-	
-	
-|3,0,7,0,5,0,1567498866,"using REPL","using REPL.TerminalMenus","","",""
-"8	LINE	0
-		printf("%80x", ehdr->e_shoff);
-|3,0,8,1,1,0,1567420888,"	printf(\"%80x\", ehdr->e_shoff);"
-"9	LINE	0
-		printf("%d", ehdr->e_shoff);
-|3,0,9,1,1,0,1567420834,"	printf(\"%d\", ehdr->e_shoff);"
-"a	CHAR	0
-	yyp
-|3,0,10,0,1,0,1566725315,"yyp"
->>>>>>> bed1b4eca04042c753d7236b5c68fc166f759fda
-"m	LINE	0
-	CFLAGS = -c -mh -O2 -I$(INCDIR)
-	AFLAGS = -c -mh
-|3,0,22,1,2,0,1558153443,"CFLAGS = -c -mh -O2 -I$(INCDIR)","AFLAGS = -c -mh"
+|3,0,9,1,2,0,1572766928,"la",""
 "-	CHAR	0
-	startup.jl
-|3,0,36,0,1,0,1569210486,"startup.jl"
+	-nostdinc -mstack-protector-guard=global -std=c11 -Wall -Wextra -Werror -O2 -g -ffreestanding -fstack-protector-strong -lnolibc -isystem nolibc/include -z max-page-size=0x1000 -static -L. -lnolibc
+|3,0,36,0,1,0,1572766060,"-nostdinc -mstack-protector-guard=global -std=c11 -Wall -Wextra -Werror -O2 -g -ffreestanding -fstack-protector-strong -lnolibc -isystem nolibc/include -z max-page-size=0x1000 -static -L. -lnolibc"
 
 # ファイルマーク:
-<<<<<<< HEAD
-'O  46  0  ~/Scripts/julia_on_solo5/solo5_test/hello.c
-|4,79,46,0,1568340483,"~/Scripts/julia_on_solo5/solo5_test/hello.c"
-'0  21  26  ~/.gitignore
-|4,48,21,26,1569211536,"~/.gitignore"
-'1  20  23  ~/.gitignore
-|4,49,20,23,1569211511,"~/.gitignore"
-'2  20  23  ~/.gitignore
-|4,50,20,23,1569211511,"~/.gitignore"
-'3  19  29  ~/.gitignore
-|4,51,19,29,1569211456,"~/.gitignore"
-'4  19  29  ~/.gitignore
-|4,52,19,29,1569211456,"~/.gitignore"
-'5  19  29  ~/.gitignore
-|4,53,19,29,1569211456,"~/.gitignore"
-'6  19  29  ~/.gitignore
-|4,54,19,29,1569211456,"~/.gitignore"
-'7  12  0  ~/.gitignore
-|4,55,12,0,1569210838,"~/.gitignore"
-'8  12  0  ~/.gitignore
-|4,56,12,0,1569210838,"~/.gitignore"
-'9  12  0  ~/.gitignore
-|4,57,12,0,1569210838,"~/.gitignore"
+'0  44  0  ~/Scripts/exopc/sys/xok/capability.h
+|4,48,44,0,1573079947,"~/Scripts/exopc/sys/xok/capability.h"
+'1  24  0  ~/Documents/memo/MIT_exokernel.md
+|4,49,24,0,1573079944,"~/Documents/memo/MIT_exokernel.md"
+'2  91  0  ~/Scripts/exopc/sys/xok/defs.h
+|4,50,91,0,1573035301,"~/Scripts/exopc/sys/xok/defs.h"
+'3  40  0  ~/Scripts/exopc/sys/xok/desc_decl.h
+|4,51,40,0,1573035283,"~/Scripts/exopc/sys/xok/desc_decl.h"
+'4  43  0  ~/Scripts/exopc/sys/xok/init.h
+|4,52,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
+'5  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,53,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+'6  320  0  ~/Scripts/exopc/sys/kern/syscall.c
+|4,54,320,0,1573035016,"~/Scripts/exopc/sys/kern/syscall.c"
+'7  758  0  ~/Scripts/exopc/sys/kern/disk.c
+|4,55,758,0,1573034923,"~/Scripts/exopc/sys/kern/disk.c"
+'8  7  11  ~/Scripts/julia_tips/.git/MERGE_MSG
+|4,56,7,11,1572950478,"~/Scripts/julia_tips/.git/MERGE_MSG"
+'9  1  4  /tmp/bash-fc.pyixUw
+|4,57,1,4,1572769579,"/tmp/bash-fc.pyixUw"
 
 # ジャンプリスト (新しいものが先):
--'  21  26  ~/.gitignore
-|4,39,21,26,1569211536,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1569211516,"~/.gitignore"
--'  20  23  ~/.gitignore
-|4,39,20,23,1569211511,"~/.gitignore"
--'  20  23  ~/.gitignore
-|4,39,20,23,1569211511,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1569211471,"~/.gitignore"
--'  19  29  ~/.gitignore
-|4,39,19,29,1569211456,"~/.gitignore"
--'  19  29  ~/.gitignore
-|4,39,19,29,1569211456,"~/.gitignore"
--'  19  29  ~/.gitignore
-|4,39,19,29,1569211456,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1569211386,"~/.gitignore"
--'  12  0  ~/.gitignore
-|4,39,12,0,1569210838,"~/.gitignore"
--'  12  0  ~/.gitignore
-|4,39,12,0,1569210838,"~/.gitignore"
--'  12  0  ~/.gitignore
-|4,39,12,0,1569210838,"~/.gitignore"
--'  12  0  ~/.gitignore
-|4,39,12,0,1569210838,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1569210835,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1569210835,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1569210835,"~/.gitignore"
--'  2  0  ~/.gitignore
-|4,39,2,0,1569210835,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1569210832,"~/.gitignore"
--'  23  0  ~/.gitignore
-|4,39,23,0,1569210828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1569210828,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1569210828,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1569210828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1569210828,"~/.gitignore"
--'  21  0  ~/.gitignore
-|4,39,21,0,1569210828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1569210828,"~/.gitignore"
--'  17  0  ~/.gitignore
-|4,39,17,0,1569210703,"~/.gitignore"
--'  21  0  ~/.gitignore
-|4,39,21,0,1569210703,"~/.gitignore"
--'  17  0  ~/.gitignore
-|4,39,17,0,1569210703,"~/.gitignore"
--'  20  0  ~/.gitignore
-|4,39,20,0,1569210703,"~/.gitignore"
--'  17  0  ~/.gitignore
-|4,39,17,0,1569210703,"~/.gitignore"
--'  17  0  ~/.gitignore
-|4,39,17,0,1569210703,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1569210667,"~/.gitignore"
--'  16  0  ~/.gitignore
-|4,39,16,0,1569210660,"~/.gitignore"
--'  16  0  ~/.gitignore
-|4,39,16,0,1569210660,"~/.gitignore"
--'  16  0  ~/.gitignore
-|4,39,16,0,1569210660,"~/.gitignore"
--'  16  0  ~/.gitignore
-|4,39,16,0,1569210660,"~/.gitignore"
--'  16  0  ~/.gitignore
-|4,39,16,0,1569210660,"~/.gitignore"
--'  16  0  ~/.gitignore
-|4,39,16,0,1569210660,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1569210592,"~/.gitignore"
--'  24  9  ~/.gitignore
-|4,39,24,9,1569210498,"~/.gitignore"
--'  23  9  ~/.gitignore
-|4,39,23,9,1569210498,"~/.gitignore"
--'  22  9  ~/.gitignore
-|4,39,22,9,1569210498,"~/.gitignore"
--'  19  9  ~/.gitignore
-|4,39,19,9,1569210498,"~/.gitignore"
--'  19  9  ~/.gitignore
-|4,39,19,9,1569210498,"~/.gitignore"
--'  18  9  ~/.gitignore
-|4,39,18,9,1569210498,"~/.gitignore"
--'  19  9  ~/.gitignore
-|4,39,19,9,1569210498,"~/.gitignore"
--'  18  9  ~/.gitignore
-|4,39,18,9,1569210498,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1569210415,"~/.gitignore"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
--'  4  7  /usr/share/julia/base/coreio.jl
-|4,39,4,7,1569210379,"/usr/share/julia/base/coreio.jl"
+-'  44  0  ~/Scripts/exopc/sys/xok/capability.h
+|4,39,44,0,1573079947,"~/Scripts/exopc/sys/xok/capability.h"
+-'  24  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,24,0,1573079944,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573039506,"~/Documents/memo/MIT_exokernel.md"
+-'  50  15  ~/Scripts/exopc/sys/xok/capability.h
+|4,39,50,15,1573035438,"~/Scripts/exopc/sys/xok/capability.h"
+-'  87  9  ~/Scripts/exopc/sys/xok/capability.h
+|4,39,87,9,1573035416,"~/Scripts/exopc/sys/xok/capability.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/capability.h
+|4,39,1,0,1573035309,"~/Scripts/exopc/sys/xok/capability.h"
+-'  91  0  ~/Scripts/exopc/sys/xok/defs.h
+|4,39,91,0,1573035301,"~/Scripts/exopc/sys/xok/defs.h"
+-'  91  0  ~/Scripts/exopc/sys/xok/defs.h
+|4,39,91,0,1573035301,"~/Scripts/exopc/sys/xok/defs.h"
+-'  91  0  ~/Scripts/exopc/sys/xok/defs.h
+|4,39,91,0,1573035301,"~/Scripts/exopc/sys/xok/defs.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/defs.h
+|4,39,1,0,1573035287,"~/Scripts/exopc/sys/xok/defs.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/defs.h
+|4,39,1,0,1573035287,"~/Scripts/exopc/sys/xok/defs.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/defs.h
+|4,39,1,0,1573035287,"~/Scripts/exopc/sys/xok/defs.h"
+-'  40  0  ~/Scripts/exopc/sys/xok/desc_decl.h
+|4,39,40,0,1573035283,"~/Scripts/exopc/sys/xok/desc_decl.h"
+-'  40  0  ~/Scripts/exopc/sys/xok/desc_decl.h
+|4,39,40,0,1573035283,"~/Scripts/exopc/sys/xok/desc_decl.h"
+-'  40  0  ~/Scripts/exopc/sys/xok/desc_decl.h
+|4,39,40,0,1573035283,"~/Scripts/exopc/sys/xok/desc_decl.h"
+-'  40  0  ~/Scripts/exopc/sys/xok/desc_decl.h
+|4,39,40,0,1573035283,"~/Scripts/exopc/sys/xok/desc_decl.h"
+-'  40  0  ~/Scripts/exopc/sys/xok/desc_decl.h
+|4,39,40,0,1573035283,"~/Scripts/exopc/sys/xok/desc_decl.h"
+-'  40  0  ~/Scripts/exopc/sys/xok/desc_decl.h
+|4,39,40,0,1573035283,"~/Scripts/exopc/sys/xok/desc_decl.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/desc_decl.h
+|4,39,1,0,1573035277,"~/Scripts/exopc/sys/xok/desc_decl.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/desc_decl.h
+|4,39,1,0,1573035277,"~/Scripts/exopc/sys/xok/desc_decl.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/desc_decl.h
+|4,39,1,0,1573035277,"~/Scripts/exopc/sys/xok/desc_decl.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/desc_decl.h
+|4,39,1,0,1573035277,"~/Scripts/exopc/sys/xok/desc_decl.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/desc_decl.h
+|4,39,1,0,1573035277,"~/Scripts/exopc/sys/xok/desc_decl.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/desc_decl.h
+|4,39,1,0,1573035277,"~/Scripts/exopc/sys/xok/desc_decl.h"
+-'  43  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
+-'  43  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
+-'  43  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
+-'  43  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
+-'  43  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
+-'  43  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
+-'  43  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
+-'  43  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
+-'  43  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
+-'  43  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
+-'  43  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
+-'  43  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/init.h
+|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  95  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  1  0  ~/Scripts/exopc/sys/xok/disk.h
+|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
+-'  320  0  ~/Scripts/exopc/sys/kern/syscall.c
+|4,39,320,0,1573035016,"~/Scripts/exopc/sys/kern/syscall.c"
+-'  320  0  ~/Scripts/exopc/sys/kern/syscall.c
+|4,39,320,0,1573035016,"~/Scripts/exopc/sys/kern/syscall.c"
+-'  320  0  ~/Scripts/exopc/sys/kern/syscall.c
+|4,39,320,0,1573035016,"~/Scripts/exopc/sys/kern/syscall.c"
+-'  320  0  ~/Scripts/exopc/sys/kern/syscall.c
+|4,39,320,0,1573035016,"~/Scripts/exopc/sys/kern/syscall.c"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
 
-> ~/.gitignore
-	*	1569211535	0
-	"	21	26
-	^	21	27
-	.	21	26
-	+	24	9
-	+	3	4
-	+	2	0
-	+	11	0
-	+	23	0
-	+	24	16
-	+	23	0
-	+	1	0
-	+	2	0
-	+	19	29
-	+	20	0
-	+	19	0
-	+	20	23
-	+	21	26
-=======
-'0  9  0  ~/.bash_profile
-|4,48,9,0,1567570482,"~/.bash_profile"
-'1  1  0  ~/NERD_tree_1
-|4,49,1,0,1567570393,"~/NERD_tree_1"
-'2  195  12  ~/.config/i3/config
-|4,50,195,12,1567570015,"~/.config/i3/config"
-'3  1  0  /etc/X11/xorg.conf.d/70-synaptics.conf
-|4,51,1,0,1567568572,"/etc/X11/xorg.conf.d/70-synaptics.conf"
-'4  1  0  /etc/X11/xorg.conf.d/*sy
-|4,52,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
-'5  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,53,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
-'6  1  0  ~/.config/nvim/plugin_config/lsp.jl
-|4,54,1,0,1567506766,"~/.config/nvim/plugin_config/lsp.jl"
-'7  63  31  ~/.tmux.conf
-|4,55,63,31,1567506503,"~/.tmux.conf"
-'8  63  31  ~/.tmux.conf
-|4,56,63,31,1567506503,"~/.tmux.conf"
-'9  1  3  ~/Scripts/linker_and_loader/elf_julia/.gitignore
-|4,57,1,3,1567506137,"~/Scripts/linker_and_loader/elf_julia/.gitignore"
-
-# ジャンプリスト (新しいものが先):
--'  9  0  ~/.bash_profile
-|4,39,9,0,1567570482,"~/.bash_profile"
--'  1  0  /etc/profile.d/zzz-cdm.sh
-|4,39,1,0,1567570478,"/etc/profile.d/zzz-cdm.sh"
--'  8  0  ~/.bash_profile
-|4,39,8,0,1567570471,"~/.bash_profile"
--'  7  1  ~/.bash_profile
-|4,39,7,1,1567570454,"~/.bash_profile"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1567570393,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1567570393,"~/NERD_tree_1"
--'  158  2  ~/NERD_tree_1
-|4,39,158,2,1567570391,"~/NERD_tree_1"
--'  158  2  ~/NERD_tree_1
-|4,39,158,2,1567570391,"~/NERD_tree_1"
--'  195  12  ~/.config/i3/config
-|4,39,195,12,1567570015,"~/.config/i3/config"
--'  195  12  ~/.config/i3/config
-|4,39,195,12,1567570015,"~/.config/i3/config"
--'  195  12  ~/.config/i3/config
-|4,39,195,12,1567570015,"~/.config/i3/config"
--'  195  12  ~/.config/i3/config
-|4,39,195,12,1567570015,"~/.config/i3/config"
--'  196  0  ~/.config/i3/config
-|4,39,196,0,1567569974,"~/.config/i3/config"
--'  196  0  ~/.config/i3/config
-|4,39,196,0,1567569974,"~/.config/i3/config"
--'  196  0  ~/.config/i3/config
-|4,39,196,0,1567569974,"~/.config/i3/config"
--'  196  0  ~/.config/i3/config
-|4,39,196,0,1567569974,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1567569854,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1567569854,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1567569854,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1567569854,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1567569295,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1567569295,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1567569295,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1567569295,"~/.config/i3/config"
--'  1  0  /etc/X11/xorg.conf.d/70-synaptics.conf
-|4,39,1,0,1567568572,"/etc/X11/xorg.conf.d/70-synaptics.conf"
--'  1  0  /etc/X11/xorg.conf.d/70-synaptics.conf
-|4,39,1,0,1567568572,"/etc/X11/xorg.conf.d/70-synaptics.conf"
--'  1  0  /etc/X11/xorg.conf.d/70-synaptics.conf
-|4,39,1,0,1567568572,"/etc/X11/xorg.conf.d/70-synaptics.conf"
--'  1  0  /etc/X11/xorg.conf.d/70-synaptics.conf
-|4,39,1,0,1567568572,"/etc/X11/xorg.conf.d/70-synaptics.conf"
--'  1  0  /etc/X11/xorg.conf.d/70-synaptics.conf
-|4,39,1,0,1567568572,"/etc/X11/xorg.conf.d/70-synaptics.conf"
--'  1  0  /etc/X11/xorg.conf.d/70-synaptics.conf
-|4,39,1,0,1567568572,"/etc/X11/xorg.conf.d/70-synaptics.conf"
--'  1  0  /etc/X11/xorg.conf.d/70-synaptics.conf
-|4,39,1,0,1567568572,"/etc/X11/xorg.conf.d/70-synaptics.conf"
--'  1  0  /etc/X11/xorg.conf.d/70-synaptics.conf
-|4,39,1,0,1567568572,"/etc/X11/xorg.conf.d/70-synaptics.conf"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  1  0  /etc/X11/xorg.conf.d/*sy
-|4,39,1,0,1567568557,"/etc/X11/xorg.conf.d/*sy"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  8  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,8,0,1567511360,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
--'  1  0  ~/Scripts/linker_and_loader/elf_julia/test.c
-|4,39,1,0,1567511252,"~/Scripts/linker_and_loader/elf_julia/test.c"
-
-# ファイル内マークの履歴 (新しいものから古いもの):
-
-> ~/.bash_profile
-	*	1567570481	0
-	"	9	0
-	.	9	0
-	+	8	0
-	+	9	0
-
-> /etc/profile.d/zzz-cdm.sh
-	*	1567570475	0
-	"	1	0
-
-> ~/NERD_tree_1
-	*	1567570392	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/.config/i3/config
-	*	1567570014	0
-	"	195	12
-	^	195	13
-	.	195	0
-	+	191	33
-	+	192	0
-	+	196	0
-	+	195	39
-	+	196	8
-	+	196	12
-	+	196	0
-	+	195	0
-
-> /etc/X11/xorg.conf.d/70-synaptics.conf
-	*	1567568568	0
-	"	1	0
-
-> /etc/X11/xorg.conf.d/*sy
-	*	1567568555	0
-	"	1	0
-
-> ~/Scripts/linker_and_loader/elf_julia/test.c
-	*	1567511357	0
-	"	8	0
-	^	8	1
-	.	9	0
-	+	6	14
-	+	5	16
-	+	7	1
-	+	7	0
-	+	6	27
-	+	5	4
-	+	7	24
-	+	9	0
-
-> ~/.config/nvim/plugin_config/lsp.jl
-	*	1567506764	0
-	"	1	0
-
-> ~/.tmux.conf
-	*	1567506498	0
-	"	63	31
-	^	63	34
-	.	63	34
-	+	60	28
-	+	62	0
-	+	61	33
-	+	62	0
-	+	63	34
->>>>>>> bed1b4eca04042c753d7236b5c68fc166f759fda
-
-> /usr/share/julia/base/coreio.jl
-	*	1569210378	0
-	"	4	7
-
-<<<<<<< HEAD
-> ~/Scripts/linker_and_loader/elf_julia/ELF/src/ELF.jl
-	*	1569210161	0
-	"	60	2
-
-> ~/.julia/compiled/v1.2/ELF.ji
-	*	1569209689	0
-	"	474	0
-	.	1	0
-	+	1	0
-
-> ~/.julia/config/startup.jl
-	*	1569209245	0
-=======
-> ~/.config/nvim/plugin_config/LanguageClient-neovim.vim
-	*	1567505710	0
->>>>>>> bed1b4eca04042c753d7236b5c68fc166f759fda
-	"	1	0
-
-> /tmp/bash-fc.BwEDQ0
-	*	1569209234	0
-	"	1	1
-	^	1	2
-	.	1	1
-	+	1	1
-
-> /mnt/home/sinai/.julia/config/startup.jl
-	*	1569209105	0
-	"	1	0
-
-> ~/.bashrc
-	*	1569207490	0
-	"	40	0
-	^	10	18
-	.	40	0
-	+	10	17
-	+	40	0
-
-> ~/Templetes/test.sh
-	*	1569202929	0
-	"	1	0
-	^	4	0
-	.	1	0
-	+	3	0
-	+	4	0
-	+	2	0
-	+	1	0
-
-> ~/.vimrc
-	*	1569202676	0
-	"	54	42
-	^	54	43
-	.	54	43
-	+	57	0
-	+	47	22
-	+	52	36
-	+	55	0
-	+	53	42
-	+	54	34
-	+	48	34
-	+	52	0
-	+	54	38
-	+	48	0
-	+	48	18
-	+	49	0
-	+	54	30
-	+	49	0
-	+	48	34
-	+	52	22
-	+	54	22
-	+	48	0
-	+	52	32
-	+	53	33
-	+	54	43
-
-> ~/Templetes/test.jl
-	*	1569201997	0
-	"	1	0
-
-> ~/Templetes/shell.sh
-	*	1569201984	0
-	"	1	8
-	^	1	9
-	.	1	8
-	+	1	8
-
-> ~/Templetes/shell.jl
-	*	1569201865	0
-	"	1	0
-
-<<<<<<< HEAD
-> ~/Templetes/julia.jl
-	*	1569201226	0
-	"	3	0
-	^	3	0
-	.	3	0
-	+	1	11
-	+	3	0
-=======
-> ~/Scripts/linker_and_loader/readsec64.c
-	*	1567487346	0
-	"	38	45
-	^	38	46
-	.	38	45
-	+	36	0
-	+	39	0
-	+	38	45
-
-> ~/.config/nvim/tomls/dein.toml
-	*	1567431230	0
-	"	64	27
-	^	64	28
-	.	64	27
-	+	64	27
-
-> .config/nvim/toml/dein.toml
-	*	1567431170	0
-	"	1	0
->>>>>>> bed1b4eca04042c753d7236b5c68fc166f759fda
-
-> ~/Templetes/.vimrc
-	*	1569200872	0
-	"	1	0
-
-> ~/Templetes/c.c
-	*	1569200858	0
-	"	8	0
-	^	8	1
-	.	8	0
-	+	8	0
-
-> ~/Scripts/julia_on_solo5/julia_solo5/Makefile
-	*	1568985745	0
-	"	11	0
-	^	12	37
-	.	12	36
-	+	21	3
-	+	21	41
-	+	21	0
-	+	20	0
-	+	21	0
-	+	23	0
-	+	26	0
-	+	21	11
-	+	21	0
-	+	21	30
-	+	21	0
-	+	25	10
-	+	24	8
-	+	24	0
-	+	24	16
-	+	25	10
-	+	23	33
-	+	21	0
-	+	19	12
-	+	24	0
-	+	25	10
-	+	24	0
-	+	25	10
-	+	24	33
-	+	23	33
-	+	36	12
-	+	36	0
-	+	24	6
-	+	25	10
-	+	24	0
-	+	27	0
-	+	19	0
-	+	36	0
-	+	15	0
-	+	13	0
-	+	15	21
-	+	27	0
-	+	24	0
-	+	19	0
-	+	15	0
-	+	24	0
-	+	30	0
-	+	25	39
-	+	15	0
-	+	34	0
-	+	33	0
-	+	34	12
-	+	14	14
-	+	15	0
-	+	14	0
-	+	32	35
-	+	29	36
-	+	25	67
-	+	13	8
-	+	3	3
-	+	4	2
-	+	5	2
-	+	6	3
-	+	8	8
-	+	11	8
-	+	10	13
-	+	13	0
-	+	18	0
-	+	25	81
-	+	23	24
-	+	32	24
-	+	9	0
-	+	7	0
-	+	1	0
-	+	8	10
-	+	5	21
-	+	17	0
-	+	4	138
-	+	25	60
-	+	4	138
-	+	25	97
-	+	8	64
-	+	12	58
-	+	26	56
-	+	25	17
-	+	12	36
-
-> ~/Scripts/julia_on_solo5/julia_solo5/libsupportinit.c
-	*	1568983076	0
-	"	9	0
-
-> ~/Scripts/julia_on_solo5/julia_solo5/libnolibc.a
-	*	1568983063	0
-	"	1	0
-
-> ~/Scripts/julia_on_solo5/julia_solo5/ios.c
-	*	1568983059	0
-	"	10	0
-
-> /tmp/bash-fc.aZ5gU2
-	*	1568983054	0
-	"	3	0
-	^	3	0
-	.	2	1
-	+	2	1
-
-> ~/Scripts/julia_on_solo5/julia_solo5/ios.
-	*	1568982919	0
-	"	1	0
-
-> ~/Scripts/ocaml-freestanding/Makefile
-	*	1568982692	0
-	"	21	0
-
-> ~/Scripts/julia_on_solo5/julia_solo5/NERD_tree_1
-	*	1568982689	0
-	"	17	0
-	.	1	0
-	+	1	0
-
-> ~/Scripts/linker_and_loader/elf_julia/ELF/sample/elfdump64.jl
-	*	1568981870	0
-	"	80	5
-	^	80	6
-	.	80	5
-	+	1	0
-	+	2	0
-	+	79	0
-	+	1	0
-	+	80	5
-
-> ~/.julia/packages/PackageCompiler/CJQcs/examples/hello.jl
-	*	1568977028	0
-	"	3	0
-
-> ~/.julia/packages/PackageCompiler/CJQcs/examples/program.c
-	*	1568977020	0
-	"	54	0
-
-> ~/Scripts/julia_src/julia/NERD_tree_1
-	*	1568975813	0
-	"	5	0
-	.	1	0
-	+	1	0
-
-> ~/Scripts/hello.c
-	*	1568971986	0
-	"	7	0
-	^	7	0
-	.	6	1
-	+	6	1
-
-> ~/.bashra
-	*	1568971592	0
-	"	1	0
-
-> ~/.bashr
-	*	1568971587	0
-	"	1	0
-
-> ~/Music/bgmlist
-	*	1568967359	0
-	"	14	233
-	^	14	234
-	.	14	233
-	+	1	49
-	+	14	233
-
-> ~/Scripts/linker_and_loader/loader/loader.c
-	*	1568965745	0
-	"	1	0
-	^	1	0
-
-> ~/Scripts/linker_and_loader/loader/chflg.c
-	*	1568886461	0
-	"	8	0
-	^	8	0
-	.	7	21
-	+	7	21
-
-> ~/Scripts/linker_and_loader/space.lds
-	*	1568885986	0
-	"	56	16
-	^	56	17
-	.	56	16
-	+	56	16
-
-> ~/Scripts/linker_and_loader/*.x
-	*	1568885831	0
-	"	1	0
-
-> /usr/lib/ldscripts/elf_x86_64.x
-	*	1568885756	0
-	"	55	2
-
-> ~/Scripts/linker_and_loader/sharedlib/main.c
-	*	1568787245	0
-	"	14	1
-	.	13	0
-	+	11	24
-	+	11	41
-	+	12	42
-	+	12	50
-	+	13	31
-	+	16	0
-	+	13	0
-
-> ~/Scripts/linker_and_loader/sharedlib/sample.c
-	*	1568786572	0
+> ~/Documents/memo/MIT_exokernel.md
+	*	1573039516	0
 	"	24	0
-	^	24	1
-	.	24	0
-	+	5	21
-	+	4	15
-	+	6	20
-	+	11	43
-	+	12	0
-	+	12	42
-	+	13	0
-	+	14	34
-	+	16	0
-	+	4	6
-	+	15	56
-	+	24	0
 
-> ~/Scripts/julia_on_solo5/julia_solo5/repl.c
-	*	1568779613	0
-	"	14	20
-	^	14	21
-	.	14	20
-	+	77	0
-	+	142	0
-	+	163	0
-	+	186	0
-	+	185	0
-	+	8	0
-	+	9	0
-	+	16	0
-	+	29	0
-	+	35	0
-	+	40	0
-	+	44	0
-	+	144	51
-	+	145	0
-	+	163	0
-	+	145	1
-	+	184	0
-	+	15	18
-	+	156	20
-	+	156	0
-	+	155	36
-	+	149	0
-	+	154	26
-	+	148	27
-	+	184	0
-	+	15	19
-	+	184	42
-	+	184	37
-	+	184	25
-	+	184	35
-	+	184	0
-	+	184	44
-	+	184	61
-	+	146	3
-	+	184	33
-	+	184	16
-	+	3	0
-	+	15	0
+> ~/Scripts/exopc/sys/xok/capability.h
+	*	1573035508	0
+	"	44	0
+
+> ~/Scripts/exopc/sys/xok/defs.h
+	*	1573035298	0
+	"	91	0
+
+> ~/Scripts/exopc/sys/xok/desc_decl.h
+	*	1573035281	0
+	"	40	0
+
+> ~/Scripts/exopc/sys/xok/init.h
+	*	1573035259	0
+	"	43	0
+
+> ~/Scripts/exopc/sys/xok/disk.h
+	*	1573035099	0
+	"	95	0
+
+> ~/Scripts/exopc/sys/kern/syscall.c
+	*	1573035014	0
+	"	320	0
+
+> ~/Scripts/exopc/sys/kern/disk.c
+	*	1573034922	0
+	"	758	0
+
+> ~/Scripts/julia_tips/.git/MERGE_MSG
+	*	1572950477	0
+	"	7	11
+	^	7	12
+	.	7	12
+	+	7	12
+
+> /tmp/bash-fc.pyixUw
+	*	1572769577	0
+	"	1	4
+	.	1	0
 	+	1	0
-	+	15	19
-	+	184	0
-	+	184	36
-	+	184	47
-	+	15	0
-	+	184	0
-	+	184	24
-	+	184	44
-	+	13	18
-	+	184	14
-	+	184	11
-	+	184	20
-	+	184	3
-	+	184	60
-	+	184	16
-	+	184	0
-	+	184	3
-	+	184	20
-	+	184	3
-	+	184	41
-	+	184	0
-	+	184	17
-	+	184	14
-	+	184	20
-	+	13	0
-	+	15	0
-	+	13	0
-	+	184	0
-	+	184	23
-	+	12	0
-	+	15	0
-	+	12	0
-	+	184	0
-	+	183	18
-	+	183	0
-	+	181	8
-	+	180	9
-	+	183	0
-	+	182	11
-	+	12	0
-	+	14	20
 
-> ~/Scripts/julia_on_solo5/julia_solo5/nolibc/include/stdlib.h
-	*	1568779225	0
-	"	8	6
+> /tmp/bash-fc.GAnBMw
+	*	1572769442	0
+	"	2	0
+	.	2	0
+	+	1	0
+	+	2	0
 
-> ~/Scripts/julia_on_solo5/julia_solo5/repl.
-	*	1568778815	0
+> /tmp/bash-fc.2QHkRw
+	*	1572769427	0
+	"	1	0
+	.	2	0
+	+	2	0
+
+> /tmp/bash-fc.04xw1v
+	*	1572769394	0
 	"	1	0
 
-> ~/Scripts/julia_on_solo5/julia_solo5/dlibc/Makefile
-	*	1568777974	0
-	"	9	13
-	^	9	14
-	.	9	13
-	+	1	22
-	+	5	0
-	+	5	10
-	+	5	1
-	+	2	22
-	+	5	6
-	+	3	55
-	+	4	0
-	+	5	17
-	+	6	20
-	+	5	8
-	+	7	1
-	+	9	0
-	+	8	22
-	+	9	4
-	+	3	65
-	+	8	11
-	+	5	9
-	+	9	13
+> /tmp/bash-fc.tpYFVx
+	*	1572769380	0
+	"	1	0
+	.	1	0
+	+	1	0
 
-> ~/Scripts/ocaml-freestanding/nolibc/Makefile
-	*	1568777283	0
+> /tmp/bash-fc.xxE2Sy
+	*	1572769277	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /tmp/bash-fc.A9DpDz
+	*	1572768660	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /tmp/bash-fc.eDinZw
+	*	1572767305	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /tmp/bash-fc.4KwGKx
+	*	1572766928	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /tmp/bash-fc.r05Bdx
+	*	1572766711	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /tmp/bash-fc.pWwsVL
+	*	1572766072	0
+	"	1	28
+	^	1	29
+	.	1	29
+	+	1	29
+
+> /tmp/bash-fc.rAXoSh
+	*	1572763841	0
+	"	1	187
+	^	1	165
+	.	1	182
+	+	1	13
+	+	1	182
+
+> ~/Scripts/oauth2.jl
+	*	1572671206	0
+	"	10	50
+	^	10	27
+	.	10	50
+	+	11	55
+	+	10	50
+
+> /tmp/bash-fc.jyIbo7
+	*	1572655789	0
 	"	4	0
-	^	2	264
+	^	4	0
 	.	4	0
-	+	10	0
-	+	11	0
-	+	3	0
-	+	4	32
-	+	28	0
-	+	1	20
+	+	1	0
+	+	1	38
 	+	3	0
 	+	2	0
-	+	3	30
-	+	3	0
-	+	3	73
-	+	5	0
-	+	4	0
-	+	3	20
-	+	2	247
-	+	3	36
-	+	2	264
 	+	3	0
 	+	4	0
 
-> ~/Scripts/ocaml-freestanding/Makeconf
-	*	1568777149	0
-	"	1	0
-
-> ~/Scripts/ocaml-freestanding/nolibc/dlmalloc.i
-	*	1568776053	0
-	"	5185	10
-	^	2253	16
-	.	4606	0
-	+	6283	0
-	+	6282	0
-	+	135	0
+> /tmp/bash-fc.UzMEx4
+	*	1572655603	0
+	"	4	0
+	^	4	0
+	.	4	0
 	+	1	0
-	+	2253	0
-	+	4605	161
-	+	4606	0
-
-> ~/Scripts/ocaml-freestanding/nolibc/sysdeps_solo5.c
-	*	1568775573	0
-	"	159	0
-	^	97	1
-	.	97	0
-	+	100	0
-	+	97	0
-
-> ~/Scripts/ocaml-freestanding/nolibc/dtoa.c
-	*	1568775522	0
-	"	6227	1
-
-> ~/Scripts/ocaml-freestanding/NERD_tree_1
-	*	1568775488	0
-	"	14	0
-	.	1	0
-	+	1	0
-
-> ~/Documents/memo/uniguard.md
-	*	1568723323	0
-	"	9	0
-	^	6	43
-	.	8	9
-	+	7	0
-	+	3	38
-	+	7	38
+	+	1	38
+	+	2	0
 	+	4	0
-	+	6	40
-	+	8	9
+	+	3	0
+	+	4	0
 
-> /usr/share/vim/vim81/doc/help.txt
-	*	1568722487	0
+> ~/test.rs
+	*	1572603676	0
 	"	1	0
 
-<<<<<<< HEAD
-> ~/NERD_tree_1
-	*	1568722065	0
-	"	2	0
-	.	1	0
-	+	1	0
+> /usr/share/julia/base/refvalue.jl
+	*	1572599873	0
+	"	4	0
 
-> ~/.config/i3/config
-	*	1568722005	0
-	"	73	12
-	^	70	26
-	.	73	12
-	+	187	0
-	+	184	0
-	+	173	9
-	+	173	39
-	+	173	21
-	+	173	0
-	+	171	55
-	+	173	0
-	+	173	20
-	+	173	0
-	+	70	21
-	+	73	13
-	+	70	0
-	+	73	12
+> /usr/share/julia/base/refpointer.jl
+	*	1572599238	0
+	"	82	4
 
-> ~/Scripts/minix/Makefile
-	*	1568714911	0
-	"	514	1
-
-> ~/Scripts/julia_src/julia/src/flisp/print.c
-	*	1568707067	0
-	"	818	0
-
-> ~/Scripts/julia_src/julia/src/uv_constants.h
-	*	1568706893	0
-	"	1	0
-=======
-> ~/Scripts/julia/base/number.jl
-	*	1567165549	0
-	"	108	0
-
-> ~/Scripts/julia/base/array.jl
-	*	1567165501	0
-	"	229	0
-
-> ~/Scripts/julia/base/ctypes.jl
-	*	1567165451	0
-	"	115	0
-
-> ~/Scripts/elf.h
-	*	1567155023	0
-	"	100	0
-
-> /usr/include/features.h
-	*	1567154148	0
-	"	477	0
-
-> /usr/include/elf.h
-	*	1567153814	0
-	"	91	0
-	^	440	14
-	.	440	0
-	+	67	0
-	+	440	0
-
-> ~/Scripts/__Tagbar__.1
-	*	1567148714	0
-	"	7	4
-	.	8	0
-	+	8	0
->>>>>>> bed1b4eca04042c753d7236b5c68fc166f759fda
-
-> ~/Scripts/julia_src/julia/contrib/julia-config.jl
-	*	1568706808	0
-	"	1	0
-
-> ~/Scripts/julia_src/julia/Makefile
-	*	1568706333	0
-	"	1	0
-
-> ~/Scripts/julia_src/julia/Make
-	*	1568705838	0
-	"	1	0
-
-> ~/Scripts/julia_src/julia/src/Makefile
-	*	1568705745	0
-	"	222	20
-
-> ~/Scripts/julia_src/julia/base/boot.jl
-	*	1568705672	0
-	"	1	0
-
-> ~/Scripts/julia_src/julia/src/gc.c
-	*	1568705569	0
-	"	1	0
-
-> ~/Scripts/julia_src/julia/src/gf.c
-	*	1568705557	0
-	"	1	0
-
-> ~/Scripts/julia_src/julia/src/init.c
-	*	1568705549	0
-	"	1	0
-
-> ~/Scripts/julia_src/julia/src/interpreter.c
-	*	1568705542	0
-	"	1	0
-
-> ~/Scripts/julia_src/julia/src/toplevel.c
-	*	1568705502	0
-	"	324	12
-
-> ~/Scripts/julia_src/julia/src/julia_flisp.boot
-	*	1568705388	0
-	"	1	0
-
-> ~/Scripts/julia_src/julia/contrib/vagrant/Vagrantfile
-	*	1568705292	0
-	"	51	0
-
-> ~/Scripts/julia/julia/base/strings/basic.jl
-	*	1568704852	0
-	"	173	0
-
-> ~/Scripts/julia/julia/etc/startup.jl
-	*	1568704098	0
-	"	1	0
-
-> /tmp/bash-fc.yYstZX
-	*	1568702258	0
-	"	1	1
-	^	1	2
-	.	1	1
-	+	1	1
-
-> ~/Scripts/seccamp2019-nfs/udp_client.jl
-	*	1568701604	0
-	"	1	0
-
-> ~/Scripts/julia/julia/Makefile
-	*	1568701457	0
+> ~/Scripts/julia_src/julia_6/src/ccall.cpp
+	*	1572599159	0
 	"	61	0
 
-> ~/Scripts/julia/julia/Make
-	*	1568701445	0
-	"	1	0
-
-> ~/Scripts/julia/sysimage.mk
-	*	1568699947	0
-	"	55	0
-	.	55	0
-	+	55	0
-
-> ~/Scripts/julia/Makefile
-	*	1568699901	0
-	"	78	10
-	^	6	1
-	.	62	0
-	+	6	0
-	+	1	0
-	+	77	18
-	+	526	27
-	+	62	0
-
-> ~/Scripts/julia/Makef
-	*	1568699638	0
-	"	1	0
-
-> ~/Scripts/julia/Make
-	*	1568699199	0
-	"	1	0
-
-> ~/Scripts/ocaml-freestanding/m
-	*	1568696047	0
-	"	1	0
-
-> ~/Scripts/solo5/Makeconf
-	*	1568691859	0
-	"	11	0
-
-> ~/Scripts/julia_on_solo5/julia_solo5/M
-	*	1568378858	0
-	"	1	0
-
-> ~/Scripts/julia_on_solo5/julia_solo5/dlibc/NERD_tree_1
-	*	1568378644	0
-	"	11	0
-	^	1	0
-	.	1	0
-	+	1	0
-
-> ~/Scripts/julia_on_solo5/julia_solo5/dlibc/re
-	*	1568377776	0
-	"	1	0
-
-> ~/Scripts/julia_on_solo5/julia_solo5/dlibc/interfaces.c
-	*	1568377770	0
-	"	1	0
-	^	2	0
-	.	2	0
-	+	9	29
-	+	9	16
-	+	9	0
-	+	7	6
-	+	2	0
-
-<<<<<<< HEAD
-> ~/Scripts/julia_on_solo5/julia_solo5/printf.c
-	*	1568375114	0
-	"	38	0
-	^	39	23
-	.	39	22
-	+	1	19
-	+	59	1
-	+	61	0
-	+	38	14
-	+	39	12
-	+	39	20
-	+	39	22
-
-> ~/Scripts/musl-1.1.23/src/stdio/vfprintf.c
-	*	1568373713	0
-	"	487	2
-
-> ~/Scripts/julia_on_solo5/julia_solo5/sprintf.c
-	*	1568372357	0
-	"	1	0
-	^	1	0
-	.	59	1
-	+	59	1
-
-> ~/Scripts/musl-1.1.23/include/stdarg.h
-	*	1568372265	0
-	"	14	0
-
-> ~/Scripts/musl-1.1.23/arch/aarch64/bits/alltypes.h.in
-	*	1568372100	0
-	"	5	0
-
-> ~/Scripts/musl-1.1.23/src/stdio/vsnprintf.c
-	*	1568372055	0
-	"	54	8
-
-> ~/Scripts/musl-1.1.23/src/stdio/vsprintf.c
-	*	1568371974	0
-	"	6	8
-
-> ~/Scripts/musl-1.1.23/src/stdio/sprintf.c
-	*	1568371969	0
-	"	9	7
-
-> ~/Scripts/julia_on_solo5/julia_solo5/Mm
-	*	1568371610	0
-	"	1	0
-
-> ~/Scripts/julia_on_solo5/julia_solo5/malloc.c
-	*	1568370993	0
-	"	1	0
-	^	1	25
-	.	1	24
-	+	11	0
-	+	43	1
-	+	43	0
-	+	13	4
-	+	43	1
-	+	13	29
-	+	14	0
-	+	43	1
-	+	43	0
-	+	11	14
-	+	7	6
-	+	11	9
-	+	7	1
-	+	7	0
-	+	11	0
-	+	7	24
-	+	7	11
-	+	43	0
-	+	14	0
-	+	43	10
-	+	11	0
-	+	11	16
-	+	11	1
-	+	11	0
-	+	43	0
-	+	43	11
-	+	43	0
-	+	43	29
-	+	43	14
-	+	43	26
-	+	11	0
-	+	43	0
-	+	43	21
-	+	43	0
-	+	43	7
-	+	43	4
-	+	11	0
-	+	43	13
-	+	43	31
-	+	43	7
-	+	7	0
-	+	43	4
-	+	43	23
-	+	43	4
-	+	41	0
-	+	43	12
-	+	44	0
-	+	29	18
-	+	22	18
-	+	9	9
-	+	46	0
-	+	43	0
-	+	44	0
-	+	42	0
-	+	46	0
-	+	48	0
-	+	46	1
-	+	47	0
-	+	48	16
-	+	49	0
-	+	51	0
-	+	56	0
-	+	57	0
-	+	58	0
-	+	60	0
-	+	61	0
-	+	62	0
-	+	68	11
-	+	64	37
-	+	71	0
-	+	72	0
-	+	73	0
-	+	75	11
-	+	78	0
-	+	79	0
-	+	85	0
-	+	87	10
-	+	89	0
-	+	91	10
-	+	9	0
-	+	84	29
-	+	9	36
-	+	18	9
-	+	17	5
-	+	18	5
-	+	48	19
-	+	18	15
-	+	10	10
-	+	9	9
-	+	38	13
-	+	24	0
-	+	9	9
-	+	25	48
-	+	33	0
-	+	2	0
-	+	36	27
-	+	25	30
-	+	50	9
-	+	10	22
-	+	1	24
-	e	29	21
-
-> ~/Scripts/NERD_tree_2
-	*	1568370387	0
-	"	176	9
-	.	1	0
-	+	1	0
-
 > ~/Scripts/NERD_tree_1
-	*	1568370349	0
-	"	158	7
+	*	1572599079	0
+	"	44	2
 	.	1	0
 	+	1	0
 
-> ~/Scripts/julia_on_solo5/solo5_test/Makefile
-	*	1568351089	0
-	"	3	0
-	^	2	34
-	.	2	33
-	+	2	33
+> ~/Scripts/ccall_doc/ccall_art.md
+	*	1572589021	0
+	"	1	0
+	^	143	59
+	.	96	0
+	+	140	14
+	+	138	34
+	+	139	17
+	+	140	20
+	+	141	51
+	+	142	50
+	+	139	19
+	+	140	21
+	+	139	2
+	+	140	13
+	+	139	14
+	+	141	17
+	+	143	19
+	+	141	25
+	+	140	22
+	+	142	23
+	+	141	25
+	+	140	23
+	+	141	25
+	+	139	24
+	+	140	36
+	+	139	39
+	+	140	54
+	+	141	61
+	+	140	56
+	+	139	41
+	+	142	56
+	+	143	54
+	+	141	61
+	+	139	39
+	+	140	58
+	+	142	54
+	+	143	52
+	+	142	35
+	+	141	26
+	+	139	23
+	+	140	21
+	+	139	25
+	+	141	27
+	+	143	21
+	+	142	1
+	+	143	1
+	+	142	23
+	+	140	15
+	+	139	5
+	+	141	13
+	+	143	24
+	+	141	21
+	+	139	32
+	+	142	60
+	+	143	58
+	+	96	0
 
-> /mnt/projects/09_day/harib06d/bootpack.c
-	*	1568350527	0
-	"	37	0
-	^	20	47
-	.	20	0
-	+	20	0
+> ~/.xinitrc
+	*	1572588820	0
+	"	60	0
+	^	1	2
+	.	3	0
+	+	3	0
 
-> ~/Scripts/minix/minix/servers/vm/alloc.c
-	*	1568349912	0
-	"	357	16
-	^	328	17
-	.	328	16
-	+	332	13
-	+	328	16
+> ~/Scripts/build_exe_velf/build.sh
+	*	1572588781	0
+	"	1	0
 
-> ~/Scripts/solo5/include/solo5/solo5.h
-	*	1568349855	0
-	"	107	0
-=======
-> ~/Documents/bigami/mei.txt
-	*	1567004433	0
-	"	20	0
-	^	1	9
-	.	1	6
-	+	39	7
-	+	30	6
-	+	1	6
+> ~/.config/i3/config
+	*	1572529769	0
+	"	172	0
+	.	172	0
+	+	172	0
+	+	171	0
+	+	172	0
 
-> ~/Documents/memo/unikernel_as_processes.md
-	*	1566994671	0
-	"	27	0
-	^	26	308
-	.	26	305
-	+	13	167
-	+	14	159
-	+	15	102
-	+	17	55
-	+	18	220
-	+	19	3
-	+	18	253
-	+	19	0
-	+	20	84
-	+	21	155
-	+	22	3
-	+	23	60
-	+	25	12
-	+	32	0
-	+	25	181
-	+	26	305
+> ~/Scripts/julia_src/julia_7/test/embedding/Makefile
+	*	1572529427	0
+	"	1	0
 
-> ~/Scripts/julia/src/ast.c
-	*	1566988140	0
-	"	399	4
+> ~/Scripts/julia_src/julia_7/src/precompile.c
+	*	1572529427	0
+	"	305	0
 
-> ~/Scripts/julia/src/locks.h
-	*	1566988050	0
-	"	88	0
-
-> ~/Scripts/julia/src/jl_uv.c
-	*	1566987709	0
-	"	567	8
-
-> ~/Scripts/julia/src/support/asprintf.c
-	*	1566987706	0
-	"	57	0
-
-> ~/Scripts/julia/ui/__Tagbar__.1
-	*	1566987504	0
-	"	4	4
+> /etc/gdm/custom.conf
+	*	1572529083	0
+	"	5	0
 	.	5	0
 	+	5	0
->>>>>>> bed1b4eca04042c753d7236b5c68fc166f759fda
+
+> /tmp/bash-fc.JF5iSa
+	*	1572529040	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/Scripts/ccall_doc/.gitignore
+	*	1572527122	0
+	"	2	9
+	^	2	10
+	.	2	9
+	+	1	3
+	+	2	9
+
+> ~/Documents/ccall_art.md
+	*	1572526486	0
+	"	144	0
+	.	145	0
+	+	106	15
+	+	96	12
+	+	106	0
+	+	99	0
+	+	102	56
+	+	103	62
+	+	104	0
+	+	106	0
+	+	104	57
+	+	105	15
+	+	106	0
+	+	106	67
+	+	106	112
+	+	106	92
+	+	106	67
+	+	106	119
+	+	107	0
+	+	25	0
+	+	22	15
+	+	23	11
+	+	99	0
+	+	98	65
+	+	102	0
+	+	103	63
+	+	104	0
+	+	103	67
+	+	106	91
+	+	107	0
+	+	109	36
+	+	110	113
+	+	110	34
+	+	112	0
+	+	109	39
+	+	112	314
+	+	127	204
+	+	112	542
+	+	127	260
+	+	147	69
+	+	148	1
+	+	149	80
+	+	150	0
+	+	127	7
+	+	112	314
+	+	127	0
+	+	112	214
+	+	128	0
+	+	127	0
+	+	112	482
+	+	112	376
+	+	112	607
+	+	113	3
+	+	115	0
+	+	117	0
+	+	126	2
+	+	148	118
+	+	147	70
+	+	149	81
+	+	113	0
+	+	111	0
+	+	114	21
+	+	117	0
+	+	123	71
+	+	128	3
+	+	129	0
+	+	138	2
+	+	127	0
+	+	126	4
+	+	127	0
+	+	125	2
+	+	127	0
+	+	126	2
+	+	112	675
+	+	145	0
+	+	132	65
+	+	127	128
+	+	127	332
+	+	11	0
+	+	127	413
+	+	141	9
+	+	140	0
+	+	141	5
+	+	142	11
+	+	143	23
+	+	144	7
+	+	140	0
+	+	142	49
+	+	141	9
+	+	143	48
+	+	144	35
+	+	145	0
+	+	112	732
+	+	123	74
+	+	139	30
+	+	145	0
+
+> /usr/share/julia/base/c.jl
+	*	1572516717	0
+	"	217	4
+
+> ~/Scripts/test.c
+	*	1572516251	0
+	"	10	3
+	^	10	4
+	.	10	3
+	+	4	0
+	+	4	9
+	+	4	0
+	+	1	0
+	+	4	0
+	+	10	12
+	+	5	19
+	+	12	0
+	+	13	13
+	+	13	0
+	+	11	12
+	+	10	16
+	+	13	5
+	+	5	16
+	+	13	0
+	+	13	14
+	+	11	13
+	+	13	0
+	+	13	14
+	+	10	12
+	+	13	15
+	+	6	14
+	+	5	12
+	+	6	24
+	+	13	16
+	+	6	19
+	+	13	19
+	+	13	20
+	+	13	0
+	+	13	22
+	+	7	0
+	+	13	4
+	+	7	24
+	+	13	19
+	+	13	0
+	+	3	17
+	+	13	0
+	+	13	53
+	+	13	0
+	+	8	16
+	+	13	15
+	+	13	0
+	+	16	0
+	+	13	61
+	+	13	8
+	+	17	0
+	+	7	5
+	+	13	5
+	+	13	28
+	+	17	0
+	+	13	0
+	+	5	3
+	+	10	3
+
+> ~/Scripts/efi_test/uefi-simple/main.zen
+	*	1572510928	0
+	"	1	0
+
+> ~/Scripts/zen_uefi/src/main.h
+	*	1572510695	0
+	"	24	0
+
+> ~/test.c
+	*	1572509712	0
+	"	7	0
+	^	7	26
+	.	6	17
+	+	1	0
+	+	1	9
+	+	1	0
+	+	3	0
+	+	7	25
+	+	6	17
+
+> ~/[quickrun output]
+	*	1572509707	0
+	"	1	0
+	.	6	0
+	+	1	0
+	+	5	0
+	+	6	0
+
+> ~/Scripts/julia_src/julia_6/test/llvmcall.jl
+	*	1572432244	0
+	"	251	0
+
+> ~/Scripts/julia_src/julia_6/test/llvmcall
+	*	1572432188	0
+	"	1	0
+
+> ~/Scripts/efi_test/uefi-simple/main.efi
+	*	1572429242	0
+	"	381	0
+	.	1	0
+	+	1	0
+
+> ~/Scripts/efi_test/uefi-simple/main.c
+	*	1572428040	0
+	"	11	4
+	.	1	0
+	+	2	0
+	+	10	0
+	+	11	4
+	+	28	4
+	+	27	0
+	+	1	0
+
+> ~/Scripts/efi_test/uefi-simple/main.
+	*	1572427727	0
+	"	1	0
+
+> ~/Scripts/efi_test/uefi-simple/Makefile
+	*	1572427719	0
+	"	1	0
+
+> /tmp/bash-fc.fxNMUR
+	*	1572427554	0
+	"	1	4
+
+> ~/Scripts/efi_test/Makefile
+	*	1572427349	0
+	"	14	32
+	^	14	68
+	.	14	58
+	+	1	0
+	+	14	58
+
+> ~/Scripts/efi_test/efiapp.c
+	*	1572426374	0
+	"	38	0
+	.	1	0
+	+	1	0
+
+> ~/zen/lib/zen/std/build/fmt.zen
+	*	1572424096	0
+	"	1	0
+
+> ~/zen/lib/zen/NERD_tree_1
+	*	1572424092	0
+	"	7	0
+	.	1	0
+	+	1	0
+
+> ~/Scripts/zen_uefi/build.zen
+	*	1572421003	0
+	"	2	0
+
+> /tmp/bash-fc.X8K9m0
+	*	1572418525	0
+	"	1	193
+	^	1	194
+	.	1	193
+	+	1	110
+	+	1	193
+
+> /tmp/bash-fc.uJNxJY
+	*	1572418381	0
+	"	1	190
+	^	1	191
+	.	1	191
+	+	1	154
+	+	1	0
+	+	1	190
+	+	1	0
+	+	1	191
+
+> /tmp/bash-fc.yh5l80
+	*	1572418220	0
+	"	4	15
+	^	1	0
+	.	4	15
+	+	2	0
+	+	1	0
+	+	4	15
+
+> ~/Scripts/julia_src/julia_6/Make.inc
+	*	1572348801	0
+	"	1	0
+
+> /tmp/bash-fc.KpUmWl
+	*	1572348800	0
+	"	1	0
+
+> /tmp/bash-fc.fqHjOl
+	*	1572348744	0
+	"	1	74
+	^	1	56
+	.	1	74
+	+	1	74
+
+> ~/Scripts/julia_src/julia_6/ui/Makefile
+	*	1572348668	0
+	"	2	0
+
+> ~/Scripts/julia_src/julia_6/Makefile
+	*	1572348663	0
+	"	1	0
+	.	88	0
+	+	88	0
+
+> ~/Scripts/julia_src/julia_6/src/julia_threads.h
+	*	1572348473	0
+	"	7	1
+
+> ~/Scripts/julia_src/julia_6/src/julia.h
+	*	1572348344	0
+	"	18	17
+	^	12	18
+	.	18	10
+	+	12	17
+	+	16	17
+	+	17	17
+	+	18	18
+	+	16	10
+	+	12	17
+	+	17	0
+	+	16	10
+	+	17	10
+	+	18	10
+
+> ../src/julia.h
+	*	1572347920	0
+	"	1	0
+
+> ~/Scripts/julia_src/julia_6/ui/repl.c
+	*	1572347913	0
+	"	23	0
+
+> /tmp/bash-fc.vaMSmj
+	*	1572347241	0
+	"	1	37
+	^	1	33
+	.	1	15
+	+	1	0
+	+	2	0
+	+	1	15
+
+> /tmp/bash-fc.gv2rqk
+	*	1572347081	0
+	"	1	23
+	^	1	24
+	.	1	23
+	+	1	23
+
+> ~/Scripts/julia_src/julia_6/test/embedding/Makefile
+	*	1572346917	0
+	"	17	4
+
+> ~/Scripts/julia_src/julia_6/test/embedding/embedding.c
+	*	1572346882	0
+	"	1	0
+
+> ~/Scripts/julia_src/julia_6/sysimage.mk
+	*	1572346820	0
+	"	86	0
+
+> ~/Scripts/julia_src/sysimage.mk
+	*	1572346804	0
+	"	1	0
+
+> ~/Scripts/julia_src/julia_6/base/Makefile
+	*	1572346637	0
+	"	1	0
+
+> /tmp/bash-fc.XTrTQQ
+	*	1572346364	0
+	"	1	0
+	^	1	11
+	.	1	9
+	+	1	0
+	+	2	28
+	+	1	9
+
+> ~/Scripts/julia_src/julia_6/Make
+	*	1572345852	0
+	"	1	0
+
+> /tmp/bash-fc.AG4HCS
+	*	1572345592	0
+	"	1	14
+	^	1	16
+	.	1	15
+	+	1	15
+
+> ~/Scripts/julia_src/julia_6/base/compiler/bootstrap.jl
+	*	1572345551	0
+	"	8	0
+
+> /tmp/bash-fc.zi4BlP
+	*	1572345500	0
+	"	1	79
+	^	1	80
+	.	1	79
+	+	1	79
+
+> /home/sysimage.mk
+	*	1572345337	0
+	"	1	0
+
+> /tmp/bash-fc.eGHQYO
+	*	1572345204	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /tmp/bash-fc.ghZgpA
+	*	1572344942	0
+	"	1	50
+	^	1	51
+	.	1	50
+	+	1	0
+	+	2	28
+	+	1	50
+
+> /usr/share/vim/vim81/doc/help.txt
+	*	1572263644	0
+	"	1	0
+
+> ~/.vim/vim.toml
+	*	1572263498	0
+	"	43	43
+	^	43	44
+	.	43	43
+	+	46	0
+	+	56	27
+	+	43	43
+
+> ~/.config/nvim/tomls/dein_lazy.toml
+	*	1572263458	0
+	"	28	0
+
+> ~/.config/nvim/tomls/dein.toml
+	*	1572263449	0
+	"	41	0
+	^	78	28
+	.	78	27
+	+	78	6
+	+	78	27
+
+> ~/Documents/c
+	*	1572263288	0
+	"	1	0
+
+> /tmp/bash-fc.6UlRwW
+	*	1572262313	0
+	"	1	58
+	^	1	59
+	.	1	58
+	+	1	111
+	+	1	115
+	+	1	58
+
+> ~/Scripts/Makefile
+	*	1572262207	0
+	"	1	0
+
+> ~/Scripts/julia_src/julia_7/test/embedding/embedding.c
+	*	1572262038	0
+	"	1	0
+
+> /tmp/bash-fc.uv2ZE8
+	*	1572262035	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> ~/Scripts/julia_src/julia_7/test/embedding/embedding
+	*	1572262009	0
+	"	1	0
+
+> /tmp/bash-fc.1K76VZ
+	*	1572261773	0
+	"	1	13
+	^	1	14
+	.	1	14
+	+	1	104
+	+	1	112
+	+	2	0
+	+	1	14
+
+> /tmp/bash-fc.6i1Z5Y
+	*	1572261261	0
+	"	1	46
+	^	1	47
+	.	1	46
+	+	1	46
+
+> /tmp/bash-fc.zjy6iZ
+	*	1572261239	0
+	"	1	90
+	^	1	91
+	.	1	91
+	+	1	91
+
+> /tmp/bash-fc.69BKiZ
+	*	1572261216	0
+	"	1	51
+	.	1	110
+	+	1	110
+
+> /tmp/bash-fc.DXJAbY
+	*	1572261121	0
+	"	1	0
+	^	1	99
+	.	1	0
+	+	1	112
+	+	2	0
+	+	1	98
+	+	1	0
+
+> ~/Scripts/call_julia/call_jl.c
+	*	1572260815	0
+	"	9	8
+	^	9	9
+	.	9	9
+	+	1	0
+	+	3	17
+	+	8	1
+	+	12	0
+	+	5	71
+	+	12	0
+	+	10	33
+	+	11	19
+	+	9	9

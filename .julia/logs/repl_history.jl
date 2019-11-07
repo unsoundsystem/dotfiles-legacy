@@ -4215,3 +4215,3871 @@
 # time: 2019-10-19 15:16:06 JST
 # mode: julia
 	force_native_image!()
+# time: 2019-10-22 14:57:29 JST
+# mode: pkg
+	update
+# time: 2019-10-22 14:57:58 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-22 14:58:23 JST
+# mode: pkg
+	st
+# time: 2019-10-22 14:58:48 JST
+# mode: pkg
+	add JuliaInterpreter Debbuger
+# time: 2019-10-22 14:59:13 JST
+# mode: pkg
+	add JuliaInterpreter Debugger
+# time: 2019-10-22 14:59:22 JST
+# mode: pkg
+	update
+# time: 2019-10-22 14:59:50 JST
+# mode: julia
+	using JuliaInterpreter, Debugger
+# time: 2019-10-22 15:00:48 JST
+# mode: julia
+	@enter build_executable("test_c.jl", "test")
+# time: 2019-10-22 15:03:46 JST
+# mode: shell
+	synclient TouchPadOff=0
+# time: 2019-10-22 15:09:34 JST
+# mode: pkg
+	add ArgParse
+# time: 2019-10-22 16:06:09 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-22 16:06:26 JST
+# mode: julia
+	build_executable("Scripts/test_c.jl")
+# time: 2019-10-22 16:21:58 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-22 16:21:59 JST
+# mode: julia
+	build_executable("Scripts/test_c.jl")
+# time: 2019-10-22 16:45:10 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-22 16:45:11 JST
+# mode: julia
+	build_executable("Scripts/test_c.jl")
+# time: 2019-10-22 16:47:49 JST
+# mode: julia
+	signal (11): Segmentation fault
+# time: 2019-10-22 16:47:49 JST
+# mode: julia
+	in expression starting at none:0
+# time: 2019-10-22 16:47:49 JST
+# mode: julia
+	uv_write2 at /usr/bin/../lib/libjulia.so.1 (unknown line)
+# time: 2019-10-22 16:47:49 JST
+# mode: julia
+	uv_write at /usr/bin/../lib/libjulia.so.1 (unknown line)
+# time: 2019-10-22 16:47:49 JST
+# mode: julia
+	jl_uv_write at /usr/bin/../lib/libjulia.so.1 (unknown line)
+# time: 2019-10-22 16:47:49 JST
+# mode: julia
+	uv_write_async at ./stream.jl:907
+# time: 2019-10-22 16:47:49 JST
+# mode: julia
+	uv_write at ./stream.jl:877
+# time: 2019-10-22 16:50:22 JST
+# mode: julia
+	build_executable("Scripts/test_c.jl")
+# time: 2019-10-22 16:50:28 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-22 16:50:30 JST
+# mode: julia
+	build_executable("Scripts/test_c.jl")
+# time: 2019-10-22 16:53:19 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-22 16:53:22 JST
+# mode: julia
+	build_executable("Scripts/test_c.jl")
+# time: 2019-10-22 17:07:12 JST
+# mode: julia
+	versioninfo()
+# time: 2019-10-22 17:08:19 JST
+# mode: julia
+	build_executable("Scripts/test_c.jl")
+# time: 2019-10-22 17:08:23 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-22 17:08:24 JST
+# mode: julia
+	build_executable("Scripts/test_c.jl")
+# time: 2019-10-22 17:09:08 JST
+# mode: julia
+	versioninfo()
+# time: 2019-10-22 17:09:36 JST
+# mode: shell
+	]
+# time: 2019-10-22 20:15:47 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-22 20:15:50 JST
+# mode: julia
+	versioninfo()
+# time: 2019-10-22 20:16:07 JST
+# mode: julia
+	build_executable("test_c.jl")
+# time: 2019-10-22 20:33:16 JST
+# mode: pkg
+	st
+# time: 2019-10-22 20:33:35 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-22 20:33:54 JST
+# mode: julia
+	build_executable("test_c.jl"; startup-file="no")
+# time: 2019-10-22 20:34:01 JST
+# mode: julia
+	build_executable("test_c.jl"; startup_file="no")
+# time: 2019-10-22 20:39:13 JST
+# mode: shell
+	rm -rf builddir/
+# time: 2019-10-22 20:39:22 JST
+# mode: julia
+	build_executable("test_c.jl"; startup_file="yes")
+# time: 2019-10-22 20:39:49 JST
+# mode: julia
+	build_executable("test_c.jl"; startup_file="no")
+# time: 2019-10-22 20:44:48 JST
+# mode: shell
+	./builddir/test_c
+# time: 2019-10-23 10:42:23 JST
+# mode: pkg
+	add DSP
+# time: 2019-10-23 10:42:39 JST
+# mode: pkg
+	update
+# time: 2019-10-23 10:43:08 JST
+# mode: pkg
+	add WAv
+# time: 2019-10-23 10:43:14 JST
+# mode: pkg
+	add WAV
+# time: 2019-10-23 10:43:25 JST
+# mode: pkg
+	add MP3
+# time: 2019-10-23 10:44:54 JST
+# mode: julia
+	using DSP, WAV, PyPlot
+# time: 2019-10-23 10:48:20 JST
+# mode: julia
+	s, fs = wavread("Downloads/nc28223.wav")
+# time: 2019-10-23 10:48:56 JST
+# mode: julia
+	plot(0:1/fs:(length(s)-1)/fs, s)
+# time: 2019-10-23 11:08:15 JST
+# mode: julia
+	using DSP, WAV, PyPlot
+# time: 2019-10-23 11:08:43 JST
+# mode: julia
+	using DSP, WAV, Plots
+# time: 2019-10-23 11:09:20 JST
+# mode: julia
+	plot(0:1/fs:(length(s)-1)/fs, s)
+# time: 2019-10-23 11:09:26 JST
+# mode: julia
+	s, fs = wavread("Downloads/nc28223.wav")
+# time: 2019-10-23 11:09:29 JST
+# mode: julia
+	plot(0:1/fs:(length(s)-1)/fs, s)
+# time: 2019-10-23 11:10:39 JST
+# mode: julia
+	gr()
+# time: 2019-10-23 11:10:59 JST
+# mode: julia
+	plot(0:1/fs:(length(s)-1)/fs, s)
+# time: 2019-10-23 11:11:28 JST
+# mode: julia
+	using DSP, WAV, PyPlot
+# time: 2019-10-23 11:11:43 JST
+# mode: julia
+	s, fs = wavread("Downloads/nc28223.wav")
+# time: 2019-10-23 11:11:50 JST
+# mode: julia
+	plot(0:1/fs:(length(s)-1)/fs, s)
+# time: 2019-10-23 11:31:53 JST
+# mode: julia
+	using PackageCompiler
+# time: 2019-10-23 11:32:35 JST
+# mode: julia
+	using JuliaInterpreter, Debugger
+# time: 2019-10-23 11:33:32 JST
+# mode: julia
+	@enter build_executable("Scripts/test_c.jl", startup_file="no")
+# time: 2019-10-23 11:34:24 JST
+# mode: shell
+	ls builddir/
+# time: 2019-10-23 11:34:39 JST
+# mode: shell
+	rm -rf builddir/
+# time: 2019-10-23 11:35:10 JST
+# mode: help
+	break
+# time: 2019-10-23 11:35:26 JST
+# mode: help
+	break()
+# time: 2019-10-23 11:35:36 JST
+# mode: help
+	breakpoint
+# time: 2019-10-23 11:36:09 JST
+# mode: julia
+	breakpoint(static_julia)
+# time: 2019-10-23 11:36:15 JST
+# mode: julia
+	@enter build_executable("Scripts/test_c.jl", startup_file="no")
+# time: 2019-10-23 11:39:21 JST
+# mode: julia
+	@run
+# time: 2019-10-23 11:40:22 JST
+# mode: julia
+	@breakpoint static_julia
+# time: 2019-10-23 11:40:30 JST
+# mode: julia
+	@breakpoint static_julia()
+# time: 2019-10-23 11:41:08 JST
+# mode: julia
+	@enter build_executable("Scripts/test_c.jl", startup_file="no")
+# time: 2019-10-23 11:44:06 JST
+# mode: shell
+	./builddir/test_c
+# time: 2019-10-23 11:44:28 JST
+# mode: julia
+	breakpoint(static_julia)
+# time: 2019-10-23 11:44:43 JST
+# mode: shell
+	rm -rf builddir/
+# time: 2019-10-23 11:45:09 JST
+# mode: julia
+	@run build_executable("Scripts/test_c.jl", startup_file="no")
+# time: 2019-10-23 11:45:36 JST
+# mode: help
+	breakpoint
+# time: 2019-10-23 11:47:00 JST
+# mode: julia
+	using PackageCompiler:static_julia
+# time: 2019-10-23 11:51:43 JST
+# mode: julia
+	@breakpoint static_julia
+# time: 2019-10-23 11:51:55 JST
+# mode: help
+	static_julia
+# time: 2019-10-23 11:54:24 JST
+# mode: julia
+	@breakpoint static_julia(juliaprog::String; kw_args)
+# time: 2019-10-23 11:54:37 JST
+# mode: julia
+	@breakpoint static_julia(juliaprog::String; ...)
+# time: 2019-10-23 11:56:55 JST
+# mode: help
+	@breakpoint
+# time: 2019-10-23 12:02:26 JST
+# mode: julia
+	@breakpoint function static_julia(
+	        juliaprog;
+	        cprog = nothing, verbose = false, quiet = false, builddir = nothing, outname = nothing, snoopfile = nothing,
+	        clean = false, autodeps = false, object = false, shared = false, init_shared = false, executable = false, rmtemp = false,
+	        copy_julialibs = false, copy_files = nothing, release = false, Release = false,
+	        sysimage_native_code = nothing, compiled_modules = nothing,
+	        depwarn = nothing, warn_overwrite = nothing,
+	        compile = nothing, cpu_target = nothing, optimize = nothing, debug = nothing,
+	        inline = nothing, check_bounds = nothing, math_mode = nothing,
+	        cc = nothing, cc_flags = nothing
+	    )
+# time: 2019-10-23 12:02:39 JST
+# mode: julia
+	@breakpoint function static_julia(
+	        juliaprog;
+	        cprog = nothing, verbose = false, quiet = false, builddir = nothing, outname = nothing, snoopfile = nothing,
+	        clean = false, autodeps = false, object = false, shared = false, init_shared = false, executable = false, rmtemp = false,
+	        copy_julialibs = false, copy_files = nothing, release = false, Release = false,
+	        sysimage_native_code = nothing, compiled_modules = nothing,
+	        depwarn = nothing, warn_overwrite = nothing,
+	        compile = nothing, cpu_target = nothing, optimize = nothing, debug = nothing,
+	        inline = nothing, check_bounds = nothing, math_mode = nothing,
+	        cc = nothing, cc_flags = nothing
+	    );
+# time: 2019-10-23 12:02:52 JST
+# mode: julia
+	@breakpoint static_julia(
+	        juliaprog;
+	        cprog = nothing, verbose = false, quiet = false, builddir = nothing, outname = nothing, snoopfile = nothing,
+	        clean = false, autodeps = false, object = false, shared = false, init_shared = false, executable = false, rmtemp = false,
+	        copy_julialibs = false, copy_files = nothing, release = false, Release = false,
+	        sysimage_native_code = nothing, compiled_modules = nothing,
+	        depwarn = nothing, warn_overwrite = nothing,
+	        compile = nothing, cpu_target = nothing, optimize = nothing, debug = nothing,
+	        inline = nothing, check_bounds = nothing, math_mode = nothing,
+	        cc = nothing, cc_flags = nothing
+	    );
+# time: 2019-10-23 12:03:44 JST
+# mode: julia
+	@run build_executable("Scripts/test_c.jl", startup_file="no")
+# time: 2019-10-23 12:04:25 JST
+# mode: julia
+	@enter build_executable("Scripts/test_c.jl", startup_file="no")
+# time: 2019-10-23 13:01:55 JST
+# mode: julia
+	@breakpoint static_julia(juliaprog;startup_file = false)
+# time: 2019-10-23 13:02:11 JST
+# mode: julia
+	@breakpoint static_julia(juliaprog::Any;startup_file = false)
+# time: 2019-10-23 13:02:57 JST
+# mode: julia
+	@breakpoint static_julia("Scripts/test_c.jl";startup_file = false)
+# time: 2019-10-23 13:03:03 JST
+# mode: julia
+	@enter build_executable("Scripts/test_c.jl", startup_file="no")
+# time: 2019-10-23 13:04:37 JST
+# mode: julia
+	@breakpoint static_julia("Scripts/test_c.jl";startup_file = false)
+# time: 2019-10-23 13:04:47 JST
+# mode: julia
+	@enter build_executable("Scripts/test_c.jl", startup_file="no")
+# time: 2019-10-23 13:12:32 JST
+# mode: julia
+	Core.apply_type
+# time: 2019-10-23 13:12:35 JST
+# mode: help
+	Core.apply_type
+# time: 2019-10-23 13:13:46 JST
+# mode: julia
+	Core.apply_type(Int64)
+# time: 2019-10-23 13:14:40 JST
+# mode: julia
+	Core.apply_type(Union{UInt64, Int64})
+# time: 2019-10-23 13:14:54 JST
+# mode: julia
+	Core.apply_type(UnionAll{UInt64, Int64})
+# time: 2019-10-23 13:15:14 JST
+# mode: julia
+	Core.apply_type(NamedTuple)
+# time: 2019-10-23 13:15:22 JST
+# mode: julia
+	NamedTuple
+# time: 2019-10-23 13:15:30 JST
+# mode: help
+	NamedTuple
+# time: 2019-10-23 13:16:46 JST
+# mode: julia
+	Core.IR.CoreInfo
+# time: 2019-10-23 13:16:57 JST
+# mode: julia
+	Core.IR.CodeInfo
+# time: 2019-10-23 13:17:00 JST
+# mode: julia
+	Core.IR.CodeInfo()
+# time: 2019-10-23 13:17:15 JST
+# mode: help
+	Core.IR.CodeInfo
+# time: 2019-10-23 13:17:47 JST
+# mode: help
+	Core.IR.include
+# time: 2019-10-23 13:18:21 JST
+# mode: julia
+	Base.structdiff
+# time: 2019-10-23 13:18:28 JST
+# mode: help
+	Base.structdiff
+# time: 2019-10-23 13:30:55 JST
+# mode: help
+	Core.Box
+# time: 2019-10-23 13:31:29 JST
+# mode: help
+	Core.Box("hello")
+# time: 2019-10-23 13:31:37 JST
+# mode: julia
+	Core.Box("hello")
+# time: 2019-10-23 13:31:47 JST
+# mode: julia
+	typeof(ans)
+# time: 2019-10-23 13:41:59 JST
+# mode: julia
+	Core.Box(#undef)
+	
+	;
+# time: 2019-10-23 13:55:16 JST
+# mode: julia
+	using PackageCompiler, JuliaInterpreter, Debugger
+# time: 2019-10-23 13:55:32 JST
+# mode: julia
+	@breakpoint static_julia("Scripts/test_c.jl";startup_file = false)
+# time: 2019-10-23 13:55:44 JST
+# mode: julia
+	@enter build_executable("Scripts/test_c.jl", startup_file="no")
+# time: 2019-10-23 14:02:01 JST
+# mode: julia
+	using PackageCompiler, JuliaInterpreter, Debugger
+# time: 2019-10-23 14:02:27 JST
+# mode: julia
+	@breakpoint static_julia("/home/sinai/Scripts/test_c.jl";startup_file = false)
+# time: 2019-10-23 14:32:03 JST
+# mode: julia
+	using PackageCompiler, JuliaInterpreter, Debugger
+# time: 2019-10-23 14:32:32 JST
+# mode: julia
+	@enter build_executable("Scripts/test_c.jl", startup_file="no")
+# time: 2019-10-23 14:38:46 JST
+# mode: julia
+	using DSP, WAV, PyPlot
+# time: 2019-10-23 14:39:02 JST
+# mode: julia
+	s, fs = wavread("Downloads/nc28223.wav")
+# time: 2019-10-23 14:39:23 JST
+# mode: julia
+	s, fs = wavread("/home/sinaiDownloads/nc28223.wav")
+# time: 2019-10-23 14:39:33 JST
+# mode: julia
+	s, fs = wavread("/home/sinai/Downloads/nc28223.wav")
+# time: 2019-10-23 14:40:15 JST
+# mode: julia
+	plot(0:1/fs:(length(s)-1)/fs, s)
+# time: 2019-10-23 14:41:10 JST
+# mode: julia
+	using UnicodePlots
+# time: 2019-10-23 14:41:20 JST
+# mode: julia
+	lineplot(0:1/fs:(length(s)-1)/fs, s)
+# time: 2019-10-23 14:41:52 JST
+# mode: julia
+	lineplot(0:1/fs:(Array(length(s)-1))/fs, s)
+# time: 2019-10-23 14:42:31 JST
+# mode: julia
+	lineplot(Array(0:1/fs:(length(s)-1)/fs), s)
+# time: 2019-10-23 14:42:54 JST
+# mode: julia
+	using Plots
+# time: 2019-10-23 14:43:22 JST
+# mode: julia
+	Plots.plot(Array(0:1/fs:(length(s)-1)/fs), s)
+# time: 2019-10-23 14:44:39 JST
+# mode: julia
+	lineplot(Array(0:1/fs:(length(s)-1))/fs, s)
+# time: 2019-10-23 14:45:19 JST
+# mode: julia
+	using DSP, WAV, UnicodePlots
+# time: 2019-10-23 14:45:22 JST
+# mode: julia
+	lineplot(Array(0:1/fs:(length(s)-1))/fs, s)
+# time: 2019-10-23 14:45:29 JST
+# mode: julia
+	s, fs = wavread("/home/sinai/Downloads/nc28223.wav")
+# time: 2019-10-23 14:45:36 JST
+# mode: julia
+	lineplot(Array(0:1/fs:(length(s)-1))/fs, s)
+# time: 2019-10-23 14:46:01 JST
+# mode: julia
+	lineplot(Array(0:1/fs:(length(s)-1)/fs), s)
+# time: 2019-10-23 14:47:07 JST
+# mode: help
+	lineplot
+# time: 2019-10-23 14:48:00 JST
+# mode: julia
+	lineplot(0:1/fs:(length(s)-1)/fs, s)
+# time: 2019-10-23 14:48:27 JST
+# mode: julia
+	Array(0:1/fs:(length(s)-1)/fs)
+# time: 2019-10-23 14:48:36 JST
+# mode: julia
+	x = Array(0:1/fs:(length(s)-1)/fs)
+# time: 2019-10-23 14:48:41 JST
+# mode: julia
+	using Plots
+# time: 2019-10-23 14:48:53 JST
+# mode: julia
+	length(x)
+# time: 2019-10-23 14:49:07 JST
+# mode: julia
+	length(s)
+# time: 2019-10-23 14:49:13 JST
+# mode: julia
+	gr()
+# time: 2019-10-23 14:49:24 JST
+# mode: julia
+	plot(x, s)
+# time: 2019-10-23 14:50:00 JST
+# mode: shell
+	rf builddir/
+# time: 2019-10-23 14:50:07 JST
+# mode: shell
+	rm -rf builddir/
+# time: 2019-10-23 14:50:11 JST
+# mode: julia
+	@enter build_executable("Scripts/test_c.jl", startup_file="no")
+# time: 2019-10-23 14:53:29 JST
+# mode: julia
+	using PackageCompiler, JuliaInterpreter, Debugger
+# time: 2019-10-23 14:53:42 JST
+# mode: julia
+	@breakpoint static_julia("/home/sinai/Scripts/test_c.jl";startup_file = false)
+# time: 2019-10-23 14:53:47 JST
+# mode: julia
+	@enter build_executable("Scripts/test_c.jl", startup_file="no")
+# time: 2019-10-23 14:54:04 JST
+# mode: julia
+	lineplot(x, s)
+# time: 2019-10-23 14:55:20 JST
+# mode: julia
+	plot(s, 0:1/fs:(length(s)-1)/fs)
+# time: 2019-10-23 14:55:27 JST
+# mode: julia
+	lineplot(s, 0:1/fs:(length(s)-1)/fs)
+# time: 2019-10-23 14:57:49 JST
+# mode: julia
+	lineplot(s, x)
+# time: 2019-10-23 14:59:09 JST
+# mode: julia
+	@which plot
+# time: 2019-10-23 14:59:20 JST
+# mode: julia
+	plot(x, s)
+# time: 2019-10-23 14:59:31 JST
+# mode: julia
+	gr()
+# time: 2019-10-23 14:59:33 JST
+# mode: julia
+	plot(x, s)
+# time: 2019-10-23 14:59:46 JST
+# mode: julia
+	plot(10x, x.^2)
+# time: 2019-10-23 15:00:08 JST
+# mode: pkg
+	test PyPlot
+# time: 2019-10-23 15:10:19 JST
+# mode: julia
+	Base.julia_cmd()
+# time: 2019-10-23 15:25:50 JST
+# mode: julia
+	jl_cmd
+# time: 2019-10-23 15:27:06 JST
+# mode: julia
+	jl_cmd = Base.julia_cmd
+# time: 2019-10-23 15:27:09 JST
+# mode: julia
+	jl_cmd = Base.julia_cmd()
+# time: 2019-10-23 15:27:21 JST
+# mode: julia
+	jl_cmd.exec[1]
+# time: 2019-10-23 15:28:38 JST
+# mode: julia
+	haskey
+# time: 2019-10-23 15:28:44 JST
+# mode: help
+	haskey
+# time: 2019-10-23 15:34:22 JST
+# mode: julia
+	keys
+# time: 2019-10-23 15:34:27 JST
+# mode: help
+	keys
+# time: 2019-10-23 15:56:00 JST
+# mode: julia
+	setdiff
+# time: 2019-10-23 15:56:06 JST
+# mode: help
+	setdiff
+# time: 2019-10-23 15:57:43 JST
+# mode: julia
+	push_command!
+# time: 2019-10-23 16:05:32 JST
+# mode: julia
+	using PackageCompiler, JuliaInterpreter, Debugger
+# time: 2019-10-23 16:05:38 JST
+# mode: julia
+	@breakpoint static_julia("/home/sinai/Scripts/test_c.jl";startup_file = false)
+# time: 2019-10-23 16:05:44 JST
+# mode: julia
+	@enter build_executable("Scripts/test_c.jl", startup_file="no")
+# time: 2019-10-23 16:19:24 JST
+# mode: julia
+	using PackageCompiler, JuliaInterpreter, Debugger
+# time: 2019-10-23 16:19:28 JST
+# mode: julia
+	@breakpoint static_julia("/home/sinai/Scripts/test_c.jl";startup_file = false)
+# time: 2019-10-23 16:19:33 JST
+# mode: julia
+	@enter build_executable("Scripts/test_c.jl", startup_file="no")
+# time: 2019-10-23 16:47:00 JST
+# mode: julia
+	$ORIGIN
+# time: 2019-10-23 16:47:22 JST
+# mode: julia
+	ORIGN
+# time: 2019-10-23 16:47:28 JST
+# mode: julia
+	ORIGIN
+# time: 2019-10-23 16:47:53 JST
+# mode: julia
+	using PackageCompiler:ORIGIN
+# time: 2019-10-23 16:48:04 JST
+# mode: julia
+	import PackageCompiler:ORIGIN
+# time: 2019-10-23 16:48:20 JST
+# mode: julia
+	`$ORIGIN`
+# time: 2019-10-23 16:48:50 JST
+# mode: julia
+	`\ORIGIN`
+# time: 2019-10-23 19:10:12 JST
+# mode: julia
+	read(stdin)
+# time: 2019-10-23 19:10:17 JST
+# mode: julia
+	a
+# time: 2019-10-23 19:22:15 JST
+# mode: julia
+	for i 1:100
+	  s=""
+	  i%3==0 && s*="Fizz"
+	  i%5==9 && s*="Buzz"
+	  println(s=="" ? i : s)
+	end
+# time: 2019-10-23 19:22:31 JST
+# mode: julia
+	for i in 1:100
+	  s=""
+	  i%3==0 && s*="Fizz"
+	  i%5==9 && s*="Buzz"
+	  println(s=="" ? i : s)
+	end
+# time: 2019-10-23 19:23:22 JST
+# mode: julia
+	for i in 1:100
+	  s=""
+	  i%3==0 && s*="Fizz"
+	  i%5==0 && s*="Buzz"
+	  println(s=="" ? i : s)
+	end
+# time: 2019-10-23 19:23:50 JST
+# mode: julia
+	for i in 1:100
+	  s=""
+	  i%3==0 && s *= "Fizz"
+	  i%5==0 && s*="Buzz"
+	  println(s=="" ? i : s)
+	end
+# time: 2019-10-23 19:24:23 JST
+# mode: julia
+	for i in 1:100
+	  s=""
+	  i % 3 == 0 && s*= "Fizz"
+	  i % 5 == 0 && s *= "Buzz"
+	  println(s == "" ? i : s)
+	end
+# time: 2019-10-23 19:25:34 JST
+# mode: julia
+	100%3
+# time: 2019-10-23 19:25:41 JST
+# mode: julia
+	100%3==0
+# time: 2019-10-23 19:25:45 JST
+# mode: julia
+	100%3==1
+# time: 2019-10-23 19:30:25 JST
+# mode: julia
+	for i in 1:100
+	  s=""
+	  i%3==0 ? s*="Fizz" : s*=""
+	  i%5==0 ? s*="Buzz" : s*=""
+	  println(s=="" : i : s)
+	end
+# time: 2019-10-23 19:31:12 JST
+# mode: julia
+	for i in 1:100
+	  s=""
+	  i%3==0 ? s*="Fizz" : s*=""
+	  i%5==0 ? s*="Buzz" : s*=""
+	  println(s=="" ? i : s)
+	end
+# time: 2019-10-23 20:01:44 JST
+# mode: julia
+	using PyPlot
+# time: 2019-10-23 20:02:11 JST
+# mode: julia
+	plot(1:100, sin)
+# time: 2019-10-23 20:03:45 JST
+# mode: julia
+	0:1/fs:(length(s)-1)
+# time: 2019-10-23 20:03:56 JST
+# mode: julia
+	s, fs = wavread("/home/sinai/Downloads/nc28223.wav")
+# time: 2019-10-23 20:04:04 JST
+# mode: julia
+	using DSP, WAV, UnicodePlots
+# time: 2019-10-23 20:04:09 JST
+# mode: julia
+	s, fs = wavread("/home/sinai/Downloads/nc28223.wav")
+# time: 2019-10-23 20:04:17 JST
+# mode: julia
+	0:1/fs:(length(s)-1)
+# time: 2019-10-23 20:04:50 JST
+# mode: julia
+	0:1/fs:(length(s)-1) |> Array
+# time: 2019-10-23 20:05:08 JST
+# mode: julia
+	Array(0:1/fs:(length(s)-1))
+# time: 2019-10-23 20:05:31 JST
+# mode: julia
+	Vector(0:1/fs:(length(s)-1))
+# time: 2019-10-25 14:46:43 JST
+# mode: julia
+	
+# time: 2019-10-25 14:47:31 JST
+# mode: julia
+	\0xf244
+# time: 2019-10-25 15:25:55 JST
+# mode: julia
+	nothing == Nothing
+# time: 2019-10-25 15:26:09 JST
+# mode: julia
+	nothing === Nothing
+# time: 2019-10-25 15:26:29 JST
+# mode: julia
+	C_NULL == nothing
+# time: 2019-10-25 15:26:34 JST
+# mode: julia
+	C_NULL == Nothin
+# time: 2019-10-25 15:26:36 JST
+# mode: julia
+	C_NULL == Nothing
+# time: 2019-10-25 15:26:51 JST
+# mode: julia
+	typeof(C_NULL)
+# time: 2019-10-25 15:27:09 JST
+# mode: julia
+	typeof(Nothing)
+# time: 2019-10-25 15:27:21 JST
+# mode: julia
+	@dump Nothing
+# time: 2019-10-25 15:27:31 JST
+# mode: julia
+	dump(Nothing)
+# time: 2019-10-25 15:27:41 JST
+# mode: julia
+	dump(nothing)
+# time: 2019-10-25 15:28:03 JST
+# mode: julia
+	typeof(nothing)
+# time: 2019-10-25 15:44:48 JST
+# mode: julia
+	using UnicodePlots
+# time: 2019-10-25 15:45:50 JST
+# mode: julia
+	lineplot(sin, 1:.5:20)
+# time: 2019-10-25 15:48:17 JST
+# mode: julia
+	using UnicodePlots
+# time: 2019-10-25 15:48:22 JST
+# mode: julia
+	lineplot(sin, 1:.5:20)
+# time: 2019-10-25 15:48:33 JST
+# mode: julia
+	ans
+# time: 2019-10-25 15:48:42 JST
+# mode: julia
+	typeof(ans)
+# time: 2019-10-25 23:15:50 JST
+# mode: julia
+	using UnicodePlots
+# time: 2019-10-25 23:15:55 JST
+# mode: julia
+	lineplot(sin, 1:.5:20)
+# time: 2019-10-25 23:16:12 JST
+# mode: julia
+	write(stdout, "hello")
+# time: 2019-10-25 23:16:39 JST
+# mode: julia
+	write(stdout, lineplot(sin, 1:.5:20))
+# time: 2019-10-25 23:18:07 JST
+# mode: help
+	String()
+# time: 2019-10-25 23:18:34 JST
+# mode: julia
+	String(lineplot(sin, 1:.5:20))
+# time: 2019-10-26 00:09:17 JST
+# mode: julia
+	@which ccall()
+# time: 2019-10-26 00:09:20 JST
+# mode: julia
+	ccall
+# time: 2019-10-26 00:10:45 JST
+# mode: julia
+	using Base:ccall
+# time: 2019-10-26 00:11:21 JST
+# mode: julia
+	ccall
+# time: 2019-10-26 00:11:48 JST
+# mode: help
+	ccall
+# time: 2019-10-26 00:14:05 JST
+# mode: julia
+	ccall("/home/sinai/Scripts/libtest.so", :main)
+# time: 2019-10-26 00:14:20 JST
+# mode: julia
+	in
+# time: 2019-10-26 00:14:44 JST
+# mode: help
+	ccall
+# time: 2019-10-26 00:14:56 JST
+# mode: julia
+	ccall(:main,"/home/sinai/Scripts/libtest.so")
+# time: 2019-10-26 00:15:00 JST
+# mode: julia
+	ccall(:main, "/home/sinai/Scripts/libtest.so")
+# time: 2019-10-26 00:15:54 JST
+# mode: julia
+	ccall((:main, "/home/sinai/Scripts/libtest.so"), Nothing, Int)
+# time: 2019-10-26 00:16:06 JST
+# mode: julia
+	ccall((:main, "/home/sinai/Scripts/libtest.so"), Nothing, (Int,))
+# time: 2019-10-26 00:17:41 JST
+# mode: julia
+	ccall((:main, "/home/sinai/Scripts/libtest.so"), Int)
+# time: 2019-10-26 00:18:03 JST
+# mode: julia
+	ccall((:main, "/home/sinai/Scripts/libtest.so"), Int64, (Int64,))
+# time: 2019-10-26 00:18:15 JST
+# mode: julia
+	ccall((:main, "/home/sinai/Scripts/libtest.so"), Int64, (Int64, Int64))
+# time: 2019-10-26 00:19:04 JST
+# mode: help
+	ccall
+# time: 2019-10-26 00:19:19 JST
+# mode: julia
+	ccall((:main, "/home/sinai/Scripts/libtest.so"), Int64, (Int64,) Int64)
+# time: 2019-10-26 00:19:27 JST
+# mode: julia
+	ccall((:main, "/home/sinai/Scripts/libtest.so"), Int64, (Int64,), Int64)
+# time: 2019-10-26 00:22:12 JST
+# mode: julia
+	ccall((:main, "test.so"), Int64, (Nothing,))
+# time: 2019-10-26 00:22:25 JST
+# mode: julia
+	ccall((:main, "test.so"), Int64)
+# time: 2019-10-26 00:22:31 JST
+# mode: julia
+	ccall((:main, "test.so"), Int64, Nothing)
+# time: 2019-10-26 00:22:43 JST
+# mode: julia
+	ccall((:main, "test.so"), Int64, (Nothing,))
+# time: 2019-10-26 00:24:40 JST
+# mode: julia
+	ccall((:clock, "/lib/libc.so.6"), Int32, ())
+# time: 2019-10-26 00:34:08 JST
+# mode: help
+	ccall
+# time: 2019-10-26 00:40:20 JST
+# mode: julia
+	@code_llvm ccall((:clock, "/lib/libc.so.6"), Int32, ())
+# time: 2019-10-26 00:40:41 JST
+# mode: julia
+	@code_native ccall((:clock, "/lib/libc.so.6"), Int32, ())
+# time: 2019-10-26 01:03:17 JST
+# mode: julia
+	ccall((:test_ptr, "test.so"), Int64, (Ref
+# time: 2019-10-26 01:03:24 JST
+# mode: julia
+	Cstring
+# time: 2019-10-26 01:03:29 JST
+# mode: help
+	Cstring
+# time: 2019-10-26 01:03:41 JST
+# mode: julia
+	typeof(Cstring)
+# time: 2019-10-26 01:04:00 JST
+# mode: julia
+	typeof(Cchar
+	)
+# time: 2019-10-26 01:04:17 JST
+# mode: julia
+	@which Cstring
+# time: 2019-10-26 01:04:30 JST
+# mode: julia
+	@edit Cstring
+# time: 2019-10-26 01:04:37 JST
+# mode: julia
+	@edit Base.Cstring
+# time: 2019-10-26 01:06:40 JST
+# mode: julia
+	ccall((:test_ptr, "test.so"), Int64, (Ref,), "hello")
+# time: 2019-10-26 01:06:58 JST
+# mode: julia
+	Ref("hello")
+# time: 2019-10-26 01:07:05 JST
+# mode: julia
+	Ref("hello")[]
+# time: 2019-10-26 01:07:46 JST
+# mode: julia
+	ccall((:test_ptr, "test.so"), Int64, (Ref,), Ref("hello"))
+# time: 2019-10-26 01:08:05 JST
+# mode: shell
+	ls test.so
+# time: 2019-10-26 01:08:46 JST
+# mode: julia
+	ccall((:test_ptr, "./test.so"), Int64, (Ref,), Ref("hello"))
+# time: 2019-10-26 10:25:28 JST
+# mode: julia
+	a = 34
+# time: 2019-10-26 10:25:39 JST
+# mode: julia
+	ccall((:test_ptr, "./test.so"), Int64, (Ref,), Ref(a))
+# time: 2019-10-26 10:25:55 JST
+# mode: julia
+	typeof(ans)
+# time: 2019-10-26 10:27:29 JST
+# mode: julia
+	ccall((:test_ptr, "./test.so"), Int64, (Ref,), Ref("hello"))
+# time: 2019-10-26 10:27:36 JST
+# mode: julia
+	ccall((:test_ptr, "./test.so"), Int64, (Ref,), Ref(a))
+# time: 2019-10-26 10:27:40 JST
+# mode: julia
+	a = 34
+# time: 2019-10-26 10:27:42 JST
+# mode: julia
+	ccall((:test_ptr, "./test.so"), Int64, (Ref,), Ref(a))
+# time: 2019-10-26 10:29:38 JST
+# mode: julia
+	ccall((:test_ptr, "./test.so"), Int64, (Ref,), Ref("hello"))
+# time: 2019-10-26 10:36:37 JST
+# mode: julia
+	ccall((:test_ptr2, "./test.so"), Ref, ())
+# time: 2019-10-26 10:37:09 JST
+# mode: help
+	ccall
+# time: 2019-10-26 10:39:40 JST
+# mode: julia
+	ccall((:test_ptr1, "test"), Int64, (Ref,), Ref("hello"))
+# time: 2019-10-26 10:50:32 JST
+# mode: julia
+	ccall((:getenv, "libc"), Cstring, (Cstring,), "SHELL")
+# time: 2019-10-26 10:50:57 JST
+# mode: julia
+	ccall((:getenv, "libc.so.6"), Cstring, (Cstring,), "SHELL")
+# time: 2019-10-26 10:51:20 JST
+# mode: julia
+	unsafe_string(ans)
+# time: 2019-10-26 10:56:50 JST
+# mode: help
+	ccall
+# time: 2019-10-26 10:57:29 JST
+# mode: julia
+	ed
+# time: 2019-10-26 10:57:52 JST
+# mode: julia
+	ccall(:jlbacktrace, Cvoid, ())
+# time: 2019-10-26 11:06:47 JST
+# mode: julia
+	ccall(:jl_safe_printf, Cvoid, (Cstring, Cstring), "hello")
+# time: 2019-10-26 11:07:08 JST
+# mode: julia
+	ccall(:jl_safe_printf, Cvoid, (Cstring, Cstring), "%s", "hello")
+# time: 2019-10-26 11:09:46 JST
+# mode: help
+	ccall
+# time: 2019-10-26 11:20:56 JST
+# mode: help
+	dlsym
+# time: 2019-10-26 11:31:48 JST
+# mode: julia
+	using Base:Libc
+# time: 2019-10-26 12:37:07 JST
+# mode: julia
+	using Libdl:dlsym
+# time: 2019-10-26 12:37:12 JST
+# mode: help
+	dlsym
+# time: 2019-10-26 12:37:35 JST
+# mode: julia
+	using Libdl
+# time: 2019-10-26 12:37:54 JST
+# mode: help
+	Libdl.dlopen
+# time: 2019-10-26 12:38:13 JST
+# mode: julia
+	using Libdl
+# time: 2019-10-26 12:38:23 JST
+# mode: julia
+	Libdl.dlsym
+# time: 2019-10-26 12:38:27 JST
+# mode: help
+	Libdl.dlsym
+# time: 2019-10-26 12:38:40 JST
+# mode: help
+	Libdl.dlopen
+# time: 2019-10-26 12:39:26 JST
+# mode: julia
+	dlopen("/home/sinai/Scripts/test.so")
+# time: 2019-10-26 12:39:50 JST
+# mode: julia
+	dlsym(ans, "greet")
+# time: 2019-10-26 12:40:59 JST
+# mode: julia
+	ccall(ans, Cvoid, ())
+# time: 2019-10-26 14:04:08 JST
+# mode: julia
+	ccall((:greet, "./test.so"), Cvoid, ())
+# time: 2019-10-26 15:11:33 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:13:21 JST
+# mode: julia
+	@asmcall
+# time: 2019-10-26 15:13:52 JST
+# mode: julia
+	LLVM.Interop.@asmcall
+# time: 2019-10-26 15:13:59 JST
+# mode: julia
+	LLVM.Interop.@asmcall "nop"
+# time: 2019-10-26 15:14:28 JST
+# mode: help
+	LLVM.Interop.@asmcall
+# time: 2019-10-26 15:16:09 JST
+# mode: julia
+	LLVM.Interop.@asmcall "xor rax rax
+	add 1, rax
+	"
+# time: 2019-10-26 15:16:48 JST
+# mode: julia
+	using LLVM:Interop.@asmcall
+# time: 2019-10-26 15:16:58 JST
+# mode: julia
+	@asmcall
+# time: 2019-10-26 15:17:02 JST
+# mode: help
+	@asmcall
+# time: 2019-10-26 15:17:23 JST
+# mode: julia
+	@asmcall "xor rax, rax
+	add 1, rax"
+# time: 2019-10-26 15:17:38 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:17:46 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:17:49 JST
+# mode: julia
+	@asmcall "xor rax, rax
+	add 1, rax"
+# time: 2019-10-26 15:20:16 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:20:18 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:21:11 JST
+# mode: julia
+	@asmcall "xorl %rax, %rax
+	addl 1, rax"
+# time: 2019-10-26 15:21:16 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:21:19 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:21:25 JST
+# mode: julia
+	@asmcall "xorl %rax, %rax
+	addl 1, %rax"
+# time: 2019-10-26 15:21:41 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:21:42 JST
+# mode: julia
+	@asmcall "xorl %rax, %rax
+	addl 1, %rax"
+# time: 2019-10-26 15:21:45 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:21:56 JST
+# mode: julia
+	@asmcall "xorl rax, rax
+	addl 1, rax"
+# time: 2019-10-26 15:25:33 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:25:35 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:26:14 JST
+# mode: julia
+	@code_native @asmcall("nop")
+# time: 2019-10-26 15:27:17 JST
+# mode: julia
+	@asmcall "xorl %rax, %rax
+	addl $1, %rax"
+# time: 2019-10-26 15:27:45 JST
+# mode: julia
+	@asmcall """xorl %rax, %raxaddl $1, %rax
+# time: 2019-10-26 15:29:22 JST
+# mode: julia
+	@asmcall """
+	mov $1, %eax
+# time: 2019-10-26 15:29:30 JST
+# mode: julia
+	@asmcall """
+	mov $1, %eax"""
+# time: 2019-10-26 15:29:39 JST
+# mode: julia
+	@asmcall """
+	mov \$1, %eax"""
+# time: 2019-10-26 15:30:12 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:30:15 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:30:51 JST
+# mode: julia
+	@asmcall """
+	.cfi_startproc
+	mov \$1, %eax
+	.cfi_endproc
+	"""
+# time: 2019-10-26 15:33:01 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:33:03 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:33:06 JST
+# mode: julia
+	@asmcall """
+	.cfi_startproc
+	mov \$1, %eax
+	.cfi_endproc
+	"""
+# time: 2019-10-26 15:33:22 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:33:24 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:33:40 JST
+# mode: julia
+	@asmcall """
+	mov \$1, %eax
+	"""
+# time: 2019-10-26 15:33:50 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:33:52 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:34:10 JST
+# mode: julia
+	@asmcall """
+	addl \$1, %eax
+	"""
+# time: 2019-10-26 15:34:21 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:34:23 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:34:30 JST
+# mode: julia
+	@asmcall """
+	addl \$1, %rax
+	"""
+# time: 2019-10-26 15:34:53 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:34:55 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:35:28 JST
+# mode: julia
+	@asmcall """
+	.align 0x20
+	addl \$1, %rax
+	"""
+# time: 2019-10-26 15:35:47 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:35:49 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:36:23 JST
+# mode: julia
+	@asmcall """
+	vbroadcastsd (%rdx), %ymml
+	"""
+# time: 2019-10-26 15:36:49 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:36:49 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:36:52 JST
+# mode: julia
+	f(D, A, X) = @asmcall("""
+	.align 0x20
+	vbroadcastsd        (%rdx), %ymm1
+	vmovupd        (%rsi), %ymm13
+	vmovupd        32(%rsi), %ymm12
+	vmovupd        64(%rsi), %ymm10
+	vmovupd        96(%rsi), %ymm11
+	vmulpd        %ymm1, %ymm12, %ymm0
+	vmulpd        %ymm1, %ymm13, %ymm1
+	vbroadcastsd        128(%rdx), %ymm3
+	vmulpd        %ymm3, %ymm12, %ymm2
+	vmulpd        %ymm3, %ymm13, %ymm3
+	vbroadcastsd        256(%rdx), %ymm5
+	vmulpd        %ymm5, %ymm12, %ymm4
+	vmulpd        %ymm5, %ymm13, %ymm5
+	vbroadcastsd        384(%rdx), %ymm7
+	vmulpd        %ymm7, %ymm12, %ymm6
+	vmulpd        %ymm7, %ymm13, %ymm7
+	vbroadcastsd        512(%rdx), %ymm9
+	vmulpd        %ymm9, %ymm12, %ymm8
+	vmulpd        %ymm9, %ymm13, %ymm9
+	vbroadcastsd        640(%rdx), %ymm14
+	vmulpd        %ymm14, %ymm12, %ymm12
+	vmulpd        %ymm14, %ymm13, %ymm13
+	vbroadcastsd        8(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm1
+	vfmadd231pd        %ymm14, %ymm11, %ymm0
+	vbroadcastsd        136(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm3
+	vfmadd231pd        %ymm14, %ymm11, %ymm2
+	vbroadcastsd        264(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm5
+	vfmadd231pd        %ymm14, %ymm11, %ymm4
+	vbroadcastsd        392(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm7
+	vfmadd231pd        %ymm14, %ymm11, %ymm6
+	vbroadcastsd        520(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm9
+	vfmadd231pd        %ymm14, %ymm11, %ymm8
+	vbroadcastsd        648(%rdx), %ymm14
+	vfmadd213pd        %ymm13, %ymm14, %ymm10
+	vfmadd231pd        %ymm14, %ymm11, %ymm12
+	vmovupd        128(%rsi), %ymm13
+	vmovupd        160(%rsi), %ymm11
+	vbroadcastsd        16(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm0
+	vfmadd231pd        %ymm14, %ymm13, %ymm1
+	vbroadcastsd        144(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm2
+	vfmadd231pd        %ymm14, %ymm13, %ymm3
+	vbroadcastsd        272(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm4
+	vfmadd231pd        %ymm14, %ymm13, %ymm5
+	vbroadcastsd        400(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm6
+	vfmadd231pd        %ymm14, %ymm13, %ymm7
+	vbroadcastsd        528(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm8
+	vfmadd231pd        %ymm14, %ymm13, %ymm9
+	vbroadcastsd        656(%rdx), %ymm14
+	vfmadd213pd        %ymm12, %ymm14, %ymm11
+	vfmadd231pd        %ymm14, %ymm13, %ymm10
+	vmovupd        224(%rsi), %ymm13
+	vmovupd        192(%rsi), %ymm12
+	vbroadcastsd        24(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm1
+	vfmadd231pd        %ymm14, %ymm13, %ymm0
+	vbroadcastsd        152(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm3
+	vfmadd231pd        %ymm14, %ymm13, %ymm2
+	vbroadcastsd        280(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm5
+	vfmadd231pd        %ymm14, %ymm13, %ymm4
+	vbroadcastsd        408(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm7
+	vfmadd231pd        %ymm14, %ymm13, %ymm6
+	vbroadcastsd        536(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm9
+	vfmadd231pd        %ymm14, %ymm13, %ymm8
+	vbroadcastsd        664(%rdx), %ymm14
+	vfmadd213pd        %ymm10, %ymm14, %ymm12
+	vfmadd231pd        %ymm14, %ymm13, %ymm11
+	vmovupd        256(%rsi), %ymm13
+	vmovupd        288(%rsi), %ymm10
+	vbroadcastsd        32(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm0
+	vfmadd231pd        %ymm14, %ymm13, %ymm1
+	vbroadcastsd        160(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm2
+	vfmadd231pd        %ymm14, %ymm13, %ymm3
+	vbroadcastsd        288(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm4
+	vfmadd231pd        %ymm14, %ymm13, %ymm5
+	vbroadcastsd        416(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm6
+	vfmadd231pd        %ymm14, %ymm13, %ymm7
+	vbroadcastsd        544(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm8
+	vfmadd231pd        %ymm14, %ymm13, %ymm9
+	vbroadcastsd        672(%rdx), %ymm14
+	vfmadd213pd        %ymm11, %ymm14, %ymm10
+	vfmadd231pd        %ymm14, %ymm13, %ymm12
+	vmovupd        352(%rsi), %ymm13
+	vmovupd        320(%rsi), %ymm11
+	vbroadcastsd        40(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm1
+	vfmadd231pd        %ymm14, %ymm13, %ymm0
+	vbroadcastsd        168(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm3
+	vfmadd231pd        %ymm14, %ymm13, %ymm2
+	vbroadcastsd        296(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm5
+	vfmadd231pd        %ymm14, %ymm13, %ymm4
+	vbroadcastsd        424(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm7
+	vfmadd231pd        %ymm14, %ymm13, %ymm6
+	vbroadcastsd        552(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm9
+	vfmadd231pd        %ymm14, %ymm13, %ymm8
+	vbroadcastsd        680(%rdx), %ymm14
+	vfmadd213pd        %ymm12, %ymm14, %ymm11
+	vfmadd231pd        %ymm14, %ymm13, %ymm10
+	vmovupd        384(%rsi), %ymm13
+	vmovupd        416(%rsi), %ymm12
+	vbroadcastsd        48(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm0
+	vfmadd231pd        %ymm14, %ymm13, %ymm1
+	vbroadcastsd        176(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm2
+	vfmadd231pd        %ymm14, %ymm13, %ymm3
+	vbroadcastsd        304(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm4
+	vfmadd231pd        %ymm14, %ymm13, %ymm5
+	vbroadcastsd        432(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm6
+	vfmadd231pd        %ymm14, %ymm13, %ymm7
+	vbroadcastsd        560(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm8
+	vfmadd231pd        %ymm14, %ymm13, %ymm9
+	vbroadcastsd        688(%rdx), %ymm14
+	vfmadd213pd        %ymm10, %ymm14, %ymm12
+	vfmadd231pd        %ymm14, %ymm13, %ymm11
+	vmovupd        480(%rsi), %ymm13
+	vmovupd        448(%rsi), %ymm10
+	vbroadcastsd        56(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm1
+	vfmadd231pd        %ymm14, %ymm13, %ymm0
+	vbroadcastsd        184(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm3
+	vfmadd231pd        %ymm14, %ymm13, %ymm2
+	vbroadcastsd        312(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm5
+	vfmadd231pd        %ymm14, %ymm13, %ymm4
+	vbroadcastsd        440(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm7
+	vfmadd231pd        %ymm14, %ymm13, %ymm6
+	vbroadcastsd        568(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm9
+	vfmadd231pd        %ymm14, %ymm13, %ymm8
+	vbroadcastsd        696(%rdx), %ymm14
+	vfmadd213pd        %ymm11, %ymm14, %ymm10
+	vfmadd231pd        %ymm14, %ymm13, %ymm12
+	vmovupd        512(%rsi), %ymm13
+	vmovupd        544(%rsi), %ymm11
+	vbroadcastsd        64(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm0
+	vfmadd231pd        %ymm14, %ymm13, %ymm1
+	vbroadcastsd        192(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm2
+	vfmadd231pd        %ymm14, %ymm13, %ymm3
+	vbroadcastsd        320(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm4
+	vfmadd231pd        %ymm14, %ymm13, %ymm5
+	vbroadcastsd        448(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm6
+	vfmadd231pd        %ymm14, %ymm13, %ymm7
+	vbroadcastsd        576(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm8
+	vfmadd231pd        %ymm14, %ymm13, %ymm9
+	vbroadcastsd        704(%rdx), %ymm14
+	vfmadd213pd        %ymm12, %ymm14, %ymm11
+	vfmadd231pd        %ymm14, %ymm13, %ymm10
+	vmovupd        608(%rsi), %ymm13
+	vmovupd        576(%rsi), %ymm12
+	vbroadcastsd        72(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm1
+	vfmadd231pd        %ymm14, %ymm13, %ymm0
+	vbroadcastsd        200(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm3
+	vfmadd231pd        %ymm14, %ymm13, %ymm2
+	vbroadcastsd        328(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm5
+	vfmadd231pd        %ymm14, %ymm13, %ymm4
+	vbroadcastsd        456(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm7
+	vfmadd231pd        %ymm14, %ymm13, %ymm6
+	vbroadcastsd        584(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm9
+	vfmadd231pd        %ymm14, %ymm13, %ymm8
+	vbroadcastsd        712(%rdx), %ymm14
+	vfmadd213pd        %ymm10, %ymm14, %ymm12
+	vfmadd231pd        %ymm14, %ymm13, %ymm11
+	vmovupd        640(%rsi), %ymm13
+	vmovupd        672(%rsi), %ymm10
+	vbroadcastsd        80(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm0
+	vfmadd231pd        %ymm14, %ymm13, %ymm1
+	vbroadcastsd        208(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm2
+	vfmadd231pd        %ymm14, %ymm13, %ymm3
+	vbroadcastsd        336(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm4
+	vfmadd231pd        %ymm14, %ymm13, %ymm5
+	vbroadcastsd        464(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm6
+	vfmadd231pd        %ymm14, %ymm13, %ymm7
+	vbroadcastsd        592(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm8
+	vfmadd231pd        %ymm14, %ymm13, %ymm9
+	vbroadcastsd        720(%rdx), %ymm14
+	vfmadd213pd        %ymm11, %ymm14, %ymm10
+	vfmadd231pd        %ymm14, %ymm13, %ymm12
+	vmovupd        736(%rsi), %ymm13
+	vmovupd        704(%rsi), %ymm11
+	vbroadcastsd        88(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm1
+	vfmadd231pd        %ymm14, %ymm13, %ymm0
+	vbroadcastsd        216(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm3
+	vfmadd231pd        %ymm14, %ymm13, %ymm2
+	vbroadcastsd        344(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm5
+	vfmadd231pd        %ymm14, %ymm13, %ymm4
+	vbroadcastsd        472(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm7
+	vfmadd231pd        %ymm14, %ymm13, %ymm6
+	vbroadcastsd        600(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm9
+	vfmadd231pd        %ymm14, %ymm13, %ymm8
+	vbroadcastsd        728(%rdx), %ymm14
+	vfmadd213pd        %ymm12, %ymm14, %ymm11
+	vfmadd231pd        %ymm14, %ymm13, %ymm10
+	vmovupd        768(%rsi), %ymm13
+	vmovupd        800(%rsi), %ymm12
+	vbroadcastsd        96(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm0
+	vfmadd231pd        %ymm14, %ymm13, %ymm1
+	vbroadcastsd        224(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm2
+	vfmadd231pd        %ymm14, %ymm13, %ymm3
+	vbroadcastsd        352(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm4
+	vfmadd231pd        %ymm14, %ymm13, %ymm5
+	vbroadcastsd        480(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm6
+	vfmadd231pd        %ymm14, %ymm13, %ymm7
+	vbroadcastsd        608(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm8
+	vfmadd231pd        %ymm14, %ymm13, %ymm9
+	vbroadcastsd        736(%rdx), %ymm14
+	vfmadd213pd        %ymm10, %ymm14, %ymm12
+	vfmadd231pd        %ymm14, %ymm13, %ymm11
+	vmovupd        864(%rsi), %ymm13
+	vmovupd        832(%rsi), %ymm10
+	vbroadcastsd        104(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm1
+	vfmadd231pd        %ymm14, %ymm13, %ymm0
+	vbroadcastsd        232(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm3
+	vfmadd231pd        %ymm14, %ymm13, %ymm2
+	vbroadcastsd        360(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm5
+	vfmadd231pd        %ymm14, %ymm13, %ymm4
+	vbroadcastsd        488(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm7
+	vfmadd231pd        %ymm14, %ymm13, %ymm6
+	vbroadcastsd        616(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm10, %ymm9
+	vfmadd231pd        %ymm14, %ymm13, %ymm8
+	vbroadcastsd        744(%rdx), %ymm14
+	vfmadd213pd        %ymm11, %ymm14, %ymm10
+	vfmadd231pd        %ymm14, %ymm13, %ymm12
+	vmovupd        896(%rsi), %ymm13
+	vmovupd        928(%rsi), %ymm11
+	vbroadcastsd        112(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm0
+	vfmadd231pd        %ymm14, %ymm13, %ymm1
+	vbroadcastsd        240(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm2
+	vfmadd231pd        %ymm14, %ymm13, %ymm3
+	vbroadcastsd        368(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm4
+	vfmadd231pd        %ymm14, %ymm13, %ymm5
+	vbroadcastsd        496(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm6
+	vfmadd231pd        %ymm14, %ymm13, %ymm7
+	vbroadcastsd        624(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm11, %ymm8
+	vfmadd231pd        %ymm14, %ymm13, %ymm9
+	vbroadcastsd        752(%rdx), %ymm14
+	vfmadd213pd        %ymm12, %ymm14, %ymm11
+	vfmadd231pd        %ymm14, %ymm13, %ymm10
+	vmovupd        992(%rsi), %ymm13
+	vmovupd        960(%rsi), %ymm12
+	vbroadcastsd        120(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm1
+	vfmadd231pd        %ymm14, %ymm13, %ymm0
+	vbroadcastsd        248(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm3
+	vfmadd231pd        %ymm14, %ymm13, %ymm2
+	vbroadcastsd        376(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm5
+	vfmadd231pd        %ymm14, %ymm13, %ymm4
+	vbroadcastsd        504(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm7
+	vfmadd231pd        %ymm14, %ymm13, %ymm6
+	vbroadcastsd        632(%rdx), %ymm14
+	vfmadd231pd        %ymm14, %ymm12, %ymm9
+	vfmadd231pd        %ymm14, %ymm13, %ymm8
+	vbroadcastsd        760(%rdx), %ymm14
+	vfmadd213pd        %ymm10, %ymm14, %ymm12
+	vfmadd231pd        %ymm14, %ymm13, %ymm11
+	vmovupd        %ymm0, 32(%rdi)
+	vmovupd        %ymm1, (%rdi)
+	vmovupd        %ymm2, 96(%rdi)
+	vmovupd        %ymm3, 64(%rdi)
+	vmovupd        %ymm4, 160(%rdi)
+	vmovupd        %ymm5, 128(%rdi)
+	vmovupd        %ymm6, 224(%rdi)
+	vmovupd        %ymm7, 192(%rdi)
+	vmovupd        %ymm8, 288(%rdi)
+	vmovupd        %ymm9, 256(%rdi)
+	vmovupd        %ymm11, 352(%rdi)
+	vmovupd        %ymm12, 320(%rdi)
+	vzeroupper
+	ret
+	""",  "", false, Nothing, Tuple{Ptr{Float64},Ptr{Float64},Ptr{Float64}}, pointer(D), pointer(A), pointer(X))
+# time: 2019-10-26 15:37:48 JST
+# mode: julia
+	f(1, 2, 9)
+# time: 2019-10-26 15:38:17 JST
+# mode: julia
+	a, b, c = Array(1:2)
+# time: 2019-10-26 15:38:50 JST
+# mode: julia
+	a, b, c = zeros(Int, 1)
+# time: 2019-10-26 15:38:53 JST
+# mode: julia
+	a, b, c = zeros(Int, 2)
+# time: 2019-10-26 15:39:17 JST
+# mode: julia
+	a, b=[124 124875 147516 1954]
+# time: 2019-10-26 15:39:24 JST
+# mode: julia
+	a, b, c=[124 124875 147516 1954]
+# time: 2019-10-26 15:39:31 JST
+# mode: julia
+	f(a, b, c)
+# time: 2019-10-26 15:41:45 JST
+# mode: julia
+	asmcall
+# time: 2019-10-26 15:41:51 JST
+# mode: help
+	@asmcall
+# time: 2019-10-26 15:42:35 JST
+# mode: julia
+	@asmcall """{
+	xorl %eax, %eax
+	}"""
+# time: 2019-10-26 15:44:56 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:45:01 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:45:20 JST
+# mode: julia
+	@asmcall "cpuid"
+# time: 2019-10-26 15:50:28 JST
+# mode: julia
+	a = 0
+# time: 2019-10-26 15:51:19 JST
+# mode: julia
+	@asmcall "cpuid" "=r" false Int64 ()
+# time: 2019-10-26 15:51:40 JST
+# mode: julia
+	@asmcall "cpuid" "=r" false Int64 Tuple{}
+# time: 2019-10-26 15:52:07 JST
+# mode: julia
+	@code_native @asmcall "cpuid" "=r" false Int64 Tuple{}
+# time: 2019-10-26 15:54:27 JST
+# mode: julia
+	a
+# time: 2019-10-26 15:54:43 JST
+# mode: julia
+	@asmcall "cpuid" "=r" false Int64 Tuple{}
+# time: 2019-10-26 15:54:52 JST
+# mode: julia
+	typeof(ans)
+# time: 2019-10-26 15:55:09 JST
+# mode: julia
+	@asmcall "cpuid" "=r" false UInt64 Tuple{}
+# time: 2019-10-26 15:58:07 JST
+# mode: julia
+	@asmcall "movl \$0, %eaxcpuid" "=r" false UInt64 Tuple{}
+# time: 2019-10-26 15:58:24 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:58:32 JST
+# mode: julia
+	@asmcall "movl \$0, %eax;cpuid" "=r" false UInt64 Tuple{}
+# time: 2019-10-26 15:58:39 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:58:40 JST
+# mode: julia
+	@asmcall "movl \$0, %eax;cpuid" "=r" false UInt64 Tuple{}
+# time: 2019-10-26 15:59:22 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 15:59:30 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 15:59:49 JST
+# mode: julia
+	@asmcall "xorl %eax, %eax"
+# time: 2019-10-26 16:02:35 JST
+# mode: julia
+	@asmcall """
+	xorl %eax, %eax
+	cpuid
+	""" "=r" Int64 Tuple{Int64} a
+# time: 2019-10-26 16:02:39 JST
+# mode: julia
+	a = 0
+# time: 2019-10-26 16:02:40 JST
+# mode: julia
+	@asmcall """
+	xorl %eax, %eax
+	cpuid
+	""" "=r" Int64 Tuple{Int64} a
+# time: 2019-10-26 16:04:26 JST
+# mode: julia
+	Bit
+# time: 2019-10-26 16:10:30 JST
+# mode: julia
+	a
+# time: 2019-10-26 16:10:39 JST
+# mode: julia
+	@asmcall """
+	xorl %eax, %eax
+	cpuid
+	""" "=r"(a) Int64 Tuple{Int64} a
+# time: 2019-10-26 16:11:08 JST
+# mode: julia
+	@code_llvm @asmcall "nop"
+# time: 2019-10-26 16:14:21 JST
+# mode: julia
+	a
+# time: 2019-10-26 16:14:27 JST
+# mode: julia
+	@asmcall """
+	xorl %eax, %eax
+	cpuid
+	""" "=r" Int64 Tuple{Int64} a
+# time: 2019-10-26 16:15:47 JST
+# mode: julia
+	@asmcall """
+	xorl %eax, %eax
+	movl \$1 %eax
+	cpuid""" "=r" Int64 Tuple{Int64} a
+# time: 2019-10-26 16:16:21 JST
+# mode: julia
+	@asmcall """
+	xorl %eax, %eax
+	cpuid""" "=r" Int64 Tuple{Int64} a
+# time: 2019-10-26 16:16:27 JST
+# mode: julia
+	using LLVM
+# time: 2019-10-26 16:16:35 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-10-26 16:16:40 JST
+# mode: julia
+	@asmcall """
+	xorl %eax, %eax
+	cpuid""" "=r" Int64 Tuple{Int64} a
+# time: 2019-10-26 16:16:58 JST
+# mode: julia
+	@asmcall """
+	xorl %eax, %eax
+	cpuid
+	""" "=r"(a) Int64 Tuple{}
+# time: 2019-10-26 16:17:06 JST
+# mode: julia
+	@asmcall """
+	xorl %eax, %eax
+	cpuid
+	""" "=r" Int64 Tuple{}
+# time: 2019-10-26 16:24:32 JST
+# mode: julia
+	@code_native@asmcall """
+	xorl %eax, %eax
+	cpuid
+	""" "=r" Int64 Tuple{}
+# time: 2019-10-26 16:24:44 JST
+# mode: julia
+	@code_native @asmcall """
+	xorl %eax, %eax
+	cpuid
+	""" "=r" Int64 Tuple{}
+# time: 2019-10-26 16:32:12 JST
+# mode: julia
+	@edit @asmcall "nop"
+# time: 2019-10-26 16:39:55 JST
+# mode: julia
+	code_native(+, (Int, Int), :intel)
+# time: 2019-10-26 16:40:15 JST
+# mode: julia
+	using InractiveUtiles
+# time: 2019-10-26 16:40:44 JST
+# mode: julia
+	@which @code_native
+# time: 2019-10-26 16:41:06 JST
+# mode: julia
+	using IntreactiveUtiles
+# time: 2019-10-26 16:41:13 JST
+# mode: julia
+	using InteractiveUtiles
+# time: 2019-10-26 16:41:27 JST
+# mode: julia
+	using InteractiveUtils
+# time: 2019-10-26 16:41:51 JST
+# mode: julia
+	code_native(+, (Int, Int), :intel)
+# time: 2019-10-26 16:41:58 JST
+# mode: help
+	code_native
+# time: 2019-10-26 16:42:28 JST
+# mode: julia
+	code_native(+, (Int, Int); :intel)
+# time: 2019-10-26 16:42:37 JST
+# mode: julia
+	code_native(+, (Int, Int); syntax=:intel)
+# time: 2019-10-26 16:44:34 JST
+# mode: julia
+	@edit @asmcall "nop"
+# time: 2019-10-27 12:43:33 JST
+# mode: help
+	llvmcall
+# time: 2019-10-27 12:44:02 JST
+# mode: julia
+	using Base:llvmcall
+# time: 2019-10-27 12:44:09 JST
+# mode: help
+	llvmcall
+# time: 2019-10-27 13:10:58 JST
+# mode: pkg
+	add VideoIO
+# time: 2019-10-27 13:11:15 JST
+# mode: julia
+	using VideoIO
+# time: 2019-10-27 13:11:51 JST
+# mode: julia
+	viewcam()
+# time: 2019-10-27 13:12:00 JST
+# mode: julia
+	using Makie
+# time: 2019-10-27 13:12:43 JST
+# mode: julia
+	viewcam()
+# time: 2019-10-27 13:15:23 JST
+# mode: pkg
+	add Tetris
+# time: 2019-10-27 13:47:31 JST
+# mode: julia
+	date
+# time: 2019-10-27 13:47:36 JST
+# mode: julia
+	using Date
+# time: 2019-10-27 13:48:38 JST
+# mode: julia
+	using Dates
+# time: 2019-10-27 13:48:54 JST
+# mode: julia
+	Dates.now
+# time: 2019-10-27 13:48:59 JST
+# mode: julia
+	Dates.now()
+# time: 2019-10-28 13:20:07 JST
+# mode: pkg
+	add Symata AbstractAlgebra
+# time: 2019-10-28 13:21:50 JST
+# mode: pkg
+	update
+# time: 2019-10-28 13:22:15 JST
+# mode: julia
+	using OhMyREPL
+# time: 2019-10-28 13:22:26 JST
+# mode: julia
+	using Symata
+# time: 2019-10-28 13:23:22 JST
+# mode: symata
+	2(x + 2)
+# time: 2019-10-28 13:23:59 JST
+# mode: julia
+	using Symata
+# time: 2019-10-28 13:24:12 JST
+# mode: symata
+	Help()
+# time: 2019-10-28 13:24:29 JST
+# mode: julia
+	using Pkg
+# time: 2019-10-28 13:24:32 JST
+# mode: julia
+	ENV["PYTHON"]=""
+# time: 2019-10-28 13:24:43 JST
+# mode: julia
+	Pkg.add("PyCall")
+# time: 2019-10-28 13:25:05 JST
+# mode: julia
+	Pkg.add("Symata")
+# time: 2019-10-28 13:25:14 JST
+# mode: julia
+	using Symata
+# time: 2019-10-28 13:25:37 JST
+# mode: julia
+	Pkg.build("PyCall")
+# time: 2019-10-28 13:27:09 JST
+# mode: julia
+	Pkg.build("Symata")
+# time: 2019-10-28 13:27:32 JST
+# mode: julia
+	using Symata
+# time: 2019-10-28 13:27:39 JST
+# mode: symata
+	Help()
+# time: 2019-10-28 13:28:28 JST
+# mode: pkg
+	rm Symata
+# time: 2019-10-28 13:28:36 JST
+# mode: pkg
+	add Sympy
+# time: 2019-10-28 19:02:17 JST
+# mode: julia
+	1 | 0 | 0
+# time: 2019-10-28 19:02:31 JST
+# mode: julia
+	1 | 0 | 0 | 1
+# time: 2019-10-28 21:01:48 JST
+# mode: julia
+	function mycompare(a, b)::Cint
+	           return (a < b) ? -1 : ((a > b) ? +1 : 0)
+	       end
+# time: 2019-10-28 21:01:57 JST
+# mode: julia
+	mycompare_c = @cfunction(mycompare, Cint, (Ref{Cdouble}, Ref{Cdouble}));
+# time: 2019-10-28 21:02:08 JST
+# mode: julia
+	A = [1.3, -2.7, 4.4, 3.1]
+# time: 2019-10-28 21:02:17 JST
+# mode: julia
+	ccall(:qsort, Cvoid, (Ptr{Cdouble}, Csize_t, Csize_t, Ptr{Cvoid}),
+	             A, length(A), sizeof(eltype(A)), mycompare_c)
+# time: 2019-10-28 21:02:27 JST
+# mode: julia
+	a
+# time: 2019-10-28 21:02:29 JST
+# mode: julia
+	A
+# time: 2019-10-28 21:19:42 JST
+# mode: julia
+	f(x) = x^2
+# time: 2019-10-28 21:19:46 JST
+# mode: julia
+	f(1)
+# time: 2019-10-28 21:21:29 JST
+# mode: julia
+	f_c = @cfunction(f, Cint, (Int64,))
+# time: 2019-10-28 21:21:56 JST
+# mode: julia
+	function f(x)
+	return x^2
+	end
+# time: 2019-10-28 21:21:59 JST
+# mode: julia
+	f_c = @cfunction(f, Cint, (Int64,))
+# time: 2019-10-28 21:22:07 JST
+# mode: julia
+	function f(x)
+	return x^2
+	end
+# time: 2019-10-28 21:22:11 JST
+# mode: julia
+	f(2)
+# time: 2019-10-28 21:22:21 JST
+# mode: julia
+	f_c = @cfunction(f, Cint, (Int64,))
+# time: 2019-10-28 21:23:16 JST
+# mode: julia
+	function f(x)::Cint
+	return x^2
+	end
+# time: 2019-10-28 21:23:19 JST
+# mode: julia
+	f(2)
+# time: 2019-10-28 21:23:25 JST
+# mode: julia
+	f_c = @cfunction(f, Cint, (Int64,))
+# time: 2019-10-28 21:23:54 JST
+# mode: julia
+	ccall(:f, Cint, (Int64,), 2)
+# time: 2019-10-29 07:30:21 JST
+# mode: julia
+	ccall(:printf, Cint, (String,), "hello")
+# time: 2019-10-29 07:30:53 JST
+# mode: julia
+	ccall(:printf, Cint, (String,), "hello\n")
+# time: 2019-10-30 18:03:03 JST
+# mode: julia
+	using Libdl
+# time: 2019-10-30 18:03:18 JST
+# mode: julia
+	dlopen("libmain.dll")
+# time: 2019-10-30 18:03:26 JST
+# mode: julia
+	dlopen("./libmain.dll")
+# time: 2019-10-30 19:39:50 JST
+# mode: julia
+	llvmcall
+# time: 2019-10-30 19:39:52 JST
+# mode: help
+	llvmcall
+# time: 2019-10-30 19:40:23 JST
+# mode: julia
+	using Base:llvmcall
+# time: 2019-10-30 19:40:26 JST
+# mode: help
+	llvmcall
+# time: 2019-10-30 19:41:52 JST
+# mode: julia
+	@edit llvmcall
+# time: 2019-10-30 19:42:11 JST
+# mode: julia
+	@edit llvmcall("", Int64, ())
+# time: 2019-10-30 20:23:58 JST
+# mode: julia
+	function f()
+	T::String = ""
+	a::T = 4
+	end
+# time: 2019-10-30 20:24:03 JST
+# mode: julia
+	f()
+# time: 2019-10-31 17:46:53 JST
+# mode: help
+	@cfunction
+# time: 2019-10-31 17:54:25 JST
+# mode: julia
+	function say_hello()
+	println("hello");
+	end
+# time: 2019-10-31 17:55:37 JST
+# mode: julia
+	typeof(Cvoid)
+# time: 2019-10-31 17:55:50 JST
+# mode: julia
+	dump(Cvoid)
+# time: 2019-10-31 17:56:06 JST
+# mode: julia
+	say_hello()
+# time: 2019-10-31 17:56:10 JST
+# mode: julia
+	ans
+# time: 2019-10-31 17:56:17 JST
+# mode: julia
+	typeof(ans)
+# time: 2019-10-31 17:56:53 JST
+# mode: julia
+	c_say_hello = @cfunction(say_hello, Nothing, ())
+# time: 2019-10-31 18:02:28 JST
+# mode: julia
+	ccall(("./test.so", test_ptr2), Cvoid, (Ptr{Cvoid},), c_say_hello)
+# time: 2019-10-31 18:02:55 JST
+# mode: julia
+	ccall((:test_ptr2, "./test.so"), Cvoid, (Ptr{Cvoid},), c_say_hello)
+# time: 2019-10-31 18:03:08 JST
+# mode: julia
+	function say_hello()
+	println("hello");
+	end
+# time: 2019-10-31 18:03:18 JST
+# mode: julia
+	c_say_hello = @cfunction(say_hello, Nothing, ())
+# time: 2019-10-31 18:03:25 JST
+# mode: julia
+	ccall((:test_ptr2, "./test.so"), Cvoid, (Ptr{Cvoid},), c_say_hello)
+# time: 2019-10-31 18:31:05 JST
+# mode: help
+	Base.cconvert
+# time: 2019-10-31 18:41:25 JST
+# mode: julia
+	dump(Cstring)
+# time: 2019-10-31 18:42:04 JST
+# mode: julia
+	cconvert(Cstring, "hello")
+# time: 2019-10-31 18:42:10 JST
+# mode: julia
+	Base.cconvert(Cstring, "hello")
+# time: 2019-10-31 18:49:52 JST
+# mode: julia
+	@edit Base.cconvert(Cstring, "hello")
+# time: 2019-10-31 19:05:36 JST
+# mode: julia
+	ccall((:test_ptr1, "./test.so"), Nothing, (Cstring,), "hi!!\n")
+# time: 2019-10-31 19:09:22 JST
+# mode: help
+	unsafe_convert
+# time: 2019-10-31 19:09:38 JST
+# mode: help
+	Base.unsafe_convert
+# time: 2019-10-31 19:11:39 JST
+# mode: julia
+	@edit Base.unsafe_convert(Cstring, Base.cconvert(Cstring, "hello"))
+# time: 2019-10-31 19:20:22 JST
+# mode: julia
+	@edit Cstring
+# time: 2019-10-31 19:20:33 JST
+# mode: help
+	edit
+# time: 2019-10-31 19:21:01 JST
+# mode: help
+	@edit
+# time: 2019-10-31 20:07:15 JST
+# mode: help
+	Ptr
+# time: 2019-10-31 20:07:22 JST
+# mode: help
+	Ref
+# time: 2019-10-31 20:08:50 JST
+# mode: julia
+	dump(Ref)
+# time: 2019-10-31 20:09:16 JST
+# mode: julia
+	dump(Ref{UInt}())
+# time: 2019-10-31 20:09:46 JST
+# mode: julia
+	dump(Base.RefValue{UInt64})
+# time: 2019-10-31 20:10:09 JST
+# mode: julia
+	dump(Ptr{UInt}())
+# time: 2019-10-31 20:20:43 JST
+# mode: julia
+	Ptr{UInt}()
+# time: 2019-10-31 20:20:52 JST
+# mode: julia
+	a = 1
+# time: 2019-10-31 20:20:56 JST
+# mode: julia
+	Ptr{UInt}(a)
+# time: 2019-10-31 20:21:41 JST
+# mode: help
+	Ptr
+# time: 2019-10-31 20:21:58 JST
+# mode: julia
+	a = "sss"
+# time: 2019-10-31 20:22:03 JST
+# mode: julia
+	Ptr{UInt}(a)
+# time: 2019-10-31 20:22:09 JST
+# mode: julia
+	Ptr(a)
+# time: 2019-10-31 20:22:18 JST
+# mode: help
+	pointer
+# time: 2019-10-31 20:24:38 JST
+# mode: julia
+	pointer_from_objref(a)
+# time: 2019-10-31 20:26:47 JST
+# mode: julia
+	Ptr{}(0)
+# time: 2019-10-31 20:28:46 JST
+# mode: julia
+	@which Ref
+# time: 2019-10-31 20:28:54 JST
+# mode: julia
+	@which Ptr
+# time: 2019-10-31 20:28:59 JST
+# mode: julia
+	@which Ref()
+# time: 2019-10-31 20:29:15 JST
+# mode: julia
+	@which Ref("h")
+# time: 2019-10-31 20:35:21 JST
+# mode: julia
+	pointer_from_objref
+# time: 2019-10-31 20:35:27 JST
+# mode: help
+	Ref
+# time: 2019-10-31 20:36:58 JST
+# mode: help
+	WeakRef
+# time: 2019-10-31 20:52:17 JST
+# mode: julia
+	a = "hogehoge"
+# time: 2019-10-31 20:53:29 JST
+# mode: julia
+	0xffff
+# time: 2019-10-31 20:53:36 JST
+# mode: julia
+	Int(0xfff)
+# time: 2019-10-31 20:53:55 JST
+# mode: julia
+	a = 0xffff
+# time: 2019-10-31 20:54:09 JST
+# mode: julia
+	a = 4095
+# time: 2019-10-31 20:55:03 JST
+# mode: julia
+	4095 |> pointer_from_objref |> unsafe_load
+# time: 2019-10-31 20:55:16 JST
+# mode: julia
+	a = 0xffff
+# time: 2019-10-31 20:55:26 JST
+# mode: julia
+	pointer_from_objref(a)
+# time: 2019-10-31 20:56:43 JST
+# mode: help
+	pointer()
+# time: 2019-10-31 20:57:15 JST
+# mode: julia
+	pointer("hoge")
+# time: 2019-10-31 20:57:55 JST
+# mode: julia
+	a = "hoge"
+# time: 2019-10-31 20:57:58 JST
+# mode: julia
+	pointer_from_objref(a)
+# time: 2019-10-31 20:58:17 JST
+# mode: julia
+	Pointer
+# time: 2019-10-31 20:59:51 JST
+# mode: julia
+	mutable struct TEST;a::UInt64;end
+# time: 2019-10-31 21:00:07 JST
+# mode: julia
+	TEST(0xff)
+# time: 2019-10-31 21:00:26 JST
+# mode: julia
+	a = TEST(0xff)
+# time: 2019-10-31 21:00:30 JST
+# mode: julia
+	pointer_from_objref(a)
+# time: 2019-10-31 21:04:22 JST
+# mode: julia
+	unsafe_load(Ptr{Int64}(ans))
+# time: 2019-10-31 21:11:41 JST
+# mode: julia
+	a = 0xff
+# time: 2019-10-31 21:11:55 JST
+# mode: julia
+	Ref(a)
+# time: 2019-10-31 21:12:05 JST
+# mode: julia
+	ans[]
+# time: 2019-10-31 21:15:46 JST
+# mode: julia
+	Ref(a)
+# time: 2019-10-31 21:15:56 JST
+# mode: julia
+	ans{UInt}[]
+# time: 2019-10-31 21:16:21 JST
+# mode: julia
+	Ref{Int}(a)
+# time: 2019-10-31 21:16:37 JST
+# mode: julia
+	a
+# time: 2019-10-31 21:16:49 JST
+# mode: julia
+	dump(Ref{Int}(a))
+# time: 2019-10-31 21:18:05 JST
+# mode: julia
+	Test
+# time: 2019-10-31 21:18:31 JST
+# mode: julia
+	Ref{Int}(a)
+# time: 2019-10-31 21:18:33 JST
+# mode: julia
+	ans[]
+# time: 2019-10-31 21:19:01 JST
+# mode: julia
+	a = TEST(0xff)
+# time: 2019-10-31 21:19:13 JST
+# mode: julia
+	a = 0xff
+# time: 2019-10-31 21:20:37 JST
+# mode: julia
+	TEST(0xff) |> pointer_from_objref |> unsafe_load
+# time: 2019-10-31 21:20:41 JST
+# mode: julia
+	ans
+# time: 2019-10-31 21:20:48 JST
+# mode: julia
+	typeof(ans)
+# time: 2019-10-31 21:21:19 JST
+# mode: help
+	unsafe_load
+# time: 2019-10-31 21:21:52 JST
+# mode: julia
+	TEST(0xff) |> pointer_from_objref
+# time: 2019-10-31 21:22:24 JST
+# mode: julia
+	unsafe_load(ans)
+# time: 2019-10-31 21:22:44 JST
+# mode: julia
+	TEST(0xff) |> pointer_from_objref
+# time: 2019-10-31 21:23:05 JST
+# mode: julia
+	Ptr{UInt}(ans)
+# time: 2019-10-31 21:25:32 JST
+# mode: help
+	pointer_from_objref
+# time: 2019-10-31 21:58:58 JST
+# mode: julia
+	@test
+# time: 2019-10-31 21:59:04 JST
+# mode: julia
+	using Test
+# time: 2019-10-31 21:59:07 JST
+# mode: help
+	@test
+# time: 2019-10-31 22:34:54 JST
+# mode: julia
+	0xff
+# time: 2019-11-01 17:04:57 JST
+# mode: julia
+	struct Example
+	n::Int32
+	s::Cstring
+	end
+# time: 2019-11-01 17:06:32 JST
+# mode: julia
+	ccall((:ex_struct, "libex.so"), Cvoid, (Example,), Example(255, "by jl"))
+# time: 2019-11-01 17:07:38 JST
+# mode: julia
+	ex = Example(255, "by jl")
+# time: 2019-11-01 17:08:07 JST
+# mode: julia
+	"hello"::Cstring
+# time: 2019-11-01 17:08:23 JST
+# mode: help
+	Cstring
+# time: 2019-11-01 17:08:31 JST
+# mode: julia
+	Cstring("hello")
+# time: 2019-11-01 17:09:41 JST
+# mode: julia
+	struct Example
+	n::Int32
+	s::Cstring
+	end
+# time: 2019-11-01 17:09:53 JST
+# mode: julia
+	struct Example
+	n::Int32
+	s::String
+	end
+# time: 2019-11-01 17:10:27 JST
+# mode: julia
+	ccall((:ex_struct, "libex.so"), Cvoid, (Ref{Example},), Ref(Example(255, "by jl")))
+# time: 2019-11-01 17:10:33 JST
+# mode: shell
+	ls
+# time: 2019-11-01 17:10:42 JST
+# mode: julia
+	ccall((:ex_struct, "./libex.so"), Cvoid, (Ref{Example},), Ref(Example(255, "by jl")))
+# time: 2019-11-01 17:12:12 JST
+# mode: julia
+	struct Example
+	n::Int32
+	s::String
+	end
+# time: 2019-11-01 17:12:34 JST
+# mode: julia
+	ccall((:ex_struct, "./libex.so"), Ref{Example}, (Ref{Example},), Ref(Example(255, "by jl")))
+# time: 2019-11-01 17:13:14 JST
+# mode: julia
+	struct Example
+	n::Int32
+	s::String
+	end
+# time: 2019-11-01 17:13:25 JST
+# mode: julia
+	ccall((:ex_struct, "./libex.so"), Ptr{Example}, (Ref{Example},), Ref(Example(255, "by jl")))
+# time: 2019-11-01 17:13:50 JST
+# mode: julia
+	unsafe_load(ans)
+# time: 2019-11-01 17:14:14 JST
+# mode: julia
+	struct Example
+	n::Int32
+	s::String
+	end
+# time: 2019-11-01 17:14:20 JST
+# mode: julia
+	ccall((:ex_struct, "./libex.so"), Ptr{Example}, (Ref{Example},), Ref(Example(255, "by jl")))
+# time: 2019-11-01 17:14:39 JST
+# mode: julia
+	unsafe_load(Ptr{Example}(ans))
+# time: 2019-11-01 17:14:52 JST
+# mode: julia
+	struct Example
+	n::Int32
+	s::String
+	end
+# time: 2019-11-01 17:15:29 JST
+# mode: julia
+	ex = Example(255, "by jl")
+# time: 2019-11-01 17:17:17 JST
+# mode: julia
+	ccall((:ex_struct, "./libex.so"), Ptr{Example}, (Ref{Example},), Ref(ex))
+# time: 2019-11-01 17:17:38 JST
+# mode: julia
+	unsafe_load(ans)
+# time: 2019-11-01 17:17:45 JST
+# mode: julia
+	struct Example
+	n::Int32
+	s::String
+	end
+# time: 2019-11-01 17:17:46 JST
+# mode: julia
+	ccall((:ex_struct, "./libex.so"), Ptr{Example}, (Ref{Example},), Ref(ex))
+# time: 2019-11-01 17:17:50 JST
+# mode: julia
+	ex = Example(255, "by jl")
+# time: 2019-11-01 17:20:41 JST
+# mode: julia
+	&ex
+# time: 2019-11-01 17:22:44 JST
+# mode: julia
+	SVector
+# time: 2019-11-01 17:23:10 JST
+# mode: julia
+	struct Example
+	n::Int32
+	s::Vector{UInt8}
+	end
+# time: 2019-11-01 17:23:20 JST
+# mode: julia
+	ex = Example(255, "by jl")
+# time: 2019-11-01 17:28:31 JST
+# mode: julia
+	struct Example
+	n::Int32
+	m::Float64
+	end
+# time: 2019-11-01 17:29:27 JST
+# mode: julia
+	ex = Example(255, 8192)
+# time: 2019-11-01 17:29:57 JST
+# mode: julia
+	ccall((:ex_struct, "./libex.so"), Ptr{Example}, (Ref{Example},), Ref(ex))
+# time: 2019-11-01 17:30:10 JST
+# mode: julia
+	unsafe_load(ans)
+# time: 2019-11-01 17:47:37 JST
+# mode: julia
+	using Markdown
+# time: 2019-11-01 17:47:56 JST
+# mode: julia
+	Markdown.parse("### Markdown")
+# time: 2019-11-01 17:48:19 JST
+# mode: help
+	sin
+# time: 2019-11-01 17:50:01 JST
+# mode: julia
+	f = open("/home/sinai/Scripts/ccall_doc/ccall_art.md", "r")
+# time: 2019-11-01 17:50:14 JST
+# mode: julia
+	read(f)
+# time: 2019-11-01 17:50:26 JST
+# mode: julia
+	Markdown.parse(f)
+# time: 2019-11-01 17:50:36 JST
+# mode: julia
+	Markdown.parse(read(f))
+# time: 2019-11-01 17:53:15 JST
+# mode: julia
+	readlines(f)
+# time: 2019-11-01 17:54:11 JST
+# mode: julia
+	readlines("/home/sinai/Scripts/ccall_doc/ccall_art.txt")
+# time: 2019-11-01 17:54:40 JST
+# mode: julia
+	Markdown.parse(readlines(f))
+# time: 2019-11-01 17:55:15 JST
+# mode: julia
+	for i in readlines(f) Markdown.parse(i) end
+# time: 2019-11-01 17:55:38 JST
+# mode: julia
+	Markdown.parse(readlines(f))
+# time: 2019-11-01 17:55:55 JST
+# mode: julia
+	Markdown.parse(f)
+# time: 2019-11-01 18:03:27 JST
+# mode: julia
+	@edit ccall((:ex_struct, "./libex.so"), Ptr{Example}, (Ref{Example},), Ref(ex))
+# time: 2019-11-01 18:06:23 JST
+# mode: julia
+	isimmutable(Ref)
+# time: 2019-11-01 18:06:34 JST
+# mode: julia
+	isimmutable(Ref(ex))
+# time: 2019-11-01 18:07:17 JST
+# mode: julia
+	@edit Ref(ex)
+# time: 2019-11-01 18:07:30 JST
+# mode: julia
+	@edit RefValue(ex)
+# time: 2019-11-01 18:08:04 JST
+# mode: julia
+	@which Ref(ex)
+# time: 2019-11-01 18:08:32 JST
+# mode: julia
+	using Base:RefValue
+# time: 2019-11-01 18:08:36 JST
+# mode: julia
+	@edit RefValue(ex)
+# time: 2019-11-01 18:09:03 JST
+# mode: julia
+	@edit RefValue{Example}(ex)
+# time: 2019-11-01 18:16:44 JST
+# mode: julia
+	using Base:RefValue
+# time: 2019-11-01 18:16:48 JST
+# mode: julia
+	@edit RefValue{Example}(ex)
+# time: 2019-11-01 18:17:04 JST
+# mode: julia
+	struct Example
+	n::Int32
+	m::Float64
+	end
+# time: 2019-11-01 18:17:19 JST
+# mode: julia
+	ex = Example(3,3)
+# time: 2019-11-01 18:17:24 JST
+# mode: julia
+	@edit RefValue{Example}(ex)
+# time: 2019-11-02 10:19:27 JST
+# mode: julia
+	cglobal((:VALUE, "./libex.so"), Cstring)
+# time: 2019-11-02 10:19:38 JST
+# mode: julia
+	unsafe_load(ans)
+# time: 2019-11-02 10:19:52 JST
+# mode: julia
+	cglobal((:VALUE, "./libex.so"), String)
+# time: 2019-11-02 10:19:55 JST
+# mode: julia
+	unsafe_load(ans)
+# time: 2019-11-02 10:20:22 JST
+# mode: julia
+	cglobal((:VALUE, "./libex.so"), Cstring)
+# time: 2019-11-02 10:20:31 JST
+# mode: julia
+	unsafe_load(ans)
+# time: 2019-11-02 10:20:40 JST
+# mode: julia
+	dump(Cstring)
+# time: 2019-11-02 10:21:13 JST
+# mode: julia
+	cglobal((:VALUE, "./libex.so"), Cstring)
+# time: 2019-11-02 10:21:18 JST
+# mode: julia
+	unsafe_load(ans)
+# time: 2019-11-02 10:21:28 JST
+# mode: julia
+	UInt8(ans)
+# time: 2019-11-02 10:21:47 JST
+# mode: julia
+	cglobal((:VALUE, "./libex.so"), Cstring)
+# time: 2019-11-02 10:21:57 JST
+# mode: julia
+	unsafe_load(ans)
+# time: 2019-11-02 10:22:11 JST
+# mode: julia
+	Vector{UInt8}(ans)
+# time: 2019-11-02 10:22:55 JST
+# mode: julia
+	cglobal((:VALUE, "./libex.so"), Cstring)
+# time: 2019-11-02 10:23:09 JST
+# mode: julia
+	unsafe_string(ans)
+# time: 2019-11-02 10:23:20 JST
+# mode: julia
+	cglobal((:VALUE, "./libex.so"), UInt8)
+# time: 2019-11-02 10:23:36 JST
+# mode: julia
+	cglobal((:VALUE, "./libex.so"), Vector{UInt8})
+# time: 2019-11-02 10:23:46 JST
+# mode: julia
+	unsafe_string(ans)
+# time: 2019-11-02 10:23:58 JST
+# mode: julia
+	cglobal((:VALUE, "./libex.so"), Vector{UInt8})
+# time: 2019-11-02 10:24:18 JST
+# mode: julia
+	cglobal((:VALUE, "./libex.so"), Cstring)
+# time: 2019-11-02 10:24:24 JST
+# mode: julia
+	unsafe_load(ans)
+# time: 2019-11-02 10:24:33 JST
+# mode: julia
+	unsafe_string(ans)
+# time: 2019-11-02 10:25:23 JST
+# mode: help
+	unsafe_st
+# time: 2019-11-02 10:25:27 JST
+# mode: help
+	unsafe_string
+# time: 2019-11-02 10:25:55 JST
+# mode: julia
+	cglobal((:VALUE, "./libex.so"), Vector{UInt8})
+# time: 2019-11-02 10:26:05 JST
+# mode: julia
+	unsafe_load(ans)
+# time: 2019-11-02 10:26:39 JST
+# mode: julia
+	s = "abc"
+# time: 2019-11-02 10:26:46 JST
+# mode: julia
+	pointer(s)
+# time: 2019-11-02 10:27:00 JST
+# mode: julia
+	cglobal((:VALUE, "./libex.so"), UInt8)
+# time: 2019-11-02 10:27:13 JST
+# mode: julia
+	unsafe_string(ans)
+# time: 2019-11-02 10:52:23 JST
+# mode: julia
+	using Base:llvmcall
+# time: 2019-11-02 10:55:41 JST
+# mode: julia
+	llvmcall("""i32 (i32) asm "bswap $0", "=r,r"""")
+# time: 2019-11-02 10:55:49 JST
+# mode: julia
+	llvmcall("""i32 (i32) asm "bswap \$0", "=r,r"""")
+# time: 2019-11-02 10:56:18 JST
+# mode: julia
+	llvmcall("""
+	i32 (i32) asm "bswap \$0", "=r,r"
+	""")
+# time: 2019-11-02 10:59:46 JST
+# mode: help
+	llvmcall
+# time: 2019-11-02 11:00:38 JST
+# mode: julia
+	llvmcall("""
+	i32 (i32) asm "bswap \$0", \"=r,r\"
+	""")
+# time: 2019-11-02 11:01:50 JST
+# mode: julia
+	@code_native @asmcall("nop")
+# time: 2019-11-02 11:02:37 JST
+# mode: julia
+	using LLVM:@asmcall
+# time: 2019-11-02 11:02:45 JST
+# mode: julia
+	using LLVM:asmcall
+# time: 2019-11-02 11:03:07 JST
+# mode: julia
+	using LLVM
+# time: 2019-11-02 11:03:19 JST
+# mode: julia
+	using LLVM.Interop
+# time: 2019-11-02 11:03:30 JST
+# mode: julia
+	@code_native @asmcall("nop")
+# time: 2019-11-02 11:03:54 JST
+# mode: julia
+	@code_native @asmcall("xor %eax %eax")
+# time: 2019-11-02 11:05:49 JST
+# mode: julia
+	@code_native @asmcall("cpuid")
+# time: 2019-11-02 11:51:11 JST
+# mode: julia
+	using UnicodePlots
+# time: 2019-11-02 11:51:28 JST
+# mode: julia
+	lineplot(sin, 0:.5:20)
+# time: 2019-11-02 11:53:08 JST
+# mode: julia
+	lineplot(sin, 0:.5:20;border = :ascii)
+# time: 2019-11-02 11:53:33 JST
+# mode: julia
+	lineplot(sin, 0:.5:20;border = :ascii, canvas = AsciiCanvas)
+# time: 2019-11-02 12:01:05 JST
+# mode: julia
+	lineplot(sin, 0:.5:20;border = nothing, canvas = AsciiCanvas)
+# time: 2019-11-02 12:01:23 JST
+# mode: help
+	lineplot
+# time: 2019-11-02 12:02:24 JST
+# mode: julia
+	lineplot(sin, 0:.5:20;border = nothing, canvas = AsciiCanvas, xlabel="")
+# time: 2019-11-02 12:02:55 JST
+# mode: julia
+	lineplot(sin, 0:.5:20, xlabel="";border = nothing, canvas = AsciiCanvas)
+# time: 2019-11-02 12:03:18 JST
+# mode: julia
+	lineplot(sin, 0:.5:20, xlabel=; canvas = AsciiCanvas)
+# time: 2019-11-02 12:03:23 JST
+# mode: julia
+	lineplot(sin, 0:.5:20, xlabel=""; canvas = AsciiCanvas)
+# time: 2019-11-02 12:03:52 JST
+# mode: julia
+	lineplot(sin, 0:.5:20, xlabel=""; border=:none, canvas = AsciiCanvas)
+# time: 2019-11-02 12:05:54 JST
+# mode: julia
+	canvas = BrailleCanvas(40, 10)
+# time: 2019-11-02 12:06:07 JST
+# mode: julia
+	canvas = BrailleCanvas(40, 10; border=:none)
+# time: 2019-11-02 12:06:21 JST
+# mode: julia
+	canvas = BrailleCanvas(40, 10)
+# time: 2019-11-02 12:06:46 JST
+# mode: julia
+	lineplot(canvas, sin, 0:.5:20, xlabel=""; border=:none)
+# time: 2019-11-02 12:07:28 JST
+# mode: julia
+	lines!(canvas, sin, 1:.5:20)
+# time: 2019-11-02 12:08:01 JST
+# mode: julia
+	lines!(canvas, 0., 0., 1., 1., :syan)
+# time: 2019-11-02 12:08:09 JST
+# mode: julia
+	lines!(canvas, 0., 0., 1., 1., :red)
+# time: 2019-11-02 12:08:52 JST
+# mode: julia
+	typeof(ans)
+# time: 2019-11-02 12:09:00 JST
+# mode: julia
+	lines!(canvas, 0., 0., 1., 1., :red)
+# time: 2019-11-02 12:09:05 JST
+# mode: julia
+	dump(ans)
+# time: 2019-11-02 12:09:31 JST
+# mode: help
+	lineplot
+# time: 2019-11-02 12:09:37 JST
+# mode: help
+	lineplot!
+# time: 2019-11-02 12:12:26 JST
+# mode: julia
+	lineplot(sin, 0:.5:20, labels=false; border=:none, canvas = AsciiCanvas)
+# time: 2019-11-02 12:34:57 JST
+# mode: julia
+	f = open("/home/sinai/.config/mpd/mpd.fifo", "r")
+# time: 2019-11-02 12:35:51 JST
+# mode: julia
+	y = Vector{UInt16}(undef, stat(f).size ÷ sizeof(UInt16))
+# time: 2019-11-02 12:36:05 JST
+# mode: julia
+	y = Vector{UInt16}(undef, stat(f).size ÷ sizeof(UInt8))
+# time: 2019-11-02 12:36:11 JST
+# mode: julia
+	read(f)
+# time: 2019-11-02 12:37:32 JST
+# mode: julia
+	stat
+# time: 2019-11-02 12:37:35 JST
+# mode: help
+	stat
+# time: 2019-11-02 12:59:08 JST
+# mode: julia
+	using HTTP
+# time: 2019-11-02 12:59:16 JST
+# mode: pkg
+	add HTTP
+# time: 2019-11-02 12:59:48 JST
+# mode: julia
+	using HTTP
+# time: 2019-11-02 13:00:31 JST
+# mode: julia
+	HTTP.request("GET", "https://discordapp.com/api/6")
+# time: 2019-11-02 13:00:51 JST
+# mode: julia
+	using HTTP
+# time: 2019-11-02 13:00:52 JST
+# mode: julia
+	HTTP.request("GET", "https://discordapp.com/api/6")
+# time: 2019-11-02 13:02:10 JST
+# mode: help
+	HTTP.request
+# time: 2019-11-02 13:07:50 JST
+# mode: julia
+	HTTP.request("GET", "https://discordapp.com/api/oauth2/authorize?response_type=code&client_id=157730590492196864&scope=identify%20guilds.join&state=15773059ghq9183habn&redirect_uri=https%3A%2F%2Fnicememe.website&prompt=consent
+	")
+# time: 2019-11-02 13:21:13 JST
+# mode: julia
+	a = {}
+# time: 2019-11-02 13:21:23 JST
+# mode: help
+	Dict
+# time: 2019-11-02 13:26:44 JST
+# mode: julia
+	using HTTP:request
+# time: 2019-11-02 13:26:50 JST
+# mode: help
+	request
+# time: 2019-11-02 14:02:31 JST
+# mode: julia
+	include("oauth2.jl")
+# time: 2019-11-02 14:03:00 JST
+# mode: julia
+	get_token()
+# time: 2019-11-02 14:04:06 JST
+# mode: julia
+	@edit get_token
+# time: 2019-11-02 14:04:09 JST
+# mode: julia
+	@edit get_token()
+# time: 2019-11-02 14:05:26 JST
+# mode: julia
+	include("oauth2.jl")
+# time: 2019-11-02 14:05:31 JST
+# mode: julia
+	get_token()
+# time: 2019-11-02 14:05:47 JST
+# mode: julia
+	include("oauth2.jl")
+# time: 2019-11-02 14:05:50 JST
+# mode: julia
+	get_token()
+# time: 2019-11-02 14:06:03 JST
+# mode: julia
+	include("oauth2.jl")
+# time: 2019-11-02 14:06:07 JST
+# mode: julia
+	@edit get_token()
+# time: 2019-11-02 14:06:50 JST
+# mode: julia
+	include("oauth2.jl")
+# time: 2019-11-02 14:06:57 JST
+# mode: julia
+	get_token()
+# time: 2019-11-02 14:07:04 JST
+# mode: julia
+	include("oauth2.jl")
+# time: 2019-11-02 14:07:06 JST
+# mode: julia
+	get_token()
+# time: 2019-11-02 14:11:13 JST
+# mode: julia
+	include("oauth2.jl")
+# time: 2019-11-02 14:11:15 JST
+# mode: julia
+	get_token()
+# time: 2019-11-02 14:13:43 JST
+# mode: julia
+	temp = "Basic " * base64encode("your_api_key_here")
+# time: 2019-11-02 14:13:58 JST
+# mode: julia
+	using Base:base64encode
+# time: 2019-11-02 14:14:11 JST
+# mode: julia
+	using HTTP:base64encode
+# time: 2019-11-02 14:14:16 JST
+# mode: julia
+	temp = "Basic " * base64encode("your_api_key_here")
+# time: 2019-11-02 14:29:06 JST
+# mode: help
+	HTTP.request
+# time: 2019-11-02 14:29:12 JST
+# mode: julia
+	using HTTP
+# time: 2019-11-02 14:29:27 JST
+# mode: help
+	HTTP.request
+# time: 2019-11-02 14:46:57 JST
+# mode: help
+	HTTP.BasicAuthLayer
+# time: 2019-11-02 14:47:03 JST
+# mode: julia
+	using HTTP
+# time: 2019-11-02 14:47:05 JST
+# mode: help
+	HTTP.BasicAuthLayer
+# time: 2019-11-02 14:57:37 JST
+# mode: julia
+	r = HTTP.request("POST", "http://httpbin.org/post", [], "post body data")
+# time: 2019-11-02 14:57:46 JST
+# mode: julia
+	println(String(r.body))
+# time: 2019-11-02 14:59:40 JST
+# mode: julia
+	r.headers
+# time: 2019-11-02 15:00:30 JST
+# mode: julia
+	typeof(r)
+# time: 2019-11-02 15:06:53 JST
+# mode: julia
+	Array("awt" => "ajt", "egj" => "aojii")
+# time: 2019-11-02 15:07:23 JST
+# mode: julia
+	["aergo" => "iwjfg"]
+# time: 2019-11-02 15:07:42 JST
+# mode: julia
+	["aergo" => "iwjfg", "aigj" => "aoiegrhi"]
+# time: 2019-11-02 15:11:36 JST
+# mode: help
+	SubString
+# time: 2019-11-02 15:12:20 JST
+# mode: julia
+	SubString{String}
+# time: 2019-11-02 15:12:30 JST
+# mode: julia
+	SubString{String}("hello")
+# time: 2019-11-02 15:12:37 JST
+# mode: julia
+	typeof(ans)
+# time: 2019-11-02 15:13:22 JST
+# mode: julia
+	"hello"::SubString{String}
+# time: 2019-11-02 16:39:00 JST
+# mode: help
+	write
+# time: 2019-11-02 16:39:18 JST
+# mode: julia
+	using HTTP
+# time: 2019-11-02 16:39:35 JST
+# mode: julia
+	HTTP.write()
+# time: 2019-11-02 16:39:46 JST
+# mode: julia
+	using HTTP:write
+# time: 2019-11-02 16:39:51 JST
+# mode: help
+	write
+# time: 2019-11-02 16:44:57 JST
+# mode: julia
+	HTTP.Messages()
+# time: 2019-11-02 16:45:02 JST
+# mode: help
+	HTTP.Messages()
+# time: 2019-11-02 16:49:00 JST
+# mode: julia
+	HTTP.open("POST", "http://music.com/play") do io
+	     write(io, JSON.json([
+	         "auth" => "12345XXXX",
+	         "song_id" => 7,
+	     ]))
+	     r = startread(io)
+	     @show r.status
+	     while !eof(io)
+	         bytes = readavailable(io))
+	         play_audio(bytes)
+	     end
+	 end
+# time: 2019-11-02 16:52:16 JST
+# mode: pkg
+	add JSON
+# time: 2019-11-02 17:16:51 JST
+# mode: julia
+	using JSON
+# time: 2019-11-02 17:17:52 JST
+# mode: julia
+	JSON.Parser.parse()
+# time: 2019-11-02 17:18:06 JST
+# mode: help
+	JSON.json
+# time: 2019-11-03 16:40:13 JST
+# mode: julia
+	julia
+# time: 2019-11-03 16:41:17 JST
+# mode: julia
+	using HTTP, JSON
+# time: 2019-11-03 16:51:32 JST
+# mode: julia
+	data = Dict(
+	                    "grant_type" => "client_credentials",
+	                    "scope" => "identify connections"
+	                    )
+# time: 2019-11-03 16:56:11 JST
+# mode: julia
+	headers = Dict(
+	                       "Authorization" => "$CLIENT_ID $CLIENT_SECRET",
+	                       "Content-Type" => "application/x-www-form-urlencoded"
+	                       )
+# time: 2019-11-03 16:56:23 JST
+# mode: julia
+	API_ENDPOINT = "https://discordapp.com/api/v6"
+# time: 2019-11-03 16:56:23 JST
+# mode: julia
+	CLIENT_ID = "640041297687609346"
+# time: 2019-11-03 16:56:23 JST
+# mode: julia
+	CLIENT_SECRET = "JlJW08UnKBG-fHkkXTWpWieJZ6lum1x3"
+# time: 2019-11-03 16:56:38 JST
+# mode: julia
+	headers = Dict(
+	                       "Authorization" => "$CLIENT_ID $CLIENT_SECRET",
+	                       "Content-Type" => "application/x-www-form-urlencoded"
+	                       )
+# time: 2019-11-03 16:56:51 JST
+# mode: julia
+	r = HTTP.post(API_ENDPOINT*"/oauth2/token", headers, JSON.json(data))
+# time: 2019-11-03 16:56:56 JST
+# mode: julia
+	end
+# time: 2019-11-03 17:04:00 JST
+# mode: julia
+	headers = Dict(
+	                       "Authorization" => "$CLIENT_ID $CLIENT_SECRET",
+	                       "Content-Type" => "application/x-www-form-urlencoded"
+	                       )
+# time: 2019-11-03 17:04:21 JST
+# mode: julia
+	data = Dict(
+	                    "grant_type" => "client_credentials",
+	                    "scope" => "identify connections"
+	                    )
+# time: 2019-11-03 17:04:25 JST
+# mode: julia
+	r = HTTP.post(API_ENDPOINT*"/oauth2/token", headers, JSON.json(data))
+# time: 2019-11-03 17:30:20 JST
+# mode: julia
+	using JSON
+# time: 2019-11-03 17:30:26 JST
+# mode: help
+	JSON.json
+# time: 2019-11-05 20:03:43 JST
+# mode: julia
+	versioninfo()
+# time: 2019-11-05 20:04:08 JST
+# mode: julia
+	Base.JLOptions
+# time: 2019-11-05 20:04:17 JST
+# mode: help
+	JULIA_HOME
+# time: 2019-11-05 20:06:38 JST
+# mode: julia
+	Sys.BINDIR
+# time: 2019-11-05 20:07:02 JST
+# mode: julia
+	Sys.STDLIB
+# time: 2019-11-05 20:07:31 JST
+# mode: julia
+	Sys.free_memory
+# time: 2019-11-05 20:07:34 JST
+# mode: julia
+	Sys.free_memory()
+# time: 2019-11-05 20:07:49 JST
+# mode: julia
+	Sys.total_memory()
+# time: 2019-11-05 20:07:53 JST
+# mode: julia
+	Sys.free_memory()
+# time: 2019-11-05 20:07:57 JST
+# mode: julia
+	Sys.total_memory()
+# time: 2019-11-05 20:15:31 JST
+# mode: julia
+	julia=CDLL('/usr/lib/julia/libjulia.so', RTLD_GLOBAL)
+# time: 2019-11-05 20:15:44 JST
+# mode: julia
+	julia=CDLL("/usr/lib/julia/libjulia.so", RTLD_GLOBAL)
+# time: 2019-11-05 20:18:26 JST
+# mode: julia
+	Base.DATAROOTDIR
+# time: 2019-11-06 12:32:13 JST
+# mode: julia
+	const data = """
+	id,val,class
+	1,4,A
+	2,39,B
+	3,44,C
+	"""
+# time: 2019-11-06 12:32:13 JST
+# mode: julia
+	function new_struct(fields::Vector{Tuple{String, DataType}})
+	        name = "A" * string(hash(fields), base=16)
+	        code = "begin\nstruct $name"
+	        for field in fields
+	                code *= field[1] * "::" * string(field[2]) * "\n"
+	        end
+	        eval(Meta.parse(code * "end\n$name\nend"))
+	end
+# time: 2019-11-06 12:33:54 JST
+# mode: julia
+	MyS = new_struct([("a", Int), ("b", String), ("c", Int)])
+# time: 2019-11-06 12:36:20 JST
+# mode: julia
+	using JuliaInterpreter, Debugger
+# time: 2019-11-06 12:36:47 JST
+# mode: julia
+	@breakpoint new_struct
+# time: 2019-11-06 12:37:20 JST
+# mode: julia
+	@breakpoint new_struct([("", String)])
+# time: 2019-11-06 12:37:27 JST
+# mode: julia
+	MyS = new_struct([("a", Int), ("b", String), ("c", Int)])
+# time: 2019-11-06 12:38:25 JST
+# mode: julia
+	@enter new_struct([("a", Int), ("b", String), ("c", Int)])
+# time: 2019-11-06 12:40:29 JST
+# mode: julia
+	const data = """
+	id,val,class
+	1,4,A
+	2,39,B
+	3,44,C
+	"""
+# time: 2019-11-06 12:41:35 JST
+# mode: julia
+	function new_struct(fields::Vector{Tuple{String, DataType}})
+	        name = "A" * string(hash(fields), base=16)
+	        code = "begin\nstruct $name\n"
+	        for field in fields
+	                code *= field[1] * "::" * string(field[2]) * "\n"
+	        end
+	        eval(Meta.parse(code * "end\n$name\nend"))
+	end
+# time: 2019-11-06 12:42:12 JST
+# mode: julia
+	MyS = new_struct([("a", Int), ("b", String), ("c", Int)])
+# time: 2019-11-06 12:42:22 JST
+# mode: julia
+	dump(MyS)
+# time: 2019-11-06 12:43:31 JST
+# mode: help
+	filter
+# time: 2019-11-06 12:44:36 JST
+# mode: help
+	strip
+# time: 2019-11-06 12:45:11 JST
+# mode: help
+	\r
+# time: 2019-11-06 12:45:15 JST
+# mode: julia
+	\r
+# time: 2019-11-06 12:45:20 JST
+# mode: julia
+	\n
+# time: 2019-11-06 12:46:07 JST
+# mode: julia
+	data
+# time: 2019-11-06 12:46:50 JST
+# mode: julia
+	split(data, ('\n', '\r'))
+# time: 2019-11-06 12:47:35 JST
+# mode: julia
+	split(data, ('\n', '\r')) .|> strip
+# time: 2019-11-06 12:47:53 JST
+# mode: julia
+	split(data, ('\n', '\r'))
+# time: 2019-11-06 12:47:58 JST
+# mode: julia
+	strip.(ans)
+# time: 2019-11-06 12:48:21 JST
+# mode: julia
+	filter(x->length(x)>0, ans)
+# time: 2019-11-06 12:49:21 JST
+# mode: help
+	split
+# time: 2019-11-06 12:54:52 JST
+# mode: julia
+	ans
+# time: 2019-11-06 12:55:01 JST
+# mode: julia
+	typeof(ans)
+# time: 2019-11-06 12:55:41 JST
+# mode: julia
+	lines = filter(x->length(x)>0, strip.(split(data, ('\n', '\r'))))
+# time: 2019-11-06 12:56:23 JST
+# mode: julia
+	split(lines[1], ',')
+# time: 2019-11-06 12:59:55 JST
+# mode: help
+	occursin
+# time: 2019-11-06 13:00:59 JST
+# mode: help
+	r""
+# time: 2019-11-06 13:08:02 JST
+# mode: julia
+	using Markdown
+# time: 2019-11-06 13:08:10 JST
+# mode: julia
+	dump(Markdown.MD)
+# time: 2019-11-06 13:09:02 JST
+# mode: help
+	collect
+# time: 2019-11-06 13:10:01 JST
+# mode: help
+	zip
+# time: 2019-11-06 13:12:51 JST
+# mode: julia
+	Markdown.parse("""
+	| a | b |
+	|--:|--:|
+	| c | d |
+	""")
+# time: 2019-11-06 13:13:47 JST
+# mode: julia
+	Markdown.parse("""
+	| aaaaa | bbbbb |
+	|------:|------:|
+	| ccccc | ddddd |
+	""")
+# time: 2019-11-06 13:15:20 JST
+# mode: help
+	zip
+# time: 2019-11-06 13:18:21 JST
+# mode: julia
+	function parse_data(data::AbstractString)
+	        lines = filter(x->length(x)>0, strip.(split(data, ('\n', '\r'))))
+	        colnames = string.(split(lines[1], ','))
+	        row1 = split(lines[2], ',')
+	        coltypes = [occursin(r"^-?\d+$", val) ? Int64 : String for val in row1]
+	
+	        (lines[2:end], new_struct(collect(zip(colnames, coltypes))))
+	end
+# time: 2019-11-06 13:18:46 JST
+# mode: julia
+	parse_data(data)
+# time: 2019-11-06 13:19:05 JST
+# mode: julia
+	const data = """
+	id,val,class
+	1,4,A
+	2,39,B
+	3,44,C
+	"""
+# time: 2019-11-06 13:19:11 JST
+# mode: julia
+	parse_data(data)
+# time: 2019-11-06 13:19:20 JST
+# mode: julia
+	function new_struct(fields::Vector{Tuple{String, DataType}})
+	        name = "A" * string(hash(fields), base=16)
+	        code = "begin\nstruct $name\n"
+	        for field in fields
+	                code *= field[1] * "::" * string(field[2]) * "\n"
+	        end
+	        eval(Meta.parse(code * "end\n$name\nend"))
+	end
+# time: 2019-11-06 13:19:23 JST
+# mode: julia
+	parse_data(data)
+# time: 2019-11-06 13:19:31 JST
+# mode: julia
+	dump(ans)
+# time: 2019-11-06 13:21:03 JST
+# mode: julia
+	dump(parse_data("col1,col2,col3\nabc,123,123.4")[2])
+# time: 2019-11-06 13:21:23 JST
+# mode: julia
+	dump(parse_data("col1,col2,col3\nabc,123,123.4")[q])
+# time: 2019-11-06 13:21:27 JST
+# mode: julia
+	dump(parse_data("col1,col2,col3\nabc,123,123.4")[1])
+# time: 2019-11-06 13:21:33 JST
+# mode: julia
+	dump(parse_data("col1,col2,col3\nabc,123,123.4")[3])
+# time: 2019-11-06 13:22:01 JST
+# mode: julia
+	dump(parse_data("col1,col2,col3\nabc,123,123.4")[2])
+# time: 2019-11-06 13:24:29 JST
+# mode: julia
+	ans[]
+# time: 2019-11-06 13:24:43 JST
+# mode: julia
+	dump(parse_data("col1,col2,col3\nabc,123,123.4")[])
+# time: 2019-11-06 13:25:05 JST
+# mode: julia
+	data
+# time: 2019-11-06 13:25:20 JST
+# mode: julia
+	a = parse_data(data)
+# time: 2019-11-06 13:25:24 JST
+# mode: julia
+	a[]
+# time: 2019-11-06 13:25:32 JST
+# mode: julia
+	res = a[]
+# time: 2019-11-06 13:28:45 JST
+# mode: julia
+	b, a = parse_data(data)
+# time: 2019-11-06 13:28:55 JST
+# mode: julia
+	r = a[]
+# time: 2019-11-06 13:29:14 JST
+# mode: julia
+	c, d = parse_data(data)
+# time: 2019-11-06 13:29:16 JST
+# mode: julia
+	c
+# time: 2019-11-06 13:29:18 JST
+# mode: julia
+	d
+# time: 2019-11-06 13:32:30 JST
+# mode: julia
+	d.types
+# time: 2019-11-06 13:32:36 JST
+# mode: julia
+	dump(d)
+# time: 2019-11-06 13:33:56 JST
+# mode: julia
+	function parse_text(data::AbstractString)
+	        line, MyS = parse_data(data)
+	        res = MyS[]
+	        for line in lines
+	                colvals = split(line, ',')
+	                f = (t, v)->t<:Int ? parse(Int, v) : string(v)
+	                vals = f.(MyS.types, colvals)
+	                push!(res, Base.invokelatest(MyS, vals...))
+	        end
+	        return res
+	end
+# time: 2019-11-06 13:34:05 JST
+# mode: julia
+	parse_text(data)
+# time: 2019-11-06 13:34:20 JST
+# mode: julia
+	function parse_text(data::AbstractString)
+	        lines, MyS = parse_data(data)
+	        res = MyS[]
+	        for line in lines
+	                colvals = split(line, ',')
+	                f = (t, v)->t<:Int ? parse(Int, v) : string(v)
+	                vals = f.(MyS.types, colvals)
+	                push!(res, Base.invokelatest(MyS, vals...))
+	        end
+	        return res
+	end
+# time: 2019-11-06 13:34:23 JST
+# mode: julia
+	parse_text(data)
+# time: 2019-11-06 13:37:17 JST
+# mode: julia
+	a = "hello"
+# time: 2019-11-06 13:37:23 JST
+# mode: julia
+	Symbol(a)
+# time: 2019-11-06 13:37:29 JST
+# mode: julia
+	dump(ans)
+# time: 2019-11-06 13:37:47 JST
+# mode: help
+	Expr
+# time: 2019-11-06 13:37:55 JST
+# mode: julia
+	:block
+# time: 2019-11-06 13:38:35 JST
+# mode: help
+	Expr
+# time: 2019-11-06 13:38:42 JST
+# mode: julia
+	println(ans)
+# time: 2019-11-06 13:39:19 JST
+# mode: julia
+	Markdown.parse(ans)
+# time: 2019-11-06 13:39:34 JST
+# mode: julia
+	const data = """
+	id,val,class
+	1,4,A
+	2,39,B
+	3,44,C
+	"""
+# time: 2019-11-06 13:53:00 JST
+# mode: help
+	::
+# time: 2019-11-06 13:53:12 JST
+# mode: julia
+	:
+# time: 2019-11-06 13:53:19 JST
+# mode: julia
+	:(::)
+# time: 2019-11-06 13:53:24 JST
+# mode: julia
+	typeof(ans)
+# time: 2019-11-06 13:53:31 JST
+# mode: help
+	:(::)
+# time: 2019-11-06 13:54:14 JST
+# mode: julia
+	function new_struct2(fields::Vector{Tuple{String, DataType}})
+	        name = "A" * string(hash(fields), base=16)
+	        c = Expr(:block,
+	                 Expr(:struct, false, Symbol(name),
+	                      Expr(:block, [Expr(:(::), Symbol(f[1]), f[2])
+	                                   for f in fields]...)),
+	                Symbol(name))
+	        eval(c)
+	end
+# time: 2019-11-06 13:55:01 JST
+# mode: julia
+	new_struct2([("a", Int), ("b", String)])
+# time: 2019-11-06 13:55:09 JST
+# mode: julia
+	dump(ans)
+# time: 2019-11-06 13:55:27 JST
+# mode: help
+	Expr
+# time: 2019-11-06 13:56:00 JST
+# mode: julia
+	dump(:(::))
+# time: 2019-11-06 13:57:26 JST
+# mode: julia
+	@code_lowed
+# time: 2019-11-06 13:57:30 JST
+# mode: julia
+	@code_lowerd
+# time: 2019-11-06 13:57:36 JST
+# mode: help
+	@code_lowerd
+# time: 2019-11-06 13:57:42 JST
+# mode: help
+	@code_
+# time: 2019-11-06 13:57:58 JST
+# mode: julia
+	@code_lowered :(::)
+# time: 2019-11-06 13:59:06 JST
+# mode: julia
+	@code_lowered Expr(:(::), :a, :Int)
+# time: 2019-11-06 13:59:43 JST
+# mode: julia
+	Expr(:(::), :a, Int)
+# time: 2019-11-06 14:00:02 JST
+# mode: julia
+	eval(ans)
+# time: 2019-11-06 14:00:26 JST
+# mode: julia
+	Expr(:(::), :"a", :String)
+# time: 2019-11-06 14:00:34 JST
+# mode: julia
+	eval(ans)
+# time: 2019-11-06 15:04:03 JST
+# mode: julia
+	function new_struct3(fields::Vector{Tuple{String, DataType}})
+	        name = "A" * string(hash(fields), base=16)
+	        c = :(begin
+	                      struct $(Symbol(name))
+	                              $([:($(Symbol(f[1]))::$(f[2])) for f in fields]...)
+	                      end
+	                      $(Symbol(name))
+	              end)
+	        eval(c)
+	end
+# time: 2019-11-06 15:04:03 JST
+# mode: julia
+	new_struct3([("a", String), ("b", Int)])
+# time: 2019-11-06 15:04:11 JST
+# mode: julia
+	dump(ans)
+# time: 2019-11-06 15:12:06 JST
+# mode: pkg
+	BenchmarkTools
+# time: 2019-11-06 15:12:12 JST
+# mode: pkg
+	add BenchmarkTools
+# time: 2019-11-06 15:16:19 JST
+# mode: julia
+	function fib(n)
+	        n <= 2 ? 1 : fib(n-1) + fib(n-2)
+	end
+# time: 2019-11-06 15:16:26 JST
+# mode: julia
+	fib(9)
+# time: 2019-11-06 15:16:46 JST
+# mode: julia
+	fib(100)
+# time: 2019-11-06 15:18:13 JST
+# mode: julia
+	@code_native fib(100)
+# time: 2019-11-06 15:19:16 JST
+# mode: julia
+	@time fib(40)
+# time: 2019-11-06 15:26:26 JST
+# mode: julia
+	function memoit(f::Function, p)
+	        if !isdefined(Main, :memoit_cache)
+	                global memoit_cache = Dict{Function, Dict{Any, Any}}()
+	        end
+	        c = haskey(memoit_cache, f) ? memoit_cache[f] : memoit_cache[f]=Dict()
+	        haskey(c, p) ? c[p] : c[p] = f(p)
+	end
+# time: 2019-11-06 15:27:36 JST
+# mode: help
+	<=
+# time: 2019-11-06 15:31:00 JST
+# mode: julia
+	function memoit(f::Function, p)
+	        if !isdefined(Main, :memoit_cache)
+	                global memoit_cache = Dict{Function, Dict{Any, Any}}()
+	        end
+	        c = haskey(memoit_cache, f) ? memoit_cache[f] : memoit_cache[f]=Dict()
+	        haskey(c, p) ? c[p] : c[p] = f(p)
+	end
+# time: 2019-11-06 15:31:00 JST
+# mode: julia
+	function fib2(n)
+	        n <= 2 ? 1 : memoit(fib2, n-1) + memit(fib2, n-2)
+	end
+# time: 2019-11-06 15:31:38 JST
+# mode: julia
+	fib2(4)
+# time: 2019-11-06 15:32:08 JST
+# mode: julia
+	function fib2(n)
+	        n <= 2 ? 1 : memoit(fib2, n-1) + memoit(fib2, n-2)
+	end
+# time: 2019-11-06 15:32:13 JST
+# mode: julia
+	fib2(4)
+# time: 2019-11-06 15:32:36 JST
+# mode: julia
+	@time fib2(40)
+# time: 2019-11-06 15:33:58 JST
+# mode: julia
+	fib2(400)
+# time: 2019-11-06 15:34:03 JST
+# mode: julia
+	fib2(400000)
+# time: 2019-11-06 15:34:08 JST
+# mode: julia
+	fib2(40000)
+# time: 2019-11-06 15:34:11 JST
+# mode: julia
+	fib2(400)
+# time: 2019-11-06 15:34:16 JST
+# mode: julia
+	fib2(4000)
+# time: 2019-11-06 15:42:30 JST
+# mode: julia
+	macro memo(e)
+	        println("macro @memo is run: ", e, " ", e.args)
+	        (!(typeof(e) <: Expr) || !(e.head == call)) && error("wrong @memo params")
+	        return quote
+	                memoit($(esc(e.args[1])), $(esc(e.args[2])))
+	        end
+	end
+# time: 2019-11-06 15:45:12 JST
+# mode: julia
+	function fib3(n)
+	        n <= 2 ? 1 : (@memoit fib3(n-1)) + (@memoit fib3(n-2))
+	end
+# time: 2019-11-06 15:45:22 JST
+# mode: julia
+	macro memo(e)
+	        println("macro @memo is run: ", e, " ", e.args)
+	        (!(typeof(e) <: Expr) || !(e.head == call)) && error("wrong @memo params")
+	        return quote
+	                memoit($(esc(e.args[1])), $(esc(e.args[2])))
+	        end
+	end
+# time: 2019-11-06 15:45:29 JST
+# mode: julia
+	function fib3(n)
+	        n <= 2 ? 1 : (@memoit fib3(n-1)) + (@memoit fib3(n-2))
+	end
+# time: 2019-11-06 15:46:01 JST
+# mode: julia
+	function fib3(n)
+	        n <= 2 ? 1 : (@memo fib3(n-1)) + (@memo fib3(n-2))
+	end
+# time: 2019-11-06 15:46:34 JST
+# mode: julia
+	macro memo(e)
+	        println("macro @memo is run: ", e, " ", e.args)
+	        (!(typeof(e) <: Expr) || !(e.head == :call)) && error("wrong @memo params")
+	        return quote
+	                memoit($(esc(e.args[1])), $(esc(e.args[2])))
+	        end
+	end
+# time: 2019-11-06 15:46:39 JST
+# mode: julia
+	function fib3(n)
+	        n <= 2 ? 1 : (@memo fib3(n-1)) + (@memo fib3(n-2))
+	end
+# time: 2019-11-06 15:47:20 JST
+# mode: julia
+	fib3(4)
+# time: 2019-11-06 15:47:30 JST
+# mode: julia
+	@time fib3(40)
+# time: 2019-11-06 15:49:55 JST
+# mode: pkg
+	add Memoize.jl
+# time: 2019-11-06 15:50:09 JST
+# mode: julia
+	using Memoize
+# time: 2019-11-06 15:50:52 JST
+# mode: julia
+	 function fib(n)
+	        n <= 2 ? 1 : fib(n-1) + fib(n-2)
+	end
+# time: 2019-11-06 15:51:04 JST
+# mode: julia
+	fib(40)
+# time: 2019-11-06 15:51:33 JST
+# mode: julia
+	@memoize function fib(n)
+	        n <= 2 ? 1 : fib(n-1) + fib(n-2)
+	end
+# time: 2019-11-06 15:51:51 JST
+# mode: julia
+	@time fib(40)
+# time: 2019-11-06 15:52:21 JST
+# mode: julia
+	function fib(n)
+	        n <= 2 ? 1 : fib(n-1) + fib(n-2)
+	end
+# time: 2019-11-06 15:53:13 JST
+# mode: julia
+	using Memoize
+# time: 2019-11-06 15:53:13 JST
+# mode: julia
+	function fib(n)
+	        n <= 2 ? 1 : fib(n-1) + fib(n-2)
+	end
+# time: 2019-11-06 15:53:13 JST
+# mode: julia
+	@memoize function fib(n)
+	        n <= 2 ? 1 : fib(n-1) + fib(n-2)
+	end
+# time: 2019-11-06 15:53:47 JST
+# mode: julia
+	using Memoize
+# time: 2019-11-06 15:53:47 JST
+# mode: julia
+	function fib(n)
+	        n <= 2 ? 1 : fib(n-1) + fib(n-2)
+	end
+# time: 2019-11-06 15:53:47 JST
+# mode: julia
+	@memoize function fib_memoized(n)
+	        n <= 2 ? 1 : fib(n-1) + fib(n-2)
+	end
+# time: 2019-11-06 15:54:01 JST
+# mode: julia
+	fib(4)
+# time: 2019-11-06 15:54:08 JST
+# mode: julia
+	fib_memoized(4)
+# time: 2019-11-06 15:54:27 JST
+# mode: julia
+	@time fib_memoized(40)
+# time: 2019-11-06 15:54:36 JST
+# mode: julia
+	@time fib(40)
+# time: 2019-11-06 15:55:31 JST
+# mode: julia
+	using Memoize
+# time: 2019-11-06 15:55:31 JST
+# mode: julia
+	function fib(n)
+	        n <= 2 ? 1 : fib(n-1) + fib(n-2)
+	end
+# time: 2019-11-06 15:55:31 JST
+# mode: julia
+	@memoize Dict function fib_memoized(n)
+	        n <= 2 ? 1 : fib(n-1) + fib(n-2)
+	end
+# time: 2019-11-06 15:55:40 JST
+# mode: julia
+	fib(4)
+# time: 2019-11-06 15:55:45 JST
+# mode: julia
+	fib_memoized(3)
+# time: 2019-11-06 15:55:54 JST
+# mode: julia
+	@time fib(40)
+# time: 2019-11-06 15:56:04 JST
+# mode: julia
+	@time fib_memoized(40)
+# time: 2019-11-06 16:00:20 JST
+# mode: julia
+	function sumx1(objs...)
+	        isempty(objs...) && return 0
+	        total = objs[1].x
+	        for i in 2:length(objs)
+	                total += objs[i].x
+	        end
+	        total
+	end
+# time: 2019-11-06 16:01:10 JST
+# mode: julia
+	struct x::Int end
+# time: 2019-11-06 16:01:10 JST
+# mode: julia
+	struct x::Float64 end
+# time: 2019-11-06 16:01:30 JST
+# mode: julia
+	# generated function
+# time: 2019-11-06 16:01:30 JST
+# mode: julia
+	struct A x::Int end
+# time: 2019-11-06 16:01:30 JST
+# mode: julia
+	struct B x::Float64 end
+# time: 2019-11-06 16:01:54 JST
+# mode: julia
+	sumx1(A(5), B(4.5))
+# time: 2019-11-06 16:02:08 JST
+# mode: julia
+	sumx1(A(5), B(4))
+# time: 2019-11-06 16:02:32 JST
+# mode: julia
+	function sumx1(objs...)
+	        isempty(objs) && return 0
+	        total = objs[1].x
+	        for i in 2:length(objs)
+	                total += objs[i].x
+	        end
+	        total
+	end
+# time: 2019-11-06 16:02:38 JST
+# mode: julia
+	sumx1(A(5), B(4))
+# time: 2019-11-06 16:11:11 JST
+# mode: julia
+	@generated function sumx2(objs...)
+	        isempty(objs) && return 0
+	        total =  :(objs[1].x)
+	        for i in 2:length(objs)
+	                total = :($total + objs[$i].x)
+	        end
+	        total
+	end
+# time: 2019-11-06 16:12:08 JST
+# mode: julia
+	sumx1(A(2), B(5)) == sumx2(A(2), B(5))
+# time: 2019-11-06 16:12:54 JST
+# mode: julia
+	using BenchmarkTools
+# time: 2019-11-06 16:14:14 JST
+# mode: julia
+	const valsx = ([A(i) for i=1:10]..., [B(i) for i=1:10])
+# time: 2019-11-06 16:14:33 JST
+# mode: julia
+	typeof(valsx)
+# time: 2019-11-06 16:14:53 JST
+# mode: julia
+	const valsx = ([A(i) for i=1:10]..., [B(i) for i=1:10]...)
+# time: 2019-11-06 16:15:55 JST
+# mode: julia
+	# generated function
+# time: 2019-11-06 16:15:55 JST
+# mode: julia
+	struct A x::Int end
+# time: 2019-11-06 16:15:55 JST
+# mode: julia
+	struct B x::Float64 end
+# time: 2019-11-06 16:15:55 JST
+# mode: julia
+	function sumx1(objs...)
+	        isempty(objs) && return 0
+	        total = objs[1].x
+	        for i in 2:length(objs)
+	                total += objs[i].x
+	        end
+	        total
+	end
+# time: 2019-11-06 16:15:55 JST
+# mode: julia
+	@generated function sumx2(objs...)
+	        isempty(objs) && return 0
+	        total =  :(objs[1].x)
+	        for i in 2:length(objs)
+	                total = :($total + objs[$i].x)
+	        end
+	        total
+	end
+# time: 2019-11-06 16:16:28 JST
+# mode: julia
+	using OhMyREPL
+# time: 2019-11-06 16:17:48 JST
+# mode: julia
+	const valsx = ([A(i) for i=1:10]..., [B(i) for i=1:10]... )
+# time: 2019-11-06 16:18:03 JST
+# mode: julia
+	typeof(valsx)
+# time: 2019-11-06 16:18:23 JST
+# mode: julia
+	[1, 2, 2]...
+# time: 2019-11-06 16:19:12 JST
+# mode: julia
+	@btime sumx1(valsx)
+# time: 2019-11-06 16:19:22 JST
+# mode: julia
+	using BenchmarkTools
+# time: 2019-11-06 16:19:23 JST
+# mode: julia
+	@btime sumx1(valsx)
+# time: 2019-11-06 16:19:46 JST
+# mode: julia
+	@btime sumx1(valsx...)
+# time: 2019-11-06 16:20:08 JST
+# mode: julia
+	@btime sumx2(valsx...)
+# time: 2019-11-06 16:46:58 JST
+# mode: julia
+	# generated function
+# time: 2019-11-06 16:46:58 JST
+# mode: julia
+	struct A x::Int end
+# time: 2019-11-06 16:46:58 JST
+# mode: julia
+	struct B x::Float64 end
+# time: 2019-11-06 16:46:58 JST
+# mode: julia
+	function sumx1(objs...)
+	        isempty(objs) && return 0
+	        total = objs[1].x
+	        for i in 2:length(objs)
+	                total += objs[i].x
+	        end
+	        total
+	end
+# time: 2019-11-06 16:46:58 JST
+# mode: julia
+	@generated function sumx2(objs...)
+	        isempty(objs) && return 0
+	        total =  :(objs[1].x)
+	        for i in 2:length(objs)
+	                total = :($total + objs[$i].x)
+	        end
+	        total
+	end
+# time: 2019-11-06 16:47:42 JST
+# mode: julia
+	@code_lowered sumx2(A(1), B(2))
+# time: 2019-11-06 16:48:12 JST
+# mode: julia
+	@code_warntype sumx2(A(1), B(2))
+# time: 2019-11-06 16:58:34 JST
+# mode: julia
+	@code_warntype sumx1(A(1), B(2))
+# time: 2019-11-06 17:19:41 JST
+# mode: julia
+	reverse
+# time: 2019-11-06 17:19:44 JST
+# mode: help
+	reverse
+# time: 2019-11-06 17:20:13 JST
+# mode: julia
+	sdfc
+# time: 2019-11-06 17:27:04 JST
+# mode: julia
+	include("/home/sinai/Scripts/linked_list.jl")
+# time: 2019-11-06 17:27:34 JST
+# mode: julia
+	charlist = LinkedList(Char)
+# time: 2019-11-06 17:28:47 JST
+# mode: julia
+	include("/home/sinai/Scripts/linked_list.jl")
+# time: 2019-11-06 17:29:00 JST
+# mode: julia
+	charlist = LinkedList(Char)
+# time: 2019-11-06 17:29:18 JST
+# mode: julia
+	collect(charlist)
+# time: 2019-11-06 17:29:53 JST
+# mode: julia
+	pushfirst!(charlist, collect("12345"))
+# time: 2019-11-06 17:30:12 JST
+# mode: julia
+	pushfirst!(charlist, collect("12345")...)
+# time: 2019-11-06 17:31:01 JST
+# mode: julia
+	include("/home/sinai/Scripts/linked_list.jl")
+# time: 2019-11-06 17:31:04 JST
+# mode: julia
+	charlist = LinkedList(Char)
+# time: 2019-11-06 17:31:07 JST
+# mode: julia
+	pushfirst!(charlist, collect("12345")...)
+# time: 2019-11-06 17:31:12 JST
+# mode: julia
+	collect(charlist)
+# time: 2019-11-06 17:31:34 JST
+# mode: julia
+	charlist[2], charlist[5]
+# time: 2019-11-06 17:31:52 JST
+# mode: julia
+	charlist[1], charlist[5]
+# time: 2019-11-06 17:32:02 JST
+# mode: julia
+	ans
+# time: 2019-11-06 17:32:38 JST
+# mode: julia
+	charlist[0]
+# time: 2019-11-06 17:36:45 JST
+# mode: julia
+	struct ListNode{T}
+	        value::T
+	        next::Union{ListNode{T}, Nothing}
+	end
+# time: 2019-11-06 17:36:45 JST
+# mode: julia
+	mutable struct LinkedList{T}
+	        head::Union{ListNode{T}, Nothing}
+	end
+# time: 2019-11-06 17:36:45 JST
+# mode: julia
+	LinkedList(T::Type) = LinkedList{T}(nothing)
+# time: 2019-11-06 17:36:45 JST
+# mode: julia
+	Base.iterate(ll::LinkedList) = 
+	ll.head === nothing ? nothing : (ll.head.value, ll.head)
+# time: 2019-11-06 17:36:45 JST
+# mode: julia
+	Base.iterate(ll::LinkedList, state::ListNode{T}) where T =
+	state.next === nothing ? nothing : (state.next.value, state.next)
+# time: 2019-11-06 17:36:45 JST
+# mode: julia
+	function Base.getindex(ll::LinkedList, idx::Integer)
+	        idx < 1 && throw(BoundsError("$idx is less than 1"))
+	        for v in ll
+	                idx -= 1
+	                idx == 0 && return v
+	        end
+	        throw(BoundsError("index beyond end of linked list"))
+	end
+# time: 2019-11-06 17:36:45 JST
+# mode: julia
+	function pushfirst!(ll::LinkedList{T}, items::T...) where T
+	        for item in reverse(items)
+	                ll.head = ListNode{T}(item, ll.head)
+	        end
+	        ll
+	end
+# time: 2019-11-06 17:36:45 JST
+# mode: julia
+	Base.show(io::IO, ll::LinkedList{T}) where T =
+	print(io, "LinkedList{$T}[" * join(ll, ", ") * "]")
+# time: 2019-11-06 17:36:45 JST
+# mode: julia
+	Base.eltype(ll::LinkedList{T}) where T = T
+# time: 2019-11-06 17:36:45 JST
+# mode: julia
+	Base.length(ll::LinkedList) = count(v -> true, ll)
+# time: 2019-11-06 17:36:45 JST
+# mode: julia
+	Base.firstindex(ll::LinkedList) = 1
+# time: 2019-11-06 17:36:45 JST
+# mode: julia
+	Base.lastindex(ll::LinkedList) = length(ll)
+# time: 2019-11-06 17:37:07 JST
+# mode: julia
+	charlist = LinkedList(Char)
+# time: 2019-11-06 17:37:28 JST
+# mode: julia
+	pushfirst!(charlist, collect("12345")...)
+# time: 2019-11-06 17:37:39 JST
+# mode: julia
+	charlist[end]

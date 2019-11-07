@@ -24,10 +24,6 @@ repo = 'tomasr/molokai'
 repo = 'majutsushi/tagbar'
 hook_add = 'nmap <F8> :TagbarToggle<CR>'
 
-#[[plugins]]
-#repo = 'powerline/powerline'
-#rtp = 'powerline/bindings/vim/'
-
 #lazy plugins
 [[plugins]]
 repo = 'cespare/vim-toml'
@@ -55,3 +51,6 @@ hook_source = 'let g:default_julia_version = "1.2"'
 
 [[plugins]]
 repo = 'thinca/vim-quickrun'
+
+[[plugins]]
+repo = 'tpope/vim-obsession'

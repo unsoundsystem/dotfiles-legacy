@@ -69,10 +69,10 @@ repo = 'w0rp/ale'
 [[plugins]]
 repo = 'philj56/vim-asm-indent'
 
-[[plugins]]
-repo = 'suoto/vim-hdl'
-
 #[[plugins]]
 #repo = 'neoclide/coc.nvim'
 #marge = '0'
 #rev = 'release'
+
+[[plugins]]
+repo = 'tpope/vim-obsession'

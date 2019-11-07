@@ -12,7 +12,6 @@ if has('nvim')
 	set undodir=$XDG_CONFIG_HOME/nvim/undo
 	set viminfo+='1000,\"1000,s1000,:1000,n~/.config/nvim/viminfo
 	source ~/.config/nvim/mycommands/MakeQuery.vim
-	set termguicolors
 	set pumblend=30
 	
 	if dein#load_state('/home/sinai/.cache/dein')
@@ -36,12 +35,6 @@ else
 		call dein#load_toml('/home/sinai/.vim/vim.toml')
 		call dein#end()
 		call dein#save_state()
-		 
-	"powerline
-	set rtp+=/home/sinai/anaconda3/lib/python3.7/site-packages/powerline/bindings/vim
-	let g:powerline_pycmd="py3"
-	set laststatus=2
-
 	endif
 endif
 
@@ -68,22 +61,23 @@ set background=dark
 colorscheme molokai
 set nopaste    
 set number    
-set clipboard+=unnamed
+set clipboard=unnamedplus
 set hidden
 set nobackup
 set tags=./tags;,tags;
+packadd termdebug
 
 set belloff=all
 set fileencodings=utf-8,sjis,iso-2022-jp,euc-jp
 nn <F4> a<C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR><Esc>
 imap <Nul> <Nop>
-set viminfo=
 set termguicolors
 set mouse=n
 set ts=4
 nn tn :tabnew 
-nn <C-S-r> :source ~/.vimrc<CR><Esc> 
-nn <C-S-t> :e ~/.vimrc<CR><Esc> 
+nn <C-i><C-i> :source ~/.vimrc<CR><Esc> 
+nn <C-o><C-o> :e ~/.vimrc<CR><Esc> 
+nn <C-b><C-b> :bn<CR><Esc>
 
 "see through
 highlight Normal ctermbg=none

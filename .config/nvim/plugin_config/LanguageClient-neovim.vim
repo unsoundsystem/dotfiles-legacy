@@ -5,6 +5,7 @@
 let g:LanguageClient_autoStart = 1
 let g:LanguageClient_serverCommands = {
 	\   'vhdl': ['hdlcc', '--lsp'],
+    \	'rust': ['rustup', 'run', 'stable', 'rls'],
 	\   'julia': ['julia', '--startup-file=no', '--history-file=no', '-e', '
 	\       using LanguageServer;
 	\       using Pkg;

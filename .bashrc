@@ -9,8 +9,12 @@ alias ls='ls --color=auto'
 alias la='ls -la --color=auto'
 alias ll='ls -la . | less'
 alias rf='rm -rf'
-alias nvim='nvim -u ~/.config/nvim/init.vim'
 alias st='st -f "HackGen Console for Powerline:size=15"'
+alias v='vim'
+alias n='nvim'
+alias t='tmux'
+alias j='julia'
+alias r='ranger'
 export PATH=~/.local/bin:~/anaconda3/bin:/home/sinai/zen:$PATH
 export XDG_CONFIG_HOME=~/.config
 export EDITOR=vim
@@ -29,14 +33,11 @@ PERL_MM_OPT="INSTALL_BASE=/home/sinai/perl5"; export PERL_MM_OPT;
 #POWERLINE_BASH_SELECT=1
 #. /usr/lib/python3.7/site-packages/powerline/bindings/bash/powerline.sh
 
-
-if [ ! -f "/etc/lsb-release" ]; then
-	#fzf
-	source /usr/share/fzf/key-bindings.bash
-	source /usr/share/fzf/completion.bash
-	export TERMINAL=st
-	eval `opam config env`
-fi
+#fzf
+source /usr/share/fzf/key-bindings.bash
+source /usr/share/fzf/completion.bash
+export TERMINAL=st
+eval `opam config env`
 
 
 #[ -n "$XTERM_VERSION" ] && transset-df -a >/dev/null
