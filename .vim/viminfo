@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # 最後の 検索パターン:
-~MSle0~/_jl_value_t
+~MSle0~/libuv
 
 # 最後の Substitute 検索パターン:
 ~MSle0&_
@@ -20,6 +20,8 @@
 $\\_
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
+:q
+|2,0,1573717610,,"q"
 :echo has('vim')
 |2,0,1573034725,,"echo has('vim')"
 :echo has('nvim')
@@ -32,8 +34,6 @@ $\\_
 |2,0,1572671206,,"w"
 :echo &ft
 |2,0,1572603676,,"echo &ft"
-:q
-|2,0,1572599081,,"q"
 :PrevimOpen
 |2,0,1572589014,,"PrevimOpen"
 :Pexplore
@@ -122,6 +122,16 @@ $\\_
 |2,0,1572059727,,"e /home/sinai/Scripts/test.c"
 
 # 検索文字列 項目の履歴 (新しいものから古いものへ):
+?/libuv
+|2,1,1573121358,47,"libuv"
+? \<uv_stream_t\>
+|2,1,1573120697,,"\\<uv_stream_t\\>"
+?/uv_stream
+|2,1,1573120691,47,"uv_stream"
+?/uv_stream_t
+|2,1,1573120641,47,"uv_stream_t"
+?/stream
+|2,1,1573120626,47,"stream"
 ?/struct Ref
 |2,1,1572599368,47,"struct Ref"
 ? \<RefValue\>
@@ -207,10 +217,10 @@ $\\_
 	end
 	
 |3,0,0,0,7,0,1572599873,"","mutable struct RefValue{T} <: Ref{T}","    x::T","    RefValue{T}() where {T} = new()","    RefValue{T}(x) where {T} = new(x)","end",""
-""1	LINE	0
+"1	LINE	0
 	n closs_compiler.sh 
 	
-|3,1,1,1,2,0,1572769575,"n closs_compiler.sh ",""
+|3,0,1,1,2,0,1572769575,"n closs_compiler.sh ",""
 "2	LINE	0
 	#wget https://ftp.gnu.org/gnu/gmp/gmp-5.1.3.tar.gz
 	#wget https://www.mpfr.org/mpfr-current/mpfr-4.0.2.tar.gz
@@ -238,239 +248,295 @@ $\\_
 	la
 	
 |3,0,9,1,2,0,1572766928,"la",""
-"-	CHAR	0
-	-nostdinc -mstack-protector-guard=global -std=c11 -Wall -Wextra -Werror -O2 -g -ffreestanding -fstack-protector-strong -lnolibc -isystem nolibc/include -z max-page-size=0x1000 -static -L. -lnolibc
-|3,0,36,0,1,0,1572766060,"-nostdinc -mstack-protector-guard=global -std=c11 -Wall -Wextra -Werror -O2 -g -ffreestanding -fstack-protector-strong -lnolibc -isystem nolibc/include -z max-page-size=0x1000 -static -L. -lnolibc"
+""-	CHAR	0
+	ovmf_vars_x64.
+|3,1,36,0,1,0,1573525188,"ovmf_vars_x64."
 
 # ファイルマーク:
-'0  44  0  ~/Scripts/exopc/sys/xok/capability.h
-|4,48,44,0,1573079947,"~/Scripts/exopc/sys/xok/capability.h"
-'1  24  0  ~/Documents/memo/MIT_exokernel.md
-|4,49,24,0,1573079944,"~/Documents/memo/MIT_exokernel.md"
-'2  91  0  ~/Scripts/exopc/sys/xok/defs.h
-|4,50,91,0,1573035301,"~/Scripts/exopc/sys/xok/defs.h"
-'3  40  0  ~/Scripts/exopc/sys/xok/desc_decl.h
-|4,51,40,0,1573035283,"~/Scripts/exopc/sys/xok/desc_decl.h"
-'4  43  0  ~/Scripts/exopc/sys/xok/init.h
-|4,52,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
-'5  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,53,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
-'6  320  0  ~/Scripts/exopc/sys/kern/syscall.c
-|4,54,320,0,1573035016,"~/Scripts/exopc/sys/kern/syscall.c"
-'7  758  0  ~/Scripts/exopc/sys/kern/disk.c
-|4,55,758,0,1573034923,"~/Scripts/exopc/sys/kern/disk.c"
-'8  7  11  ~/Scripts/julia_tips/.git/MERGE_MSG
-|4,56,7,11,1572950478,"~/Scripts/julia_tips/.git/MERGE_MSG"
-'9  1  4  /tmp/bash-fc.pyixUw
-|4,57,1,4,1572769579,"/tmp/bash-fc.pyixUw"
+'0  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,48,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
+'1  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,49,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
+'2  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,50,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
+'3  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,51,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
+'4  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,52,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
+'5  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,53,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
+'6  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,54,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
+'7  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,55,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
+'8  1  189  /tmp/bash-fc.H3eV6N
+|4,56,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+'9  1  188  /tmp/bash-fc.FeeVDL
+|4,57,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
 
 # ジャンプリスト (新しいものが先):
--'  44  0  ~/Scripts/exopc/sys/xok/capability.h
-|4,39,44,0,1573079947,"~/Scripts/exopc/sys/xok/capability.h"
--'  24  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,24,0,1573079944,"~/Documents/memo/MIT_exokernel.md"
 -'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573039506,"~/Documents/memo/MIT_exokernel.md"
--'  50  15  ~/Scripts/exopc/sys/xok/capability.h
-|4,39,50,15,1573035438,"~/Scripts/exopc/sys/xok/capability.h"
--'  87  9  ~/Scripts/exopc/sys/xok/capability.h
-|4,39,87,9,1573035416,"~/Scripts/exopc/sys/xok/capability.h"
--'  1  0  ~/Scripts/exopc/sys/xok/capability.h
-|4,39,1,0,1573035309,"~/Scripts/exopc/sys/xok/capability.h"
--'  91  0  ~/Scripts/exopc/sys/xok/defs.h
-|4,39,91,0,1573035301,"~/Scripts/exopc/sys/xok/defs.h"
--'  91  0  ~/Scripts/exopc/sys/xok/defs.h
-|4,39,91,0,1573035301,"~/Scripts/exopc/sys/xok/defs.h"
--'  91  0  ~/Scripts/exopc/sys/xok/defs.h
-|4,39,91,0,1573035301,"~/Scripts/exopc/sys/xok/defs.h"
--'  1  0  ~/Scripts/exopc/sys/xok/defs.h
-|4,39,1,0,1573035287,"~/Scripts/exopc/sys/xok/defs.h"
--'  1  0  ~/Scripts/exopc/sys/xok/defs.h
-|4,39,1,0,1573035287,"~/Scripts/exopc/sys/xok/defs.h"
--'  1  0  ~/Scripts/exopc/sys/xok/defs.h
-|4,39,1,0,1573035287,"~/Scripts/exopc/sys/xok/defs.h"
--'  40  0  ~/Scripts/exopc/sys/xok/desc_decl.h
-|4,39,40,0,1573035283,"~/Scripts/exopc/sys/xok/desc_decl.h"
--'  40  0  ~/Scripts/exopc/sys/xok/desc_decl.h
-|4,39,40,0,1573035283,"~/Scripts/exopc/sys/xok/desc_decl.h"
--'  40  0  ~/Scripts/exopc/sys/xok/desc_decl.h
-|4,39,40,0,1573035283,"~/Scripts/exopc/sys/xok/desc_decl.h"
--'  40  0  ~/Scripts/exopc/sys/xok/desc_decl.h
-|4,39,40,0,1573035283,"~/Scripts/exopc/sys/xok/desc_decl.h"
--'  40  0  ~/Scripts/exopc/sys/xok/desc_decl.h
-|4,39,40,0,1573035283,"~/Scripts/exopc/sys/xok/desc_decl.h"
--'  40  0  ~/Scripts/exopc/sys/xok/desc_decl.h
-|4,39,40,0,1573035283,"~/Scripts/exopc/sys/xok/desc_decl.h"
--'  1  0  ~/Scripts/exopc/sys/xok/desc_decl.h
-|4,39,1,0,1573035277,"~/Scripts/exopc/sys/xok/desc_decl.h"
--'  1  0  ~/Scripts/exopc/sys/xok/desc_decl.h
-|4,39,1,0,1573035277,"~/Scripts/exopc/sys/xok/desc_decl.h"
--'  1  0  ~/Scripts/exopc/sys/xok/desc_decl.h
-|4,39,1,0,1573035277,"~/Scripts/exopc/sys/xok/desc_decl.h"
--'  1  0  ~/Scripts/exopc/sys/xok/desc_decl.h
-|4,39,1,0,1573035277,"~/Scripts/exopc/sys/xok/desc_decl.h"
--'  1  0  ~/Scripts/exopc/sys/xok/desc_decl.h
-|4,39,1,0,1573035277,"~/Scripts/exopc/sys/xok/desc_decl.h"
--'  1  0  ~/Scripts/exopc/sys/xok/desc_decl.h
-|4,39,1,0,1573035277,"~/Scripts/exopc/sys/xok/desc_decl.h"
--'  43  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
--'  43  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
--'  43  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
--'  43  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
--'  43  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
--'  43  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
--'  43  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
--'  43  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
--'  43  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
--'  43  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
--'  43  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
--'  43  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,43,0,1573035261,"~/Scripts/exopc/sys/xok/init.h"
--'  1  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
--'  1  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
--'  1  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
--'  1  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
--'  1  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
--'  1  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
--'  1  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
--'  1  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
--'  1  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
--'  1  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
--'  1  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
--'  1  0  ~/Scripts/exopc/sys/xok/init.h
-|4,39,1,0,1573035256,"~/Scripts/exopc/sys/xok/init.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  95  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,95,0,1573035122,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  1  0  ~/Scripts/exopc/sys/xok/disk.h
-|4,39,1,0,1573035077,"~/Scripts/exopc/sys/xok/disk.h"
--'  320  0  ~/Scripts/exopc/sys/kern/syscall.c
-|4,39,320,0,1573035016,"~/Scripts/exopc/sys/kern/syscall.c"
--'  320  0  ~/Scripts/exopc/sys/kern/syscall.c
-|4,39,320,0,1573035016,"~/Scripts/exopc/sys/kern/syscall.c"
--'  320  0  ~/Scripts/exopc/sys/kern/syscall.c
-|4,39,320,0,1573035016,"~/Scripts/exopc/sys/kern/syscall.c"
--'  320  0  ~/Scripts/exopc/sys/kern/syscall.c
-|4,39,320,0,1573035016,"~/Scripts/exopc/sys/kern/syscall.c"
+|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  188  /tmp/bash-fc.FeeVDL
+|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
 
 > ~/Documents/memo/MIT_exokernel.md
-	*	1573039516	0
-	"	24	0
+	*	1573717604	0
+	"	1	0
+
+> /tmp/bash-fc.H3eV6N
+	*	1573525254	0
+	"	1	189
+	^	1	189
+	.	2	0
+	+	2	0
+
+> /tmp/bash-fc.FeeVDL
+	*	1573525241	0
+	"	1	188
+	^	1	188
+	.	1	188
+	+	1	188
+
+> /tmp/bash-fc.GjHR4O
+	*	1573525218	0
+	"	1	184
+	^	1	185
+	.	1	184
+	+	1	184
+
+> /tmp/bash-fc.OJaCpO
+	*	1573525206	0
+	"	1	186
+	^	1	187
+	.	1	186
+	+	1	176
+	+	1	0
+	+	1	186
+
+> ~/Scripts/julia_src/julia_7/deps/libuv.mk
+	*	1573124212	0
+	"	67	0
+
+> ~/Scripts/julia_src/julia_7/deps/Makefile
+	*	1573121522	0
+	"	57	0
+
+> ~/Scripts/libuv/include/uv.h
+	*	1573120882	0
+	"	413	2
+
+> ~/Scripts/libuv/include/uv/unix.h
+	*	1573120859	0
+	"	270	0
+
+> ~/Scripts/libuv/src/unix/stream.c
+	*	1573120706	0
+	"	1628	22
+
+> ~/Scripts/libuv/src/unix/internal.h
+	*	1573120655	0
+	"	207	38
+
+> ~/Scripts/libuv/src/uv-common.h
+	*	1573120605	0
+	"	1	0
 
 > ~/Scripts/exopc/sys/xok/capability.h
 	*	1573035508	0
@@ -1191,86 +1257,3 @@ $\\_
 > ~/Documents/c
 	*	1572263288	0
 	"	1	0
-
-> /tmp/bash-fc.6UlRwW
-	*	1572262313	0
-	"	1	58
-	^	1	59
-	.	1	58
-	+	1	111
-	+	1	115
-	+	1	58
-
-> ~/Scripts/Makefile
-	*	1572262207	0
-	"	1	0
-
-> ~/Scripts/julia_src/julia_7/test/embedding/embedding.c
-	*	1572262038	0
-	"	1	0
-
-> /tmp/bash-fc.uv2ZE8
-	*	1572262035	0
-	"	1	1
-	^	1	2
-	.	1	1
-	+	1	1
-
-> ~/Scripts/julia_src/julia_7/test/embedding/embedding
-	*	1572262009	0
-	"	1	0
-
-> /tmp/bash-fc.1K76VZ
-	*	1572261773	0
-	"	1	13
-	^	1	14
-	.	1	14
-	+	1	104
-	+	1	112
-	+	2	0
-	+	1	14
-
-> /tmp/bash-fc.6i1Z5Y
-	*	1572261261	0
-	"	1	46
-	^	1	47
-	.	1	46
-	+	1	46
-
-> /tmp/bash-fc.zjy6iZ
-	*	1572261239	0
-	"	1	90
-	^	1	91
-	.	1	91
-	+	1	91
-
-> /tmp/bash-fc.69BKiZ
-	*	1572261216	0
-	"	1	51
-	.	1	110
-	+	1	110
-
-> /tmp/bash-fc.DXJAbY
-	*	1572261121	0
-	"	1	0
-	^	1	99
-	.	1	0
-	+	1	112
-	+	2	0
-	+	1	98
-	+	1	0
-
-> ~/Scripts/call_julia/call_jl.c
-	*	1572260815	0
-	"	9	8
-	^	9	9
-	.	9	9
-	+	1	0
-	+	3	17
-	+	8	1
-	+	12	0
-	+	5	71
-	+	12	0
-	+	10	33
-	+	11	19
-	+	9	9

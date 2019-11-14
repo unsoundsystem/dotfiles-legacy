@@ -8083,3 +8083,60 @@
 # time: 2019-11-06 17:37:39 JST
 # mode: julia
 	charlist[end]
+# time: 2019-11-07 17:56:46 JST
+# mode: julia
+	path = joinpath(Sys.BINDIR, Base.DATAROOTDIR, "julia", "julia-config.jl")
+# time: 2019-11-07 17:57:14 JST
+# mode: julia
+	run(`$path --all-flags`)
+# time: 2019-11-07 17:57:25 JST
+# mode: julia
+	run(`$path --allflags`)
+# time: 2019-11-07 17:59:11 JST
+# mode: julia
+	run(`$(joinpath(Sys.BINDIR, Base.DATAROOTDIR, "julia", "julia-config.jl")) --allflags`)
+# time: 2019-11-07 18:00:26 JST
+# mode: julia
+	import Base
+# time: 2019-11-07 18:00:50 JST
+# mode: julia
+	using Base:julia_command
+# time: 2019-11-07 18:00:52 JST
+# mode: julia
+	using Base:julia_commands
+# time: 2019-11-07 18:01:03 JST
+# mode: julia
+	using Base:jl_commands
+# time: 2019-11-07 18:01:05 JST
+# mode: julia
+	using Base:jl_command
+# time: 2019-11-07 18:01:38 JST
+# mode: julia
+	using Base:julia_cmd
+# time: 2019-11-07 18:01:46 JST
+# mode: julia
+	julia_cmd()
+# time: 2019-11-07 20:15:53 JST
+# mode: julia
+	println()
+# time: 2019-11-07 20:15:59 JST
+# mode: julia
+	println("hello")
+# time: 2019-11-07 20:40:26 JST
+# mode: julia
+	using Base:_require_dependencies
+# time: 2019-11-07 20:40:50 JST
+# mode: julia
+	Base._require_dependencies
+# time: 2019-11-07 20:40:53 JST
+# mode: julia
+	Base._require_dependencies()
+# time: 2019-11-07 20:41:34 JST
+# mode: julia
+	using Base:tot_time_stdlib
+# time: 2019-11-07 20:41:41 JST
+# mode: julia
+	Base.tot_time_stdlib[]
+# time: 2019-11-14 12:26:12 JST
+# mode: julia
+	[1, 2, 3]::Array
