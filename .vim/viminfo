@@ -20,14 +20,14 @@
 $\\_
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
+:wq
+|2,0,1573896413,,"wq"
 :q
 |2,0,1573717610,,"q"
 :echo has('vim')
 |2,0,1573034725,,"echo has('vim')"
 :echo has('nvim')
 |2,0,1573034703,,"echo has('nvim')"
-:wq
-|2,0,1572950478,,"wq"
 :q!
 |2,0,1572769429,,"q!"
 :w
@@ -249,32 +249,40 @@ $\\_
 	
 |3,0,9,1,2,0,1572766928,"la",""
 ""-	CHAR	0
-	ovmf_vars_x64.
-|3,1,36,0,1,0,1573525188,"ovmf_vars_x64."
+	--cache-dir /home/sinai/Scripts/exokernel/zen-cache 
+|3,1,36,0,1,0,1573896406,"--cache-dir /home/sinai/Scripts/exokernel/zen-cache "
 
 # ファイルマーク:
-'0  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,48,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
+'0  1  69  /tmp/bash-fc.hJYlzn
+|4,48,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
 '1  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,49,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
+|4,49,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
 '2  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,50,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
+|4,50,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
 '3  1  0  ~/Documents/memo/MIT_exokernel.md
 |4,51,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
 '4  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,52,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
+|4,52,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
 '5  1  0  ~/Documents/memo/MIT_exokernel.md
 |4,53,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
 '6  1  0  ~/Documents/memo/MIT_exokernel.md
 |4,54,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
 '7  1  0  ~/Documents/memo/MIT_exokernel.md
 |4,55,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
-'8  1  189  /tmp/bash-fc.H3eV6N
-|4,56,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
-'9  1  188  /tmp/bash-fc.FeeVDL
-|4,57,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+'8  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,56,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
+'9  1  189  /tmp/bash-fc.H3eV6N
+|4,57,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
 
 # ジャンプリスト (新しいものが先):
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
 -'  1  0  ~/Documents/memo/MIT_exokernel.md
 |4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
 -'  1  0  ~/Documents/memo/MIT_exokernel.md
@@ -288,11 +296,29 @@ $\\_
 -'  1  0  ~/Documents/memo/MIT_exokernel.md
 |4,39,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
 -'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
 |4,39,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
 -'  1  0  ~/Documents/memo/MIT_exokernel.md
 |4,39,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
 -'  1  0  ~/Documents/memo/MIT_exokernel.md
 |4,39,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
+-'  1  0  ~/Documents/memo/MIT_exokernel.md
+|4,39,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
 -'  1  0  ~/Documents/memo/MIT_exokernel.md
 |4,39,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
 -'  1  0  ~/Documents/memo/MIT_exokernel.md
@@ -395,86 +421,68 @@ $\\_
 |4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
 -'  1  189  /tmp/bash-fc.H3eV6N
 |4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
--'  1  188  /tmp/bash-fc.FeeVDL
-|4,39,1,188,1573525242,"/tmp/bash-fc.FeeVDL"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
+-'  1  189  /tmp/bash-fc.H3eV6N
+|4,39,1,189,1573525257,"/tmp/bash-fc.H3eV6N"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
+
+> /tmp/bash-fc.hJYlzn
+	*	1573896406	0
+	"	1	69
+	.	1	69
+	+	1	69
 
 > ~/Documents/memo/MIT_exokernel.md
 	*	1573717604	0
@@ -1253,7 +1261,3 @@ $\\_
 	.	78	27
 	+	78	6
 	+	78	27
-
-> ~/Documents/c
-	*	1572263288	0
-	"	1	0

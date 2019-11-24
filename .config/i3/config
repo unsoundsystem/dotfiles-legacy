@@ -187,8 +187,8 @@ bindsym $mod+n exec st -f "HackGen Console for Powerline:size=15" -e ncmpcpp
 bindsym $mod+i exec st -f "HackGen Console for Powerline:size=15" -e ranger
 bindsym $mod+Shift+n exec st -f "HackGen Console for Powerline:size=15" -e nmtui
 bindsym $mod+o exec st -f "HackGen Console for Powerline:size=15" -e vim
+bindsym $mod+t exec st -f "HackGen Console for Powerline:size=15" -e tmux
 bindsym $mod+d exec rofi -font "HackGen 15" -show
-#bindsym $mod+c exec conky
 
 #touch pad on/off
 bindsym $mod+F6 exec sh /home/sinai/.config/i3/scripts/touchpad_toggle
