@@ -15,6 +15,7 @@ alias n='nvim'
 alias t='tmux'
 alias j='julia'
 alias r='ranger'
+alias z='zen'
 export PATH=~/.local/bin:~/anaconda3/bin:/home/sinai/zen:$PATH
 export XDG_CONFIG_HOME=~/.config
 export EDITOR=vim

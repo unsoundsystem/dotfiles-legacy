@@ -6,7 +6,7 @@ if &compatible
 endif    
 
 " Add the dein installation directory into runtimepath    
-set runtimepath+=/home/sinai/.cache/dein/repos/github.com/Shougo/dein.vim    
+set runtimepath+=/home/sasuseso/.cache/dein/repos/github.com/Shougo/dein.vim    
 
 if has('nvim')
 	set undodir=$XDG_CONFIG_HOME/nvim/undo
@@ -14,10 +14,10 @@ if has('nvim')
 	source ~/.config/nvim/mycommands/MakeQuery.vim
 	set pumblend=30
 	
-	if dein#load_state('/home/sinai/.cache/dein')
-		call dein#begin('/home/sinai/.cache/dein')
-		call dein#load_toml('/home/sinai/.config/nvim/tomls/dein.toml', {'lazy': 0})
-		call dein#load_toml('/home/sinai/.config/nvim/tomls/dein_lazy.toml', {'lazy': 1})
+	if dein#load_state('/home/sasuseso/.cache/dein')
+		call dein#begin('/home/sasuseso/.cache/dein')
+		call dein#load_toml('/home/sasuseso/.config/nvim/tomls/dein.toml', {'lazy': 0})
+		call dein#load_toml('/home/sasuseso/.config/nvim/tomls/dein_lazy.toml', {'lazy': 1})
 		call dein#end()
 		call dein#save_state()
 	endif
@@ -30,9 +30,9 @@ else
 	endfor
 	imap <expr> <TAB> pumvisible() ? "\<Down>" : "\<Tab>"
 
-	if dein#load_state('/home/sinai/.cache/dein')
-		call dein#begin('/home/sinai/.cache/dein')
-		call dein#load_toml('/home/sinai/.vim/vim.toml')
+	if dein#load_state('/home/sasuseso/.cache/dein')
+		call dein#begin('/home/sasuseso/.cache/dein')
+		call dein#load_toml('/home/sasuseso/.vim/vim.toml')
 		call dein#end()
 		call dein#save_state()
 	endif

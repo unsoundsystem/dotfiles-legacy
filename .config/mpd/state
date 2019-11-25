@@ -1,9 +1,8 @@
 sw_volume: 80
 audio_device_state:1:My Pulse Output
 audio_device_state:1:my_fifo
-state: play
-current: 78
-time: 0.561000
+state: stop
+current: 195
 random: 0
 repeat: 1
 single: 0
@@ -269,4 +268,26 @@ playlist_begin
 254:bgm/11 50 Years Ago.wma
 255:bgm/Jazz_Me_Blues.mp3
 256:bgm/Morning_Stroll.mp3
+257:jazz/Joe Pass - Virtuoso/01 - Joe Pass - Night And Day (Cole Porrer).wav
+258:jazz/Joe Pass - Virtuoso/02 - Joe Pass - Stella By Starlight (V.Young-H.Washington).wav
+259:jazz/Joe Pass - Virtuoso/03 - Joe Pass - Here's That Rainy Day (J.Burke-J.Van Heusen).wav
+260:jazz/Joe Pass - Virtuoso/04 - Joe Pass - My Old Flame (A.Johnson-S.Coslow).wav
+261:jazz/Joe Pass - Virtuoso/05 - Joe Pass - How High The Moon (Ray Noble).wav
+262:jazz/Joe Pass - Virtuoso/06 - Joe Pass - Cherokee (N.Hamilton-M.Lewis).wav
+263:jazz/Joe Pass - Virtuoso/07 - Joe Pass - Sweet Lorraine (C.Burwell-M.Parish).wav
+264:jazz/Joe Pass - Virtuoso/08 - Joe Pass - Have You Met Miss Jones (Rodgers-Hart).wav
+265:jazz/Joe Pass - Virtuoso/09 - Joe Pass - Round Midnight (hanighen-Williams-Monk).wav
+266:jazz/Joe Pass - Virtuoso/10 - Joe Pass - All The Things You Are (Hammerstein II-Kern).wav
+267:jazz/Joe Pass - Virtuoso/11 - Joe Pass - Blues For Alican (joe Pass).wav
+268:jazz/Joe Pass - Virtuoso/12 - Joe Pass - The Song Is You (Hammerstein II-Kern).wav
+269:jazz/Wes Montgomery - A Day In The Life/01 - Wes Montgomery - A Day In The Life.wav
+270:jazz/Wes Montgomery - A Day In The Life/02 - Wes Montgomery - Watch What Happens.wav
+271:jazz/Wes Montgomery - A Day In The Life/03 - Wes Montgomery - When A Man Loves A Woman.wav
+272:jazz/Wes Montgomery - A Day In The Life/04 - Wes Montgomery - California Nights.wav
+273:jazz/Wes Montgomery - A Day In The Life/05 - Wes Montgomery - Angel.wav
+274:jazz/Wes Montgomery - A Day In The Life/06 - Wes Montgomery - Eleanor Rigby.wav
+275:jazz/Wes Montgomery - A Day In The Life/07 - Wes Montgomery - Willow Weep For Me.wav
+276:jazz/Wes Montgomery - A Day In The Life/08 - Wes Montgomery - Windy.wav
+277:jazz/Wes Montgomery - A Day In The Life/09 - Wes Montgomery - Trust In Me.wav
+278:jazz/Wes Montgomery - A Day In The Life/10 - Wes Montgomery - The Joker.wav
 playlist_end

@@ -1,1 +1,1 @@
-/home/sinai/.vimrc
+/home/sasuseso/.vimrc

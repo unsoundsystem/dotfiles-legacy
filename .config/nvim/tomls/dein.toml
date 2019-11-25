@@ -2,7 +2,7 @@
 repo = 'autozimu/LanguageClient-neovim' 
 rev = 'next'
 build = 'bash install.sh'
-hook_source = '''source /home/sinai/.config/nvim/plugin_config/LanguageClient-neovim.vim'''
+hook_source = '''source /home/sasuseso/.config/nvim/plugin_config/LanguageClient-neovim.vim'''
 
 [[plugins]]
 repo = 'Shougo/dein.vim'
@@ -32,7 +32,7 @@ hook_add = 'nmap <F8> :TagbarToggle<CR>'
 repo = 'Shougo/deoplete.nvim'
 hook_add = '''
 let g:deoplete#enable_at_startup = 1
-let g:python3_host_prog='/home/sinai/anaconda3/bin/python'
+let g:python3_host_prog='/home/sasuseso/anaconda3/bin/python'
 '''
 [[plugins]]
 repo = 'scrooloose/nerdcommenter'
