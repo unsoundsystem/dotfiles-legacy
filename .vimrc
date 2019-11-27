@@ -40,11 +40,12 @@ endif
 
 "filetype and Templetes
 augroup vimrc    
-        au!    
-        au BufNewFile,BufRead *.jl setfiletype julia    
-        au BufNewFile,BufRead *.zen  setfiletype zen    
-        au BufNewFile,BufNewFile *.csv setfiletype csv    
-        au BufNewFile,BufNewFile *.lds setfiletype ld
+    au!    
+    au BufNewFile,BufRead *.jl setfiletype julia    
+    au BufNewFile,BufRead *.zen  setfiletype zen    
+    au BufNewFile,BufRead *.csv setfiletype csv    
+    au BufNewFile,BufRead *.lds setfiletype ld
+    au BufNewFile,BufRead *.nasm setfiletype nasm
 		au BufNewfile *.c 0r ~/Templetes/c.c
 		au BufNewfile *.jl 0r ~/Templetes/julia.jl
 		au BufNewFile *.sh 0r ~/Templetes/shell.sh
@@ -73,7 +74,7 @@ nn <F4> a<C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR><Esc>
 imap <Nul> <Nop>
 set termguicolors
 set mouse=n
-set ts=4
+set ts=2
 nn tn :tabnew 
 nn <C-i><C-i> :source ~/.vimrc<CR><Esc> 
 nn <C-o><C-o> :e ~/.vimrc<CR><Esc> 

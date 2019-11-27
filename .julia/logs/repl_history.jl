@@ -8140,3 +8140,226 @@
 # time: 2019-11-14 12:26:12 JST
 # mode: julia
 	[1, 2, 3]::Array
+# time: 2019-11-27 09:46:55 JST
+# mode: julia
+	Cstring
+# time: 2019-11-27 09:46:58 JST
+# mode: julia
+	Cstring()
+# time: 2019-11-27 09:48:41 JST
+# mode: julia
+	pwd()
+# time: 2019-11-27 09:49:08 JST
+# mode: julia
+	f = read("Scripts/linker_and_loader/pointer")
+# time: 2019-11-27 09:49:28 JST
+# mode: julia
+	using ELF
+# time: 2019-11-27 09:49:42 JST
+# mode: julia
+	ehdr = Elf64_Ehdr(f)
+# time: 2019-11-27 09:50:54 JST
+# mode: julia
+	shstr = Elf64_Shdr(f, ehdr.e_shoff + ehdr.e_shentsize * ehdr.e_shstrndx)
+# time: 2019-11-27 09:51:32 JST
+# mode: julia
+	for i in 0:ehdr.e_shnum-1
+	        shdr = Elf64_Shdr(head, ehdr.e_shoff + ehdr.e_shentsize * i)
+	        sname = read_name(head, shstr.sh_offset + shdr.sh_name + 1)
+	        println("\t[$i]\t$sname")
+	    end
+# time: 2019-11-27 09:53:05 JST
+# mode: julia
+	shdr = Elf64_Shdr(head, ehdr.e_shoff + ehdr.e_shentsize * i)
+# time: 2019-11-27 09:53:18 JST
+# mode: julia
+	shdr = Elf64_Shdr(head, ehdr.e_shoff + ehdr.e_shentsize * 0)
+# time: 2019-11-27 09:53:26 JST
+# mode: julia
+	shdr = Elf64_Shdr(f, ehdr.e_shoff + ehdr.e_shentsize * 0)
+# time: 2019-11-27 09:53:35 JST
+# mode: julia
+	shdr = Elf64_Shdr(f, ehdr.e_shoff + ehdr.e_shentsize * 1)
+# time: 2019-11-27 09:56:57 JST
+# mode: julia
+	a = 0
+# time: 2019-11-27 09:57:08 JST
+# mode: julia
+	Ptr{UInt8}(a)
+# time: 2019-11-27 09:57:47 JST
+# mode: julia
+	pointer_from_objref(a)
+# time: 2019-11-27 10:00:51 JST
+# mode: help
+	Cstring
+# time: 2019-11-27 10:01:04 JST
+# mode: help
+	Cstring()
+# time: 2019-11-27 10:01:22 JST
+# mode: julia
+	Cstring()
+# time: 2019-11-27 10:01:47 JST
+# mode: help
+	Ref
+# time: 2019-11-27 10:02:56 JST
+# mode: julia
+	a = [0x23, 0x42, 0x22]
+# time: 2019-11-27 10:03:01 JST
+# mode: julia
+	pointer(a)
+# time: 2019-11-27 10:03:06 JST
+# mode: julia
+	pointer(a[1])
+# time: 2019-11-27 10:03:20 JST
+# mode: julia
+	pointer(a, 2)
+# time: 2019-11-27 10:03:39 JST
+# mode: julia
+	Cstring(ans)
+# time: 2019-11-27 10:04:08 JST
+# mode: julia
+	ans
+# time: 2019-11-27 10:04:20 JST
+# mode: julia
+	typeof(ans)
+# time: 2019-11-27 10:05:08 JST
+# mode: julia
+	pointer(a, 2)
+# time: 2019-11-27 10:05:17 JST
+# mode: julia
+	unsafe_string(ans)
+# time: 2019-11-27 10:06:44 JST
+# mode: julia
+	pointer(f, shstr.sh_offset * shdr.sh_name + 1)
+# time: 2019-11-27 10:06:57 JST
+# mode: julia
+	unsafe_string(ans)
+# time: 2019-11-27 10:07:38 JST
+# mode: julia
+	pointer(f, shstr.sh_offset + shdr.sh_name + 1)
+# time: 2019-11-27 10:07:41 JST
+# mode: julia
+	unsafe_string(ans)
+# time: 2019-11-27 10:21:39 JST
+# mode: julia
+	using Markdown
+# time: 2019-11-27 10:22:00 JST
+# mode: julia
+	Markdown.parse("# Title")
+# time: 2019-11-27 10:34:27 JST
+# mode: help
+	Cstring
+# time: 2019-11-27 10:34:57 JST
+# mode: julia
+	@edit Cstring
+# time: 2019-11-27 10:35:16 JST
+# mode: julia
+	@edit Cstring(Ptr{UInt8})
+# time: 2019-11-27 10:35:28 JST
+# mode: julia
+	@edit Cstring(Ptr{UInt8}(0x00))
+# time: 2019-11-27 10:36:14 JST
+# mode: julia
+	Ptr{UInt8}(0x00)
+# time: 2019-11-27 10:36:29 JST
+# mode: julia
+	a = 0
+# time: 2019-11-27 10:36:32 JST
+# mode: julia
+	Ptr{UInt8}(a)
+# time: 2019-11-27 10:36:45 JST
+# mode: julia
+	@edit Cstring(ans)
+# time: 2019-11-27 10:38:27 JST
+# mode: help
+	Cstring
+# time: 2019-11-27 10:40:37 JST
+# mode: help
+	UInt8
+# time: 2019-11-27 10:41:28 JST
+# mode: julia
+	using ELF
+# time: 2019-11-27 10:41:47 JST
+# mode: help
+	Elf64_Ehdr
+# time: 2019-11-27 10:42:47 JST
+# mode: julia
+	using ELF
+# time: 2019-11-27 10:42:54 JST
+# mode: help
+	Elf64_Ehdr
+# time: 2019-11-27 10:44:25 JST
+# mode: help
+	MD
+# time: 2019-11-27 10:44:32 JST
+# mode: julia
+	using Markdown
+# time: 2019-11-27 10:44:40 JST
+# mode: help
+	MD
+# time: 2019-11-27 10:44:47 JST
+# mode: help
+	Markdown.MD
+# time: 2019-11-27 10:46:52 JST
+# mode: pkg
+	st
+# time: 2019-11-27 10:47:07 JST
+# mode: julia
+	using Colors
+# time: 2019-11-27 10:47:24 JST
+# mode: help
+	Colors
+# time: 2019-11-27 10:47:36 JST
+# mode: help
+	ColorTypes
+# time: 2019-11-27 10:47:52 JST
+# mode: pkg
+	st
+# time: 2019-11-27 10:48:37 JST
+# mode: julia
+	Markdown.Code
+# time: 2019-11-27 10:48:40 JST
+# mode: help
+	Markdown.Code
+# time: 2019-11-27 10:52:21 JST
+# mode: julia
+	using HTTP
+# time: 2019-11-27 10:53:42 JST
+# mode: help
+	HTTP.URL
+# time: 2019-11-27 10:53:48 JST
+# mode: help
+	HTTP
+# time: 2019-11-27 10:54:04 JST
+# mode: help
+	HTTP.Layers
+# time: 2019-11-27 10:54:16 JST
+# mode: help
+	HTTP.GZIP
+# time: 2019-11-27 11:04:53 JST
+# mode: pkg
+	add Revise
+# time: 2019-11-27 11:06:39 JST
+# mode: pkg
+	st
+# time: 2019-11-27 11:06:50 JST
+# mode: pkg
+	?
+# time: 2019-11-27 11:06:57 JST
+# mode: pkg
+	?dev
+# time: 2019-11-27 11:07:17 JST
+# mode: pkg
+	dev ELF
+# time: 2019-11-27 11:07:31 JST
+# mode: pkg
+	add ELF
+# time: 2019-11-27 11:08:01 JST
+# mode: pkg
+	dev --local ELF
+# time: 2019-11-27 11:32:03 JST
+# mode: julia
+	jijijijijijij
+# time: 2019-11-27 11:54:43 JST
+# mode: pkg
+	add StaticCompiler

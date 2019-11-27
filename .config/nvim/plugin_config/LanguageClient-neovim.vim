@@ -25,7 +25,7 @@ let g:LanguageClient_serverCommands = {
 let g:LanguageClient_loggingLevel = 'DEBUG'
 let g:LanguageClient_loggingFile = expand('~/.config/nvim/LanguageClient.log')
 let g:LanguageClient_loadSettings = 1
-let g:LanguageClient_settingsPath = '/home/sinai/.config/nvim/settings.json'
+let g:LanguageClient_settingsPath = '/home/sasuseso/.config/nvim/settings.json'
 set completefunc=LanguageClient#complete
 set formatexpr=LanguageClient_textDocument_rangeFormatting()
 

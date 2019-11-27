@@ -1,148 +1,58 @@
 #######
-LanguageClient 0.1.154 
+LanguageClient 0.1.155 
 #######
-18:55:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["[!!get(g:, 'LanguageClient_autoStart', 1), s:GetVar('LanguageClient_serverCommands', {}), get(g:, 'LanguageClient_selectionUI', v:null), get(g:, 'LanguageClient_trace', v:null), expand(get(g:, 'LanguageClient_settingsPath', '.vim/settings.json')), !!get(g:, 'LanguageClient_loadSettings', 1), get(g:, 'LanguageClient_rootMarkers', v:null), get(g:, 'LanguageClient_changeThrottle', v:null), get(g:, 'LanguageClient_waitOutputTimeout', v:null), !!get(g:, 'LanguageClient_diagnosticsEnable', 1), get(g:, 'LanguageClient_diagnosticsList', 'Quickfix'), get(g:, 'LanguageClient_diagnosticsDisplay', {}), get(g:, 'LanguageClient_windowLogMessageLevel', 'Warning'), get(g:, 'LanguageClient_hoverPreview', 'Auto'), get(g:, 'LanguageClient_completionPreferTextEdit', 0), has('nvim')]"],"id":6}
-18:55:21 INFO reader-None src/rpcclient.rs:169 <= None {"id": 5, "jsonrpc": "2.0", "result": [1, {"c": ["cquery", "--log-file=/tmp/cq.log"], "julia": ["julia", "--startup-file=no", "--history-file=no", "-e", "       using LanguageServer;       using Pkg;       import StaticLint;       import SymbolServer;       env_path = dirname(Pkg.Types.Context().env.project_file);       debug = false;               server = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, \"\", Dict());       server.runlinter = true;       run(server);   "], "vhdl": ["hdlcc", "--lsp"], "rust": ["rustup", "run", "stable", "rls"], "cpp": ["cquery", "--log-file=/tmp/cq.log"], "python": ["pyls"]}, null, null, "/home/sinai/.config/nvim/settings.json", 1, null, null, null, 1, "Quickfix", {}, "Warning", "Auto", 0, 1]}
-18:55:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["[get(g:, 'LanguageClient_diagnosticsSignsMax', v:null), get(g:, 'LanguageClient_diagnosticsMaxSeverity', 'Hint'), get(g:, 'LanguageClient_documentHighlightDisplay', {}), !!s:GetVar('LanguageClient_selectionUI_autoOpen', 1), s:useVirtualText(), !!s:GetVar('LanguageClient_echoProjectRoot', 1)]"],"id":7}
-18:55:21 INFO reader-None src/rpcclient.rs:169 <= None {"id": 6, "jsonrpc": "2.0", "result": [1, {"c": ["cquery", "--log-file=/tmp/cq.log"], "julia": ["julia", "--startup-file=no", "--history-file=no", "-e", "       using LanguageServer;       using Pkg;       import StaticLint;       import SymbolServer;       env_path = dirname(Pkg.Types.Context().env.project_file);       debug = false;               server = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, \"\", Dict());       server.runlinter = true;       run(server);   "], "vhdl": ["hdlcc", "--lsp"], "rust": ["rustup", "run", "stable", "rls"], "cpp": ["cquery", "--log-file=/tmp/cq.log"], "python": ["pyls"]}, null, null, "/home/sinai/.config/nvim/settings.json", 1, null, null, null, 1, "Quickfix", {}, "Warning", "Auto", 0, 1]}
-18:55:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["[get(g:, 'LanguageClient_diagnosticsSignsMax', v:null), get(g:, 'LanguageClient_diagnosticsMaxSeverity', 'Hint'), get(g:, 'LanguageClient_documentHighlightDisplay', {}), !!s:GetVar('LanguageClient_selectionUI_autoOpen', 1), s:useVirtualText(), !!s:GetVar('LanguageClient_echoProjectRoot', 1)]"],"id":8}
-18:55:21 INFO reader-None src/rpcclient.rs:169 <= None {"id": 7, "jsonrpc": "2.0", "result": [null, "Hint", {}, 1, 1, 1]}
-18:55:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["get(g:, 'loaded_fzf')"],"id":9}
-18:55:21 INFO reader-None src/rpcclient.rs:169 <= None {"id": 8, "jsonrpc": "2.0", "result": [null, "Hint", {}, 1, 1, 1]}
-18:55:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["get(g:, 'loaded_fzf')"],"id":10}
-18:55:21 INFO reader-None src/rpcclient.rs:169 <= None {"id": 9, "jsonrpc": "2.0", "result": 1}
-18:55:21 INFO reader-None src/rpcclient.rs:169 <= None {"id": 10, "jsonrpc": "2.0", "result": 1}
-18:55:21 DEBUG unnamed src/language_client.rs:41 state.selectionUI: "LocationList" ==> "FZF"
-18:55:21 DEBUG unnamed src/language_client.rs:41 state.is_nvim: false ==> true
-18:55:21 DEBUG unnamed src/language_client.rs:41 state.serverCommands.rust: null ==> ["rustup","run","stable","rls"]
-18:55:21 DEBUG unnamed src/language_client.rs:41 state.loadSettings: false ==> true
-18:55:21 DEBUG unnamed src/language_client.rs:41 state.serverCommands.vhdl: null ==> ["hdlcc","--lsp"]
-18:55:21 DEBUG unnamed src/language_client.rs:41 state.serverCommands.python: null ==> ["pyls"]
-18:55:21 DEBUG unnamed src/language_client.rs:41 state.serverCommands.c: null ==> ["cquery","--log-file=/tmp/cq.log"]
-18:55:21 DEBUG unnamed src/language_client.rs:41 state.settingsPath: ".vim/settings.json" ==> "/home/sinai/.config/nvim/settings.json"
-18:55:21 DEBUG unnamed src/language_client.rs:41 state.loggingFile: null ==> "/home/sinai/.config/nvim/LanguageClient.log"
-18:55:21 DEBUG unnamed src/language_client.rs:41 state.trace: null ==> "off"
-18:55:21 DEBUG unnamed src/language_client.rs:41 state.serverCommands.cpp: null ==> ["cquery","--log-file=/tmp/cq.log"]
-18:55:21 DEBUG unnamed src/language_client.rs:41 state.serverCommands.julia: null ==> ["julia","--startup-file=no","--history-file=no","-e","       using LanguageServer;       using Pkg;       import StaticLint;       import SymbolServer;       env_path = dirname(Pkg.Types.Context().env.project_file);       debug = false;               server = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, \"\", Dict());       server.runlinter = true;       run(server);   "]
-18:55:21 DEBUG unnamed src/language_client.rs:41 state.loggingLevel: "WARN" ==> "DEBUG"
-18:55:21 INFO unnamed src/language_server_protocol.rs:235 End sync settings
-18:55:21 INFO unnamed src/language_server_protocol.rs:2835 settings synced
-18:55:21 INFO unnamed src/language_server_protocol.rs:235 End sync settings
-18:55:21 INFO unnamed src/language_server_protocol.rs:2835 settings synced
-18:55:21 INFO unnamed src/language_server_protocol.rs:2861 Project root: /home/sinai
-18:55:21 INFO unnamed src/language_server_protocol.rs:2861 Project root: /home/sinai
-18:55:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"s:EchomsgEllipsis","params":["Project root: /home/sinai"]}
-18:55:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"s:EchomsgEllipsis","params":["Project root: /home/sinai"]}
-18:55:21 DEBUG unnamed src/language_client.rs:41 state.roots.c: null ==> "/home/sinai"
-18:55:21 ERROR reader-Some("c") src/rpcclient.rs:35 Thread reader-Some("c") exited with error: ErrorMessage { msg: "Unable to read from language server" }
-18:55:21 INFO unnamed src/language_server_protocol.rs:2938 End languageClient/startServer
-18:55:21 INFO unnamed src/language_server_protocol.rs:254 Defining signs
-18:55:21 INFO unnamed src/language_server_protocol.rs:929 Begin initialize
-18:55:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"s:command","params":["sign define LanguageClientHint text=➤ texthl=ALEInfoSign","sign define LanguageClientWarning text=⚠ texthl=ALEWarningSign","sign define LanguageClientError text=✖ texthl=ALEErrorSign","sign define LanguageClientInformation text=ℹ texthl=ALEInfoSign"]}
-18:55:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["s:hasSnippetSupport()"],"id":11}
-18:55:21 ERROR reader-Some("c") src/rpcclient.rs:35 Thread reader-Some("c") exited with error: ErrorMessage { msg: "Unable to read from language server" }
-18:55:21 INFO unnamed src/language_server_protocol.rs:2938 End languageClient/startServer
-18:55:21 INFO unnamed src/language_server_protocol.rs:254 Defining signs
-18:55:21 INFO unnamed src/language_server_protocol.rs:929 Begin initialize
-18:55:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"s:command","params":["sign define LanguageClientHint text=➤ texthl=ALEInfoSign","sign define LanguageClientWarning text=⚠ texthl=ALEWarningSign","sign define LanguageClientError text=✖ texthl=ALEErrorSign","sign define LanguageClientInformation text=ℹ texthl=ALEInfoSign"]}
-18:55:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["s:hasSnippetSupport()"],"id":12}
-18:55:21 INFO reader-None src/rpcclient.rs:169 <= None {"id": 11, "jsonrpc": "2.0", "result": 0}
-18:55:21 WARN unnamed src/language_server_protocol.rs:2217 Failed to start language server automatically. sending on a disconnected channel
-18:55:21 INFO unnamed src/language_server_protocol.rs:2222 End languageClient/handleFileType
-18:55:21 INFO reader-None src/rpcclient.rs:169 <= None {"id": 12, "jsonrpc": "2.0", "result": 0}
-18:55:21 WARN unnamed src/language_server_protocol.rs:2183 Failed to start language server automatically. sending on a disconnected channel
-18:55:21 INFO unnamed src/language_server_protocol.rs:2187 End languageClient/handleBufNewFile
-18:55:28 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 9, "start": 0}, "languageId": "c", "buftype": "", "position": {"character": 0, "line": 1}, "filename": "/home/sinai/Scripts/atcoder/A-1.c"}}
-18:55:28 INFO unnamed src/language_server_protocol.rs:2282 Begin languageClient/handleCursorMoved
-18:55:30 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 9, "start": 0}, "languageId": "c", "buftype": "", "position": {"character": 0, "line": 2}, "filename": "/home/sinai/Scripts/atcoder/A-1.c"}}
-18:55:30 INFO unnamed src/language_server_protocol.rs:2282 Begin languageClient/handleCursorMoved
-18:55:30 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 9, "start": 0}, "languageId": "c", "buftype": "", "position": {"character": 0, "line": 3}, "filename": "/home/sinai/Scripts/atcoder/A-1.c"}}
-18:55:30 INFO unnamed src/language_server_protocol.rs:2282 Begin languageClient/handleCursorMoved
-18:55:46 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 9, "start": 0}, "languageId": "c", "buftype": "", "position": {"character": 0, "line": 4}, "filename": "/home/sinai/Scripts/atcoder/A-1.c"}}
-18:55:46 INFO unnamed src/language_server_protocol.rs:2282 Begin languageClient/handleCursorMoved
-18:55:47 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 9, "start": 0}, "languageId": "c", "buftype": "", "position": {"character": 0, "line": 5}, "filename": "/home/sinai/Scripts/atcoder/A-1.c"}}
-18:55:47 INFO unnamed src/language_server_protocol.rs:2282 Begin languageClient/handleCursorMoved
-18:55:48 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "c", "filename": "/home/sinai/Scripts/atcoder/A-1.c"}}
-18:55:48 INFO unnamed src/language_server_protocol.rs:2227 Begin languageClient/handleTextChanged
-18:55:48 INFO unnamed src/language_server_protocol.rs:1738 Begin textDocument/didChange
-18:55:48 INFO unnamed src/language_server_protocol.rs:1742 Not opened yet. Switching to didOpen.
-18:55:48 INFO unnamed src/language_server_protocol.rs:1699 Begin textDocument/didOpen
-18:55:48 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/atcoder/A-1.c"],"id":13}
-18:55:48 INFO reader-None src/rpcclient.rs:169 <= None {"id": 13, "jsonrpc": "2.0", "result": ["#include <stdio.h>", "#include <stdlib.h>", "", "int main(int argc, char *argv[])", "{", "\t\t", "", "\treturn 0;", "}", ""]}
-18:55:48 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/atcoder/A-1.c: null ==> {"languageId":"c","text":"#include <stdio.h>\n#include <stdlib.h>\n\nint main(int argc, char *argv[])\n{\n\t\t\n\n\treturn 0;\n}\n","uri":"file:///home/sinai/Scripts/atcoder/A-1.c","version":0}
-18:55:48 INFO unnamed src/language_server_protocol.rs:1733 End textDocument/didOpen
-18:55:48 INFO writer-Some("c") src/rpcclient.rs:215 => Some("c") {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"languageId":"c","text":"#include <stdio.h>\n#include <stdlib.h>\n\nint main(int argc, char *argv[])\n{\n\t\t\n\n\treturn 0;\n}\n","uri":"file:///home/sinai/Scripts/atcoder/A-1.c","version":0}}}
-18:55:48 ERROR writer-Some("c") src/rpcclient.rs:46 Thread writer-Some("c") exited with error: Os { code: 32, kind: BrokenPipe, message: "Broken pipe" }
-18:55:48 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"s:command","params":["setlocal omnifunc=LanguageClient#complete"]}
-18:55:48 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"setbufvar","params":["/home/sinai/Scripts/atcoder/A-1.c","LanguageClient_projectRoot","/home/sinai"]}
-18:55:48 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"s:ExecuteAutocmd","params":["LanguageClientTextDocumentDidOpenPost"]}
-18:55:48 INFO unnamed src/language_server_protocol.rs:2250 End languageClient/handleTextChanged
-18:55:49 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "c", "filename": "/home/sinai/Scripts/atcoder/A-1.c"}}
-18:55:49 INFO unnamed src/language_server_protocol.rs:2227 Begin languageClient/handleTextChanged
-18:55:49 INFO unnamed src/language_server_protocol.rs:1738 Begin textDocument/didChange
-18:55:49 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/atcoder/A-1.c"],"id":14}
-18:55:49 INFO reader-None src/rpcclient.rs:169 <= None {"id": 14, "jsonrpc": "2.0", "result": ["#include <stdio.h>", "#include <stdlib.h>", "", "int main(int argc, char *argv[])", "{", "\t\ta", "", "\treturn 0;", "}", ""]}
-18:55:49 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/atcoder/A-1.c.text: "#include <stdio.h>\n#include <stdlib.h>\n\nint main(int argc, char *argv[])\n{\n\t\t\n\n\treturn 0;\n}\n" ==> "#include <stdio.h>\n#include <stdlib.h>\n\nint main(int argc, char *argv[])\n{\n\t\ta\n\n\treturn 0;\n}\n"
-18:55:49 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/atcoder/A-1.c.version: 0 ==> 1
-18:55:49 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
-
-Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/atcoder/A-1.c","languageId":"c"}}
-
-Error: "SendError(..)"
-18:55:50 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "c", "filename": "/home/sinai/Scripts/atcoder/A-1.c"}}
-18:55:50 INFO unnamed src/language_server_protocol.rs:2227 Begin languageClient/handleTextChanged
-18:55:50 INFO unnamed src/language_server_protocol.rs:1738 Begin textDocument/didChange
-18:55:50 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/atcoder/A-1.c"],"id":15}
-18:55:50 INFO reader-None src/rpcclient.rs:169 <= None {"id": 15, "jsonrpc": "2.0", "result": ["#include <stdio.h>", "#include <stdlib.h>", "", "int main(int argc, char *argv[])", "{", "\t\t", "", "\treturn 0;", "}", ""]}
-18:55:50 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/atcoder/A-1.c.version: 1 ==> 2
-18:55:50 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/atcoder/A-1.c.text: "#include <stdio.h>\n#include <stdlib.h>\n\nint main(int argc, char *argv[])\n{\n\t\ta\n\n\treturn 0;\n}\n" ==> "#include <stdio.h>\n#include <stdlib.h>\n\nint main(int argc, char *argv[])\n{\n\t\t\n\n\treturn 0;\n}\n"
-18:55:50 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
-
-Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/atcoder/A-1.c","languageId":"c"}}
-
-Error: "SendError(..)"
-18:55:55 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "c", "filename": "/home/sinai/Scripts/atcoder/A-1.c"}}
-18:55:55 INFO unnamed src/language_server_protocol.rs:2227 Begin languageClient/handleTextChanged
-18:55:55 INFO unnamed src/language_server_protocol.rs:1738 Begin textDocument/didChange
-18:55:55 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/atcoder/A-1.c"],"id":16}
-18:55:55 INFO reader-None src/rpcclient.rs:169 <= None {"id": 16, "jsonrpc": "2.0", "result": ["#include <stdio.h>", "#include <stdlib.h>", "", "int main(int argc, char *argv[])", "{", "\t\t", "\t\t", "", "\treturn 0;", "}", ""]}
-18:55:55 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/atcoder/A-1.c.text: "#include <stdio.h>\n#include <stdlib.h>\n\nint main(int argc, char *argv[])\n{\n\t\t\n\n\treturn 0;\n}\n" ==> "#include <stdio.h>\n#include <stdlib.h>\n\nint main(int argc, char *argv[])\n{\n\t\t\n\t\t\n\n\treturn 0;\n}\n"
-18:55:55 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/atcoder/A-1.c.version: 2 ==> 3
-18:55:55 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
-
-Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/atcoder/A-1.c","languageId":"c"}}
-
-Error: "SendError(..)"
-18:55:56 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 11, "start": 0}, "languageId": "c", "buftype": "", "position": {"character": 0, "line": 6}, "filename": "/home/sinai/Scripts/atcoder/A-1.c"}}
-18:55:56 INFO unnamed src/language_server_protocol.rs:2282 Begin languageClient/handleCursorMoved
-18:55:56 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "c", "filename": "/home/sinai/Scripts/atcoder/A-1.c"}}
-18:55:56 INFO unnamed src/language_server_protocol.rs:2227 Begin languageClient/handleTextChanged
-18:55:56 INFO unnamed src/language_server_protocol.rs:1738 Begin textDocument/didChange
-18:55:56 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/atcoder/A-1.c"],"id":17}
-18:55:56 INFO reader-None src/rpcclient.rs:169 <= None {"id": 17, "jsonrpc": "2.0", "result": ["#include <stdio.h>", "#include <stdlib.h>", "", "int main(int argc, char *argv[])", "{", "\t\t", "", "", "\treturn 0;", "}", ""]}
-18:55:56 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/atcoder/A-1.c.version: 3 ==> 4
-18:55:56 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/atcoder/A-1.c.text: "#include <stdio.h>\n#include <stdlib.h>\n\nint main(int argc, char *argv[])\n{\n\t\t\n\t\t\n\n\treturn 0;\n}\n" ==> "#include <stdio.h>\n#include <stdlib.h>\n\nint main(int argc, char *argv[])\n{\n\t\t\n\n\n\treturn 0;\n}\n"
-18:55:56 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
-
-Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/atcoder/A-1.c","languageId":"c"}}
-
-Error: "SendError(..)"
-18:55:57 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleTextChanged", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "c", "filename": "/home/sinai/Scripts/atcoder/A-1.c"}}
-18:55:57 INFO unnamed src/language_server_protocol.rs:2227 Begin languageClient/handleTextChanged
-18:55:57 INFO unnamed src/language_server_protocol.rs:1738 Begin textDocument/didChange
-18:55:57 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"LSP#text","params":["/home/sinai/Scripts/atcoder/A-1.c"],"id":18}
-18:55:57 INFO reader-None src/rpcclient.rs:169 <= None {"id": 18, "jsonrpc": "2.0", "result": ["#include <stdio.h>", "#include <stdlib.h>", "", "int main(int argc, char *argv[])", "{", "\t\t", "\treturn 0;", "}", ""]}
-18:55:57 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/atcoder/A-1.c.version: 4 ==> 5
-18:55:57 DEBUG unnamed src/language_client.rs:41 state.text_documents./home/sinai/Scripts/atcoder/A-1.c.text: "#include <stdio.h>\n#include <stdlib.h>\n\nint main(int argc, char *argv[])\n{\n\t\t\n\n\n\treturn 0;\n}\n" ==> "#include <stdio.h>\n#include <stdlib.h>\n\nint main(int argc, char *argv[])\n{\n\t\t\n\treturn 0;\n}\n"
-18:55:57 ERROR unnamed src/rpchandler.rs:28 Error handling message: sending on a disconnected channel
-
-Message: {"jsonrpc":"2.0","method":"languageClient/handleTextChanged","params":{"bufnr":1,"filename":"/home/sinai/Scripts/atcoder/A-1.c","languageId":"c"}}
-
-Error: "SendError(..)"
-18:56:03 INFO reader-None src/rpcclient.rs:169 <= None {"method": "exit", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "c"}}
-18:56:03 INFO unnamed src/language_server_protocol.rs:2038 Begin exit
-18:56:03 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#filename()"],"id":19}
-18:56:03 INFO reader-None src/rpcclient.rs:169 <= None {"id": 19, "jsonrpc": "2.0", "result": "/home/sinai/Scripts/atcoder/A-1.c"}
-18:56:03 ERROR unnamed src/language_server_protocol.rs:2046 Error: "SendError(..)"
-18:56:03 INFO unnamed src/language_server_protocol.rs:855 Begin cleanup
-18:56:03 INFO reader-None src/rpcclient.rs:202 reader-None terminated
+14:37:15 DEBUG unnamed src/language_client.rs:66 state: null ==> {"autoStart":true,"capabilities":{},"change_throttle":null,"completionPreferTextEdit":false,"diagnostics":{},"diagnosticsDisplay":{"1":{"name":"Error","signText":"✖","signTexthl":"ALEErrorSign","texthl":"ALEError","virtualTexthl":"Error"},"2":{"name":"Warning","signText":"⚠","signTexthl":"ALEWarningSign","texthl":"ALEWarning","virtualTexthl":"Todo"},"3":{"name":"Information","signText":"ℹ","signTexthl":"ALEInfoSign","texthl":"ALEInfo","virtualTexthl":"Todo"},"4":{"name":"Hint","signText":"➤","signTexthl":"ALEInfoSign","texthl":"ALEInfo","virtualTexthl":"Todo"}},"diagnosticsEnable":true,"diagnosticsList":"Quickfix","diagnosticsSignsMax":null,"diagnostics_max_severity":4,"documentHighlightDisplay":{"1":{"name":"Text","texthl":"SpellCap"},"2":{"name":"Read","texthl":"SpellLocal"},"3":{"name":"Write","texthl":"SpellRare"}},"document_highlight_source":null,"echo_project_root":true,"highlight_match_ids":[],"highlight_source":null,"highlights":{},"highlights_placed":{},"hoverPreview":"Auto","is_nvim":false,"last_cursor_line":0,"last_line_diagnostic":" ","loadSettings":false,"loggingFile":null,"loggingLevel":"WARN","namespace_id":null,"registrations":[],"rootMarkers":null,"roots":{},"selectionUI":"LocationList","selectionUI_autoOpen":true,"serverCommands":{},"serverStderr":null,"settingsPath":".vim/settings.json","sign_next_id":75000,"signs":{},"stashed_codeAction_actions":[],"text_documents":{},"text_documents_metadata":{},"trace":null,"use_virtual_text":true,"user_handlers":{},"viewports":{},"wait_output_timeout":{"nanos":0,"secs":10},"windowLogMessageLevel":2}
+14:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["[!!get(g:, 'LanguageClient_autoStart', 1), s:GetVar('LanguageClient_serverCommands', {}), get(g:, 'LanguageClient_selectionUI', v:null), get(g:, 'LanguageClient_trace', v:null), expand(get(g:, 'LanguageClient_settingsPath', '.vim/settings.json')), !!get(g:, 'LanguageClient_loadSettings', 1), get(g:, 'LanguageClient_rootMarkers', v:null), get(g:, 'LanguageClient_changeThrottle', v:null), get(g:, 'LanguageClient_waitOutputTimeout', v:null), !!get(g:, 'LanguageClient_diagnosticsEnable', 1), get(g:, 'LanguageClient_diagnosticsList', 'Quickfix'), get(g:, 'LanguageClient_diagnosticsDisplay', {}), get(g:, 'LanguageClient_windowLogMessageLevel', 'Warning'), get(g:, 'LanguageClient_hoverPreview', 'Auto'), get(g:, 'LanguageClient_completionPreferTextEdit', 0), has('nvim')]"],"id":3}
+14:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 3, "jsonrpc": "2.0", "result": [1, {"c": ["cquery", "--log-file=/tmp/cq.log"], "julia": ["julia", "--startup-file=no", "--history-file=no", "-e", "       using LanguageServer;       using Pkg;       import StaticLint;       import SymbolServer;       env_path = dirname(Pkg.Types.Context().env.project_file);       debug = false;               server = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, \"\", Dict());       server.runlinter = true;       run(server);   "], "vhdl": ["hdlcc", "--lsp"], "rust": ["rustup", "run", "stable", "rls"], "cpp": ["cquery", "--log-file=/tmp/cq.log"], "python": ["pyls"]}, null, null, "/home/sasuseso/.config/nvim/settings.json", 1, null, null, null, 1, "Quickfix", {}, "Warning", "Auto", 0, 1]}
+14:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["[get(g:, 'LanguageClient_diagnosticsSignsMax', v:null), get(g:, 'LanguageClient_diagnosticsMaxSeverity', 'Hint'), get(g:, 'LanguageClient_documentHighlightDisplay', {}), !!s:GetVar('LanguageClient_selectionUI_autoOpen', 1), s:useVirtualText(), !!s:GetVar('LanguageClient_echoProjectRoot', 1)]"],"id":4}
+14:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 4, "jsonrpc": "2.0", "result": [null, "Hint", {}, 1, 1, 1]}
+14:37:15 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["get(g:, 'loaded_fzf')"],"id":5}
+14:37:15 INFO reader-None src/rpcclient.rs:169 <= None {"id": 5, "jsonrpc": "2.0", "result": 1}
+14:37:15 DEBUG unnamed src/language_client.rs:66 state.trace: null ==> "off"
+14:37:15 DEBUG unnamed src/language_client.rs:66 state.serverCommands.julia: null ==> ["julia","--startup-file=no","--history-file=no","-e","       using LanguageServer;       using Pkg;       import StaticLint;       import SymbolServer;       env_path = dirname(Pkg.Types.Context().env.project_file);       debug = false;               server = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, \"\", Dict());       server.runlinter = true;       run(server);   "]
+14:37:15 DEBUG unnamed src/language_client.rs:66 state.serverCommands.cpp: null ==> ["cquery","--log-file=/tmp/cq.log"]
+14:37:15 DEBUG unnamed src/language_client.rs:66 state.settingsPath: ".vim/settings.json" ==> "/home/sasuseso/.config/nvim/settings.json"
+14:37:15 DEBUG unnamed src/language_client.rs:66 state.selectionUI: "LocationList" ==> "FZF"
+14:37:15 DEBUG unnamed src/language_client.rs:66 state.loggingLevel: "WARN" ==> "DEBUG"
+14:37:15 DEBUG unnamed src/language_client.rs:66 state.serverCommands.rust: null ==> ["rustup","run","stable","rls"]
+14:37:15 DEBUG unnamed src/language_client.rs:66 state.loggingFile: null ==> "/home/sasuseso/.config/nvim/LanguageClient.log"
+14:37:15 DEBUG unnamed src/language_client.rs:66 state.loadSettings: false ==> true
+14:37:15 DEBUG unnamed src/language_client.rs:66 state.is_nvim: false ==> true
+14:37:15 DEBUG unnamed src/language_client.rs:66 state.serverCommands.vhdl: null ==> ["hdlcc","--lsp"]
+14:37:15 DEBUG unnamed src/language_client.rs:66 state.serverCommands.python: null ==> ["pyls"]
+14:37:15 DEBUG unnamed src/language_client.rs:66 state.serverCommands.c: null ==> ["cquery","--log-file=/tmp/cq.log"]
+14:37:15 INFO unnamed src/language_server_protocol.rs:238 End sync settings
+14:37:15 INFO unnamed src/language_server_protocol.rs:2956 settings synced
+14:37:15 WARN unnamed src/language_server_protocol.rs:2284 Failed to start language server automatically. No language server commands found for filetype: nasm
+14:37:15 INFO unnamed src/language_server_protocol.rs:2289 End languageClient/handleFileType
+14:37:16 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 16, "start": 0}, "languageId": "nasm", "buftype": "", "position": {"character": 0, "line": 1}, "filename": "/home/sasuseso/Scripts/exokernel/src/load.nasm"}}
+14:37:16 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+14:37:16 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 16, "start": 0}, "languageId": "nasm", "buftype": "", "position": {"character": 0, "line": 2}, "filename": "/home/sasuseso/Scripts/exokernel/src/load.nasm"}}
+14:37:16 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+14:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 16, "start": 0}, "languageId": "nasm", "buftype": "", "position": {"character": 0, "line": 3}, "filename": "/home/sasuseso/Scripts/exokernel/src/load.nasm"}}
+14:37:17 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+14:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 16, "start": 0}, "languageId": "nasm", "buftype": "", "position": {"character": 0, "line": 4}, "filename": "/home/sasuseso/Scripts/exokernel/src/load.nasm"}}
+14:37:17 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+14:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 16, "start": 0}, "languageId": "nasm", "buftype": "", "position": {"character": 0, "line": 5}, "filename": "/home/sasuseso/Scripts/exokernel/src/load.nasm"}}
+14:37:17 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+14:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 16, "start": 0}, "languageId": "nasm", "buftype": "", "position": {"character": 0, "line": 6}, "filename": "/home/sasuseso/Scripts/exokernel/src/load.nasm"}}
+14:37:17 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+14:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 16, "start": 0}, "languageId": "nasm", "buftype": "", "position": {"character": 0, "line": 7}, "filename": "/home/sasuseso/Scripts/exokernel/src/load.nasm"}}
+14:37:17 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+14:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 16, "start": 0}, "languageId": "nasm", "buftype": "", "position": {"character": 0, "line": 8}, "filename": "/home/sasuseso/Scripts/exokernel/src/load.nasm"}}
+14:37:17 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+14:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 16, "start": 0}, "languageId": "nasm", "buftype": "", "position": {"character": 0, "line": 9}, "filename": "/home/sasuseso/Scripts/exokernel/src/load.nasm"}}
+14:37:17 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+14:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 16, "start": 0}, "languageId": "nasm", "buftype": "", "position": {"character": 0, "line": 10}, "filename": "/home/sasuseso/Scripts/exokernel/src/load.nasm"}}
+14:37:17 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+14:37:17 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 1, "viewport": {"end": 16, "start": 0}, "languageId": "nasm", "buftype": "", "position": {"character": 0, "line": 11}, "filename": "/home/sasuseso/Scripts/exokernel/src/load.nasm"}}
+14:37:17 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+14:37:21 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleBufWritePost", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "nasm", "filename": "/home/sasuseso/Scripts/exokernel/src/load.nasm"}}
+14:37:21 INFO reader-None src/rpcclient.rs:169 <= None {"method": "exit", "jsonrpc": "2.0", "params": {"bufnr": 1, "languageId": "nasm"}}
+14:37:21 INFO unnamed src/language_server_protocol.rs:2322 Begin languageClient/handleBufWritePost
+14:37:21 INFO unnamed src/language_server_protocol.rs:1865 Begin textDocument/didSave
+14:37:21 INFO unnamed src/language_server_protocol.rs:2324 End languageClient/handleBufWritePost
+14:37:21 INFO unnamed src/language_server_protocol.rs:2105 Begin exit
+14:37:21 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#filename()"],"id":6}
+14:37:21 INFO reader-None src/rpcclient.rs:169 <= None {"id": 6, "jsonrpc": "2.0", "result": "/home/sasuseso/Scripts/exokernel/src/load.nasm"}
+14:37:21 INFO reader-None src/rpcclient.rs:202 reader-None terminated

@@ -21,7 +21,7 @@ $sasuseso
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
 :q
-|2,0,1574690300,,"q"
+|2,0,1574830657,,"q"
 :wq
 |2,0,1574690263,,"wq"
 :%s/sinai/sasuseso/g
@@ -253,20 +253,20 @@ $sasuseso
 |3,1,36,0,1,0,1573896406,"--cache-dir /home/sinai/Scripts/exokernel/zen-cache "
 
 # ファイルマーク:
-'0  35  2  ~/.vimrc
-|4,48,35,2,1574690263,"~/.vimrc"
-'1  1  69  /tmp/bash-fc.hJYlzn
-|4,49,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
-'2  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,50,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
+'0  126  4  /usr/share/julia/base/c.jl
+|4,48,126,4,1574818663,"/usr/share/julia/base/c.jl"
+'1  35  2  ~/.vimrc
+|4,49,35,2,1574690263,"~/.vimrc"
+'2  1  69  /tmp/bash-fc.hJYlzn
+|4,50,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
 '3  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,51,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
+|4,51,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
 '4  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,52,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
+|4,52,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
 '5  1  0  ~/Documents/memo/MIT_exokernel.md
 |4,53,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
 '6  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,54,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
+|4,54,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
 '7  1  0  ~/Documents/memo/MIT_exokernel.md
 |4,55,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
 '8  1  0  ~/Documents/memo/MIT_exokernel.md
@@ -275,10 +275,42 @@ $sasuseso
 |4,57,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
 
 # ジャンプリスト (新しいものが先):
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  1  0  /usr/share/julia/base/c.jl
+|4,39,1,0,1574818605,"/usr/share/julia/base/c.jl"
+-'  1  0  /usr/share/julia/base/c.jl
+|4,39,1,0,1574818605,"/usr/share/julia/base/c.jl"
 -'  35  2  ~/.vimrc
 |4,39,35,2,1574690263,"~/.vimrc"
 -'  35  2  ~/.vimrc
 |4,39,35,2,1574690263,"~/.vimrc"
+-'  35  2  ~/.vimrc
+|4,39,35,2,1574690263,"~/.vimrc"
+-'  35  2  ~/.vimrc
+|4,39,35,2,1574690263,"~/.vimrc"
+-'  35  2  ~/.vimrc
+|4,39,35,2,1574690263,"~/.vimrc"
+-'  35  2  ~/.vimrc
+|4,39,35,2,1574690263,"~/.vimrc"
+-'  35  2  ~/.vimrc
+|4,39,35,2,1574690263,"~/.vimrc"
+-'  35  2  ~/.vimrc
+|4,39,35,2,1574690263,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1574690261,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1574690261,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1574690261,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1574690261,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1574690261,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1574690261,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1574690261,"~/.vimrc"
 -'  1  0  ~/.vimrc
@@ -347,134 +379,106 @@ $sasuseso
 |4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
 -'  1  69  /tmp/bash-fc.hJYlzn
 |4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
--'  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,39,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  69  /tmp/bash-fc.hJYlzn
+|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
+
+> /usr/share/julia/base/c.jl
+	*	1574818655	0
+	"	126	4
 
 > ~/.vimrc
 	*	1574690261	0
@@ -917,10 +921,6 @@ $sasuseso
 	+	123	74
 	+	139	30
 	+	145	0
-
-> /usr/share/julia/base/c.jl
-	*	1572516717	0
-	"	217	4
 
 > ~/Scripts/test.c
 	*	1572516251	0
