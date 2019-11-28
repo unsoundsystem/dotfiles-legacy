@@ -253,32 +253,44 @@ $sasuseso
 |3,1,36,0,1,0,1573896406,"--cache-dir /home/sinai/Scripts/exokernel/zen-cache "
 
 # ファイルマーク:
-'0  126  4  /usr/share/julia/base/c.jl
-|4,48,126,4,1574818663,"/usr/share/julia/base/c.jl"
-'1  35  2  ~/.vimrc
-|4,49,35,2,1574690263,"~/.vimrc"
-'2  1  69  /tmp/bash-fc.hJYlzn
-|4,50,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
-'3  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,51,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
+'0  219  0  ~/ダウンロード/multiboot2.h
+|4,48,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+'1  126  4  /usr/share/julia/base/c.jl
+|4,49,126,4,1574818663,"/usr/share/julia/base/c.jl"
+'2  35  2  ~/.vimrc
+|4,50,35,2,1574690263,"~/.vimrc"
+'3  1  69  /tmp/bash-fc.hJYlzn
+|4,51,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
 '4  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,52,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
+|4,52,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
 '5  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,53,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
+|4,53,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
 '6  1  0  ~/Documents/memo/MIT_exokernel.md
 |4,54,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
 '7  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,55,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
+|4,55,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
 '8  1  0  ~/Documents/memo/MIT_exokernel.md
 |4,56,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
 '9  1  0  ~/Documents/memo/MIT_exokernel.md
 |4,57,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
 
 # ジャンプリスト (新しいものが先):
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
 -'  126  4  /usr/share/julia/base/c.jl
 |4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
 -'  126  4  /usr/share/julia/base/c.jl
 |4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  1  0  /usr/share/julia/base/c.jl
+|4,39,1,0,1574818605,"/usr/share/julia/base/c.jl"
+-'  1  0  /usr/share/julia/base/c.jl
+|4,39,1,0,1574818605,"/usr/share/julia/base/c.jl"
 -'  1  0  /usr/share/julia/base/c.jl
 |4,39,1,0,1574818605,"/usr/share/julia/base/c.jl"
 -'  1  0  /usr/share/julia/base/c.jl
@@ -299,6 +311,22 @@ $sasuseso
 |4,39,35,2,1574690263,"~/.vimrc"
 -'  35  2  ~/.vimrc
 |4,39,35,2,1574690263,"~/.vimrc"
+-'  35  2  ~/.vimrc
+|4,39,35,2,1574690263,"~/.vimrc"
+-'  35  2  ~/.vimrc
+|4,39,35,2,1574690263,"~/.vimrc"
+-'  35  2  ~/.vimrc
+|4,39,35,2,1574690263,"~/.vimrc"
+-'  35  2  ~/.vimrc
+|4,39,35,2,1574690263,"~/.vimrc"
+-'  35  2  ~/.vimrc
+|4,39,35,2,1574690263,"~/.vimrc"
+-'  35  2  ~/.vimrc
+|4,39,35,2,1574690263,"~/.vimrc"
+-'  35  2  ~/.vimrc
+|4,39,35,2,1574690263,"~/.vimrc"
+-'  35  2  ~/.vimrc
+|4,39,35,2,1574690263,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1574690261,"~/.vimrc"
 -'  1  0  ~/.vimrc
@@ -315,48 +343,22 @@ $sasuseso
 |4,39,1,0,1574690261,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1574690261,"~/.vimrc"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1574690261,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1574690261,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1574690261,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1574690261,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1574690261,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1574690261,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1574690261,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1574690261,"~/.vimrc"
 -'  1  69  /tmp/bash-fc.hJYlzn
 |4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
 -'  1  69  /tmp/bash-fc.hJYlzn
@@ -475,6 +477,10 @@ $sasuseso
 |4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/ダウンロード/multiboot2.h
+	*	1574852266	0
+	"	219	0
 
 > /usr/share/julia/base/c.jl
 	*	1574818655	0
@@ -1253,7 +1259,3 @@ $sasuseso
 	+	46	0
 	+	56	27
 	+	43	43
-
-> ~/.config/nvim/tomls/dein_lazy.toml
-	*	1572263458	0
-	"	28	0

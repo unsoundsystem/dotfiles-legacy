@@ -1,16 +1,13 @@
 using REPL
 using REPL.TerminalMenus
+JULIALIB = "/home/sasuseso/Scripts/julialib"
 
-push!(LOAD_PATH, )
-push!(LOAD_PATH, )
-push!(LOAD_PATH, )
-append!(LOAD_PATH, ["/home/sasuseso/Scripts/linker_and_loader/elf_julia/ELF/src",
-		    "/home/sasuseso/Scripts/quantum_emu/QEmu/src",
-		    "/home/sasuseso/Scripts/Genie_test/GenieBookShelf/app/resources/books/",
-		    "/home/sasuseso/Scripts/mylibs/julia/"])
+mylibs = ["ELF", "QEmu"]
+
+append!(LOAD_PATH, [joinpath(JULIALIB, i, "src") for i in mylibs ])
 
 function customize_colors(repl)
-	repl.prompt_color = Base.text_colors[:cyan]
+				repl.prompt_color = Base.text_colors[:cyan]
 end
 
 

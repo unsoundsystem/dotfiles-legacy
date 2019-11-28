@@ -8363,3 +8363,30 @@
 # time: 2019-11-27 11:54:43 JST
 # mode: pkg
 	add StaticCompiler
+# time: 2019-11-28 11:46:20 JST
+# mode: julia
+	JULIALIB = "/home/sasuseso/Scripts/julialib/"
+# time: 2019-11-28 11:46:32 JST
+# mode: julia
+	joinpath
+# time: 2019-11-28 11:46:57 JST
+# mode: julia
+	joinpath(JULIALIB, "ELF", "src")
+# time: 2019-11-28 12:05:07 JST
+# mode: julia
+	,
+# time: 2019-11-28 12:05:08 JST
+# mode: julia
+	"QEmu"]
+# time: 2019-11-28 12:05:32 JST
+# mode: julia
+	mylibs = ["ELF", "QEmu"]
+# time: 2019-11-28 12:06:51 JST
+# mode: julia
+	append!(LOAD_PATH, [i for i in mylibs joinpath(JULIALIB, i, "src")])
+# time: 2019-11-28 12:07:21 JST
+# mode: julia
+	append!(LOAD_PATH, [joinpath(JULIALIB, i, "src") for i in mylibs ])
+# time: 2019-11-28 12:08:02 JST
+# mode: julia
+	LOAD_PATH
