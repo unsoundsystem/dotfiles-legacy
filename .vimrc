@@ -79,6 +79,7 @@ nn tn :tabnew
 nn <C-i><C-i> :source ~/.vimrc<CR><Esc> 
 nn <C-o><C-o> :e ~/.vimrc<CR><Esc> 
 nn <C-b><C-b> :bn<CR><Esc>
+nn <C-b><C-p> :bp<CR><Esc>
 
 "see through
 highlight Normal ctermbg=none

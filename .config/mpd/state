@@ -2,8 +2,8 @@ sw_volume: 80
 audio_device_state:1:My Pulse Output
 audio_device_state:1:my_fifo
 state: pause
-current: 89
-time: 238.029000
+current: 230
+time: 237.788000
 random: 0
 repeat: 1
 single: 0
@@ -134,11 +134,11 @@ playlist_begin
 119:bgm/Picon - 生活があった-_xzdfU2m4zA.webm
 120:bgm/PinocchioP - Nobody Makes Sense _ ピノキオピー- ぼくらはみんな意.mp3
 121:bgm/PinocchioP - Tonchinkan Feast feat.Hatsune Miku _ .mp3
-122:bgm/Ram Jam - Black Betty-I_2D8Eo15wE.mkv
-123:bgm/Random Jam #1 [slow hip-hop w_ Digitakt, Volca FM & Keystep]-BrphqQItGzo.mkv
-124:bgm/Random Jam #2 [moody hip-hop w_ Digitakt, 0-Coast, Keystep & Ditto X4]-s7tzPW5Kyz8.mkv
-125:bgm/Random Jam #3 [jazzy ambient w_ 0-Coast, Ditto X4, Digitakt & Keystep]-PBPbGNEPEnw.mkv
-126:bgm/Random Jam #4 [funky hip-hop w_ Digitakt, 0-Coast, Volca FM, Keystep & Ditto X4]-Mq3Tf0I95M8.mkv
+122:bgm/Random Jam #1 [slow hip-hop w_ Digitakt, Volca FM & Keystep]-BrphqQItGzo.mkv
+123:bgm/Random Jam #2 [moody hip-hop w_ Digitakt, 0-Coast, Keystep & Ditto X4]-s7tzPW5Kyz8.mkv
+124:bgm/Random Jam #3 [jazzy ambient w_ 0-Coast, Ditto X4, Digitakt & Keystep]-PBPbGNEPEnw.mkv
+125:bgm/Random Jam #4 [funky hip-hop w_ Digitakt, 0-Coast, Volca FM, Keystep & Ditto X4]-Mq3Tf0I95M8.mkv
+126:bgm/Ram Jam - Black Betty-I_2D8Eo15wE.mkv
 127:bgm/Random Jam #5 [guitar loop ballad w_ Ditto X4]-KDm_pX7VM9c.mkv
 128:bgm/Random Jam #6 [laid back hip-hop w_ Digitakt, Volca FM, Keystep & Ditto X4]-WfbmQUYawWo.mkv
 129:bgm/Random Jam #7 [spooky ambient w_ Volca FM, 0-Coast, Keystep & Ditto X4]-kI2aeTH42rQ.mkv

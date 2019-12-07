@@ -8390,3 +8390,1070 @@
 # time: 2019-11-28 12:08:02 JST
 # mode: julia
 	LOAD_PATH
+# time: 2019-11-30 13:14:27 JST
+# mode: pkg
+	add https://github.com/Xh4H/Discord.jl.git
+# time: 2019-11-30 13:19:16 JST
+# mode: julia
+	using Discord
+# time: 2019-11-30 13:22:45 JST
+# mode: help
+	Client
+# time: 2019-11-30 13:24:46 JST
+# mode: julia
+	token = "NTY5MDExNDA1MDcyNjI5Nzgw.XeHuWg.ckb5geSPViwi6fMUFMnOFOlOwIE"
+# time: 2019-11-30 13:29:53 JST
+# mode: julia
+	c = Client(token)
+# time: 2019-11-30 13:32:29 JST
+# mode: help
+	add_command!
+# time: 2019-11-30 13:38:24 JST
+# mode: julia
+	add_command!(c, :echo, (c, m) -> reply(c, m, m.content); help="repeat a message")
+# time: 2019-11-30 13:38:49 JST
+# mode: julia
+	open(c)
+# time: 2019-11-30 13:41:45 JST
+# mode: julia
+	close()
+# time: 2019-11-30 13:41:48 JST
+# mode: julia
+	close(c)
+# time: 2019-11-30 13:42:46 JST
+# mode: julia
+	print("hello") && println()
+# time: 2019-11-30 13:43:16 JST
+# mode: help
+	MessageCreate
+# time: 2019-11-30 13:47:28 JST
+# mode: julia
+	function handler(c::Client, e::MessageCreate)
+	println("received: $(e.message.content)")
+	create(c, Reaction, e.message, '👍')
+	end
+# time: 2019-11-30 13:48:52 JST
+# mode: julia
+	add_handler!(c, MessageCreate, handler)
+# time: 2019-11-30 13:48:58 JST
+# mode: julia
+	open(c)
+# time: 2019-11-30 13:49:11 JST
+# mode: julia
+	wait(c)
+# time: 2019-11-30 13:52:12 JST
+# mode: julia
+	add_command!(c, :echo, (c, m, msg) -> reply(c, m, msg); pattern=r"^echo (.+)")
+# time: 2019-11-30 13:52:20 JST
+# mode: julia
+	open(c)
+# time: 2019-11-30 13:58:25 JST
+# mode: julia
+	close(c)
+# time: 2019-11-30 13:58:40 JST
+# mode: julia
+	using D
+# time: 2019-11-30 14:03:21 JST
+# mode: julia
+	using Discord
+# time: 2019-11-30 14:03:34 JST
+# mode: help
+	create()
+# time: 2019-11-30 14:06:21 JST
+# mode: help
+	add_command!
+# time: 2019-11-30 14:10:22 JST
+# mode: julia
+	rand(6)
+# time: 2019-11-30 14:10:28 JST
+# mode: julia
+	rand(1:6)
+# time: 2019-11-30 14:10:48 JST
+# mode: julia
+	rand(1:6) + rand(1:6)
+# time: 2019-11-30 14:11:28 JST
+# mode: julia
+	eval("rand(1:6)")
+# time: 2019-11-30 14:11:37 JST
+# mode: julia
+	parse("rand(1:6)")
+# time: 2019-11-30 14:13:18 JST
+# mode: julia
+	Meta.parse("rand(1:6)")
+# time: 2019-11-30 14:13:27 JST
+# mode: julia
+	eval(ans)
+# time: 2019-11-30 14:13:49 JST
+# mode: julia
+	:(rand(1:6))
+# time: 2019-11-30 14:13:59 JST
+# mode: julia
+	eval(ans)
+# time: 2019-11-30 14:14:06 JST
+# mode: julia
+	:(rand(1:6)) * 6
+# time: 2019-11-30 14:17:33 JST
+# mode: help
+	fill!
+# time: 2019-11-30 14:18:03 JST
+# mode: julia
+	a = zeros(10)
+# time: 2019-11-30 14:18:16 JST
+# mode: julia
+	fill!(a, rand(1:6))
+# time: 2019-11-30 14:19:50 JST
+# mode: julia
+	f(v::Vector) = for i in v
+	i = rand(1:6)
+	end
+# time: 2019-11-30 14:20:00 JST
+# mode: julia
+	a = [1, 2, 3]
+# time: 2019-11-30 14:20:05 JST
+# mode: julia
+	f(a)
+# time: 2019-11-30 14:20:09 JST
+# mode: julia
+	a
+# time: 2019-11-30 14:46:52 JST
+# mode: julia
+	function dice_roll(side::Int, num::Int)
+	                sum = 0
+	                for i in 1:num
+	                                sum += rand(1:side)
+	                end
+	                return sum
+	end
+# time: 2019-11-30 14:47:22 JST
+# mode: julia
+	dice_roll(6, 2)
+# time: 2019-11-30 14:47:35 JST
+# mode: julia
+	function dice_roll(side::Int, num::Int)
+	                sum = 0
+	                for i in 1:num
+	                                sum += rand(1:side)
+	                end
+	                return sum
+	end
+# time: 2019-11-30 14:49:34 JST
+# mode: julia
+	using Discord
+# time: 2019-11-30 14:49:41 JST
+# mode: help
+	create
+# time: 2019-11-30 14:50:21 JST
+# mode: help
+	Message
+# time: 2019-11-30 14:51:08 JST
+# mode: help
+	Reaction
+# time: 2019-11-30 14:51:29 JST
+# mode: help
+	Emoji
+# time: 2019-11-30 14:52:15 JST
+# mode: help
+	Client
+# time: 2019-11-30 14:52:37 JST
+# mode: help
+	MessageCreate
+# time: 2019-11-30 14:52:50 JST
+# mode: help
+	Message
+# time: 2019-11-30 14:57:33 JST
+# mode: help
+	create()
+# time: 2019-11-30 15:00:43 JST
+# mode: help
+	channel
+# time: 2019-11-30 15:01:00 JST
+# mode: julia
+	Discord.Channel
+# time: 2019-11-30 15:01:04 JST
+# mode: help
+	Discord.Channel
+# time: 2019-11-30 15:03:45 JST
+# mode: help
+	reply()
+# time: 2019-11-30 15:09:21 JST
+# mode: help
+	split
+# time: 2019-11-30 15:52:27 JST
+# mode: help
+	Tuple
+# time: 2019-11-30 15:52:50 JST
+# mode: julia
+	a = [1, 2]
+# time: 2019-11-30 15:53:03 JST
+# mode: julia
+	Tuple{Int}(a)
+# time: 2019-11-30 15:53:19 JST
+# mode: julia
+	Tuple{Int, 1}(a)
+# time: 2019-11-30 15:53:21 JST
+# mode: julia
+	Tuple{Int, 2}(a)
+# time: 2019-11-30 15:54:07 JST
+# mode: julia
+	Tuple([1, 2])
+# time: 2019-11-30 15:55:01 JST
+# mode: julia
+	ans[1] + ans[2]
+# time: 2019-11-30 15:55:49 JST
+# mode: julia
+	Dict
+# time: 2019-11-30 15:55:53 JST
+# mode: help
+	Dict
+# time: 2019-11-30 15:57:55 JST
+# mode: julia
+	Dict{String, UInt}()
+# time: 2019-11-30 15:58:08 JST
+# mode: julia
+	Dict{String, UInt}([1, 2])
+# time: 2019-11-30 15:58:17 JST
+# mode: julia
+	Dict{String, UInt}(6)
+# time: 2019-11-30 15:58:21 JST
+# mode: julia
+	Dict{String, UInt}(1)
+# time: 2019-11-30 16:10:44 JST
+# mode: help
+	zip
+# time: 2019-11-30 16:11:20 JST
+# mode: julia
+	a = [1, 2]
+# time: 2019-11-30 16:12:16 JST
+# mode: julia
+	b = ["x", "y"]
+# time: 2019-11-30 16:12:25 JST
+# mode: julia
+	zip(a, b)
+# time: 2019-11-30 16:12:29 JST
+# mode: julia
+	ans
+# time: 2019-11-30 16:12:45 JST
+# mode: julia
+	ans[1]
+# time: 2019-11-30 16:13:06 JST
+# mode: julia
+	z = zip(a, b)
+# time: 2019-11-30 16:13:30 JST
+# mode: julia
+	first(z)
+# time: 2019-11-30 16:13:44 JST
+# mode: julia
+	Dict(z)
+# time: 2019-11-30 16:18:30 JST
+# mode: julia
+	ans[1]
+# time: 2019-11-30 16:18:37 JST
+# mode: julia
+	D=Dict(z)
+# time: 2019-11-30 16:21:21 JST
+# mode: julia
+	z = zip(b, a)
+# time: 2019-11-30 16:21:30 JST
+# mode: julia
+	z["x"]
+# time: 2019-11-30 16:21:45 JST
+# mode: julia
+	D=Dict(z)
+# time: 2019-11-30 16:21:47 JST
+# mode: julia
+	z["x"]
+# time: 2019-11-30 16:21:57 JST
+# mode: julia
+	D["x"]
+# time: 2019-11-30 16:42:21 JST
+# mode: julia
+	token = "NTY5MDExNDA1MDcyNjI5Nzgw.XeHuWg.ckb5geSPViwi6fMUFMnOFOlOwIE"
+# time: 2019-11-30 16:42:26 JST
+# mode: julia
+	c = Client(token)
+# time: 2019-11-30 16:42:34 JST
+# mode: julia
+	using Discord
+# time: 2019-11-30 16:42:38 JST
+# mode: julia
+	c = Client(token)
+# time: 2019-11-30 16:43:59 JST
+# mode: julia
+	function dice_roll(D::Dict)
+	                sum = 0
+	                for i in 1:D["num"]
+	                                                sum += rand(1:D["side"])
+	                end
+	                return sum
+	end
+# time: 2019-11-30 16:43:59 JST
+# mode: julia
+	function handler(c::Client, m::Message)
+	                println("recieved: $(e.message.content)")
+	                reply(c, m, dice_roll(zip(["num", "side"], split(m.content, "d"))))
+	end
+# time: 2019-11-30 16:44:20 JST
+# mode: julia
+	function main()
+	                c = Client(token)
+	                add_handler!(c, MessageCreate, handler)
+	                return 0
+	end
+# time: 2019-11-30 16:44:32 JST
+# mode: julia
+	main()
+# time: 2019-11-30 16:45:17 JST
+# mode: julia
+	using Discord
+# time: 2019-11-30 16:45:24 JST
+# mode: julia
+	c = Client(token)
+# time: 2019-11-30 16:45:30 JST
+# mode: julia
+	token = "NTY5MDExNDA1MDcyNjI5Nzgw.XeHuWg.ckb5geSPViwi6fMUFMnOFOlOwIE"
+# time: 2019-11-30 16:45:31 JST
+# mode: julia
+	c = Client(token)
+# time: 2019-11-30 16:45:42 JST
+# mode: julia
+	function dice_roll(D::Dict)
+	                sum = 0
+	                for i in 1:D["num"]
+	                                                sum += rand(1:D["side"])
+	                end
+	                return sum
+	end
+# time: 2019-11-30 16:45:43 JST
+# mode: julia
+	function handler(c::Client, m::MessageCreate)
+	                println("recieved: $(e.message.content)")
+	                reply(c, m, dice_roll(zip(["num", "side"], split(m.content, "d"))))
+	end
+# time: 2019-11-30 16:45:43 JST
+# mode: julia
+	function main()
+	                c = Client(token)
+	                add_handler!(c, MessageCreate, handler)
+	                return 0
+	end
+# time: 2019-11-30 16:46:04 JST
+# mode: julia
+	mai()
+# time: 2019-11-30 16:46:06 JST
+# mode: julia
+	main()
+# time: 2019-11-30 16:46:17 JST
+# mode: julia
+	open(c)
+# time: 2019-11-30 16:49:40 JST
+# mode: julia
+	function main()
+	                c = Client(token)
+	                add_command!(c, MessageCreate, handler)
+	                return 0
+	end
+# time: 2019-11-30 16:49:45 JST
+# mode: julia
+	main()
+# time: 2019-11-30 16:50:02 JST
+# mode: help
+	add_command!
+# time: 2019-11-30 16:50:46 JST
+# mode: julia
+	close(c)
+# time: 2019-11-30 16:51:20 JST
+# mode: julia
+	const token = "NTY5MDExNDA1MDcyNjI5Nzgw.XeHuWg.ckb5geSPViwi6fMUFMnOFOlOwIE1"
+# time: 2019-11-30 16:51:20 JST
+# mode: julia
+	function dice_roll(D::Dict)
+	                sum = 0
+	                for i in 1:D["num"]
+	                                sum += rand(1:D["side"])
+	                end
+	                return sum
+	end
+# time: 2019-11-30 16:51:21 JST
+# mode: julia
+	function handler(c::Client, m::MessageCreate)
+	                println("recieved: $(e.message.content)")
+	                reply(c, m, dice_roll(zip(["num", "side"], split(m.content, "d"))))
+	end
+# time: 2019-11-30 16:51:38 JST
+# mode: julia
+	using Discord
+# time: 2019-11-30 16:51:53 JST
+# mode: julia
+	const token = "NTY5MDExNDA1MDcyNjI5Nzgw.XeHuWg.ckb5geSPViwi6fMUFMnOFOlOwIE1"
+# time: 2019-11-30 16:51:54 JST
+# mode: julia
+	function dice_roll(D::Dict)
+	                sum = 0
+	                for i in 1:D["num"]
+	                                                sum += rand(1:D["side"])
+	                end
+	                return sum
+	end
+# time: 2019-11-30 16:51:54 JST
+# mode: julia
+	function handler(c::Client, m::MessageCreate)
+	                println("recieved: $(e.message.content)")
+	                reply(c, m, dice_roll(zip(["num", "side"], split(m.content, "d"))))
+	end
+# time: 2019-11-30 16:52:23 JST
+# mode: julia
+	c = Client(token)
+# time: 2019-11-30 16:52:41 JST
+# mode: help
+	add_command!
+# time: 2019-11-30 16:53:53 JST
+# mode: julia
+	add_command!(c, :dice, handler)
+# time: 2019-11-30 16:54:17 JST
+# mode: julia
+	function handler(c::Client, m::Message)
+	                println("recieved: $(e.message.content)")
+	                reply(c, m, dice_roll(zip(["num", "side"], split(m.content, "d"))))
+	end
+# time: 2019-11-30 16:54:20 JST
+# mode: julia
+	add_command!(c, :dice, handler)
+# time: 2019-11-30 16:54:28 JST
+# mode: julia
+	open(c)
+# time: 2019-11-30 16:55:21 JST
+# mode: julia
+	using Discord
+# time: 2019-11-30 16:55:22 JST
+# mode: julia
+	const token = "NTY5MDExNDA1MDcyNjI5Nzgw.XeHuWg.ckb5geSPViwi6fMUFMnOFOlOwIE1"
+# time: 2019-11-30 16:55:23 JST
+# mode: julia
+	function dice_roll(D::Dict)
+	                sum = 0
+	                for i in 1:D["num"]
+	                                                sum += rand(1:D["side"])
+	                end
+	                return sum
+	end
+# time: 2019-11-30 16:55:23 JST
+# mode: julia
+	function handler(c::Client, m::Message)
+	                println("recieved: $(e.message.content)")
+	                reply(c, m, dice_roll(zip(["num", "side"], split(m.content, "d"))))
+	end
+# time: 2019-11-30 16:55:43 JST
+# mode: julia
+	c = Client(token)
+# time: 2019-11-30 16:56:49 JST
+# mode: julia
+	add_command!(c, :dice, handler)
+# time: 2019-11-30 16:56:58 JST
+# mode: julia
+	open(c)
+# time: 2019-11-30 16:59:28 JST
+# mode: julia
+	using Discord
+# time: 2019-11-30 16:59:30 JST
+# mode: julia
+	const token = "NTY5MDExNDA1MDcyNjI5Nzgw.XeHuWg.ckb5geSPViwi6fMUFMnOFOlOwIE1"
+# time: 2019-11-30 16:59:30 JST
+# mode: julia
+	function dice_roll(D::Dict)
+	                sum = 0
+	                for i in 1:D["num"]
+	                                                sum += rand(1:D["side"])
+	                end
+	                return sum
+	end
+# time: 2019-11-30 16:59:30 JST
+# mode: julia
+	function handler(c::Client, m::Message)
+	                println("recieved: $(e.message.content)")
+	                reply(c, m, dice_roll(zip(["num", "side"], split(m.content, "d"))))
+	end
+# time: 2019-11-30 16:59:30 JST
+# mode: julia
+	function main()
+	                c = Client(token)
+	                add_command!(c, :dice, handler)
+	                return 0
+	end
+# time: 2019-11-30 16:59:30 JST
+# mode: julia
+	main()
+# time: 2019-11-30 16:59:57 JST
+# mode: julia
+	open(c)
+# time: 2019-11-30 17:00:44 JST
+# mode: julia
+	using Discord
+# time: 2019-11-30 17:00:45 JST
+# mode: julia
+	const token = "NTY5MDExNDA1MDcyNjI5Nzgw.XeHuWg.ckb5geSPViwi6fMUFMnOFOlOwIE1"
+# time: 2019-11-30 17:00:45 JST
+# mode: julia
+	function dice_roll(D::Dict)
+	                sum = 0
+	                for i in 1:D["num"]
+	                                                sum += rand(1:D["side"])
+	                end
+	                return sum
+	end
+# time: 2019-11-30 17:00:45 JST
+# mode: julia
+	function handler(c::Client, m::Message)
+	                println("recieved: $(e.message.content)")
+	                reply(c, m, dice_roll(zip(["num", "side"], split(m.content, "d"))))
+	end
+# time: 2019-11-30 17:01:24 JST
+# mode: julia
+	c = Client(token)
+# time: 2019-11-30 17:01:34 JST
+# mode: julia
+	add_command!(c, :dice, handler)
+# time: 2019-11-30 17:01:42 JST
+# mode: julia
+	open(c)
+# time: 2019-12-01 10:17:51 JST
+# mode: julia
+	using Discord
+# time: 2019-12-01 10:18:14 JST
+# mode: help
+	add_command!
+# time: 2019-12-01 10:18:41 JST
+# mode: help
+	Splat
+# time: 2019-12-01 10:19:09 JST
+# mode: julia
+	@which Splat
+# time: 2019-12-01 10:21:24 JST
+# mode: help
+	sum
+# time: 2019-12-01 10:22:01 JST
+# mode: julia
+	rand(1:6, 2)
+# time: 2019-12-01 10:22:15 JST
+# mode: julia
+	sum(rand(1:6, 2))
+# time: 2019-12-01 10:23:44 JST
+# mode: julia
+	const token = "NTY5MDExNDA1MDcyNjI5Nzgw.XeHuWg.ckb5geSPViwi6fMUFMnOFOlOwIE1"
+# time: 2019-12-01 10:23:54 JST
+# mode: julia
+	c = Client(token)
+# time: 2019-12-01 10:24:16 JST
+# mode: help
+	add_command!
+# time: 2019-12-01 10:24:45 JST
+# mode: julia
+	add_command!(
+	     c, :sub, (c, m, a, b) -> reply(c, m, string(a - b));
+	     parsers=[Float64, Float64], separator='-',
+	 )
+# time: 2019-12-01 10:25:37 JST
+# mode: julia
+	open(c)
+# time: 2019-12-01 10:28:23 JST
+# mode: julia
+	c = Client("NTY5MDExNDA1MDcyNjI5Nzgw.XeMXGw.h15q5h7XH16zkYmVyty_G2yTZNc")
+# time: 2019-12-01 10:28:38 JST
+# mode: julia
+	add_command!(
+	     c, :sub, (c, m, a, b) -> reply(c, m, string(a - b));
+	     parsers=[Float64, Float64], separator='-',
+	 )
+# time: 2019-12-01 10:28:46 JST
+# mode: julia
+	open(c)
+# time: 2019-12-01 10:29:46 JST
+# mode: julia
+	function dice_roll(num::Int, side::Int)
+	                return sum(rand(1:side, num))
+	                end
+# time: 2019-12-01 10:38:55 JST
+# mode: julia
+	add_command!(c,
+	                         :dice,
+	                                                 (c, m, s, n) -
+	                                                                         parser=[Int, I
+	                                                                                                 separaor='d')
+# time: 2019-12-01 10:39:24 JST
+# mode: julia
+	add_command!(c, :dice, (c, m, s, n) -> reply(c, m, string(sum(rand(1:side, num)))); parser=[Int, Int], separaor='d')
+# time: 2019-12-01 10:40:41 JST
+# mode: julia
+	close(c)
+# time: 2019-12-01 10:40:50 JST
+# mode: julia
+	c
+# time: 2019-12-01 10:40:54 JST
+# mode: julia
+	add_command!(c, :dice, (c, m, s, n) -> reply(c, m, string(sum(rand(1:side, num)))); parser=[Int, Int], separaor='d')
+# time: 2019-12-01 10:41:06 JST
+# mode: julia
+	open(c)
+# time: 2019-12-01 10:41:48 JST
+# mode: julia
+	close(c)
+# time: 2019-12-01 10:42:51 JST
+# mode: julia
+	add_command!(c, :dice, (c, m, s, n) -> reply(c, m, string(sum(rand(1:s, n)))); parser=[Int, Int], separaor='d')
+# time: 2019-12-01 10:42:57 JST
+# mode: julia
+	open(c)
+# time: 2019-12-01 10:43:42 JST
+# mode: julia
+	close(c)
+# time: 2019-12-01 10:44:43 JST
+# mode: julia
+	using OhMyREPL
+# time: 2019-12-01 10:46:07 JST
+# mode: julia
+	add_command!(c, :dice, (c, m, s, n) -> reply(c, m, "$s $n"); parser=[Int, Int], separaor='d')
+# time: 2019-12-01 10:46:11 JST
+# mode: julia
+	open(c)
+# time: 2019-12-01 10:46:31 JST
+# mode: julia
+	close(c)
+# time: 2019-12-01 10:46:38 JST
+# mode: julia
+	using Discord
+# time: 2019-12-01 10:46:45 JST
+# mode: julia
+	using OhMyREPL
+# time: 2019-12-01 10:47:57 JST
+# mode: julia
+	const token = "NTY5MDExNDA1MDcyNjI5Nzgw.XeMXGw.h15q5h7XH16zkYmVyty_G2yTZNc"
+# time: 2019-12-01 10:48:17 JST
+# mode: julia
+	c = Client(token)
+# time: 2019-12-01 10:50:39 JST
+# mode: julia
+	add_command!(c, :Dice, (c, m, s, n) -> reply(c, m, string(sum(rand(1:s, n)))));parser=[Int64, Int64], separator='d')
+# time: 2019-12-01 10:51:01 JST
+# mode: julia
+	add_command!(c, :Dice, (c, m, s, n) -> reply(c, m, string(sum(rand(1:s, n))));parser=[Int64, Int64], separator='d')
+# time: 2019-12-01 10:51:08 JST
+# mode: julia
+	open(c)
+# time: 2019-12-01 10:52:08 JST
+# mode: help
+	add_command!
+# time: 2019-12-01 10:53:26 JST
+# mode: julia
+	add_command!(c, :Dice, (c, m, s, n) -> reply(c, m, string(sum(rand(1:s, n))));
+	parser=[Int64, Int64], separator='d',
+	)
+# time: 2019-12-01 10:53:51 JST
+# mode: julia
+	open(c)
+# time: 2019-12-01 10:54:53 JST
+# mode: help
+	add_command!
+# time: 2019-12-01 10:55:08 JST
+# mode: julia
+	add_command!(
+	      c, :sub, (c, m, a, b) -> reply(c, m, string(a - b));
+	      parsers=[Float64, Float64], separator='-',
+	  )
+# time: 2019-12-01 10:55:44 JST
+# mode: julia
+	add_command!(c, :Dice, (c, m, s, n) -> reply(c, m, string(sum(rand(1:s, n))));
+	parser=[Int64, Int64], separator=',',
+	)
+# time: 2019-12-01 10:57:04 JST
+# mode: julia
+	f(c, m, s, n) = reply(c, m, string(sum(rand(1:s, n))))
+# time: 2019-12-01 10:57:20 JST
+# mode: julia
+	add_command!(c, :Dice, f;
+	parser=[Int64, Int64], separator=',',
+	)
+# time: 2019-12-01 10:57:45 JST
+# mode: julia
+	@command
+# time: 2019-12-01 10:57:51 JST
+# mode: julia
+	@command Dice
+# time: 2019-12-01 10:59:44 JST
+# mode: julia
+	handler(s, n) = string(sum(rand(1:s, n)))
+# time: 2019-12-01 11:00:06 JST
+# mode: julia
+	handler(6, 2)
+# time: 2019-12-01 11:04:41 JST
+# mode: julia
+	add_command!(c, :dtes, (c, m, s, n) -> reply(c, m, "$s $n"), parser=[Int, Int], separator='d',)
+# time: 2019-12-01 11:06:25 JST
+# mode: julia
+	c
+# time: 2019-12-01 11:06:31 JST
+# mode: julia
+	close(c)
+# time: 2019-12-01 11:07:14 JST
+# mode: julia
+	using Discord
+# time: 2019-12-01 11:07:33 JST
+# mode: julia
+	const token = "NTY5MDExNDA1MDcyNjI5Nzgw.XeMXGw.h15q5h7XH16zkYmVyty_G2yTZNc"
+# time: 2019-12-01 11:07:47 JST
+# mode: julia
+	c = Client(token)
+# time: 2019-12-01 11:09:14 JST
+# mode: julia
+	add_command!(c, :dtes, (c, m, s, n) -> reply(c, m, string(s + n)), parser=[Int, Int], separator='d',)
+# time: 2019-12-01 11:09:51 JST
+# mode: julia
+	open(c)
+# time: 2019-12-01 11:10:41 JST
+# mode: julia
+	add_command!(c, :dtes, (c, m, s, n) -> reply(c, m, string(s + n)), parser=[Int, Int], separator='d',)
+# time: 2019-12-01 11:10:48 JST
+# mode: julia
+	close(c)
+# time: 2019-12-01 11:10:54 JST
+# mode: help
+	add_command!
+# time: 2019-12-01 11:11:14 JST
+# mode: julia
+	add_command!(c, :dtes, (c, m, s, n) -> reply(c, m, string(s + n)), parsers=[Int, Int], separator='d',)
+# time: 2019-12-01 11:11:19 JST
+# mode: julia
+	open(c)
+# time: 2019-12-01 11:12:28 JST
+# mode: julia
+	close(c)
+# time: 2019-12-01 11:12:39 JST
+# mode: julia
+	using Discord, OhMyREPL
+# time: 2019-12-01 11:12:58 JST
+# mode: julia
+	const token = "NTY5MDExNDA1MDcyNjI5Nzgw.XeMXGw.h15q5h7XH16zkYmVyty_G2yTZNc"
+# time: 2019-12-01 11:13:25 JST
+# mode: julia
+	c = Client(token)
+# time: 2019-12-01 11:14:19 JST
+# mode: julia
+	add_command!(c, :Dice, (c, m, s, n) -> reply(c, m, string(su)))
+# time: 2019-12-01 11:15:37 JST
+# mode: julia
+	add_command!(c, :Dice, (c, m, s, n) -> reply(c, m, string(sum(rand(1:s, n)))), parsers=[Int64, Int64], separator='d',)
+# time: 2019-12-01 11:15:43 JST
+# mode: julia
+	open(c)
+# time: 2019-12-01 11:18:21 JST
+# mode: julia
+	rand(1:100, 1)
+# time: 2019-12-01 11:19:30 JST
+# mode: julia
+	add_command!(c, :Dice, (c, m, s, n) -> reply(c, m, "side: s\nnum:$n"), parsers=[Int64, Int64], separator='d',)
+# time: 2019-12-01 11:19:59 JST
+# mode: julia
+	add_command!(c, :Dice, (c, m, s, n) -> reply(c, m, "side: $s\nnum:$n"), parsers=[Int64, Int64], separator='d',)
+# time: 2019-12-01 11:20:43 JST
+# mode: julia
+	add_command!(c, :Dice, (c, m, n, s) -> reply(c, m, "side: $s\nnum:$n"), parsers=[Int64, Int64], separator='d',)
+# time: 2019-12-01 11:21:13 JST
+# mode: julia
+	add_command!(c, :Dice, (c, m, n, s) -> reply(c, m, string(sum(rand(1:s, n)))), parsers=[Int64, Int64], separator='d',)
+# time: 2019-12-01 11:27:13 JST
+# mode: julia
+	close(c)
+# time: 2019-12-01 11:55:55 JST
+# mode: pkg
+	generate dice_bot
+# time: 2019-12-01 12:01:45 JST
+# mode: pkg
+	instantiate
+# time: 2019-12-01 12:02:24 JST
+# mode: pkg
+	?instantiate
+# time: 2019-12-01 12:02:32 JST
+# mode: pkg
+	instantiate -m
+# time: 2019-12-01 12:02:38 JST
+# mode: shell
+	la
+# time: 2019-12-01 12:02:40 JST
+# mode: shell
+	ls
+# time: 2019-12-01 12:02:44 JST
+# mode: shell
+	ls -la
+# time: 2019-12-01 12:05:10 JST
+# mode: pkg
+	activate .
+# time: 2019-12-01 12:05:18 JST
+# mode: pkg
+	add Discord
+# time: 2019-12-01 12:05:57 JST
+# mode: pkg
+	add https://github.com/Xh4H/Discord.jl.git
+# time: 2019-12-01 12:06:06 JST
+# mode: pkg
+	st
+# time: 2019-12-01 12:06:14 JST
+# mode: shell
+	la
+# time: 2019-12-01 12:06:17 JST
+# mode: shell
+	ls -la
+# time: 2019-12-01 12:11:56 JST
+# mode: pkg
+	activate .
+# time: 2019-12-01 12:12:04 JST
+# mode: pkg
+	add Base
+# time: 2019-12-01 12:42:59 JST
+# mode: pkg
+	activate .
+# time: 2019-12-01 12:43:04 JST
+# mode: pkg
+	st
+# time: 2019-12-01 12:43:12 JST
+# mode: pkg
+	add Discord
+# time: 2019-12-01 12:45:46 JST
+# mode: julia
+	include("src/dice_bot.jl")
+# time: 2019-12-01 12:47:55 JST
+# mode: julia
+	exit()
+# time: 2019-12-02 08:48:00 JST
+# mode: julia
+	using LibGit2
+# time: 2019-12-02 08:48:09 JST
+# mode: help
+	LiBGit2
+# time: 2019-12-02 08:48:24 JST
+# mode: help
+	LibGit2
+# time: 2019-12-02 08:50:59 JST
+# mode: help
+	LibGit2.init
+# time: 2019-12-02 08:51:57 JST
+# mode: help
+	TOML
+# time: 2019-12-02 08:52:14 JST
+# mode: pkg
+	st
+# time: 2019-12-02 08:52:19 JST
+# mode: pkg
+	add TOML
+# time: 2019-12-02 08:52:42 JST
+# mode: julia
+	using TOML
+# time: 2019-12-02 08:54:01 JST
+# mode: pkg
+	add https://github.com/wildart/TOML.jl.git
+# time: 2019-12-02 08:54:16 JST
+# mode: julia
+	using TOML
+# time: 2019-12-02 08:55:17 JST
+# mode: julia
+	TOML.parse("[test]
+	name = "val"
+# time: 2019-12-02 08:55:36 JST
+# mode: julia
+	TOML.parse("""
+	[test]
+	name = "val"
+	""")
+# time: 2019-12-02 08:56:08 JST
+# mode: help
+	TOML.parse
+# time: 2019-12-02 08:57:45 JST
+# mode: julia
+	TOML.parse("""
+	[test]
+	name = "val"
+	""")
+# time: 2019-12-02 08:58:01 JST
+# mode: julia
+	ans["test"]["name"]
+# time: 2019-12-02 08:59:28 JST
+# mode: julia
+	f = open("test.toml")
+# time: 2019-12-02 08:59:40 JST
+# mode: julia
+	using TOML
+# time: 2019-12-02 08:59:53 JST
+# mode: julia
+	TOML.parse(f)
+# time: 2019-12-02 09:00:22 JST
+# mode: julia
+	using TOML
+# time: 2019-12-02 09:00:39 JST
+# mode: julia
+	TOML.parsefile("test.toml")
+# time: 2019-12-02 09:02:19 JST
+# mode: julia
+	ans.keys
+# time: 2019-12-02 09:02:26 JST
+# mode: julia
+	TOML.parsefile("test.toml")
+# time: 2019-12-02 09:02:32 JST
+# mode: julia
+	t = TOML.parsefile("test.toml")
+# time: 2019-12-02 09:02:37 JST
+# mode: julia
+	t.vals
+# time: 2019-12-02 09:02:47 JST
+# mode: julia
+	t.count
+# time: 2019-12-02 09:02:55 JST
+# mode: julia
+	t.age
+# time: 2019-12-02 09:04:03 JST
+# mode: help
+	collect
+# time: 2019-12-02 09:05:25 JST
+# mode: julia
+	test = Dict("a" => 1, "b" => 2)
+# time: 2019-12-02 09:05:34 JST
+# mode: julia
+	collect(test)
+# time: 2019-12-02 09:08:24 JST
+# mode: shell
+	pwd
+# time: 2019-12-02 09:08:33 JST
+# mode: shell
+	mkdir test
+# time: 2019-12-02 09:08:37 JST
+# mode: shell
+	cd test
+# time: 2019-12-02 09:08:45 JST
+# mode: julia
+	using LibGit2
+# time: 2019-12-02 09:08:53 JST
+# mode: julia
+	LibGit2.init
+# time: 2019-12-02 09:08:56 JST
+# mode: julia
+	LibGit2.init()
+# time: 2019-12-02 09:09:06 JST
+# mode: julia
+	LibGit2.init(".")
+# time: 2019-12-02 09:09:11 JST
+# mode: shell
+	la
+# time: 2019-12-02 09:09:14 JST
+# mode: shell
+	ls -la
+# time: 2019-12-02 09:13:10 JST
+# mode: help
+	cd
+# time: 2019-12-02 09:14:16 JST
+# mode: julia
+	f = open("TESTFILE")
+# time: 2019-12-02 09:14:25 JST
+# mode: julia
+	f = open("TESTFILE", "w")
+# time: 2019-12-02 09:15:04 JST
+# mode: julia
+	write(f, "TEST"*1000)
+# time: 2019-12-02 09:15:13 JST
+# mode: julia
+	write(f, "TEST"^1000)
+# time: 2019-12-02 09:15:19 JST
+# mode: julia
+	f
+# time: 2019-12-02 09:15:25 JST
+# mode: julia
+	close(f)
+# time: 2019-12-02 09:15:34 JST
+# mode: shell
+	vim TESTFILE
+# time: 2019-12-02 09:15:49 JST
+# mode: shell
+	rm TESTFILE
+# time: 2019-12-02 12:19:39 JST
+# mode: pkg
+	add DataFrames
+# time: 2019-12-02 12:19:54 JST
+# mode: julia
+	using DataFrames
+# time: 2019-12-02 12:21:39 JST
+# mode: julia
+	df = DataFrame(A = 1:3, B = ["X", "Y", "Z"], C = randn(4))
+# time: 2019-12-02 12:21:45 JST
+# mode: julia
+	df = DataFrame(A = 1:3, B = ["X", "Y", "Z"], C = randn(3))
+# time: 2019-12-02 12:22:08 JST
+# mode: julia
+	using Markdown
+# time: 2019-12-02 12:24:07 JST
+# mode: julia
+	Markdown.parse("""
+	| abc | def | ghi |
+	|:----|----:|:---:|
+	| 123 | 456 | 789 |
+	""")
+# time: 2019-12-02 13:05:50 JST
+# mode: julia
+	a = [1 2 2]
+# time: 2019-12-02 13:06:01 JST
+# mode: julia
+	pop!(a, 1)
+# time: 2019-12-02 13:06:05 JST
+# mode: julia
+	pop!(a,)
+# time: 2019-12-02 13:06:08 JST
+# mode: julia
+	pop!(a)
+# time: 2019-12-02 13:06:15 JST
+# mode: help
+	pop!
+# time: 2019-12-02 20:10:43 JST
+# mode: julia
+	using Sockets
+# time: 2019-12-02 20:11:33 JST
+# mode: julia
+	run(`i3 --get-socketpath`)
+# time: 2019-12-02 20:11:52 JST
+# mode: julia
+	p = run(`i3 --get-socketpath`)
+# time: 2019-12-02 20:11:54 JST
+# mode: julia
+	p
+# time: 2019-12-02 20:13:00 JST
+# mode: julia
+	qx
+# time: 2019-12-02 20:14:04 JST
+# mode: julia
+	p.out
+# time: 2019-12-02 20:14:12 JST
+# mode: julia
+	p.cmd
+# time: 2019-12-02 20:14:22 JST
+# mode: julia
+	p.in
+# time: 2019-12-02 20:14:25 JST
+# mode: julia
+	p.handle
+# time: 2019-12-02 20:14:29 JST
+# mode: julia
+	p.termsignal
+# time: 2019-12-02 20:14:35 JST
+# mode: julia
+	p.closenotify
+# time: 2019-12-02 20:15:14 JST
+# mode: julia
+	read(run(`i3 --get-socketpath`))
+# time: 2019-12-02 20:16:41 JST
+# mode: julia
+	s = read(`i3 --get-socketpath`, String)
+# time: 2019-12-02 20:16:57 JST
+# mode: julia
+	chomp(s)
+# time: 2019-12-02 20:17:56 JST
+# mode: julia
+	Sockets.connect(chomp(read(`i3 --get-socketpath`, String)))
+# time: 2019-12-02 20:45:32 JST
+# mode: julia
+	close(ans)
+# time: 2019-12-06 20:11:31 JST
+# mode: julia
+	2^12

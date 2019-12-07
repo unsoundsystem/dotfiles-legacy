@@ -16,6 +16,7 @@ alias t='tmux'
 alias j='julia'
 alias r='ranger'
 alias z='zen'
+alias info='info --vi-keys'
 export PATH=~/.local/bin:~/anaconda3/bin:/home/sasuseso/zen:$PATH
 export XDG_CONFIG_HOME=~/.config
 export EDITOR=vim

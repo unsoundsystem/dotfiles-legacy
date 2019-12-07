@@ -20,10 +20,12 @@
 $sasuseso
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
+:wq
+|2,0,1575632950,,"wq"
+:q!
+|2,0,1575508180,,"q!"
 :q
 |2,0,1574830657,,"q"
-:wq
-|2,0,1574690263,,"wq"
 :%s/sinai/sasuseso/g
 |2,0,1574690261,,"%s/sinai/sasuseso/g"
 :e .vimrc
@@ -32,8 +34,6 @@ $sasuseso
 |2,0,1573034725,,"echo has('vim')"
 :echo has('nvim')
 |2,0,1573034703,,"echo has('nvim')"
-:q!
-|2,0,1572769429,,"q!"
 :w
 |2,0,1572671206,,"w"
 :echo &ft
@@ -249,34 +249,120 @@ $sasuseso
 	
 |3,0,9,1,2,0,1572766928,"la",""
 ""-	CHAR	0
-	--cache-dir /home/sinai/Scripts/exokernel/zen-cache 
-|3,1,36,0,1,0,1573896406,"--cache-dir /home/sinai/Scripts/exokernel/zen-cache "
+	src/include/darkhorse.h
+|3,1,36,0,1,0,1575632943,"src/include/darkhorse.h"
 
 # ファイルマーク:
-'0  219  0  ~/ダウンロード/multiboot2.h
-|4,48,219,0,1574852267,"~/ダウンロード/multiboot2.h"
-'1  126  4  /usr/share/julia/base/c.jl
-|4,49,126,4,1574818663,"/usr/share/julia/base/c.jl"
-'2  35  2  ~/.vimrc
-|4,50,35,2,1574690263,"~/.vimrc"
-'3  1  69  /tmp/bash-fc.hJYlzn
-|4,51,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
-'4  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,52,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
-'5  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,53,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
-'6  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,54,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
+'0  1  22  /tmp/bash-fc.WQ6spe
+|4,48,1,22,1575632950,"/tmp/bash-fc.WQ6spe"
+'1  1  104  /tmp/bash-fc.L46TiW
+|4,49,1,104,1575277168,"/tmp/bash-fc.L46TiW"
+'2  1  0  ~/Scripts/test/TESTFILE
+|4,50,1,0,1575245742,"~/Scripts/test/TESTFILE"
+'3  219  0  ~/ダウンロード/multiboot2.h
+|4,51,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+'4  126  4  /usr/share/julia/base/c.jl
+|4,52,126,4,1574818663,"/usr/share/julia/base/c.jl"
+'5  35  2  ~/.vimrc
+|4,53,35,2,1574690263,"~/.vimrc"
+'6  1  69  /tmp/bash-fc.hJYlzn
+|4,54,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
 '7  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,55,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
+|4,55,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
 '8  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,56,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
+|4,56,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
 '9  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,57,1,0,1573717463,"~/Documents/memo/MIT_exokernel.md"
+|4,57,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
 
 # ジャンプリスト (新しいものが先):
+-'  1  22  /tmp/bash-fc.WQ6spe
+|4,39,1,22,1575632950,"/tmp/bash-fc.WQ6spe"
+-'  1  104  /tmp/bash-fc.L46TiW
+|4,39,1,104,1575277168,"/tmp/bash-fc.L46TiW"
+-'  1  104  /tmp/bash-fc.L46TiW
+|4,39,1,104,1575277168,"/tmp/bash-fc.L46TiW"
+-'  1  104  /tmp/bash-fc.L46TiW
+|4,39,1,104,1575277168,"/tmp/bash-fc.L46TiW"
+-'  1  104  /tmp/bash-fc.L46TiW
+|4,39,1,104,1575277168,"/tmp/bash-fc.L46TiW"
+-'  1  0  ~/Scripts/test/TESTFILE
+|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
+-'  1  0  ~/Scripts/test/TESTFILE
+|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
+-'  1  0  ~/Scripts/test/TESTFILE
+|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
+-'  1  0  ~/Scripts/test/TESTFILE
+|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
+-'  1  0  ~/Scripts/test/TESTFILE
+|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
+-'  1  0  ~/Scripts/test/TESTFILE
+|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
+-'  1  0  ~/Scripts/test/TESTFILE
+|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
+-'  1  0  ~/Scripts/test/TESTFILE
+|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
 -'  219  0  ~/ダウンロード/multiboot2.h
 |4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  219  0  ~/ダウンロード/multiboot2.h
+|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
+-'  1  0  ~/ダウンロード/multiboot2.h
+|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
 -'  1  0  ~/ダウンロード/multiboot2.h
 |4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
 -'  126  4  /usr/share/julia/base/c.jl
@@ -287,196 +373,128 @@ $sasuseso
 |4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
 -'  126  4  /usr/share/julia/base/c.jl
 |4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  1  0  /usr/share/julia/base/c.jl
-|4,39,1,0,1574818605,"/usr/share/julia/base/c.jl"
--'  1  0  /usr/share/julia/base/c.jl
-|4,39,1,0,1574818605,"/usr/share/julia/base/c.jl"
--'  1  0  /usr/share/julia/base/c.jl
-|4,39,1,0,1574818605,"/usr/share/julia/base/c.jl"
--'  1  0  /usr/share/julia/base/c.jl
-|4,39,1,0,1574818605,"/usr/share/julia/base/c.jl"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  35  2  ~/.vimrc
-|4,39,35,2,1574690263,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1574690261,"~/.vimrc"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
--'  1  69  /tmp/bash-fc.hJYlzn
-|4,39,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  126  4  /usr/share/julia/base/c.jl
+|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
+
+> /tmp/bash-fc.WQ6spe
+	*	1575632950	0
+	"	1	22
+	^	1	23
+	.	1	22
+	+	1	22
+
+> /tmp/bash-fc.L46TiW
+	*	1575277166	0
+	"	1	104
+	^	1	105
+	.	1	104
+	+	1	104
+
+> ~/Scripts/test/TESTFILE
+	*	1575245738	0
+	"	1	0
 
 > ~/ダウンロード/multiboot2.h
 	*	1574852266	0
@@ -1237,25 +1255,3 @@ $sasuseso
 	"	1	0
 	.	1	0
 	+	1	0
-
-> /tmp/bash-fc.ghZgpA
-	*	1572344942	0
-	"	1	50
-	^	1	51
-	.	1	50
-	+	1	0
-	+	2	28
-	+	1	50
-
-> /usr/share/vim/vim81/doc/help.txt
-	*	1572263644	0
-	"	1	0
-
-> ~/.vim/vim.toml
-	*	1572263498	0
-	"	43	43
-	^	43	44
-	.	43	43
-	+	46	0
-	+	56	27
-	+	43	43
