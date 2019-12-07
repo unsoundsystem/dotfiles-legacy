@@ -1,0 +1,78 @@
+[[plugins]]
+repo = 'autozimu/LanguageClient-neovim' 
+rev = 'next'
+build = 'bash install.sh'
+hook_source = '''source /home/sasuseso/.config/nvim/plugin_config/LanguageClient-neovim.vim'''
+
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'Shougo/unite.vim'
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+hook_add ='nnoremap <silent><C-e> :NERDTreeToggle<CR>'
+
+[[plugins]]
+repo = 'jpalardy/vim-slime'
+hook_add ='let g:slime_target = "tmux"'
+
+[[plugins]]
+repo = 'tomasr/molokai'
+
+[[plugins]]
+repo = 'Shougo/denite.nvim'
+
+[[plugins]]
+repo = 'majutsushi/tagbar'
+hook_add = 'nmap <F8> :TagbarToggle<CR>'
+
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+hook_add = '''
+let g:deoplete#enable_at_startup = 1
+let g:python3_host_prog='/home/sasuseso/anaconda3/bin/python'
+'''
+[[plugins]]
+repo = 'scrooloose/nerdcommenter'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+depends = 'vim-airline'
+hook_add = """
+let g:airline_theme='luna'
+let g:airline_powerline_fonts = 1
+set laststatus=2
+"""
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+hook_add = '''
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+'''
+
+[[plugins]]
+repo = 'gorodinskiy/vim-coloresque'
+
+[[plugins]]
+repo = 'JuliaEditorSupport/julia-vim'
+hook_source = 'let g:default_julia_version = "1.1"'
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+
+[[plugins]]
+repo = 'w0rp/ale'
+
+[[plugins]]
+repo = 'philj56/vim-asm-indent'
+
+#[[plugins]]
+#repo = 'neoclide/coc.nvim'
+#marge = '0'
+#rev = 'release'
+
+[[plugins]]
+repo = 'tpope/vim-obsession'

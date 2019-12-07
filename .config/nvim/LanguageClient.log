@@ -1,0 +1,34 @@
+#######
+LanguageClient 0.1.155 
+#######
+20:30:33 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["[!!get(g:, 'LanguageClient_autoStart', 1), s:GetVar('LanguageClient_serverCommands', {}), get(g:, 'LanguageClient_selectionUI', v:null), get(g:, 'LanguageClient_trace', v:null), expand(get(g:, 'LanguageClient_settingsPath', '.vim/settings.json')), !!get(g:, 'LanguageClient_loadSettings', 1), get(g:, 'LanguageClient_rootMarkers', v:null), get(g:, 'LanguageClient_changeThrottle', v:null), get(g:, 'LanguageClient_waitOutputTimeout', v:null), !!get(g:, 'LanguageClient_diagnosticsEnable', 1), get(g:, 'LanguageClient_diagnosticsList', 'Quickfix'), get(g:, 'LanguageClient_diagnosticsDisplay', {}), get(g:, 'LanguageClient_windowLogMessageLevel', 'Warning'), get(g:, 'LanguageClient_hoverPreview', 'Auto'), get(g:, 'LanguageClient_completionPreferTextEdit', 0), has('nvim')]"],"id":74}
+20:30:33 INFO reader-None src/rpcclient.rs:169 <= None {"id": 74, "jsonrpc": "2.0", "result": [1, {"c": ["cquery", "--log-file=/tmp/cq.log"], "julia": ["julia", "--startup-file=no", "--history-file=no", "-e", "       using LanguageServer;       using Pkg;       import StaticLint;       import SymbolServer;       env_path = dirname(Pkg.Types.Context().env.project_file);       debug = false;               server = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, \"\", Dict());       server.runlinter = true;       run(server);   "], "vhdl": ["hdlcc", "--lsp"], "rust": ["rustup", "run", "stable", "rls"], "cpp": ["cquery", "--log-file=/tmp/cq.log"], "python": ["pyls"]}, null, null, "/home/sasuseso/.config/nvim/settings.json", 1, null, null, null, 1, "Quickfix", {}, "Warning", "Auto", 0, 1]}
+20:30:33 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["[get(g:, 'LanguageClient_diagnosticsSignsMax', v:null), get(g:, 'LanguageClient_diagnosticsMaxSeverity', 'Hint'), get(g:, 'LanguageClient_documentHighlightDisplay', {}), !!s:GetVar('LanguageClient_selectionUI_autoOpen', 1), s:useVirtualText(), !!s:GetVar('LanguageClient_echoProjectRoot', 1)]"],"id":75}
+20:30:33 INFO reader-None src/rpcclient.rs:169 <= None {"id": 75, "jsonrpc": "2.0", "result": [null, "Hint", {}, 1, 1, 1]}
+20:30:33 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["get(g:, 'loaded_fzf')"],"id":76}
+20:30:33 INFO reader-None src/rpcclient.rs:169 <= None {"id": 76, "jsonrpc": "2.0", "result": 1}
+20:30:33 INFO unnamed src/language_server_protocol.rs:238 End sync settings
+20:30:33 INFO unnamed src/language_server_protocol.rs:2956 settings synced
+20:30:33 WARN unnamed src/language_server_protocol.rs:2284 Failed to start language server automatically. No language server commands found for filetype: ld
+20:30:33 INFO unnamed src/language_server_protocol.rs:2289 End languageClient/handleFileType
+20:33:31 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 11, "viewport": {"end": 38, "start": 0}, "languageId": "ld", "buftype": "", "position": {"character": 0, "line": 1}, "filename": "/home/sasuseso/Scripts/OS_02/linker.ld"}}
+20:33:31 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+20:33:31 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 11, "viewport": {"end": 38, "start": 0}, "languageId": "ld", "buftype": "", "position": {"character": 0, "line": 2}, "filename": "/home/sasuseso/Scripts/OS_02/linker.ld"}}
+20:33:31 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+20:33:31 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 11, "viewport": {"end": 38, "start": 0}, "languageId": "ld", "buftype": "", "position": {"character": 0, "line": 3}, "filename": "/home/sasuseso/Scripts/OS_02/linker.ld"}}
+20:33:31 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+20:34:18 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 7, "viewport": {"end": 7, "start": 0}, "languageId": "c", "buftype": "", "position": {"character": 0, "line": 1}, "filename": "/home/sasuseso/Scripts/OS_02/src/kernel/core/kmain.c"}}
+20:34:18 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+20:34:19 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 7, "viewport": {"end": 7, "start": 0}, "languageId": "c", "buftype": "", "position": {"character": 0, "line": 0}, "filename": "/home/sasuseso/Scripts/OS_02/src/kernel/core/kmain.c"}}
+20:34:19 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+20:34:24 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 10, "viewport": {"end": 17, "start": 0}, "languageId": "cpp", "buftype": "", "position": {"character": 0, "line": 7}, "filename": "/home/sasuseso/Scripts/OS_02/src/include/linker.h"}}
+20:34:24 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+20:42:22 INFO reader-None src/rpcclient.rs:169 <= None {"method": "languageClient/handleCursorMoved", "jsonrpc": "2.0", "params": {"bufnr": 10, "viewport": {"end": 17, "start": 0}, "languageId": "cpp", "buftype": "", "position": {"character": 0, "line": 7}, "filename": "/home/sasuseso/Scripts/OS_02/src/include/linker.h"}}
+20:42:22 INFO unnamed src/language_server_protocol.rs:2349 Begin languageClient/handleCursorMoved
+20:42:25 INFO reader-None src/rpcclient.rs:169 <= None {"method": "exit", "jsonrpc": "2.0", "params": {"bufnr": 10, "languageId": "cpp"}}
+20:42:25 INFO unnamed src/language_server_protocol.rs:2105 Begin exit
+20:42:25 INFO writer-None src/rpcclient.rs:215 => None {"jsonrpc":"2.0","method":"eval","params":["LSP#filename()"],"id":77}
+20:42:25 INFO reader-None src/rpcclient.rs:169 <= None {"id": 77, "jsonrpc": "2.0", "result": "/home/sasuseso/Scripts/OS_02/src/include/linker.h"}
+20:42:25 ERROR unnamed src/language_server_protocol.rs:2113 Error: "SendError(..)"
+20:42:25 INFO unnamed src/language_server_protocol.rs:860 Begin cleanup
+20:42:25 INFO reader-None src/rpcclient.rs:202 reader-None terminated
