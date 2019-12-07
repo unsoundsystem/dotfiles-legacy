@@ -1,1 +1,0 @@
-`/usr/local/bin/patchelf --replace-needed libnettle.so.6 '$ORIGIN/../lib/libnettle.so.6' bin/sexp-conv`

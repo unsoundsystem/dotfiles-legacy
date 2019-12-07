@@ -1,1 +1,0 @@
-`/usr/local/bin/patchelf --replace-needed libmbedcrypto.so.0 libmbedcrypto.so.0 lib/libmbedtls.so.2.6.1`

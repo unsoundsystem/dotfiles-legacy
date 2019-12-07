@@ -1,1 +1,0 @@
-`/usr/local/bin/patchelf --replace-needed libmbedtls.so.10 libmbedtls.so.10 bin/req_app`

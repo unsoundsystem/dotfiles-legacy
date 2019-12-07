@@ -1,1 +1,0 @@
-`/usr/local/bin/patchelf --set-rpath ../lib bin/udp_proxy`
