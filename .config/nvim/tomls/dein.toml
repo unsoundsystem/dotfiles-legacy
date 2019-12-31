@@ -1,8 +1,14 @@
+#[[plugins]]
+#repo = 'autozimu/LanguageClient-neovim' 
+#rev = 'next'
+#build = 'bash install.sh'
+#hook_source = '''source /home/sasuseso/.config/nvim/plugin_config/LanguageClient-neovim.vim'''
 [[plugins]]
-repo = 'autozimu/LanguageClient-neovim' 
-rev = 'next'
-build = 'bash install.sh'
-hook_source = '''source /home/sasuseso/.config/nvim/plugin_config/LanguageClient-neovim.vim'''
+repo = 'prabirshrestha/async.vim'
+
+[[plugins]]
+repo = 'prabirshrestha/vim-lsp'
+hook_source = 'source /home/sasuseso/.config/nvim/plugin_config/vim-lsp.vim'
 
 [[plugins]]
 repo = 'Shougo/dein.vim'
@@ -32,7 +38,7 @@ hook_add = 'nmap <F8> :TagbarToggle<CR>'
 repo = 'Shougo/deoplete.nvim'
 hook_add = '''
 let g:deoplete#enable_at_startup = 1
-let g:python3_host_prog='/home/sasuseso/anaconda3/bin/python'
+let g:python3_host_prog='/usr/bin/python'
 '''
 [[plugins]]
 repo = 'scrooloose/nerdcommenter'
@@ -76,3 +82,6 @@ repo = 'philj56/vim-asm-indent'
 
 [[plugins]]
 repo = 'tpope/vim-obsession'
+
+[[plugins]]
+repo = 'arakashic/nvim-colors-solarized'

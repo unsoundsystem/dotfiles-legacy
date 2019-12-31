@@ -2,7 +2,7 @@ using REPL
 using REPL.TerminalMenus
 JULIALIB = "/home/sasuseso/Scripts/julialib"
 
-mylibs = ["ELF", "QEmu"]
+mylibs = ["ELF", "QEmu", "DeepLearningFromScrach"]
 
 append!(LOAD_PATH, [joinpath(JULIALIB, i, "src") for i in mylibs ])
 

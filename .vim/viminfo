@@ -11,21 +11,41 @@
 # hlsearch on (H) or off (h):
 ~h
 # 最後の 検索パターン:
-~MSle0/libuv
+~MSle0~/---error---
 
 # 最後の Substitute 検索パターン:
-~MSle0~&sinai
+~MSle0&ovmf\/
 
 # 最後に置換された文字列:
-$sasuseso
+$ovmf\/x64
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
-:wq
-|2,0,1575632950,,"wq"
-:q!
-|2,0,1575508180,,"q!"
 :q
-|2,0,1574830657,,"q"
+|2,0,1577768473,,"q"
+:q!
+|2,0,1577766999,,"q!"
+:wq!
+|2,0,1577766997,,"wq!"
+:w!
+|2,0,1577766987,,"w!"
+:w
+|2,0,1577766981,,"w"
+:wq
+|2,0,1577766978,,"wq"
+:echo &ft
+|2,0,1577766741,,"echo &ft"
+:LP
+|2,0,1577275380,,"LP"
+:e .
+|2,0,1577275368,,"e ."
+:464
+|2,0,1576215261,,"464"
+:e
+|2,0,1576215155,,"e"
+:1
+|2,0,1576207355,,"1"
+:s/ovmf\//ovmf\/x64/g
+|2,0,1575708361,,"s/ovmf\\//ovmf\\/x64/g"
 :%s/sinai/sasuseso/g
 |2,0,1574690261,,"%s/sinai/sasuseso/g"
 :e .vimrc
@@ -34,18 +54,12 @@ $sasuseso
 |2,0,1573034725,,"echo has('vim')"
 :echo has('nvim')
 |2,0,1573034703,,"echo has('nvim')"
-:w
-|2,0,1572671206,,"w"
-:echo &ft
-|2,0,1572603676,,"echo &ft"
 :PrevimOpen
 |2,0,1572589014,,"PrevimOpen"
 :Pexplore
 |2,0,1572589000,,"Pexplore"
 :e .config/i3/config
 |2,0,1572529762,,"e .config/i3/config"
-:w!
-|2,0,1572529087,,"w!"
 :e ++enc=sis
 |2,0,1572515528,,"e ++enc=sis"
 :source 
@@ -106,22 +120,18 @@ $sasuseso
 |2,0,1572345851,,"!"
 :q1
 |2,0,1572345206,,"q1"
-:%s/test/call_jl/g
-|2,0,1572261121,,"%s/test/call_jl/g"
-:echo expand("%")
-|2,0,1572259246,,"echo expand(\"%\")"
-:echo expand(
-|2,0,1572259222,,"echo expand("
-:echo %
-|2,0,1572259213,,"echo %"
-:set nonumber
-|2,0,1572256384,,"set nonumber"
-:%s/_/\\_/g
-|2,0,1572066443,,"%s/_/\\\\_/g"
-:%s/sinai/****/g
-|2,0,1572064315,,"%s/sinai/****/g"
 
 # 検索文字列 項目の履歴 (新しいものから古いものへ):
+? \<formatText\>
+|2,1,1576215276,,"\\<formatText\\>"
+?/memset
+|2,1,1576215148,47,"memset"
+?/formatType
+|2,1,1576215137,47,"formatType"
+?/bufPrint
+|2,1,1576214442,47,"bufPrint"
+? ovmf\/
+|2,1,1575708361,,"ovmf\\/"
 ? sinai
 |2,1,1574690261,,"sinai"
 ?/libuv
@@ -217,266 +227,464 @@ $sasuseso
 	end
 	
 |3,0,0,0,7,0,1572599873,"","mutable struct RefValue{T} <: Ref{T}","    x::T","    RefValue{T}() where {T} = new()","    RefValue{T}(x) where {T} = new(x)","end",""
-"1	LINE	0
-	n closs_compiler.sh 
-	
-|3,0,1,1,2,0,1572769575,"n closs_compiler.sh ",""
+""1	LINE	0
+					"""
+|3,1,1,1,1,0,1577766847,"				\"\"\""
 "2	LINE	0
-	#wget https://ftp.gnu.org/gnu/gmp/gmp-5.1.3.tar.gz
-	#wget https://www.mpfr.org/mpfr-current/mpfr-4.0.2.tar.gz
-|3,0,2,1,2,0,1572769442,"#wget https://ftp.gnu.org/gnu/gmp/gmp-5.1.3.tar.gz","#wget https://www.mpfr.org/mpfr-current/mpfr-4.0.2.tar.gz"
+					</u1>
+|3,0,2,1,1,0,1577766846,"				</u1>"
 "3	LINE	0
-	#wget https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz
-|3,0,3,1,1,0,1572769441,"#wget https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz"
+					</u1>
+					$(mapreduce(book -> "<li>$(book.title) $(book.publication_date)</li>", *, books))
+|3,0,3,1,2,0,1577766845,"				</u1>","				$(mapreduce(book -> \"<li>$(book.title) $(book.publication_date)</li>\", *, books))"
 "4	LINE	0
-	n closs_compiler.sh 
-	
-|3,0,4,1,2,0,1572769440,"n closs_compiler.sh ",""
+					return """
+					<h1>Julia Books</h1>
+|3,0,4,1,2,0,1577766845,"				return \"\"\"","				<h1>Julia Books</h1>"
 "5	LINE	0
-	n closs_compiler.sh 
-|3,0,5,1,1,0,1572769380,"n closs_compiler.sh "
+	using Genie.Renderer
+|3,0,5,1,1,0,1577766820,"using Genie.Renderer"
 "6	LINE	0
-	n closs_compiler.sh 
-|3,0,6,1,1,0,1572769277,"n closs_compiler.sh "
-"7	LINE	0
-	n ../closs_compiler.sh 
-|3,0,7,1,1,0,1572768660,"n ../closs_compiler.sh "
+	  # Build something great
+|3,0,6,1,1,0,1577764899,"  # Build something great"
+"7	BLOCK	0
+		
+		
+		
+		
+		
+		
+		
+		
+|3,0,7,2,8,0,1575876193,"	","	","	","	","	","	","	","	"
 "8	LINE	0
-	n ../closs_compiler.sh 
-|3,0,8,1,1,0,1572767305,"n ../closs_compiler.sh "
-"9	LINE	0
-	la
 	
-|3,0,9,1,2,0,1572766928,"la",""
-""-	CHAR	0
-	src/include/darkhorse.h
-|3,1,36,0,1,0,1575632943,"src/include/darkhorse.h"
+|3,0,8,1,1,0,1575875188,""
+"9	CHAR	0
+	#ifndef ASM_FILE
+	
+	#include "bss.h"
+	
+	
+	#endif /* ASM_FILE */
+	
+|3,0,9,0,7,0,1575875184,"#ifndef ASM_FILE","","#include \"bss.h\"","","","#endif /* ASM_FILE */",""
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1577766569," "
 
 # ファイルマーク:
-'0  1  22  /tmp/bash-fc.WQ6spe
-|4,48,1,22,1575632950,"/tmp/bash-fc.WQ6spe"
-'1  1  104  /tmp/bash-fc.L46TiW
-|4,49,1,104,1575277168,"/tmp/bash-fc.L46TiW"
-'2  1  0  ~/Scripts/test/TESTFILE
-|4,50,1,0,1575245742,"~/Scripts/test/TESTFILE"
-'3  219  0  ~/ダウンロード/multiboot2.h
-|4,51,219,0,1574852267,"~/ダウンロード/multiboot2.h"
-'4  126  4  /usr/share/julia/base/c.jl
-|4,52,126,4,1574818663,"/usr/share/julia/base/c.jl"
-'5  35  2  ~/.vimrc
-|4,53,35,2,1574690263,"~/.vimrc"
-'6  1  69  /tmp/bash-fc.hJYlzn
-|4,54,1,69,1573896413,"/tmp/bash-fc.hJYlzn"
-'7  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,55,1,0,1573717610,"~/Documents/memo/MIT_exokernel.md"
-'8  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,56,1,0,1573717563,"~/Documents/memo/MIT_exokernel.md"
-'9  1  0  ~/Documents/memo/MIT_exokernel.md
-|4,57,1,0,1573717530,"~/Documents/memo/MIT_exokernel.md"
+'0  1  0  ./app/resources/books/views/show_books
+|4,48,1,0,1577768473,"./app/resources/books/views/show_books"
+'1  1  0  app/resources/books/views/show_books
+|4,49,1,0,1577768465,"app/resources/books/views/show_books"
+'2  1  0  ./app/resources/books/views/show_books.jl.html
+|4,50,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+'3  14  0  ./app/resources/books/views/show_books.jl.html
+|4,51,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+'4  14  0  ./app/resources/books/views/show_books.jl.html
+|4,52,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+'5  12  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,53,12,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+'6  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,54,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+'7  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,55,1,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+'8  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,56,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+'9  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,57,1,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
 
 # ジャンプリスト (新しいものが先):
--'  1  22  /tmp/bash-fc.WQ6spe
-|4,39,1,22,1575632950,"/tmp/bash-fc.WQ6spe"
--'  1  104  /tmp/bash-fc.L46TiW
-|4,39,1,104,1575277168,"/tmp/bash-fc.L46TiW"
--'  1  104  /tmp/bash-fc.L46TiW
-|4,39,1,104,1575277168,"/tmp/bash-fc.L46TiW"
--'  1  104  /tmp/bash-fc.L46TiW
-|4,39,1,104,1575277168,"/tmp/bash-fc.L46TiW"
--'  1  104  /tmp/bash-fc.L46TiW
-|4,39,1,104,1575277168,"/tmp/bash-fc.L46TiW"
--'  1  0  ~/Scripts/test/TESTFILE
-|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
--'  1  0  ~/Scripts/test/TESTFILE
-|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
--'  1  0  ~/Scripts/test/TESTFILE
-|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
--'  1  0  ~/Scripts/test/TESTFILE
-|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
--'  1  0  ~/Scripts/test/TESTFILE
-|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
--'  1  0  ~/Scripts/test/TESTFILE
-|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
--'  1  0  ~/Scripts/test/TESTFILE
-|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
--'  1  0  ~/Scripts/test/TESTFILE
-|4,39,1,0,1575245742,"~/Scripts/test/TESTFILE"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  219  0  ~/ダウンロード/multiboot2.h
-|4,39,219,0,1574852267,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  1  0  ~/ダウンロード/multiboot2.h
-|4,39,1,0,1574852246,"~/ダウンロード/multiboot2.h"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
--'  126  4  /usr/share/julia/base/c.jl
-|4,39,126,4,1574818663,"/usr/share/julia/base/c.jl"
+-'  1  0  ./app/resources/books/views/show_books
+|4,39,1,0,1577768473,"./app/resources/books/views/show_books"
+-'  1  0  app/resources/books/views/show_books
+|4,39,1,0,1577768465,"app/resources/books/views/show_books"
+-'  1  0  app/resources/books/views/show_books
+|4,39,1,0,1577768465,"app/resources/books/views/show_books"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
+
+> ./app/resources/books/views/show_books
+	*	1577768471	0
+	"	1	0
+
+> app/resources/books/views/show_books
+	*	1577768460	0
+	"	1	0
+
+> ./app/resources/books/views/show_books.jl.html
+	*	1577767010	0
+	"	1	0
+	^	14	45
+	.	14	0
+	+	8	40
+	+	12	1
+	+	14	0
+
+> ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+	*	1577766970	0
+	"	9	0
+	.	1	0
+	+	1	0
+
+> ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+	*	1577766968	0
+	"	19	0
+	^	17	45
+	.	17	44
+	+	18	25
+	+	18	17
+	+	18	84
+	+	18	6
+	+	18	10
+	+	18	3
+	+	2	0
+	+	11	3
+	+	12	25
+	+	2	0
+	+	4	0
+	+	18	0
+	+	17	44
+
+> ~/Scripts/Genie_test/GenieBookShelf/routes.jl
+	*	1577765926	0
+	"	12	0
+	^	2	21
+	.	2	20
+	+	12	42
+	+	2	20
+
+> ~/ダウンロード/Linux_3.x.x_4.x.x_VCP_Driver_Source/Makefile
+	*	1577530736	0
+	"	1	0
+
+> ~/Documents/memo/jltokaiLT.md
+	*	1577349083	0
+	"	1	0
+
+> ~/Documents/memo/elf-julia.md
+	*	1577349071	0
+	"	1	6
+
+> ~/.config/nvim/plugin_config/lsp.jl
+	*	1577275381	0
+	"	1	0
+
+> ~/.config/nvim/NERD_tree_1
+	*	1577275374	0
+	"	8	0
+	.	1	0
+	+	1	0
+
+> ~/zen/lib/zen/std/fmt.zen
+	*	1576215377	0
+	"	569	7
+	e	331	7
+
+> ~/Scripts/exokernel/src/kernel/core/vga_text.zen
+	*	1576207355	0
+	"	1	0
+
+> /tmp/bash-fc.dlLdsg
+	*	1576124908	0
+	"	1	26
+	^	1	27
+	.	1	27
+	+	1	27
+
+> /tmp/bash-fc.3C1KOZ
+	*	1576041045	0
+	"	1	13
+	.	1	2
+	+	1	2
+
+> ~/anaconda3/bin/2to3
+	*	1576036720	0
+	"	1	0
+
+> ~/Downloads/juliacon2019-ZFQHDS.ics
+	*	1576032526	0
+	"	1	0
+
+> ~/Scripts/exokernel/src/kernel/boot/boot.S
+	*	1575876664	0
+	"	2	13
+	^	2	14
+	.	2	13
+	+	2	13
+
+> ~/Scripts/exokernel/src/kernel/boot/data.S
+	*	1575876197	0
+	"	6	7
+	^	6	8
+	.	7	0
+	+	7	0
+
+> ~/Scripts/exokernel/src/include/c/myos.h
+	*	1575875425	0
+	"	15	5
+	.	15	5
+	+	15	5
+
+> ~/Scripts/exokernel/src/include/c/x86_64.h
+	*	1575875238	0
+	"	1	0
+
+> ~/Scripts/exokernel/src/include/c/darkhorse.h
+	*	1575875224	0
+	"	7	1
+	^	2	14
+	.	2	13
+	+	16	0
+	+	15	0
+	+	1	13
+	+	2	13
+
+> /tmp/bash-fc.UB7NTQ
+	*	1575708382	0
+	"	1	179
+	^	1	180
+	.	1	179
+	+	1	0
+	+	1	92
+	+	1	0
+	+	1	179
+
+> /tmp/bash-fc.vEEWDT
+	*	1575708312	0
+	"	3	2
+	^	2	70
+	.	2	69
+	+	1	0
+	+	3	0
+	+	2	66
+	+	3	69
+	+	2	69
+
+> /tmp/bash-fc.vppJjT
+	*	1575707116	0
+	"	1	0
+
+> /tmp/bash-fc.SZ5tlR
+	*	1575707063	0
+	"	1	89
+	.	1	89
+	+	2	0
+	+	1	0
+	+	1	89
+
+> /tmp/bash-fc.fO8YES
+	*	1575706846	0
+	"	1	18
+	^	1	19
+	.	1	19
+	+	2	0
+	+	1	0
+	+	4	14
+	+	2	73
+	+	3	73
+	+	1	19
+
+> /tmp/bash-fc.MXWIVR
+	*	1575706718	0
+	"	1	0
+	.	1	0
+	+	1	0
 
 > /tmp/bash-fc.WQ6spe
 	*	1575632950	0
@@ -1087,171 +1295,3 @@ $sasuseso
 > ~/zen/lib/zen/std/build/fmt.zen
 	*	1572424096	0
 	"	1	0
-
-> ~/zen/lib/zen/NERD_tree_1
-	*	1572424092	0
-	"	7	0
-	.	1	0
-	+	1	0
-
-> ~/Scripts/zen_uefi/build.zen
-	*	1572421003	0
-	"	2	0
-
-> /tmp/bash-fc.X8K9m0
-	*	1572418525	0
-	"	1	193
-	^	1	194
-	.	1	193
-	+	1	110
-	+	1	193
-
-> /tmp/bash-fc.uJNxJY
-	*	1572418381	0
-	"	1	190
-	^	1	191
-	.	1	191
-	+	1	154
-	+	1	0
-	+	1	190
-	+	1	0
-	+	1	191
-
-> /tmp/bash-fc.yh5l80
-	*	1572418220	0
-	"	4	15
-	^	1	0
-	.	4	15
-	+	2	0
-	+	1	0
-	+	4	15
-
-> ~/Scripts/julia_src/julia_6/Make.inc
-	*	1572348801	0
-	"	1	0
-
-> /tmp/bash-fc.KpUmWl
-	*	1572348800	0
-	"	1	0
-
-> /tmp/bash-fc.fqHjOl
-	*	1572348744	0
-	"	1	74
-	^	1	56
-	.	1	74
-	+	1	74
-
-> ~/Scripts/julia_src/julia_6/ui/Makefile
-	*	1572348668	0
-	"	2	0
-
-> ~/Scripts/julia_src/julia_6/Makefile
-	*	1572348663	0
-	"	1	0
-	.	88	0
-	+	88	0
-
-> ~/Scripts/julia_src/julia_6/src/julia_threads.h
-	*	1572348473	0
-	"	7	1
-
-> ~/Scripts/julia_src/julia_6/src/julia.h
-	*	1572348344	0
-	"	18	17
-	^	12	18
-	.	18	10
-	+	12	17
-	+	16	17
-	+	17	17
-	+	18	18
-	+	16	10
-	+	12	17
-	+	17	0
-	+	16	10
-	+	17	10
-	+	18	10
-
-> ../src/julia.h
-	*	1572347920	0
-	"	1	0
-
-> ~/Scripts/julia_src/julia_6/ui/repl.c
-	*	1572347913	0
-	"	23	0
-
-> /tmp/bash-fc.vaMSmj
-	*	1572347241	0
-	"	1	37
-	^	1	33
-	.	1	15
-	+	1	0
-	+	2	0
-	+	1	15
-
-> /tmp/bash-fc.gv2rqk
-	*	1572347081	0
-	"	1	23
-	^	1	24
-	.	1	23
-	+	1	23
-
-> ~/Scripts/julia_src/julia_6/test/embedding/Makefile
-	*	1572346917	0
-	"	17	4
-
-> ~/Scripts/julia_src/julia_6/test/embedding/embedding.c
-	*	1572346882	0
-	"	1	0
-
-> ~/Scripts/julia_src/julia_6/sysimage.mk
-	*	1572346820	0
-	"	86	0
-
-> ~/Scripts/julia_src/sysimage.mk
-	*	1572346804	0
-	"	1	0
-
-> ~/Scripts/julia_src/julia_6/base/Makefile
-	*	1572346637	0
-	"	1	0
-
-> /tmp/bash-fc.XTrTQQ
-	*	1572346364	0
-	"	1	0
-	^	1	11
-	.	1	9
-	+	1	0
-	+	2	28
-	+	1	9
-
-> ~/Scripts/julia_src/julia_6/Make
-	*	1572345852	0
-	"	1	0
-
-> /tmp/bash-fc.AG4HCS
-	*	1572345592	0
-	"	1	14
-	^	1	16
-	.	1	15
-	+	1	15
-
-> ~/Scripts/julia_src/julia_6/base/compiler/bootstrap.jl
-	*	1572345551	0
-	"	8	0
-
-> /tmp/bash-fc.zi4BlP
-	*	1572345500	0
-	"	1	79
-	^	1	80
-	.	1	79
-	+	1	79
-
-> /home/sysimage.mk
-	*	1572345337	0
-	"	1	0
-
-> /tmp/bash-fc.eGHQYO
-	*	1572345204	0
-	"	1	0
-	.	1	0
-	+	1	0

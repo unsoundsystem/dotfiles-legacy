@@ -31,3 +31,7 @@ hook_add = 'let g:instant_markdown_browser = "firefox --new-window"'
 [[plugins]]
 repo = 'zenlang/zen.vim'
 on_ft = 'zen'
+
+[[plugins]]
+repo = 'sudar/vim-arduino-syntax'
+on_ft = 'arduino'

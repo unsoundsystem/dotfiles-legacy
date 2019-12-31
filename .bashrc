@@ -8,6 +8,7 @@
 alias ls='ls --color=auto'
 alias la='ls -la --color=auto'
 alias ll='ls -la . | less'
+alias lr='la -R'
 alias rf='rm -rf'
 alias st='st -f "HackGen Console for Powerline:size=15"'
 alias v='vim'
@@ -17,9 +18,10 @@ alias j='julia'
 alias r='ranger'
 alias z='zen'
 alias info='info --vi-keys'
-export PATH=~/.local/bin:~/anaconda3/bin:/home/sasuseso/zen:$PATH
+alias ta='tmux a'
+export PATH=~/.local/bin:/home/sasuseso/zen:$PATH
 export XDG_CONFIG_HOME=~/.config
-export EDITOR=vim
+export EDITOR=nvim
 export JULIA_EDITOR=vim
 export TERM='xterm-256color'
 # export PATH="/home/sasuseso/anaconda3/bin:$PATH"  # commented out by conda initialize
@@ -39,25 +41,5 @@ PERL_MM_OPT="INSTALL_BASE=/home/sasuseso/perl5"; export PERL_MM_OPT;
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
 export TERMINAL=st
-eval `opam config env`
-
-
-#[ -n "$XTERM_VERSION" ] && transset-df -a >/dev/null
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/sasuseso/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/sasuseso/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/sasuseso/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/sasuseso/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
 
 export QSYS_ROOTDIR="/opt/quartus/sopc_builder/bin"
