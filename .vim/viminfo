@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # 最後の 検索パターン:
-~MSle0~/---error---
+~MSle0~/Do
 
 # 最後の Substitute 検索パターン:
 ~MSle0&ovmf\/
@@ -21,15 +21,15 @@ $ovmf\/x64
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
 :q
-|2,0,1577768473,,"q"
+|2,0,1577847212,,"q"
+:w
+|2,0,1577845362,,"w"
 :q!
 |2,0,1577766999,,"q!"
 :wq!
 |2,0,1577766997,,"wq!"
 :w!
 |2,0,1577766987,,"w!"
-:w
-|2,0,1577766981,,"w"
 :wq
 |2,0,1577766978,,"wq"
 :echo &ft
@@ -122,6 +122,10 @@ $ovmf\/x64
 |2,0,1572345206,,"q1"
 
 # 検索文字列 項目の履歴 (新しいものから古いものへ):
+?/Do
+|2,1,1577843755,47,"Do"
+?/Sc
+|2,1,1577843749,47,"Sc"
 ? \<formatText\>
 |2,1,1576215276,,"\\<formatText\\>"
 ?/memset
@@ -274,28 +278,34 @@ $ovmf\/x64
 |3,0,36,0,1,0,1577766569," "
 
 # ファイルマーク:
-'0  1  0  ./app/resources/books/views/show_books
-|4,48,1,0,1577768473,"./app/resources/books/views/show_books"
-'1  1  0  app/resources/books/views/show_books
-|4,49,1,0,1577768465,"app/resources/books/views/show_books"
-'2  1  0  ./app/resources/books/views/show_books.jl.html
-|4,50,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
-'3  14  0  ./app/resources/books/views/show_books.jl.html
-|4,51,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+'0  47  6  ~/NERD_tree_2
+|4,48,47,6,1577847212,"~/NERD_tree_2"
+'1  1  0  ./app/resources/books/views/show_books
+|4,49,1,0,1577768473,"./app/resources/books/views/show_books"
+'2  1  0  app/resources/books/views/show_books
+|4,50,1,0,1577768465,"app/resources/books/views/show_books"
+'3  1  0  ./app/resources/books/views/show_books.jl.html
+|4,51,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
 '4  14  0  ./app/resources/books/views/show_books.jl.html
 |4,52,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
-'5  12  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,53,12,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
-'6  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,54,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
-'7  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,55,1,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
-'8  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,56,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
-'9  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,57,1,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+'5  14  0  ./app/resources/books/views/show_books.jl.html
+|4,53,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+'6  12  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,54,12,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+'7  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,55,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+'8  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,56,1,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+'9  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,57,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
 
 # ジャンプリスト (新しいものが先):
+-'  47  6  ~/NERD_tree_2
+|4,39,47,6,1577847212,"~/NERD_tree_2"
+-'  204  2  ~/NERD_tree_2
+|4,39,204,2,1577843759,"~/NERD_tree_2"
+-'  1  8  ~/NERD_tree_2
+|4,39,1,8,1577843759,"~/NERD_tree_2"
 -'  1  0  ./app/resources/books/views/show_books
 |4,39,1,0,1577768473,"./app/resources/books/views/show_books"
 -'  1  0  app/resources/books/views/show_books
@@ -490,14 +500,40 @@ $ovmf\/x64
 |4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
 -'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
 |4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/NERD_tree_2
+	*	1577847210	0
+	"	47	6
+	.	1	0
+	+	1	0
+
+> ~/Scripts/DotfilesManager/config.toml
+	*	1577847207	0
+	"	13	0
+
+> ~/Scripts/DotfilesManager/README.md
+	*	1577845366	0
+	"	17	30
+	^	3	21
+	.	3	20
+	+	15	97
+	+	3	20
+
+> ~/Scripts/DotfilesManager/Project.toml
+	*	1577843766	0
+	"	1	0
+
+> ~/Scripts/DotfilesManager/src/DotfilesManager.jl
+	*	1577843763	0
+	"	1	0
+
+> ~/NERD_tree_1
+	*	1577843739	0
+	"	6	0
+	.	1	0
+	+	1	0
 
 > ./app/resources/books/views/show_books
 	*	1577768471	0
@@ -1265,33 +1301,3 @@ $ovmf\/x64
 	+	28	4
 	+	27	0
 	+	1	0
-
-> ~/Scripts/efi_test/uefi-simple/main.
-	*	1572427727	0
-	"	1	0
-
-> ~/Scripts/efi_test/uefi-simple/Makefile
-	*	1572427719	0
-	"	1	0
-
-> /tmp/bash-fc.fxNMUR
-	*	1572427554	0
-	"	1	4
-
-> ~/Scripts/efi_test/Makefile
-	*	1572427349	0
-	"	14	32
-	^	14	68
-	.	14	58
-	+	1	0
-	+	14	58
-
-> ~/Scripts/efi_test/efiapp.c
-	*	1572426374	0
-	"	38	0
-	.	1	0
-	+	1	0
-
-> ~/zen/lib/zen/std/build/fmt.zen
-	*	1572424096	0
-	"	1	0

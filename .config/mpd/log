@@ -23011,3 +23011,84 @@ Dec 31 09:08 : client: [11] closed
 Dec 31 09:13 : client: [8] closed
 Dec 31 12:04 : client: [12] opened from 127.0.0.1:34724
 Dec 31 12:04 : client: [12] closed
+Dec 31 19:31 : client: [13] opened from [::1]:57790
+Dec 31 19:31 : client: [13] closed
+Dec 31 19:31 : client: [14] opened from [::1]:57792
+Dec 31 19:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Dec 31 19:31 : client: [14] closed
+Dec 31 19:31 : client: [15] opened from [::1]:57794
+Dec 31 19:31 : client: [15] closed
+Dec 31 19:31 : client: [16] opened from [::1]:57796
+Dec 31 19:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Dec 31 19:31 : client: [16] closed
+Dec 31 19:31 : client: [17] opened from [::1]:57798
+Dec 31 19:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Dec 31 19:31 : client: [17] closed
+Dec 31 19:31 : client: [18] opened from [::1]:57800
+Dec 31 19:31 : client: [18] closed
+Dec 31 21:38 : client: [0] closed
+Dec 31 21:38 : player: played "bgm/米津玄師 MV「馬と鹿」Uma to Shika-ptnYBctoexk.mkv"
+Jan 01 08:25 : zeroconf: No global port, disabling zeroconf
+Jan 01 08:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 08:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 08:25 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 01 08:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 01 08:25 : client: [0] opened from 127.0.0.1:48796
+Jan 01 13:40 : client: [1] opened from 127.0.0.1:51768
+Jan 01 13:40 : client: [1] closed
+Jan 01 20:07 : client: [0] closed
+Jan 01 20:07 : player: played "bgm/米津玄師 MV「馬と鹿」Uma to Shika-ptnYBctoexk.mkv"
+Jan 02 07:08 : zeroconf: No global port, disabling zeroconf
+Jan 02 07:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 07:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 07:08 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 02 07:08 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 02 07:08 : client: [0] opened from 127.0.0.1:54800
+Jan 02 18:17 : client: [1] opened from [::1]:33790
+Jan 02 18:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 18:17 : client: [1] closed
+Jan 02 18:17 : client: [2] opened from [::1]:33828
+Jan 02 18:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 02 18:17 : client: [2] closed
+Jan 02 18:17 : client: [3] opened from [::1]:33832
+Jan 02 18:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 02 18:17 : client: [3] closed
+Jan 02 18:17 : client: [4] opened from [::1]:33834
+Jan 02 18:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 02 18:17 : client: [4] closed
+Jan 02 18:17 : client: [5] opened from [::1]:33836
+Jan 02 18:17 : client: [5] closed
+Jan 02 18:17 : client: [6] opened from [::1]:33838
+Jan 02 18:17 : client: [6] closed
+Jan 02 18:17 : client: [7] opened from [::1]:33840
+Jan 02 18:17 : client: [7] closed
+Jan 02 18:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 02 18:21 : player: played "bgm/kick_Otomachi Una-sm33351113.mp4"
+Jan 02 18:21 : client: [8] opened from [::1]:33852
+Jan 02 18:21 : client: [8] closed
+Jan 02 18:22 : client: [9] opened from [::1]:33958
+Jan 02 18:22 : client: [9] closed
+Jan 02 21:09 : client: [0] closed
+Jan 02 21:09 : player: played "bgm/【ループ】零の軌跡 Terminal Room-sm14692932.mp4"
+Jan 03 07:19 : zeroconf: No global port, disabling zeroconf
+Jan 03 07:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 03 07:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 03 07:19 : client: [0] opened from 127.0.0.1:42674
+Jan 03 11:42 : client: [1] opened from 127.0.0.1:44420
+Jan 03 11:42 : client: [2] opened from [::1]:35598
+Jan 03 11:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 03 11:42 : client: [2] closed
+Jan 03 11:42 : client: [1] closed
+Jan 03 11:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 03 11:50 : player: played "bgm/【ループ】零の軌跡 Terminal Room-sm14692932.mp4"
+Jan 03 11:50 : client: [3] opened from 127.0.0.1:44466
+Jan 03 11:50 : client: [4] opened from [::1]:35644
+Jan 03 11:50 : client: [4] closed
+Jan 03 11:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 03 11:51 : client: [3] closed
+Jan 03 11:51 : client: [5] opened from 127.0.0.1:44472
+Jan 03 11:51 : client: [5] closed
+Jan 03 11:53 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 03 11:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 03 11:53 : client: [6] opened from [::1]:35970
+Jan 03 11:53 : client: [6] closed
