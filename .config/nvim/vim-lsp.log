@@ -3815,3 +3815,5 @@
 2020年01月03日 20時44分38秒:["--->", 4, "julia", {"method": "initialize", "params": {"rootUri": "file:///home/sasuseso/Scripts/JuliaSysimg", "capabilities": {"workspace": {"configuration": true, "applyEdit": true}, "textDocument": {"foldingRange": {"lineFoldingOnly": true}, "documentSymbol": {"symbolKind": {"valueSet": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 1, 2, 3, 4, 5, 6, 7, 8, 9]}}, "definition": {"linkSupport": true}, "completion": {"completionItem": {"snippetSupport": false, "documentationFormat": ["plaintext"]}, "completionItemKind": {"valueSet": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 1, 2, 3, 4, 5, 6, 7, 8, 9]}}, "implementation": {"linkSupport": true}, "declaration": {"linkSupport": true}, "typeDefinition": {"linkSupport": true}}}, "rootPath": "/home/sasuseso/Scripts/JuliaSysimg", "processId": 1349901, "trace": "off"}}]
 2020年01月03日 20時44分43秒:["s:on_text_document_did_close()", 1]
 2020年01月03日 20時44分43秒:["s:on_exit", 4, "julia", "exited", 143]
+2020年01月03日 21時27分39秒:["s:on_text_document_did_save()", 1]
+2020年01月03日 21時27分39秒:["s:on_text_document_did_close()", 1]

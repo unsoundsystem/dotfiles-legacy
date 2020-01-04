@@ -23092,3 +23092,54 @@ Jan 03 11:53 : ffmpeg/opus: Could not update timestamps for discarded samples.
 Jan 03 11:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
 Jan 03 11:53 : client: [6] opened from [::1]:35970
 Jan 03 11:53 : client: [6] closed
+Jan 03 21:28 : client: [0] closed
+Jan 03 21:28 : player: played "bgm/Guiano - 無題-07wI9lB_9zk.webm"
+Jan 04 07:18 : zeroconf: No global port, disabling zeroconf
+Jan 04 07:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 07:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 07:18 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 04 07:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 04 07:18 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 04 07:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 04 07:19 : client: [0] opened from 127.0.0.1:41620
+Jan 04 07:20 : client: [1] opened from [::1]:56590
+Jan 04 07:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 07:20 : client: [1] closed
+Jan 04 07:20 : client: [2] opened from [::1]:56592
+Jan 04 07:20 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 04 07:20 : client: [2] closed
+Jan 04 07:20 : client: [3] opened from [::1]:56596
+Jan 04 07:20 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 04 07:20 : client: [3] closed
+Jan 04 07:23 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 04 07:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 04 07:23 : player: played "bgm/Guiano - 無題-07wI9lB_9zk.webm"
+Jan 04 07:27 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 04 07:27 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 04 07:27 : player: played "bgm/Guiano - 眠り姫 (feat.IA)-8P8VknpWwC8.webm"
+Jan 04 07:27 : client: [4] opened from [::1]:56946
+Jan 04 07:27 : client: [4] closed
+Jan 04 11:00 : client: [0] closed
+Jan 04 11:32 : player: played "bgm/Herb Ellis - Days of wine and roses-QEQGq9njtJE.mkv"
+Jan 04 11:32 : zeroconf: No global port, disabling zeroconf
+Jan 04 11:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 11:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 11:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 04 11:32 : client: [0] opened from 127.0.0.1:46376
+Jan 04 11:39 : client: [0] closed
+Jan 04 11:40 : client: [1] opened from 127.0.0.1:46386
+Jan 04 11:40 : client: [1] closed
+Jan 04 11:40 : client: [2] opened from 127.0.0.1:46388
+Jan 04 11:43 : client: [3] opened from [::1]:33128
+Jan 04 11:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 11:43 : client: [3] closed
+Jan 04 11:43 : client: [4] opened from [::1]:33130
+Jan 04 11:43 : client: [4] closed
+Jan 04 11:49 : client: [5] opened from 127.0.0.1:46694
+Jan 04 11:49 : client: [2] closed
+Jan 04 12:16 : client: [5] closed
+Jan 04 12:17 : client: [6] opened from 127.0.0.1:47008
+Jan 04 12:17 : client: [6] closed
+Jan 04 12:18 : client: [7] opened from 127.0.0.1:47012
+Jan 04 12:19 : client: [7] closed
+Jan 04 12:19 : client: [8] opened from 127.0.0.1:47014
