@@ -23143,3 +23143,32 @@ Jan 04 12:17 : client: [6] closed
 Jan 04 12:18 : client: [7] opened from 127.0.0.1:47012
 Jan 04 12:19 : client: [7] closed
 Jan 04 12:19 : client: [8] opened from 127.0.0.1:47014
+Jan 04 15:44 : client: [9] opened from 127.0.0.1:49864
+Jan 04 15:44 : client: [9] closed
+Jan 04 21:34 : client: [8] closed
+Jan 04 21:34 : player: played "bgm/Herb Ellis - Days of wine and roses-QEQGq9njtJE.mkv"
+Jan 05 07:18 : zeroconf: No global port, disabling zeroconf
+Jan 05 07:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 05 07:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 05 07:18 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 05 07:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 05 07:19 : client: [0] opened from 127.0.0.1:56776
+Jan 05 09:33 : client: [0] closed
+Jan 05 09:48 : client: [1] opened from 127.0.0.1:60184
+Jan 05 09:50 : client: [1] closed
+Jan 05 11:39 : client: [2] opened from 127.0.0.1:34352
+Jan 05 16:37 : client: [2] closed
+Jan 05 17:46 : player: played "bgm/Herb Ellis - Days of wine and roses-QEQGq9njtJE.mkv"
+Jan 05 17:47 : zeroconf: No global port, disabling zeroconf
+Jan 05 17:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 05 17:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 05 17:47 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 05 17:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 05 17:59 : client: [0] opened from [::1]:45498
+Jan 05 18:00 : client: [0] closed
+Jan 05 18:15 : player: played "bgm/Herb Ellis - Days of wine and roses-QEQGq9njtJE.mkv"
+Jan 05 18:16 : zeroconf: No global port, disabling zeroconf
+Jan 05 18:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 05 18:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 05 18:16 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 05 18:16 : ffmpeg/opus: Could not update timestamps for skipped samples.

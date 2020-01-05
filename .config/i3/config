@@ -158,6 +158,11 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Scrachpad bindings
+bindsym $mod+Shift+minus move scratchpad  
+bindsym $mod+minus scratchpad show  
+bindsym $mod+x [floating] move scratchpad
+
 #balight brightness
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10

@@ -14,12 +14,13 @@ alias st='st -f "HackGen Console for Powerline:size=15"'
 alias v='vim'
 alias n='nvim'
 alias t='tmux'
-alias j='julia -q -J /home/sasuseso/Scripts/JuliaSysimg/MyImg.so'
+#alias j='julia -q -J /home/sasuseso/Scripts/JuliaSysimg/MyImg.so'
 alias r='ranger'
 alias z='zen'
 alias info='info --vi-keys'
 alias ta='tmux a'
 export PATH=~/.local/bin:/home/sasuseso/zen:$PATH
+export GTK_PATH=/usr/lib/gtk-3.0/:/usr/lib/gtk-2.0/
 export XDG_CONFIG_HOME=~/.config
 export EDITOR=nvim
 export JULIA_EDITOR=vim
