@@ -23172,3 +23172,24 @@ Jan 05 18:16 : exception: RTIOThread could not get realtime scheduling, continui
 Jan 05 18:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jan 05 18:16 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
 Jan 05 18:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 05 22:07 : client: [0] opened from 127.0.0.1:46484
+Jan 05 22:08 : client: [0] closed
+Jan 05 22:08 : player: played "bgm/Herb Ellis - Days of wine and roses-QEQGq9njtJE.mkv"
+Jan 06 14:35 : zeroconf: No global port, disabling zeroconf
+Jan 06 14:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 06 14:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 06 14:35 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 06 14:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 06 14:35 : client: [0] opened from 127.0.0.1:37894
+Jan 06 14:35 : client: [0] closed
+Jan 06 15:08 : player: played "bgm/Herb Ellis - Days of wine and roses-QEQGq9njtJE.mkv"
+Jan 06 19:03 : zeroconf: No global port, disabling zeroconf
+Jan 06 19:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 06 19:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 06 19:03 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 06 19:03 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 06 19:08 : client: [0] opened from 127.0.0.1:42862
+Jan 06 19:09 : client: [1] opened from 127.0.0.1:42864
+Jan 06 19:10 : client: [0] closed
+Jan 06 19:10 : client: [1] closed
+Jan 06 19:10 : client: [2] opened from 127.0.0.1:42878
