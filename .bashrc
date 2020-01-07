@@ -19,12 +19,15 @@ alias r='ranger'
 alias z='zen'
 alias info='info --vi-keys'
 alias ta='tmux a'
-export PATH=~/.local/bin:/home/sasuseso/zen:$PATH
+export ANDROID_HOME=/opt/android-sdk
+export ANDROID_SDK_ROOT=/home/sasuseso/Android/Sdk
+export ANDROID_AVD_HOME=/home/sasuseso/.android/avd
 export GTK_PATH=/usr/lib/gtk-3.0/:/usr/lib/gtk-2.0/
 export XDG_CONFIG_HOME=~/.config
 export EDITOR=nvim
 export JULIA_EDITOR=vim
 export TERM='xterm-256color'
+export PATH=/home/sasuseso/.local/bin:/home/sasuseso/zen:$ANDROID_HOME/tools:$ANDROID_HOME/system-images:$ANDROID_HOME/platform-tools:$PATH
 # export PATH="/home/sasuseso/anaconda3/bin:$PATH"  # commented out by conda initialize
 PS1='[\u@\h \W]\$ '
 

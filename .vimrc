@@ -39,19 +39,19 @@ else
 endif
 
 "filetype and Templetes
-augroup vimrc    
-    au!    
-    au BufNewFile,BufRead *.jl setfiletype julia    
-    au BufNewFile,BufRead *.zen  setfiletype zen    
-    au BufNewFile,BufRead *.csv setfiletype csv    
-    au BufNewFile,BufRead *.lds setfiletype ld
-    au BufNewFile,BufRead *.nasm setfiletype nasm
-    au BufNewFile,BufRead *.ino setfiletype arduino
-		au BufNewfile *.c 0r ~/Templetes/c.c
-		au BufNewfile *.jl 0r ~/Templetes/julia.jl
-		au BufNewFile *.sh 0r ~/Templetes/shell.sh
-		au BufNewFile *.vhd 0r ~/Templetes/vhdl.vhd
-augroup END    
+augroup vimrc
+								au!
+								au BufNewFile,BufRead *.jl setfiletype julia
+								au BufNewFile,BufRead *.zen  setfiletype zen    
+								au BufNewFile,BufRead *.csv setfiletype csv
+								au BufNewFile,BufRead *.lds setfiletype ld
+								au BufNewFile,BufRead *.nasm setfiletype nasm
+								au BufNewFile,BufRead *.ino setfiletype arduino
+								au BufNewfile *.c 0r ~/Templetes/c.c
+								au BufNewfile *.jl 0r ~/Templetes/julia.jl
+								au BufNewFile *.sh 0r ~/Templetes/shell.sh
+								au BufNewFile *.vhd 0r ~/Templetes/vhdl.vhd
+augroup END
 
 "install if not installed    
 if dein#check_install()    

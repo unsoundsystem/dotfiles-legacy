@@ -23193,3 +23193,77 @@ Jan 06 19:09 : client: [1] opened from 127.0.0.1:42864
 Jan 06 19:10 : client: [0] closed
 Jan 06 19:10 : client: [1] closed
 Jan 06 19:10 : client: [2] opened from 127.0.0.1:42878
+Jan 06 19:43 : client: [2] closed
+Jan 06 19:43 : player: played "bgm/Herb Ellis - Days of wine and roses-QEQGq9njtJE.mkv"
+Jan 06 19:43 : zeroconf: No global port, disabling zeroconf
+Jan 06 19:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 06 19:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 06 19:43 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 06 19:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 06 20:18 : client: [0] opened from [::1]:58848
+Jan 06 20:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 06 20:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 06 20:57 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 06 20:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 06 20:57 : player: played "bgm/Guiano - Love & Music-WlRKXA5c0Kg.mkv"
+Jan 06 21:00 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 06 21:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 06 21:00 : player: played "bgm/Guiano - Summer Dream (feat.IA)-f3jIXxc67yM.webm"
+Jan 06 21:03 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 06 21:03 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 06 21:03 : player: played "bgm/Guiano - シャナ (feat.IA)-3dqIvhv0MRY.webm"
+Jan 06 21:06 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 06 21:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 06 21:06 : player: played "bgm/Guiano - スーパーヒーロー (feat.IA)-3Yp-oxOGdHA.webm"
+Jan 06 21:44 : client: [0] closed
+Jan 06 23:38 : player: played "bgm/Guiano - ブラックゴールド (feat.IA)-16GbAKc1yms.mkv"
+Jan 07 08:03 : zeroconf: No global port, disabling zeroconf
+Jan 07 08:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 07 08:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 07 08:03 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 07 08:03 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 07 08:03 : client: [0] opened from 127.0.0.1:42700
+Jan 07 12:29 : client: [1] opened from 127.0.0.1:47108
+Jan 07 12:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 07 12:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 07 12:29 : client: [1] closed
+Jan 07 12:32 : client: [2] opened from 127.0.0.1:47144
+Jan 07 12:32 : client: [3] opened from [::1]:53738
+Jan 07 12:32 : client: [3] closed
+Jan 07 12:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 07 12:33 : client: [2] closed
+Jan 07 12:37 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 07 12:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 07 12:37 : player: played "bgm/Kano - Irony (Album Ver.)-8nX76NFhpYs.webm"
+Jan 07 12:42 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 07 12:42 : player: played "bgm/Kano (鹿乃) - Yoake to Hotaru (夜明けと蛍)-EpTRbZ08Hbk.webm"
+Jan 07 12:46 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 07 12:46 : client: [4] opened from [::1]:53930
+Jan 07 12:46 : client: [4] closed
+Jan 07 18:16 : client: [0] closed
+Jan 07 18:23 : player: played "bgm/kick_Otomachi Una-sm33351113.mp4"
+Jan 07 18:39 : zeroconf: No global port, disabling zeroconf
+Jan 07 18:39 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 07 18:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 07 18:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 07 18:46 : player: played "bgm/kick_Otomachi Una-sm33351113.mp4"
+Jan 07 18:46 : zeroconf: No global port, disabling zeroconf
+Jan 07 18:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 07 18:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 07 18:46 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 07 19:26 : client: [0] opened from 127.0.0.1:51048
+Jan 07 19:27 : client: [0] closed
+Jan 07 19:27 : client: [1] opened from [::1]:54330
+Jan 07 19:28 : client: [1] closed
+Jan 07 20:26 : player: played "bgm/kick_Otomachi Una-sm33351113.mp4"
+Jan 07 20:27 : zeroconf: No global port, disabling zeroconf
+Jan 07 20:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 07 20:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 07 20:27 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 07 20:27 : client: [0] opened from 127.0.0.1:41446
+Jan 07 21:13 : client: [0] closed
+Jan 07 21:13 : player: played "bgm/kick_Otomachi Una-sm33351113.mp4"
+Jan 07 21:13 : zeroconf: No global port, disabling zeroconf
+Jan 07 21:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 07 21:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 07 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.

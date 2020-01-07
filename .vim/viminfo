@@ -1,4 +1,4 @@
-# この viminfo ファイルは Vim 8.1 によって生成されました.
+# この viminfo ファイルは Vim 8.2 によって生成されました.
 # 変更する際には十分注意してください!
 
 # Viminfo version
@@ -21,7 +21,7 @@ $ovmf\/x64
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
 :q
-|2,0,1577847212,,"q"
+|2,0,1578390989,,"q"
 :w
 |2,0,1577845362,,"w"
 :q!
@@ -278,40 +278,104 @@ $ovmf\/x64
 |3,0,36,0,1,0,1577766569," "
 
 # ファイルマーク:
-'0  47  6  ~/NERD_tree_2
-|4,48,47,6,1577847212,"~/NERD_tree_2"
-'1  1  0  ./app/resources/books/views/show_books
-|4,49,1,0,1577768473,"./app/resources/books/views/show_books"
-'2  1  0  app/resources/books/views/show_books
-|4,50,1,0,1577768465,"app/resources/books/views/show_books"
-'3  1  0  ./app/resources/books/views/show_books.jl.html
-|4,51,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
-'4  14  0  ./app/resources/books/views/show_books.jl.html
-|4,52,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+'0  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,48,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+'1  47  6  ~/NERD_tree_2
+|4,49,47,6,1577847212,"~/NERD_tree_2"
+'2  1  0  ./app/resources/books/views/show_books
+|4,50,1,0,1577768473,"./app/resources/books/views/show_books"
+'3  1  0  app/resources/books/views/show_books
+|4,51,1,0,1577768465,"app/resources/books/views/show_books"
+'4  1  0  ./app/resources/books/views/show_books.jl.html
+|4,52,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
 '5  14  0  ./app/resources/books/views/show_books.jl.html
 |4,53,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
-'6  12  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,54,12,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
-'7  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,55,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
-'8  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,56,1,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
-'9  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,57,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+'6  14  0  ./app/resources/books/views/show_books.jl.html
+|4,54,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+'7  12  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,55,12,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+'8  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
+|4,56,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
+'9  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,57,1,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
 
 # ジャンプリスト (新しいものが先):
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  47  6  ~/NERD_tree_2
+|4,39,47,6,1577847212,"~/NERD_tree_2"
+-'  47  6  ~/NERD_tree_2
+|4,39,47,6,1577847212,"~/NERD_tree_2"
+-'  47  6  ~/NERD_tree_2
+|4,39,47,6,1577847212,"~/NERD_tree_2"
 -'  47  6  ~/NERD_tree_2
 |4,39,47,6,1577847212,"~/NERD_tree_2"
 -'  204  2  ~/NERD_tree_2
 |4,39,204,2,1577843759,"~/NERD_tree_2"
 -'  1  8  ~/NERD_tree_2
 |4,39,1,8,1577843759,"~/NERD_tree_2"
+-'  204  2  ~/NERD_tree_2
+|4,39,204,2,1577843759,"~/NERD_tree_2"
+-'  1  8  ~/NERD_tree_2
+|4,39,1,8,1577843759,"~/NERD_tree_2"
+-'  204  2  ~/NERD_tree_2
+|4,39,204,2,1577843759,"~/NERD_tree_2"
+-'  1  8  ~/NERD_tree_2
+|4,39,1,8,1577843759,"~/NERD_tree_2"
+-'  204  2  ~/NERD_tree_2
+|4,39,204,2,1577843759,"~/NERD_tree_2"
+-'  1  8  ~/NERD_tree_2
+|4,39,1,8,1577843759,"~/NERD_tree_2"
+-'  1  0  ./app/resources/books/views/show_books
+|4,39,1,0,1577768473,"./app/resources/books/views/show_books"
+-'  1  0  ./app/resources/books/views/show_books
+|4,39,1,0,1577768473,"./app/resources/books/views/show_books"
+-'  1  0  ./app/resources/books/views/show_books
+|4,39,1,0,1577768473,"./app/resources/books/views/show_books"
 -'  1  0  ./app/resources/books/views/show_books
 |4,39,1,0,1577768473,"./app/resources/books/views/show_books"
 -'  1  0  app/resources/books/views/show_books
 |4,39,1,0,1577768465,"app/resources/books/views/show_books"
 -'  1  0  app/resources/books/views/show_books
 |4,39,1,0,1577768465,"app/resources/books/views/show_books"
+-'  1  0  app/resources/books/views/show_books
+|4,39,1,0,1577768465,"app/resources/books/views/show_books"
+-'  1  0  app/resources/books/views/show_books
+|4,39,1,0,1577768465,"app/resources/books/views/show_books"
+-'  1  0  app/resources/books/views/show_books
+|4,39,1,0,1577768465,"app/resources/books/views/show_books"
+-'  1  0  app/resources/books/views/show_books
+|4,39,1,0,1577768465,"app/resources/books/views/show_books"
+-'  1  0  app/resources/books/views/show_books
+|4,39,1,0,1577768465,"app/resources/books/views/show_books"
+-'  1  0  app/resources/books/views/show_books
+|4,39,1,0,1577768465,"app/resources/books/views/show_books"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
+-'  1  0  ./app/resources/books/views/show_books.jl.html
+|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
 -'  1  0  ./app/resources/books/views/show_books.jl.html
 |4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
 -'  1  0  ./app/resources/books/views/show_books.jl.html
@@ -336,6 +400,54 @@ $ovmf\/x64
 |4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
 -'  14  0  ./app/resources/books/views/show_books.jl.html
 |4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
+-'  14  0  ./app/resources/books/views/show_books.jl.html
+|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
 -'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
 |4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
 -'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
@@ -352,156 +464,46 @@ $ovmf\/x64
 |4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
 -'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
 |4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  18  2  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,18,2,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577766797,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,39,1,0,1577765991,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,1,0,1577765922,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  14  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,14,0,1577765688,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
+|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/ダウンロード/Conky/startconky.sh
+	*	1578306967	0
+	"	1	0
 
 > ~/NERD_tree_2
 	*	1577847210	0
@@ -1289,15 +1291,4 @@ $ovmf\/x64
 	*	1572429242	0
 	"	381	0
 	.	1	0
-	+	1	0
-
-> ~/Scripts/efi_test/uefi-simple/main.c
-	*	1572428040	0
-	"	11	4
-	.	1	0
-	+	2	0
-	+	10	0
-	+	11	4
-	+	28	4
-	+	27	0
 	+	1	0
