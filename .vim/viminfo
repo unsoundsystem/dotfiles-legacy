@@ -21,17 +21,19 @@ $ovmf\/x64
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
 :q
-|2,0,1578390989,,"q"
+|2,0,1578450453,,"q"
+:wq
+|2,0,1578450236,,"wq"
 :w
-|2,0,1577845362,,"w"
+|2,0,1578450234,,"w"
+:set background=none
+|2,0,1578450027,,"set background=none"
 :q!
 |2,0,1577766999,,"q!"
 :wq!
 |2,0,1577766997,,"wq!"
 :w!
 |2,0,1577766987,,"w!"
-:wq
-|2,0,1577766978,,"wq"
 :echo &ft
 |2,0,1577766741,,"echo &ft"
 :LP
@@ -118,8 +120,6 @@ $ovmf\/x64
 |2,0,1572346315,,"!ls ../../../../julia"
 :!
 |2,0,1572345851,,"!"
-:q1
-|2,0,1572345206,,"q1"
 
 # 検索文字列 項目の履歴 (新しいものから古いものへ):
 ?/Do
@@ -232,274 +232,290 @@ $ovmf\/x64
 	
 |3,0,0,0,7,0,1572599873,"","mutable struct RefValue{T} <: Ref{T}","    x::T","    RefValue{T}() where {T} = new()","    RefValue{T}(x) where {T} = new(x)","end",""
 ""1	LINE	0
-					"""
-|3,1,1,1,1,0,1577766847,"				\"\"\""
+	highlight EndOfBuffer ctermbg=none 
+|3,1,1,1,1,0,1578450233,"highlight EndOfBuffer ctermbg=none "
 "2	LINE	0
-					</u1>
-|3,0,2,1,1,0,1577766846,"				</u1>"
+	highlight LineNr ctermbg=none
+	highlight Folded ctermbg=none
+|3,0,2,1,2,0,1578450233,"highlight LineNr ctermbg=none","highlight Folded ctermbg=none"
 "3	LINE	0
-					</u1>
-					$(mapreduce(book -> "<li>$(book.title) $(book.publication_date)</li>", *, books))
-|3,0,3,1,2,0,1577766845,"				</u1>","				$(mapreduce(book -> \"<li>$(book.title) $(book.publication_date)</li>\", *, books))"
+	highlight Normal ctermbg=none
+	highlight NonText ctermbg=none
+|3,0,3,1,2,0,1578450232,"highlight Normal ctermbg=none","highlight NonText ctermbg=none"
 "4	LINE	0
-					return """
-					<h1>Julia Books</h1>
-|3,0,4,1,2,0,1577766845,"				return \"\"\"","				<h1>Julia Books</h1>"
-"5	LINE	0
-	using Genie.Renderer
-|3,0,5,1,1,0,1577766820,"using Genie.Renderer"
+	
+	
+|3,0,4,1,2,0,1578450228,"",""
+"5	BLOCK	0
+		
+		
+		
+		
+		
+|3,0,5,2,5,0,1578450222,"	","	","	","	","	"
 "6	LINE	0
-	  # Build something great
-|3,0,6,1,1,0,1577764899,"  # Build something great"
-"7	BLOCK	0
-		
-		
-		
-		
-		
-		
-		
-		
-|3,0,7,2,8,0,1575876193,"	","	","	","	","	","	","	","	"
+	highlight EndOfBuffer ctermbg=none 
+|3,0,6,1,1,0,1578450187,"highlight EndOfBuffer ctermbg=none "
+"7	LINE	0
+	highlight LineNr ctermbg=none
+	highlight Folded ctermbg=none
+|3,0,7,1,2,0,1578450186,"highlight LineNr ctermbg=none","highlight Folded ctermbg=none"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1575875188,""
-"9	CHAR	0
-	#ifndef ASM_FILE
-	
-	#include "bss.h"
-	
-	
-	#endif /* ASM_FILE */
-	
-|3,0,9,0,7,0,1575875184,"#ifndef ASM_FILE","","#include \"bss.h\"","","","#endif /* ASM_FILE */",""
+	highlight Normal ctermbg=none
+	highlight NonText ctermbg=none
+|3,0,8,1,2,0,1578450185,"highlight Normal ctermbg=none","highlight NonText ctermbg=none"
+"9	BLOCK	0
+		
+		
+		
+		
+		
+|3,0,9,2,5,0,1578450177,"	","	","	","	","	"
 "-	CHAR	0
-	 
-|3,0,36,0,1,0,1577766569," "
+	  	
+|3,0,36,0,1,0,1578450215,"  	"
 
 # ファイルマーク:
-'0  1  0  ~/ダウンロード/Conky/startconky.sh
-|4,48,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
-'1  47  6  ~/NERD_tree_2
-|4,49,47,6,1577847212,"~/NERD_tree_2"
-'2  1  0  ./app/resources/books/views/show_books
-|4,50,1,0,1577768473,"./app/resources/books/views/show_books"
-'3  1  0  app/resources/books/views/show_books
-|4,51,1,0,1577768465,"app/resources/books/views/show_books"
-'4  1  0  ./app/resources/books/views/show_books.jl.html
-|4,52,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
-'5  14  0  ./app/resources/books/views/show_books.jl.html
-|4,53,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
-'6  14  0  ./app/resources/books/views/show_books.jl.html
-|4,54,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
-'7  12  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,55,12,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
-'8  11  25  ~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl
-|4,56,11,25,1577766003,"~/Scripts/Genie_test/GenieBookShelf/app/resources/books/BooksController.jl"
-'9  1  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,57,1,0,1577765938,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+'0  1  1  ~/.vimrc
+|4,48,1,1,1578450453,"~/.vimrc"
+'1  88  0  ~/.vimrc
+|4,49,88,0,1578450236,"~/.vimrc"
+'2  88  0  ~/.vimrc
+|4,50,88,0,1578450236,"~/.vimrc"
+'3  97  0  ~/.vimrc
+|4,51,97,0,1578449929,"~/.vimrc"
+'4  88  0  ~/.vimrc
+|4,52,88,0,1578449929,"~/.vimrc"
+'5  97  0  ~/.vimrc
+|4,53,97,0,1578449929,"~/.vimrc"
+'6  88  0  ~/.vimrc
+|4,54,88,0,1578449929,"~/.vimrc"
+'7  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,55,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+'8  47  6  ~/NERD_tree_2
+|4,56,47,6,1577847212,"~/NERD_tree_2"
+'9  1  0  ./app/resources/books/views/show_books
+|4,57,1,0,1577768473,"./app/resources/books/views/show_books"
 
 # ジャンプリスト (新しいものが先):
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578450453,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578450453,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578450236,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578450236,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578450236,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578450236,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578450236,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578450236,"~/.vimrc"
+-'  97  0  ~/.vimrc
+|4,39,97,0,1578450196,"~/.vimrc"
+-'  97  0  ~/.vimrc
+|4,39,97,0,1578450196,"~/.vimrc"
+-'  97  0  ~/.vimrc
+|4,39,97,0,1578450196,"~/.vimrc"
+-'  97  0  ~/.vimrc
+|4,39,97,0,1578450196,"~/.vimrc"
+-'  97  0  ~/.vimrc
+|4,39,97,0,1578450196,"~/.vimrc"
+-'  97  0  ~/.vimrc
+|4,39,97,0,1578450196,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1578450075,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1578450075,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1578450075,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1578450075,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1578449929,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
+-'  1  1  ~/.vimrc
+|4,39,1,1,1578449898,"~/.vimrc"
 -'  1  0  ~/ダウンロード/Conky/startconky.sh
 |4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
 -'  1  0  ~/ダウンロード/Conky/startconky.sh
 |4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
--'  47  6  ~/NERD_tree_2
-|4,39,47,6,1577847212,"~/NERD_tree_2"
--'  47  6  ~/NERD_tree_2
-|4,39,47,6,1577847212,"~/NERD_tree_2"
--'  47  6  ~/NERD_tree_2
-|4,39,47,6,1577847212,"~/NERD_tree_2"
--'  47  6  ~/NERD_tree_2
-|4,39,47,6,1577847212,"~/NERD_tree_2"
--'  204  2  ~/NERD_tree_2
-|4,39,204,2,1577843759,"~/NERD_tree_2"
--'  1  8  ~/NERD_tree_2
-|4,39,1,8,1577843759,"~/NERD_tree_2"
--'  204  2  ~/NERD_tree_2
-|4,39,204,2,1577843759,"~/NERD_tree_2"
--'  1  8  ~/NERD_tree_2
-|4,39,1,8,1577843759,"~/NERD_tree_2"
--'  204  2  ~/NERD_tree_2
-|4,39,204,2,1577843759,"~/NERD_tree_2"
--'  1  8  ~/NERD_tree_2
-|4,39,1,8,1577843759,"~/NERD_tree_2"
--'  204  2  ~/NERD_tree_2
-|4,39,204,2,1577843759,"~/NERD_tree_2"
--'  1  8  ~/NERD_tree_2
-|4,39,1,8,1577843759,"~/NERD_tree_2"
--'  1  0  ./app/resources/books/views/show_books
-|4,39,1,0,1577768473,"./app/resources/books/views/show_books"
--'  1  0  ./app/resources/books/views/show_books
-|4,39,1,0,1577768473,"./app/resources/books/views/show_books"
--'  1  0  ./app/resources/books/views/show_books
-|4,39,1,0,1577768473,"./app/resources/books/views/show_books"
--'  1  0  ./app/resources/books/views/show_books
-|4,39,1,0,1577768473,"./app/resources/books/views/show_books"
--'  1  0  app/resources/books/views/show_books
-|4,39,1,0,1577768465,"app/resources/books/views/show_books"
--'  1  0  app/resources/books/views/show_books
-|4,39,1,0,1577768465,"app/resources/books/views/show_books"
--'  1  0  app/resources/books/views/show_books
-|4,39,1,0,1577768465,"app/resources/books/views/show_books"
--'  1  0  app/resources/books/views/show_books
-|4,39,1,0,1577768465,"app/resources/books/views/show_books"
--'  1  0  app/resources/books/views/show_books
-|4,39,1,0,1577768465,"app/resources/books/views/show_books"
--'  1  0  app/resources/books/views/show_books
-|4,39,1,0,1577768465,"app/resources/books/views/show_books"
--'  1  0  app/resources/books/views/show_books
-|4,39,1,0,1577768465,"app/resources/books/views/show_books"
--'  1  0  app/resources/books/views/show_books
-|4,39,1,0,1577768465,"app/resources/books/views/show_books"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  1  0  ./app/resources/books/views/show_books.jl.html
-|4,39,1,0,1577767011,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  14  0  ./app/resources/books/views/show_books.jl.html
-|4,39,14,0,1577766999,"./app/resources/books/views/show_books.jl.html"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
--'  9  0  ~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1
-|4,39,9,0,1577766971,"~/Scripts/Genie_test/GenieBookShelf/NERD_tree_1"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
+-'  1  0  ~/ダウンロード/Conky/startconky.sh
+|4,39,1,0,1578306995,"~/ダウンロード/Conky/startconky.sh"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/.vimrc
+	*	1578450451	0
+	"	1	1
+	^	90	8
+	.	88	0
+	+	9	0
+	+	97	0
+	+	97	21
+	+	97	0
+	+	98	0
+	+	97	0
+	+	88	0
+	+	88	21
+	+	89	0
+	+	91	0
+	+	97	0
+	+	88	0
 
 > ~/ダウンロード/Conky/startconky.sh
 	*	1578306967	0
@@ -749,12 +765,6 @@ $ovmf\/x64
 > /usr/share/julia/base/c.jl
 	*	1574818655	0
 	"	126	4
-
-> ~/.vimrc
-	*	1574690261	0
-	"	35	2
-	.	9	0
-	+	9	0
 
 > /tmp/bash-fc.hJYlzn
 	*	1573896406	0

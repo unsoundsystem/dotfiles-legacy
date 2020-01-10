@@ -23267,3 +23267,1070 @@ Jan 07 21:13 : zeroconf: No global port, disabling zeroconf
 Jan 07 21:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jan 07 21:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jan 07 21:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 07 21:20 : player: played "bgm/kick_Otomachi Una-sm33351113.mp4"
+Jan 08 08:07 : zeroconf: No global port, disabling zeroconf
+Jan 08 08:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 08 08:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 08 08:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 08:07 : client: [0] opened from 127.0.0.1:57924
+Jan 08 10:00 : client: [1] opened from [::1]:34754
+Jan 08 10:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 08 10:00 : client: [1] closed
+Jan 08 10:00 : client: [2] opened from [::1]:34758
+Jan 08 10:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:00 : client: [2] closed
+Jan 08 10:00 : client: [3] opened from [::1]:34760
+Jan 08 10:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:00 : client: [3] closed
+Jan 08 10:04 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 08 10:04 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:04 : player: played "bgm/Kano - Daybreak Frontline (Album Ver.)--Q7n60GdmQg.webm"
+Jan 08 10:08 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 08 10:08 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:08 : client: [4] opened from [::1]:34978
+Jan 08 10:08 : client: [4] closed
+Jan 08 10:09 : client: [5] opened from [::1]:34980
+Jan 08 10:09 : client: [5] closed
+Jan 08 10:09 : player: played "bgm/Kano - Irony (Album Ver.)-8nX76NFhpYs.webm"
+Jan 08 10:15 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 08 10:15 : player: played "bgm/Kano (鹿乃) - Yoake to Hotaru (夜明けと蛍)-EpTRbZ08Hbk.webm"
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [6] opened from [::1]:35050
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [6] closed
+Jan 08 10:18 : client: [7] opened from [::1]:35052
+Jan 08 10:18 : client: [8] opened from [::1]:35054
+Jan 08 10:18 : client: [9] opened from [::1]:35056
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [10] opened from [::1]:35058
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [7] closed
+Jan 08 10:18 : client: [11] opened from [::1]:35060
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [12] opened from [::1]:35062
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [8] closed
+Jan 08 10:18 : client: [13] opened from [::1]:35064
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [14] opened from [::1]:35066
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [10] closed
+Jan 08 10:18 : client: [9] closed
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [11] closed
+Jan 08 10:18 : client: [12] closed
+Jan 08 10:18 : client: [14] closed
+Jan 08 10:18 : client: [13] closed
+Jan 08 10:18 : client: [15] opened from [::1]:35068
+Jan 08 10:18 : client: [16] opened from [::1]:35070
+Jan 08 10:18 : client: [17] opened from [::1]:35072
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [18] opened from [::1]:35074
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [15] closed
+Jan 08 10:18 : client: [19] opened from [::1]:35076
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [20] opened from [::1]:35078
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [16] closed
+Jan 08 10:18 : client: [21] opened from [::1]:35080
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [17] closed
+Jan 08 10:18 : client: [18] closed
+Jan 08 10:18 : client: [19] closed
+Jan 08 10:18 : client: [20] closed
+Jan 08 10:18 : client: [21] closed
+Jan 08 10:18 : client: [22] opened from [::1]:35082
+Jan 08 10:18 : client: [22] closed
+Jan 08 10:18 : client: [23] opened from [::1]:35084
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [23] closed
+Jan 08 10:18 : client: [24] opened from [::1]:35086
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [25] opened from [::1]:35088
+Jan 08 10:18 : client: [26] opened from [::1]:35090
+Jan 08 10:18 : client: [27] opened from [::1]:35092
+Jan 08 10:18 : client: [28] opened from [::1]:35094
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [29] opened from [::1]:35096
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [24] closed
+Jan 08 10:18 : client: [30] opened from [::1]:35098
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [26] closed
+Jan 08 10:18 : client: [25] closed
+Jan 08 10:18 : client: [31] opened from [::1]:35100
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [27] closed
+Jan 08 10:18 : client: [32] opened from [::1]:35102
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [33] opened from [::1]:35104
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [28] closed
+Jan 08 10:18 : client: [34] opened from [::1]:35106
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [29] closed
+Jan 08 10:18 : client: [35] opened from [::1]:35108
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [30] closed
+Jan 08 10:18 : client: [36] opened from [::1]:35110
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [31] closed
+Jan 08 10:18 : client: [37] opened from [::1]:35112
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [32] closed
+Jan 08 10:18 : client: [38] opened from [::1]:35114
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [33] closed
+Jan 08 10:18 : client: [39] opened from [::1]:35116
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [34] closed
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [35] closed
+Jan 08 10:18 : client: [37] closed
+Jan 08 10:18 : client: [36] closed
+Jan 08 10:18 : client: [38] closed
+Jan 08 10:18 : client: [39] closed
+Jan 08 10:18 : client: [40] opened from [::1]:35118
+Jan 08 10:18 : client: [41] opened from [::1]:35120
+Jan 08 10:18 : client: [42] opened from [::1]:35122
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [43] opened from [::1]:35124
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [40] closed
+Jan 08 10:18 : client: [44] opened from [::1]:35126
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [41] closed
+Jan 08 10:18 : client: [42] closed
+Jan 08 10:18 : client: [43] closed
+Jan 08 10:18 : client: [44] closed
+Jan 08 10:18 : client: [45] opened from [::1]:35128
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [45] closed
+Jan 08 10:18 : client: [46] opened from [::1]:35130
+Jan 08 10:18 : client: [47] opened from [::1]:35132
+Jan 08 10:18 : client: [48] opened from [::1]:35134
+Jan 08 10:18 : client: [49] opened from [::1]:35136
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [50] opened from [::1]:35138
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [46] closed
+Jan 08 10:18 : client: [51] opened from [::1]:35140
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [47] closed
+Jan 08 10:18 : client: [49] closed
+Jan 08 10:18 : client: [48] closed
+Jan 08 10:18 : client: [50] closed
+Jan 08 10:18 : client: [51] closed
+Jan 08 10:18 : client: [52] opened from [::1]:35142
+Jan 08 10:18 : client: [52] closed
+Jan 08 10:18 : client: [53] opened from [::1]:35144
+Jan 08 10:18 : client: [53] closed
+Jan 08 10:18 : client: [54] opened from [::1]:35146
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [54] closed
+Jan 08 10:18 : client: [55] opened from [::1]:35148
+Jan 08 10:18 : client: [55] closed
+Jan 08 10:18 : client: [56] opened from [::1]:35150
+Jan 08 10:18 : ffmpeg/libdav1d: libdav1d 0.5.2
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [56] closed
+Jan 08 10:18 : client: [57] opened from [::1]:35152
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [57] closed
+Jan 08 10:18 : client: [58] opened from [::1]:35154
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [58] closed
+Jan 08 10:18 : client: [59] opened from [::1]:35156
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [59] closed
+Jan 08 10:18 : client: [60] opened from [::1]:35158
+Jan 08 10:18 : client: [60] closed
+Jan 08 10:18 : client: [61] opened from [::1]:35160
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [61] closed
+Jan 08 10:18 : client: [62] opened from [::1]:35162
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [63] opened from [::1]:35164
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [62] closed
+Jan 08 10:18 : client: [63] closed
+Jan 08 10:18 : client: [64] opened from [::1]:35166
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [64] closed
+Jan 08 10:18 : client: [65] opened from [::1]:35168
+Jan 08 10:18 : client: [65] closed
+Jan 08 10:18 : client: [66] opened from [::1]:35170
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [66] closed
+Jan 08 10:18 : client: [67] opened from [::1]:35172
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [67] closed
+Jan 08 10:18 : client: [68] opened from [::1]:35174
+Jan 08 10:18 : client: [68] closed
+Jan 08 10:18 : client: [69] opened from [::1]:35176
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [69] closed
+Jan 08 10:18 : client: [70] opened from [::1]:35178
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [70] closed
+Jan 08 10:18 : client: [71] opened from [::1]:35180
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [71] closed
+Jan 08 10:18 : client: [72] opened from [::1]:35182
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [72] closed
+Jan 08 10:18 : client: [73] opened from [::1]:35184
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [73] closed
+Jan 08 10:18 : client: [74] opened from [::1]:35186
+Jan 08 10:18 : client: [74] closed
+Jan 08 10:18 : client: [75] opened from [::1]:35188
+Jan 08 10:18 : client: [75] closed
+Jan 08 10:18 : client: [76] opened from [::1]:35190
+Jan 08 10:18 : client: [76] closed
+Jan 08 10:18 : client: [77] opened from [::1]:35192
+Jan 08 10:18 : ffmpeg/libdav1d: libdav1d 0.5.2
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [77] closed
+Jan 08 10:18 : client: [78] opened from [::1]:35194
+Jan 08 10:18 : client: [78] closed
+Jan 08 10:18 : client: [79] opened from [::1]:35196
+Jan 08 10:18 : client: [80] opened from [::1]:35198
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [79] closed
+Jan 08 10:18 : client: [80] closed
+Jan 08 10:18 : client: [81] opened from [::1]:35200
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [82] opened from [::1]:35202
+Jan 08 10:18 : client: [81] closed
+Jan 08 10:18 : client: [82] closed
+Jan 08 10:18 : client: [83] opened from [::1]:35204
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [83] closed
+Jan 08 10:18 : client: [84] opened from [::1]:35206
+Jan 08 10:18 : client: [85] opened from [::1]:35208
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [84] closed
+Jan 08 10:18 : client: [85] closed
+Jan 08 10:18 : client: [86] opened from [::1]:35210
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [86] closed
+Jan 08 10:18 : client: [87] opened from [::1]:35212
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [87] closed
+Jan 08 10:18 : client: [88] opened from [::1]:35214
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [88] closed
+Jan 08 10:18 : client: [89] opened from [::1]:35216
+Jan 08 10:18 : client: [89] closed
+Jan 08 10:18 : client: [90] opened from [::1]:35218
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [90] closed
+Jan 08 10:18 : client: [91] opened from [::1]:35220
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [91] closed
+Jan 08 10:18 : client: [92] opened from [::1]:35222
+Jan 08 10:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:18 : client: [92] closed
+Jan 08 10:18 : client: [93] opened from [::1]:35224
+Jan 08 10:18 : client: [93] closed
+Jan 08 10:19 : client: [94] opened from [::1]:35226
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : client: [94] closed
+Jan 08 10:19 : client: [95] opened from [::1]:35228
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : client: [96] opened from [::1]:35230
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : client: [95] closed
+Jan 08 10:19 : client: [96] closed
+Jan 08 10:19 : client: [97] opened from 127.0.0.1:60374
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:19 : client: [97] closed
+Jan 08 10:23 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 08 10:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:23 : client: [98] opened from [::1]:35238
+Jan 08 10:23 : client: [98] closed
+Jan 08 10:23 : client: [99] opened from [::1]:35240
+Jan 08 10:23 : client: [99] closed
+Jan 08 10:23 : player: played "bgm/花譜　#27 「そして花になる」【オリジナルMV】-y6TGSY9Zll0.mkv"
+Jan 08 10:23 : client: [100] opened from [::1]:35242
+Jan 08 10:23 : client: [100] closed
+Jan 08 10:31 : client: [0] closed
+Jan 08 10:35 : client: [101] opened from 127.0.0.1:60690
+Jan 08 10:36 : client: [101] closed
+Jan 08 10:37 : player: played "bgm/花譜　#33 「命に嫌われている（Prayer Ver.）」【オリジナルMV】-N5hInoyU-WY.mkv"
+Jan 08 10:38 : zeroconf: No global port, disabling zeroconf
+Jan 08 10:38 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 08 10:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 08 10:38 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 08 10:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 10:39 : client: [0] opened from 127.0.0.1:60684
+Jan 08 10:42 : client: [0] closed
+Jan 08 10:43 : client: [1] opened from 127.0.0.1:60766
+Jan 08 10:43 : client: [1] closed
+Jan 08 11:30 : client: [2] opened from 127.0.0.1:33578
+Jan 08 11:34 : client: [2] closed
+Jan 08 20:47 : client: [3] opened from 127.0.0.1:40190
+Jan 08 20:59 : client: [3] closed
+Jan 08 20:59 : player: played "bgm/花譜　#33 「命に嫌われている（Prayer Ver.）」【オリジナルMV】-N5hInoyU-WY.mkv"
+Jan 08 21:00 : zeroconf: No global port, disabling zeroconf
+Jan 08 21:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 08 21:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 08 21:00 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 08 21:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 21:03 : player: played "bgm/花譜　#33 「命に嫌われている（Prayer Ver.）」【オリジナルMV】-N5hInoyU-WY.mkv"
+Jan 08 21:41 : zeroconf: No global port, disabling zeroconf
+Jan 08 21:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 08 21:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 08 21:41 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 08 21:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 08 21:41 : client: [0] opened from [::1]:50612
+Jan 09 00:39 : client: [0] closed
+Jan 09 00:39 : player: played "bgm/花譜　#33 「命に嫌われている（Prayer Ver.）」【オリジナルMV】-N5hInoyU-WY.mkv"
+Jan 09 08:40 : zeroconf: No global port, disabling zeroconf
+Jan 09 08:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 09 08:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 09 08:40 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 09 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 08:45 : player: played "bgm/花譜　#33 「命に嫌われている（Prayer Ver.）」【オリジナルMV】-N5hInoyU-WY.mkv"
+Jan 09 10:52 : zeroconf: No global port, disabling zeroconf
+Jan 09 10:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 09 10:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 09 10:52 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 09 10:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 10:55 : player: played "bgm/花譜　#33 「命に嫌われている（Prayer Ver.）」【オリジナルMV】-N5hInoyU-WY.mkv"
+Jan 09 10:55 : zeroconf: No global port, disabling zeroconf
+Jan 09 10:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 09 10:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 09 10:55 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 09 10:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 10:55 : client: [0] opened from 127.0.0.1:50260
+Jan 09 10:55 : client: [1] opened from 127.0.0.1:50262
+Jan 09 10:55 : client: [2] opened from [::1]:48562
+Jan 09 10:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 09 10:55 : client: [2] closed
+Jan 09 10:55 : client: [1] closed
+Jan 09 11:00 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 11:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:00 : player: played "bgm/花譜　#33 「命に嫌われている（Prayer Ver.）」【オリジナルMV】-N5hInoyU-WY.mkv"
+Jan 09 11:00 : client: [3] opened from [::1]:48682
+Jan 09 11:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:00 : client: [3] closed
+Jan 09 11:00 : client: [4] opened from [::1]:48684
+Jan 09 11:00 : client: [4] closed
+Jan 09 11:01 : client: [5] opened from [::1]:48686
+Jan 09 11:01 : ffmpeg/libdav1d: libdav1d 0.5.2
+Jan 09 11:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:01 : client: [5] closed
+Jan 09 11:01 : client: [6] opened from [::1]:48688
+Jan 09 11:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:01 : client: [6] closed
+Jan 09 11:01 : client: [7] opened from [::1]:48690
+Jan 09 11:01 : ffmpeg/libdav1d: libdav1d 0.5.2
+Jan 09 11:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:01 : client: [7] closed
+Jan 09 11:04 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 11:04 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:05 : client: [8] opened from [::1]:49020
+Jan 09 11:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:05 : client: [8] closed
+Jan 09 11:05 : client: [9] opened from [::1]:49022
+Jan 09 11:05 : client: [9] closed
+Jan 09 11:05 : client: [10] opened from [::1]:49024
+Jan 09 11:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:05 : client: [10] closed
+Jan 09 11:05 : client: [11] opened from [::1]:49026
+Jan 09 11:05 : client: [11] closed
+Jan 09 11:05 : client: [12] opened from [::1]:49028
+Jan 09 11:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:05 : client: [12] closed
+Jan 09 11:05 : client: [13] opened from [::1]:49030
+Jan 09 11:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:05 : client: [13] closed
+Jan 09 11:05 : client: [14] opened from [::1]:49032
+Jan 09 11:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:05 : client: [14] closed
+Jan 09 11:05 : client: [15] opened from [::1]:49034
+Jan 09 11:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:05 : client: [15] closed
+Jan 09 11:05 : client: [16] opened from [::1]:49036
+Jan 09 11:05 : client: [16] closed
+Jan 09 11:05 : client: [17] opened from [::1]:49038
+Jan 09 11:05 : client: [17] closed
+Jan 09 11:05 : client: [18] opened from [::1]:49040
+Jan 09 11:05 : client: [18] closed
+Jan 09 11:05 : client: [19] opened from [::1]:49042
+Jan 09 11:05 : client: [19] closed
+Jan 09 11:05 : client: [20] opened from [::1]:49044
+Jan 09 11:05 : client: [21] opened from [::1]:49046
+Jan 09 11:05 : client: [20] closed
+Jan 09 11:05 : client: [21] closed
+Jan 09 11:05 : client: [22] opened from [::1]:49048
+Jan 09 11:05 : client: [22] closed
+Jan 09 11:05 : client: [23] opened from [::1]:49050
+Jan 09 11:05 : client: [24] opened from [::1]:49052
+Jan 09 11:05 : client: [25] opened from [::1]:49054
+Jan 09 11:05 : client: [26] opened from [::1]:49056
+Jan 09 11:05 : ffmpeg/wmav2: Input packet size too small (1661 < 4459)
+Jan 09 11:05 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Jan 09 11:05 : client: [23] closed
+Jan 09 11:05 : client: [27] opened from [::1]:49058
+Jan 09 11:05 : client: [24] closed
+Jan 09 11:05 : client: [25] closed
+Jan 09 11:05 : client: [27] closed
+Jan 09 11:05 : client: [26] closed
+Jan 09 11:05 : client: [28] opened from [::1]:49060
+Jan 09 11:05 : client: [29] opened from [::1]:49062
+Jan 09 11:05 : client: [30] opened from [::1]:49064
+Jan 09 11:05 : client: [31] opened from [::1]:49066
+Jan 09 11:05 : client: [28] closed
+Jan 09 11:05 : client: [32] opened from [::1]:49068
+Jan 09 11:05 : client: [29] closed
+Jan 09 11:05 : client: [30] closed
+Jan 09 11:05 : client: [31] closed
+Jan 09 11:05 : client: [32] closed
+Jan 09 11:05 : client: [33] opened from [::1]:49070
+Jan 09 11:05 : client: [34] opened from [::1]:49072
+Jan 09 11:05 : client: [35] opened from [::1]:49074
+Jan 09 11:05 : ffmpeg/wmav2: Input packet size too small (1657 < 4459)
+Jan 09 11:05 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Jan 09 11:05 : client: [36] opened from [::1]:49076
+Jan 09 11:05 : client: [33] closed
+Jan 09 11:05 : client: [34] closed
+Jan 09 11:05 : client: [35] closed
+Jan 09 11:05 : client: [36] closed
+Jan 09 11:05 : client: [37] opened from [::1]:49078
+Jan 09 11:05 : client: [37] closed
+Jan 09 11:05 : client: [38] opened from [::1]:49080
+Jan 09 11:05 : client: [39] opened from [::1]:49082
+Jan 09 11:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:05 : client: [38] closed
+Jan 09 11:05 : client: [39] closed
+Jan 09 11:05 : client: [40] opened from [::1]:49084
+Jan 09 11:05 : client: [40] closed
+Jan 09 11:05 : client: [41] opened from [::1]:49086
+Jan 09 11:05 : client: [41] closed
+Jan 09 11:08 : client: [42] opened from [::1]:49104
+Jan 09 11:08 : client: [42] closed
+Jan 09 11:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:09 : player: played "bgm/Morning_Stroll.mp3"
+Jan 09 11:09 : client: [43] opened from [::1]:49112
+Jan 09 11:09 : client: [43] closed
+Jan 09 11:09 : client: [44] opened from [::1]:49114
+Jan 09 11:09 : client: [44] closed
+Jan 09 11:09 : client: [45] opened from [::1]:49116
+Jan 09 11:09 : client: [46] opened from [::1]:49118
+Jan 09 11:09 : client: [47] opened from [::1]:49120
+Jan 09 11:09 : client: [48] opened from [::1]:49122
+Jan 09 11:09 : client: [45] closed
+Jan 09 11:09 : client: [46] closed
+Jan 09 11:09 : client: [47] closed
+Jan 09 11:09 : client: [48] closed
+Jan 09 11:09 : client: [49] opened from [::1]:49124
+Jan 09 11:09 : client: [50] opened from [::1]:49126
+Jan 09 11:09 : client: [51] opened from [::1]:49128
+Jan 09 11:09 : client: [52] opened from [::1]:49130
+Jan 09 11:09 : client: [49] closed
+Jan 09 11:09 : client: [50] closed
+Jan 09 11:09 : client: [53] opened from [::1]:49132
+Jan 09 11:09 : client: [54] opened from [::1]:49134
+Jan 09 11:09 : client: [51] closed
+Jan 09 11:09 : client: [52] closed
+Jan 09 11:09 : client: [55] opened from [::1]:49136
+Jan 09 11:09 : client: [56] opened from [::1]:49138
+Jan 09 11:09 : client: [57] opened from [::1]:49140
+Jan 09 11:09 : client: [53] closed
+Jan 09 11:09 : client: [54] closed
+Jan 09 11:09 : client: [56] closed
+Jan 09 11:09 : client: [55] closed
+Jan 09 11:09 : client: [57] closed
+Jan 09 11:09 : client: [58] opened from [::1]:49142
+Jan 09 11:09 : client: [59] opened from [::1]:49144
+Jan 09 11:09 : client: [60] opened from [::1]:49146
+Jan 09 11:09 : client: [61] opened from [::1]:49148
+Jan 09 11:09 : client: [62] opened from [::1]:49150
+Jan 09 11:09 : client: [58] closed
+Jan 09 11:09 : client: [59] closed
+Jan 09 11:09 : client: [60] closed
+Jan 09 11:09 : client: [61] closed
+Jan 09 11:09 : client: [62] closed
+Jan 09 11:09 : client: [63] opened from [::1]:49152
+Jan 09 11:09 : client: [64] opened from [::1]:49154
+Jan 09 11:09 : client: [65] opened from [::1]:49156
+Jan 09 11:09 : client: [66] opened from [::1]:49158
+Jan 09 11:09 : client: [67] opened from [::1]:49160
+Jan 09 11:09 : client: [63] closed
+Jan 09 11:09 : client: [65] closed
+Jan 09 11:09 : client: [64] closed
+Jan 09 11:09 : client: [66] closed
+Jan 09 11:09 : client: [67] closed
+Jan 09 11:09 : client: [68] opened from [::1]:49162
+Jan 09 11:09 : client: [69] opened from [::1]:49164
+Jan 09 11:09 : client: [70] opened from [::1]:49166
+Jan 09 11:09 : client: [68] closed
+Jan 09 11:09 : client: [70] closed
+Jan 09 11:09 : client: [69] closed
+Jan 09 11:09 : client: [71] opened from [::1]:49168
+Jan 09 11:09 : client: [71] closed
+Jan 09 11:09 : client: [72] opened from [::1]:49170
+Jan 09 11:09 : client: [73] opened from [::1]:49172
+Jan 09 11:09 : client: [74] opened from [::1]:49174
+Jan 09 11:09 : client: [72] closed
+Jan 09 11:09 : client: [73] closed
+Jan 09 11:09 : client: [74] closed
+Jan 09 11:09 : client: [75] opened from [::1]:49176
+Jan 09 11:09 : client: [76] opened from [::1]:49178
+Jan 09 11:09 : client: [77] opened from [::1]:49180
+Jan 09 11:09 : client: [78] opened from [::1]:49182
+Jan 09 11:09 : client: [79] opened from [::1]:49184
+Jan 09 11:09 : client: [75] closed
+Jan 09 11:09 : client: [76] closed
+Jan 09 11:09 : client: [77] closed
+Jan 09 11:09 : client: [78] closed
+Jan 09 11:09 : client: [79] closed
+Jan 09 11:09 : client: [80] opened from [::1]:49186
+Jan 09 11:09 : client: [81] opened from [::1]:49188
+Jan 09 11:09 : client: [82] opened from [::1]:49190
+Jan 09 11:09 : client: [83] opened from [::1]:49192
+Jan 09 11:09 : client: [80] closed
+Jan 09 11:09 : client: [81] closed
+Jan 09 11:09 : client: [82] closed
+Jan 09 11:09 : client: [83] closed
+Jan 09 11:09 : client: [84] opened from [::1]:49194
+Jan 09 11:09 : client: [85] opened from [::1]:49196
+Jan 09 11:09 : client: [86] opened from [::1]:49198
+Jan 09 11:09 : client: [87] opened from [::1]:49200
+Jan 09 11:09 : client: [88] opened from [::1]:49202
+Jan 09 11:09 : client: [84] closed
+Jan 09 11:09 : client: [85] closed
+Jan 09 11:09 : client: [86] closed
+Jan 09 11:09 : client: [87] closed
+Jan 09 11:09 : client: [88] closed
+Jan 09 11:09 : client: [89] opened from [::1]:49204
+Jan 09 11:09 : client: [90] opened from [::1]:49206
+Jan 09 11:09 : client: [91] opened from [::1]:49208
+Jan 09 11:09 : client: [92] opened from [::1]:49210
+Jan 09 11:09 : client: [93] opened from [::1]:49212
+Jan 09 11:09 : client: [89] closed
+Jan 09 11:09 : client: [91] closed
+Jan 09 11:09 : client: [93] closed
+Jan 09 11:09 : client: [90] closed
+Jan 09 11:09 : client: [92] closed
+Jan 09 11:09 : client: [94] opened from [::1]:49214
+Jan 09 11:09 : client: [95] opened from [::1]:49216
+Jan 09 11:09 : client: [96] opened from [::1]:49218
+Jan 09 11:09 : client: [97] opened from [::1]:49220
+Jan 09 11:09 : client: [94] closed
+Jan 09 11:09 : client: [98] opened from [::1]:49222
+Jan 09 11:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:09 : client: [99] opened from [::1]:49224
+Jan 09 11:09 : client: [95] closed
+Jan 09 11:09 : client: [96] closed
+Jan 09 11:09 : client: [97] closed
+Jan 09 11:09 : client: [100] opened from [::1]:49226
+Jan 09 11:09 : client: [101] opened from [::1]:49228
+Jan 09 11:09 : client: [102] opened from [::1]:49230
+Jan 09 11:09 : client: [103] opened from [::1]:49232
+Jan 09 11:09 : client: [98] closed
+Jan 09 11:09 : client: [99] closed
+Jan 09 11:09 : client: [100] closed
+Jan 09 11:09 : client: [101] closed
+Jan 09 11:09 : client: [102] closed
+Jan 09 11:09 : client: [103] closed
+Jan 09 11:09 : client: [104] opened from [::1]:49234
+Jan 09 11:09 : client: [105] opened from [::1]:49236
+Jan 09 11:09 : client: [106] opened from [::1]:49238
+Jan 09 11:09 : client: [107] opened from [::1]:49240
+Jan 09 11:09 : client: [108] opened from [::1]:49242
+Jan 09 11:09 : client: [104] closed
+Jan 09 11:09 : client: [105] closed
+Jan 09 11:09 : client: [109] opened from [::1]:49244
+Jan 09 11:09 : client: [108] closed
+Jan 09 11:09 : client: [106] closed
+Jan 09 11:09 : client: [107] closed
+Jan 09 11:09 : client: [109] closed
+Jan 09 11:09 : client: [110] opened from [::1]:49246
+Jan 09 11:09 : client: [111] opened from [::1]:49248
+Jan 09 11:09 : client: [112] opened from [::1]:49250
+Jan 09 11:09 : ffmpeg/wmav2: Input packet size too small (1651 < 4459)
+Jan 09 11:09 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Jan 09 11:09 : client: [113] opened from [::1]:49252
+Jan 09 11:09 : client: [110] closed
+Jan 09 11:09 : client: [111] closed
+Jan 09 11:09 : client: [113] closed
+Jan 09 11:09 : client: [114] opened from [::1]:49254
+Jan 09 11:09 : client: [115] opened from [::1]:49256
+Jan 09 11:09 : client: [112] closed
+Jan 09 11:09 : client: [116] opened from [::1]:49258
+Jan 09 11:09 : client: [117] opened from [::1]:49260
+Jan 09 11:09 : client: [114] closed
+Jan 09 11:09 : client: [118] opened from [::1]:49262
+Jan 09 11:09 : ffmpeg/wmav2: Input packet size too small (1641 < 4459)
+Jan 09 11:09 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Jan 09 11:09 : client: [115] closed
+Jan 09 11:09 : client: [116] closed
+Jan 09 11:09 : client: [118] closed
+Jan 09 11:09 : client: [119] opened from [::1]:49264
+Jan 09 11:09 : client: [117] closed
+Jan 09 11:09 : client: [120] opened from [::1]:49266
+Jan 09 11:09 : client: [121] opened from [::1]:49268
+Jan 09 11:09 : client: [122] opened from [::1]:49270
+Jan 09 11:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:09 : client: [119] closed
+Jan 09 11:09 : client: [120] closed
+Jan 09 11:09 : client: [121] closed
+Jan 09 11:09 : client: [122] closed
+Jan 09 11:10 : client: [123] opened from [::1]:49272
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [123] closed
+Jan 09 11:10 : client: [124] opened from [::1]:49274
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [125] opened from [::1]:49276
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [124] closed
+Jan 09 11:10 : client: [125] closed
+Jan 09 11:10 : client: [126] opened from [::1]:49278
+Jan 09 11:10 : client: [126] closed
+Jan 09 11:10 : client: [127] opened from [::1]:49280
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [128] opened from [::1]:49282
+Jan 09 11:10 : client: [129] opened from [::1]:49284
+Jan 09 11:10 : client: [130] opened from [::1]:49286
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [131] opened from [::1]:49288
+Jan 09 11:10 : ffmpeg/libdav1d: libdav1d 0.5.2
+Jan 09 11:10 : client: [127] closed
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [132] opened from [::1]:49290
+Jan 09 11:10 : client: [128] closed
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [129] closed
+Jan 09 11:10 : client: [131] closed
+Jan 09 11:10 : client: [130] closed
+Jan 09 11:10 : client: [132] closed
+Jan 09 11:10 : client: [133] opened from [::1]:49292
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [134] opened from [::1]:49294
+Jan 09 11:10 : client: [135] opened from [::1]:49296
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [136] opened from [::1]:49298
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [133] closed
+Jan 09 11:10 : client: [137] opened from [::1]:49300
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [138] opened from [::1]:49302
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [134] closed
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [135] closed
+Jan 09 11:10 : client: [136] closed
+Jan 09 11:10 : client: [138] closed
+Jan 09 11:10 : client: [137] closed
+Jan 09 11:10 : client: [139] opened from [::1]:49304
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [140] opened from [::1]:49306
+Jan 09 11:10 : client: [141] opened from [::1]:49308
+Jan 09 11:10 : client: [142] opened from [::1]:49310
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [139] closed
+Jan 09 11:10 : client: [140] closed
+Jan 09 11:10 : client: [141] closed
+Jan 09 11:10 : client: [142] closed
+Jan 09 11:10 : client: [143] opened from [::1]:49312
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [144] opened from [::1]:49314
+Jan 09 11:10 : client: [145] opened from [::1]:49316
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [146] opened from [::1]:49318
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [147] opened from [::1]:49320
+Jan 09 11:10 : client: [143] closed
+Jan 09 11:10 : client: [148] opened from [::1]:49322
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [144] closed
+Jan 09 11:10 : client: [149] opened from [::1]:49324
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [145] closed
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [146] closed
+Jan 09 11:10 : client: [147] closed
+Jan 09 11:10 : client: [148] closed
+Jan 09 11:10 : client: [149] closed
+Jan 09 11:10 : client: [150] opened from [::1]:49326
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [151] opened from [::1]:49328
+Jan 09 11:10 : client: [152] opened from [::1]:49330
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [153] opened from [::1]:49332
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [150] closed
+Jan 09 11:10 : client: [154] opened from [::1]:49334
+Jan 09 11:10 : client: [155] opened from [::1]:49336
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [156] opened from [::1]:49338
+Jan 09 11:10 : client: [151] closed
+Jan 09 11:10 : client: [152] closed
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [153] closed
+Jan 09 11:10 : client: [154] closed
+Jan 09 11:10 : client: [156] closed
+Jan 09 11:10 : client: [155] closed
+Jan 09 11:10 : client: [157] opened from [::1]:49340
+Jan 09 11:10 : client: [158] opened from [::1]:49342
+Jan 09 11:10 : client: [159] opened from [::1]:49344
+Jan 09 11:10 : client: [157] closed
+Jan 09 11:10 : client: [158] closed
+Jan 09 11:10 : client: [159] closed
+Jan 09 11:10 : client: [160] opened from [::1]:49346
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [160] closed
+Jan 09 11:10 : client: [161] opened from [::1]:49348
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [162] opened from [::1]:49350
+Jan 09 11:10 : client: [163] opened from [::1]:49352
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [161] closed
+Jan 09 11:10 : client: [163] closed
+Jan 09 11:10 : client: [162] closed
+Jan 09 11:10 : client: [164] opened from [::1]:49354
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [164] closed
+Jan 09 11:10 : client: [165] opened from [::1]:49356
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [166] opened from [::1]:49358
+Jan 09 11:10 : client: [167] opened from [::1]:49360
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [168] opened from [::1]:49362
+Jan 09 11:10 : client: [165] closed
+Jan 09 11:10 : client: [169] opened from [::1]:49364
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [166] closed
+Jan 09 11:10 : client: [167] closed
+Jan 09 11:10 : client: [168] closed
+Jan 09 11:10 : client: [169] closed
+Jan 09 11:10 : client: [170] opened from [::1]:49366
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [171] opened from [::1]:49368
+Jan 09 11:10 : client: [172] opened from [::1]:49370
+Jan 09 11:10 : client: [173] opened from [::1]:49372
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [174] opened from [::1]:49374
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [170] closed
+Jan 09 11:10 : client: [175] opened from [::1]:49376
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [172] closed
+Jan 09 11:10 : client: [171] closed
+Jan 09 11:10 : client: [176] opened from [::1]:49378
+Jan 09 11:10 : client: [174] closed
+Jan 09 11:10 : client: [173] closed
+Jan 09 11:10 : client: [175] closed
+Jan 09 11:10 : client: [176] closed
+Jan 09 11:10 : client: [177] opened from [::1]:49380
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [178] opened from [::1]:49382
+Jan 09 11:10 : client: [179] opened from [::1]:49384
+Jan 09 11:10 : client: [180] opened from [::1]:49386
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [181] opened from [::1]:49388
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [177] closed
+Jan 09 11:10 : client: [182] opened from [::1]:49390
+Jan 09 11:10 : client: [178] closed
+Jan 09 11:10 : client: [183] opened from [::1]:49392
+Jan 09 11:10 : client: [179] closed
+Jan 09 11:10 : ffmpeg/libdav1d: libdav1d 0.5.2
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [180] closed
+Jan 09 11:10 : client: [181] closed
+Jan 09 11:10 : client: [182] closed
+Jan 09 11:10 : client: [183] closed
+Jan 09 11:10 : client: [184] opened from [::1]:49394
+Jan 09 11:10 : client: [185] opened from [::1]:49396
+Jan 09 11:10 : client: [186] opened from [::1]:49398
+Jan 09 11:10 : client: [187] opened from [::1]:49400
+Jan 09 11:10 : client: [188] opened from [::1]:49402
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:10 : client: [184] closed
+Jan 09 11:10 : client: [185] closed
+Jan 09 11:10 : client: [188] closed
+Jan 09 11:10 : client: [186] closed
+Jan 09 11:10 : client: [187] closed
+Jan 09 11:14 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 11:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 11:14 : player: played "bgm/フィクサー _ ぬゆり-UHOJPOrxsjg.mkv"
+Jan 09 11:14 : client: [189] opened from [::1]:49546
+Jan 09 11:14 : client: [189] closed
+Jan 09 13:31 : client: [0] closed
+Jan 09 13:59 : client: [190] opened from [::1]:54496
+Jan 09 13:59 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:03 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 14:03 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:04 : player: played "bgm/【歌ってみた】猛独が襲う covered by 花譜-jpwy7kP8Pps.webm"
+Jan 09 14:04 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:08 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 14:08 : player: played "bgm/【歌ってみた】カフネ covered by 花譜-2VpGmUQM37A.webm"
+Jan 09 14:08 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:12 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 14:12 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:12 : player: played "bgm/【歌ってみた】忘れたいことばっかだ covered by 花譜-qxYK4e_KlF0.mkv"
+Jan 09 14:16 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 14:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:17 : player: played "bgm/【歌ってみた】猛独が襲う covered by 花譜-jpwy7kP8Pps.webm"
+Jan 09 14:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:20 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:20 : player: played "bgm/ever_Otomachi Una-sm32945630.mp4"
+Jan 09 14:24 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 14:24 : ffmpeg/libdav1d: libdav1d 0.5.2
+Jan 09 14:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:24 : player: played "bgm/Girl's Last Tour OP and ED (Acoustic Guitar) (Shoujo Shuumatsu Ryokou)【Tabs】-wcU8JHV6Aow.mkv"
+Jan 09 14:28 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 14:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:29 : player: played "bgm/Glow - one(鹿乃)-TwBrBgmDfh8.mkv"
+Jan 09 14:32 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 14:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:32 : player: played "bgm/Guiano - Love & Music-WlRKXA5c0Kg.mkv"
+Jan 09 14:35 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 14:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:35 : player: played "bgm/Guiano - Summer Dream (feat.IA)-f3jIXxc67yM.webm"
+Jan 09 14:39 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 14:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:39 : player: played "bgm/Guiano - シャナ (feat.IA)-3dqIvhv0MRY.webm"
+Jan 09 14:41 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 14:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:42 : player: played "bgm/Guiano - スーパーヒーロー (feat.IA)-3Yp-oxOGdHA.webm"
+Jan 09 14:44 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 14:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:44 : player: played "bgm/Guiano - ブラックゴールド (feat.IA)-16GbAKc1yms.mkv"
+Jan 09 14:49 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 14:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:49 : player: played "bgm/Guiano - また季節が一つ過ぎ去ってゆく (feat.flower)-CG1WSLBZvq8.mkv"
+Jan 09 14:52 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 14:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:52 : player: played "bgm/Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv"
+Jan 09 14:56 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 14:56 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 14:56 : player: played "bgm/Guiano - 凍えそうだ (feat.flower)-Ybx432jmqFs.mkv"
+Jan 09 15:00 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 15:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 15:00 : player: played "bgm/Guiano - 凍るサマー (feat.flower)-b82nw8abKMU.mkv"
+Jan 09 15:00 : client: [191] opened from [::1]:58664
+Jan 09 15:00 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 15:00 : client: [191] closed
+Jan 09 15:04 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 15:04 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 15:04 : player: played "bgm/Guiano - 死んでしまったのだろうか (feat.flower)-_xXenYRkbKs.mkv"
+Jan 09 15:07 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 15:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 15:07 : player: played "bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv"
+Jan 09 15:10 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 15:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 15:10 : player: played "bgm/Guiano - 無題-07wI9lB_9zk.webm"
+Jan 09 15:14 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 15:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 15:14 : player: played "bgm/Guiano - 眠り姫 (feat.IA)-8P8VknpWwC8.webm"
+Jan 09 15:18 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 15:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 15:18 : player: played "bgm/Herb Ellis - Days of wine and roses-QEQGq9njtJE.mkv"
+Jan 09 15:23 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 15:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 15:23 : player: played "bgm/Israel--J.J. Johnson & Kai Winding---V8pOgQDXg.webm"
+Jan 09 15:33 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 15:33 : player: played "bgm/Jamie Cullum - Don't Stop the Music-kYhT7oCDoqM.mkv"
+Jan 09 15:38 : player: played "bgm/Jamie Cullum - Don't Stop the Music.mp3"
+Jan 09 15:43 : player: played "bgm/Jamie Cullum - Edge Of Something-Z1sg5g7sbI8.mp4"
+Jan 09 15:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 15:48 : player: played "bgm/Jamie Cullum - Edge Of Something.mp3"
+Jan 09 15:52 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 15:52 : player: played "bgm/Jamie Cullum - Everything You Didn't Do-xOq2QTaZAq0.mkv"
+Jan 09 15:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 15:57 : player: played "bgm/Jamie Cullum - Everything You Didn't Do.mp3"
+Jan 09 15:59 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 15:59 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 16:00 : player: played "bgm/Joe Pass - The days of wine and roses-BCQRnjEl5TU.mkv"
+Jan 09 16:04 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 16:04 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 16:04 : player: played "bgm/John Legend -All of Me (lyrics)-R21EU8SKUM0.webm"
+Jan 09 16:08 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 16:08 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 16:08 : player: played "bgm/Kano - Daybreak Frontline (Album Ver.)--Q7n60GdmQg.webm"
+Jan 09 16:12 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 09 16:12 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 09 16:12 : player: played "bgm/Kano - Irony (Album Ver.)-8nX76NFhpYs.webm"
+Jan 09 16:17 : player: played "bgm/Kano (鹿乃) - Yoake to Hotaru (夜明けと蛍)-EpTRbZ08Hbk.webm"
+Jan 09 16:17 : client: [190] closed
+Jan 10 08:42 : zeroconf: No global port, disabling zeroconf
+Jan 10 08:42 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 10 08:42 : client: [0] opened from 127.0.0.1:41070
+Jan 10 08:53 : client: [1] opened from [::1]:55502
+Jan 10 08:53 : client: [1] closed
+Jan 10 08:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 10 08:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 08:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 10 08:58 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 10 08:58 : player: played "bgm/Kano (鹿乃) - Yoake to Hotaru (夜明けと蛍)-EpTRbZ08Hbk.webm"
+Jan 10 09:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : player: played "bgm/kick_Otomachi Una-sm33351113.mp4"
+Jan 10 09:02 : client: [2] opened from [::1]:55510
+Jan 10 09:02 : client: [2] closed
+Jan 10 09:02 : client: [3] opened from [::1]:55512
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [3] closed
+Jan 10 09:02 : client: [4] opened from [::1]:55514
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [4] closed
+Jan 10 09:02 : client: [5] opened from [::1]:55516
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [5] closed
+Jan 10 09:02 : client: [6] opened from [::1]:55518
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [6] closed
+Jan 10 09:02 : client: [7] opened from [::1]:55520
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [8] opened from [::1]:55522
+Jan 10 09:02 : client: [9] opened from [::1]:55524
+Jan 10 09:02 : client: [10] opened from [::1]:55526
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [7] closed
+Jan 10 09:02 : client: [8] closed
+Jan 10 09:02 : client: [9] closed
+Jan 10 09:02 : client: [10] closed
+Jan 10 09:02 : client: [11] opened from [::1]:55528
+Jan 10 09:02 : client: [11] closed
+Jan 10 09:02 : client: [12] opened from [::1]:55532
+Jan 10 09:02 : client: [12] closed
+Jan 10 09:02 : client: [13] opened from [::1]:55534
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [14] opened from [::1]:55536
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [13] closed
+Jan 10 09:02 : client: [14] closed
+Jan 10 09:02 : client: [15] opened from [::1]:55538
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [15] closed
+Jan 10 09:02 : client: [16] opened from [::1]:55540
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [16] closed
+Jan 10 09:02 : client: [17] opened from [::1]:55542
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [17] closed
+Jan 10 09:02 : client: [18] opened from [::1]:55544
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [18] closed
+Jan 10 09:02 : client: [19] opened from [::1]:55546
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [20] opened from [::1]:55548
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [19] closed
+Jan 10 09:02 : client: [20] closed
+Jan 10 09:02 : client: [21] opened from [::1]:55550
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [22] opened from [::1]:55552
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [21] closed
+Jan 10 09:02 : client: [22] closed
+Jan 10 09:02 : client: [23] opened from [::1]:55554
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [23] closed
+Jan 10 09:02 : client: [24] opened from [::1]:55556
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [24] closed
+Jan 10 09:02 : client: [25] opened from [::1]:55558
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [26] opened from [::1]:55560
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [25] closed
+Jan 10 09:02 : client: [26] closed
+Jan 10 09:02 : client: [27] opened from [::1]:55562
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [27] closed
+Jan 10 09:02 : client: [28] opened from [::1]:55564
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [28] closed
+Jan 10 09:02 : client: [29] opened from [::1]:55566
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [29] closed
+Jan 10 09:02 : client: [30] opened from [::1]:55568
+Jan 10 09:02 : ffmpeg/libdav1d: libdav1d 0.5.2
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [30] closed
+Jan 10 09:02 : client: [31] opened from [::1]:55570
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [31] closed
+Jan 10 09:02 : client: [32] opened from [::1]:55572
+Jan 10 09:02 : client: [32] closed
+Jan 10 09:02 : client: [33] opened from [::1]:55574
+Jan 10 09:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:02 : client: [33] closed
+Jan 10 09:02 : client: [34] opened from [::1]:55576
+Jan 10 09:02 : client: [34] closed
+Jan 10 09:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:05 : player: played "bgm/ever_Otomachi Una-sm32945630.mp4"
+Jan 10 09:09 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 10 09:09 : ffmpeg/libdav1d: libdav1d 0.5.2
+Jan 10 09:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:09 : player: played "bgm/Girl's Last Tour OP and ED (Acoustic Guitar) (Shoujo Shuumatsu Ryokou)【Tabs】-wcU8JHV6Aow.mkv"
+Jan 10 09:13 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 10 09:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:14 : player: played "bgm/Glow - one(鹿乃)-TwBrBgmDfh8.mkv"
+Jan 10 09:17 : client: [35] opened from [::1]:55590
+Jan 10 09:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:17 : client: [35] closed
+Jan 10 09:17 : client: [36] opened from [::1]:55592
+Jan 10 09:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:17 : client: [36] closed
+Jan 10 09:17 : client: [37] opened from [::1]:55594
+Jan 10 09:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:17 : client: [37] closed
+Jan 10 09:20 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 10 09:20 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:20 : player: played "bgm/Guiano - スーパーヒーロー (feat.IA)-3Yp-oxOGdHA.webm"
+Jan 10 09:22 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 10 09:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 09:23 : client: [38] opened from [::1]:55600
+Jan 10 09:23 : client: [38] closed
+Jan 10 11:38 : client: [0] closed
+Jan 10 11:38 : client: [39] opened from 127.0.0.1:43450
+Jan 10 11:38 : client: [39] closed
+Jan 10 19:07 : client: [40] opened from [::1]:59796
+Jan 10 19:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 19:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 19:13 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 10 19:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 19:13 : player: played "bgm/bohemianvoodoo 'Adria Blue' 【Music Video】-gjDrEdEzfQc.mkv"
+Jan 10 19:18 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 10 19:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 19:18 : player: played "bgm/bohemianvoodoo 'El Ron Zacapa' 【Music Video】-z2knnB8oedc.webm"
+Jan 10 19:24 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 10 19:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 10 19:24 : player: played "bgm/bohemianvoodoo 'Golden Forest' 【Music Video】--oWccnrIqKo.webm"
+Jan 10 19:26 : player: played "bgm/bohemianvoodoo '石の教会' 【Music Video】-3FS5BF5HwrI.webm"
+Jan 10 19:59 : client: [40] closed

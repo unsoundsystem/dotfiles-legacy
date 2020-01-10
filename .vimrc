@@ -74,7 +74,7 @@ set belloff=all
 set fileencodings=utf-8,sjis,iso-2022-jp,euc-jp
 nn <F4> a<C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR><Esc>
 imap <Nul> <Nop>
-set termguicolors
+"set termguicolors
 set mouse=n
 set ts=1
 nn tn :tabnew 
@@ -85,11 +85,13 @@ nn <C-b><C-p> :bp<CR><Esc>
 let mapleader = " "
 
 "see through
-"highlight Normal ctermbg=none
-"highlight NonText ctermbg=none
-"highlight LineNr ctermbg=none
-"highlight Folded ctermbg=none
-"highlight EndOfBuffer ctermbg=none 
+if $XDG_SESSION_TYPE == "wayland"
+				highlight Normal ctermbg=NONE guibg=NONE
+				highlight NonText ctermbg=NONE guibg=NONE
+				highlight SpecialKey ctermbg=NONE guibg=NONE
+				highlight EndOfBuffer ctermbg=NONE guibg=NONE
+endif
+
 "call map(dein#check_clean(), "delete(v:val, 'rf')")
 
 filetype plugin indent on

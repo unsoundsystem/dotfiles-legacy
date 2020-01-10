@@ -14,7 +14,7 @@ alias st='st -f "HackGen Console for Powerline:size=15"'
 alias v='vim'
 alias n='nvim'
 alias t='tmux'
-#alias j='julia -q -J /home/sasuseso/Scripts/JuliaSysimg/MyImg.so'
+alias j='julia -q -J /home/sasuseso/Scripts/JuliaSysimg/MyImg.so'
 alias r='ranger'
 alias z='zen'
 alias info='info --vi-keys'
@@ -27,8 +27,7 @@ export XDG_CONFIG_HOME=~/.config
 export EDITOR=nvim
 export JULIA_EDITOR=vim
 export TERM='xterm-256color'
-export PATH=/home/sasuseso/.local/bin:/home/sasuseso/zen:$ANDROID_HOME/tools:$ANDROID_HOME/system-images:$ANDROID_HOME/platform-tools:$PATH
-# export PATH="/home/sasuseso/anaconda3/bin:$PATH"  # commented out by conda initialize
+export PATH=/home/sasuseso/.local/bin:/home/sasuseso/zen:$ANDROID_HOME/tools:$ANDROID_HOME/system-images:$ANDROID_HOME/platform-tools:$PATH:$ANDROID_SDK_ROOT
 PS1='[\u@\h \W]\$ '
 
 PATH="/home/sasuseso/perl5/bin${PATH:+:${PATH}}"; export PATH;
