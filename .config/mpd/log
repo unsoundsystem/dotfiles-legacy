@@ -24334,3 +24334,302 @@ Jan 10 19:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
 Jan 10 19:24 : player: played "bgm/bohemianvoodoo 'Golden Forest' 【Music Video】--oWccnrIqKo.webm"
 Jan 10 19:26 : player: played "bgm/bohemianvoodoo '石の教会' 【Music Video】-3FS5BF5HwrI.webm"
 Jan 10 19:59 : client: [40] closed
+Jan 11 11:58 : zeroconf: No global port, disabling zeroconf
+Jan 11 11:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 11 11:58 : client: [0] opened from 127.0.0.1:56722
+Jan 11 19:12 : client: [1] opened from [::1]:48692
+Jan 11 19:12 : client: [1] closed
+Jan 11 19:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 11 19:12 : exception: Failed to enable output "My Pulse Output" (pulse)
+Jan 11 19:12 : exception: nested: pa_context_connect() has failed: Connection refused
+Jan 11 19:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 11 19:12 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 19:17 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 19:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 19:17 : player: played "bgm/bohemianvoodoo '石の教会' 【Music Video】-3FS5BF5HwrI.webm"
+Jan 11 19:17 : exception: Failed to enable output "My Pulse Output" (pulse)
+Jan 11 19:17 : exception: nested: pa_context_connect() has failed: Connection refused
+Jan 11 19:19 : client: [2] opened from [::1]:48766
+Jan 11 19:19 : client: [2] closed
+Jan 11 19:20 : client: [3] opened from [::1]:48768
+Jan 11 19:20 : exception: Failed to enable output "My Pulse Output" (pulse)
+Jan 11 19:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Jan 11 19:20 : client: [3] closed
+Jan 11 19:20 : client: [4] opened from [::1]:48770
+Jan 11 19:20 : exception: Failed to enable output "My Pulse Output" (pulse)
+Jan 11 19:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Jan 11 19:20 : client: [4] closed
+Jan 11 19:20 : client: [5] opened from [::1]:48772
+Jan 11 19:20 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 19:20 : exception: Failed to enable output "My Pulse Output" (pulse)
+Jan 11 19:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Jan 11 19:20 : client: [5] closed
+Jan 11 19:21 : client: [0] closed
+Jan 11 19:22 : client: [6] opened from [::1]:48848
+Jan 11 19:22 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 19:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 19:22 : player: played "bgm/Days of Wine and Roses - Ella Fitzgerald-Q12NzfzC_Kk.mkv"
+Jan 11 19:25 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 19:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 19:26 : player: played "bgm/DAYBREAK FRONTLINE _ Orangestar feat.IA-emrt46SRyYs.webm"
+Jan 11 19:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 19:29 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 19:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 19:30 : player: played "bgm/Kano - Daybreak Frontline (Album Ver.)--Q7n60GdmQg.webm"
+Jan 11 19:34 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 19:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 19:34 : player: played "bgm/Kano - Irony (Album Ver.)-8nX76NFhpYs.webm"
+Jan 11 19:39 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 19:39 : player: played "bgm/Kano (鹿乃) - Yoake to Hotaru (夜明けと蛍)-EpTRbZ08Hbk.webm"
+Jan 11 19:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 19:43 : player: played "bgm/kick_Otomachi Una-sm33351113.mp4"
+Jan 11 19:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 19:47 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 19:48 : player: played "bgm/ヨルシカ - 雨とカプチーノ(Official Video)-PWbRleMGagU.mkv"
+Jan 11 19:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 19:53 : player: played "bgm/ヨルシカ - 靴の花火 (Music Video).mp3"
+Jan 11 19:57 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 19:57 : player: played "bgm/ラストダンス - Eve MV-CLdeykXCZX4.mkv"
+Jan 11 19:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:01 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 20:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:01 : player: played "bgm/世迷言_4ma15 feat.滲音かこい-qJ20KjcryOQ.mkv"
+Jan 11 20:06 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 20:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:06 : player: played "bgm/何でも言うことを聞いてくれるアカネチャン-OVuYIMa5XBw.mkv"
+Jan 11 20:11 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 20:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:11 : player: played "bgm/僕らまだアンダーグラウンド - Eve MV-nBteO-bU78Y.mkv"
+Jan 11 20:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:15 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 20:15 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:16 : player: played "bgm/命ばっかり _ ぬゆり(cover) - Eve-5CjA4W6BJeU.webm"
+Jan 11 20:21 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 20:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:21 : player: played "bgm/夜明けと蛍 _ ナブナ-nDbNRb9gOr4.webm"
+Jan 11 20:25 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 20:25 : player: played "bgm/快晴　歌ってみたのはメガテラ・ゼロ-2GEYlOkldOs.mkv"
+Jan 11 20:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:29 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 20:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:33 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 20:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:33 : player: played "bgm/【歌ってみた】カフネ covered by 花譜-2VpGmUQM37A.webm"
+Jan 11 20:38 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 20:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:38 : player: played "bgm/【歌ってみた】忘れたいことばっかだ covered by 花譜-qxYK4e_KlF0.mkv"
+Jan 11 20:42 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 20:42 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:42 : player: played "bgm/【歌ってみた】猛独が襲う covered by 花譜-jpwy7kP8Pps.webm"
+Jan 11 20:42 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:46 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 20:46 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:47 : player: played "bgm/花譜　#22　「過去を喰らう」 【オリジナルMV】-tMKrECxEpq8.mkv"
+Jan 11 20:51 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 20:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:51 : player: played "bgm/花譜　#27 「そして花になる」【オリジナルMV】-y6TGSY9Zll0.mkv"
+Jan 11 20:57 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 11 20:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 11 20:57 : player: played "bgm/花譜　#33 「命に嫌われている（Prayer Ver.）」【オリジナルMV】-N5hInoyU-WY.mkv"
+Jan 11 22:22 : player: played "bgm/菅田将暉 『まちがいさがし』-7940nuwCEYA.mkv"
+Jan 12 08:01 : zeroconf: No global port, disabling zeroconf
+Jan 12 08:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 12 08:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 12 08:01 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 12 08:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:01 : client: [0] opened from 127.0.0.1:45684
+Jan 12 08:22 : client: [1] opened from 127.0.0.1:46142
+Jan 12 08:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 12 08:26 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 08:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:26 : client: [2] opened from [::1]:60540
+Jan 12 08:26 : client: [2] closed
+Jan 12 08:26 : client: [0] closed
+Jan 12 08:26 : client: [1] closed
+Jan 12 08:28 : client: [3] opened from [::1]:60874
+Jan 12 08:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:32 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 08:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:32 : player: played "bgm/【歌ってみた】猛独が襲う covered by 花譜-jpwy7kP8Pps.webm"
+Jan 12 08:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:35 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 08:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:36 : player: played "bgm/Guiano - 無題-07wI9lB_9zk.webm"
+Jan 12 08:39 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 08:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : player: played "bgm/Guiano - 眠り姫 (feat.IA)-8P8VknpWwC8.webm"
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/libdav1d: libdav1d 0.5.2
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/libdav1d: libdav1d 0.5.2
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:40 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:44 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 08:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:44 : player: played "bgm/Kano - Irony (Album Ver.)-8nX76NFhpYs.webm"
+Jan 12 08:49 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 08:49 : player: played "bgm/Kano (鹿乃) - Yoake to Hotaru (夜明けと蛍)-EpTRbZ08Hbk.webm"
+Jan 12 08:53 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 08:53 : player: played "bgm/kick_Otomachi Una-sm33351113.mp4"
+Jan 12 08:53 : player: played "bgm/King Gnu - 白日-ony539T074w.mkv"
+Jan 12 08:53 : client: [3] closed
+Jan 12 09:03 : client: [4] opened from [::1]:33870
+Jan 12 09:03 : ffmpeg/libdav1d: libdav1d 0.5.2
+Jan 12 09:03 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:07 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:12 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 09:12 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:12 : player: played "bgm/「太陽曰く燃えよカオス」を４台ピアノで弾いてみた【4D PIANO】-0B91ORpK3Qw.webm"
+Jan 12 09:18 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 09:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:18 : player: played "bgm/【Deemo】Wings of piano (FULL) 弾いてみた-250rS-RvwlU.mkv"
+Jan 12 09:22 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 09:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:22 : player: played "bgm/【GUMI】透明エレジー【オリジナル曲】-U2-K_eFGtJM.webm"
+Jan 12 09:25 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 09:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:25 : player: played "bgm/【IA ROCKS】 ブラッディ　グラビティ 【オリジナル】HD高音質Full_【IA ROCKS】 bloody gravity 【original】HD高音質-BAK9hPLJDgY.mkv"
+Jan 12 09:28 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 09:28 : player: played "bgm/【IA】アスノヨゾラ哨戒班【オリジナル】-XogSflwXgpw.webm"
+Jan 12 09:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:32 : player: played "bgm/【Kagamine Rin・Len】 Two Sides Of The Same Coin _ Surii (3)-sm33149670.mp4"
+Jan 12 09:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:36 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 09:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:36 : player: played "bgm/【TAB】「パプリカ」アコギで弾いてみた 'Paprika' on Guitar by Osamuraisan-aWwgrDUxwnw.mkv"
+Jan 12 09:41 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 09:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:41 : player: played "bgm/【TAB】Official髭男dism「宿命」アコギで弾いてみた 'Fate' on Guitar by Osamuraisan-rMSjmsEtvzY.mkv"
+Jan 12 09:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:45 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 09:45 : ffmpeg/libdav1d: libdav1d 0.5.2
+Jan 12 09:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:45 : player: played "bgm/Girl's Last Tour OP and ED (Acoustic Guitar) (Shoujo Shuumatsu Ryokou)【Tabs】-wcU8JHV6Aow.mkv"
+Jan 12 09:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:49 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 09:49 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:49 : player: played "bgm/Guiano - Love & Music-WlRKXA5c0Kg.mkv"
+Jan 12 09:52 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 09:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:52 : player: played "bgm/Guiano - Summer Dream (feat.IA)-f3jIXxc67yM.webm"
+Jan 12 09:55 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 09:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:55 : player: played "bgm/Guiano - シャナ (feat.IA)-3dqIvhv0MRY.webm"
+Jan 12 09:58 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 09:58 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 09:58 : player: played "bgm/Guiano - スーパーヒーロー (feat.IA)-3Yp-oxOGdHA.webm"
+Jan 12 10:01 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 10:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 10:01 : player: played "bgm/Guiano - ブラックゴールド (feat.IA)-16GbAKc1yms.mkv"
+Jan 12 10:06 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 10:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 10:06 : player: played "bgm/Guiano - また季節が一つ過ぎ去ってゆく (feat.flower)-CG1WSLBZvq8.mkv"
+Jan 12 10:09 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 10:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 10:09 : player: played "bgm/Guiano - ミュージック (feat.初音ミク)-V2586UuR-4w.mkv"
+Jan 12 10:12 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 10:12 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 10:12 : player: played "bgm/Guiano - 凍えそうだ (feat.flower)-Ybx432jmqFs.mkv"
+Jan 12 10:16 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 10:16 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 10:16 : player: played "bgm/Guiano - 凍るサマー (feat.flower)-b82nw8abKMU.mkv"
+Jan 12 10:21 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 10:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 10:21 : player: played "bgm/Guiano - 忘れたいことばっかだ (feat.flower)-Fv-eR_FoSPo.webm"
+Jan 12 10:24 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 10:24 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 10:25 : player: played "bgm/Guiano - 死んでしまったのだろうか (feat.flower)-_xXenYRkbKs.mkv"
+Jan 12 10:28 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 10:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 10:28 : player: played "bgm/Guiano - 波に飲まれる前に (feat.flower)-_lcF60IdmKs.mkv"
+Jan 12 10:31 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 10:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 10:31 : player: played "bgm/Guiano - 無題-07wI9lB_9zk.webm"
+Jan 12 10:35 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 10:35 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 10:35 : player: played "bgm/Guiano - 眠り姫 (feat.IA)-8P8VknpWwC8.webm"
+Jan 12 10:38 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 10:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 10:38 : player: played "bgm/Herb Ellis - Days of wine and roses-QEQGq9njtJE.mkv"
+Jan 12 10:39 : player: played "bgm/Israel--J.J. Johnson & Kai Winding---V8pOgQDXg.webm"
+Jan 12 10:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 10:43 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 10:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 10:44 : player: played "bgm/ピコン - 死ぬにはいい日だった ft. 初音ミク-6XisgRKW9ww.mkv"
+Jan 12 10:48 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 10:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 10:48 : player: played "bgm/フィクサー _ ぬゆり-UHOJPOrxsjg.mkv"
+Jan 12 10:52 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 10:52 : player: played "bgm/フォログラフ _ GUMI - ぬゆり-svo5hEcF10g.mkv"
+Jan 12 10:57 : player: played "bgm/フラジール _ GUMI - ぬゆり.mp3"
+Jan 12 11:01 : player: played "bgm/プロトディスコ _ flower - ぬゆり.mp3"
+Jan 12 11:04 : ffmpeg/libdav1d: libdav1d 0.5.2
+Jan 12 11:04 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 11:04 : player: played "bgm/メーベル／flower.mp3"
+Jan 12 11:07 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 11:08 : player: played "bgm/メーベル／バルーン(self cover)-_KZTkRgGqds.mkv"
+Jan 12 11:11 : player: played "bgm/ヨルシカ - ただ君に晴れ (MUSIC VIDEO).mp3"
+Jan 12 11:15 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 11:15 : player: played "bgm/ヨルシカ - ヒッチコック (MUSIC VIDEO).mp3"
+Jan 12 11:19 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 11:19 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 11:19 : player: played "bgm/ヨルシカ - 準透明少年 (MUSIC VIDEO)-9ypEFXTakV8.mkv"
+Jan 12 11:24 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 11:24 : player: played "bgm/ヨルシカ - 雨とカプチーノ(Official Video)-PWbRleMGagU.mkv"
+Jan 12 11:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 11:29 : player: played "bgm/ヨルシカ - 靴の花火 (Music Video).mp3"
+Jan 12 11:33 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 11:33 : player: played "bgm/ラストダンス - Eve MV-CLdeykXCZX4.mkv"
+Jan 12 11:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 11:38 : player: played "bgm/ロンリーダンス _ flower - ぬゆり.mp3"
+Jan 12 11:42 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 11:42 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 11:42 : player: played "bgm/世迷言_4ma15 feat.滲音かこい-qJ20KjcryOQ.mkv"
+Jan 12 11:47 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 11:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 11:47 : player: played "bgm/何でも言うことを聞いてくれるアカネチャン-OVuYIMa5XBw.mkv"
+Jan 12 11:52 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 11:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 11:52 : player: played "bgm/僕らまだアンダーグラウンド - Eve MV-nBteO-bU78Y.mkv"
+Jan 12 11:56 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 11:57 : player: played "bgm/前前前世 (movie ver.) RADWIMPS MV-PDSkFeMVNFs.webm"
+Jan 12 12:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 12:02 : player: played "bgm/前前前世 (movie ver.) RADWIMPS MV.mp3"
+Jan 12 12:06 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 12 12:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 12 20:27 : client: [4] closed
+Jan 12 20:27 : client: [5] opened from 127.0.0.1:54780

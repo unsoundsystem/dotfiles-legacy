@@ -53,8 +53,8 @@ xrdb /home/sasuseso/.Xresources
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
-syndaemon -i 0.5 -t -k &
-powerline-daemon -q &
-libinput-gestures-setup start
-pulseaudio --start
+#syndaemon -i 0.5 -t -k &
+#powerline-daemon -q &
+#libinput-gestures-setup start
+#pulseaudio --start
 exec i3
