@@ -24633,3 +24633,116 @@ Jan 12 12:06 : ffmpeg/opus: Could not update timestamps for discarded samples.
 Jan 12 12:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
 Jan 12 20:27 : client: [4] closed
 Jan 12 20:27 : client: [5] opened from 127.0.0.1:54780
+Jan 14 11:05 : client: [5] closed
+Jan 14 11:08 : player: played "bgm/命ばっかり _ ぬゆり(cover) - Eve-5CjA4W6BJeU.webm"
+Jan 14 11:08 : zeroconf: No global port, disabling zeroconf
+Jan 14 11:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 11:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 11:08 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 11:08 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 11:08 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 11:13 : player: played "bgm/命ばっかり _ ぬゆり(cover) - Eve-5CjA4W6BJeU.webm"
+Jan 14 11:14 : zeroconf: No global port, disabling zeroconf
+Jan 14 11:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 11:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 11:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 11:14 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 11:14 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 11:26 : client: [0] opened from 127.0.0.1:52356
+Jan 14 11:59 : update: added bgm/Guiano - I love you (feat.IA)-wusPsC5CjOg.webm
+Jan 14 11:59 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Jan 14 11:59 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Jan 14 11:59 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Jan 14 11:59 : update: added bgm/シックス・フィート・アンダー _ Aqu3ra feat.Flower-8JJXEhqkjZA.webm
+Jan 14 11:59 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Jan 14 11:59 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Jan 14 11:59 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Jan 14 12:00 : update: added bgm/【歌ってみた】丸の内サディスティック - 椎名林檎 Covered by 理芽-nUE7VEOVdOM.mkv
+Jan 14 12:00 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Jan 14 12:00 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Jan 14 12:00 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Jan 14 12:00 : update: added bgm/【歌ってみた】Shape of You - Ed Sheeran Covered by 理芽-MNJx8v-V2_E.webm
+Jan 14 12:00 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Jan 14 12:00 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Jan 14 12:00 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Jan 14 12:00 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Jan 14 12:00 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Jan 14 12:00 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Jan 14 12:00 : update: added bgm/花譜　#49 「私論理」 【オリジナルMV】-Z6wEJLnNxMs.mkv
+Jan 14 12:00 : client: [1] opened from [::1]:51130
+Jan 14 12:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 12:00 : client: [1] closed
+Jan 14 12:00 : player: played "bgm/命ばっかり _ ぬゆり(cover) - Eve-5CjA4W6BJeU.webm"
+Jan 14 12:01 : update: added bgm/Ed Sheeran - Shape of You [Official Video]-JGwWNGJdvx8.webm
+Jan 14 12:01 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Jan 14 12:01 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Jan 14 12:01 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Jan 14 12:01 : update: added bgm/Ed Sheeran - Galway Girl [Official Video]-87gWaABqGYs.mkv
+Jan 14 12:01 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Jan 14 12:01 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Jan 14 12:01 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Jan 14 12:02 : client: [2] opened from [::1]:51298
+Jan 14 12:02 : client: [2] closed
+Jan 14 12:02 : update: added bgm/Ed Sheeran - Perfect (Official Music Video)-2Vv-BfVoq4g.webm
+Jan 14 12:02 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Jan 14 12:02 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Jan 14 12:02 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Jan 14 12:07 : client: [0] closed
+Jan 14 12:08 : client: [3] opened from [::1]:51394
+Jan 14 12:09 : client: [4] opened from 127.0.0.1:52982
+Jan 14 12:09 : player: played "bgm/夜明けと蛍 _ ナブナ-nDbNRb9gOr4.webm"
+Jan 14 12:10 : client: [4] closed
+Jan 14 12:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 12:13 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 12:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 12:13 : player: played "bgm/Guiano - I love you (feat.IA)-wusPsC5CjOg.webm"
+Jan 14 12:17 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 12:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 12:17 : player: played "bgm/Guiano - Love & Music-WlRKXA5c0Kg.mkv"
+Jan 14 12:20 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 12:20 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 12:20 : player: played "bgm/Guiano - Summer Dream (feat.IA)-f3jIXxc67yM.webm"
+Jan 14 12:23 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 12:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 12:23 : player: played "bgm/Guiano - シャナ (feat.IA)-3dqIvhv0MRY.webm"
+Jan 14 12:23 : client: [3] closed
+Jan 14 12:24 : client: [5] opened from 127.0.0.1:53656
+Jan 14 12:27 : client: [5] closed
+Jan 14 12:27 : client: [6] opened from 127.0.0.1:53922
+Jan 14 12:27 : client: [6] closed
+Jan 14 13:00 : zeroconf: No global port, disabling zeroconf
+Jan 14 13:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 16:02 : client: [0] opened from [::1]:49646
+Jan 14 16:03 : client: [0] closed
+Jan 14 16:03 : client: [1] opened from [::1]:49648
+Jan 14 16:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 16:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 16:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 16:09 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 16:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 16:09 : player: played "bgm/花譜　#49 「私論理」 【オリジナルMV】-Z6wEJLnNxMs.mkv"
+Jan 14 16:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 16:13 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 16:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 16:13 : player: played "bgm/Ed Sheeran - Galway Girl [Official Video]-87gWaABqGYs.mkv"
+Jan 14 16:18 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 16:18 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 16:18 : player: played "bgm/Ed Sheeran - Perfect (Official Music Video)-2Vv-BfVoq4g.webm"
+Jan 14 16:22 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 16:22 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 16:22 : player: played "bgm/Ed Sheeran - Shape of You [Official Video]-JGwWNGJdvx8.webm"
+Jan 14 16:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 16:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 16:26 : player: played "bgm/ever_Otomachi Una-sm32945630.mp4"
+Jan 14 16:29 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 16:29 : ffmpeg/libdav1d: libdav1d 0.5.2
+Jan 14 16:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 16:30 : player: played "bgm/Girl's Last Tour OP and ED (Acoustic Guitar) (Shoujo Shuumatsu Ryokou)【Tabs】-wcU8JHV6Aow.mkv"
+Jan 14 16:34 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 16:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 16:34 : player: played "bgm/Glow - one(鹿乃)-TwBrBgmDfh8.mkv"
+Jan 14 16:37 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 16:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 16:38 : player: played "bgm/Guiano - I love you (feat.IA)-wusPsC5CjOg.webm"
+Jan 14 16:41 : player: played "bgm/Guiano - Love & Music-WlRKXA5c0Kg.mkv"
+Jan 14 16:42 : client: [1] closed
