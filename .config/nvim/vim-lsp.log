@@ -4822,3 +4822,8 @@
 2020年01月09日 12時14分52秒:["s:on_text_document_did_open()", 1, "julia", "/home/sasuseso", "file:///home/sasuseso/test.jl"]
 2020年01月09日 12時14分55秒:["s:on_text_document_did_open()", 1, "julia", "/home/sasuseso", "file:///home/sasuseso/test.jl"]
 2020年01月09日 21時25分10秒:["s:on_text_document_did_close()", 1]
+2020年01月15日 18時36分50秒:["s:on_text_document_did_open()", 1, "java", "/home/sasuseso/Scripts", "file:///home/sasuseso/Scripts/test.java"]
+2020年01月15日 18時36分51秒:["s:on_text_document_did_open()", 1, "java", "/home/sasuseso/Scripts", "file:///home/sasuseso/Scripts/test.java"]
+2020年01月15日 18時36分52秒:["s:on_text_document_did_open()", 1, "java", "/home/sasuseso/Scripts", "file:///home/sasuseso/Scripts/test.java"]
+2020年01月15日 18時36分53秒:["s:on_text_document_did_open()", 1, "java", "/home/sasuseso/Scripts", "file:///home/sasuseso/Scripts/test.java"]
+2020年01月15日 18時36分53秒:["s:on_text_document_did_close()", 1]

@@ -27,6 +27,7 @@ export XDG_CONFIG_HOME=~/.config
 export EDITOR=nvim
 export JULIA_EDITOR=vim
 export TERM='xterm-256color'
+export JAVA_HOME=/usr/lib/jvm/default
 export PATH=/home/sasuseso/.local/bin:/home/sasuseso/zen:$ANDROID_HOME/tools:$ANDROID_HOME/system-images:$ANDROID_HOME/platform-tools:$PATH:$ANDROID_SDK_ROOT
 PS1='[\u@\h \W]\$ '
 

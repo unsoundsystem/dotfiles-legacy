@@ -24746,3 +24746,258 @@ Jan 14 16:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
 Jan 14 16:38 : player: played "bgm/Guiano - I love you (feat.IA)-wusPsC5CjOg.webm"
 Jan 14 16:41 : player: played "bgm/Guiano - Love & Music-WlRKXA5c0Kg.mkv"
 Jan 14 16:42 : client: [1] closed
+Jan 14 18:17 : client: [2] opened from [::1]:52026
+Jan 14 18:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 18:17 : player: played "bgm/DAYBREAK FRONTLINE _ Orangestar feat.IA-emrt46SRyYs.webm"
+Jan 14 18:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 18:20 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 18:20 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 18:21 : player: played "bgm/DAYBREAK FRONTLINE _ Orangestar feat.IA-emrt46SRyYs.webm"
+Jan 14 18:21 : player: played "bgm/Days of Wine and Roses - Ella Fitzgerald-Q12NzfzC_Kk.mkv"
+Jan 14 19:45 : client: [2] closed
+Jan 14 19:48 : client: [3] opened from [::1]:52536
+Jan 14 20:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 20:08 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 20:08 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 20:09 : player: played "bgm/Guiano - I love you (feat.IA)-wusPsC5CjOg.webm"
+Jan 14 20:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 20:13 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 20:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 20:13 : player: played "bgm/花譜　#49 「私論理」 【オリジナルMV】-Z6wEJLnNxMs.mkv"
+Jan 14 20:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 20:17 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 20:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 20:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 20:21 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 20:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 20:21 : player: played "bgm/【歌ってみた】Shape of You - Ed Sheeran Covered by 理芽-MNJx8v-V2_E.webm"
+Jan 14 20:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 20:25 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 20:25 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 20:25 : player: played "bgm/【歌ってみた】丸の内サディスティック - 椎名林檎 Covered by 理芽-nUE7VEOVdOM.mkv"
+Jan 14 20:29 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 20:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 20:29 : player: played "bgm/【歌ってみた】忘れたいことばっかだ covered by 花譜-qxYK4e_KlF0.mkv"
+Jan 14 20:34 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 14 20:34 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 14 20:34 : player: played "bgm/【歌ってみた】猛独が襲う covered by 花譜-jpwy7kP8Pps.webm"
+Jan 14 20:35 : player: played "bgm/【結月ゆかり】月旅【オリジナル曲】-paRwZI6ZYF4.mkv"
+Jan 14 20:35 : client: [3] closed
+Jan 15 00:28 : client: [4] opened from [::1]:55334
+Jan 15 00:28 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 00:32 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 00:32 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 00:33 : player: played "bgm/花譜　#49 「私論理」 【オリジナルMV】-Z6wEJLnNxMs.mkv"
+Jan 15 00:33 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 00:37 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 00:37 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 00:37 : player: played "bgm/花譜　#22　「過去を喰らう」 【オリジナルMV】-tMKrECxEpq8.mkv"
+Jan 15 00:41 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 00:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 00:41 : player: played "bgm/花譜　#27 「そして花になる」【オリジナルMV】-y6TGSY9Zll0.mkv"
+Jan 15 00:46 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 00:46 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 00:47 : player: played "bgm/花譜　#33 「命に嫌われている（Prayer Ver.）」【オリジナルMV】-N5hInoyU-WY.mkv"
+Jan 15 00:51 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 00:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 00:51 : player: played "bgm/花譜　#49 「私論理」 【オリジナルMV】-Z6wEJLnNxMs.mkv"
+Jan 15 00:51 : player: played "bgm/菅田将暉 『まちがいさがし』-7940nuwCEYA.mkv"
+Jan 15 00:51 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 00:55 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 00:55 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 00:55 : player: played "bgm/【歌ってみた】カフネ covered by 花譜-2VpGmUQM37A.webm"
+Jan 15 00:59 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 00:59 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 00:59 : player: played "bgm/【歌ってみた】丸の内サディスティック - 椎名林檎 Covered by 理芽-nUE7VEOVdOM.mkv"
+Jan 15 00:59 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 01:03 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 01:03 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 01:04 : player: played "bgm/【歌ってみた】猛独が襲う covered by 花譜-jpwy7kP8Pps.webm"
+Jan 15 01:04 : player: played "bgm/【結月ゆかり】月旅【オリジナル曲】-paRwZI6ZYF4.mkv"
+Jan 15 02:49 : client: [4] closed
+Jan 15 10:44 : zeroconf: No global port, disabling zeroconf
+Jan 15 10:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 15 11:39 : client: [0] opened from [::1]:34626
+Jan 15 11:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 15 11:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 11:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 15 11:44 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 11:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 11:44 : player: played "bgm/花譜　#49 「私論理」 【オリジナルMV】-Z6wEJLnNxMs.mkv"
+Jan 15 11:44 : player: played "bgm/菅田将暉 『まちがいさがし』-7940nuwCEYA.mkv"
+Jan 15 11:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 11:48 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 11:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 11:48 : player: played "bgm/【歌ってみた】Shape of You - Ed Sheeran Covered by 理芽-MNJx8v-V2_E.webm"
+Jan 15 11:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 11:52 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 11:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 11:52 : player: played "bgm/【歌ってみた】丸の内サディスティック - 椎名林檎 Covered by 理芽-nUE7VEOVdOM.mkv"
+Jan 15 11:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 11:55 : player: played "bgm/Ed Sheeran - Galway Girl [Official Video]-87gWaABqGYs.mkv"
+Jan 15 13:36 : client: [0] closed
+Jan 15 14:40 : client: [1] opened from [::1]:37984
+Jan 15 14:40 : client: [1] closed
+Jan 15 14:40 : zeroconf: No global port, disabling zeroconf
+Jan 15 14:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 15 14:40 : client: [0] opened from 127.0.0.1:33930
+Jan 15 14:41 : client: [1] opened from 127.0.0.1:33932
+Jan 15 14:41 : client: [1] closed
+Jan 15 14:41 : client: [2] opened from 127.0.0.1:33934
+Jan 15 14:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 14:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 15 14:41 : exception: Failed to enable output "My Pulse Output" (pulse)
+Jan 15 14:41 : exception: nested: pa_context_connect() has failed: Connection refused
+Jan 15 14:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 15 14:41 : exception: Failed to enable output "My Pulse Output" (pulse)
+Jan 15 14:41 : exception: nested: pa_context_connect() has failed: Connection refused
+Jan 15 14:42 : exception: Failed to enable output "My Pulse Output" (pulse)
+Jan 15 14:42 : exception: nested: pa_context_connect() has failed: Connection refused
+Jan 15 14:42 : exception: Failed to enable output "My Pulse Output" (pulse)
+Jan 15 14:42 : exception: nested: pa_context_connect() has failed: Connection refused
+Jan 15 14:43 : player: played "bgm/DAYBREAK FRONTLINE _ Orangestar feat.IA-emrt46SRyYs.webm"
+Jan 15 14:43 : client: [2] closed
+Jan 15 14:43 : client: [3] opened from [::1]:38094
+Jan 15 14:43 : client: [3] closed
+Jan 15 14:43 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 14:43 : exception: Failed to enable output "My Pulse Output" (pulse)
+Jan 15 14:43 : exception: nested: pa_context_connect() has failed: Connection refused
+Jan 15 14:43 : client: [4] opened from [::1]:38096
+Jan 15 14:43 : client: [4] closed
+Jan 15 14:44 : client: [5] opened from 127.0.0.1:34020
+Jan 15 14:44 : exception: Failed to enable output "My Pulse Output" (pulse)
+Jan 15 14:44 : exception: nested: pa_context_connect() has failed: Connection refused
+Jan 15 14:44 : player: played "bgm/DAYBREAK FRONTLINE _ Orangestar feat.IA-emrt46SRyYs.webm"
+Jan 15 14:44 : client: [0] closed
+Jan 15 14:44 : client: [5] closed
+Jan 15 14:44 : client: [6] opened from 127.0.0.1:34034
+Jan 15 14:44 : client: [7] opened from [::1]:38114
+Jan 15 14:44 : client: [7] closed
+Jan 15 14:44 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 14:44 : client: [8] opened from [::1]:38116
+Jan 15 14:44 : client: [8] closed
+Jan 15 14:44 : client: [9] opened from 127.0.0.1:34040
+Jan 15 14:44 : client: [9] closed
+Jan 15 14:44 : client: [10] opened from 127.0.0.1:34042
+Jan 15 14:45 : player: played "bgm/DAYBREAK FRONTLINE _ Orangestar feat.IA-emrt46SRyYs.webm"
+Jan 15 14:45 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 14:45 : client: [10] closed
+Jan 15 14:45 : client: [6] closed
+Jan 15 14:45 : exception: Failed to play on "My Pulse Output" (pulse): disconnected
+Jan 15 14:45 : player: played "bgm/DAYBREAK FRONTLINE _ Orangestar feat.IA-emrt46SRyYs.webm"
+Jan 15 14:46 : zeroconf: No global port, disabling zeroconf
+Jan 15 14:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 15 14:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 15 14:46 : ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+Jan 15 14:46 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 14:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 15 14:46 : client: [0] opened from 127.0.0.1:39712
+Jan 15 14:46 : client: [1] opened from 127.0.0.1:39714
+Jan 15 14:46 : player: played "bgm/DAYBREAK FRONTLINE _ Orangestar feat.IA-emrt46SRyYs.webm"
+Jan 15 14:46 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 14:46 : client: [2] opened from [::1]:59856
+Jan 15 14:47 : client: [2] closed
+Jan 15 14:47 : client: [1] closed
+Jan 15 14:47 : client: [3] opened from [::1]:59858
+Jan 15 14:47 : client: [3] closed
+Jan 15 14:48 : client: [4] opened from 127.0.0.1:39772
+Jan 15 14:48 : client: [4] closed
+Jan 15 14:51 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 14:51 : client: [5] opened from [::1]:60030
+Jan 15 14:51 : client: [5] closed
+Jan 15 17:27 : client: [6] opened from 127.0.0.1:41414
+Jan 15 17:27 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:27 : client: [6] closed
+Jan 15 17:31 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 17:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:31 : client: [7] opened from 127.0.0.1:41424
+Jan 15 17:31 : player: played "bgm/花譜　#49 「私論理」 【オリジナルMV】-Z6wEJLnNxMs.mkv"
+Jan 15 17:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:31 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:36 : client: [7] closed
+Jan 15 17:41 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 17:41 : player: played "bgm/泣けど喚けど朝がきて_12uck feat.重音テト.mp3"
+Jan 15 17:45 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 17:45 : player: played "bgm/深夜高速_重音テト【カバー】-MrBPRaDHGYE.mkv"
+Jan 15 17:47 : client: [8] opened from [::1]:33486
+Jan 15 17:47 : client: [8] closed
+Jan 15 17:58 : client: [0] closed
+Jan 15 18:26 : client: [9] opened from [::1]:33692
+Jan 15 18:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 18:29 : player: played "bgm/【TAB】「パプリカ」アコギで弾いてみた 'Paprika' on Guitar by Osamuraisan-aWwgrDUxwnw.mkv"
+Jan 15 18:30 : client: [9] closed
+Jan 15 19:47 : client: [10] opened from [::1]:34490
+Jan 15 19:48 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 19:52 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 19:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 19:52 : player: played "bgm/花譜　#49 「私論理」 【オリジナルMV】-Z6wEJLnNxMs.mkv"
+Jan 15 19:52 : player: played "bgm/菅田将暉 『まちがいさがし』-7940nuwCEYA.mkv"
+Jan 15 19:56 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 19:56 : player: played "bgm/然れど応答は冴えず_12uck feat.重音テト.mp3"
+Jan 15 19:59 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 19:59 : player: played "bgm/眠れぬ夜は繰り返す_4ma15 feat.重音テト-6ji0sW7Gaw0.mkv"
+Jan 15 20:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 20:02 : player: played "bgm/神山 羊 - YELLOW【Music Video】_ Yoh Kamiyama - YELLOW.mp3"
+Jan 15 20:06 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 20:06 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 20:06 : player: played "bgm/神山羊 - おやすみ、かみさま【Music Video】_ Yoh Kamiyama - Oyasumi, Kamisama-0dO2jJUqEZw.mkv"
+Jan 15 20:10 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 15 20:10 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 15 20:10 : player: played "bgm/神山羊 - 青い棘【Music Video】_ Yoh Kamiyama - Aoi Toge-PVlVzX6OLns.mkv"
+Jan 15 20:11 : player: played "bgm/米津玄師  MV「 灰色と青（ ＋菅田将暉 ）」-gJX2iy6nhHc.webm"
+Jan 15 23:12 : client: [10] closed
+Jan 16 11:51 : zeroconf: No global port, disabling zeroconf
+Jan 16 11:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 16 20:01 : client: [0] opened from [::1]:50012
+Jan 16 20:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 16 20:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 16 20:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 16 20:01 : client: [0] closed
+Jan 16 20:01 : client: [1] opened from [::1]:50048
+Jan 16 20:05 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 16 20:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 16 20:05 : player: played "bgm/花譜　#49 「私論理」 【オリジナルMV】-Z6wEJLnNxMs.mkv"
+Jan 16 20:05 : player: played "bgm/菅田将暉 『まちがいさがし』-7940nuwCEYA.mkv"
+Jan 16 20:05 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 16 20:09 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 16 20:09 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 16 20:10 : player: played "bgm/【歌ってみた】Shape of You - Ed Sheeran Covered by 理芽-MNJx8v-V2_E.webm"
+Jan 16 20:13 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 16 20:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 16 20:14 : player: played "bgm/【歌ってみた】カフネ covered by 花譜-2VpGmUQM37A.webm"
+Jan 16 20:17 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 16 20:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 16 20:17 : player: played "bgm/【歌ってみた】丸の内サディスティック - 椎名林檎 Covered by 理芽-nUE7VEOVdOM.mkv"
+Jan 16 20:21 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 16 20:21 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 16 20:22 : player: played "bgm/【歌ってみた】忘れたいことばっかだ covered by 花譜-qxYK4e_KlF0.mkv"
+Jan 16 20:26 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Jan 16 20:26 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 16 20:26 : player: played "bgm/【歌ってみた】猛独が襲う covered by 花譜-jpwy7kP8Pps.webm"
+Jan 16 20:29 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Jan 16 20:29 : player: played "bgm/ever_Otomachi Una-sm32945630.mp4"
+Jan 16 21:29 : client: [1] closed

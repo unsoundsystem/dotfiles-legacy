@@ -59,7 +59,6 @@ if dein#check_install()
 endif    
     
 syntax enable    
-let g:solarized_termcolors=256
 set background=dark    
 colorscheme molokai
 set nopaste    
