@@ -20,12 +20,12 @@
 $ovmf\/x64
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
+:wq
+|2,0,1579257496,,"wq"
+:w
+|2,0,1579257495,,"w"
 :q
 |2,0,1579143346,,"q"
-:wq
-|2,0,1579085024,,"wq"
-:w
-|2,0,1579085022,,"w"
 :set background=none
 |2,0,1578450027,,"set background=none"
 :q!
@@ -231,9 +231,9 @@ $ovmf\/x64
 	end
 	
 |3,0,0,0,7,0,1572599873,"","mutable struct RefValue{T} <: Ref{T}","    x::T","    RefValue{T}() where {T} = new()","    RefValue{T}(x) where {T} = new(x)","end",""
-""1	LINE	0
+"1	LINE	0
 	
-|3,1,1,1,1,0,1579085017,""
+|3,0,1,1,1,0,1579085017,""
 "2	CHAR	0
 	
 	env_path = dirname(Pkg.Types.Context().env.project_file)
@@ -276,33 +276,67 @@ $ovmf\/x64
 "9	LINE	0
 	highlight EndOfBuffer ctermbg=none 
 |3,0,9,1,1,0,1578450187,"highlight EndOfBuffer ctermbg=none "
-"-	CHAR	0
-	  	
-|3,0,36,0,1,0,1578450215,"  	"
+""-	CHAR	0
+	::Array{Float64, 2}
+|3,1,36,0,1,0,1579257494,"::Array{Float64, 2}"
 
 # ファイルマーク:
-'0  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,48,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
-'1  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,49,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
-'2  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,50,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
-'3  1  1  ~/.vimrc
-|4,51,1,1,1578450453,"~/.vimrc"
-'4  88  0  ~/.vimrc
-|4,52,88,0,1578450236,"~/.vimrc"
-'5  88  0  ~/.vimrc
-|4,53,88,0,1578450236,"~/.vimrc"
-'6  97  0  ~/.vimrc
-|4,54,97,0,1578449929,"~/.vimrc"
+'0  6  8  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,48,6,8,1579257496,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+'1  2  79  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,49,2,79,1579257386,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+'2  2  79  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,50,2,79,1579257386,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+'3  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,51,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
+'4  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,52,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+'5  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,53,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+'6  1  1  ~/.vimrc
+|4,54,1,1,1578450453,"~/.vimrc"
 '7  88  0  ~/.vimrc
-|4,55,88,0,1578449929,"~/.vimrc"
-'8  97  0  ~/.vimrc
-|4,56,97,0,1578449929,"~/.vimrc"
-'9  88  0  ~/.vimrc
-|4,57,88,0,1578449929,"~/.vimrc"
+|4,55,88,0,1578450236,"~/.vimrc"
+'8  88  0  ~/.vimrc
+|4,56,88,0,1578450236,"~/.vimrc"
+'9  97  0  ~/.vimrc
+|4,57,97,0,1578449929,"~/.vimrc"
 
 # ジャンプリスト (新しいものが先):
+-'  6  8  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,8,1579257496,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579257481,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  2  79  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,2,79,1579257386,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  2  79  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,2,79,1579257386,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579257357,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
 -'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
 |4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
 -'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
@@ -319,6 +353,54 @@ $ovmf\/x64
 |4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
 -'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
 |4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
 -'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
 |4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
 -'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
@@ -343,6 +425,54 @@ $ovmf\/x64
 |4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
 -'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
 |4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
 -'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
 |4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
 -'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
@@ -351,158 +481,38 @@ $ovmf\/x64
 |4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
 -'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
 |4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  1  9  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,1,9,1579084664,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  1  9  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,1,9,1579084664,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  1  9  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,1,9,1579084664,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  1  9  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,1,9,1579084664,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  6  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,6,0,1579084656,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  6  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,6,0,1579084656,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  6  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,6,0,1579084656,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  6  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,6,0,1579084656,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  3  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,3,0,1579084645,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084645,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  3  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,3,0,1579084645,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084645,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  3  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,3,0,1579084645,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084645,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  3  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,3,0,1579084645,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084645,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  1  1  ~/.vimrc
-|4,39,1,1,1578450453,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1578450236,"~/.vimrc"
+-'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
+-'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
+|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+	*	1579257495	0
+	"	6	8
+	^	6	9
+	.	6	9
+	+	2	79
+	+	6	9
 
 > ~/.config/nvim/plugin_config/lsp_compile.jl
 	*	1579085022	0
@@ -1321,7 +1331,3 @@ $ovmf\/x64
 > ~/Scripts/julia_src/julia_6/test/llvmcall.jl
 	*	1572432244	0
 	"	251	0
-
-> ~/Scripts/julia_src/julia_6/test/llvmcall
-	*	1572432188	0
-	"	1	0

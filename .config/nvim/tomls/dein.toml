@@ -21,6 +21,9 @@ repo = 'Shougo/dein.vim'
 repo = 'Shougo/unite.vim'
 
 [[plugins]]
+repo = 'Shougo/defx.nvim'
+
+[[plugins]]
 repo = 'Shougo/neoinclude.vim'
 
 [[plugins]]
@@ -89,3 +92,6 @@ repo = 'philj56/vim-asm-indent'
 
 [[plugins]]
 repo = 'tpope/vim-obsession'
+
+[[plugins]]
+repo = 'junegunn/fzf.vim'

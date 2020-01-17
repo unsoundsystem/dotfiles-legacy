@@ -2,16 +2,18 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/
+cd ~/Scripts/julialib/DeepLearningFromScrach/sample
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 .gitignore
+badd +1 mnist_julian_way.jl
+badd +1 mnist.jl
+badd +0 mnist_batch.jl
 argglobal
 %argdel
-$argadd .gitignore
-edit .gitignore
+$argadd mnist_julian_way.jl
+edit mnist_julian_way.jl
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -30,12 +32,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 4 - ((3 * winheight(0) + 28) / 56)
+let s:l = 1 - ((0 * winheight(0) + 20) / 40)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-4
-normal! 07|
+1
+normal! 0
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
