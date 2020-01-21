@@ -2,18 +2,16 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/Scripts/julialib/DeepLearningFromScrach/sample
+cd ~/Scripts/fitness-arduino/arduino/m5stack_updown
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +1 mnist_julian_way.jl
-badd +1 mnist.jl
-badd +0 mnist_batch.jl
+badd +0 Makefile
 argglobal
 %argdel
-$argadd mnist_julian_way.jl
-edit mnist_julian_way.jl
+$argadd Makefile
+edit Makefile
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -32,12 +30,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 1 - ((0 * winheight(0) + 20) / 40)
+let s:l = 2 - ((1 * winheight(0) + 20) / 41)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1
-normal! 0
+2
+normal! 057|
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

@@ -20,20 +20,20 @@
 $ovmf\/x64
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
-:wq
-|2,0,1579257496,,"wq"
-:w
-|2,0,1579257495,,"w"
 :q
-|2,0,1579143346,,"q"
+|2,0,1579590622,,"q"
+:w
+|2,0,1579590619,,"w"
+:wq
+|2,0,1579428182,,"wq"
+:q!
+|2,0,1579406081,,"q!"
+:wq!
+|2,0,1579406079,,"wq!"
+:w!
+|2,0,1579403194,,"w!"
 :set background=none
 |2,0,1578450027,,"set background=none"
-:q!
-|2,0,1577766999,,"q!"
-:wq!
-|2,0,1577766997,,"wq!"
-:w!
-|2,0,1577766987,,"w!"
 :echo &ft
 |2,0,1577766741,,"echo &ft"
 :LP
@@ -222,297 +222,438 @@ $ovmf\/x64
 # デバッグ行 項目の履歴 (新しいものから古いものへ):
 
 # レジスタ:
-"0	CHAR	0
+""0	LINE	0
+	Host local-gitlab
+	  HostName local-gitlab
+			User sasuseso
+			IdentityFile ~/.ssh/gitlab_rsa
+|3,1,0,1,4,0,1579590568,"Host local-gitlab","  HostName local-gitlab","		User sasuseso","		IdentityFile ~/.ssh/gitlab_rsa"
+"1	CHAR	0
 	
-	mutable struct RefValue{T} <: Ref{T}
-	    x::T
-	    RefValue{T}() where {T} = new()
-	    RefValue{T}(x) where {T} = new(x)
+	
+|3,0,1,0,2,0,1579406891,"",""
+"2	CHAR	0
+	# function billgatesbooks()
+	  # "
+	  # <h1>Bill Gates' list of recommended books</h1>
+	  # <ul>
+	    # $(["<li>$(book.title) by $(book.author)</li>" for book in BillGatesBooks]...)
+	  # </ul>
+	  # "
+	# end
+	
+	
+|3,0,2,0,10,0,1579406734,"# function billgatesbooks()","  # \"","  # <h1>Bill Gates' list of recommended books</h1>","  # <ul>","    # $([\"<li>$(book.title) by $(book.author)</li>\" for book in BillGatesBooks]...)","  # </ul>","  # \"","# end","",""
+"3	CHAR	0
+	function billgatesbooks()
+	  "
+	  <h1>Bill Gates' list of recommended books</h1>
+	  <ul>
+	    $(["<li>$(book.title) by $(book.author)</li>" for book in BillGatesBooks]...)
+	  </ul>
+	  "
 	end
 	
-|3,0,0,0,7,0,1572599873,"","mutable struct RefValue{T} <: Ref{T}","    x::T","    RefValue{T}() where {T} = new()","    RefValue{T}(x) where {T} = new(x)","end",""
-"1	LINE	0
 	
-|3,0,1,1,1,0,1579085017,""
-"2	CHAR	0
+|3,0,3,0,10,0,1579406600,"function billgatesbooks()","  \"","  <h1>Bill Gates' list of recommended books</h1>","  <ul>","    $([\"<li>$(book.title) by $(book.author)</li>\" for book in BillGatesBooks]...)","  </ul>","  \"","end","",""
+"4	CHAR	0
+	function billgatesbooks()
+	  "
+	  <h1>Bill Gates' list of recommended books</h1>
+	  <ul>
+	    $(["<li>$(book.title) by $(book.author)</li>" for book in BillGatesBooks]...)
+	  </ul>
+	  "
+	en
+|3,0,4,0,8,0,1579406591,"function billgatesbooks()","  \"","  <h1>Bill Gates' list of recommended books</h1>","  <ul>","    $([\"<li>$(book.title) by $(book.author)</li>\" for book in BillGatesBooks]...)","  </ul>","  \"","en"
+"5	CHAR	0
 	
-	env_path = dirname(Pkg.Types.Context().env.project_file)
-	debug = true
 	
-	server = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, "", Dict())
-	server.runlinter = true
-	run(server)
-|3,0,2,0,7,0,1579085012,"","env_path = dirname(Pkg.Types.Context().env.project_file)","debug = true","","server = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, \"\", Dict())","server.runlinter = true","run(server)"
-"3	CHAR	0
-	env_path = dirname(Pkg.Types.Context().env.project_file)
-	debug = true
+|3,0,5,0,2,0,1579406383,"",""
+"6	CHAR	0
 	
-	server = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, "", Dict())
-	server.runlinter = true
-	run(server)
-|3,0,3,0,6,0,1579084744,"env_path = dirname(Pkg.Types.Context().env.project_file)","debug = true","","server = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, \"\", Dict())","server.runlinter = true","run(server)"
-"4	LINE	0
-	highlight EndOfBuffer ctermbg=none 
-|3,0,4,1,1,0,1578450233,"highlight EndOfBuffer ctermbg=none "
-"5	LINE	0
-	highlight LineNr ctermbg=none
-	highlight Folded ctermbg=none
-|3,0,5,1,2,0,1578450233,"highlight LineNr ctermbg=none","highlight Folded ctermbg=none"
-"6	LINE	0
-	highlight Normal ctermbg=none
-	highlight NonText ctermbg=none
-|3,0,6,1,2,0,1578450232,"highlight Normal ctermbg=none","highlight NonText ctermbg=none"
+	
+|3,0,6,0,2,0,1579406381,"",""
 "7	LINE	0
-	
-	
-|3,0,7,1,2,0,1578450228,"",""
-"8	BLOCK	0
-		
-		
-		
-		
-		
-|3,0,8,2,5,0,1578450222,"	","	","	","	","	"
+	  
+|3,0,7,1,1,0,1579405493,"  "
+"8	CHAR	0
+	"
+	  <h1>Bill Gates' list of recommended books</h1>
+	  <ul>
+	    $(["<li>$(book.title) by $(book.author)</li>" for book in BillGatesBooks]...)
+	  </ul>
+	  "
+|3,0,8,0,6,0,1579405492,"\"","  <h1>Bill Gates' list of recommended books</h1>","  <ul>","    $([\"<li>$(book.title) by $(book.author)</li>\" for book in BillGatesBooks]...)","  </ul>","  \""
 "9	LINE	0
-	highlight EndOfBuffer ctermbg=none 
-|3,0,9,1,1,0,1578450187,"highlight EndOfBuffer ctermbg=none "
-""-	CHAR	0
-	::Array{Float64, 2}
-|3,1,36,0,1,0,1579257494,"::Array{Float64, 2}"
+	
+|3,0,9,1,1,0,1579404659,""
+"-	CHAR	0
+	"app.jl.html", 
+|3,0,36,0,1,0,1579406297,"\"app.jl.html\", "
 
 # ファイルマーク:
-'0  6  8  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
-|4,48,6,8,1579257496,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
-'1  2  79  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
-|4,49,2,79,1579257386,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
-'2  2  79  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
-|4,50,2,79,1579257386,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
-'3  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,51,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
-'4  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,52,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
-'5  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,53,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
-'6  1  1  ~/.vimrc
-|4,54,1,1,1578450453,"~/.vimrc"
-'7  88  0  ~/.vimrc
-|4,55,88,0,1578450236,"~/.vimrc"
-'8  88  0  ~/.vimrc
-|4,56,88,0,1578450236,"~/.vimrc"
-'9  97  0  ~/.vimrc
-|4,57,97,0,1578449929,"~/.vimrc"
+'0  19  9  ~/.ssh/config
+|4,48,19,9,1579590622,"~/.ssh/config"
+'1  1  0  ~/Scripts/fitness-project/arduino/m5stack_updown/Makefiel
+|4,49,1,0,1579490063,"~/Scripts/fitness-project/arduino/m5stack_updown/Makefiel"
+'2  12  18  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,50,12,18,1579428182,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+'3  12  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,51,12,0,1579428062,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+'4  75  0  /usr/share/julia/base/int.jl
+|4,52,75,0,1579426600,"/usr/share/julia/base/int.jl"
+'5  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,53,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+'6  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,54,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+'7  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,55,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+'8  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,56,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+'9  6  7  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,57,6,7,1579421165,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
 
 # ジャンプリスト (新しいものが先):
--'  6  8  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
-|4,39,6,8,1579257496,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  19  9  ~/.ssh/config
+|4,39,19,9,1579590622,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1579590551,"~/.ssh/config"
+-'  1  0  ~/Scripts/fitness-project/arduino/m5stack_updown/Makefiel
+|4,39,1,0,1579490063,"~/Scripts/fitness-project/arduino/m5stack_updown/Makefiel"
+-'  1  0  ~/Scripts/fitness-project/arduino/m5stack_updown/Makefiel
+|4,39,1,0,1579490063,"~/Scripts/fitness-project/arduino/m5stack_updown/Makefiel"
+-'  12  18  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,12,18,1579428182,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  12  18  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,12,18,1579428182,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  12  18  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,12,18,1579428182,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  12  18  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,12,18,1579428182,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
 -'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
-|4,39,1,0,1579257481,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
--'  2  79  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
-|4,39,2,79,1579257386,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
--'  2  79  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
-|4,39,2,79,1579257386,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+|4,39,1,0,1579428156,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
 -'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
-|4,39,1,0,1579257357,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  8  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,8,0,1579085024,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  2  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,2,0,1579084941,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  15  0  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,15,0,1579084934,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  19  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,19,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  14  15  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,14,15,1579084784,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
--'  7  1  ~/.config/nvim/plugin_config/lsp_compile.jl
-|4,39,7,1,1579084746,"~/.config/nvim/plugin_config/lsp_compile.jl"
+|4,39,1,0,1579428156,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579428156,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579428156,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  12  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,12,0,1579428062,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  12  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,12,0,1579428062,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  12  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,12,0,1579428062,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  12  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,12,0,1579428062,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579428055,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579428055,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579428055,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579428055,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  75  0  /usr/share/julia/base/int.jl
+|4,39,75,0,1579426600,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  1  0  /usr/share/julia/base/int.jl
+|4,39,1,0,1579426589,"/usr/share/julia/base/int.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,0,1579421180,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421173,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421173,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421173,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421173,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421173,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421173,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421173,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421173,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  7  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,7,1579421165,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  7  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,7,1579421165,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  7  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,7,1579421165,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  7  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,7,1579421165,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  7  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,7,1579421165,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  7  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,7,1579421165,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  7  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,7,1579421165,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  6  7  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,6,7,1579421165,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421143,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421143,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421143,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421143,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421143,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421143,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421143,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
+|4,39,1,0,1579421143,"~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl"
+-'  1  0  /build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl
+|4,39,1,0,1579414459,"/build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl"
+-'  1  0  /build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl
+|4,39,1,0,1579414459,"/build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl"
+-'  1  0  /build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl
+|4,39,1,0,1579414459,"/build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl"
+-'  1  0  /build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl
+|4,39,1,0,1579414459,"/build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl"
+-'  1  0  /build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl
+|4,39,1,0,1579414459,"/build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl"
+-'  1  0  /build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl
+|4,39,1,0,1579414459,"/build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl"
+-'  1  0  /build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl
+|4,39,1,0,1579414459,"/build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl"
+-'  1  0  /build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl
+|4,39,1,0,1579414459,"/build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
 
+> ~/.ssh/config
+	*	1579590619	0
+	"	19	9
+	^	19	10
+	.	19	9
+	+	16	0
+	+	17	26
+	+	18	32
+	+	19	9
+
+> ~/Scripts/fitness-project/arduino/m5stack_updown/Makefiel
+	*	1579490063	0
+	"	1	0
+
 > ~/Scripts/julialib/DeepLearningFromScrach/src/DeepLearningFromScrach.jl
-	*	1579257495	0
-	"	6	8
-	^	6	9
-	.	6	9
+	*	1579428180	0
+	"	12	18
+	^	12	19
+	.	12	18
 	+	2	79
 	+	6	9
+	+	12	18
+
+> /usr/share/julia/base/int.jl
+	*	1579426589	0
+	"	75	0
+
+> /build/julia/src/julia-1.3.1/usr/share/julia/stdlib/v1.3/Random/src/RNGs.jl
+	*	1579414458	0
+	"	1	0
+	.	1	0
+	+	13	0
+	+	7	0
+	+	1	0
+
+> ~/NERD_tree_1
+	*	1579414457	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/Scripts/Genie_test/MyPage/app/resources/books/BooksController.jl
+	*	1579406915	0
+	"	17	9
+	.	17	0
+	+	33	0
+	+	4	0
+	+	33	0
+	+	2	18
+	+	34	0
+	+	32	74
+	+	35	2
+	+	3	24
+	+	20	0
+	+	18	60
+	+	19	0
+	+	18	0
+	+	19	0
+	+	18	0
+	+	19	0
+	+	18	38
+	+	21	0
+	+	20	0
+	+	21	0
+	+	29	0
+	+	20	0
+	+	19	0
+	+	20	0
+	+	29	0
+	+	21	0
+	+	16	0
+	+	20	0
+	+	19	0
+	+	18	0
+	+	17	0
+
+> ~/Scripts/Genie_test/MyPage/NERD_tree_1
+	*	1579406171	0
+	"	8	0
+	.	1	0
+	+	1	0
+
+> ~/Scripts/Genie_test/MyPage/app/layouts/app.jl.html
+	*	1579406121	0
+	"	1	0
+
+> ~/Scripts/Genie_test/MyPage/app/resources/books/views/billgatesbooks.jl.md
+	*	1579405696	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.vimrc
+	*	1579404628	0
+	"	1	1
+	^	90	8
+	.	88	0
+	+	9	0
+	+	97	0
+	+	97	21
+	+	97	0
+	+	98	0
+	+	97	0
+	+	88	0
+	+	88	21
+	+	89	0
+	+	91	0
+	+	97	0
+	+	88	0
+
+> ~/Scripts/Genie_test/MyPage/app/resources/books/views/billgatesbooks.jl.html
+	*	1579404433	0
+	"	10	6
+	^	10	7
+	.	10	6
+	+	10	6
+
+> ~/Scripts/Genie_test/MyPage/routes.jl
+	*	1579403703	0
+	"	12	48
+	^	12	49
+	.	12	48
+	+	10	0
+	+	11	0
+	+	13	0
+	+	2	20
+	+	13	0
+	+	12	48
+
+> ~/Scripts/Genie_test/MyPage/MyPage/routes.jl
+	*	1579402891	0
+	"	9	0
+	.	10	0
+	+	7	0
+	+	9	0
+	+	10	0
 
 > ~/.config/nvim/plugin_config/lsp_compile.jl
 	*	1579085022	0
@@ -537,24 +678,6 @@ $ovmf\/x64
 	+	14	3
 	+	16	0
 	+	8	0
-
-> ~/.vimrc
-	*	1578450451	0
-	"	1	1
-	^	90	8
-	.	88	0
-	+	9	0
-	+	97	0
-	+	97	21
-	+	97	0
-	+	98	0
-	+	97	0
-	+	88	0
-	+	88	21
-	+	89	0
-	+	91	0
-	+	97	0
-	+	88	0
 
 > ~/ダウンロード/Conky/startconky.sh
 	*	1578306967	0
@@ -585,12 +708,6 @@ $ovmf\/x64
 > ~/Scripts/DotfilesManager/src/DotfilesManager.jl
 	*	1577843763	0
 	"	1	0
-
-> ~/NERD_tree_1
-	*	1577843739	0
-	"	6	0
-	.	1	0
-	+	1	0
 
 > ./app/resources/books/views/show_books
 	*	1577768471	0
@@ -1116,218 +1233,3 @@ $ovmf\/x64
 > ~/Scripts/julia_src/julia_7/test/embedding/Makefile
 	*	1572529427	0
 	"	1	0
-
-> ~/Scripts/julia_src/julia_7/src/precompile.c
-	*	1572529427	0
-	"	305	0
-
-> /etc/gdm/custom.conf
-	*	1572529083	0
-	"	5	0
-	.	5	0
-	+	5	0
-
-> /tmp/bash-fc.JF5iSa
-	*	1572529040	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
-
-> ~/Scripts/ccall_doc/.gitignore
-	*	1572527122	0
-	"	2	9
-	^	2	10
-	.	2	9
-	+	1	3
-	+	2	9
-
-> ~/Documents/ccall_art.md
-	*	1572526486	0
-	"	144	0
-	.	145	0
-	+	106	15
-	+	96	12
-	+	106	0
-	+	99	0
-	+	102	56
-	+	103	62
-	+	104	0
-	+	106	0
-	+	104	57
-	+	105	15
-	+	106	0
-	+	106	67
-	+	106	112
-	+	106	92
-	+	106	67
-	+	106	119
-	+	107	0
-	+	25	0
-	+	22	15
-	+	23	11
-	+	99	0
-	+	98	65
-	+	102	0
-	+	103	63
-	+	104	0
-	+	103	67
-	+	106	91
-	+	107	0
-	+	109	36
-	+	110	113
-	+	110	34
-	+	112	0
-	+	109	39
-	+	112	314
-	+	127	204
-	+	112	542
-	+	127	260
-	+	147	69
-	+	148	1
-	+	149	80
-	+	150	0
-	+	127	7
-	+	112	314
-	+	127	0
-	+	112	214
-	+	128	0
-	+	127	0
-	+	112	482
-	+	112	376
-	+	112	607
-	+	113	3
-	+	115	0
-	+	117	0
-	+	126	2
-	+	148	118
-	+	147	70
-	+	149	81
-	+	113	0
-	+	111	0
-	+	114	21
-	+	117	0
-	+	123	71
-	+	128	3
-	+	129	0
-	+	138	2
-	+	127	0
-	+	126	4
-	+	127	0
-	+	125	2
-	+	127	0
-	+	126	2
-	+	112	675
-	+	145	0
-	+	132	65
-	+	127	128
-	+	127	332
-	+	11	0
-	+	127	413
-	+	141	9
-	+	140	0
-	+	141	5
-	+	142	11
-	+	143	23
-	+	144	7
-	+	140	0
-	+	142	49
-	+	141	9
-	+	143	48
-	+	144	35
-	+	145	0
-	+	112	732
-	+	123	74
-	+	139	30
-	+	145	0
-
-> ~/Scripts/test.c
-	*	1572516251	0
-	"	10	3
-	^	10	4
-	.	10	3
-	+	4	0
-	+	4	9
-	+	4	0
-	+	1	0
-	+	4	0
-	+	10	12
-	+	5	19
-	+	12	0
-	+	13	13
-	+	13	0
-	+	11	12
-	+	10	16
-	+	13	5
-	+	5	16
-	+	13	0
-	+	13	14
-	+	11	13
-	+	13	0
-	+	13	14
-	+	10	12
-	+	13	15
-	+	6	14
-	+	5	12
-	+	6	24
-	+	13	16
-	+	6	19
-	+	13	19
-	+	13	20
-	+	13	0
-	+	13	22
-	+	7	0
-	+	13	4
-	+	7	24
-	+	13	19
-	+	13	0
-	+	3	17
-	+	13	0
-	+	13	53
-	+	13	0
-	+	8	16
-	+	13	15
-	+	13	0
-	+	16	0
-	+	13	61
-	+	13	8
-	+	17	0
-	+	7	5
-	+	13	5
-	+	13	28
-	+	17	0
-	+	13	0
-	+	5	3
-	+	10	3
-
-> ~/Scripts/efi_test/uefi-simple/main.zen
-	*	1572510928	0
-	"	1	0
-
-> ~/Scripts/zen_uefi/src/main.h
-	*	1572510695	0
-	"	24	0
-
-> ~/test.c
-	*	1572509712	0
-	"	7	0
-	^	7	26
-	.	6	17
-	+	1	0
-	+	1	9
-	+	1	0
-	+	3	0
-	+	7	25
-	+	6	17
-
-> ~/[quickrun output]
-	*	1572509707	0
-	"	1	0
-	.	6	0
-	+	1	0
-	+	5	0
-	+	6	0
-
-> ~/Scripts/julia_src/julia_6/test/llvmcall.jl
-	*	1572432244	0
-	"	251	0
