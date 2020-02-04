@@ -95,3 +95,9 @@ repo = 'tpope/vim-obsession'
 
 [[plugins]]
 repo = 'junegunn/fzf.vim'
+
+[[plugins]]
+repo = 'yuratomo/w3m.vim'
+
+[[plugins]]
+repo = 'twitvim/twitvim.git'
