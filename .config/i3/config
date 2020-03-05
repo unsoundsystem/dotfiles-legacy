@@ -91,9 +91,9 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
+set $ws1 "1:Comm"
+set $ws2 "2:Dev"
+set $ws3 "3:Web"
 set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
@@ -195,7 +195,7 @@ bindsym $mod+n exec st -f "HackGen Console for Powerline:size=15" -e ncmpcpp
 bindsym $mod+i exec st -f "HackGen Console for Powerline:size=15" -e ranger
 bindsym $mod+Shift+n exec st -f "HackGen Console for Powerline:size=15" -e nmtui
 bindsym $mod+o exec st -f "HackGen Console for Powerline:size=15" -e vim
-bindsym $mod+t exec st -f "HackGen Console for Powerline:size=15" -e tmux
+bindsym $mod+t exec st -f "HackGen Console for Powerline:size=15" -e htop
 bindsym $mod+d exec rofi -font "HackGen 15" -show
 
 #touch pad on/off
@@ -210,7 +210,7 @@ bindsym XF86AudioPrev exec mpc prev
 bindsym XF86AudioNext exec mpc next
 
 # Start fcitx
-exec --no-startup-id fcitx
+exec --no-startup-id fcitx-autostart
 
 #wallpaper
 exec --no-startup-id conky
@@ -222,9 +222,20 @@ exec --no-startup-id libinput-gestures-setup start
 # powerline
 exec --no-startup-id powerline-daemon -q &
 
-# pulse audio
-exec --no-startup-id pulseaudio --start
-
 # synapitics
 exec --no-startup-id syndaemon -i 0.5 -t -k &
 
+# multiple display
+exec --no-startup-id sh /home/sasuseso/.screenlayout/ex_at_left.sh
+
+exec --no-startup-id xmodmap ~/.Xmodmap
+
+#exec google-chrome-stable
+#exec discord
+#exec teams
+#exec slack
+
+#assign [class="Google-chrome-stable"] $ws3
+#assign [class="Discord"] $ws1
+#assign [class="Teams"] $ws1
+#assign [class="Slack"] $ws1

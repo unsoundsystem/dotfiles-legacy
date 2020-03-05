@@ -12,7 +12,7 @@ if has('nvim')
 	set undodir=$XDG_CONFIG_HOME/nvim/undo
 	set viminfo+='1000,\"1000,s1000,:1000,n~/.config/nvim/viminfo
 	source ~/.config/nvim/mycommands/MakeQuery.vim
-	set pumblend=30
+	set pumblend=50
 	
 	if dein#load_state('/home/sasuseso/.cache/dein')
 		call dein#begin('/home/sasuseso/.cache/dein')
@@ -68,6 +68,7 @@ set hidden
 set nobackup
 set tags=./tags;,tags;
 packadd termdebug
+"highlight Pmenu ctermbg=darkgray
 
 set belloff=all
 set fileencodings=utf-8,sjis,iso-2022-jp,euc-jp
@@ -82,6 +83,11 @@ nn <C-o><C-o> :e ~/.vimrc<CR><Esc>
 nn <C-b><C-b> :bn<CR><Esc>
 nn <C-b><C-p> :bp<CR><Esc>
 let mapleader = " "
+" Save fold settings.
+"autocmd BufWritePost * if expand('%') != '' && &buftype !~ 'nofile' | mkview | endif
+"autocmd BufRead * if expand('%') != '' && &buftype !~ 'nofile' | silent loadview | endif
+" Don't save options.
+"set viewoptions-=options
 
 "see through
 if $XDG_SESSION_TYPE == "wayland"
