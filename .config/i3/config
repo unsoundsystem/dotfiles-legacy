@@ -188,13 +188,13 @@ bindsym XF86AudioLowerVolume exec pamixer -d 5
 bindsym XF86AudioMute exec pamixer -t
 
 #screen lock
-bindsym $mod+F9 exec i3lock -i /home/sasuseso/Pictures/UBeWVaL.png
+bindsym $mod+F9 exec i3lock -t -i /home/sasuseso/Pictures/UBeWVaL.png
 
 #apps
 bindsym $mod+n exec st -f "HackGen Console for Powerline:size=15" -e ncmpcpp
 bindsym $mod+i exec st -f "HackGen Console for Powerline:size=15" -e ranger
 bindsym $mod+Shift+n exec st -f "HackGen Console for Powerline:size=15" -e nmtui
-bindsym $mod+o exec st -f "HackGen Console for Powerline:size=15" -e vim
+bindsym $mod+o exec st -f "HackGen Console for Powerline:size=15" -e nvim
 bindsym $mod+t exec st -f "HackGen Console for Powerline:size=15" -e htop
 bindsym $mod+d exec rofi -font "HackGen 15" -show
 
@@ -214,7 +214,7 @@ exec --no-startup-id fcitx-autostart
 
 #wallpaper
 exec --no-startup-id conky
-exec --no-startup-id feh --bg-scale --randomize  /home/sasuseso/Pictures/wallpapers/72253946_p0_master1200.jpg
+exec --no-startup-id feh --bg-scale --randomize  /home/sasuseso/Pictures/EUMUWnSUUAE52el.jpeg
 
 # touchpad gestures
 exec --no-startup-id libinput-gestures-setup start
@@ -229,6 +229,8 @@ exec --no-startup-id syndaemon -i 0.5 -t -k &
 exec --no-startup-id sh /home/sasuseso/.screenlayout/ex_at_left.sh
 
 exec --no-startup-id xmodmap ~/.Xmodmap
+
+exec --no-startup-id nm-applet
 
 #exec google-chrome-stable
 #exec discord

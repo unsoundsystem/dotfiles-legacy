@@ -1,4 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/sinai/Scripts/linker_and_loader/elf_julia'
-let g:netrw_dirhist_2='/home/sinai/Scripts/linker_and_loader/elf_julia/ELF/src'
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='scp://192.168.33.20//etc/nginx/conf.d/'
+let g:netrw_dirhist_7='scp://192.168.33.20//etc/nginx/'
+let g:netrw_dirhist_6='scp://192.168.33.20//'
+let g:netrw_dirhist_5='scp://192.168.33.20//etc/yum/'
+let g:netrw_dirhist_4='scp://192.168.33.20//etc/'
+let g:netrw_dirhist_3='scp://192.168.33.20//'
+let g:netrw_dirhist_2='scp://192.168.33.20//etc/yum.repos.d/'
+let g:netrw_dirhist_1='scp://192.168.33.20//etc/'
+let g:netrw_dirhist_0='scp://192.168.33.20//'
+let g:netrw_dirhist_9='scp://192.168.33.20//etc/selinux/'

@@ -33,6 +33,8 @@ export TERM='xterm-256color'
 export TERMINAL=st
 export PATH=/home/sasuseso/.local/bin:/home/sasuseso/zen:$ANDROID_HOME/tools:$ANDROID_HOME/system-images:$ANDROID_HOME/platform-tools:$PATH:$ANDROID_SDK_ROOT
 export COLORTERM='truecolor'
+export GOPATH=/home/sasuseso/go
+export LANG=en_US.UTF-8
 #PS1='\[\e[0;37m\]|>\[\e[0m\] '
 PS1='>\[\e[m\] '
 
@@ -42,9 +44,9 @@ PERL_LOCAL_LIB_ROOT="/home/sasuseso/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LI
 PERL_MB_OPT="--install_base \"/home/sasuseso/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/sasuseso/perl5"; export PERL_MM_OPT;
 
-#POWERLINE_BASH_CONTINUATION=1
-#POWERLINE_BASH_SELECT=1
-#. /usr/lib/python3.8/site-packages/powerline/bindings/bash/powerline.sh
+POWERLINE_BASH_CONTINUATION=1
+POWERLINE_BASH_SELECT=1
+. /usr/lib/python3.8/site-packages/powerline/bindings/bash/powerline.sh
 
 #fzf
 source /usr/share/fzf/key-bindings.bash

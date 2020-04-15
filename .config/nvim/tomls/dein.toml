@@ -20,12 +20,11 @@ rev = 'release'
 
 [[plugins]]
 repo = 'Shougo/dein.vim'
-
-[[plugins]]
-repo = 'Shougo/unite.vim'
+hook_post_update = ':UpdateRemotePlugins'
 
 [[plugins]]
 repo = 'Shougo/defx.nvim'
+hook_post_update = ':UpdateRemotePlugins'
 
 [[plugins]]
 repo = 'Shougo/neoinclude.vim'
@@ -43,6 +42,20 @@ repo = 'tomasr/molokai'
 
 [[plugins]]
 repo = 'Shougo/denite.nvim'
+hook_source = '''
+let s:denite_win_width_percent = 0.85
+let s:denite_win_height_percent = 0.7
+
+" Change denite default options
+call denite#custom#option('default', {
+    \ 'split': 'floating',
+    \ 'winwidth': float2nr(&columns * s:denite_win_width_percent),
+    \ 'wincol': float2nr((&columns - (&columns * s:denite_win_width_percent)) / 2),
+    \ 'winheight': float2nr(&lines * s:denite_win_height_percent),
+    \ 'winrow': float2nr((&lines - (&lines * s:denite_win_height_percent)) / 2),
+    \ })
+'''
+hook_post_update = ':UpdateRemotePlugins'
 
 [[plugins]]
 repo = 'majutsushi/tagbar'
@@ -54,6 +67,7 @@ hook_add = '''
 let g:deoplete#enable_at_startup = 1
 let g:python3_host_prog='/usr/bin/python'
 '''
+
 [[plugins]]
 repo = 'scrooloose/nerdcommenter'
 
@@ -61,7 +75,7 @@ repo = 'scrooloose/nerdcommenter'
 repo = 'vim-airline/vim-airline-themes'
 depends = 'vim-airline'
 hook_add = """
-let g:airline_theme='luna'
+let g:airline_theme='iceberg'
 let g:airline_powerline_fonts = 1
 set laststatus=2
 """
@@ -70,7 +84,6 @@ set laststatus=2
 repo = 'vim-airline/vim-airline'
 hook_add = '''
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
 '''
 
 [[plugins]]
@@ -92,9 +105,6 @@ repo = 'thinca/vim-quickrun'
 repo = 'w0rp/ale'
 
 [[plugins]]
-repo = 'philj56/vim-asm-indent'
-
-[[plugins]]
 repo = 'tpope/vim-obsession'
 
 [[plugins]]
@@ -111,9 +121,6 @@ repo = 'fuenor/JpFormat.vim'
 hook_source = 'set formatexpr=jpfmt#formatexpr()'
 
 [[plugins]]
-repo = 'dbgx/lldb.nvim'
-
-[[plugins]]
 repo = 'voldikss/vim-floaterm'
 hook_source = '''
 let g:floaterm_keymap_toggle = '<F10>'
@@ -123,14 +130,33 @@ nmap <silent><F9> :FloatermNew ranger<CR>
 nmap <silent><F6> :FloatermNew lazygit<CR>    
 nmap <silent><F7> :FloatermNew fzf<CR>
 '''
+
 [[plugins]]
 repo = 'liuchengxu/vim-clap'
 
-[[plugins]]
-repo = 'Shougo/neosnippet.vim'
-hook_source = '''
-let g:neosnippet#snippets_directory='~/.config/nvim/snippets/'
-'''
+#[[plugins]]
+#repo = 'Shougo/neosnippet.vim'
+#hook_source = '''
+#let g:neosnippet#snippets_directory='/home/sasuseso/.config/nvim/snippets/'
+#'''
+
+#[[plugins]]
+#repo = 'Shougo/neosnippet-snippets'
 
 [[plugins]]
-repo = 'Shougo/neosnippet-snippets'
+repo = 'cocopon/iceberg.vim'
+
+[[plugins]]
+repo = 'lambdalisue/gina.vim'
+
+[[plugins]]
+repo = 'mattn/vim-sonictemplate'
+
+[[plugins]]
+repo = 'skanehira/preview-markdown.vim'
+
+[[plugins]]
+repo = 'chr4/nginx.vim'
+
+[[plugins]]
+repo = "https://github.com/dag/vim-fish.git"
