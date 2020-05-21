@@ -15,6 +15,13 @@ repo = 'mechatroner/rainbow_csv'
 on_ft = 'csv'
 
 [[plugins]]
+repo = 'rust-lang/rust.vim'
+on_ft = 'rust'
+hook_source = '''
+let g:rustfmt_autosave = 1
+'''
+
+[[plugins]]
 repo = 'godlygeek/tabular'
 
 [[plugins]]

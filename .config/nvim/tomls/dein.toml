@@ -160,3 +160,10 @@ repo = 'chr4/nginx.vim'
 
 [[plugins]]
 repo = "https://github.com/dag/vim-fish.git"
+
+[[plugins]]
+repo = "Yggdroot/indentLine"
+hook_source = "let g:indentLine_char = '▏'"
+
+[[plugins]]
+repo = "rhysd/vim-clang-format"

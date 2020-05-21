@@ -18,5 +18,6 @@
 					}
 		},
 
-		"suggest.autoTrigger": "none"
+		"suggest.autoTrigger": "none",
+  "rust-analyzer.serverPath": "/usr/bin/rust-analyzer"
 }

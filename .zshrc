@@ -91,7 +91,6 @@ plugins=(
     zsh_reload
 )
 
-setxkbmap -layout us
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -100,6 +99,7 @@ source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -120,11 +120,11 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-function zle-line-init zle-keymap-select {
-    RPS1="${${KEYMAP/vicmd/-- NORMAL --}/(main|viins)/-- INSERT --}"
-    RPS2=$RPS1
-    zle reset-prompt
-}
+#function zle-line-init zle-keymap-select {
+    #RPS1="${${KEYMAP/vicmd/-- NORMAL --}/(main|viins)/-- INSERT --}"
+    #RPS2=$RPS1
+    #zle reset-prompt
+#}
 
 zle -N zle-line-init
 zle -N zle-keymap-select
@@ -166,3 +166,4 @@ source /usr/share/fzf/key-bindings.zsh
 
 autoload -U promptinit; promptinit
 prompt pure
+setxkbmap -layout us
