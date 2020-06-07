@@ -25,7 +25,7 @@ font pango:HackGen Console for Powerline 15
 # clear in small sizes. However, its unicode glyph coverage is limited, the old
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
-bindsym $mod+Return exec st -f "HackGen Console for Powerline:size=15" -e fish
+bindsym $mod+Return exec st -f "Fira Code:style=Retina:size=12" -e fish
 
 # kill focused window
 bindsym $mod+Shift+q kill

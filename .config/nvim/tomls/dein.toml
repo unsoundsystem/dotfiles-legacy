@@ -125,10 +125,9 @@ repo = 'voldikss/vim-floaterm'
 hook_source = '''
 let g:floaterm_keymap_toggle = '<F10>'
 let g:floaterm_keymap_new = '<F3>'
-let g:floaterm_position						= 'center'
-nmap <silent><F9> :FloatermNew ranger<CR>  
-nmap <silent><F6> :FloatermNew lazygit<CR>    
-nmap <silent><F7> :FloatermNew fzf<CR>
+let g:floaterm_position = 'center'
+nmap <silent><F9> :FloatermNew ranger<CR>
+nmap <silent><F6> :FloatermNew lazygit<CR>
 '''
 
 [[plugins]]

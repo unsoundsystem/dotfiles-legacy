@@ -3,3 +3,5 @@
 	name = sasuseso
 [core]
 	quotepath = false
+[color]
+	ui = auto
