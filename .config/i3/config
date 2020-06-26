@@ -25,7 +25,9 @@ font pango:HackGen Console for Powerline 15
 # clear in small sizes. However, its unicode glyph coverage is limited, the old
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
-bindsym $mod+Return exec st -f "Fira Code:style=Retina:size=12" -e fish
+bindsym $mod+Return exec st -f "Iosevka:style=Medium:size=12" -e fish
+#bindsym $mod+Return exec st -f "Fira Code:style=Retina:size=12" -e fish
+#bindsym $mod+Return exec st -f "Monoid:style=Regular:size=12" -e fish
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -196,7 +198,7 @@ bindsym $mod+i exec st -f "HackGen Console for Powerline:size=15" -e ranger
 bindsym $mod+Shift+n exec st -f "HackGen Console for Powerline:size=15" -e nmtui
 bindsym $mod+o exec st -f "HackGen Console for Powerline:size=15" -e nvim
 bindsym $mod+t exec st -f "HackGen Console for Powerline:size=15" -e htop
-bindsym $mod+d exec rofi -font "HackGen 15" -show
+bindsym $mod+d exec rofi -font "Monoid 15" -show
 
 #touch pad on/off
 bindsym $mod+F6 exec sh /home/sasuseso/.config/i3/scripts/touchpad_toggle
@@ -214,7 +216,7 @@ exec --no-startup-id fcitx-autostart
 
 #wallpaper
 exec --no-startup-id conky
-exec --no-startup-id feh --bg-scale --randomize  /home/sasuseso/Pictures/EUMUWnSUUAE52el.jpeg
+exec --no-startup-id feh --bg-scale --randomize  /home/sasuseso/Pictures/wallpapers/2135275158-kabekin2636-Anz-1920x1080-MM-100.jpg
 
 # touchpad gestures
 exec --no-startup-id libinput-gestures-setup start

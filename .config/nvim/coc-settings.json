@@ -12,12 +12,22 @@
       "using LanguageServer;\n       using Pkg;\n       import StaticLint;\n       import SymbolServer;\n       env_path = dirname(Pkg.Types.Context().env.project_file);\n       debug = true;\n       server = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, \"\", Dict());\n       server.runlinter = true;\n       run(server);" ],
       "filetypes": ["julia"]
      },
-					"jdtls": {
-													"command": "jdtls",
-													"filetypes": ["java"]
-					}
-		},
+     "jdtls": {
+         "command": "jdtls",
+         "filetypes": ["java"]
+     },
+    "ccls": {
+      "command": "ccls",
+      "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
+      "rootPatterns": [".ccls", "compile_commands.json", ".git/", ".hg/"],
+      "initializationOptions": {
+         "cache": {
+           "directory": "/tmp/ccls"
+         }
+       }
+    }
+  },
 
-		"suggest.autoTrigger": "none",
+  "suggest.autoTrigger": "none",
   "rust-analyzer.serverPath": "/usr/bin/rust-analyzer"
 }
