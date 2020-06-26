@@ -34,8 +34,6 @@ else
     if dein#load_state('/home/sasuseso/.cache/dein')
         call dein#begin('/home/sasuseso/.cache/dein')
         call dein#load_toml('/home/sasuseso/.vim/vim.toml', {'lazy': 0})
-        call dein#load_toml('/home/sasuseso/.config/nvim/tomls/dein.toml', {'lazy': 0})
-        call dein#load_toml('/home/sasuseso/.config/nvim/tomls/dein_lazy.toml', {'lazy': 1})
         call dein#end()
         call dein#save_state()
     endif
@@ -59,7 +57,6 @@ endif
 
 syntax enable
 set background=dark
-colorscheme iceberg
 set nopaste
 set number
 set clipboard=unnamedplus
@@ -80,6 +77,7 @@ set shiftwidth=4
 set expandtab
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
+colorscheme iceberg
 nn tn :tabnew 
 nn <C-i><C-i> :source ~/.vimrc<CR><Esc> 
 nn <C-o><C-o> :e ~/.vimrc<CR><Esc> 

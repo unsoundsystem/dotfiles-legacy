@@ -11,7 +11,7 @@
 #hook_source = 'source /home/sasuseso/.config/nvim/plugin_config/vim-lsp.vim'
 [[plugins]]
 repo = 'JuliaEditorSupport/julia-vim'
-hook_source = 'let g:default_julia_version = "1.3"'
+hook_add = 'let g:default_julia_version = "1.3"'
 
 [[plugins]]
 repo = 'neoclide/coc.nvim'
@@ -42,7 +42,7 @@ repo = 'tomasr/molokai'
 
 [[plugins]]
 repo = 'Shougo/denite.nvim'
-hook_source = '''
+hook_add = '''
 let s:denite_win_width_percent = 0.85
 let s:denite_win_height_percent = 0.7
 
@@ -91,7 +91,7 @@ repo = 'gorodinskiy/vim-coloresque'
 
 [[plugins]]
 repo = 'kdheepak/JuliaFormatter.vim'
-hook_source = '''
+hook_add = '''
 " normal mode mapping
 nnoremap <leader>jf :<C-u>call JuliaFormatter#Format(0)<CR>
 " visual mode mapping
@@ -101,8 +101,8 @@ vnoremap <leader>jf :<C-u>call JuliaFormatter#Format(1)<CR>
 [[plugins]]
 repo = 'thinca/vim-quickrun'
 
-[[plugins]]
-repo = 'w0rp/ale'
+#[[plugins]]
+#repo = 'w0rp/ale'
 
 [[plugins]]
 repo = 'tpope/vim-obsession'
@@ -118,11 +118,11 @@ repo = 'twitvim/twitvim'
 
 [[plugins]]
 repo = 'fuenor/JpFormat.vim'
-hook_source = 'set formatexpr=jpfmt#formatexpr()'
+hook_add = 'set formatexpr=jpfmt#formatexpr()'
 
 [[plugins]]
 repo = 'voldikss/vim-floaterm'
-hook_source = '''
+hook_add = '''
 let g:floaterm_keymap_toggle = '<F10>'
 let g:floaterm_keymap_new = '<F3>'
 let g:floaterm_position = 'center'
@@ -162,7 +162,7 @@ repo = "https://github.com/dag/vim-fish.git"
 
 [[plugins]]
 repo = "Yggdroot/indentLine"
-hook_source = "let g:indentLine_char = '▏'"
+hook_add = "let g:indentLine_char = '▏'"
 
 [[plugins]]
 repo = "rhysd/vim-clang-format"

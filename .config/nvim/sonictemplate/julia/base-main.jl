@@ -1,7 +1,7 @@
 #!/bin/julia
 
 function main()
-    {{__cursor__}}
+    {{_cursor_}}
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__
