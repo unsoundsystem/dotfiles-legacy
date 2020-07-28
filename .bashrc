@@ -20,6 +20,7 @@ alias r='ranger'
 alias z='zen'
 alias info='info --vi-keys'
 alias ta='tmux a'
+alias emacs='nvim'
 alias wine32='WINEARCH=win32 WINEPREFIX=/home/sasuseso/.wine32 wine'
 alias wine64='WINEARCH=win64 WINEPREFIX=/home/sasuseso/.wine64 wine'
 export ANDROID_HOME=/opt/android-sdk
@@ -36,7 +37,7 @@ export COLORTERM='truecolor'
 export GOPATH=/home/sasuseso/go
 export LANG=en_US.UTF-8
 #PS1='\[\e[0;37m\]|>\[\e[0m\] '
-PS1='>\[\e[m\] '
+#PS1='>\[\e[m\] '
 
 PATH="/home/sasuseso/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/sasuseso/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
@@ -52,8 +53,8 @@ POWERLINE_BASH_SELECT=1
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
 
-export QSYS_ROOTDIR="/opt/quartus/sopc_builder/bin"
+export QSYS_ROOTDIR="/home/sasuseso/.cache/yay/quartus-free/pkg/quartus-free-quartus/opt/intelFPGA/20.1/quartus/sopc_builder/bin"
 
 # Julia Variable
-export JULIA_EDITOR=vim
+export JULIA_EDITOR=nvim
 export JULIA_NUM_THREADS=4

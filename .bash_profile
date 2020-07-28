@@ -13,3 +13,5 @@ export XMODIFIERS="@im=fcitx"
 
 # opam configuration
 test -r /home/sasuseso/.opam/opam-init/init.sh && . /home/sasuseso/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
+
+export QSYS_ROOTDIR="/home/sasuseso/.cache/yay/quartus-free/pkg/quartus-free-quartus/opt/intelFPGA/20.1/quartus/sopc_builder/bin"

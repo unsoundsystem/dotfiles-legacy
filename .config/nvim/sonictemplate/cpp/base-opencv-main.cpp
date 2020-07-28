@@ -1,11 +1,9 @@
-#include <opencv4/opencv2/opencv.hpp>
+#include <opencv4/opencv2/core.hpp>
+#include <opencv4/opencv2/highgui.hpp>
 #include <iostream>
 #include <string>
-using namespace std;
-using namespace cv;
 
-int
-main(int argc, char* argv[]) {
+int main(int argc, char* argv[]) {
     {{_cursor_}}
     return 0;
 }

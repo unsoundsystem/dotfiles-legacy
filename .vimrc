@@ -48,6 +48,9 @@ augroup vimrc
     au BufNewFile,BufRead *.lds setfiletype ld
     au BufNewFile,BufRead *.nasm setfiletype nasm
     au BufNewFile,BufRead *.ino setfiletype arduino
+    au BufNewFile,BufRead *.v setfiletype verilog
+    au BufNewFile,BufRead *.yara setfiletype yara
+    au BufNewFile,BufRead *.c,*.cpp,*.cxx,*.h,*.hpp set noexpandtab ts=4 shiftwidth=4
 augroup END
 
 "install if not installed
@@ -58,7 +61,7 @@ endif
 syntax enable
 set background=dark
 set nopaste
-set number
+set nu rnu
 set clipboard=unnamedplus
 set hidden
 set nobackup
@@ -68,7 +71,8 @@ packadd termdebug
 
 set belloff=all
 set fileencodings=utf-8,sjis,iso-2022-jp,euc-jp
-nn <F4> a<C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR><Esc>
+nn <F4> a<C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
+"<Esc>
 imap <Nul> <Nop>
 "set termguicolors
 set mouse=n
@@ -78,6 +82,7 @@ set expandtab
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 colorscheme iceberg
+set undofile
 nn tn :tabnew 
 nn <C-i><C-i> :source ~/.vimrc<CR><Esc> 
 nn <C-o><C-o> :e ~/.vimrc<CR><Esc> 
@@ -98,17 +103,6 @@ if $XDG_SESSION_TYPE == "wayland"
     highlight SpecialKey ctermbg=NONE guibg=NONE
     highlight EndOfBuffer ctermbg=NONE guibg=NONE
 endif
-
-" Define mappings
-au FileType denite call s:denite_my_settings()
-function! s:denite_my_settings() abort
-  nnoremap <silent><buffer><expr> <CR> denite#do_map('do_action')
-  nnoremap <silent><buffer><expr> d denite#do_map('do_action', 'delete')
-  nnoremap <silent><buffer><expr> p denite#do_map('do_action', 'preview')
-  nnoremap <silent><buffer><expr> q denite#do_map('quit')
-  nnoremap <silent><buffer><expr> i denite#do_map('open_filter_buffer')
-  nnoremap <silent><buffer><expr> <Space> denite#do_map('toggle_select').'j'
-endfunction
 
 "call map(dein#check_clean(), "delete(v:val, 'rf')")
 
@@ -163,3 +157,4 @@ for tool in s:opam_packages
   endif
 endfor
 " ## end of OPAM user-setup addition for vim / base ## keep this line
+set splitbelow

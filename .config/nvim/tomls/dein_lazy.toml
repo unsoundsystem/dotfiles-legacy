@@ -45,3 +45,19 @@ on_ft = 'zen'
 [[plugins]]
 repo = 'sudar/vim-arduino-syntax'
 on_ft = 'arduino'
+
+[[plugins]]
+repo = "s3rvac/vim-syntax-yara"
+on_ft = 'yara'
+
+#[[plugins]]
+#repo = 'https://github.com/vhda/verilog_systemverilog.vim.git'
+#on_ft = 'verilog'
+
+[[plugins]]
+repo = "neovimhaskell/haskell-vim"
+on_ft = 'haskell'
+
+[[plugins]]
+repo = "nbouscal/vim-stylish-haskell"
+on_ft = 'haskell'

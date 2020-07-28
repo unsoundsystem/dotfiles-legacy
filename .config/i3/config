@@ -193,12 +193,12 @@ bindsym XF86AudioMute exec pamixer -t
 bindsym $mod+F9 exec i3lock -t -i /home/sasuseso/Pictures/UBeWVaL.png
 
 #apps
-bindsym $mod+n exec st -f "HackGen Console for Powerline:size=15" -e ncmpcpp
+bindsym $mod+n exec st -f "Monoid:size=15" -e ncmpcpp
 bindsym $mod+i exec st -f "HackGen Console for Powerline:size=15" -e ranger
 bindsym $mod+Shift+n exec st -f "HackGen Console for Powerline:size=15" -e nmtui
-bindsym $mod+o exec st -f "HackGen Console for Powerline:size=15" -e nvim
-bindsym $mod+t exec st -f "HackGen Console for Powerline:size=15" -e htop
-bindsym $mod+d exec rofi -font "Monoid 15" -show
+bindsym $mod+o exec st -f "Iosevka:style=Medium:size=12" -e nvim
+bindsym $mod+t exec st -f "Monoid:size=12" -e htop
+bindsym $mod+d exec i3-dmenu-desktop --dmenu="rofi -font 'Monoid 15' -show"
 
 #touch pad on/off
 bindsym $mod+F6 exec sh /home/sasuseso/.config/i3/scripts/touchpad_toggle
@@ -233,6 +233,8 @@ exec --no-startup-id sh /home/sasuseso/.screenlayout/ex_at_left.sh
 exec --no-startup-id xmodmap ~/.Xmodmap
 
 exec --no-startup-id nm-applet
+
+exec --no-startup-id blueberry-tray
 
 #exec google-chrome-stable
 #exec discord
