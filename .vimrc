@@ -11,7 +11,7 @@ set runtimepath+=/home/sasuseso/.cache/dein/repos/github.com/Shougo/dein.vim
 if has('nvim')
     "set pumblend=30
     "set winblend=30
-    set undodir=$XDG_CONFIG_HOME/nvim/undo
+    set undodir=~/.config/nvim/undo
     set viminfo+='1000,\"1000,s1000,:1000,n~/.config/nvim/viminfo
     source ~/.config/nvim/mycommands/MakeQuery.vim
     

@@ -255,9 +255,15 @@ nnoremap <F5> :UndotreeToggle<cr>
 
 [[plugins]]
 repo = "simeji/winresizer"
+hook_add = """
+let g:winresizer_start_key = '<C-S>z'
+"""
 
 [[plugins]]
 repo = "alvan/vim-closetag"
 hook_add = """
 let g:closetag_filenames = "*.html,*.vue,*.xml"
 """
+
+[[plugins]]
+repo = 'junegunn/vim-easy-align'
