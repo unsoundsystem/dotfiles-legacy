@@ -15,19 +15,12 @@ repo = 'mechatroner/rainbow_csv'
 on_ft = 'csv'
 
 [[plugins]]
-repo = 'rust-lang/rust.vim'
-on_ft = 'rust'
-hook_source = '''
-let g:rustfmt_autosave = 1
-'''
-
-[[plugins]]
 repo = 'godlygeek/tabular'
 
 [[plugins]]
 repo = 'plasticboy/vim-markdown'
 hook_source = '''
-let g:vim_markdown_fenced_languages = ['c=c''c++=cpp', 'vim=vim', 'bash=sh', 'julia=jl']
+let g:vim_markdown_fenced_languages = ['c=c', 'c++=cpp', 'vim=vim', 'bash=sh', 'julia=jl']
 '''
 
 [[plugins]]
@@ -35,6 +28,7 @@ repo = 'suan/vim-instant-markdown'
 on_ft ='markdown'
 hook_source = '''
 let g:instant_markdown_browser = "firefox --new-window"
+let g:instant_markdown_autostart = 0
 set expandtab
 '''
 

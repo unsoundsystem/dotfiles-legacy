@@ -50,7 +50,8 @@ augroup vimrc
     au BufNewFile,BufRead *.ino setfiletype arduino
     au BufNewFile,BufRead *.v setfiletype verilog
     au BufNewFile,BufRead *.yara setfiletype yara
-    au BufNewFile,BufRead *.c,*.cpp,*.cxx,*.h,*.hpp set noexpandtab ts=4 shiftwidth=4
+    au BufNewFile,BufRead *.c,*.cpp,*.cxx,*.h,*.hpp setlocal noexpandtab ts=4 shiftwidth=4
+    au BufNewFile,BufRead *.ts setlocal ts=2 shiftwidth=2
 augroup END
 
 "install if not installed

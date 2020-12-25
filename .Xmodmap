@@ -251,4 +251,4 @@ clear control
 add control = Caps_Lock Control_L Control_R
 keycode 66 = Control_L Caps_Lock NoSymbol NoSymbol
 
-add mod1 = Muhenkan Alt_L Alt_R
+add Mod1 = Muhenkan Alt_L Alt_R

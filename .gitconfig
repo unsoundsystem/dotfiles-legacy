@@ -5,3 +5,9 @@
 	quotepath = false
 [color]
 	ui = auto
+
+[sendemail]
+    smtpserver = smtp.gmail.com
+    smtpserverport = 587
+    smtpencryption = tls
+    smtpuser = sasuseso

@@ -25,7 +25,8 @@ font pango:HackGen Console for Powerline 15
 # clear in small sizes. However, its unicode glyph coverage is limited, the old
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
-bindsym $mod+Return exec st -f "Iosevka:style=Medium:size=12" -e fish
+bindsym $mod+Return exec alacritty
+#bindsym $mod+Return exec st -f "Iosevka:style=Medium:size=12" -e fish
 #bindsym $mod+Return exec st -f "Fira Code:style=Retina:size=12" -e fish
 #bindsym $mod+Return exec st -f "Monoid:style=Regular:size=12" -e fish
 
@@ -216,7 +217,7 @@ exec --no-startup-id fcitx-autostart
 
 #wallpaper
 exec --no-startup-id conky
-exec --no-startup-id feh --bg-scale --randomize  /home/sasuseso/Pictures/wallpapers/2135275158-kabekin2636-Anz-1920x1080-MM-100.jpg
+exec --no-startup-id feh --bg-scale --randomize  /home/sasuseso/Pictures/ElupYdmU4AMJ7kK.jpeg
 
 # touchpad gestures
 exec --no-startup-id libinput-gestures-setup start
@@ -232,8 +233,8 @@ exec --no-startup-id sh /home/sasuseso/.screenlayout/ex_at_left.sh
 
 exec --no-startup-id xmodmap ~/.Xmodmap
 
+# System tray
 exec --no-startup-id nm-applet
-
 exec --no-startup-id blueberry-tray
 
 # Picom

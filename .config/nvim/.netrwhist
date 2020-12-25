@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/sasuseso/.config/nvim/tomls'
 let g:netrw_dirhist_8='scp://192.168.33.20//etc/nginx/conf.d/'
 let g:netrw_dirhist_7='scp://192.168.33.20//etc/nginx/'
 let g:netrw_dirhist_6='scp://192.168.33.20//'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_3='scp://192.168.33.20//'
 let g:netrw_dirhist_2='scp://192.168.33.20//etc/yum.repos.d/'
 let g:netrw_dirhist_1='scp://192.168.33.20//etc/'
 let g:netrw_dirhist_0='scp://192.168.33.20//'
-let g:netrw_dirhist_9='scp://192.168.33.20//etc/selinux/'

@@ -4,7 +4,7 @@
 ; $ polybar -m | cut -d ':' -f 1
 ; $ xrandr -q | grep " connected" | cut -d ' ' -f1
 ; If no monitor is given, the primary monitor is used if it exists
-monitor = ${env:MONITOR:eDP1}
+; monitor = eDP1
 
 ; Require the monitor to be in connected state
 ; XRandR sometimes reports my monitor as being disconnected (when in use)
@@ -84,8 +84,8 @@ line-color = #f00
 ; the percentage can optionally be extended with a pixel offset like so:
 ; 50%:-10, this will result in 50% minus 10 pixels. The percentage is relative
 ; to the monitor width or height depending on the border direction. 
-border-size =
-border-color =
+border-size = 0
+; border-color = #f8f8ff
 
 ; Number of spaces to add at the beginning/end of the bar
 ; Individual side values can be defined using:

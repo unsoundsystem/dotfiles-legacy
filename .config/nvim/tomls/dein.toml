@@ -38,9 +38,6 @@ repo = 'jpalardy/vim-slime'
 hook_add ='let g:slime_target = "tmux"'
 
 [[plugins]]
-repo = 'tomasr/molokai'
-
-[[plugins]]
 repo = 'Shougo/denite.nvim'
 
 hook_source = """
@@ -74,12 +71,12 @@ hook_post_update = ':UpdateRemotePlugins'
 repo = 'majutsushi/tagbar'
 hook_add = 'nmap <F8> :TagbarToggle<CR>'
 
-[[plugins]]
-repo = 'Shougo/deoplete.nvim'
-hook_add = '''
-let g:deoplete#enable_at_startup = 1
-let g:python3_host_prog='/usr/bin/python'
-'''
+#[[plugins]]
+#repo = 'Shougo/deoplete.nvim'
+#hook_add = '''
+#let g:deoplete#enable_at_startup = 1
+#let g:python3_host_prog='/usr/bin/python'
+#'''
 
 [[plugins]]
 repo = 'scrooloose/nerdcommenter'
@@ -163,8 +160,18 @@ repo = 'liuchengxu/vim-clap'
 #[[plugins]]
 #repo = 'Shougo/neosnippet-snippets'
 
+# Color Schemes
+[[plugins]]
+repo = 'tomasr/molokai'
+
 [[plugins]]
 repo = 'cocopon/iceberg.vim'
+
+[[plugins]]
+repo = 'romgrk/doom-one.vim'
+
+[[plugins]]
+repo = 'arcticicestudio/nord-vim'
 
 [[plugins]]
 repo = 'lambdalisue/gina.vim'
@@ -190,6 +197,7 @@ repo = "rhysd/vim-clang-format"
 hook_add = '''
 let g:clang_format#style_options = {
             \ "Language" : "Cpp",
+            \ "ColumnLimit" : "100",
             \ "Standard" : "c++17",
             \ "BasedOnStyle" : "LLVM",
             \ "UseTab" : "Always",
@@ -202,16 +210,13 @@ let g:clang_format#style_options = {
             \ "PointerAlignment" : "Right",
             \ "SpaceBeforeParens" : "ControlStatements",
             \ "AllowShortFunctionsOnASingleLine" : "None",
-            \ "AccessModifierOffset" : "-4"
+            \ "AccessModifierOffset" : "-4",
+            \ "NamespaceIndentation" : "All",
+            \ "AlwaysBreakAfterReturnType" : "None",
+            \ "PenaltyReturnTypeOnItsOwnLine" : "1000000"
             \ }
 '''
 
-#            \ "NamespaceIndentation" : "All",
-[[plugins]]
-repo = "skanehira/preview-markdown.vim"
-
-[[plugins]]
-repo = "s3rvac/vim-syntax-yara"
 
 [[plugins]]
 repo = "kana/vim-operator-user"
@@ -222,18 +227,20 @@ repo = 'dhruvasagar/vim-table-mode'
 [[plugins]]
 repo = "reireias/vim-cheatsheet"
 hook_add = """
-let g:cheatsheet#cheat_file = '/home/sasuseso/.config/nvim/cheatsheets/function_keymap.md'
+
+let g:cheatsheet#cheat_file = "/home/sasuseso/.config/nvim/cheetsheets/default.md"
+
 if has('nvim')
     let g:cheatsheet#float_window = 1
     let g:cheatsheet#float_window_width_ratio = 0.6
     let g:cheatsheet#float_window_height_ratio = 0.6
 endif
-
-augroup cheatsheet_filetype_hook
-  autocmd!
-  "autocmd FileType zsh let g:cheatsheet#cheat_file = '~/.cheatsheet-zsh.md'
-augroup END
 """
+#augroup cheatsheet_filetype_hook
+  #autocmd!
+  #"autocmd FileType zsh let g:cheatsheet#cheat_file = '~/.cheatsheet-zsh.md'
+#augroup END
+#"""
 
 [[plugins]]
 repo = "qnighy/satysfi.vim"
@@ -267,3 +274,26 @@ let g:closetag_filenames = "*.html,*.vue,*.xml"
 
 [[plugins]]
 repo = 'junegunn/vim-easy-align'
+
+[[plugins]]
+repo = 'mhinz/vim-startify'
+hook_add = '''
+let g:startify_custom_header = [
+    \'    _   __         _    ___         ',
+    \'   / | / /__  ____| |  / (_)___ ___ ',
+    \'  /  |/ / _ \/ __ \ | / / / __ `__ \',
+    \' / /|  /  __/ /_/ / |/ / / / / / / /',
+    \'/_/ |_/\___/\____/|___/_/_/ /_/ /_/ ',
+\]
+'''
+
+[[plugins]]
+repo = 'tpope/vim-surround.git'
+
+#[[plugins]]
+#repo = 'kyazdani42/nvim-web-devicons'
+#[[plugins]]
+#repo = 'romgrk/barbar.nvim'
+
+[[plugins]]
+repo = 'deton/jasegment.vim'
