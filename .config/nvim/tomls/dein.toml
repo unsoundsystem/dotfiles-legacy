@@ -31,7 +31,7 @@ repo = 'Shougo/neoinclude.vim'
 
 [[plugins]]
 repo = 'scrooloose/nerdtree'
-hook_add ='nnoremap <silent><C-e> :NERDTreeToggle<CR>'
+#hook_add ='nnoremap <silent><C-e> :NERDTreeToggle<CR>'
 
 [[plugins]]
 repo = 'jpalardy/vim-slime'
@@ -297,3 +297,44 @@ repo = 'tpope/vim-surround.git'
 
 [[plugins]]
 repo = 'deton/jasegment.vim'
+
+[[plugins]]
+repo = 'voldikss/fzf-floaterm'
+
+[[plugins]]
+repo = 'nvim-treesitter/nvim-treesitter'
+merged = 0
+
+[[plugins]]
+repo = 'lambdalisue/fern.vim'
+hook_add = '''
+let g:fern#renderer = "nerdfont"
+let g:fern#renderer#default#leading = "│"
+let g:fern#renderer#default#root_symbol = "┬ "
+let g:fern#renderer#default#leaf_symbol = "├─ "
+let g:fern#renderer#default#collapsed_symbol = "├─ "
+let g:fern#renderer#default#expanded_symbol = "├┬ "
+nnoremap <silent><C-e> :Fern . -drawer -width=35 -toggle<CR>
+'''
+
+[[plugins]]
+repo = 'antoinemadec/FixCursorHold.nvim'
+
+[[plugins]]
+repo = 'lambdalisue/nerdfont.vim'
+
+[[plugins]]
+repo = 'lambdalisue/fern-renderer-nerdfont.vim'
+
+[[plugins]]
+repo = 'lambdalisue/glyph-palette.vim'
+
+[[plugins]]
+repo = 'lambdalisue/fern-git-status.vim'
+
+[[plugins]]
+repo = "LumaKernel/coqpit.vim"
+hook_add = "let g:coqpit_auto_launch=1"
+
+[[plugins]]
+repo = "segeljakt/vim-silicon"

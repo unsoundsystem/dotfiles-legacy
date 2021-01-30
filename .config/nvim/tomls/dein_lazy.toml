@@ -53,9 +53,5 @@ repo = "neovimhaskell/haskell-vim"
 on_ft = 'haskell'
 
 [[plugins]]
-repo = "nbouscal/vim-stylish-haskell"
-on_ft = 'haskell'
-
-[[plugins]]
 repo = 'jez/vim-better-sml'
 on_ft = 'sml'

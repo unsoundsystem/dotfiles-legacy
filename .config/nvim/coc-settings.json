@@ -1,60 +1,59 @@
 {
-    "languageserver": {
-        "bash": {
-            "command": "bash-language-server",
-            "args": ["start"],
-            "filetypes": ["sh"],
-            "ignoredRootPaths": ["~"]
-        },
-        "jdtls": {
-            "command": "jdtls",
-            "filetypes": ["java"]
-        },
-        "ccls": {
-            "command": "ccls",
-            "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
-            "rootPatterns": [
-                ".ccls",
-                "./build/compile_commands.json",
-                "compile_commands.json",
-                ".git/",
-                ".hg/"
-            ],
-            "initializationOptions": {
-                "cache": {
-                    "directory": "/tmp/ccls"
-                }
-            }
-        },
-        " haskell": {
-            "command": "haskell-language-server-wrapper",
-            "args": ["--lsp"],
-            "rootPatterns": [
-                "hie.yaml",
-                "*.cabal",
-                "stack.yaml",
-                "cabal.project",
-                "package.yaml"
-            ],
-            "filetypes": ["hs", "lhs", "haskell"],
-            "initializationOptions": {
-                "haskell": {}
-            }
-        }
-    },
+	"languageserver": {
+		"bash": {
+			"command": "bash-language-server",
+			"args": ["start"],
+			"filetypes": ["sh"],
+			"ignoredRootPaths": ["~"]
+		},
+		"jdtls": {
+			"command": "jdtls",
+			"filetypes": ["java"]
+		},
+		"ccls": {
+			"command": "ccls",
+			"filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
+			"rootPatterns": [
+				".ccls",
+				"./build/compile_commands.json",
+				"compile_commands.json",
+				".git/",
+				".hg/"
+			],
+			"initializationOptions": {
+				"cache": {
+					"directory": "/tmp/ccls"
+				}
+			}
+		},
+		" haskell": {
+			"command": "haskell-language-server-wrapper",
+			"args": ["--lsp"],
+			"rootPatterns": [
+				"hie.yaml",
+				"*.cabal",
+				"stack.yaml",
+				"cabal.project",
+				"package.yaml"
+			],
+			"filetypes": ["hs", "lhs", "haskell"],
+			"initializationOptions": {
+				"haskell": {}
+			}
+		}
+	},
 
-    "suggest.autoTrigger": "always",
-    "rust-analyzer.serverPath": "/usr/bin/rust-analyzer",
-    "rust.clippy_preference": "on",
-    "coc.preferences.formatOnSaveFiletypes": [
-        "scala",
-        "css",
-        "typescript",
-        "rust",
-        "haskell",
-        "bash",
-        "json"
-    ],
-    "prettier.useTabs": true,
-    "prettier.tabWidth": 4
+	"suggest.autoTrigger": "always",
+	"rust-analyzer.serverPath": "/usr/bin/rust-analyzer",
+	"rust.clippy_preference": "on",
+	"coc.preferences.formatOnSaveFiletypes": [
+		"scala",
+		"css",
+		"typescript",
+		"rust",
+		"bash",
+		"json"
+	],
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4
 }

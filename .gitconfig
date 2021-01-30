@@ -1,6 +1,6 @@
 [user]
 	email = sinai471530@gmail.com
-	name = sasuseso
+	name = Sinai Pearl
 [core]
 	quotepath = false
 [color]
@@ -10,4 +10,4 @@
     smtpserver = smtp.gmail.com
     smtpserverport = 587
     smtpencryption = tls
-    smtpuser = sasuseso
+    smtpuser = sinai471530@gmail.com
