@@ -105,7 +105,7 @@ if $XDG_SESSION_TYPE == "wayland"
     highlight EndOfBuffer ctermbg=NONE guibg=NONE
 endif
 
-"call map(dein#check_clean(), "delete(v:val, 'rf')")
+call map(dein#check_clean(), "delete(v:val, 'rf')")
 
 " coc-snippet settings
 " Use <C-l> for trigger snippet expand.

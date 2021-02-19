@@ -85,7 +85,7 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+F floating toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
@@ -195,7 +195,10 @@ bindsym XF86AudioLowerVolume exec pamixer -d 5
 bindsym XF86AudioMute exec pamixer -t
 
 #screen lock
-bindsym $mod+F9 exec i3lock -t -i /home/sasuseso/Pictures/UBeWVaL.png
+exec --no-startup-id light-locker
+bindsym $mod+F9 exec light-locker-command -l
+# lock after suspending
+exec --no-startup-id light-locker --lock-on-suspend
 
 #apps
 bindsym $mod+n exec st -f "Monoid:size=15" -e ncmpcpp

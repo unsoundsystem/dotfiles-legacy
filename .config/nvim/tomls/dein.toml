@@ -333,8 +333,19 @@ repo = 'lambdalisue/glyph-palette.vim'
 repo = 'lambdalisue/fern-git-status.vim'
 
 [[plugins]]
-repo = "LumaKernel/coqpit.vim"
-hook_add = "let g:coqpit_auto_launch=1"
+repo = "unsoundsystem/coqpit.vim"
+hook_add = '''
+let g:coqpit_auto_launch=1
+nnoremap <C-c><C-i> :CoqToCursor<CR>
+nnoremap <C-c><C-u> :CoqBack<CR>
+nnoremap <C-c><C-n> :CoqNext<CR>
+'''
 
 [[plugins]]
 repo = "segeljakt/vim-silicon"
+
+[[plugins]]
+repo = "mattn/vim-gist"
+
+#[[plugins]]
+#repo = "eagletmt/coqtop-vim"
