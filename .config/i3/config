@@ -44,8 +44,8 @@ floating_modifier $mod
 # installed.
 #bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 #for_window [class="^.*"] border pixel 2
-gaps inner 14
-gaps outer 14
+gaps inner 10
+gaps outer 10
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+k focus down
@@ -224,7 +224,7 @@ exec --no-startup-id fcitx-autostart
 
 #wallpaper
 exec --no-startup-id conky
-exec --no-startup-id feh --bg-scale --randomize  /home/sasuseso/Pictures/ElupYdmU4AMJ7kK.jpeg
+exec --no-startup-id feh --bg-scale --randomize  /home/sasuseso/Pictures/wallpapers/b3k2w.jpg
 
 # touchpad gestures
 exec --no-startup-id libinput-gestures-setup start

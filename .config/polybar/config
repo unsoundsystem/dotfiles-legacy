@@ -46,10 +46,10 @@
 	foreground = #7993B6
 
 	border-bottom-size  = 0
-	border-top-size     = 10
+	border-top-size     = 15
 
-	border-left-size  = 30
-	border-right-size = 30
+	border-left-size  = 15
+	border-right-size = 15
 
 	border-bottom-color = #000f0f0f
 	border-top-color    = #000f0f0f
@@ -212,7 +212,7 @@
 
 	label-full            = "%percentage%%"
 	label-full-background = #383C4A
-	label-full-foreground = #000f0f0f
+	label-full-foreground = #FFFFFF
 	label-full-padding    = 2
 	format-full-prefix = FUL
 	format-full-prefix-background = #A3BE8C
@@ -265,7 +265,7 @@
 	label            = "%percentage_used%%"
 	label-background = ${colors.modules_bg}
 	label-foreground = ${colors.modules_fg}
-	label-padding    = 1
+	label-padding    = 3
 
 	format-prefix = RAM
 
