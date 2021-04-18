@@ -181,3 +181,8 @@ augroup my-glyph-palette
 augroup END
 
 "let g:coqpit_auto_launch=1
+" ## added by OPAM user-setup for vim / ocp-indent ## 21c452e3fbdb73f16dba256991acaec0 ## you can edit, but keep this line
+if count(s:opam_available_tools,"ocp-indent") == 0
+  source "/home/sasuseso/.opam/4.10.0/share/ocp-indent/vim/indent/ocaml.vim"
+endif
+" ## end of OPAM user-setup addition for vim / ocp-indent ## keep this line

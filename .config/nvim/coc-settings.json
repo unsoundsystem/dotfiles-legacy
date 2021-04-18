@@ -6,10 +6,6 @@
 			"filetypes": ["sh"],
 			"ignoredRootPaths": ["~"]
 		},
-		"jdtls": {
-			"command": "jdtls",
-			"filetypes": ["java"]
-		},
 		"ccls": {
 			"command": "ccls",
 			"filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
@@ -50,10 +46,13 @@
 		"scala",
 		"css",
 		"typescript",
+		"typescriptreact",
+		"javascript",
+		"javascriptreact",
 		"rust",
 		"bash",
-		"json"
+		"json",
+		"markdown"
 	],
-	"prettier.useTabs": true,
-	"prettier.tabWidth": 4
+	"prettier.useTabs": true
 }

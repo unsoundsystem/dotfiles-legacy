@@ -367,7 +367,7 @@
  label-visible-foreground = #FFFFFF
 	label-visible-padding    = 2
 
-	label-urgent            = %icon%
+	label-urgent            = %index%
 	label-urgent-background = #ffff00
  label-urgent-foreground = #2B303B
 	label-urgent-padding    = 2

@@ -177,7 +177,8 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 
 #screenshot
-bindsym Print exec --no-startup-id import -window root ~/Pictures/screenshot`date "+%y%m%d%H%M"`.png
+bindsym Print exec --no-startup-id maim ~/Pictures/screenshot`date "+%y%m%d%H%M"`.png
+#bindsym Print exec --no-startup-id import -window root ~/Pictures/screenshot`date "+%y%m%d%H%M"`.png
 
 
 # Start i3bar to display a workspace bar (plus the system information i3status
@@ -188,6 +189,9 @@ bindsym Print exec --no-startup-id import -window root ~/Pictures/screenshot`dat
 	#position top
 	#font pango:HackGen Console for Powerline 15
 #}
+
+# pulseaudio
+exec --no-startup-id pulseaudio --start
 
 #volume
 bindsym XF86AudioRaiseVolume exec pamixer -i 5
@@ -223,7 +227,7 @@ bindsym XF86AudioNext exec mpc next
 exec --no-startup-id fcitx-autostart
 
 #wallpaper
-exec --no-startup-id conky
+#exec --no-startup-id conky
 exec --no-startup-id feh --bg-scale --randomize  /home/sasuseso/Pictures/wallpapers/b3k2w.jpg
 
 # touchpad gestures
