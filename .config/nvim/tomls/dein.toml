@@ -349,3 +349,6 @@ repo = "mattn/vim-gist"
 
 [[plugins]]
 repo = "mattn/webapi-vim"
+
+[[plugins]]
+repo = 'sbdchd/neoformat'

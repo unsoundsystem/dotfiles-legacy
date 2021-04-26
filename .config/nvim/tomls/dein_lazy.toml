@@ -23,14 +23,14 @@ hook_source = '''
 let g:vim_markdown_fenced_languages = ['c=c', 'c++=cpp', 'vim=vim', 'bash=sh', 'julia=jl']
 '''
 
-[[plugins]]
-repo = 'suan/vim-instant-markdown'
-on_ft ='markdown'
-hook_source = '''
-let g:instant_markdown_browser = "firefox --new-window"
-let g:instant_markdown_autostart = 0
-set expandtab
-'''
+#[[plugins]]
+#repo = 'suan/vim-instant-markdown'
+#on_ft ='markdown'
+#hook_source = '''
+#let g:instant_markdown_browser = "firefox --new-window"
+#let g:instant_markdown_autostart = 0
+#set expandtab
+#'''
 
 [[plugins]]
 repo = 'zenlang/zen.vim'
@@ -59,3 +59,22 @@ on_ft = 'sml'
 [[plugins]]
 repo = 'tell-k/vim-autopep8'
 on_ft = 'python'
+
+[[plugins]]
+repo = 'FStarLang/VimFStar'
+on_ft = 'fstar'
+
+[[plugins]]
+repo = 'iamcco/markdown-preview.nvim'
+on_ft = 'markdown'
+hook_add = '''
+set expandtab
+let g:mkdp_auto_start = 0
+function! Open_with_firefox(url)
+    call system('firefox --new-window ' . a:url)
+endfunction
+let g:mkdp_browserfunc = 'Open_with_firefox'
+'''
+
+# let g:mkdp_browser = 'firefox --new-window '
+build = 'sh -c "cd app && yarn install"'

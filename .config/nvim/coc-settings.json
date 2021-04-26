@@ -36,6 +36,15 @@
 			"initializationOptions": {
 				"haskell": {}
 			}
+		},
+		"ocaml-lsp": {
+			"command": "opam",
+			"args": ["config", "exec", "--", "ocamllsp"],
+			"filetypes": ["ocaml", "reason"]
+		},
+		"nix": {
+			"command": "rnix-lsp",
+			"filetypes": ["nix"]
 		}
 	},
 
