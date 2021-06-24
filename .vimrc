@@ -6,7 +6,13 @@ if &compatible
 endif
 
 " Add the dein installation directory into runtimepath    
-set runtimepath+=/home/sasuseso/.cache/dein/repos/github.com/Shougo/dein.vim    
+set runtimepath+=/home/sasuseso/.cache/dein/repos/github.com/Shougo/dein.vim
+set runtimepath^=/home/sasuseso/scripts/dps-hellosorld
+let g:denops#server#service#deno_args = [
+     \ '-q',
+     \ '--unstable',
+     \ '-A',
+     \]
 
 if has('nvim')
     "set pumblend=30
@@ -49,6 +55,7 @@ augroup vimrc
     au BufNewFile,BufRead *.nasm setfiletype nasm
     au BufNewFile,BufRead *.ino setfiletype arduino
     au BufNewFile,BufRead *.v setfiletype verilog
+    au BufNewFile,BufRead *.fs setfiletype fsharp
     au BufNewFile,BufRead *.yara setfiletype yara
     au BufNewFile,BufRead *.c,*.cpp,*.cxx,*.h,*.hpp setlocal noexpandtab ts=4 shiftwidth=4
     au BufNewFile,BufRead *.ts setlocal ts=2 shiftwidth=2
@@ -167,7 +174,6 @@ require'nvim-treesitter.configs'.setup {
     enable = true,
     disable = {
       'toml',
-      'rust'
     }
   }
 }
@@ -186,3 +192,5 @@ if count(s:opam_available_tools,"ocp-indent") == 0
   source "/home/sasuseso/.opam/4.10.0/share/ocp-indent/vim/indent/ocaml.vim"
 endif
 " ## end of OPAM user-setup addition for vim / ocp-indent ## keep this line
+"
+

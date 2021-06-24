@@ -312,6 +312,15 @@ let g:fern#renderer#default#leaf_symbol = "├─ "
 let g:fern#renderer#default#collapsed_symbol = "├─ "
 let g:fern#renderer#default#expanded_symbol = "├┬ "
 nnoremap <silent><C-e> :Fern . -drawer -width=35 -toggle<CR>
+function! s:init_fern() abort
+  " Use 'select' instead of 'edit' for default 'open' action
+  nmap <buffer> S <Plug>(fern-action-open:split)
+endfunction
+
+augroup fern-custom
+  autocmd! *
+  autocmd FileType fern call s:init_fern()
+augroup END
 '''
 
 [[plugins]]
@@ -352,3 +361,12 @@ repo = "mattn/webapi-vim"
 
 [[plugins]]
 repo = 'sbdchd/neoformat'
+
+#[[plugins]]
+#repo = 'sheerun/vim-polyglot'
+#hook_source = '''
+#let g:polyglot_disabled = []
+#'''
+
+[[plugins]]
+repo = 'vim-denops/denops.vim'

@@ -70,11 +70,11 @@ on_ft = 'markdown'
 hook_add = '''
 set expandtab
 let g:mkdp_auto_start = 0
-function! Open_with_firefox(url)
-    call system('firefox --new-window ' . a:url)
-endfunction
-let g:mkdp_browserfunc = 'Open_with_firefox'
+let g:mkdp_browser = 'vivaldi-stable'
 '''
 
-# let g:mkdp_browser = 'firefox --new-window '
+#function! Open_with_firefox(url)
+    #call system('firefox --new-window ' . a:url)
+#endfunction
+#let g:mkdp_browserfunc = 'Open_with_firefox'
 build = 'sh -c "cd app && yarn install"'

@@ -206,11 +206,13 @@ exec --no-startup-id light-locker --lock-on-suspend
 
 #apps
 bindsym $mod+n exec st -f "Monoid:size=15" -e ncmpcpp
-bindsym $mod+i exec st -f "HackGen Console for Powerline:size=15" -e ranger
+#bindsym $mod+i exec st -f "HackGen Console for Powerline:size=15" -e ranger
+bindsym $mod+i exec alacritty -e ranger
 bindsym $mod+Shift+n exec st -f "HackGen Console for Powerline:size=15" -e nmtui
 bindsym $mod+o exec st -f "Iosevka:style=Medium:size=12" -e nvim
 bindsym $mod+t exec st -f "Monoid:size=12" -e htop
 bindsym $mod+d exec i3-dmenu-desktop --dmenu="rofi -font 'Monoid 15' -show"
+bindsym $mod+m exec alacritty -e 'taskwarrior-tui'
 
 #touch pad on/off
 bindsym $mod+F6 exec sh /home/sasuseso/.config/i3/scripts/touchpad_toggle
@@ -250,6 +252,9 @@ exec --no-startup-id blueman-applet
 
 # Picom
 exec --no-startup-id picom &
+
+# xava
+#exec --no-startup-id xwinwrap -- xava &
 
 # PolyBar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
