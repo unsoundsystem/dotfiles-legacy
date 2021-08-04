@@ -49,6 +49,7 @@ endif
 augroup vimrc
     au!
     au BufNewFile,BufRead *.jl setfiletype julia
+    au BufNewFile,BufRead *.nix setfiletype nix
     au BufNewFile,BufRead *.zen  setfiletype zen
     au BufNewFile,BufRead *.csv setfiletype csv
     au BufNewFile,BufRead *.lds setfiletype ld
@@ -193,4 +194,12 @@ if count(s:opam_available_tools,"ocp-indent") == 0
 endif
 " ## end of OPAM user-setup addition for vim / ocp-indent ## keep this line
 "
+" neoformat
+let g:neoformat_ocaml_ocamlformat = {
+            \ 'exe': 'ocamlformat',
+            \ 'no_append': 1,
+            \ 'stdin': 1,
+            \ 'args': ['--disable-outside-detected-project', '--name', '"%:p"', '-']
+            \ }
 
+let g:neoformat_enabled_ocaml = ['ocamlformat']
