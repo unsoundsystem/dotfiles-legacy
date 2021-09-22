@@ -6,13 +6,13 @@ if &compatible
 endif
 
 " Add the dein installation directory into runtimepath    
-set runtimepath+=/home/sasuseso/.cache/dein/repos/github.com/Shougo/dein.vim
-set runtimepath^=/home/sasuseso/scripts/dps-hellosorld
-let g:denops#server#service#deno_args = [
-     \ '-q',
-     \ '--unstable',
-     \ '-A',
-     \]
+"set runtimepath+=/home/sasuseso/.cache/dein/repos/github.com/Shougo/dein.vim
+"set runtimepath^=/home/sasuseso/scripts/dps-hellosorld
+"let g:denops#server#service#deno_args = [
+     "\ '-q',
+     "\ '--unstable',
+     "\ '-A',
+     "\]
 
 if has('nvim')
     "set pumblend=30
@@ -21,13 +21,56 @@ if has('nvim')
     set viminfo+='1000,\"1000,s1000,:1000,n~/.config/nvim/viminfo
     source ~/.config/nvim/mycommands/MakeQuery.vim
     
-    if dein#load_state('/home/sasuseso/.cache/dein')
-        call dein#begin('/home/sasuseso/.cache/dein')
+    if dein#load_state('/home/sasuseso/.cache/dein_nvim')
+        call dein#begin('/home/sasuseso/.cache/dein_nvim')
         call dein#load_toml('/home/sasuseso/.config/nvim/tomls/dein.toml', {'lazy': 0})
         call dein#load_toml('/home/sasuseso/.config/nvim/tomls/dein_lazy.toml', {'lazy': 1})
         call dein#end()
         call dein#save_state()
     endif
+    colorscheme gruvbox
+
+
+" coc-snippet settings
+" Use <C-l> for trigger snippet expand.
+imap <Tab> <Plug>(coc-snippets-expand)
+
+" Use <C-j> for select text for visual placeholder of snippet.
+vmap <C-j> <Plug>(coc-snippets-select)
+
+" Use <C-j> for jump to next placeholder, it's default of coc.nvim
+let g:coc_snippet_next = '<c-j>'
+
+" Use <C-k> for jump to previous placeholder, it's default of coc.nvim
+let g:coc_snippet_prev = '<c-k>'
+
+" Use <C-j> for both expand and jump (make expand higher priority.)
+imap <C-j> <Plug>(coc-snippets-expand-jump)
+
+
+" treesitter
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+  highlight = {
+    enable = true,
+    disable = {
+      'toml',
+    }
+  }
+}
+EOF
+
+lua <<EOF
+require 'nvim-startup'.setup()
+EOF
+
+"glyph-pallete
+augroup my-glyph-palette
+  autocmd! *
+  autocmd FileType fern call glyph_palette#apply()
+  autocmd FileType nerdtree,startify call glyph_palette#apply()
+augroup END
+
 else
     set undodir=~/.vim/undo
     set viminfo+='1000,\"1000,s1000,:1000,n~/.vim/viminfo
@@ -43,6 +86,7 @@ else
         call dein#end()
         call dein#save_state()
     endif
+    colorscheme molokai
 endif
 
 "filetypes
@@ -90,8 +134,8 @@ set shiftwidth=4
 set expandtab
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
-colorscheme iceberg
 set undofile
+set splitbelow
 nn tn :tabnew 
 nn <C-i><C-i> :source ~/.vimrc<CR><Esc> 
 nn <C-o><C-o> :e ~/.vimrc<CR><Esc> 
@@ -113,87 +157,13 @@ if $XDG_SESSION_TYPE == "wayland"
     highlight EndOfBuffer ctermbg=NONE guibg=NONE
 endif
 
-call map(dein#check_clean(), "delete(v:val, 'rf')")
-
-" coc-snippet settings
-" Use <C-l> for trigger snippet expand.
-imap <Tab> <Plug>(coc-snippets-expand)
-
-" Use <C-j> for select text for visual placeholder of snippet.
-vmap <C-j> <Plug>(coc-snippets-select)
-
-" Use <C-j> for jump to next placeholder, it's default of coc.nvim
-let g:coc_snippet_next = '<c-j>'
-
-" Use <C-k> for jump to previous placeholder, it's default of coc.nvim
-let g:coc_snippet_prev = '<c-k>'
-
-" Use <C-j> for both expand and jump (make expand higher priority.)
-imap <C-j> <Plug>(coc-snippets-expand-jump)
+"Uncomment only when uninstalling.
+"call map(dein#check_clean(), "delete(v:val, 'rf')")
 
 let g:sonictemplate_vim_template_dir = ['/home/sasuseso/.config/nvim/sonictemplate']
 
 filetype plugin indent on
-" ## added by OPAM user-setup for vim / base ## 93ee63e278bdfc07d1139a748ed3fff2 ## you can edit, but keep this line
-let s:opam_share_dir = system("opam config var share")
-let s:opam_share_dir = substitute(s:opam_share_dir, '[\r\n]*$', '', '')
 
-let s:opam_configuration = {}
-
-function! OpamConfOcpIndent()
-  execute "set rtp^=" . s:opam_share_dir . "/ocp-indent/vim"
-endfunction
-let s:opam_configuration['ocp-indent'] = function('OpamConfOcpIndent')
-
-function! OpamConfOcpIndex()
-  execute "set rtp+=" . s:opam_share_dir . "/ocp-index/vim"
-endfunction
-let s:opam_configuration['ocp-index'] = function('OpamConfOcpIndex')
-
-function! OpamConfMerlin()
-  let l:dir = s:opam_share_dir . "/merlin/vim"
-  execute "set rtp+=" . l:dir
-endfunction
-let s:opam_configuration['merlin'] = function('OpamConfMerlin')
-
-let s:opam_packages = ["ocp-indent", "ocp-index", "merlin"]
-let s:opam_check_cmdline = ["opam list --installed --short --safe --color=never"] + s:opam_packages
-let s:opam_available_tools = split(system(join(s:opam_check_cmdline)))
-for tool in s:opam_packages
-  " Respect package order (merlin should be after ocp-index)
-  if count(s:opam_available_tools, tool) > 0
-    call s:opam_configuration[tool]()
-  endif
-endfor
-" ## end of OPAM user-setup addition for vim / base ## keep this line
-set splitbelow
-
-" treesitter
-lua <<EOF
-require'nvim-treesitter.configs'.setup {
-  highlight = {
-    enable = true,
-    disable = {
-      'toml',
-    }
-  }
-}
-EOF
-
-"glyph-pallete
-augroup my-glyph-palette
-  autocmd! *
-  autocmd FileType fern call glyph_palette#apply()
-  autocmd FileType nerdtree,startify call glyph_palette#apply()
-augroup END
-
-"let g:coqpit_auto_launch=1
-" ## added by OPAM user-setup for vim / ocp-indent ## 21c452e3fbdb73f16dba256991acaec0 ## you can edit, but keep this line
-if count(s:opam_available_tools,"ocp-indent") == 0
-  source "/home/sasuseso/.opam/4.10.0/share/ocp-indent/vim/indent/ocaml.vim"
-endif
-" ## end of OPAM user-setup addition for vim / ocp-indent ## keep this line
-"
 " neoformat
 let g:neoformat_ocaml_ocamlformat = {
             \ 'exe': 'ocamlformat',
