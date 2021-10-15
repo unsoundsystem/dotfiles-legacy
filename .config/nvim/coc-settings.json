@@ -45,6 +45,11 @@
 		"nix": {
 			"command": "rnix-lsp",
 			"filetypes": ["nix"]
+		},
+		"isabelle": {
+			"command": "isabelle",
+			"args": ["vscode_server"],
+			"filetypes": ["isabelle"]
 		}
 	},
 

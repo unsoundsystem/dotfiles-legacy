@@ -78,3 +78,11 @@ let g:mkdp_browser = 'vivaldi-stable'
 #endfunction
 #let g:mkdp_browserfunc = 'Open_with_firefox'
 build = 'sh -c "cd app && yarn install"'
+
+[[plugins]]
+repo = 'vmchale/dhall-vim'
+on_ft = 'dhall'
+
+[[plugins]]
+repo = 'derekelkins/agda-vim'
+on_ft = 'agda'
