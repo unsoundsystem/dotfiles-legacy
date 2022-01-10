@@ -45,7 +45,7 @@ floating_modifier $mod
 #bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 #for_window [class="^.*"] border pixel 2
 gaps inner 10
-gaps outer 10
+gaps outer 5
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+k focus down
@@ -230,7 +230,8 @@ exec --no-startup-id fcitx-autostart
 
 #wallpaper
 #exec --no-startup-id conky
-exec --no-startup-id feh --bg-scale --randomize  /home/sasuseso/Pictures/wallpapers/b3k2w.jpg
+exec --no-startup-id feh --bg-max  /home/sasuseso/Pictures/wallpapers/urapi_1920x1080.png
+#exec --no-startup-id feh --bg-scale --randomize  /home/sasuseso/Pictures/wallpapers/b3k2w.jpg
 
 # touchpad gestures
 exec --no-startup-id libinput-gestures-setup start
