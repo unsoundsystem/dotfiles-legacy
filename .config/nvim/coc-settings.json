@@ -50,11 +50,24 @@
 			"command": "isabelle",
 			"args": ["vscode_server"],
 			"filetypes": ["isabelle"]
+		},
+		"purescript": {
+			"command": "purescript-language-server",
+			"args": ["--stdio"],
+			"filetypes": ["purescript"],
+			"trace.server": "off",
+			"rootPatterns": ["bower.json", "psc-package.json", "spago.dhall"],
+			"settings": {
+				"purescript": {
+					"addSpagoSources": true,
+					"addNpmPath": true
+				}
+			}
 		}
 	},
 
-	"suggest.autoTrigger": "always",
-	"rust-analyzer.serverPath": "/usr/bin/rust-analyzer",
+	"suggest.autoTrigger": ["always"],
+	"rust-analyzer.serverPath": ["/usr/bin/rust-analyzer"],
 	"rust.clippy_preference": "on",
 	"coc.preferences.formatOnSaveFiletypes": [
 		"scala",

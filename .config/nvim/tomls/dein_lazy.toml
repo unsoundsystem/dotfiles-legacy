@@ -86,3 +86,7 @@ on_ft = 'dhall'
 [[plugins]]
 repo = 'derekelkins/agda-vim'
 on_ft = 'agda'
+
+[[plugins]]
+repo = 'purescript-contrib/purescript-vim'
+on_ft = 'purescript'

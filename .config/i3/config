@@ -133,6 +133,9 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
+# keyboard layout
+bindsym $mod+z exec --no-startup-id setxkbmap -layout il
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -228,10 +231,13 @@ bindsym XF86AudioNext exec mpc next
 # Start fcitx
 exec --no-startup-id fcitx-autostart
 
+# Discord
+exec --no-startup-id discord &
+
 #wallpaper
 #exec --no-startup-id conky
-exec --no-startup-id feh --bg-max  /home/sasuseso/Pictures/wallpapers/urapi_1920x1080.png
-#exec --no-startup-id feh --bg-scale --randomize  /home/sasuseso/Pictures/wallpapers/b3k2w.jpg
+#exec --no-startup-id feh --bg-max  /home/sasuseso/Pictures/wallpapers/urapi_1920x1080.png
+exec --no-startup-id feh --bg-scale --randomize  /home/sasuseso/Pictures/img_main-01rt.jpg
 
 # touchpad gestures
 exec --no-startup-id libinput-gestures-setup start

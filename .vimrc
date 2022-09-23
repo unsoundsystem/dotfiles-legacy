@@ -93,6 +93,7 @@ endif
 augroup vimrc
     au!
     au BufNewFile,BufRead *.jl setfiletype julia
+    au BufNewFile,BufRead *.purs setfiletype purescript
     au BufNewFile,BufRead *.nix setfiletype nix
     au BufNewFile,BufRead *.zen  setfiletype zen
     au BufNewFile,BufRead *.csv setfiletype csv
@@ -139,8 +140,6 @@ set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 set undofile
 set splitbelow
 nn tn :tabnew 
-nn <C-i><C-i> :source ~/.vimrc<CR><Esc> 
-nn <C-o><C-o> :e ~/.vimrc<CR><Esc> 
 nn <C-b><C-b> :bn<CR><Esc>
 nn <C-b><C-p> :bp<CR><Esc>
 let mapleader = " "

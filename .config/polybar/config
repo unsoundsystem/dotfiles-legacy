@@ -108,6 +108,11 @@ tray-position = right
 	type          = internal/network
 	interface     = wlp2s0
 	ping-interval = 3
+; 
+; [module/wired-network]
+; 	type          = internal/network
+; 	interface     = enp1s0
+; 	ping-interval = 3
 
 [module/xwindow]
 	y-offset      = 10
