@@ -304,6 +304,7 @@ merged = 0
 
 [[plugins]]
 repo = 'lambdalisue/fern.vim'
+rev = 'main'
 hook_add = '''
 let g:fern#renderer = "nerdfont"
 let g:fern#renderer#default#leading = "│"

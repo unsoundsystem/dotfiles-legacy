@@ -90,3 +90,46 @@ on_ft = 'agda'
 [[plugins]]
 repo = 'purescript-contrib/purescript-vim'
 on_ft = 'purescript'
+
+[[plugins]]
+repo = 'jjo/vim-cue'
+on_ft = "cue"
+
+[[plugins]]
+repo = 'nvim-lua/plenary.nvim'
+
+[[plugins]]
+repo = 'scalameta/nvim-metals'
+on_ft = ["scala", "sbt"]
+depends = ["plenary.nvim"]
+lua_post_source = '''
+local api = vim.api
+local cmd = vim.cmd
+local map = vim.keymap.set
+
+-- LSP mappings
+map("n", "gD",  vim.lsp.buf.definition)
+map("n", "K",  vim.lsp.buf.hover)
+map("n", "gi", vim.lsp.buf.implementation)
+map("n", "gr", vim.lsp.buf.references)
+map("n", "gds", vim.lsp.buf.document_symbol)
+map("n", "gws", vim.lsp.buf.workspace_symbol)
+map("n", "<leader>cl", vim.lsp.codelens.run)
+map("n", "<leader>sh", vim.lsp.buf.signature_help)
+map("n", "<leader>rn", vim.lsp.buf.rename)
+map("n", "<leader>f", vim.lsp.buf.format)
+map("n", "<leader>ca", vim.lsp.buf.code_action)
+
+local metals_config = require("metals").bare_config()
+metals_config.init_options.statusBarProvider = "on"
+metals_config.settings = {
+  showImplicitArguments = true,
+  excludedPackages = {},
+  javaHome = "/usr/lib/jvm/default",
+}
+require("metals").initialize_or_attach(metals_config)
+'''
+
+[[plugins]]
+repo = 'earthly/earthly.vim'
+on_ft = "earthly"

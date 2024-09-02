@@ -19,7 +19,8 @@
 			"initializationOptions": {
 				"cache": {
 					"directory": "/tmp/ccls"
-				}
+				},
+    "compilationDatabaseDirectory": "./build"
 			}
 		},
 		" haskell": {
@@ -65,21 +66,7 @@
 			}
 		}
 	},
-
-	"suggest.autoTrigger": ["always"],
-	"rust-analyzer.serverPath": ["/usr/bin/rust-analyzer"],
-	"rust.clippy_preference": "on",
-	"coc.preferences.formatOnSaveFiletypes": [
-		"scala",
-		"css",
-		"typescript",
-		"typescriptreact",
-		"javascript",
-		"javascriptreact",
-		"rust",
-		"bash",
-		"json",
-		"markdown"
-	],
+	"xml.java.home": "/usr/lib/jvm/java-8-openjdk",
+	"suggest.autoTrigger": "always",
 	"prettier.useTabs": true
 }
