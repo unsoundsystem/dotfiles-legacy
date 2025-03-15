@@ -68,5 +68,6 @@
 	},
 	"xml.java.home": "/usr/lib/jvm/java-8-openjdk",
 	"suggest.autoTrigger": "always",
-	"prettier.useTabs": true
+  "prettier.useTabs": true,
+  "snippets.ultisnips.pythonPrompt": false
 }

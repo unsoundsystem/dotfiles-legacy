@@ -60,10 +60,6 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF
 
-lua <<EOF
-require 'nvim-startup'.setup()
-EOF
-
 "glyph-pallete
 augroup my-glyph-palette
   autocmd! *
@@ -105,8 +101,17 @@ augroup vimrc
     au BufNewFile,BufRead *.yara setfiletype yara
     au BufNewFile,BufRead *.thy setfiletype isabelle
     au BufNewFile,BufRead *.agda setfiletype agda
+    au BufNewFile,BufRead *.cue setfiletype cue
     au BufNewFile,BufRead *.c,*.cpp,*.cxx,*.h,*.hpp setlocal noexpandtab ts=4 shiftwidth=4
     au BufNewFile,BufRead *.ts setlocal ts=2 shiftwidth=2
+    au BufNewFile,BufRead Earthfile setfiletype Earthfile
+    au BufNewFile,BufRead build.earth setfiletype Earthfile
+    au BufNewFile,BufRead *.sail setfiletype sail
+    au BufNewFile,BufRead *.uk setfiletype make
+    au BufRead,BufNewFile *.cdl setfiletype capdl
+    au BufRead,BufNewFile *.xsd setfiletype xml
+    let g:xml_syntax_folding=1
+    au FileType xml setlocal foldmethod=syntax foldlevel=1
 augroup END
 
 "install if not installed

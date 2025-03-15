@@ -11,3 +11,6 @@
     smtpserverport = 587
     smtpencryption = tls
     smtpuser = sinai471530@gmail.com
+
+[ghq]
+    root = /run/media/sasuseso/ac72705a-5090-41a6-bac7-abb8779ab37d/ghq
